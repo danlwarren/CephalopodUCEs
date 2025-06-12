@@ -2,7 +2,7 @@
 
 ## Data
 
-The genomes used for bait design were *Loligo pealei* (now *Doryteuthis pealei*, Titus Brown, unpublished data <http://ivory.idyll.org/blog/2014-loligo-transcriptome-data.html>), *Octopus vulgaris* (Zarrella et al. 2019, NCBI ref GCA_003957725.1), *Octopus bimaculoides* (Albertin et al. 2015, NCBI ref GCF_001194135.1), and *Octopus minor* (Kim et al. 2018, supplemental material). We also tested baits in silico against the genome of the golden apple snail, *Pomacea canaliculata* (Liu et al. 2018, supplemental material) to assess their ability to amplify UCEs in non-cephalopod molluscs.
+The genomes used for bait design were *Loligo pealei* (now *Doryteuthis pealei*, Titus Brown, unpublished data <http://ivory.idyll.org/blog/2014-loligo-transcriptome-data.html>), *Octopus vulgaris* (Zarrella et al. 2019, NCBI ref GCA_003957725.1), *Octopus bimaculoides* (Albertin et al. 2015, NCBI ref GCF_001194135.1), and *Octopus minor* (Kim et al. 2018, <http://gigadb.org/dataset/100503>). We also tested baits in silico against the genome of the golden apple snail, *Pomacea canaliculata* (Liu et al. 2018, supplemental material) to assess their ability to amplify UCEs in non-cephalopod molluscs.
 
 ## UCE development
 
@@ -19,6 +19,24 @@ BAM files were converted to BED files using **bedtools** (Quinlan et al. 2010), 
 | 4,475,396                  | *Octopus minor*               |
 
 We then used **phyluce** to strip masked loci from the set and find alignment intervals that were shared among taxa.
+
+DAN NOTE TO SELF: ONCE YOU GET PHYLUCE INSTALLED MAKE A TABLE LIKE IN THE TUTORIAL @ "Determining shared, conserved loci"
+
+Using **phyluce** we then extracted 160bp sequences from the base genome corresponding to conserved regions to use as targets for temporary baits. After aligning probes and removing duplicates, we still were left with a large number of candidates (13689 loci, 85227 probes). We further reduced this set by aligning the baits against the genome of the golden apple snail, *Pomacea canaliculata*, resulting in 4718 conserved loci and 39102 probes using a minimum sequence identity of 50.
+
+We aligned each of these candidate probes to each exemplar genome and extracted the matching sequences, and then created tiled probes to target conserved sites at candidate loci across all exemplar genomes. These probes were aligned and filtered to remove duplicates.
+
+DAN NOTE TO SELF: ANOTHER TABLE LIKE IN THE TUTORIAL @ "Find which loci we dect consistently",
+
+ALSO .csv OF LOCUS BY TAXON 0/1 TABLE? MAYBE EXPAND THIS WITH NEW GENOMES FOR FOLDER 4?
+
+## In silico testing
+
+As a sanity test, we simulated sequencing using the candidate bait set on the exemplar genomes, extracting simulated sequences with a flanking region of 400bp on each side. We used these to assemble contigs and extract .fasta data, which we then combined into a single file for each locus and aligned and trimmed, following settings for the standard **phyluce** workflow. Finally we used these data to generate a 70% complete matrix, which was then used to build a tree using raxml (Stamatakis 2014).
+
+![RaxML tree showing results of simulated UCE sequencing](images/tree.png)
+
+The phylogeny built from the simulated sequences produced the expected results, with the three species from genus *Octopus* clustered together, *D. pealei* more distantly related, and *P. canaliculata* substantially more distantly related to all cephalopods.
 
 ## Citations
 
@@ -41,5 +59,7 @@ Lunter Gerton, and Martin Goodson. Stampy: a statistical algorithm for sensitive
 Quinlan, Aaron R., Ira M. Hall, BEDTools: a flexible suite of utilities for comparing genomic features, Bioinformatics, Volume 26, Issue 6, March 2010, Pages 841--842, <https://doi.org/10.1093/bioinformatics/btq033>
 
 Sedlazeck, Fritz J., Philipp Rescheneder, and Arndt von Haeseler. 2013. NextGenMap: fast and accurate read mapping in highly polymorphic genomes. Bioinformatics, Vol. 29, No. 21., pp. 2790-2791, doi:10.1093/bioinformatics/btt468
+
+Stamatakis, Alexandros. RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies, *Bioinformatics*, Volume 30, Issue 9, May 2014, Pages 1312--1313, <https://doi.org/10.1093/bioinformatics/btu033>
 
 Zarrella, Ilaria, Koen Herten, Gregory E. Maes, Shuaishuai Tai, Ming Yang, Eve Seuntjens, Elena A. Ritschard, et al. 2019. "The Survey and Reference Assisted Assembly of the Octopus Vulgaris Genome." Scientific Data 6 (1): 13.
