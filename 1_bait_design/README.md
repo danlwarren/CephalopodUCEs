@@ -7,7 +7,11 @@ The genomes used for bait design were *Loligo pealei* (now *Doryteuthis pealei*,
 
 ## UCE development
 
-We conducted UCE bait design using Phyluce version 1.6.6 (Faircloth 2016; Faircloth et al. 2012), following standard procedures given in that package for UCE identification and bait design.  
+We conducted UCE bait design using Phyluce version 1.6.6 (Faircloth 2016; Faircloth et al. 2012), following procedures given in Tutorial IV (Identifying UCE Loci and Desiging Baits To Target Them) at https://phyluce.readthedocs.io/ including probe design and in silico testing.  Data were converted to .fasta and .2bit files where necessary.
+
+We used the *O. vulgaris* genome as the base genome for bait development.  We generated simulated reads from each genome using the **art_illumina** function from ART (Huang et al. 2012) with length 100 bp, insert size of 200bp, and standard deviation of 150. Reads for each species were merged using a bash script, and then used **stampy** (Gerton and Goodson 2011) to align the reads for each species to the base genome and convert the output to BAM format, finally removing unmapped reads using **samtools** (Li et al. 2009).  This produced a set of conserved regions where simulated sequence data for individual species mapped to the base genome with a divergence of < 5%.
+
+
 
 
 ## Citations
@@ -18,8 +22,14 @@ Faircloth, Brant C., John E. McCormack, Nicholas G. Crawford, Michael G. Harvey,
 
 Faircloth, Brant C. 2016. “PHYLUCE Is a Software Package for the Analysis of Conserved Genomic Loci.” Bioinformatics  32 (5): 786–88.
 
+Huang, Weichung, Leping Li, Jason R Myers, and Gabor T Marth. ART: a next-generation sequencing read simulator, Bioinformatics (2012) 28 (4): 593-594
+
 Kim, Bo-Mi, Seunghyun Kang, Do-Hwan Ahn, Seung-Hyun Jung, Hwanseok Rhee, Jong Su Yoo, Jong-Eun Lee, et al. 2018. “The Genome of Common Long-Arm Octopus Octopus Minor.” GigaScience 7 (11). https://doi.org/10.1093/gigascience/giy119.
 
+Li, Heng, Bob Handsaker, Alec Wysoker, Tim Fennell, Jue Ruan, Nils Homer, Gabor Marth, Goncalo Abecasis, Richard Durbin, 1000 Genome Project Data Processing Subgroup, The Sequence Alignment/Map format and SAMtools, Bioinformatics, Volume 25, Issue 16, August 2009, Pages 2078–2079, https://doi.org/10.1093/bioinformatics/btp352
+
 Liu, Conghui, Yan Zhang, Yuwei Ren, Hengchao Wang, Shuqu Li, Fan Jiang, Lijuan Yin, et al. 2018. “The Genome of the Golden Apple Snail Pomacea Canaliculata Provides Insight into Stress Tolerance and Invasive Adaptation.” GigaScience 7 (9). https://doi.org/10.1093/gigascience/giy101.
+
+Lunter Gerton,  and Martin Goodson. Stampy: a statistical algorithm for sensitive and fast mapping of Illumina sequence reads. Genome Res. 2011 Jun;21(6):936-9. doi: 10.1101/gr.111120.110. Epub 2010 Oct 27. PMID: 20980556; PMCID: PMC3106326.
 
 Zarrella, Ilaria, Koen Herten, Gregory E. Maes, Shuaishuai Tai, Ming Yang, Eve Seuntjens, Elena A. Ritschard, et al. 2019. “The Survey and Reference Assisted Assembly of the Octopus Vulgaris Genome.” Scientific Data 6 (1): 13.
