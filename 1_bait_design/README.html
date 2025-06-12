@@ -369,21 +369,51 @@ in non-cephalopod molluscs.</p>
 <div id="uce-development" class="section level2">
 <h2>UCE development</h2>
 <p>We conducted UCE bait design using Phyluce version 1.6.6 (Faircloth
-2016; Faircloth et al. 2012), following procedures given in Tutorial IV
-(Identifying UCE Loci and Desiging Baits To Target Them) at <a href="https://phyluce.readthedocs.io/" class="uri">https://phyluce.readthedocs.io/</a> including probe design
+2016; Faircloth et al. 2012), mostly following procedures given in
+Tutorial IV (Identifying UCE Loci and Desiging Baits To Target Them) at
+<a href="https://phyluce.readthedocs.io/" class="uri">https://phyluce.readthedocs.io/</a> including probe design
 and in silico testing. Data were converted to .fasta and .2bit files
 where necessary.</p>
 <p>We used the <em>O. vulgaris</em> genome as the base genome for bait
 development. We generated simulated reads from each genome using the
 <strong>art_illumina</strong> function from ART (Huang et al. 2012) with
 length 100 bp, insert size of 200bp, and standard deviation of 150.
-Reads for each species were merged using a bash script, and then used
-<strong>stampy</strong> (Gerton and Goodson 2011) to align the reads for
-each species to the base genome and convert the output to BAM format,
-finally removing unmapped reads using <strong>samtools</strong> (Li et
-al. 2009). This produced a set of conserved regions where simulated
-sequence data for individual species mapped to the base genome with a
-divergence of &lt; 5%.</p>
+Reads for each species were merged using a bash script. Due to technical
+issues we used <strong>NextGenMap</strong> (Sedlazeck et al. 2013)
+instead of <strong>stampy</strong> (Gerton and Goodson 2011) to align
+the reads for each species to the base genome and convert the output to
+BAM format. Finally we removed unmapped reads using
+<strong>samtools</strong> (Li et al. 2009). This produced a set of
+conserved regions where simulated sequence data for individual species
+mapped to the base genome with a divergence of &lt; 5%.</p>
+<p>BAM files were converted to BED files using <strong>bedtools</strong>
+(Quinlan et al. 2010), and BED file contents were sorted by scaffold and
+position, and proximate positions were then merged. At this point the
+number of regions that putatively aligned with the base genome were:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Putatively aligned regions</th>
+<th>Species</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2,625,555</td>
+<td><em>Loligo (Doryteuthis) pealei</em></td>
+</tr>
+<tr class="even">
+<td>4,503,649</td>
+<td><em>Octopus bimaculoides</em></td>
+</tr>
+<tr class="odd">
+<td>4,475,396</td>
+<td><em>Octopus minor</em></td>
+</tr>
+</tbody>
+</table>
+<p>We then used <strong>phyluce</strong> to strip masked loci from the
+set and find alignment intervals that were shared among taxa.</p>
 </div>
 <div id="citations" class="section level2">
 <h2>Citations</h2>
@@ -417,6 +447,12 @@ Adaptation.” GigaScience 7 (9). <a href="https://doi.org/10.1093/gigascience/g
 for sensitive and fast mapping of Illumina sequence reads. Genome Res.
 2011 Jun;21(6):936-9. doi: 10.1101/gr.111120.110. Epub 2010 Oct 27.
 PMID: 20980556; PMCID: PMC3106326.</p>
+<p>Quinlan, Aaron R., Ira M. Hall, BEDTools: a flexible suite of
+utilities for comparing genomic features, Bioinformatics, Volume 26,
+Issue 6, March 2010, Pages 841–842, <a href="https://doi.org/10.1093/bioinformatics/btq033" class="uri">https://doi.org/10.1093/bioinformatics/btq033</a></p>
+<p>Sedlazeck, Fritz J., Philipp Rescheneder, and Arndt von Haeseler.
+2013. NextGenMap: fast and accurate read mapping in highly polymorphic
+genomes. Bioinformatics, Vol. 29, No. 21., pp. 2790-2791, <a href="doi:10.1093/bioinformatics/btt468" class="uri">doi:10.1093/bioinformatics/btt468</a></p>
 <p>Zarrella, Ilaria, Koen Herten, Gregory E. Maes, Shuaishuai Tai, Ming
 Yang, Eve Seuntjens, Elena A. Ritschard, et al. 2019. “The Survey and
 Reference Assisted Assembly of the Octopus Vulgaris Genome.” Scientific
