@@ -1,4 +1,4 @@
-# CephalopodUCEs
+# UCE Bait Design
 
 ## Data
 
@@ -8,7 +8,11 @@ The genomes used for bait design were *Loligo pealei* (now *Doryteuthis pealei*,
 
 We conducted UCE bait design using Phyluce version 1.6.6 (Faircloth 2016; Faircloth et al. 2012), mostly following procedures given in Tutorial IV (Identifying UCE Loci and Desiging Baits To Target Them) at <https://phyluce.readthedocs.io/> including probe design and in silico testing. Data were converted to .fasta and .2bit files where necessary.
 
-We used the *O. vulgaris* genome as the base genome for bait development. We generated simulated reads from each genome using the **art_illumina** function from ART (Huang et al. 2012) with length 100 bp, insert size of 200bp, and standard deviation of 150. Reads for each species were merged using a bash script. Due to technical issues we used **NextGenMap** (Sedlazeck et al. 2013) instead of **stampy** (Gerton and Goodson 2011) to align the reads for each species to the base genome and convert the output to BAM format. Finally we removed unmapped reads using **samtools** (Li et al. 2009). This produced a set of conserved regions where simulated sequence data for individual species mapped to the base genome with a divergence of \< 5%.
+We used the *O. vulgaris* genome as the base genome for bait development. We generated simulated reads from each genome using the **art_illumina** function from ART (Huang et al. 2012) with length 100 bp, insert size of 200bp, and standard deviation of 150. Reads for each species were merged using a bash script. Due to technical issues we used **NextGenMap** (Sedlazeck et al. 2013) instead of **stampy** (Gerton and Goodson 2011) to align the reads for each species to the base genome and convert the output to BAM format, using the following code and substituting the input file for each species for \$readfile in turn.
+
+`ngm –r octopus.vulgaris.fasta –q $readfile –b –o $outfile –t 2`
+
+Finally we removed unmapped reads using **samtools** (Li et al. 2009). This produced a set of conserved regions where simulated sequence data for individual species mapped to the base genome with a divergence of \< 5%.
 
 BAM files were converted to BED files using **bedtools** (Quinlan et al. 2010), and BED file contents were sorted by scaffold and position, and proximate positions were then merged. At this point the number of regions that putatively aligned with the base genome were:
 
@@ -20,13 +24,13 @@ BAM files were converted to BED files using **bedtools** (Quinlan et al. 2010), 
 
 We then used **phyluce** to strip masked loci from the set and find alignment intervals that were shared among taxa.
 
-DAN NOTE TO SELF: ONCE YOU GET PHYLUCE INSTALLED MAKE A TABLE LIKE IN THE TUTORIAL @ "Determining shared, conserved loci"
+DAN NOTE TO SELF: ONCE YOU GET PHYLUCE INSTALLED MAKE A TABLE LIKE IN THE TUTORIAL \@ "Determining shared, conserved loci"
 
 Using **phyluce** we then extracted 160bp sequences from the base genome corresponding to conserved regions to use as targets for temporary baits. After aligning probes and removing duplicates, we still were left with a large number of candidates (13689 loci, 85227 probes). We further reduced this set by aligning the baits against the genome of the golden apple snail, *Pomacea canaliculata*, resulting in 4718 conserved loci and 39102 probes using a minimum sequence identity of 50.
 
 We aligned each of these candidate probes to each exemplar genome and extracted the matching sequences, and then created tiled probes to target conserved sites at candidate loci across all exemplar genomes. These probes were aligned and filtered to remove duplicates.
 
-DAN NOTE TO SELF: ANOTHER TABLE LIKE IN THE TUTORIAL @ "Find which loci we dect consistently",
+DAN NOTE TO SELF: ANOTHER TABLE LIKE IN THE TUTORIAL \@ "Find which loci we dect consistently",
 
 ALSO .csv OF LOCUS BY TAXON 0/1 TABLE? MAYBE EXPAND THIS WITH NEW GENOMES FOR FOLDER 4?
 
@@ -37,6 +41,8 @@ As a sanity test, we simulated sequencing using the candidate bait set on the ex
 ![RaxML tree showing results of simulated UCE sequencing](images/tree.png)
 
 The phylogeny built from the simulated sequences produced the expected results, with the three species from genus *Octopus* clustered together, *D. pealei* more distantly related, and *P. canaliculata* substantially more distantly related to all cephalopods.
+
+As a final step probes were trimmed and duplicates removed using **seqkit** (Shen et al., 2024) and **sequence_cleaner** (<https://biopython.org/wiki/Sequence_Cleaner>). Results are in **data/clear_trimmed.fasta**
 
 ## Citations
 
@@ -58,7 +64,9 @@ Lunter Gerton, and Martin Goodson. Stampy: a statistical algorithm for sensitive
 
 Quinlan, Aaron R., Ira M. Hall, BEDTools: a flexible suite of utilities for comparing genomic features, Bioinformatics, Volume 26, Issue 6, March 2010, Pages 841--842, <https://doi.org/10.1093/bioinformatics/btq033>
 
-Sedlazeck, Fritz J., Philipp Rescheneder, and Arndt von Haeseler. 2013. NextGenMap: fast and accurate read mapping in highly polymorphic genomes. Bioinformatics, Vol. 29, No. 21., pp. 2790-2791, doi:10.1093/bioinformatics/btt468
+Sedlazeck, Fritz J., Philipp Rescheneder, and Arndt von Haeseler. 2013. NextGenMap: fast and accurate read mapping in highly polymorphic genomes. Bioinformatics, Vol. 29, No. 21., pp. 2790-2791, <doi:10.1093/bioinformatics/btt468>
+
+Shen, Wei, Botond Sipos, and Liuyang Zhao. 2024. SeqKit2: A Swiss Army Knife for Sequence and Alignment Processing. ***iMeta*** e191. [doi:10.1002/imt2.191](https://doi.org/10.1002/imt2.191).
 
 Stamatakis, Alexandros. RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies, *Bioinformatics*, Volume 30, Issue 9, May 2014, Pages 1312--1313, <https://doi.org/10.1093/bioinformatics/btu033>
 
