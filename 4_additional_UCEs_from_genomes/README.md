@@ -10,6 +10,8 @@ We used the UCE baits we designed in order to extract further sequence data from
 
 We aligned the UCE probes in our **clear_trimmed.fasta** file (developed in step 1) to each genome, and then extracted fasta sequences matching UCE loci from each genome with up to 500 bp on each side of the probes.
 
+These UCEs are output into the `genome_UCEs` folder.
+
 **DAN NOTE TO SELF: TABLE OF HOW MANY UCEs SHOW UP IN WHICH SPECIES, CSV OF 1/0 RESULTS**
 
 ## Citations
