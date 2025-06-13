@@ -1,0 +1,44 @@
+#NEXUS
+begin data;
+dimensions ntax=37 nchar=86;
+format datatype=dna missing=? gap=-;
+matrix
+architeuthis_dux             cttacccagcgtcctgggcttcatgtgctctgataattgacaataaattattctgttgcaagaaatcacaacatgctgcatagctg
+argonauta_hians              cttacccagcatcctgagcttcatgtgccctgattatagataatagattattctgttgcaagaaatcacaacatgctgcataactg
+bathyteuthis_abyssicola      cttacccagcgtcctgggcttcatgtgctctgataatcgacaataaattattctgttgcaagaaatcacaacatgctgcatagctg
+benthoctopus_normani         cgtacccagcatcctgagcttcatgtgctctgattatagataatagattattctgttgcaagaaatcacaacatgctgcatagctg
+brachioteuthis_beanii        cttacccagcgtcctgggcttcatgagctctgataatcgacaataaattattctgttgcaagaaatcacaacatgctgcatagctg
+chiroteuthis_picteti         cttacccagcgtcctgggcttcatgtgctctgataatcgacaataaattattctgttgcaagaaatcacagcatgctgcatagctg
+eledone_cirrhosa             cctacccagcatcctgagcttcatgtgccctgattatagataatagattattttgttgcaagaaatcacaacatgctgcatagctg
+enoploteuthis_anapsis        cttacccagcgtcctgggcttcatgtgctctgataatcgacaataaattattctgttgcaagaaatcacaacatgctgcatagctg
+enteroctopus_dofleini        cgtacccagcatcctgagcttcatgtgctctgattatagataatagattattctgttgcaggaaatcacaacatgctgcatagctg
+gonatus_onyx                 cttacccagcatcctgggcttcatgtgctctgataatcgacaataaattattctgttgcaagaaatcacaacatgctgcatagctg
+gymnodoris_subflava          cttaccctgcatcctgtgcttcatgtgctctaattatcgacaacaagttattctgctgtagaaaatcacaacatgctgcatagctg
+haliphron_atlanticus         tttacccagcatcctgagcttcatgtgccctgattatagataatagattattctgttgcaagaaatcgcaacatgctgcatagctg
+hapalochlaena_lunulata       cttacccagcatcctgagcttcatgtgccctgattatagataatagattattctgttgcaagaaatcacaacatgctgcatagctg
+heteroteuthis_hawaiensis     cttaccctgcatcctgggcttcatgtgctctgataatagacaataaattattctgttgcaagaaatcacaacatgctgcatagctg
+histioteuthis_corona_inermis cttacccagcgtcctgggcttcatgtgctctgataatagacaataaattattctgttgcaagaaatcacaacatgctgcatagctg
+idiosepius_sp                cttacccagcatcctgggcttcatgtgctctgataattgacaataaattattttgttgcaagaaatcacaacatgctgcatagcta
+joubiniteuthis_portieri      cttacccagcgtcttgggcttcatgtgctctgataatcgacaataaattattctgttgcaaaaaatcacaacatgctgcatagctg
+mastigoteuthis_agassizii     cttacccagcgtcttgggcttcatgtgctctgataatcgacaataaattattctgttgcaagaaatcacagcatgctgcatagctg
+nototodarus_hawaiiensis      cttacccagcatcctgggcttcatgtgctctgataattgacaataaattattctgttgcaagaaatcacaacatgctgcatagctg
+octopoteuthis_nielseni       cttacccagcgtcctgggcttcatgtgctctgataatcgacaataaattattctgttgcaagaaatcacaacatgctgcatagctg
+octopus_californicus         cgtacccagcatcctgagcttcatgtgctctgattatagataatagattattctgttgcaagaaatcacaacatgctgcatagctg
+octopus_oliveri              cctacccagcatcctgagcttcatgtgccctgattatagataatagattattctgttgcaagaaatcacaacatgctgcatagctg
+onychoteuthis_banksii        cttacccagcatcctgggcttcatgtgctctgataatcgacaataaattattctgttgcaagaaatcacaacatgctgcatagcta
+opisthoteuthis_californiana  catacccagcatcctgagcttcatgtgccctgattatagataatagattattttgttgcaagaaatcacaacatgctgcatagctg
+pareledone_charcoti          cctacccagcatcctgagcttcatgtgccctgattatagataatagattattctgttgcaagaaatcacaacatgctgcatagctg
+pholidoteuthis_adami         cttacccagcgtcttgggcttcatgtgctctgataatagacaataaattattctgttgcaagaaatcacaacatgctgcatagctg
+pterygioteuthis_gemmata      cttacccagcatcctgggcttcatgtgctctgataatagacaataaattattctgttgcaagaaatcacaacatgctgcatagctg
+rossia_pacifica              cttacccagcatcctgagcttcatgtgctctgataatagacaataaattattctgttgcaagaaatcacaacatgctgcataactg
+selenoteuthis_scintillans    cttacccagcgtcttgggcttcatgtgctctgataatcgacaataaattattctgttgcaagaaatcacaacatgctgcatagctg
+sepia_latimanus              cttacccagcatcctgggcttcatgtgctctgataatagacaataaattattttgttgcaaaaaatcacaacatgctgcatagctg
+sepia_pharaonis              cttacccagcatcctgggcttcatgtgctctgataatagacaataaattattttgttgcaaaaaatcacaacatgctgcatagctg
+sepiadarium_kochi_okinawa    cttacccagcatcctgggcttcatgtgctctgataattgacaataaattattttgttgcaagaaatcacaacatgctgcatagctg
+sepiola_parva                cttacccagcatcttgagcttcatgtgctctgataatagacaataaattattctgttgcaagaaatcgcaacatgctgcatagctg
+spirula_spirula              cttacccagcatcctgggcttcatgtgctctgataatcgacaataaattattctgttgcaagaaatcacaacatactgcatagctg
+thysanoteuthis_rhombus       cttacccagcatcctgggcttcatgtgctctgataatcgacaataaattattctgttgcaagaaatcacaacatgctgcatagctg
+tremoctopus_violaceus        tttacccggcatcctgagcttcatgtgccctgattatagataatagattattctgttgcaagaaatcacaacatgctgcatagctg
+vampyroteuthis_infernalis    catacccagcatcctgggcttcatgtgccctgattatagataatagattattttgttgcaaaaaatcacaacatgctgcatagctg
+;
+end;

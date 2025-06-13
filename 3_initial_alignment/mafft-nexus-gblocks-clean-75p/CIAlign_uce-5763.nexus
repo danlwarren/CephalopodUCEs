@@ -1,0 +1,49 @@
+#NEXUS
+begin data;
+dimensions ntax=42 nchar=91;
+format datatype=dna missing=? gap=-;
+matrix
+ancistrocheirus_lesueurii    tactcacagctatattaatttttcctaaaattggctctggaatcctgcctgcctgtttaagtatcaaatccagggagccaccatcctgagg
+architeuthis_dux             tacttacagctatattaatttttcctaaaattggctcgggaattctgcccgcctgtttaagtatcaaatccagggagcctccatcctgcaa
+argonauta_hians              tacttacagctatagtaattttccctaaaattggctcaggaattctacctgcctttttaagtatcaaatccagtgatccaccatcctgaca
+benthoctopus_normani         tacttacagctatagttattttccctaaaattggctcgggaatcctgcctgcctttttaagtatcaaatccaaggaaccaccatcctgcaa
+brachioteuthis_beanii        tacttacagctatattaatttttcctaatattggctctggaatcctgcctgcctgtttaagtatcaaatccagggagcctccatcctgaga
+chiroteuthis_picteti         tacttacagctatgttaatttttcctaaaattggctctggaatcctgcctgcctgtttaagtatcaaatccagggagcctccatcctgaga
+chtenopteryx_sicula          tacttacagctatattaatttttcctaaaataggctcaggaattctgcctgcctgtttaagtatcaaatccagagagcctccatcctgtga
+cranchia_scabra              tacttacagctatattaatttttcctaaaattggctctggaattctgcctgcccgtttaagtatcaaatccagagagcctccatcctgaga
+discoteuthis_sp              tacttacagctatattaatttttcctaatattggctctggaatcctgcctgcctgtttaagtatcaaatccagggagcctccatcctgaga
+eledone_cirrhosa             tacttacagctattgttattttccctaaaattggttcaggaatcctgcctgcctttttaagtatcaaatccaaagagccgccatcctgaca
+enoploteuthis_anapsis        tactcacagctatattaatttttcctagaattggctctggaatcctgcctgcctgtttaagtatcaaatccagagagccaccatcctggaa
+enteroctopus_dofleini        tacttacagctatagttattttccctaaaattggctcgggaatcctgcctgcctttttaagtatcaaatccaaggaaccaccatcctgcaa
+galituethis_sp               tacttacagctatattaatctttgctaaaattggctctggaattctgcctgcctgtttaagtatcaaatccagagagcctccatcctgaga
+gonatus_onyx                 tacttacagctatattgatttttcctaaaattggctccggaattctgcccgcttgcttaagtatcaaatccagagagcctccatcctgaga
+haliphron_atlanticus         tacttacagctatagttattttccctaaaattggctcaggaattctgcctacctttttaagtatcaaatccaatgagccaccgtcctacaa
+hapalochlaena_lunulata       tactcacagctatagttatttttcctaaaattggctcaggaattctgcctgcctttttaagtatcaaatccaaggaaccaccatcctgcca
+heteroteuthis_hawaiensis     tacttacggctatattaatttttcctaaaattggctcgggaattctgcctgcctgtttaagtatcaaatccagagagcctccattctgtaa
+histioteuthis_corona_inermis tacttacagctatatttatttttcctaagattggctctggaattctgcctgcctgtttaagtatcaaatccagggagccgccatcctgaga
+idiosepius_sp                tacttacagctatgttaatttttcctaaaattggttcaggaattctacctgcttgtttaagtatcaaatccagagaacctccatcctataa
+japetella_diaphana           tacttacagctatagttattttccctaaaattggctcaggaattctgcctgcctttttaagtatcaaatccaaggagccaccatcctgcca
+joubiniteuthis_portieri      tacttacagctatgttaatttttcctaaaattggctctggaatcctgcctgcctgtttaagtatcaaatccagggagcctccatcctgaga
+metasepia_tulbergi           tactaacagctatattaatttttcctaaaatgggctcaggaattctgcctgcctgtttaagtatcaaatccagagaaccaccattctgaaa
+nautilus_macromphalus        aactcacagctatattgattttgcctaggactggttctggaattcttcctgctttcttaagtattaaatccaaggagccaccatcctgaaa
+nototodarus_hawaiiensis      tacttacagctatattaatttttcctaaaattggctccggaattctgcctgcctttttaagtatcaaatccagagagcctccatcctgaga
+octopoteuthis_nielseni       tacttacagctatattaatttttcctaaaattggctctggaatcctgcctgcttctttaagtatcaaatccagggagcctccatcctgaga
+octopus_californicus         tacttacagctatagttattttccctaaaattggctcgggaatcctgcctgcctttttaagtatcaaatccaaggaaccaccatcctgcaa
+octopus_oliveri              tacttacagctatagttatttttcctaaaattggctcaggaattctgcctgcctttttaagtatcaaatccaaggaaccgccatcctgcca
+onychoteuthis_banksii        tacttacagctatattaatttttcctaaaattggctctggaattctgcccgcctgtttgagtatcaaatccagggagccaccatcctgaga
+pareledone_charcoti          tacttacagctatagttattctccctaaaattggctcaggaattctgcctgcctttttaagtatcaaatccaaggagccgccatcctgcca
+pholidoteuthis_adami         tacttacagctatattaatttttcctaaaattggctctggaatcctgcctgcctgtttaagtatcaaatccagggagcctccatcctgaga
+pholidoteuthis_massyae       tacttacagctatattaatttttcctaaaattggctctggaatcctgcctgcctgtttaagtatcaaatccagggagcctccatcctgaga
+pterygioteuthis_gemmata      tactcacagctatattaatttttcctaaaattggctctggaatccttcctgcctgtttaagtatcaaatccagggagcctccatcctgtga
+rossia_pacifica              tacttacggctatattaatttttcctaaaattggctctggaattctgcctgcctgtttaagtatcaaatccagagaacctccattctgtga
+selenoteuthis_scintillans    tacttacagctatattaatttttcctaaaattggctctggaatcctgcctgcctgtttcagtattaaatccagggagccaccatcctagag
+sepia_latimanus              tacatacagctatattaatttttcctaaaatgggctcgggaattctgcctgcctgtttaagtatcaaatccagagaacctccattctgaaa
+sepia_pharaonis              tacttacagctatattaatttttcctaaaatgggctcgggaattctgcctgcctgtttaagtatcaaatccagagaacctccattctgaaa
+sepiadarium_kochi_mainland   tacttacagctatgttgatttttcctaaaatgggctcaggaatcctgcctgcctgtttaagtatcaaatccagtgagcctccatcctgtga
+sepiola_parva                tacttacggctatattaatttttcctaaaattggctctggaattctgcccgcctgttttagtatcaaatccagggagcctccattctgtaa
+sepioteuthis_lessoniana      tacttacagctatattaatttttcctaaaatgggctctggaattctgcctgcctgtttaagtatcaaatccagagagcctccatcctgtga
+thysanoteuthis_rhombus       tacttacagctatattaatttttcctaaaattggctcgggaattctgcctgcctgtttaagtatcaaatccagagagcctccatcctgaaa
+tremoctopus_violaceus        tacttacagctatagttatttttcctaaaattggctctggaattctgcctgcctttttaagtatcaaatccaacgagccaccgtcctacaa
+vampyroteuthis_infernalis    tacttacagctatagtaatttttcctaaaatgggctctggaatcctgcctgcctttttaagtattaaatccagggacccaccatcctaggg
+;
+end;
