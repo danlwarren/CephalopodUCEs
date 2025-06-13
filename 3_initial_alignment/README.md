@@ -14,11 +14,11 @@ Alex to fill in everything to go from the raw UCE sequences to the alignments, w
 
 With normal models
 ```
-./iqtree-3.0.1-macOS/bin/iqtree3 -p ../mafft-nexus-gblocks-clean-75p --prefix concat -m MFP -B 1000 -T 128
+./iqtree-3.0.1-Linux/bin/iqtree3 -p ../mafft-nexus-gblocks-clean-75p --prefix concat -m MFP -B 1000 -T 128
 ```
 
 With MixtureFinder
 
 ```
-./iqtree-3.0.1-macOS/bin/iqtree3 -p ../mafft-nexus-gblocks-clean-75p/  --prefix concat -m MIX+MFP -B 1000 -T 8
+./iqtree-3.0.1-Linux/bin/iqtree3 -p ../mafft-nexus-gblocks-clean-75p/  --prefix concat -m MIX+MFP -B 1000 -T 128
 ```
