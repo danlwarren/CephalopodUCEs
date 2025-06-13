@@ -1,0 +1,1973 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Partition file name: mafft-nexus-gblocks-clean-75p
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 754350
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 50 taxa with 622 partitions and 147381 total sites (18.5692% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	41	634	275	218	398	398	CIAlign_uce-10009.nexus
+   2	DNA	43	262	109	77	164	164	CIAlign_uce-10172.nexus
+   3	DNA	38	473	267	206	233	233	CIAlign_uce-10182.nexus
+   4	DNA	41	307	159	132	153	153	CIAlign_uce-10226.nexus
+   5	DNA	45	207	76	56	128	128	CIAlign_uce-10320.nexus
+   6	DNA	38	538	290	222	274	274	CIAlign_uce-10348.nexus
+   7	DNA	38	371	251	193	149	149	CIAlign_uce-10555.nexus
+   8	DNA	44	125	52	38	75	75	CIAlign_uce-10659.nexus
+   9	DNA	37	541	298	266	253	253	CIAlign_uce-1076.nexus
+  10	DNA	40	108	46	34	63	63	CIAlign_uce-10812.nexus
+  11	DNA	38	213	121	96	104	104	CIAlign_uce-10890.nexus
+  12	DNA	37	275	182	130	112	112	CIAlign_uce-10916.nexus
+  13	DNA	40	351	213	163	158	158	CIAlign_uce-10918.nexus
+  14	DNA	46	196	81	62	109	109	CIAlign_uce-10932.nexus
+  15	DNA	38	141	81	59	69	69	CIAlign_uce-1095.nexus
+  16	DNA	44	192	74	53	113	113	CIAlign_uce-10968.nexus
+  17	DNA	40	253	134	102	120	120	CIAlign_uce-11073.nexus
+  18	DNA	43	407	205	146	218	218	CIAlign_uce-11136.nexus
+  19	DNA	37	152	66	46	97	97	CIAlign_uce-11427.nexus
+  20	DNA	39	199	84	63	122	122	CIAlign_uce-1144.nexus
+  21	DNA	43	198	59	41	127	127	CIAlign_uce-11548.nexus
+  22	DNA	38	291	142	113	164	164	CIAlign_uce-11573.nexus
+  23	DNA	43	159	56	50	105	105	CIAlign_uce-11739.nexus
+  24	DNA	39	454	270	221	204	204	CIAlign_uce-11740.nexus
+  25	DNA	38	231	108	91	125	125	CIAlign_uce-118.nexus
+  26	DNA	40	133	74	52	66	66	CIAlign_uce-11820.nexus
+  27	DNA	41	186	79	59	108	108	CIAlign_uce-11993.nexus
+  28	DNA	45	198	100	80	101	101	CIAlign_uce-12105.nexus
+  29	DNA	40	160	70	56	94	94	CIAlign_uce-12167.nexus
+  30	DNA	42	200	93	79	110	110	CIAlign_uce-12227.nexus
+  31	DNA	39	252	148	130	101	101	CIAlign_uce-1223.nexus
+  32	DNA	41	242	121	90	128	128	CIAlign_uce-12273.nexus
+  33	DNA	44	251	144	99	94	94	CIAlign_uce-12368.nexus
+  34	DNA	43	129	57	41	75	75	CIAlign_uce-12383.nexus
+  35	DNA	42	130	60	48	76	76	CIAlign_uce-12504.nexus
+  36	DNA	39	258	139	111	122	122	CIAlign_uce-12511.nexus
+  37	DNA	42	150	91	65	73	73	CIAlign_uce-12515.nexus
+  38	DNA	38	190	99	72	97	97	CIAlign_uce-12553.nexus
+  39	DNA	43	506	210	169	329	329	CIAlign_uce-12694.nexus
+  40	DNA	43	155	53	36	107	107	CIAlign_uce-12735.nexus
+  41	DNA	44	317	161	113	173	173	CIAlign_uce-12740.nexus
+  42	DNA	37	297	140	115	167	167	CIAlign_uce-12755.nexus
+  43	DNA	42	242	133	99	114	114	CIAlign_uce-12808.nexus
+  44	DNA	38	190	81	62	111	111	CIAlign_uce-12892.nexus
+  45	DNA	42	252	84	71	167	167	CIAlign_uce-12986.nexus
+  46	DNA	41	303	130	111	181	181	CIAlign_uce-13005.nexus
+  47	DNA	41	311	160	107	181	181	CIAlign_uce-13079.nexus
+  48	DNA	41	400	188	136	237	237	CIAlign_uce-13109.nexus
+  49	DNA	40	213	98	79	118	118	CIAlign_uce-13110.nexus
+  50	DNA	40	174	96	78	75	75	CIAlign_uce-13112.nexus
+  51	DNA	43	328	180	101	161	161	CIAlign_uce-13153.nexus
+  52	DNA	41	182	87	59	95	95	CIAlign_uce-13273.nexus
+  53	DNA	40	192	99	73	105	105	CIAlign_uce-13298.nexus
+  54	DNA	42	316	140	116	176	176	CIAlign_uce-13324.nexus
+  55	DNA	44	295	115	65	174	174	CIAlign_uce-13498.nexus
+  56	DNA	40	243	89	67	159	159	CIAlign_uce-13635.nexus
+  57	DNA	40	427	267	210	187	187	CIAlign_uce-13941.nexus
+  58	DNA	45	287	116	55	171	171	CIAlign_uce-14008.nexus
+  59	DNA	38	149	69	50	80	80	CIAlign_uce-14049.nexus
+  60	DNA	39	162	97	76	79	79	CIAlign_uce-14091.nexus
+  61	DNA	41	128	58	39	74	74	CIAlign_uce-1410.nexus
+  62	DNA	39	253	164	117	107	107	CIAlign_uce-14138.nexus
+  63	DNA	39	149	81	62	75	75	CIAlign_uce-14299.nexus
+  64	DNA	40	179	102	81	90	90	CIAlign_uce-1443.nexus
+  65	DNA	41	179	91	76	91	91	CIAlign_uce-1444.nexus
+  66	DNA	38	150	76	53	89	89	CIAlign_uce-14535.nexus
+  67	DNA	44	500	310	241	198	198	CIAlign_uce-14541.nexus
+  68	DNA	37	138	57	48	84	84	CIAlign_uce-14780.nexus
+  69	DNA	43	115	52	34	75	75	CIAlign_uce-14783.nexus
+  70	DNA	39	188	96	72	96	96	CIAlign_uce-14809.nexus
+  71	DNA	44	295	108	80	185	185	CIAlign_uce-14863.nexus
+  72	DNA	42	178	54	41	123	123	CIAlign_uce-15033.nexus
+  73	DNA	39	190	105	82	99	99	CIAlign_uce-15037.nexus
+  74	DNA	41	242	127	101	111	111	CIAlign_uce-15135.nexus
+  75	DNA	40	204	104	69	108	108	CIAlign_uce-1519.nexus
+  76	DNA	42	232	111	83	133	133	CIAlign_uce-15292.nexus
+  77	DNA	38	185	114	82	83	83	CIAlign_uce-1561.nexus
+  78	DNA	45	439	223	162	247	247	CIAlign_uce-15616.nexus
+  79	DNA	39	115	45	35	73	73	CIAlign_uce-15680.nexus
+  80	DNA	42	179	72	48	106	106	CIAlign_uce-1591.nexus
+  81	DNA	38	131	73	57	66	66	CIAlign_uce-16071.nexus
+  82	DNA	39	131	78	57	63	63	CIAlign_uce-16245.nexus
+  83	DNA	42	629	364	274	304	304	CIAlign_uce-16304.nexus
+  84	DNA	38	182	95	74	87	87	CIAlign_uce-16373.nexus
+  85	DNA	39	278	117	93	164	164	CIAlign_uce-16467.nexus
+  86	DNA	45	238	127	84	116	116	CIAlign_uce-16513.nexus
+  87	DNA	40	176	80	58	102	102	CIAlign_uce-16528.nexus
+  88	DNA	45	320	110	91	205	205	CIAlign_uce-16529.nexus
+  89	DNA	44	232	95	68	147	147	CIAlign_uce-16530.nexus
+  90	DNA	38	148	73	51	80	80	CIAlign_uce-16539.nexus
+  91	DNA	45	655	283	174	381	381	CIAlign_uce-16542.nexus
+  92	DNA	39	164	78	58	91	91	CIAlign_uce-1661.nexus
+  93	DNA	41	157	65	49	95	95	CIAlign_uce-16622.nexus
+  94	DNA	38	138	77	60	68	68	CIAlign_uce-16737.nexus
+  95	DNA	37	140	66	53	77	77	CIAlign_uce-16739.nexus
+  96	DNA	38	163	84	63	82	82	CIAlign_uce-168.nexus
+  97	DNA	37	86	28	18	61	61	CIAlign_uce-1694.nexus
+  98	DNA	42	222	128	98	99	99	CIAlign_uce-1696.nexus
+  99	DNA	38	117	43	33	77	77	CIAlign_uce-17130.nexus
+ 100	DNA	41	204	104	80	94	94	CIAlign_uce-17172.nexus
+ 101	DNA	38	128	78	58	54	54	CIAlign_uce-17215.nexus
+ 102	DNA	40	136	87	63	57	57	CIAlign_uce-17216.nexus
+ 103	DNA	40	125	55	41	73	73	CIAlign_uce-1727.nexus
+ 104	DNA	44	176	83	71	100	100	CIAlign_uce-17291.nexus
+ 105	DNA	40	293	104	80	194	194	CIAlign_uce-17296.nexus
+ 106	DNA	42	167	101	72	73	73	CIAlign_uce-17457.nexus
+ 107	DNA	40	474	256	197	255	255	CIAlign_uce-17490.nexus
+ 108	DNA	41	226	122	95	116	116	CIAlign_uce-17491.nexus
+ 109	DNA	41	220	118	86	113	113	CIAlign_uce-17492.nexus
+ 110	DNA	40	588	290	221	328	328	CIAlign_uce-17580.nexus
+ 111	DNA	45	564	298	194	308	308	CIAlign_uce-17585.nexus
+ 112	DNA	43	148	54	39	97	97	CIAlign_uce-17603.nexus
+ 113	DNA	41	398	204	154	209	209	CIAlign_uce-17715.nexus
+ 114	DNA	37	297	139	108	160	160	CIAlign_uce-17805.nexus
+ 115	DNA	44	352	208	134	166	166	CIAlign_uce-17825.nexus
+ 116	DNA	37	160	62	47	92	92	CIAlign_uce-17828.nexus
+ 117	DNA	41	196	104	67	102	102	CIAlign_uce-17866.nexus
+ 118	DNA	40	290	146	106	156	156	CIAlign_uce-1797.nexus
+ 119	DNA	38	163	89	68	78	78	CIAlign_uce-18104.nexus
+ 120	DNA	38	333	153	102	192	192	CIAlign_uce-18242.nexus
+ 121	DNA	39	146	66	49	85	85	CIAlign_uce-18245.nexus
+ 122	DNA	39	533	263	208	306	306	CIAlign_uce-18287.nexus
+ 123	DNA	39	131	49	27	77	77	CIAlign_uce-18299.nexus
+ 124	DNA	42	223	120	95	110	110	CIAlign_uce-18317.nexus
+ 125	DNA	41	118	58	45	61	61	CIAlign_uce-18367.nexus
+ 126	DNA	41	171	87	72	87	87	CIAlign_uce-18385.nexus
+ 127	DNA	44	287	176	136	115	115	CIAlign_uce-18387.nexus
+ 128	DNA	39	174	92	72	90	90	CIAlign_uce-1842.nexus
+ 129	DNA	38	140	68	51	80	80	CIAlign_uce-18486.nexus
+ 130	DNA	44	181	78	51	96	96	CIAlign_uce-18500.nexus
+ 131	DNA	41	386	147	124	235	235	CIAlign_uce-18679.nexus
+ 132	DNA	43	208	104	80	109	109	CIAlign_uce-18734.nexus
+ 133	DNA	40	261	101	85	163	163	CIAlign_uce-18817.nexus
+ 134	DNA	46	156	68	48	95	95	CIAlign_uce-18906.nexus
+ 135	DNA	37	360	262	185	140	140	CIAlign_uce-18909.nexus
+ 136	DNA	40	258	109	89	152	152	CIAlign_uce-19018.nexus
+ 137	DNA	40	212	77	57	140	140	CIAlign_uce-19063.nexus
+ 138	DNA	38	116	55	42	69	69	CIAlign_uce-19064.nexus
+ 139	DNA	41	94	43	26	55	55	CIAlign_uce-19069.nexus
+ 140	DNA	42	293	157	110	158	158	CIAlign_uce-19073.nexus
+ 141	DNA	40	148	81	63	73	73	CIAlign_uce-19140.nexus
+ 142	DNA	41	211	118	91	110	110	CIAlign_uce-19154.nexus
+ 143	DNA	43	194	78	67	121	121	CIAlign_uce-19306.nexus
+ 144	DNA	42	163	68	52	101	101	CIAlign_uce-19325.nexus
+ 145	DNA	37	137	61	45	79	79	CIAlign_uce-19336.nexus
+ 146	DNA	39	133	71	46	71	71	CIAlign_uce-19354.nexus
+ 147	DNA	37	119	67	53	56	56	CIAlign_uce-19356.nexus
+ 148	DNA	41	384	190	141	225	225	CIAlign_uce-1938.nexus
+ 149	DNA	43	119	49	38	74	74	CIAlign_uce-19632.nexus
+ 150	DNA	41	185	81	70	107	107	CIAlign_uce-19658.nexus
+ 151	DNA	39	153	76	57	86	86	CIAlign_uce-19689.nexus
+ 152	DNA	40	171	76	63	99	99	CIAlign_uce-1973.nexus
+ 153	DNA	38	681	308	238	414	414	CIAlign_uce-19973.nexus
+ 154	DNA	42	145	73	55	73	73	CIAlign_uce-20045.nexus
+ 155	DNA	40	163	79	66	89	89	CIAlign_uce-20066.nexus
+ 156	DNA	42	133	51	37	85	85	CIAlign_uce-20245.nexus
+ 157	DNA	41	592	280	232	334	334	CIAlign_uce-20254.nexus
+ 158	DNA	40	128	78	56	58	58	CIAlign_uce-20401.nexus
+ 159	DNA	43	587	262	183	343	343	CIAlign_uce-20417.nexus
+ 160	DNA	42	157	57	40	103	103	CIAlign_uce-20467.nexus
+ 161	DNA	39	144	52	39	96	96	CIAlign_uce-20468.nexus
+ 162	DNA	40	206	79	60	128	128	CIAlign_uce-20471.nexus
+ 163	DNA	42	180	119	91	61	61	CIAlign_uce-20483.nexus
+ 164	DNA	39	193	100	70	104	104	CIAlign_uce-20572.nexus
+ 165	DNA	37	279	143	117	147	147	CIAlign_uce-20676.nexus
+ 166	DNA	39	531	248	186	305	305	CIAlign_uce-20777.nexus
+ 167	DNA	39	492	299	236	214	214	CIAlign_uce-20807.nexus
+ 168	DNA	41	177	99	81	81	81	CIAlign_uce-2084.nexus
+ 169	DNA	38	348	163	138	198	198	CIAlign_uce-20889.nexus
+ 170	DNA	38	147	69	51	82	82	CIAlign_uce-20892.nexus
+ 171	DNA	40	573	377	307	230	230	CIAlign_uce-20940.nexus
+ 172	DNA	40	227	121	94	113	113	CIAlign_uce-21162.nexus
+ 173	DNA	42	207	104	77	95	95	CIAlign_uce-21183.nexus
+ 174	DNA	37	184	106	87	81	81	CIAlign_uce-2119.nexus
+ 175	DNA	41	592	310	247	304	304	CIAlign_uce-21263.nexus
+ 176	DNA	40	152	67	53	88	88	CIAlign_uce-21264.nexus
+ 177	DNA	38	125	34	20	95	95	CIAlign_uce-21267.nexus
+ 178	DNA	38	175	108	88	70	70	CIAlign_uce-21275.nexus
+ 179	DNA	41	230	106	81	129	129	CIAlign_uce-21362.nexus
+ 180	DNA	45	181	101	79	85	85	CIAlign_uce-21409.nexus
+ 181	DNA	38	193	94	53	101	101	CIAlign_uce-21496.nexus
+ 182	DNA	43	429	272	202	199	199	CIAlign_uce-21626.nexus
+ 183	DNA	39	260	154	120	114	114	CIAlign_uce-21695.nexus
+ 184	DNA	40	254	114	87	151	151	CIAlign_uce-21740.nexus
+ 185	DNA	41	253	109	87	157	157	CIAlign_uce-21858.nexus
+ 186	DNA	41	206	88	76	121	121	CIAlign_uce-2197.nexus
+ 187	DNA	39	279	131	93	171	171	CIAlign_uce-21978.nexus
+ 188	DNA	40	299	148	124	159	159	CIAlign_uce-22009.nexus
+ 189	DNA	43	540	182	131	368	368	CIAlign_uce-2206.nexus
+ 190	DNA	42	321	175	136	163	163	CIAlign_uce-22064.nexus
+ 191	DNA	38	268	138	113	137	137	CIAlign_uce-22195.nexus
+ 192	DNA	44	185	86	60	97	97	CIAlign_uce-22213.nexus
+ 193	DNA	43	123	46	33	82	82	CIAlign_uce-22317.nexus
+ 194	DNA	43	182	81	66	104	104	CIAlign_uce-22330.nexus
+ 195	DNA	40	144	45	28	104	104	CIAlign_uce-22413.nexus
+ 196	DNA	41	246	105	81	140	140	CIAlign_uce-22430.nexus
+ 197	DNA	47	154	69	50	95	95	CIAlign_uce-22549.nexus
+ 198	DNA	37	192	88	60	117	117	CIAlign_uce-22581.nexus
+ 199	DNA	41	204	117	90	94	94	CIAlign_uce-22594.nexus
+ 200	DNA	37	186	85	71	103	103	CIAlign_uce-22624.nexus
+ 201	DNA	39	120	37	22	86	86	CIAlign_uce-22644.nexus
+ 202	DNA	43	218	102	75	121	121	CIAlign_uce-22645.nexus
+ 203	DNA	43	466	247	179	242	242	CIAlign_uce-22646.nexus
+ 204	DNA	40	304	121	102	191	191	CIAlign_uce-22658.nexus
+ 205	DNA	41	202	99	68	115	115	CIAlign_uce-22688.nexus
+ 206	DNA	42	367	163	142	210	210	CIAlign_uce-22689.nexus
+ 207	DNA	44	542	339	234	225	225	CIAlign_uce-2291.nexus
+ 208	DNA	37	158	75	65	86	86	CIAlign_uce-22946.nexus
+ 209	DNA	40	350	183	137	195	195	CIAlign_uce-22965.nexus
+ 210	DNA	43	261	123	85	147	147	CIAlign_uce-22977.nexus
+ 211	DNA	38	293	164	118	129	129	CIAlign_uce-23147.nexus
+ 212	DNA	43	547	241	186	310	310	CIAlign_uce-2318.nexus
+ 213	DNA	41	249	117	92	132	132	CIAlign_uce-23237.nexus
+ 214	DNA	41	131	56	42	79	79	CIAlign_uce-23347.nexus
+ 215	DNA	43	118	48	32	73	73	CIAlign_uce-2346.nexus
+ 216	DNA	37	167	92	61	90	90	CIAlign_uce-23541.nexus
+ 217	DNA	39	255	145	115	119	119	CIAlign_uce-23569.nexus
+ 218	DNA	38	173	69	45	107	107	CIAlign_uce-23576.nexus
+ 219	DNA	39	138	59	44	84	84	CIAlign_uce-23668.nexus
+ 220	DNA	39	190	93	74	101	101	CIAlign_uce-23690.nexus
+ 221	DNA	39	165	79	64	92	92	CIAlign_uce-23713.nexus
+ 222	DNA	39	250	135	103	129	129	CIAlign_uce-23715.nexus
+ 223	DNA	38	233	131	100	117	117	CIAlign_uce-23800.nexus
+ 224	DNA	38	152	71	59	88	88	CIAlign_uce-23837.nexus
+ 225	DNA	43	156	76	60	84	84	CIAlign_uce-23975.nexus
+ 226	DNA	37	189	79	65	115	115	CIAlign_uce-24115.nexus
+ 227	DNA	40	184	84	67	99	99	CIAlign_uce-24367.nexus
+ 228	DNA	43	160	79	59	89	89	CIAlign_uce-24410.nexus
+ 229	DNA	39	191	117	82	74	74	CIAlign_uce-24422.nexus
+ 230	DNA	38	247	128	102	121	121	CIAlign_uce-24448.nexus
+ 231	DNA	46	252	147	102	120	120	CIAlign_uce-24460.nexus
+ 232	DNA	37	234	116	87	132	132	CIAlign_uce-24477.nexus
+ 233	DNA	38	158	65	51	101	101	CIAlign_uce-24536.nexus
+ 234	DNA	47	242	126	80	116	116	CIAlign_uce-24559.nexus
+ 235	DNA	40	186	74	59	114	114	CIAlign_uce-24560.nexus
+ 236	DNA	43	448	256	193	210	210	CIAlign_uce-24603.nexus
+ 237	DNA	41	216	98	80	127	127	CIAlign_uce-24605.nexus
+ 238	DNA	41	179	63	48	119	119	CIAlign_uce-24650.nexus
+ 239	DNA	41	183	80	61	107	107	CIAlign_uce-24678.nexus
+ 240	DNA	42	115	61	41	63	63	CIAlign_uce-24715.nexus
+ 241	DNA	38	115	59	41	59	59	CIAlign_uce-24716.nexus
+ 242	DNA	37	152	60	49	96	96	CIAlign_uce-24734.nexus
+ 243	DNA	40	188	113	83	84	84	CIAlign_uce-24794.nexus
+ 244	DNA	39	300	158	119	155	155	CIAlign_uce-25004.nexus
+ 245	DNA	45	214	97	73	122	122	CIAlign_uce-25136.nexus
+ 246	DNA	42	151	70	51	85	85	CIAlign_uce-2516.nexus
+ 247	DNA	39	178	84	68	99	99	CIAlign_uce-25262.nexus
+ 248	DNA	41	179	101	70	88	88	CIAlign_uce-25263.nexus
+ 249	DNA	42	102	44	35	62	62	CIAlign_uce-25279.nexus
+ 250	DNA	42	440	255	197	200	200	CIAlign_uce-25388.nexus
+ 251	DNA	40	174	86	65	95	95	CIAlign_uce-25390.nexus
+ 252	DNA	38	202	99	78	107	107	CIAlign_uce-25409.nexus
+ 253	DNA	42	199	101	60	105	105	CIAlign_uce-25420.nexus
+ 254	DNA	39	135	64	43	69	69	CIAlign_uce-2544.nexus
+ 255	DNA	39	197	112	82	96	96	CIAlign_uce-25459.nexus
+ 256	DNA	39	216	91	72	133	133	CIAlign_uce-25501.nexus
+ 257	DNA	46	166	65	45	100	100	CIAlign_uce-25513.nexus
+ 258	DNA	44	288	137	99	154	154	CIAlign_uce-25552.nexus
+ 259	DNA	41	238	77	60	164	164	CIAlign_uce-25627.nexus
+ 260	DNA	42	301	170	123	150	150	CIAlign_uce-25666.nexus
+ 261	DNA	42	197	77	65	123	123	CIAlign_uce-25779.nexus
+ 262	DNA	42	531	294	232	266	266	CIAlign_uce-25787.nexus
+ 263	DNA	37	185	69	58	120	120	CIAlign_uce-25889.nexus
+ 264	DNA	42	411	211	119	233	233	CIAlign_uce-25904.nexus
+ 265	DNA	41	246	104	91	141	141	CIAlign_uce-26055.nexus
+ 266	DNA	45	220	107	74	123	123	CIAlign_uce-26124.nexus
+ 267	DNA	40	136	71	51	74	74	CIAlign_uce-26139.nexus
+ 268	DNA	43	193	78	53	120	120	CIAlign_uce-26180.nexus
+ 269	DNA	44	270	88	46	174	174	CIAlign_uce-26244.nexus
+ 270	DNA	40	229	108	88	123	123	CIAlign_uce-2626.nexus
+ 271	DNA	40	189	105	71	90	90	CIAlign_uce-26280.nexus
+ 272	DNA	40	176	78	54	103	103	CIAlign_uce-26324.nexus
+ 273	DNA	40	121	64	48	60	60	CIAlign_uce-26339.nexus
+ 274	DNA	37	147	83	56	72	72	CIAlign_uce-26340.nexus
+ 275	DNA	42	175	98	74	87	87	CIAlign_uce-26341.nexus
+ 276	DNA	37	156	67	48	100	100	CIAlign_uce-26382.nexus
+ 277	DNA	41	181	100	68	85	85	CIAlign_uce-26414.nexus
+ 278	DNA	41	204	108	90	99	99	CIAlign_uce-26432.nexus
+ 279	DNA	37	231	122	99	115	115	CIAlign_uce-26436.nexus
+ 280	DNA	46	119	48	33	74	74	CIAlign_uce-26544.nexus
+ 281	DNA	39	493	270	213	229	229	CIAlign_uce-26590.nexus
+ 282	DNA	43	138	63	51	79	79	CIAlign_uce-26638.nexus
+ 283	DNA	42	145	55	45	92	92	CIAlign_uce-26677.nexus
+ 284	DNA	42	109	46	33	68	68	CIAlign_uce-26771.nexus
+ 285	DNA	42	223	120	96	102	102	CIAlign_uce-26772.nexus
+ 286	DNA	41	160	92	70	80	80	CIAlign_uce-26843.nexus
+ 287	DNA	43	389	247	202	163	163	CIAlign_uce-26865.nexus
+ 288	DNA	37	173	84	71	92	92	CIAlign_uce-26985.nexus
+ 289	DNA	44	368	198	144	191	191	CIAlign_uce-27040.nexus
+ 290	DNA	43	287	162	124	130	130	CIAlign_uce-27042.nexus
+ 291	DNA	40	218	128	80	109	109	CIAlign_uce-2714.nexus
+ 292	DNA	37	210	91	75	117	117	CIAlign_uce-27192.nexus
+ 293	DNA	40	534	258	201	304	304	CIAlign_uce-27378.nexus
+ 294	DNA	40	392	260	195	151	151	CIAlign_uce-27520.nexus
+ 295	DNA	40	163	72	49	94	94	CIAlign_uce-27539.nexus
+ 296	DNA	42	229	96	78	135	135	CIAlign_uce-27545.nexus
+ 297	DNA	37	169	100	76	71	71	CIAlign_uce-27547.nexus
+ 298	DNA	42	113	51	36	66	66	CIAlign_uce-27550.nexus
+ 299	DNA	40	141	78	60	66	66	CIAlign_uce-27597.nexus
+ 300	DNA	40	216	118	84	110	110	CIAlign_uce-27610.nexus
+ 301	DNA	37	178	84	66	99	99	CIAlign_uce-27625.nexus
+ 302	DNA	38	122	49	38	80	80	CIAlign_uce-27626.nexus
+ 303	DNA	41	355	148	109	209	209	CIAlign_uce-27741.nexus
+ 304	DNA	41	234	91	69	141	141	CIAlign_uce-27763.nexus
+ 305	DNA	38	192	113	86	85	85	CIAlign_uce-27783.nexus
+ 306	DNA	42	188	92	63	94	94	CIAlign_uce-27830.nexus
+ 307	DNA	42	192	94	78	103	103	CIAlign_uce-27831.nexus
+ 308	DNA	42	581	289	227	326	326	CIAlign_uce-27929.nexus
+ 309	DNA	41	145	87	68	63	63	CIAlign_uce-28007.nexus
+ 310	DNA	45	198	69	46	128	128	CIAlign_uce-28098.nexus
+ 311	DNA	41	204	78	48	127	127	CIAlign_uce-28099.nexus
+ 312	DNA	43	456	244	194	234	234	CIAlign_uce-2840.nexus
+ 313	DNA	40	601	295	237	334	334	CIAlign_uce-28516.nexus
+ 314	DNA	41	428	225	180	222	222	CIAlign_uce-28546.nexus
+ 315	DNA	43	131	68	46	70	70	CIAlign_uce-28586.nexus
+ 316	DNA	46	144	57	39	88	88	CIAlign_uce-28698.nexus
+ 317	DNA	38	245	129	104	118	118	CIAlign_uce-28849.nexus
+ 318	DNA	42	280	127	90	155	155	CIAlign_uce-28892.nexus
+ 319	DNA	41	171	77	52	102	102	CIAlign_uce-28894.nexus
+ 320	DNA	41	205	46	22	155	155	CIAlign_uce-28895.nexus
+ 321	DNA	42	154	73	59	88	88	CIAlign_uce-28896.nexus
+ 322	DNA	37	217	115	98	107	107	CIAlign_uce-29213.nexus
+ 323	DNA	37	369	196	148	190	190	CIAlign_uce-29251.nexus
+ 324	DNA	37	106	44	30	70	70	CIAlign_uce-29443.nexus
+ 325	DNA	41	297	186	113	116	116	CIAlign_uce-29475.nexus
+ 326	DNA	49	189	75	42	112	112	CIAlign_uce-29580.nexus
+ 327	DNA	43	297	188	159	113	113	CIAlign_uce-29605.nexus
+ 328	DNA	41	237	105	87	134	134	CIAlign_uce-29669.nexus
+ 329	DNA	39	414	285	233	148	148	CIAlign_uce-29727.nexus
+ 330	DNA	41	306	182	137	144	144	CIAlign_uce-29732.nexus
+ 331	DNA	42	175	63	48	107	107	CIAlign_uce-29738.nexus
+ 332	DNA	43	496	228	150	256	256	CIAlign_uce-2981.nexus
+ 333	DNA	45	169	59	45	115	115	CIAlign_uce-29811.nexus
+ 334	DNA	42	160	89	65	80	80	CIAlign_uce-29870.nexus
+ 335	DNA	43	142	59	45	85	85	CIAlign_uce-29899.nexus
+ 336	DNA	42	580	253	190	357	357	CIAlign_uce-30161.nexus
+ 337	DNA	41	194	83	55	108	108	CIAlign_uce-30219.nexus
+ 338	DNA	48	314	186	122	137	137	CIAlign_uce-30230.nexus
+ 339	DNA	41	291	138	106	165	165	CIAlign_uce-30267.nexus
+ 340	DNA	38	123	51	38	76	76	CIAlign_uce-3028.nexus
+ 341	DNA	45	185	74	58	118	118	CIAlign_uce-30321.nexus
+ 342	DNA	42	412	177	133	258	258	CIAlign_uce-30435.nexus
+ 343	DNA	41	119	54	39	65	65	CIAlign_uce-3047.nexus
+ 344	DNA	40	197	93	74	109	109	CIAlign_uce-30493.nexus
+ 345	DNA	38	153	79	65	77	77	CIAlign_uce-30515.nexus
+ 346	DNA	39	495	381	285	136	136	CIAlign_uce-30525.nexus
+ 347	DNA	40	199	90	77	111	111	CIAlign_uce-30574.nexus
+ 348	DNA	42	97	41	31	60	60	CIAlign_uce-3067.nexus
+ 349	DNA	41	179	96	66	92	92	CIAlign_uce-30748.nexus
+ 350	DNA	38	386	222	172	174	174	CIAlign_uce-30769.nexus
+ 351	DNA	42	228	97	69	142	142	CIAlign_uce-30828.nexus
+ 352	DNA	40	173	83	63	101	101	CIAlign_uce-30830.nexus
+ 353	DNA	40	179	85	57	105	105	CIAlign_uce-30836.nexus
+ 354	DNA	39	223	119	97	102	102	CIAlign_uce-3102.nexus
+ 355	DNA	43	586	224	167	355	355	CIAlign_uce-31067.nexus
+ 356	DNA	38	312	186	148	135	135	CIAlign_uce-31079.nexus
+ 357	DNA	41	116	53	38	68	68	CIAlign_uce-31082.nexus
+ 358	DNA	43	115	51	34	68	68	CIAlign_uce-31174.nexus
+ 359	DNA	41	189	67	47	127	127	CIAlign_uce-31176.nexus
+ 360	DNA	38	216	75	56	148	148	CIAlign_uce-31286.nexus
+ 361	DNA	41	186	77	62	111	111	CIAlign_uce-31287.nexus
+ 362	DNA	39	379	257	197	145	145	CIAlign_uce-31300.nexus
+ 363	DNA	39	156	73	59	90	90	CIAlign_uce-31352.nexus
+ 364	DNA	38	227	97	61	147	147	CIAlign_uce-31473.nexus
+ 365	DNA	39	178	108	92	77	77	CIAlign_uce-31484.nexus
+ 366	DNA	44	131	64	44	71	71	CIAlign_uce-31497.nexus
+ 367	DNA	40	642	417	322	246	246	CIAlign_uce-31759.nexus
+ 368	DNA	41	135	72	51	78	78	CIAlign_uce-31829.nexus
+ 369	DNA	42	274	142	115	144	144	CIAlign_uce-3186.nexus
+ 370	DNA	38	173	79	56	101	101	CIAlign_uce-31893.nexus
+ 371	DNA	42	286	115	90	167	167	CIAlign_uce-31907.nexus
+ 372	DNA	41	172	89	66	96	96	CIAlign_uce-31967.nexus
+ 373	DNA	41	267	136	110	133	133	CIAlign_uce-32005.nexus
+ 374	DNA	42	142	76	54	72	72	CIAlign_uce-32057.nexus
+ 375	DNA	38	240	149	128	98	98	CIAlign_uce-32088.nexus
+ 376	DNA	37	150	67	44	86	86	CIAlign_uce-32102.nexus
+ 377	DNA	40	141	58	42	86	86	CIAlign_uce-32146.nexus
+ 378	DNA	42	266	124	92	149	149	CIAlign_uce-32174.nexus
+ 379	DNA	40	151	64	45	88	88	CIAlign_uce-32214.nexus
+ 380	DNA	40	178	98	79	87	87	CIAlign_uce-32270.nexus
+ 381	DNA	40	398	247	187	162	162	CIAlign_uce-32355.nexus
+ 382	DNA	40	192	96	77	99	99	CIAlign_uce-32430.nexus
+ 383	DNA	38	134	78	59	60	60	CIAlign_uce-32470.nexus
+ 384	DNA	44	296	196	115	108	108	CIAlign_uce-32474.nexus
+ 385	DNA	38	250	132	87	141	141	CIAlign_uce-32475.nexus
+ 386	DNA	38	125	66	54	67	67	CIAlign_uce-32509.nexus
+ 387	DNA	45	169	74	42	90	90	CIAlign_uce-3258.nexus
+ 388	DNA	38	356	207	153	182	182	CIAlign_uce-32689.nexus
+ 389	DNA	40	222	103	53	132	132	CIAlign_uce-32720.nexus
+ 390	DNA	38	145	70	55	80	80	CIAlign_uce-32735.nexus
+ 391	DNA	39	139	56	30	82	82	CIAlign_uce-32764.nexus
+ 392	DNA	37	153	69	53	88	88	CIAlign_uce-32775.nexus
+ 393	DNA	42	534	372	259	193	193	CIAlign_uce-32884.nexus
+ 394	DNA	39	176	96	79	87	87	CIAlign_uce-32909.nexus
+ 395	DNA	37	118	61	44	61	61	CIAlign_uce-33011.nexus
+ 396	DNA	39	239	118	98	120	120	CIAlign_uce-33015.nexus
+ 397	DNA	40	227	135	99	100	100	CIAlign_uce-33050.nexus
+ 398	DNA	41	647	353	282	318	318	CIAlign_uce-3309.nexus
+ 399	DNA	41	314	169	116	179	179	CIAlign_uce-33091.nexus
+ 400	DNA	46	207	96	72	113	113	CIAlign_uce-33206.nexus
+ 401	DNA	40	180	92	69	96	96	CIAlign_uce-33241.nexus
+ 402	DNA	37	194	88	59	108	108	CIAlign_uce-33428.nexus
+ 403	DNA	38	157	70	53	96	96	CIAlign_uce-33443.nexus
+ 404	DNA	41	304	146	122	159	159	CIAlign_uce-33521.nexus
+ 405	DNA	37	515	236	169	316	316	CIAlign_uce-33639.nexus
+ 406	DNA	38	140	78	60	66	66	CIAlign_uce-33668.nexus
+ 407	DNA	40	220	104	73	129	129	CIAlign_uce-33691.nexus
+ 408	DNA	42	150	84	60	74	74	CIAlign_uce-33739.nexus
+ 409	DNA	41	188	86	69	105	105	CIAlign_uce-33747.nexus
+ 410	DNA	40	217	110	90	115	115	CIAlign_uce-33749.nexus
+ 411	DNA	41	172	90	63	92	92	CIAlign_uce-3379.nexus
+ 412	DNA	45	172	100	79	77	77	CIAlign_uce-33949.nexus
+ 413	DNA	40	100	47	36	57	57	CIAlign_uce-33993.nexus
+ 414	DNA	37	178	89	76	92	92	CIAlign_uce-3406.nexus
+ 415	DNA	40	157	78	66	80	80	CIAlign_uce-34159.nexus
+ 416	DNA	42	222	141	88	89	89	CIAlign_uce-34185.nexus
+ 417	DNA	37	166	81	65	88	88	CIAlign_uce-34210.nexus
+ 418	DNA	46	372	135	81	251	251	CIAlign_uce-34267.nexus
+ 419	DNA	39	146	57	45	92	92	CIAlign_uce-34324.nexus
+ 420	DNA	39	275	115	96	162	162	CIAlign_uce-34366.nexus
+ 421	DNA	38	197	94	66	98	98	CIAlign_uce-34406.nexus
+ 422	DNA	43	606	326	232	319	319	CIAlign_uce-34507.nexus
+ 423	DNA	38	147	48	29	98	98	CIAlign_uce-34528.nexus
+ 424	DNA	40	229	91	64	146	146	CIAlign_uce-34571.nexus
+ 425	DNA	37	305	153	130	157	157	CIAlign_uce-3459.nexus
+ 426	DNA	39	482	315	242	189	189	CIAlign_uce-34922.nexus
+ 427	DNA	40	162	67	44	92	92	CIAlign_uce-35009.nexus
+ 428	DNA	42	111	39	29	70	70	CIAlign_uce-35011.nexus
+ 429	DNA	40	242	149	115	97	97	CIAlign_uce-35055.nexus
+ 430	DNA	37	477	236	187	265	265	CIAlign_uce-35112.nexus
+ 431	DNA	41	267	129	103	143	143	CIAlign_uce-35150.nexus
+ 432	DNA	38	210	83	70	127	127	CIAlign_uce-35151.nexus
+ 433	DNA	39	161	81	63	88	88	CIAlign_uce-35203.nexus
+ 434	DNA	37	256	137	108	126	126	CIAlign_uce-35230.nexus
+ 435	DNA	39	187	117	77	86	86	CIAlign_uce-35404.nexus
+ 436	DNA	38	129	61	45	72	72	CIAlign_uce-35424.nexus
+ 437	DNA	40	206	92	83	116	116	CIAlign_uce-35436.nexus
+ 438	DNA	46	221	110	86	113	113	CIAlign_uce-35494.nexus
+ 439	DNA	46	183	84	56	100	100	CIAlign_uce-35495.nexus
+ 440	DNA	37	209	108	92	108	108	CIAlign_uce-35776.nexus
+ 441	DNA	38	232	124	105	112	112	CIAlign_uce-35782.nexus
+ 442	DNA	38	160	64	42	92	92	CIAlign_uce-35801.nexus
+ 443	DNA	40	214	113	84	101	101	CIAlign_uce-35805.nexus
+ 444	DNA	40	136	73	54	67	67	CIAlign_uce-35828.nexus
+ 445	DNA	39	268	139	112	137	137	CIAlign_uce-35867.nexus
+ 446	DNA	44	137	74	55	66	66	CIAlign_uce-35983.nexus
+ 447	DNA	38	281	182	121	126	126	CIAlign_uce-36059.nexus
+ 448	DNA	41	304	149	119	160	160	CIAlign_uce-36060.nexus
+ 449	DNA	42	267	66	55	194	194	CIAlign_uce-36068.nexus
+ 450	DNA	43	174	59	42	117	117	CIAlign_uce-36093.nexus
+ 451	DNA	40	216	94	61	128	128	CIAlign_uce-36225.nexus
+ 452	DNA	44	187	71	56	118	118	CIAlign_uce-36320.nexus
+ 453	DNA	41	131	70	50	67	67	CIAlign_uce-36414.nexus
+ 454	DNA	38	159	66	48	83	83	CIAlign_uce-36415.nexus
+ 455	DNA	45	129	46	25	83	83	CIAlign_uce-36416.nexus
+ 456	DNA	38	204	70	48	143	143	CIAlign_uce-36456.nexus
+ 457	DNA	44	683	468	318	287	287	CIAlign_uce-36459.nexus
+ 458	DNA	41	133	64	52	72	72	CIAlign_uce-36528.nexus
+ 459	DNA	41	209	118	93	91	91	CIAlign_uce-36604.nexus
+ 460	DNA	38	221	132	95	99	99	CIAlign_uce-3665.nexus
+ 461	DNA	44	184	90	58	94	94	CIAlign_uce-36659.nexus
+ 462	DNA	40	125	53	40	76	76	CIAlign_uce-36692.nexus
+ 463	DNA	42	184	107	86	86	86	CIAlign_uce-369.nexus
+ 464	DNA	42	201	80	65	124	124	CIAlign_uce-3693.nexus
+ 465	DNA	38	178	94	69	92	92	CIAlign_uce-36992.nexus
+ 466	DNA	42	136	19	9	122	122	CIAlign_uce-37073.nexus
+ 467	DNA	38	176	71	57	109	109	CIAlign_uce-37268.nexus
+ 468	DNA	45	211	99	78	109	109	CIAlign_uce-37439.nexus
+ 469	DNA	42	357	196	141	189	189	CIAlign_uce-37547.nexus
+ 470	DNA	37	152	74	56	83	83	CIAlign_uce-37821.nexus
+ 471	DNA	46	184	96	78	94	94	CIAlign_uce-37919.nexus
+ 472	DNA	40	135	57	45	80	80	CIAlign_uce-37961.nexus
+ 473	DNA	42	130	64	47	73	73	CIAlign_uce-38073.nexus
+ 474	DNA	37	101	40	30	65	65	CIAlign_uce-38134.nexus
+ 475	DNA	38	203	87	72	119	119	CIAlign_uce-3819.nexus
+ 476	DNA	39	214	115	94	102	102	CIAlign_uce-38254.nexus
+ 477	DNA	40	211	102	75	122	122	CIAlign_uce-38272.nexus
+ 478	DNA	44	184	86	62	106	106	CIAlign_uce-38388.nexus
+ 479	DNA	39	204	102	85	110	110	CIAlign_uce-38441.nexus
+ 480	DNA	38	205	73	49	135	135	CIAlign_uce-38446.nexus
+ 481	DNA	44	239	82	69	160	160	CIAlign_uce-3846.nexus
+ 482	DNA	37	247	145	118	114	114	CIAlign_uce-38646.nexus
+ 483	DNA	41	282	123	103	160	160	CIAlign_uce-38650.nexus
+ 484	DNA	39	227	110	90	121	121	CIAlign_uce-38734.nexus
+ 485	DNA	38	214	132	104	82	82	CIAlign_uce-38767.nexus
+ 486	DNA	43	166	73	61	100	100	CIAlign_uce-38785.nexus
+ 487	DNA	42	256	103	70	160	160	CIAlign_uce-38805.nexus
+ 488	DNA	43	185	82	67	111	111	CIAlign_uce-38821.nexus
+ 489	DNA	42	526	266	199	264	264	CIAlign_uce-38924.nexus
+ 490	DNA	40	205	85	60	126	126	CIAlign_uce-38967.nexus
+ 491	DNA	37	120	62	45	66	66	CIAlign_uce-39033.nexus
+ 492	DNA	40	165	70	51	93	93	CIAlign_uce-39106.nexus
+ 493	DNA	44	192	107	77	95	95	CIAlign_uce-39175.nexus
+ 494	DNA	40	142	68	55	78	78	CIAlign_uce-39184.nexus
+ 495	DNA	45	244	135	108	118	118	CIAlign_uce-39191.nexus
+ 496	DNA	40	157	83	61	78	78	CIAlign_uce-39248.nexus
+ 497	DNA	42	340	155	123	183	183	CIAlign_uce-39249.nexus
+ 498	DNA	39	280	179	153	109	109	CIAlign_uce-39264.nexus
+ 499	DNA	38	151	80	64	73	73	CIAlign_uce-39267.nexus
+ 500	DNA	42	275	113	66	170	170	CIAlign_uce-39274.nexus
+ 501	DNA	45	176	83	63	91	91	CIAlign_uce-39334.nexus
+ 502	DNA	42	318	136	88	196	196	CIAlign_uce-39477.nexus
+ 503	DNA	41	516	334	269	210	210	CIAlign_uce-39514.nexus
+ 504	DNA	44	357	229	169	136	136	CIAlign_uce-39621.nexus
+ 505	DNA	39	233	122	88	120	120	CIAlign_uce-3972.nexus
+ 506	DNA	40	245	155	122	96	96	CIAlign_uce-3975.nexus
+ 507	DNA	40	190	73	46	116	116	CIAlign_uce-39793.nexus
+ 508	DNA	41	193	85	59	117	117	CIAlign_uce-39798.nexus
+ 509	DNA	44	115	48	40	71	71	CIAlign_uce-39843.nexus
+ 510	DNA	43	112	63	52	52	52	CIAlign_uce-3994.nexus
+ 511	DNA	41	209	114	92	98	98	CIAlign_uce-39967.nexus
+ 512	DNA	41	221	84	60	142	142	CIAlign_uce-40254.nexus
+ 513	DNA	42	132	65	54	72	72	CIAlign_uce-40328.nexus
+ 514	DNA	39	449	218	172	232	232	CIAlign_uce-4036.nexus
+ 515	DNA	39	655	346	259	353	353	CIAlign_uce-4040.nexus
+ 516	DNA	38	159	83	60	82	82	CIAlign_uce-4045.nexus
+ 517	DNA	41	255	80	55	176	176	CIAlign_uce-40474.nexus
+ 518	DNA	38	168	82	66	89	89	CIAlign_uce-40602.nexus
+ 519	DNA	42	299	141	109	139	139	CIAlign_uce-40624.nexus
+ 520	DNA	37	146	73	58	80	80	CIAlign_uce-40674.nexus
+ 521	DNA	44	177	72	57	111	111	CIAlign_uce-40683.nexus
+ 522	DNA	38	155	66	47	92	92	CIAlign_uce-40731.nexus
+ 523	DNA	41	150	69	57	85	85	CIAlign_uce-40765.nexus
+ 524	DNA	38	118	56	41	67	67	CIAlign_uce-4163.nexus
+ 525	DNA	44	190	117	73	79	79	CIAlign_uce-4173.nexus
+ 526	DNA	43	100	38	29	66	66	CIAlign_uce-4205.nexus
+ 527	DNA	42	162	77	57	86	86	CIAlign_uce-4239.nexus
+ 528	DNA	38	396	263	205	159	159	CIAlign_uce-425.nexus
+ 529	DNA	40	158	67	49	98	98	CIAlign_uce-428.nexus
+ 530	DNA	42	109	45	31	65	65	CIAlign_uce-4322.nexus
+ 531	DNA	42	208	115	77	106	106	CIAlign_uce-4327.nexus
+ 532	DNA	45	253	148	93	106	106	CIAlign_uce-4330.nexus
+ 533	DNA	39	219	103	79	123	123	CIAlign_uce-4622.nexus
+ 534	DNA	39	150	66	50	89	89	CIAlign_uce-4653.nexus
+ 535	DNA	44	195	103	67	103	103	CIAlign_uce-4678.nexus
+ 536	DNA	43	184	93	70	101	101	CIAlign_uce-4691.nexus
+ 537	DNA	39	226	122	91	110	110	CIAlign_uce-4889.nexus
+ 538	DNA	44	261	111	71	159	159	CIAlign_uce-5234.nexus
+ 539	DNA	44	176	54	41	121	121	CIAlign_uce-5243.nexus
+ 540	DNA	42	199	67	42	132	132	CIAlign_uce-5320.nexus
+ 541	DNA	40	149	88	69	68	68	CIAlign_uce-5326.nexus
+ 542	DNA	38	150	75	60	83	83	CIAlign_uce-5449.nexus
+ 543	DNA	40	314	186	147	135	135	CIAlign_uce-547.nexus
+ 544	DNA	41	229	153	121	81	81	CIAlign_uce-5525.nexus
+ 545	DNA	38	346	232	161	151	151	CIAlign_uce-5560.nexus
+ 546	DNA	39	224	89	73	139	139	CIAlign_uce-5691.nexus
+ 547	DNA	42	91	41	28	54	54	CIAlign_uce-5763.nexus
+ 548	DNA	44	141	70	54	78	78	CIAlign_uce-5967.nexus
+ 549	DNA	37	190	133	103	70	70	CIAlign_uce-5990.nexus
+ 550	DNA	45	210	62	50	152	152	CIAlign_uce-6237.nexus
+ 551	DNA	39	182	95	69	91	91	CIAlign_uce-6244.nexus
+ 552	DNA	42	187	112	80	89	89	CIAlign_uce-6250.nexus
+ 553	DNA	39	227	129	104	108	108	CIAlign_uce-6374.nexus
+ 554	DNA	39	504	268	205	255	255	CIAlign_uce-6550.nexus
+ 555	DNA	41	402	249	180	164	164	CIAlign_uce-6553.nexus
+ 556	DNA	41	318	206	139	141	141	CIAlign_uce-6598.nexus
+ 557	DNA	41	682	357	280	358	358	CIAlign_uce-675.nexus
+ 558	DNA	39	193	88	69	114	114	CIAlign_uce-6782.nexus
+ 559	DNA	39	196	104	75	97	97	CIAlign_uce-6787.nexus
+ 560	DNA	37	168	83	61	89	89	CIAlign_uce-6882.nexus
+ 561	DNA	38	468	274	191	234	234	CIAlign_uce-693.nexus
+ 562	DNA	37	148	85	69	69	69	CIAlign_uce-6957.nexus
+ 563	DNA	41	188	101	74	92	92	CIAlign_uce-696.nexus
+ 564	DNA	42	265	97	77	169	169	CIAlign_uce-6976.nexus
+ 565	DNA	43	505	337	259	180	180	CIAlign_uce-7044.nexus
+ 566	DNA	38	217	79	62	138	138	CIAlign_uce-711.nexus
+ 567	DNA	43	176	103	68	73	73	CIAlign_uce-7169.nexus
+ 568	DNA	39	213	103	92	117	117	CIAlign_uce-7271.nexus
+ 569	DNA	40	139	67	52	76	76	CIAlign_uce-731.nexus
+ 570	DNA	42	206	111	87	96	96	CIAlign_uce-750.nexus
+ 571	DNA	46	499	110	41	407	407	CIAlign_uce-7534.nexus
+ 572	DNA	42	271	100	86	172	172	CIAlign_uce-7659.nexus
+ 573	DNA	38	210	98	80	121	121	CIAlign_uce-7662.nexus
+ 574	DNA	38	222	97	83	129	129	CIAlign_uce-7668.nexus
+ 575	DNA	43	430	266	176	203	203	CIAlign_uce-7709.nexus
+ 576	DNA	40	554	297	240	276	276	CIAlign_uce-7711.nexus
+ 577	DNA	41	604	338	259	292	292	CIAlign_uce-7760.nexus
+ 578	DNA	39	171	100	74	74	74	CIAlign_uce-7780.nexus
+ 579	DNA	45	362	168	125	215	215	CIAlign_uce-7810.nexus
+ 580	DNA	39	266	145	100	132	132	CIAlign_uce-7844.nexus
+ 581	DNA	42	230	110	96	122	122	CIAlign_uce-7892.nexus
+ 582	DNA	37	114	42	30	75	75	CIAlign_uce-7943.nexus
+ 583	DNA	38	187	97	66	97	97	CIAlign_uce-7981.nexus
+ 584	DNA	43	165	68	48	102	102	CIAlign_uce-7994.nexus
+ 585	DNA	38	152	67	50	86	86	CIAlign_uce-8029.nexus
+ 586	DNA	40	124	63	51	69	69	CIAlign_uce-8056.nexus
+ 587	DNA	39	116	62	40	63	63	CIAlign_uce-8080.nexus
+ 588	DNA	43	428	235	146	211	211	CIAlign_uce-8081.nexus
+ 589	DNA	38	125	68	46	64	64	CIAlign_uce-8138.nexus
+ 590	DNA	45	289	132	91	169	169	CIAlign_uce-8466.nexus
+ 591	DNA	38	101	51	36	54	54	CIAlign_uce-849.nexus
+ 592	DNA	39	260	140	102	131	131	CIAlign_uce-8496.nexus
+ 593	DNA	45	190	88	71	109	109	CIAlign_uce-8612.nexus
+ 594	DNA	41	131	42	30	89	89	CIAlign_uce-8699.nexus
+ 595	DNA	38	274	116	97	162	162	CIAlign_uce-870.nexus
+ 596	DNA	42	172	81	72	93	93	CIAlign_uce-8702.nexus
+ 597	DNA	41	607	323	239	307	307	CIAlign_uce-8707.nexus
+ 598	DNA	40	175	105	73	81	81	CIAlign_uce-8753.nexus
+ 599	DNA	40	118	49	34	73	73	CIAlign_uce-8827.nexus
+ 600	DNA	38	190	109	87	84	84	CIAlign_uce-8828.nexus
+ 601	DNA	44	155	77	58	79	79	CIAlign_uce-8846.nexus
+ 602	DNA	42	135	60	36	78	78	CIAlign_uce-8932.nexus
+ 603	DNA	38	236	130	94	110	110	CIAlign_uce-8955.nexus
+ 604	DNA	40	139	55	46	88	88	CIAlign_uce-8997.nexus
+ 605	DNA	38	392	228	176	186	186	CIAlign_uce-9002.nexus
+ 606	DNA	41	169	70	49	102	102	CIAlign_uce-903.nexus
+ 607	DNA	37	241	138	115	111	111	CIAlign_uce-9031.nexus
+ 608	DNA	41	250	111	88	143	143	CIAlign_uce-9415.nexus
+ 609	DNA	43	218	102	82	118	118	CIAlign_uce-9437.nexus
+ 610	DNA	40	210	103	64	126	126	CIAlign_uce-9471.nexus
+ 611	DNA	41	168	76	60	95	95	CIAlign_uce-9508.nexus
+ 612	DNA	41	181	56	33	133	133	CIAlign_uce-9518.nexus
+ 613	DNA	43	237	130	101	110	110	CIAlign_uce-9589.nexus
+ 614	DNA	39	122	67	56	59	59	CIAlign_uce-9608.nexus
+ 615	DNA	42	209	85	58	127	127	CIAlign_uce-9694.nexus
+ 616	DNA	39	234	112	84	136	136	CIAlign_uce-9710.nexus
+ 617	DNA	42	143	64	50	83	83	CIAlign_uce-9730.nexus
+ 618	DNA	41	184	100	71	90	90	CIAlign_uce-976.nexus
+ 619	DNA	39	242	149	123	98	98	CIAlign_uce-981.nexus
+ 620	DNA	38	190	91	73	103	103	CIAlign_uce-9935.nexus
+ 621	DNA	39	176	77	60	111	111	CIAlign_uce-9966.nexus
+ 622	DNA	40	148	72	47	84	84	CIAlign_uce-9968.nexus
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+I+R3:CIAlign_uce-10009.nexus,HKY+F+G4:CIAlign_uce-10172.nexus,HKY+F+R3:CIAlign_uce-10182.nexus,TPM3u+I+G4:CIAlign_uce-10226.nexus,HKY+I+G4:CIAlign_uce-10320.nexus,TPM3u+F+I+G4:CIAlign_uce-10348.nexus,HKY+F+I+G4:CIAlign_uce-10555.nexus,TN+F+G4:CIAlign_uce-10659.nexus,TN+F+I+G4:CIAlign_uce-1076.nexus,HKY+F+I+G4:CIAlign_uce-10812.nexus,HKY+F+I+G4:CIAlign_uce-10890.nexus,TPM3+G4:CIAlign_uce-10916.nexus,TIM3e+I+G4:CIAlign_uce-10918.nexus,TN+I+R2:CIAlign_uce-10932.nexus,TIM+I+R2:CIAlign_uce-1095.nexus,HKY+G4:CIAlign_uce-10968.nexus,TPM2u+F+I+G4:CIAlign_uce-11073.nexus,TIM2e+G4:CIAlign_uce-11136.nexus,TN+F+G4:CIAlign_uce-11427.nexus,HKY+I+G4:CIAlign_uce-1144.nexus,K3P+G4:CIAlign_uce-11548.nexus,TIM3+F+I+G4:CIAlign_uce-11573.nexus,TIM2+I+G4:CIAlign_uce-11739.nexus,GTR+F+I+G4:CIAlign_uce-11740.nexus,TN+F+G4:CIAlign_uce-118.nexus,TIM2+F+G4:CIAlign_uce-11820.nexus,TN+F+G4:CIAlign_uce-11993.nexus,TIM3+F+I+G4:CIAlign_uce-12105.nexus,HKY+I+G4:CIAlign_uce-12167.nexus,TN+F+I+G4:CIAlign_uce-12227.nexus,TPM2u+G4:CIAlign_uce-1223.nexus,HKY+R3:CIAlign_uce-12273.nexus,HKY+F+R3:CIAlign_uce-12368.nexus,K2P+G4:CIAlign_uce-12383.nexus,TIM3+I+G4:CIAlign_uce-12504.nexus,TIM3+F+I+G4:CIAlign_uce-12511.nexus,TPM3+I+G4:CIAlign_uce-12515.nexus,TIM2+F+G4:CIAlign_uce-12553.nexus,HKY+I+G4:CIAlign_uce-12694.nexus,TN+F+I+R2:CIAlign_uce-12735.nexus,HKY+F+I+R3:CIAlign_uce-12740.nexus,HKY+I+G4:CIAlign_uce-12755.nexus,HKY+F+G4:CIAlign_uce-12808.nexus,TN+F+G4:CIAlign_uce-12892.nexus,HKY+G4:CIAlign_uce-12986.nexus,TPM3u+I+G4:CIAlign_uce-13005.nexus,TPM3u+I+G4:CIAlign_uce-13079.nexus,TIM2e+I+G4:CIAlign_uce-13109.nexus,TPM3u+I+G4:CIAlign_uce-13110.nexus,TIM2+F+I+G4:CIAlign_uce-13112.nexus,TPM3+G4:CIAlign_uce-13153.nexus,TPM3+G4:CIAlign_uce-13273.nexus,HKY+F+G4:CIAlign_uce-13298.nexus,K3Pu+F+I+G4:CIAlign_uce-13324.nexus,K3Pu+G4:CIAlign_uce-13498.nexus,TN+F+I+G4:CIAlign_uce-13635.nexus,TIM2+I+G4:CIAlign_uce-13941.nexus,TPM3u+R3:CIAlign_uce-14008.nexus,HKY+F+G4:CIAlign_uce-14049.nexus,K3Pu+I+G4:CIAlign_uce-14091.nexus,TPM3u+G4:CIAlign_uce-1410.nexus,TPM2+G4:CIAlign_uce-14138.nexus,TPM3+I+G4:CIAlign_uce-14299.nexus,TN+F+I+G4:CIAlign_uce-1443.nexus,TIM2+F+I+G4:CIAlign_uce-1444.nexus,HKY+I+G4:CIAlign_uce-14535.nexus,K2P+G4:CIAlign_uce-14541.nexus,TPM2u+F+I+G4:CIAlign_uce-14780.nexus,TIM2+G4:CIAlign_uce-14783.nexus,TIM2+G4:CIAlign_uce-14809.nexus,HKY+G4:CIAlign_uce-14863.nexus,TPM3u+I+G4:CIAlign_uce-15033.nexus,TIM2+I+G4:CIAlign_uce-15037.nexus,TIM2+R3:CIAlign_uce-15135.nexus,TIM3+F+G4:CIAlign_uce-1519.nexus,TIM3e+I+G4:CIAlign_uce-15292.nexus,TPM2u+F+I:CIAlign_uce-1561.nexus,TIM3e+I+G4:CIAlign_uce-15616.nexus,HKY+G4:CIAlign_uce-15680.nexus,HKY+I+G4:CIAlign_uce-1591.nexus,TIM3+F+I+G4:CIAlign_uce-16071.nexus,TN+F+I+G4:CIAlign_uce-16245.nexus,TIM3+F+I+G4:CIAlign_uce-16304.nexus,TIM2e+I+G4:CIAlign_uce-16373.nexus,TPM2u+I+G4:CIAlign_uce-16467.nexus,TPM3u+G4:CIAlign_uce-16513.nexus,TPM3u+F+G4:CIAlign_uce-16528.nexus,TN+F+I+G4:CIAlign_uce-16529.nexus,TPM2u+F+G4:CIAlign_uce-16530.nexus,HKY+F+G4:CIAlign_uce-16539.nexus,HKY+F+I+R3:CIAlign_uce-16542.nexus,TPM3u+I+G4:CIAlign_uce-1661.nexus,TPM3u+I+G4:CIAlign_uce-16622.nexus,TPM2u+G4:CIAlign_uce-16737.nexus,HKY+I+G4:CIAlign_uce-16739.nexus,TPM2+I+G4:CIAlign_uce-168.nexus,HKY+G4:CIAlign_uce-1694.nexus,TN+F+I+G4:CIAlign_uce-1696.nexus,TPM2u+F+I+G4:CIAlign_uce-17130.nexus,TPM3u+F+R3:CIAlign_uce-17172.nexus,TPM2u+F+G4:CIAlign_uce-17215.nexus,K2P+G4:CIAlign_uce-17216.nexus,TN+F+I+G4:CIAlign_uce-1727.nexus,TN+F+I+G4:CIAlign_uce-17291.nexus,TIM2+F+G4:CIAlign_uce-17296.nexus,TIM3+F+I+G4:CIAlign_uce-17457.nexus,TPM2u+I+G4:CIAlign_uce-17490.nexus,K3Pu+I+G4:CIAlign_uce-17491.nexus,TN+F+I+G4:CIAlign_uce-17492.nexus,TPM3+I+G4:CIAlign_uce-17580.nexus,TIM3+R3:CIAlign_uce-17585.nexus,HKY+F+G4:CIAlign_uce-17603.nexus,TVM+I+G4:CIAlign_uce-17715.nexus,TPM2u+I+G4:CIAlign_uce-17805.nexus,HKY+F+G4:CIAlign_uce-17825.nexus,TPM2u+I+G4:CIAlign_uce-17828.nexus,HKY+G4:CIAlign_uce-17866.nexus,HKY+F+I+G4:CIAlign_uce-1797.nexus,TPM3u+F+I+G4:CIAlign_uce-18104.nexus,TIM3+I+G4:CIAlign_uce-18242.nexus,TPM3+G4:CIAlign_uce-18245.nexus,HKY+F+I+G4:CIAlign_uce-18287.nexus,HKY+G4:CIAlign_uce-18299.nexus,TPM3u+I+G4:CIAlign_uce-18317.nexus,TN+F+G4:CIAlign_uce-18367.nexus,TPM2u+F+I+G4:CIAlign_uce-18385.nexus,TPM3u+F+I+G4:CIAlign_uce-18387.nexus,TPM3u+F+I+G4:CIAlign_uce-1842.nexus,TIM3e+I+G4:CIAlign_uce-18486.nexus,HKY+G4:CIAlign_uce-18500.nexus,TPM3u+I+G4:CIAlign_uce-18679.nexus,TPM3u+I+G4:CIAlign_uce-18734.nexus,TPM2u+F+I+G4:CIAlign_uce-18817.nexus,HKY+I+G4:CIAlign_uce-18906.nexus,TPM3u+I+G4:CIAlign_uce-18909.nexus,HKY+I+G4:CIAlign_uce-19018.nexus,TNe+R3:CIAlign_uce-19063.nexus,TN+F+R3:CIAlign_uce-19064.nexus,TIM3+G4:CIAlign_uce-19069.nexus,TIM3+F+I+G4:CIAlign_uce-19073.nexus,TNe+I+G4:CIAlign_uce-19140.nexus,TN+F+I+G4:CIAlign_uce-19154.nexus,TPM2u+F+I+G4:CIAlign_uce-19306.nexus,TN+F+G4:CIAlign_uce-19325.nexus,TPM2+G4:CIAlign_uce-19336.nexus,HKY+F+G4:CIAlign_uce-19354.nexus,HKY+F+G4:CIAlign_uce-19356.nexus,TNe+I+G4:CIAlign_uce-1938.nexus,TIM2+F+I+G4:CIAlign_uce-19632.nexus,TIM3+F+G4:CIAlign_uce-19658.nexus,TPM3u+I+G4:CIAlign_uce-19689.nexus,TPM2u+I+G4:CIAlign_uce-1973.nexus,TN+I+G4:CIAlign_uce-19973.nexus,TPM2u+F+I+R2:CIAlign_uce-20045.nexus,TIM3+F+I+G4:CIAlign_uce-20066.nexus,TPM3u+G4:CIAlign_uce-20245.nexus,TPM3+I+G4:CIAlign_uce-20254.nexus,K2P+G4:CIAlign_uce-20401.nexus,TPM2+I+G4:CIAlign_uce-20417.nexus,HKY+F+G4:CIAlign_uce-20467.nexus,TPM3u+G4:CIAlign_uce-20468.nexus,TPM2u+I+G4:CIAlign_uce-20471.nexus,TN+F+G4:CIAlign_uce-20483.nexus,TPM3u+F+I+G4:CIAlign_uce-20572.nexus,TPM2u+F+I+G4:CIAlign_uce-20676.nexus,TIM2+F+I+G4:CIAlign_uce-20777.nexus,TVM+F+I+G4:CIAlign_uce-20807.nexus,TPM3u+G4:CIAlign_uce-2084.nexus,HKY+R3:CIAlign_uce-20889.nexus,HKY+F+G4:CIAlign_uce-20892.nexus,TPM3u+I+G4:CIAlign_uce-20940.nexus,TPM3u+F+I+R3:CIAlign_uce-21162.nexus,TPM3u+R3:CIAlign_uce-21183.nexus,TN+F+I+G4:CIAlign_uce-2119.nexus,HKY+F+I+R3:CIAlign_uce-21263.nexus,TN+G4:CIAlign_uce-21264.nexus,K2P+G4:CIAlign_uce-21267.nexus,TPM3+I+G4:CIAlign_uce-21275.nexus,K3Pu+I+R2:CIAlign_uce-21362.nexus,HKY+F+I+G4:CIAlign_uce-21409.nexus,TPM2u+G4:CIAlign_uce-21496.nexus,TIM2+I+G4:CIAlign_uce-21626.nexus,HKY+F+I+G4:CIAlign_uce-21695.nexus,TPM3u+F+I+G4:CIAlign_uce-21740.nexus,HKY+F+I+G4:CIAlign_uce-21858.nexus,TN+F+I+G4:CIAlign_uce-2197.nexus,TPM3u+I+G4:CIAlign_uce-21978.nexus,TIM2+I+R2:CIAlign_uce-22009.nexus,HKY+F+I+R2:CIAlign_uce-2206.nexus,TIM2e+R4:CIAlign_uce-22064.nexus,TIM2+F+I+G4:CIAlign_uce-22195.nexus,K2P+I+R2:CIAlign_uce-22213.nexus,HKY+G4:CIAlign_uce-22317.nexus,K2P+I+G4:CIAlign_uce-22330.nexus,K2P+G4:CIAlign_uce-22413.nexus,HKY+I+G4:CIAlign_uce-22430.nexus,TIM3+G4:CIAlign_uce-22549.nexus,TN+F+G4:CIAlign_uce-22581.nexus,TPM3u+F+G4:CIAlign_uce-22594.nexus,TIM2e+R3:CIAlign_uce-22624.nexus,K2P+G4:CIAlign_uce-22644.nexus,TIM2+F+I+R2:CIAlign_uce-22645.nexus,K2P+I+G4:CIAlign_uce-22646.nexus,HKY+I+G4:CIAlign_uce-22658.nexus,TNe+G4:CIAlign_uce-22688.nexus,TPM2u+I+G4:CIAlign_uce-22689.nexus,K3Pu+F+G4:CIAlign_uce-2291.nexus,HKY+F+I+G4:CIAlign_uce-22946.nexus,TVM+I+G4:CIAlign_uce-22965.nexus,HKY+I+G4:CIAlign_uce-22977.nexus,TPM3u+F+R3:CIAlign_uce-23147.nexus,HKY+I+R2:CIAlign_uce-2318.nexus,TPM3u+F+I+G4:CIAlign_uce-23237.nexus,TIM3+F+I:CIAlign_uce-23347.nexus,HKY+I+G4:CIAlign_uce-2346.nexus,TPM3u+I+G4:CIAlign_uce-23541.nexus,HKY+I+R2:CIAlign_uce-23569.nexus,HKY+F+I+G4:CIAlign_uce-23576.nexus,HKY+F+R3:CIAlign_uce-23668.nexus,HKY+F+I+G4:CIAlign_uce-23690.nexus,TN+F+I+G4:CIAlign_uce-23713.nexus,TPM2u+F+I+G4:CIAlign_uce-23715.nexus,TN+I+G4:CIAlign_uce-23800.nexus,TN+F+I+G4:CIAlign_uce-23837.nexus,TPM2u+F+I+G4:CIAlign_uce-23975.nexus,TPM3+I+G4:CIAlign_uce-24115.nexus,TVM+I+G4:CIAlign_uce-24367.nexus,HKY+F+I+G4:CIAlign_uce-24410.nexus,TPM3+G4:CIAlign_uce-24422.nexus,TN+F+G4:CIAlign_uce-24448.nexus,HKY+G4:CIAlign_uce-24460.nexus,TIM3+F+I+G4:CIAlign_uce-24477.nexus,TPM3u+F+I:CIAlign_uce-24536.nexus,HKY+F+I+R2:CIAlign_uce-24559.nexus,HKY+F+I+G4:CIAlign_uce-24560.nexus,TN+F+I+G4:CIAlign_uce-24603.nexus,TPM2+I+G4:CIAlign_uce-24605.nexus,K2P+G4:CIAlign_uce-24650.nexus,TPM2+G4:CIAlign_uce-24678.nexus,TN+F+R3:CIAlign_uce-24715.nexus,HKY+F+G4:CIAlign_uce-24716.nexus,HKY+I+G4:CIAlign_uce-24734.nexus,HKY+F+I+G4:CIAlign_uce-24794.nexus,HKY+F+I+G4:CIAlign_uce-25004.nexus,HKY+G4:CIAlign_uce-25136.nexus,K2P+I+R2:CIAlign_uce-2516.nexus,TPM2u+F+I+R2:CIAlign_uce-25262.nexus,HKY+G4:CIAlign_uce-25263.nexus,K3Pu+I+G4:CIAlign_uce-25279.nexus,TPM2u+R3:CIAlign_uce-25388.nexus,TPM2u+F+G4:CIAlign_uce-25390.nexus,HKY+F+I+G4:CIAlign_uce-25409.nexus,HKY+F+G4:CIAlign_uce-25420.nexus,TN+F+G4:CIAlign_uce-2544.nexus,HKY+F+I+G4:CIAlign_uce-25459.nexus,TPM3u+F+R3:CIAlign_uce-25501.nexus,HKY+F+G4:CIAlign_uce-25513.nexus,HKY+F+I+R2:CIAlign_uce-25552.nexus,TN+I+G4:CIAlign_uce-25627.nexus,TPM2u+I+R2:CIAlign_uce-25666.nexus,TPM3u+I+G4:CIAlign_uce-25779.nexus,TPM2u+F+I+G4:CIAlign_uce-25787.nexus,TPM2u+F+R3:CIAlign_uce-25889.nexus,HKY+R3:CIAlign_uce-25904.nexus,TIM2e+G4:CIAlign_uce-26055.nexus,TPM2u+I+G4:CIAlign_uce-26124.nexus,TPM2u+I+G4:CIAlign_uce-26139.nexus,TPM3u+F+I+G4:CIAlign_uce-26180.nexus,TPM2u+F+G4:CIAlign_uce-26244.nexus,K2P+I+G4:CIAlign_uce-2626.nexus,TIM3+I+G4:CIAlign_uce-26280.nexus,TPM3+G4:CIAlign_uce-26324.nexus,TN+F+R3:CIAlign_uce-26339.nexus,TN+R3:CIAlign_uce-26340.nexus,TPM2u+G4:CIAlign_uce-26341.nexus,TIM2+F+I+G4:CIAlign_uce-26382.nexus,TPM2u+F+G4:CIAlign_uce-26414.nexus,GTR+I+G4:CIAlign_uce-26432.nexus,K2P+I+G4:CIAlign_uce-26436.nexus,TPM2+I:CIAlign_uce-26544.nexus,HKY+I+G4:CIAlign_uce-26590.nexus,TPM3u+G4:CIAlign_uce-26638.nexus,TPM3u+G4:CIAlign_uce-26677.nexus,K2P+G4:CIAlign_uce-26771.nexus,TPM3u+R3:CIAlign_uce-26772.nexus,HKY+F+G4:CIAlign_uce-26843.nexus,HKY+I+G4:CIAlign_uce-26865.nexus,TPM3u+F+I+G4:CIAlign_uce-26985.nexus,TNe+I+G4:CIAlign_uce-27040.nexus,HKY+I+G4:CIAlign_uce-27042.nexus,HKY+G4:CIAlign_uce-2714.nexus,HKY+F+R3:CIAlign_uce-27192.nexus,HKY+I+G4:CIAlign_uce-27378.nexus,HKY+F+G4:CIAlign_uce-27520.nexus,TN+F+G4:CIAlign_uce-27539.nexus,TN+F+G4:CIAlign_uce-27545.nexus,TN+F+G4:CIAlign_uce-27547.nexus,TN+F+I+G4:CIAlign_uce-27550.nexus,HKY+F+I+G4:CIAlign_uce-27597.nexus,TIM2+F+I+G4:CIAlign_uce-27610.nexus,HKY+F+G4:CIAlign_uce-27625.nexus,TPM2u+I:CIAlign_uce-27626.nexus,K2P+I+R2:CIAlign_uce-27741.nexus,HKY+G4:CIAlign_uce-27763.nexus,TPM2+G4:CIAlign_uce-27783.nexus,HKY+F+G4:CIAlign_uce-27830.nexus,TPM3u+F+I+G4:CIAlign_uce-27831.nexus,TPM3+I+G4:CIAlign_uce-27929.nexus,HKY+F+I+G4:CIAlign_uce-28007.nexus,TPM3u+G4:CIAlign_uce-28098.nexus,HKY+F+G4:CIAlign_uce-28099.nexus,TIM2+F+I+G4:CIAlign_uce-2840.nexus,K2P+I+G4:CIAlign_uce-28516.nexus,HKY+F+I+G4:CIAlign_uce-28546.nexus,TN+F+G4:CIAlign_uce-28586.nexus,TIM2+I+G4:CIAlign_uce-28698.nexus,HKY+F+I+G4:CIAlign_uce-28849.nexus,TPM3u+R3:CIAlign_uce-28892.nexus,TPM3u+I+G4:CIAlign_uce-28894.nexus,HKY+I+R2:CIAlign_uce-28895.nexus,TN+F+I+G4:CIAlign_uce-28896.nexus,HKY+F+I+G4:CIAlign_uce-29213.nexus,TPM3u+I+G4:CIAlign_uce-29251.nexus,K2P+I+G4:CIAlign_uce-29443.nexus,TNe+G4:CIAlign_uce-29475.nexus,HKY+G4:CIAlign_uce-29580.nexus,TIM2+I+G4:CIAlign_uce-29605.nexus,HKY+F+I+G4:CIAlign_uce-29669.nexus,TIM2+F+I+G4:CIAlign_uce-29727.nexus,TN+I+R3:CIAlign_uce-29732.nexus,K2P+I+R2:CIAlign_uce-29738.nexus,TN+F+R3:CIAlign_uce-2981.nexus,HKY+F+I+G4:CIAlign_uce-29811.nexus,TPM3u+G4:CIAlign_uce-29870.nexus,K2P+G4:CIAlign_uce-29899.nexus,TIM3+I+G4:CIAlign_uce-30161.nexus,TPM2u+G4:CIAlign_uce-30219.nexus,TPM2+G4:CIAlign_uce-30230.nexus,TPM3+G4:CIAlign_uce-30267.nexus,HKY+I+G4:CIAlign_uce-3028.nexus,TPM3u+F+I+G4:CIAlign_uce-30321.nexus,TPM3u+F+I+G4:CIAlign_uce-30435.nexus,TIM3+G4:CIAlign_uce-3047.nexus,TPM3+I+G4:CIAlign_uce-30493.nexus,TNe+G4:CIAlign_uce-30515.nexus,TN+F+I+R3:CIAlign_uce-30525.nexus,TPM2u+F+I+G4:CIAlign_uce-30574.nexus,TN+F+G4:CIAlign_uce-3067.nexus,TPM3+G4:CIAlign_uce-30748.nexus,TPM3u+F+I+G4:CIAlign_uce-30769.nexus,TIM2+F+I+G4:CIAlign_uce-30828.nexus,TPM2u+G4:CIAlign_uce-30830.nexus,TN+F+G4:CIAlign_uce-30836.nexus,TPM3+G4:CIAlign_uce-3102.nexus,TIM3+I+G4:CIAlign_uce-31067.nexus,TIM+F+I+G4:CIAlign_uce-31079.nexus,TPM3u+I+G4:CIAlign_uce-31082.nexus,HKY+I+G4:CIAlign_uce-31174.nexus,TN+F+I+G4:CIAlign_uce-31176.nexus,HKY+I+G4:CIAlign_uce-31286.nexus,TIM2+R3:CIAlign_uce-31287.nexus,HKY+I+G4:CIAlign_uce-31300.nexus,K3P+I+G4:CIAlign_uce-31352.nexus,TIM3e+I+G4:CIAlign_uce-31473.nexus,HKY+F+I+G4:CIAlign_uce-31484.nexus,HKY+F+G4:CIAlign_uce-31497.nexus,TPM2u+F+I+G4:CIAlign_uce-31759.nexus,HKY+I+G4:CIAlign_uce-31829.nexus,TIM3+I+G4:CIAlign_uce-3186.nexus,HKY+G4:CIAlign_uce-31893.nexus,K3Pu+F+I+G4:CIAlign_uce-31907.nexus,TPM2u+F+G4:CIAlign_uce-31967.nexus,HKY+G4:CIAlign_uce-32005.nexus,HKY+F+G4:CIAlign_uce-32057.nexus,TN+F+I+G4:CIAlign_uce-32088.nexus,TIM2+F+G4:CIAlign_uce-32102.nexus,TN+F+I+G4:CIAlign_uce-32146.nexus,TN+I+G4:CIAlign_uce-32174.nexus,HKY+F+I+G4:CIAlign_uce-32214.nexus,TIM2+I+G4:CIAlign_uce-32270.nexus,TPM3u+I+G4:CIAlign_uce-32355.nexus,TPM3u+I+G4:CIAlign_uce-32430.nexus,TIM3+F+G4:CIAlign_uce-32470.nexus,HKY+F+I+R2:CIAlign_uce-32474.nexus,K3Pu+F+G4:CIAlign_uce-32475.nexus,TPM2u+I+G4:CIAlign_uce-32509.nexus,HKY+F+G4:CIAlign_uce-3258.nexus,TN+F+G4:CIAlign_uce-32689.nexus,TPM3+G4:CIAlign_uce-32720.nexus,TPM3u+F+I+G4:CIAlign_uce-32735.nexus,K2P+G4:CIAlign_uce-32764.nexus,TPM3u+I+G4:CIAlign_uce-32775.nexus,TPM2u+F+I+R3:CIAlign_uce-32884.nexus,TPM2+I+G4:CIAlign_uce-32909.nexus,TN+F+G4:CIAlign_uce-33011.nexus,TPM2u+G4:CIAlign_uce-33015.nexus,TIM3+I+G4:CIAlign_uce-33050.nexus,TIM3+F+R4:CIAlign_uce-3309.nexus,TN+I+G4:CIAlign_uce-33091.nexus,TIM3+F+I+G4:CIAlign_uce-33206.nexus,HKY+F+I+G4:CIAlign_uce-33241.nexus,HKY+G4:CIAlign_uce-33428.nexus,HKY+F+G4:CIAlign_uce-33443.nexus,HKY+F+G4:CIAlign_uce-33521.nexus,HKY+F+I+G4:CIAlign_uce-33639.nexus,TPM3u+F+I+G4:CIAlign_uce-33668.nexus,TIM3+I+G4:CIAlign_uce-33691.nexus,TPM3+I+G4:CIAlign_uce-33739.nexus,TIM3+I+G4:CIAlign_uce-33747.nexus,TPM2u+F+I+G4:CIAlign_uce-33749.nexus,HKY+G4:CIAlign_uce-3379.nexus,HKY+F+I+G4:CIAlign_uce-33949.nexus,TIM3+F+G4:CIAlign_uce-33993.nexus,TPM2u+F+I+G4:CIAlign_uce-3406.nexus,TN+F+I+G4:CIAlign_uce-34159.nexus,TPM2+G4:CIAlign_uce-34185.nexus,HKY+F+I+G4:CIAlign_uce-34210.nexus,HKY+I+G4:CIAlign_uce-34267.nexus,TIM2+F+I+G4:CIAlign_uce-34324.nexus,TVM+I+G4:CIAlign_uce-34366.nexus,K2P+G4:CIAlign_uce-34406.nexus,TIM3+I+G4:CIAlign_uce-34507.nexus,HKY+I+R2:CIAlign_uce-34528.nexus,K2P+G4:CIAlign_uce-34571.nexus,K2P+I+G4:CIAlign_uce-3459.nexus,TIM3+F+I+G4:CIAlign_uce-34922.nexus,TIM2e+G4:CIAlign_uce-35009.nexus,HKY+F+I:CIAlign_uce-35011.nexus,TIM2+F+I+G4:CIAlign_uce-35055.nexus,TPM3u+G4:CIAlign_uce-35112.nexus,TIM3+F+I+G4:CIAlign_uce-35150.nexus,TPM3u+I+G4:CIAlign_uce-35151.nexus,K3Pu+F+I+G4:CIAlign_uce-35203.nexus,TPM2u+F+R2:CIAlign_uce-35230.nexus,HKY+F+I+G4:CIAlign_uce-35404.nexus,HKY+G4:CIAlign_uce-35424.nexus,TPM2u+F+I+G4:CIAlign_uce-35436.nexus,TN+F+I+G4:CIAlign_uce-35494.nexus,HKY+F+G4:CIAlign_uce-35495.nexus,TN+F+I+G4:CIAlign_uce-35776.nexus,HKY+F+I+G4:CIAlign_uce-35782.nexus,TPM2u+F+I+R2:CIAlign_uce-35801.nexus,TPM3+G4:CIAlign_uce-35805.nexus,K2P+G4:CIAlign_uce-35828.nexus,K3Pu+F+I+R2:CIAlign_uce-35867.nexus,TN+F+G4:CIAlign_uce-35983.nexus,TNe+I+G4:CIAlign_uce-36059.nexus,HKY+F+I+G4:CIAlign_uce-36060.nexus,TIM2+G4:CIAlign_uce-36068.nexus,TPM2+G4:CIAlign_uce-36093.nexus,HKY+F+I+R2:CIAlign_uce-36225.nexus,TIM3+I+G4:CIAlign_uce-36320.nexus,HKY+F+I+G4:CIAlign_uce-36414.nexus,TNe+G4:CIAlign_uce-36415.nexus,K2P+I+R2:CIAlign_uce-36416.nexus,TIM2e+G4:CIAlign_uce-36456.nexus,HKY+F+G4:CIAlign_uce-36459.nexus,K2P+I+G4:CIAlign_uce-36528.nexus,TN+R3:CIAlign_uce-36604.nexus,HKY+F+I+G4:CIAlign_uce-3665.nexus,HKY+F+G4:CIAlign_uce-36659.nexus,TPM3u+I+G4:CIAlign_uce-36692.nexus,TPM3u+F+I+G4:CIAlign_uce-369.nexus,TPM2u+R3:CIAlign_uce-3693.nexus,TPM3u+I+G4:CIAlign_uce-36992.nexus,TNe+I+G4:CIAlign_uce-37073.nexus,TPM3u+I+G4:CIAlign_uce-37268.nexus,K2P+G4:CIAlign_uce-37439.nexus,TPM3u+I+R2:CIAlign_uce-37547.nexus,K3Pu+F+I+G4:CIAlign_uce-37821.nexus,TN+F+I+R3:CIAlign_uce-37919.nexus,TVM+G4:CIAlign_uce-37961.nexus,HKY+F+I+R2:CIAlign_uce-38073.nexus,TPM3u+I+G4:CIAlign_uce-38134.nexus,HKY+F+I+G4:CIAlign_uce-3819.nexus,TN+I+G4:CIAlign_uce-38254.nexus,HKY+F+I+G4:CIAlign_uce-38272.nexus,TN+F+I+R3:CIAlign_uce-38388.nexus,TIM2+I+G4:CIAlign_uce-38441.nexus,HKY+F+I+R2:CIAlign_uce-38446.nexus,HKY+F+I+G4:CIAlign_uce-3846.nexus,K3P+I+G4:CIAlign_uce-38646.nexus,K2P+I+G4:CIAlign_uce-38650.nexus,HKY+G4:CIAlign_uce-38734.nexus,HKY+F+I+G4:CIAlign_uce-38767.nexus,HKY+F+I+G4:CIAlign_uce-38785.nexus,HKY+F+R3:CIAlign_uce-38805.nexus,TIM3+I+G4:CIAlign_uce-38821.nexus,TIM3+I+G4:CIAlign_uce-38924.nexus,TPM2+G4:CIAlign_uce-38967.nexus,K3Pu+F+I+G4:CIAlign_uce-39033.nexus,HKY+I+G4:CIAlign_uce-39106.nexus,TPM2u+I+G4:CIAlign_uce-39175.nexus,TIM3+F+I+G4:CIAlign_uce-39184.nexus,TIM3+R3:CIAlign_uce-39191.nexus,HKY+F+I+G4:CIAlign_uce-39248.nexus,TIM2+F+I+G4:CIAlign_uce-39249.nexus,TPM2u+I+G4:CIAlign_uce-39264.nexus,TPM2u+G4:CIAlign_uce-39267.nexus,HKY+I+G4:CIAlign_uce-39274.nexus,TPM3u+F+R3:CIAlign_uce-39334.nexus,K3Pu+F+I+R2:CIAlign_uce-39477.nexus,K3Pu+F+I+G4:CIAlign_uce-39514.nexus,TN+F+I+G4:CIAlign_uce-39621.nexus,K3Pu+F+I+G4:CIAlign_uce-3972.nexus,GTR+F+I+G4:CIAlign_uce-3975.nexus,K3P+I+R2:CIAlign_uce-39793.nexus,HKY+F+I+G4:CIAlign_uce-39798.nexus,HKY+I+G4:CIAlign_uce-39843.nexus,HKY+I+G4:CIAlign_uce-3994.nexus,TPM2u+F+R3:CIAlign_uce-39967.nexus,HKY+R3:CIAlign_uce-40254.nexus,HKY+F+I+G4:CIAlign_uce-40328.nexus,TIM2+F+I+G4:CIAlign_uce-4036.nexus,HKY+F+I+G4:CIAlign_uce-4040.nexus,TPM3u+G4:CIAlign_uce-4045.nexus,TPM2u+F+G4:CIAlign_uce-40474.nexus,TPM3u+F+G4:CIAlign_uce-40602.nexus,K2P+G4:CIAlign_uce-40624.nexus,HKY+I+G4:CIAlign_uce-40674.nexus,TN+F+I+G4:CIAlign_uce-40683.nexus,HKY+I+G4:CIAlign_uce-40731.nexus,TIM3+F+I+G4:CIAlign_uce-40765.nexus,TIM3+F+G4:CIAlign_uce-4163.nexus,TIM3+F+G4:CIAlign_uce-4173.nexus,TPM3u+G4:CIAlign_uce-4205.nexus,TN+F+G4:CIAlign_uce-4239.nexus,TIM2+I+G4:CIAlign_uce-425.nexus,HKY+F+G4:CIAlign_uce-428.nexus,TPM2u+I+R2:CIAlign_uce-4322.nexus,TIM2+F+G4:CIAlign_uce-4327.nexus,TPM3u+F+G4:CIAlign_uce-4330.nexus,TIM3+I+G4:CIAlign_uce-4622.nexus,TPM3u+R3:CIAlign_uce-4653.nexus,K3Pu+F+I+G4:CIAlign_uce-4678.nexus,TPM2u+G4:CIAlign_uce-4691.nexus,TPM3u+F+G4:CIAlign_uce-4889.nexus,TIM3+F+I+R3:CIAlign_uce-5234.nexus,HKY+F+G4:CIAlign_uce-5243.nexus,HKY+F+I+G4:CIAlign_uce-5320.nexus,TN+F+I+G4:CIAlign_uce-5326.nexus,K2P+I+G4:CIAlign_uce-5449.nexus,TN+F+I+G4:CIAlign_uce-547.nexus,TN+F+I+G4:CIAlign_uce-5525.nexus,TPM3u+I+G4:CIAlign_uce-5560.nexus,TN+F+I+G4:CIAlign_uce-5691.nexus,TPM3+I+G4:CIAlign_uce-5763.nexus,TIM2+I+G4:CIAlign_uce-5967.nexus,TPM3u+F+G4:CIAlign_uce-5990.nexus,HKY+I+G4:CIAlign_uce-6237.nexus,TPM3u+G4:CIAlign_uce-6244.nexus,TIM3+I+G4:CIAlign_uce-6250.nexus,TPM3u+F+I+G4:CIAlign_uce-6374.nexus,TN+F+I+R3:CIAlign_uce-6550.nexus,TPM3u+F+G4:CIAlign_uce-6553.nexus,TIM3+R3:CIAlign_uce-6598.nexus,TPM3u+I+G4:CIAlign_uce-675.nexus,TIM3+F+I+G4:CIAlign_uce-6782.nexus,HKY+F+G4:CIAlign_uce-6787.nexus,K3Pu+R3:CIAlign_uce-6882.nexus,K3Pu+I+G4:CIAlign_uce-693.nexus,HKY+I+G4:CIAlign_uce-6957.nexus,TPM3+G4:CIAlign_uce-696.nexus,TN+I+G4:CIAlign_uce-6976.nexus,TN+F+I+G4:CIAlign_uce-7044.nexus,TIM+I+G4:CIAlign_uce-711.nexus,TN+F+R3:CIAlign_uce-7169.nexus,TPM2u+F+I+G4:CIAlign_uce-7271.nexus,TN+F+I+G4:CIAlign_uce-731.nexus,HKY+F+I+G4:CIAlign_uce-750.nexus,TN+F+R3:CIAlign_uce-7534.nexus,K3Pu+F+I+G4:CIAlign_uce-7659.nexus,TIM+F+I+G4:CIAlign_uce-7662.nexus,TPM3u+I+G4:CIAlign_uce-7668.nexus,TN+F+I+G4:CIAlign_uce-7709.nexus,HKY+F+I+G4:CIAlign_uce-7711.nexus,HKY+F+I+G4:CIAlign_uce-7760.nexus,TIM3+G4:CIAlign_uce-7780.nexus,TVM+I+G4:CIAlign_uce-7810.nexus,TPM3u+I+R2:CIAlign_uce-7844.nexus,HKY+F+I+G4:CIAlign_uce-7892.nexus,TIM3e+I:CIAlign_uce-7943.nexus,TN+F+I+G4:CIAlign_uce-7981.nexus,HKY+F+G4:CIAlign_uce-7994.nexus,HKY+F+I+G4:CIAlign_uce-8029.nexus,TVMe+G4:CIAlign_uce-8056.nexus,HKY+G4:CIAlign_uce-8080.nexus,K2P+G4:CIAlign_uce-8081.nexus,HKY+F+G4:CIAlign_uce-8138.nexus,TPM2u+G4:CIAlign_uce-8466.nexus,TPM3u+G4:CIAlign_uce-849.nexus,TIM3+F+I+G4:CIAlign_uce-8496.nexus,TPM3u+I+G4:CIAlign_uce-8612.nexus,TIM2+G4:CIAlign_uce-8699.nexus,TN+F+I+G4:CIAlign_uce-870.nexus,HKY+I+G4:CIAlign_uce-8702.nexus,TPM2u+R3:CIAlign_uce-8707.nexus,TPM2u+I+G4:CIAlign_uce-8753.nexus,HKY+I+G4:CIAlign_uce-8827.nexus,HKY+G4:CIAlign_uce-8828.nexus,TN+F+I+G4:CIAlign_uce-8846.nexus,TN+F+G4:CIAlign_uce-8932.nexus,GTR+F+G4:CIAlign_uce-8955.nexus,HKY+F+R3:CIAlign_uce-8997.nexus,HKY+F+I+G4:CIAlign_uce-9002.nexus,TPM3u+G4:CIAlign_uce-903.nexus,TIM+F+I+G4:CIAlign_uce-9031.nexus,HKY+I+G4:CIAlign_uce-9415.nexus,HKY+I+G4:CIAlign_uce-9437.nexus,TNe+I+G4:CIAlign_uce-9471.nexus,TIM2+F+G4:CIAlign_uce-9508.nexus,HKY+F+I+G4:CIAlign_uce-9518.nexus,HKY+F+I+G4:CIAlign_uce-9589.nexus,HKY+F+G4:CIAlign_uce-9608.nexus,TIM3+F+G4:CIAlign_uce-9694.nexus,TPM3u+I+G4:CIAlign_uce-9710.nexus,TPM2u+I+G4:CIAlign_uce-9730.nexus,TPM2+I+G4:CIAlign_uce-976.nexus,TIM3+F+I+G4:CIAlign_uce-981.nexus,TPM2u+I+G4:CIAlign_uce-9935.nexus,TPM3+I+G4:CIAlign_uce-9966.nexus,TIM3+R3:CIAlign_uce-9968.nexus
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  TIM2+I+R3         -6441.411   13056.821 + 3.03e-314   13084.865 + -1.55e-268   13444.150 +        0
+   2  HKY+F+G4          -1619.139    3414.278 + 3.03e-314    3504.821 + -1.55e-268    3728.292 +        0
+   3  HKY+F+R3          -5271.517   10705.033 + 3.03e-314   10739.008 + -1.55e-268   11041.920 +        0
+   4  TPM3u+I+G4        -3010.206    6186.411 + 3.03e-314    6248.940 + -1.55e-268    6495.739 +        0
+   5  HKY+I+G4          -1319.347    2818.695 + 3.03e-314    2959.902 + -1.55e-268    3118.639 +        0
+   6  TPM3u+F+I+G4      -5241.071   10642.142 + 3.03e-314   10670.501 + -1.55e-268   10985.171 +        0
+   7  HKY+F+I+G4        -4510.571    9179.142 + 3.03e-314    9222.578 + -1.55e-268    9488.522 +        0
+   8  TN+F+G4            -871.986    1925.972 + 3.03e-314    2433.366 + -1.55e-268    2183.349 +        0
+   9  TN+F+I+G4         -5593.862   11343.724 + 3.03e-314   11370.399 + -1.55e-268   11678.611 +        0
+  10  HKY+F+I+G4         -856.266    1878.533 + 3.03e-314    2459.533 + -1.55e-268    2101.150 +        0
+  11  HKY+F+I+G4        -1984.510    4127.019 + 3.03e-314    4222.057 + -1.55e-268    4392.561 +        0
+  12  TPM3+G4           -3349.931    6847.861 + 3.03e-314    6903.361 + -1.55e-268    7115.502 +        0
+  13  TIM3e+I+G4        -4600.791    9365.583 + 3.03e-314    9416.374 + -1.55e-268    9682.167 +        0
+  14  TN+I+R2           -1225.152    2638.304 + 3.03e-314    2815.136 + -1.55e-268    2946.447 +        0
+  15  TIM+I+R2          -1225.328    2608.656 + 3.03e-314    2815.870 + -1.55e-268    2841.609 +        0
+  16  HKY+G4            -1256.659    2687.319 + 3.03e-314    2834.549 + -1.55e-268    2970.721 +        0
+  17  TPM2u+F+I+G4      -2675.473    5518.946 + 3.03e-314    5603.946 + -1.55e-268    5815.751 +        0
+  18  TIM2e+G4          -3034.295    6242.591 + 3.03e-314    6290.591 + -1.55e-268    6591.357 +        0
+  19  TN+F+G4           -1094.247    2342.495 + 3.03e-314    2504.819 + -1.55e-268    2575.334 +        0
+  20  HKY+I+G4          -1385.207    2926.415 + 3.03e-314    3029.115 + -1.55e-268    3183.293 +        0
+  21  K3P+G4             -962.311    2096.622 + 3.03e-314    2231.432 + -1.55e-268    2379.413 +        0
+  22  TIM3+F+I+G4       -2445.415    5052.830 + 3.03e-314    5116.390 + -1.55e-268    5350.369 +        0
+  23  TIM2+I+G4         -1002.971    2181.941 + 3.03e-314    2405.713 + -1.55e-268    2452.005 +        0
+  24  GTR+F+I+G4        -5832.823   11835.646 + 3.03e-314   11875.374 + -1.55e-268   12185.684 +        0
+  25  TN+F+G4           -2035.940    4229.880 + 3.03e-314    4313.589 + -1.55e-268    4501.831 +        0
+  26  TIM2+F+G4         -1369.780    2907.561 + 3.03e-314    3205.061 + -1.55e-268    3150.350 +        0
+  27  TN+F+G4           -1312.280    2794.561 + 3.03e-314    2940.761 + -1.55e-268    3068.749 +        0
+  28  TIM3+F+I+G4       -2333.389    4856.778 + 3.03e-314    5035.602 + -1.55e-268    5169.164 +        0
+  29  HKY+I+G4          -1400.000    2960.000 + 3.03e-314    3124.051 + -1.55e-268    3206.014 +        0
+  30  TN+F+I+G4         -1956.041    4088.083 + 3.03e-314    4229.200 + -1.55e-268    4378.335 +        0
+  31  TPM2u+G4          -2557.496    5270.992 + 3.03e-314    5342.229 + -1.55e-268    5546.287 +        0
+  32  HKY+R3            -2243.899    4655.798 + 3.03e-314    4746.754 + -1.55e-268    4948.869 +        0
+  33  HKY+F+R3          -2524.257    5234.513 + 3.03e-314    5345.876 + -1.55e-268    5562.380 +        0
+  34  K2P+G4             -940.510    2051.021 + 3.03e-314    2391.021 + -1.55e-268    2294.105 +        0
+  35  TIM3+I+G4         -1137.568    2447.135 + 3.03e-314    2795.135 + -1.55e-268    2693.743 +        0
+  36  TIM3+F+I+G4       -2855.067    5876.134 + 3.03e-314    5956.272 + -1.55e-268    6171.030 +        0
+  37  TPM3+I+G4         -1818.198    3806.396 + 3.03e-314    4034.833 + -1.55e-268    4062.300 +        0
+  38  TIM2+F+G4         -1623.523    3407.047 + 3.03e-314    3525.946 + -1.55e-268    3666.809 +        0
+  39  HKY+I+G4          -4282.940    8737.879 + 3.03e-314    8773.593 + -1.55e-268    9101.361 +        0
+  40  TN+F+I+R2          -981.829    2145.658 + 3.03e-314    2411.436 + -1.55e-268    2422.609 +        0
+  41  HKY+F+I+R3        -2763.655    5715.310 + 3.03e-314    5795.761 + -1.55e-268    6068.647 +        0
+  42  HKY+I+G4          -3050.233    6248.466 + 3.03e-314    6298.466 + -1.55e-268    6521.802 +        0
+  43  HKY+F+G4          -2473.250    5118.500 + 3.03e-314    5215.042 + -1.55e-268    5418.549 +        0
+  44  TN+F+G4           -1431.017    3020.035 + 3.03e-314    3134.944 + -1.55e-268    3276.550 +        0
+  45  HKY+G4            -1577.746    3321.493 + 3.03e-314    3404.493 + -1.55e-268    3614.435 +        0
+  46  TPM3u+I+G4        -2857.428    5880.855 + 3.03e-314    5944.526 + -1.55e-268    6189.095 +        0
+  47  TPM3u+I+G4        -2510.270    5186.539 + 3.03e-314    5247.967 + -1.55e-268    5496.942 +        0
+  48  TIM2e+I+G4        -3570.838    7309.677 + 3.03e-314    7355.010 + -1.55e-268    7644.960 +        0
+  49  TPM3u+I+G4        -2386.140    4934.280 + 3.03e-314    5035.684 + -1.55e-268    5206.544 +        0
+  50  TIM2+F+I+G4       -2095.157    4360.315 + 3.03e-314    4526.451 + -1.55e-268    4628.834 +        0
+  51  TPM3+G4           -2482.397    5136.793 + 3.03e-314    5198.884 + -1.55e-268    5462.992 +        0
+  52  TPM3+G4           -1406.873    2977.746 + 3.03e-314    3115.241 + -1.55e-268    3240.475 +        0
+  53  HKY+F+G4          -2006.885    4177.770 + 3.03e-314    4302.651 + -1.55e-268    4444.885 +        0
+  54  K3Pu+F+I+G4       -2574.382    5324.765 + 3.03e-314    5393.769 + -1.55e-268    5655.270 +        0
+  55  K3Pu+G4           -1549.785    3275.569 + 3.03e-314    3351.608 + -1.55e-268    3600.023 +        0
+  56  TN+F+I+G4         -1460.021    3088.042 + 3.03e-314    3178.422 + -1.55e-268    3381.459 +        0
+  57  TIM2+I+G4         -4926.700   10017.401 + 3.03e-314   10056.970 + -1.55e-268   10350.057 +        0
+  58  TPM3u+R3          -1577.317    3340.634 + 3.03e-314    3431.224 + -1.55e-268    3680.965 +        0
+  59  HKY+F+G4           -981.500    2118.999 + 3.03e-314    2295.056 + -1.55e-268    2353.307 +        0
+  60  K3Pu+I+G4         -1788.704    3735.407 + 3.03e-314    3889.554 + -1.55e-268    3979.328 +        0
+  61  TPM3u+G4          -1063.889    2291.779 + 3.03e-314    2594.268 + -1.55e-268    2525.645 +        0
+  62  TPM2+G4           -2993.528    6143.057 + 3.03e-314    6213.884 + -1.55e-268    6418.661 +        0
+  63  TPM3+I+G4         -1543.188    3244.376 + 3.03e-314    3427.564 + -1.55e-268    3481.688 +        0
+  64  TN+F+I+G4         -1938.710    4045.420 + 3.03e-314    4197.334 + -1.55e-268    4313.160 +        0
+  65  TIM2+F+I+G4       -2007.443    4188.885 + 3.03e-314    4357.149 + -1.55e-268    4466.188 +        0
+  66  HKY+I+G4          -1597.841    3347.682 + 3.03e-314    3508.010 + -1.55e-268    3576.490 +        0
+  67  K2P+G4            -6746.649   13667.297 + 3.03e-314   13704.462 + -1.55e-268   14033.968 +        0
+  68  TPM2u+F+I+G4      -1189.278    2534.556 + 3.03e-314    2743.437 + -1.55e-268    2762.882 +        0
+  69  TIM2+G4            -805.334    1784.668 + 3.03e-314    2351.779 + -1.55e-268    2023.477 +        0
+  70  TIM2+G4           -1695.639    3549.277 + 3.03e-314    3666.314 + -1.55e-268    3804.956 +        0
+  71  HKY+G4            -2019.470    4212.940 + 3.03e-314    4286.911 + -1.55e-268    4533.707 +        0
+  72  TPM3u+I+G4         -913.864    1997.727 + 3.03e-314    2156.640 + -1.55e-268    2268.179 +        0
+  73  TIM2+I+G4         -2047.067    4254.135 + 3.03e-314    4373.034 + -1.55e-268    4513.897 +        0
+  74  TIM2+R3           -2248.549    4669.097 + 3.03e-314    4765.639 + -1.55e-268    4969.146 +        0
+  75  TIM3+F+G4         -1634.670    3437.340 + 3.03e-314    3557.340 + -1.55e-268    3716.062 +        0
+  76  TIM3e+I+G4        -2240.313    4652.626 + 3.03e-314    4755.826 + -1.55e-268    4949.045 +        0
+  77  TPM2u+F+I         -1622.443    3402.885 + 3.03e-314    3523.266 + -1.55e-268    3657.294 +        0
+  78  TIM3e+I+G4        -3954.550    8093.099 + 3.03e-314    8142.556 + -1.55e-268    8468.873 +        0
+  79  HKY+G4             -822.460    1798.921 + 3.03e-314    2123.570 + -1.55e-268    2010.281 +        0
+  80  HKY+I+G4          -1136.117    2440.233 + 3.03e-314    2592.148 + -1.55e-268    2707.973 +        0
+  81  TIM3+F+I+G4       -1316.487    2794.974 + 3.03e-314    3066.076 + -1.55e-268    3027.865 +        0
+  82  TN+F+I+G4         -1383.812    2931.624 + 3.03e-314    3215.207 + -1.55e-268    3167.390 +        0
+  83  TIM3+F+I+G4       -6756.027   13690.053 + 3.03e-314   13719.775 + -1.55e-268   14085.581 +        0
+  84  TIM2e+I+G4        -1811.462    3778.923 + 3.03e-314    3898.574 + -1.55e-268    4028.836 +        0
+  85  TPM2u+I+G4        -2257.162    4672.324 + 3.03e-314    4736.162 + -1.55e-268    4958.906 +        0
+  86  TPM3u+G4          -1673.506    3527.013 + 3.03e-314    3638.441 + -1.55e-268    3839.517 +        0
+  87  TPM3u+F+G4        -1237.946    2641.892 + 3.03e-314    2793.457 + -1.55e-268    2905.042 +        0
+  88  TN+F+I+G4         -1799.126    3786.252 + 3.03e-314    3865.630 + -1.55e-268    4140.474 +        0
+  89  TPM2u+F+G4        -1363.701    2909.402 + 3.03e-314    3029.002 + -1.55e-268    3223.055 +        0
+  90  HKY+F+G4          -1179.056    2514.113 + 3.03e-314    2692.721 + -1.55e-268    2747.895 +        0
+  91  HKY+F+I+R3        -4126.069    8444.139 + 3.03e-314    8477.515 + -1.55e-268    8874.664 +        0
+  92  TPM3u+I+G4        -1243.614    2645.228 + 3.03e-314    2795.704 + -1.55e-268    2890.118 +        0
+  93  TPM3u+I+G4        -1382.551    2931.102 + 3.03e-314    3122.116 + -1.55e-268    3184.770 +        0
+  94  TPM2u+G4          -1431.682    3015.364 + 3.03e-314    3207.233 + -1.55e-268    3237.836 +        0
+  95  HKY+I+G4          -1500.449    3148.898 + 3.03e-314    3319.667 + -1.55e-268    3366.579 +        0
+  96  TPM2+I+G4         -1360.157    2874.314 + 3.03e-314    3015.632 + -1.55e-268    3112.533 +        0
+  97  HKY+G4             -367.845     881.690 + 3.03e-314    1782.024 + -1.55e-268    1060.858 +        0
+  98  TN+F+I+G4         -2083.065    4342.131 + 3.03e-314    4459.905 + -1.55e-268    4641.566 +        0
+  99  TPM2u+F+I+G4       -736.795    1633.590 + 3.03e-314    1993.590 + -1.55e-268    1854.564 +        0
+ 100  TPM3u+F+R3        -2038.149    4252.298 + 3.03e-314    4388.506 + -1.55e-268    4544.292 +        0
+ 101  TPM2u+F+G4        -1388.588    2935.176 + 3.03e-314    3198.509 + -1.55e-268    3160.486 +        0
+ 102  K2P+G4            -1461.826    3081.653 + 3.03e-314    3307.367 + -1.55e-268    3311.752 +        0
+ 103  TN+F+I+G4          -990.677    2149.354 + 3.03e-314    2506.354 + -1.55e-268    2386.932 +        0
+ 104  TN+F+I+G4         -1796.626    3777.253 + 3.03e-314    3983.422 + -1.55e-268    4068.937 +        0
+ 105  TIM2+F+G4         -1854.953    3877.907 + 3.03e-314    3946.561 + -1.55e-268    4187.041 +        0
+ 106  TIM3+F+I+G4       -1892.983    3963.966 + 3.03e-314    4172.018 + -1.55e-268    4241.468 +        0
+ 107  TPM2u+I+G4        -4696.230    9554.460 + 3.03e-314    9588.348 + -1.55e-268    9891.518 +        0
+ 108  K3Pu+I+G4         -2337.175    4840.350 + 3.03e-314    4938.547 + -1.55e-268    5124.254 +        0
+ 109  TN+F+I+G4         -2394.047    4960.094 + 3.03e-314    5072.605 + -1.55e-268    5251.946 +        0
+ 110  TPM3+I+G4         -5794.480   11750.960 + 3.03e-314   11777.213 + -1.55e-268   12105.475 +        0
+ 111  TIM3+R3           -5187.267   10562.533 + 3.03e-314   10600.615 + -1.55e-268   10970.029 +        0
+ 112  HKY+F+G4           -846.524    1869.048 + 3.03e-314    2134.540 + -1.55e-268    2132.803 +        0
+ 113  TVM+I+G4          -3672.132    7514.265 + 3.03e-314    7561.124 + -1.55e-268    7853.113 +        0
+ 114  TPM2u+I+G4        -2763.548    5677.096 + 3.03e-314    5728.679 + -1.55e-268    5954.126 +        0
+ 115  HKY+F+G4          -3148.954    6477.907 + 3.03e-314    6540.666 + -1.55e-268    6825.634 +        0
+ 116  TPM2u+I+G4        -1095.845    2341.690 + 3.03e-314    2477.404 + -1.55e-268    2572.328 +        0
+ 117  HKY+G4            -1492.499    3146.998 + 3.03e-314    3263.524 + -1.55e-268    3412.525 +        0
+ 118  HKY+F+I+G4        -2450.282    5066.563 + 3.03e-314    5134.253 + -1.55e-268    5371.163 +        0
+ 119  TPM3u+F+I+G4      -1575.509    3311.018 + 3.03e-314    3469.067 + -1.55e-268    3558.519 +        0
+ 120  TIM3+I+G4         -2523.067    5202.134 + 3.03e-314    5250.654 + -1.55e-268    5499.169 +        0
+ 121  TPM3+G4            -996.921    2149.843 + 3.03e-314    2333.783 + -1.55e-268    2382.564 +        0
+ 122  HKY+F+I+G4        -5490.256   11142.512 + 3.03e-314   11171.966 + -1.55e-268   11489.072 +        0
+ 123  HKY+G4             -632.393    1418.786 + 3.03e-314    1645.428 + -1.55e-268    1640.177 +        0
+ 124  TPM3u+I+G4        -2342.037    4854.075 + 3.03e-314    4960.790 + -1.55e-268    5143.684 +        0
+ 125  TN+F+G4           -1114.709    2399.417 + 3.03e-314    2856.292 + -1.55e-268    2634.925 +        0
+ 126  TPM2u+F+I+G4      -1735.241    3642.482 + 3.03e-314    3820.625 + -1.55e-268    3912.665 +        0
+ 127  TPM3u+F+I+G4      -2920.875    6025.750 + 3.03e-314    6113.956 + -1.55e-268    6362.422 +        0
+ 128  TPM3u+F+I+G4      -1701.566    3567.133 + 3.03e-314    3716.715 + -1.55e-268    3826.175 +        0
+ 129  TIM3e+I+G4        -1108.369    2372.739 + 3.03e-314    2574.772 + -1.55e-268    2602.187 +        0
+ 130  HKY+G4            -1177.327    2528.653 + 3.03e-314    2693.298 + -1.55e-268    2806.922 +        0
+ 131  TPM3u+I+G4        -2790.962    5747.925 + 3.03e-314    5794.097 + -1.55e-268    6076.259 +        0
+ 132  TPM3u+I+G4        -1984.676    4143.351 + 3.03e-314    4270.951 + -1.55e-268    4433.717 +        0
+ 133  TPM2u+F+I+G4      -2181.408    4530.815 + 3.03e-314    4611.951 + -1.55e-268    4830.235 +        0
+ 134  HKY+I+G4          -1073.228    2330.456 + 3.03e-314    2602.075 + -1.55e-268    2611.043 +        0
+ 135  TPM3u+I+G4        -4191.011    8532.022 + 3.03e-314    8572.163 + -1.55e-268    8823.480 +        0
+ 136  HKY+I+G4          -1869.108    3898.216 + 3.03e-314    3971.437 + -1.55e-268    4182.453 +        0
+ 137  TNe+R3            -1523.819    3213.637 + 3.03e-314    3322.575 + -1.55e-268    3492.234 +        0
+ 138  TN+F+R3            -973.712    2111.424 + 3.03e-314    2523.909 + -1.55e-268    2337.218 +        0
+ 139  TIM3+G4            -651.073    1468.146 + 3.03e-314    2862.546 + -1.55e-268    1679.240 +        0
+ 140  TIM3+F+I+G4       -3216.403    6610.805 + 3.03e-314    6689.722 + -1.55e-268    6938.341 +        0
+ 141  TNe+I+G4          -1547.367    3256.735 + 3.03e-314    3458.008 + -1.55e-268    3499.509 +        0
+ 142  TN+F+I+G4         -2121.034    4414.068 + 3.03e-314    4534.746 + -1.55e-268    4702.328 +        0
+ 143  TPM2u+F+I+G4      -1708.926    3597.852 + 3.03e-314    3756.881 + -1.55e-268    3891.959 +        0
+ 144  TN+F+G4           -1050.767    2275.535 + 3.03e-314    2479.695 + -1.55e-268    2544.691 +        0
+ 145  TPM2+G4           -1061.415    2270.831 + 3.03e-314    2449.863 + -1.55e-268    2486.909 +        0
+ 146  HKY+F+G4          -1014.331    2188.661 + 3.03e-314    2437.892 + -1.55e-268    2419.889 +        0
+ 147  HKY+F+G4           -990.759    2133.518 + 3.03e-314    2412.185 + -1.55e-268    2344.732 +        0
+ 148  TNe+I+G4          -4150.095    8466.189 + 3.03e-314    8512.669 + -1.55e-268    8794.092 +        0
+ 149  TIM2+F+I+G4        -910.305    2002.611 + 3.03e-314    2622.759 + -1.55e-268    2255.511 +        0
+ 150  TIM3+F+G4         -1796.930    3765.859 + 3.03e-314    3918.553 + -1.55e-268    4042.810 +        0
+ 151  TPM3u+I+G4        -1324.783    2807.566 + 3.03e-314    2980.717 + -1.55e-268    3046.971 +        0
+ 152  TPM2u+I+G4        -1561.860    3285.721 + 3.03e-314    3434.979 + -1.55e-268    3540.196 +        0
+ 153  TN+I+G4           -6176.266   12506.532 + 3.03e-314   12526.452 + -1.55e-268   12854.846 +        0
+ 154  TPM2u+F+I+R2      -1183.228    2544.456 + 3.03e-314    2835.729 + -1.55e-268    2809.385 +        0
+ 155  TIM3+F+I+G4       -1567.536    3305.071 + 3.03e-314    3494.942 + -1.55e-268    3568.040 +        0
+ 156  TPM3u+G4           -806.105    1780.210 + 3.03e-314    2077.710 + -1.55e-268    2022.999 +        0
+ 157  TPM3+I+G4         -5516.883   11199.766 + 3.03e-314   11227.214 + -1.55e-268   11563.597 +        0
+ 158  K2P+G4            -1147.015    2452.029 + 3.03e-314    2715.363 + -1.55e-268    2677.340 +        0
+ 159  TPM2+I+G4         -4131.081    8436.162 + 3.03e-314    8466.848 + -1.55e-268    8816.790 +        0
+ 160  HKY+F+G4           -877.708    1927.416 + 3.03e-314    2141.187 + -1.55e-268    2190.253 +        0
+ 161  TPM3u+G4           -899.470    1954.940 + 3.03e-314    2144.540 + -1.55e-268    2186.586 +        0
+ 162  TPM2u+I+G4        -1442.616    3047.232 + 3.03e-314    3154.361 + -1.55e-268    3316.790 +        0
+ 163  TN+F+G4           -1999.909    4173.818 + 3.03e-314    4340.253 + -1.55e-268    4451.605 +        0
+ 164  TPM3u+F+I+G4      -1646.931    3457.862 + 3.03e-314    3581.608 + -1.55e-268    3725.403 +        0
+ 165  TPM2u+F+I+G4      -3050.571    6257.141 + 3.03e-314    6318.761 + -1.55e-268    6540.376 +        0
+ 166  TIM2+F+I+G4       -4349.036    8864.072 + 3.03e-314    8895.266 + -1.55e-268    9218.877 +        0
+ 167  TVM+F+I+G4        -5782.244   11732.488 + 3.03e-314   11767.574 + -1.55e-268   12085.160 +        0
+ 168  TPM3u+G4          -1804.769    3773.539 + 3.03e-314    3918.347 + -1.55e-268    4033.983 +        0
+ 169  HKY+R3            -3187.773    6531.545 + 3.03e-314    6577.359 + -1.55e-268    6832.017 +        0
+ 170  HKY+F+G4          -1212.257    2580.513 + 3.03e-314    2761.748 + -1.55e-268    2813.767 +        0
+ 171  TPM3u+I+G4        -7024.771   14211.542 + 3.03e-314   14238.597 + -1.55e-268   14563.964 +        0
+ 172  TPM3u+F+I+R3      -2385.919    4945.838 + 3.03e-314    5055.997 + -1.55e-268    5243.809 +        0
+ 173  TPM3u+R3          -1326.134    2826.268 + 3.03e-314    2954.941 + -1.55e-268    3116.215 +        0
+ 174  TN+F+I+G4         -1968.188    4092.375 + 3.03e-314    4209.747 + -1.55e-268    4343.140 +        0
+ 175  HKY+F+I+R3        -5507.492   11190.984 + 3.03e-314   11222.125 + -1.55e-268   11576.732 +        0
+ 176  TN+G4             -1166.164    2492.328 + 3.03e-314    2674.863 + -1.55e-268    2734.238 +        0
+ 177  K2P+G4             -491.908    1133.816 + 3.03e-314    1366.469 + -1.55e-268    1345.939 +        0
+ 178  TPM3+I+G4         -2254.268    4662.536 + 3.03e-314    4786.372 + -1.55e-268    4906.225 +        0
+ 179  K3Pu+I+R2         -1823.494    3814.988 + 3.03e-314    3913.471 + -1.55e-268    4103.787 +        0
+ 180  HKY+F+I+G4        -1871.060    3928.119 + 3.03e-314    4129.085 + -1.55e-268    4225.579 +        0
+ 181  TPM2u+G4          -1234.603    2621.205 + 3.03e-314    2722.102 + -1.55e-268    2869.170 +        0
+ 182  TIM2+I+G4         -5256.789   10689.578 + 3.03e-314   10735.648 + -1.55e-268   11046.986 +        0
+ 183  HKY+F+I+G4        -3222.030    6606.059 + 3.03e-314    6680.689 + -1.55e-268    6894.475 +        0
+ 184  TPM3u+F+I+G4      -2144.298    4456.596 + 3.03e-314    4541.093 + -1.55e-268    4753.732 +        0
+ 185  HKY+F+I+G4        -2214.135    4598.270 + 3.03e-314    4685.814 + -1.55e-268    4898.608 +        0
+ 186  TN+F+I+G4         -1655.179    3482.359 + 3.03e-314    3608.107 + -1.55e-268    3768.556 +        0
+ 187  TPM3u+I+G4        -1923.311    4004.622 + 3.03e-314    4068.140 + -1.55e-268    4291.488 +        0
+ 188  TIM2+I+R2         -3007.912    6181.823 + 3.03e-314    6246.679 + -1.55e-268    6488.960 +        0
+ 189  HKY+F+I+R2        -2809.772    5799.544 + 3.03e-314    5836.025 + -1.55e-268    6185.785 +        0
+ 190  TIM2e+R4          -3889.708    7959.415 + 3.03e-314    8030.632 + -1.55e-268    8298.845 +        0
+ 191  TIM2+F+I+G4       -2539.052    5240.105 + 3.03e-314    5311.524 + -1.55e-268    5530.975 +        0
+ 192  K2P+I+R2          -1424.297    3026.595 + 3.03e-314    3195.226 + -1.55e-268    3313.206 +        0
+ 193  HKY+G4             -768.154    1706.308 + 3.03e-314    2101.443 + -1.55e-268    1945.344 +        0
+ 194  K2P+I+G4          -1512.073    3196.145 + 3.03e-314    3353.661 + -1.55e-268    3471.690 +        0
+ 195  K2P+G4             -585.279    1328.558 + 3.03e-314    1526.058 + -1.55e-268    1563.173 +        0
+ 196  HKY+I+G4          -1742.355    3648.710 + 3.03e-314    3732.219 + -1.55e-268    3936.147 +        0
+ 197  TIM3+G4           -1090.151    2370.302 + 3.03e-314    2684.785 + -1.55e-268    2658.813 +        0
+ 198  TN+F+G4           -1240.699    2635.399 + 3.03e-314    2740.767 + -1.55e-268    2886.226 +        0
+ 199  TPM3u+F+G4        -2038.531    4247.062 + 3.03e-314    4370.961 + -1.55e-268    4529.103 +        0
+ 200  TIM2e+R3          -1812.842    3781.684 + 3.03e-314    3896.861 + -1.55e-268    4033.292 +        0
+ 201  K2P+G4             -501.083    1156.165 + 3.03e-314    1442.165 + -1.55e-268    1370.802 +        0
+ 202  TIM2+F+I+R2       -1632.847    3449.695 + 3.03e-314    3586.591 + -1.55e-268    3761.068 +        0
+ 203  K2P+I+G4          -4557.120    9286.240 + 3.03e-314    9325.723 + -1.55e-268    9642.640 +        0
+ 204  HKY+I+G4          -2476.417    5112.835 + 3.03e-314    5170.952 + -1.55e-268    5410.197 +        0
+ 205  TNe+G4            -1536.006    3236.011 + 3.03e-314    3350.398 + -1.55e-268    3507.289 +        0
+ 206  TPM2u+I+G4        -3687.963    7545.927 + 3.03e-314    7597.955 + -1.55e-268    7877.883 +        0
+ 207  K3Pu+F+G4         -4889.202    9960.404 + 3.03e-314    9997.612 + -1.55e-268   10351.273 +        0
+ 208  HKY+F+I+G4        -1732.857    3619.715 + 3.03e-314    3769.865 + -1.55e-268    3855.534 +        0
+ 209  TVM+I+G4          -3628.153    7422.306 + 3.03e-314    7474.727 + -1.55e-268    7742.514 +        0
+ 210  HKY+I+G4          -1997.923    4167.847 + 3.03e-314    4253.847 + -1.55e-268    4474.395 +        0
+ 211  TPM3u+F+R3        -2537.691    5239.381 + 3.03e-314    5304.200 + -1.55e-268    5541.155 +        0
+ 212  HKY+I+R2          -4300.766    8775.532 + 3.03e-314    8808.891 + -1.55e-268    9150.019 +        0
+ 213  TPM3u+F+I+G4      -2192.941    4557.882 + 3.03e-314    4650.252 + -1.55e-268    4860.383 +        0
+ 214  TIM3+F+I           -824.989    1821.978 + 3.03e-314    2162.069 + -1.55e-268    2069.245 +        0
+ 215  HKY+I+G4           -775.796    1723.592 + 3.03e-314    2206.302 + -1.55e-268    1961.871 +        0
+ 216  TPM3u+I+G4        -1392.177    2934.354 + 3.03e-314    3059.629 + -1.55e-268    3168.204 +        0
+ 217  HKY+I+R2          -2348.039    4854.078 + 3.03e-314    4926.307 + -1.55e-268    5133.838 +        0
+ 218  HKY+F+I+G4        -1315.628    2789.256 + 3.03e-314    2925.170 + -1.55e-268    3038.366 +        0
+ 219  HKY+F+R3           -907.388    1980.777 + 3.03e-314    2238.999 + -1.55e-268    2223.739 +        0
+ 220  HKY+F+I+G4        -1632.299    3426.598 + 3.03e-314    3549.598 + -1.55e-268    3689.607 +        0
+ 221  TN+F+I+G4         -1568.688    3301.375 + 3.03e-314    3467.375 + -1.55e-268    3556.063 +        0
+ 222  TPM2u+F+I+G4      -2646.720    5457.440 + 3.03e-314    5538.949 + -1.55e-268    5746.200 +        0
+ 223  TN+I+G4           -2223.427    4600.855 + 3.03e-314    4678.352 + -1.55e-268    4866.585 +        0
+ 224  TN+F+I+G4         -1352.312    2864.624 + 3.03e-314    3047.159 + -1.55e-268    3106.534 +        0
+ 225  TPM2u+F+I+G4      -1418.081    3016.163 + 3.03e-314    3268.163 + -1.55e-268    3290.650 +        0
+ 226  TPM3+I+G4         -1467.385    3084.771 + 3.03e-314    3185.656 + -1.55e-268    3327.902 +        0
+ 227  TVM+I+G4          -1752.779    3671.558 + 3.03e-314    3810.998 + -1.55e-268    3938.398 +        0
+ 228  HKY+F+I+G4        -1250.164    2678.328 + 3.03e-314    2907.185 + -1.55e-268    2952.018 +        0
+ 229  TPM3+G4           -2127.919    4411.839 + 3.03e-314    4521.874 + -1.55e-268    4665.516 +        0
+ 230  TN+F+G4           -2586.848    5331.696 + 3.03e-314    5407.385 + -1.55e-268    5608.938 +        0
+ 231  HKY+G4            -3147.740    6477.480 + 3.03e-314    6582.130 + -1.55e-268    6798.658 +        0
+ 232  TIM3+F+I+G4       -2206.004    4570.007 + 3.03e-314    4652.085 + -1.55e-268    4842.978 +        0
+ 233  TPM3u+F+I         -1021.007    2200.014 + 3.03e-314    2362.065 + -1.55e-268    2441.959 +        0
+ 234  HKY+F+I+R2        -1766.372    3728.745 + 3.03e-314    3864.437 + -1.55e-268    4070.661 +        0
+ 235  HKY+F+I+G4        -1357.270    2880.540 + 3.03e-314    3017.246 + -1.55e-268    3148.277 +        0
+ 236  TN+F+I+G4         -3836.229    7852.457 + 3.03e-314    7898.340 + -1.55e-268    8221.889 +        0
+ 237  TPM2+I+G4         -1651.261    3468.522 + 3.03e-314    3574.159 + -1.55e-268    3748.670 +        0
+ 238  K2P+G4            -1101.651    2365.301 + 3.03e-314    2502.249 + -1.55e-268    2623.479 +        0
+ 239  TPM2+G4           -1311.587    2787.174 + 3.03e-314    2923.294 + -1.55e-268    3050.352 +        0
+ 240  TN+F+R3           -1151.515    2483.031 + 3.03e-314    3165.531 + -1.55e-268    2730.074 +        0
+ 241  HKY+F+G4          -1028.252    2212.503 + 3.03e-314    2554.836 + -1.55e-268    2426.608 +        0
+ 242  HKY+I+G4          -1324.671    2797.342 + 3.03e-314    2941.498 + -1.55e-268    3021.109 +        0
+ 243  HKY+F+I+G4        -2126.964    4419.928 + 3.03e-314    4554.005 + -1.55e-268    4688.553 +        0
+ 244  HKY+F+I+G4        -2732.437    5626.874 + 3.03e-314    5687.809 + -1.55e-268    5926.880 +        0
+ 245  HKY+G4            -1974.905    4127.810 + 3.03e-314    4257.004 + -1.55e-268    4427.382 +        0
+ 246  K2P+I+R2          -1178.713    2527.426 + 3.03e-314    2752.350 + -1.55e-268    2783.895 +        0
+ 247  TPM2u+F+I+R2      -1561.127    3288.255 + 3.03e-314    3436.595 + -1.55e-268    3552.343 +        0
+ 248  HKY+G4            -1358.854    2879.709 + 3.03e-314    3016.657 + -1.55e-268    3137.887 +        0
+ 249  K3Pu+I+G4          -752.021    1674.041 + 3.03e-314    2587.791 + -1.55e-268    1897.164 +        0
+ 250  TPM2u+R3          -3868.916    7911.832 + 3.03e-314    7955.332 + -1.55e-268    8267.381 +        0
+ 251  TPM2u+F+G4        -1451.790    3069.580 + 3.03e-314    3224.513 + -1.55e-268    3331.782 +        0
+ 252  HKY+F+I+G4        -1807.881    3773.762 + 3.03e-314    3877.369 + -1.55e-268    4035.116 +        0
+ 253  HKY+F+G4          -1635.918    3443.836 + 3.03e-314    3577.443 + -1.55e-268    3727.060 +        0
+ 254  TN+F+G4            -952.696    2067.391 + 3.03e-314    2318.033 + -1.55e-268    2302.718 +        0
+ 255  HKY+F+I+G4        -2119.190    4400.380 + 3.03e-314    4515.893 + -1.55e-268    4666.319 +        0
+ 256  TPM3u+F+R3        -1497.694    3163.389 + 3.03e-314    3272.396 + -1.55e-268    3446.912 +        0
+ 257  HKY+F+G4          -1141.165    2470.330 + 3.03e-314    2721.879 + -1.55e-268    2762.856 +        0
+ 258  HKY+F+I+R2        -2503.462    5190.924 + 3.03e-314    5278.678 + -1.55e-268    5527.916 +        0
+ 259  TN+I+G4           -1374.891    2915.781 + 3.03e-314    3006.327 + -1.55e-268    3203.980 +        0
+ 260  TPM2u+I+R2        -2331.889    4835.779 + 3.03e-314    4905.704 + -1.55e-268    5154.590 +        0
+ 261  TPM3u+I+G4        -1558.996    3287.992 + 3.03e-314    3419.704 + -1.55e-268    3567.064 +        0
+ 262  TPM2u+F+I+G4      -6088.231   12352.462 + 3.03e-314   12387.901 + -1.55e-268   12728.641 +        0
+ 263  TPM2u+F+R3        -1412.815    2985.631 + 3.03e-314    3110.246 + -1.55e-268    3243.259 +        0
+ 264  HKY+R3            -2969.746    6111.493 + 3.03e-314    6157.678 + -1.55e-268    6457.092 +        0
+ 265  TIM2e+G4          -2067.039    4300.078 + 3.03e-314    4386.152 + -1.55e-268    4591.020 +        0
+ 266  TPM2u+I+G4        -1980.397    4142.795 + 3.03e-314    4273.607 + -1.55e-268    4451.615 +        0
+ 267  TPM2u+I+G4        -1141.757    2445.514 + 3.03e-314    2691.514 + -1.55e-268    2681.439 +        0
+ 268  TPM3u+F+I+G4      -1224.833    2629.667 + 3.03e-314    2790.255 + -1.55e-268    2923.309 +        0
+ 269  TPM2u+F+G4        -1120.252    2422.504 + 3.03e-314    2516.572 + -1.55e-268    2749.961 +        0
+ 270  K2P+I+G4          -2183.386    4526.772 + 3.03e-314    4614.340 + -1.55e-268    4801.470 +        0
+ 271  TIM3+I+G4         -1810.600    3785.199 + 3.03e-314    3913.614 + -1.55e-268    4051.023 +        0
+ 272  TPM3+G4           -1276.824    2713.647 + 3.03e-314    2850.069 + -1.55e-268    2967.286 +        0
+ 273  TN+F+R3           -1145.938    2463.876 + 3.03e-314    2903.994 + -1.55e-268    2704.314 +        0
+ 274  TN+R3             -1373.360    2900.719 + 3.03e-314    3074.806 + -1.55e-268    3130.983 +        0
+ 275  TPM2u+G4          -2032.948    4233.896 + 3.03e-314    4392.563 + -1.55e-268    4499.738 +        0
+ 276  TIM2+F+I+G4       -1170.449    2498.898 + 3.03e-314    2665.214 + -1.55e-268    2739.837 +        0
+ 277  TPM2u+F+G4        -1455.766    3081.532 + 3.03e-314    3235.426 + -1.55e-268    3353.404 +        0
+ 278  GTR+I+G4          -2052.489    4276.978 + 3.03e-314    4404.875 + -1.55e-268    4562.336 +        0
+ 279  K2P+I+G4          -2391.368    4930.736 + 3.03e-314    5001.890 + -1.55e-268    5185.475 +        0
+ 280  TPM2+I             -606.577    1397.153 + 3.03e-314    2055.307 + -1.55e-268    1652.832 +        0
+ 281  HKY+I+G4          -4417.907    8991.813 + 3.03e-314    9021.581 + -1.55e-268    9319.453 +        0
+ 282  TPM3u+G4          -1136.060    2444.121 + 3.03e-314    2737.532 + -1.55e-268    2695.864 +        0
+ 283  TPM3u+G4           -905.949    1979.897 + 3.03e-314    2217.897 + -1.55e-268    2229.943 +        0
+ 284  K2P+G4             -590.369    1346.737 + 3.03e-314    1904.497 + -1.55e-268    1570.119 +        0
+ 285  TPM3u+R3          -1778.649    3731.298 + 3.03e-314    3844.720 + -1.55e-268    4027.722 +        0
+ 286  HKY+F+G4          -1719.911    3607.821 + 3.03e-314    3798.221 + -1.55e-268    3866.136 +        0
+ 287  HKY+I+G4          -5107.720   10387.441 + 3.03e-314   10436.990 + -1.55e-268   10728.308 +        0
+ 288  TPM3u+F+I+G4      -1676.701    3509.401 + 3.03e-314    3640.508 + -1.55e-268    3755.358 +        0
+ 289  TNe+I+G4          -3561.591    7301.181 + 3.03e-314    7358.807 + -1.55e-268    7649.000 +        0
+ 290  HKY+I+G4          -2842.777    5857.553 + 3.03e-314    5932.373 + -1.55e-268    6172.268 +        0
+ 291  HKY+G4            -1955.717    4069.434 + 3.03e-314    4161.028 + -1.55e-268    4336.809 +        0
+ 292  HKY+F+R3          -1559.832    3277.665 + 3.03e-314    3374.896 + -1.55e-268    3542.086 +        0
+ 293  HKY+I+G4          -5536.672   11233.344 + 3.03e-314   11261.953 + -1.55e-268   11575.776 +        0
+ 294  HKY+F+G4          -4386.095    8936.189 + 3.03e-314    8980.241 + -1.55e-268    9261.833 +        0
+ 295  TN+F+G4           -1328.013    2822.025 + 3.03e-314    2998.531 + -1.55e-268    3078.806 +        0
+ 296  TN+F+G4           -1867.656    3909.312 + 3.03e-314    4017.908 + -1.55e-268    4208.046 +        0
+ 297  TN+F+G4           -1540.227    3234.454 + 3.03e-314    3366.454 + -1.55e-268    3475.456 +        0
+ 298  TN+F+I+G4          -915.014    2006.027 + 3.03e-314    2658.694 + -1.55e-268    2246.037 +        0
+ 299  HKY+F+I+G4        -1478.530    3123.061 + 3.03e-314    3367.692 + -1.55e-268    3367.808 +        0
+ 300  TIM2+F+I+G4       -1884.616    3939.232 + 3.03e-314    4051.693 + -1.55e-268    4226.131 +        0
+ 301  HKY+F+G4          -1418.218    2988.436 + 3.03e-314    3104.317 + -1.55e-268    3230.251 +        0
+ 302  TPM2u+I            -680.834    1513.669 + 3.03e-314    1773.758 + -1.55e-268    1726.775 +        0
+ 303  K2P+I+R2          -2912.481    5990.963 + 3.03e-314    6042.416 + -1.55e-268    6312.348 +        0
+ 304  HKY+G4            -1501.813    3165.626 + 3.03e-314    3253.021 + -1.55e-268    3445.507 +        0
+ 305  TPM2+G4           -2102.076    4356.153 + 3.03e-314    4457.927 + -1.55e-268    4603.722 +        0
+ 306  HKY+F+G4          -1589.084    3350.168 + 3.03e-314    3498.327 + -1.55e-268    3628.502 +        0
+ 307  TPM3u+F+I+G4      -2102.502    4381.004 + 3.03e-314    4533.082 + -1.55e-268    4667.664 +        0
+ 308  TPM3+I+G4         -5364.868   10899.736 + 3.03e-314   10929.271 + -1.55e-268   11270.740 +        0
+ 309  HKY+F+I+G4        -1611.879    3393.758 + 3.03e-314    3641.555 + -1.55e-268    3646.781 +        0
+ 310  TPM3u+G4          -1035.147    2250.294 + 3.03e-314    2403.378 + -1.55e-268    2546.238 +        0
+ 311  HKY+F+G4          -1189.722    2547.444 + 3.03e-314    2667.444 + -1.55e-268    2826.166 +        0
+ 312  TIM2+F+I+G4       -4631.102    9444.204 + 3.03e-314    9490.204 + -1.55e-268    9819.351 +        0
+ 313  K2P+I+G4          -6696.662   13553.325 + 3.03e-314   13578.248 + -1.55e-268   13905.212 +        0
+ 314  HKY+F+I+G4        -5217.434   10604.868 + 3.03e-314   10647.617 + -1.55e-268   10949.893 +        0
+ 315  TN+F+G4           -1184.986    2547.972 + 3.03e-314    2938.703 + -1.55e-268    2803.864 +        0
+ 316  TIM2+I+G4         -1042.782    2273.563 + 3.03e-314    2638.053 + -1.55e-268    2552.726 +        0
+ 317  HKY+F+I+G4        -2183.035    4524.069 + 3.03e-314    4600.675 + -1.55e-268    4800.669 +        0
+ 318  TPM3u+R3          -2227.109    4628.218 + 3.03e-314    4707.968 + -1.55e-268    4944.444 +        0
+ 319  TPM3u+I+G4        -1184.905    2535.810 + 3.03e-314    2696.086 + -1.55e-268    2796.568 +        0
+ 320  HKY+I+R2           -722.113    1610.226 + 3.03e-314    1725.465 + -1.55e-268    1886.036 +        0
+ 321  TN+F+I+G4         -1346.557    2869.113 + 3.03e-314    3110.098 + -1.55e-268    3136.365 +        0
+ 322  HKY+F+I+G4        -2413.197    4980.393 + 3.03e-314    5066.811 + -1.55e-268    5240.645 +        0
+ 323  TPM3u+I+G4        -4232.960    8615.921 + 3.03e-314    8654.829 + -1.55e-268    8909.231 +        0
+ 324  K2P+I+G4           -874.744    1897.488 + 3.03e-314    2255.552 + -1.55e-268    2094.582 +        0
+ 325  TNe+G4            -2657.523    5479.047 + 3.03e-314    5542.654 + -1.55e-268    5781.933 +        0
+ 326  HKY+G4            -1040.862    2275.724 + 3.03e-314    2484.647 + -1.55e-268    2590.174 +        0
+ 327  TIM2+I+G4         -4297.874    8771.748 + 3.03e-314    8847.056 + -1.55e-268    9096.797 +        0
+ 328  HKY+F+I+G4        -1810.652    3791.304 + 3.03e-314    3888.125 + -1.55e-268    4086.089 +        0
+ 329  TIM2+F+I+G4       -5035.217   10236.433 + 3.03e-314   10278.688 + -1.55e-268   10570.580 +        0
+ 330  TN+I+R3           -3652.249    7476.499 + 3.03e-314    7544.827 + -1.55e-268    7796.727 +        0
+ 331  K2P+I+R2           -909.029    1988.058 + 3.03e-314    2152.328 + -1.55e-268    2257.065 +        0
+ 332  TN+F+R3           -3541.473    7266.946 + 3.03e-314    7309.407 + -1.55e-268    7653.951 +        0
+ 333  HKY+F+I+G4        -1025.159    2236.318 + 3.03e-314    2469.438 + -1.55e-268    2527.398 +        0
+ 334  TPM3u+G4          -1603.359    3374.718 + 3.03e-314    3565.118 + -1.55e-268    3633.033 +        0
+ 335  K2P+G4            -1001.410    2172.820 + 3.03e-314    2433.892 + -1.55e-268    2424.065 +        0
+ 336  TIM3+I+G4         -4973.165   10118.331 + 3.03e-314   10148.684 + -1.55e-268   10493.551 +        0
+ 337  TPM2u+G4          -1341.480    2846.959 + 3.03e-314    2969.590 + -1.55e-268    3114.924 +        0
+ 338  TPM2+G4           -2894.105    5980.210 + 3.03e-314    6066.035 + -1.55e-268    6340.152 +        0
+ 339  TPM3+G4           -2519.727    5203.454 + 3.03e-314    5268.896 + -1.55e-268    5504.666 +        0
+ 340  HKY+I+G4           -901.574    1955.149 + 3.03e-314    2209.583 + -1.55e-268    2168.875 +        0
+ 341  TPM3u+F+I+G4      -1369.174    2926.349 + 3.03e-314    3124.793 + -1.55e-268    3229.062 +        0
+ 342  TPM3u+F+I+G4      -3166.320    6508.641 + 3.03e-314    6557.136 + -1.55e-268    6862.491 +        0
+ 343  TIM3+G4            -930.522    2027.044 + 3.03e-314    2425.444 + -1.55e-268    2257.711 +        0
+ 344  TPM3+I+G4         -1757.445    3676.890 + 3.03e-314    3792.403 + -1.55e-268    3942.830 +        0
+ 345  TNe+G4            -1667.757    3487.514 + 3.03e-314    3641.514 + -1.55e-268    3717.827 +        0
+ 346  TN+F+I+R3         -6852.198   13874.396 + 3.03e-314   13910.141 + -1.55e-268   14231.783 +        0
+ 347  TPM2u+F+I+G4      -1878.050    3924.101 + 3.03e-314    4049.364 + -1.55e-268    4200.738 +        0
+ 348  TN+F+G4            -727.441    1628.881 + 3.03e-314    3330.214 + -1.55e-268    1852.881 +        0
+ 349  TPM3+G4           -1775.201    3714.401 + 3.03e-314    3856.193 + -1.55e-268    3975.767 +        0
+ 350  TPM3u+F+I+G4      -4207.385    8574.771 + 3.03e-314    8617.262 + -1.55e-268    8891.238 +        0
+ 351  TIM2+F+I+G4       -1875.192    3928.385 + 3.03e-314    4044.472 + -1.55e-268    4233.596 +        0
+ 352  TPM2u+G4          -1449.058    3058.115 + 3.03e-314    3198.985 + -1.55e-268    3310.378 +        0
+ 353  TN+F+G4           -1316.745    2799.490 + 3.03e-314    2946.269 + -1.55e-268    3064.043 +        0
+ 354  TPM3+G4           -2396.426    4948.852 + 3.03e-314    5034.436 + -1.55e-268    5214.612 +        0
+ 355  TIM3+I+G4         -3839.950    7855.900 + 3.03e-314    7887.417 + -1.55e-268    8240.752 +        0
+ 356  TIM+F+I+G4        -3007.699    6177.398 + 3.03e-314    6235.154 + -1.55e-268    6480.581 +        0
+ 357  TPM3u+I+G4         -860.949    1887.898 + 3.03e-314    2323.648 + -1.55e-268    2116.446 +        0
+ 358  HKY+I+G4           -811.783    1795.567 + 3.03e-314    2329.995 + -1.55e-268    2031.631 +        0
+ 359  TN+F+I+G4         -1102.963    2377.927 + 3.03e-314    2524.633 + -1.55e-268    2656.717 +        0
+ 360  HKY+I+G4          -1218.440    2588.881 + 3.03e-314    2673.082 + -1.55e-268    2845.402 +        0
+ 361  TIM2+R3           -1709.243    3590.486 + 3.03e-314    3741.637 + -1.55e-268    3867.900 +        0
+ 362  HKY+I+G4          -5010.441   10176.881 + 3.03e-314   10217.961 + -1.55e-268   10484.009 +        0
+ 363  K3P+I+G4          -1224.584    2607.168 + 3.03e-314    2773.484 + -1.55e-268    2848.107 +        0
+ 364  TIM3e+I+G4        -1652.541    3461.081 + 3.03e-314    3544.351 + -1.55e-268    3728.227 +        0
+ 365  HKY+F+I+G4        -2062.101    4286.201 + 3.03e-314    4424.576 + -1.55e-268    4543.926 +        0
+ 366  HKY+F+G4          -1075.450    2330.901 + 3.03e-314    2740.401 + -1.55e-268    2589.669 +        0
+ 367  TPM2u+F+I+G4      -6286.732   12741.465 + 3.03e-314   12767.102 + -1.55e-268   13116.490 +        0
+ 368  HKY+I+G4          -1182.886    2529.772 + 3.03e-314    2791.541 + -1.55e-268    2768.004 +        0
+ 369  TIM3+I+G4         -2918.849    6009.698 + 3.03e-314    6089.719 + -1.55e-268    6320.427 +        0
+ 370  HKY+G4            -1243.317    2636.634 + 3.03e-314    2754.160 + -1.55e-268    2873.131 +        0
+ 371  K3Pu+F+I+G4       -2513.205    5202.410 + 3.03e-314    5281.923 + -1.55e-268    5524.138 +        0
+ 372  TPM2u+F+G4        -1588.336    3346.673 + 3.03e-314    3516.673 + -1.55e-268    3614.210 +        0
+ 373  HKY+G4            -2276.308    4714.617 + 3.03e-314    4786.422 + -1.55e-268    5005.184 +        0
+ 374  HKY+F+G4          -1184.929    2541.858 + 3.03e-314    2813.931 + -1.55e-268    2796.059 +        0
+ 375  TN+F+I+G4         -2987.910    6135.821 + 3.03e-314    6217.330 + -1.55e-268    6414.272 +        0
+ 376  TIM2+F+G4         -1125.008    2406.015 + 3.03e-314    2579.593 + -1.55e-268    2640.845 +        0
+ 377  TN+F+I+G4          -884.547    1937.094 + 3.03e-314    2192.094 + -1.55e-268    2184.789 +        0
+ 378  TN+I+G4           -2527.555    5225.109 + 3.03e-314    5306.331 + -1.55e-268    5529.706 +        0
+ 379  HKY+F+I+G4        -1445.039    3056.078 + 3.03e-314    3264.197 + -1.55e-268    3306.512 +        0
+ 380  TIM2+I+G4         -1853.985    3871.971 + 3.03e-314    4015.255 + -1.55e-268    4132.877 +        0
+ 381  TPM3u+I+G4        -4379.634    8921.269 + 3.03e-314    8963.307 + -1.55e-268    9244.171 +        0
+ 382  TPM3u+I+G4        -1860.181    3882.361 + 3.03e-314    4003.125 + -1.55e-268    4146.218 +        0
+ 383  TIM3+F+G4         -1289.365    2738.730 + 3.03e-314    2983.259 + -1.55e-268    2970.557 +        0
+ 384  HKY+F+I+R2        -3021.000    6225.999 + 3.03e-314    6310.295 + -1.55e-268    6565.513 +        0
+ 385  K3Pu+F+G4         -1856.929    3871.857 + 3.03e-314    3946.210 + -1.55e-268    4150.053 +        0
+ 386  TPM2u+I+G4        -1201.749    2557.497 + 3.03e-314    2813.072 + -1.55e-268    2775.277 +        0
+ 387  HKY+F+G4          -1104.277    2392.554 + 3.03e-314    2617.712 + -1.55e-268    2680.504 +        0
+ 388  TN+F+G4           -3610.506    7379.013 + 3.03e-314    7424.810 + -1.55e-268    7685.132 +        0
+ 389  TPM3+G4           -1432.041    3024.081 + 3.03e-314    3115.996 + -1.55e-268    3296.295 +        0
+ 390  TPM3u+F+I+G4      -1097.056    2354.112 + 3.03e-314    2556.612 + -1.55e-268    2592.251 +        0
+ 391  K2P+G4             -799.433    1752.865 + 3.03e-314    1949.784 + -1.55e-268    1978.820 +        0
+ 392  TPM3u+I+G4        -1472.167    3094.334 + 3.03e-314    3242.386 + -1.55e-268    3321.616 +        0
+ 393  TPM2u+F+I+R3      -6932.821   14047.641 + 3.03e-314   14085.524 + -1.55e-268   14437.157 +        0
+ 394  TPM2+I+G4         -1368.833    2895.666 + 3.03e-314    3027.333 + -1.55e-268    3146.134 +        0
+ 395  TN+F+G4           -1001.136    2156.273 + 3.03e-314    2456.573 + -1.55e-268    2369.615 +        0
+ 396  TPM2u+G4          -2227.211    4610.423 + 3.03e-314    4687.448 + -1.55e-268    4881.587 +        0
+ 397  TIM3+I+G4         -2689.643    5543.287 + 3.03e-314    5637.815 + -1.55e-268    5824.133 +        0
+ 398  TIM3+F+R4         -7380.695   14943.389 + 3.03e-314   14973.558 + -1.55e-268   15350.373 +        0
+ 399  TN+I+G4           -3170.923    6507.845 + 3.03e-314    6568.471 + -1.55e-268    6819.045 +        0
+ 400  TIM3+F+I+G4       -1922.522    4039.043 + 3.03e-314    4213.465 + -1.55e-268    4362.317 +        0
+ 401  HKY+F+I+G4        -1733.589    3633.177 + 3.03e-314    3778.427 + -1.55e-268    3898.192 +        0
+ 402  HKY+G4            -1568.871    3283.741 + 3.03e-314    3373.774 + -1.55e-268    3522.295 +        0
+ 403  HKY+F+G4          -1017.987    2191.974 + 3.03e-314    2349.974 + -1.55e-268    2430.361 +        0
+ 404  HKY+F+G4          -2307.871    4783.742 + 3.03e-314    4848.948 + -1.55e-268    5095.973 +        0
+ 405  HKY+F+I+G4        -3779.152    7712.304 + 3.03e-314    7739.792 + -1.55e-268    8039.105 +        0
+ 406  TPM3u+F+I+G4      -1543.758    3247.516 + 3.03e-314    3467.177 + -1.55e-268    3482.847 +        0
+ 407  TIM3+I+G4         -1886.154    3936.308 + 3.03e-314    4035.666 + -1.55e-268    4214.585 +        0
+ 408  TPM3+I+G4         -1470.997    3111.994 + 3.03e-314    3340.431 + -1.55e-268    3367.898 +        0
+ 409  TIM3+I+G4         -1794.369    3756.737 + 3.03e-314    3895.378 + -1.55e-268    4028.598 +        0
+ 410  TPM2u+F+I+G4      -1923.047    4014.095 + 3.03e-314    4122.277 + -1.55e-268    4298.006 +        0
+ 411  HKY+G4            -1543.076    3248.152 + 3.03e-314    3395.752 + -1.55e-268    3503.099 +        0
+ 412  HKY+F+I+G4        -1892.463    3970.925 + 3.03e-314    4195.079 + -1.55e-268    4263.642 +        0
+ 413  TIM3+F+G4          -771.726    1711.453 + 3.03e-314    2663.453 + -1.55e-268    1930.287 +        0
+ 414  TPM2u+F+I+G4      -1708.323    3572.646 + 3.03e-314    3697.131 + -1.55e-268    3820.825 +        0
+ 415  TN+F+I+G4         -1534.597    3237.195 + 3.03e-314    3435.528 + -1.55e-268    3493.919 +        0
+ 416  TPM2+G4           -1884.302    3936.604 + 3.03e-314    4040.837 + -1.55e-268    4222.428 +        0
+ 417  HKY+F+I+G4        -1590.882    3335.763 + 3.03e-314    3472.263 + -1.55e-268    3575.386 +        0
+ 418  HKY+I+G4          -1900.138    3984.276 + 3.03e-314    4045.609 + -1.55e-268    4344.814 +        0
+ 419  TIM2+F+I+G4       -1157.815    2481.629 + 3.03e-314    2706.532 + -1.55e-268    2729.269 +        0
+ 420  TVM+I+G4          -2108.817    4379.634 + 3.03e-314    4448.464 + -1.55e-268    4672.593 +        0
+ 421  K2P+G4            -1578.066    3306.133 + 3.03e-314    3400.348 + -1.55e-268    3552.373 +        0
+ 422  TIM3+I+G4         -6033.687   12243.374 + 3.03e-314   12273.672 + -1.55e-268   12631.180 +        0
+ 423  HKY+I+R2           -689.044    1532.087 + 3.03e-314    1706.174 + -1.55e-268    1762.350 +        0
+ 424  K2P+G4            -1269.030    2696.060 + 3.03e-314    2780.893 + -1.55e-268    2967.324 +        0
+ 425  K2P+I+G4          -3223.443    6594.886 + 3.03e-314    6643.147 + -1.55e-268    6870.189 +        0
+ 426  TIM3+F+I+G4       -5877.195   11920.390 + 3.03e-314   11955.425 + -1.55e-268   12267.159 +        0
+ 427  TIM2e+G4           -859.753    1881.506 + 3.03e-314    2047.556 + -1.55e-268    2131.602 +        0
+ 428  HKY+F+I            -555.891    1283.782 + 3.03e-314    1907.282 + -1.55e-268    1516.801 +        0
+ 429  TIM2+F+I+G4       -3001.234    6172.467 + 3.03e-314    6266.185 + -1.55e-268    6469.027 +        0
+ 430  TPM3u+G4          -3976.462    8100.925 + 3.03e-314    8128.537 + -1.55e-268    8409.321 +        0
+ 431  TIM3+F+I+G4       -2465.547    5105.094 + 3.03e-314    5190.636 + -1.55e-268    5417.185 +        0
+ 432  TPM3u+I+G4        -1497.050    3148.099 + 3.03e-314    3239.099 + -1.55e-268    3405.827 +        0
+ 433  K3Pu+F+I+G4       -1528.918    3221.835 + 3.03e-314    3396.348 + -1.55e-268    3474.510 +        0
+ 434  TPM2u+F+R2        -2291.669    4739.338 + 3.03e-314    4808.965 + -1.55e-268    5015.862 +        0
+ 435  HKY+F+I+G4        -2055.952    4273.903 + 3.03e-314    4400.418 + -1.55e-268    4535.623 +        0
+ 436  HKY+G4            -1118.250    2386.499 + 3.03e-314    2601.593 + -1.55e-268    2600.985 +        0
+ 437  TPM2u+F+I+G4      -2124.507    4417.014 + 3.03e-314    4535.030 + -1.55e-268    4696.555 +        0
+ 438  TN+F+I+G4         -1966.937    4125.875 + 3.03e-314    4276.068 + -1.55e-268    4452.099 +        0
+ 439  HKY+F+G4          -1401.639    2991.278 + 3.03e-314    3194.233 + -1.55e-268    3292.970 +        0
+ 440  TN+F+I+G4         -2149.839    4455.677 + 3.03e-314    4550.477 + -1.55e-268    4716.379 +        0
+ 441  HKY+F+I+G4        -2483.318    5124.636 + 3.03e-314    5207.794 + -1.55e-268    5396.928 +        0
+ 442  TPM2u+F+I+R2      -1026.425    2214.851 + 3.03e-314    2385.158 + -1.55e-268    2463.940 +        0
+ 443  TPM3+G4           -2316.472    4792.944 + 3.03e-314    4890.387 + -1.55e-268    5062.222 +        0
+ 444  K2P+G4            -1272.542    2703.084 + 3.03e-314    2928.798 + -1.55e-268    2933.183 +        0
+ 445  K3Pu+F+I+R2       -2312.486    4790.972 + 3.03e-314    4866.754 + -1.55e-268    5089.024 +        0
+ 446  TN+F+G4           -1367.969    2917.939 + 3.03e-314    3290.028 + -1.55e-268    3183.657 +        0
+ 447  TNe+I+G4          -3399.056    6952.111 + 3.03e-314    7011.283 + -1.55e-268    7232.264 +        0
+ 448  HKY+F+I+G4        -2915.723    6001.447 + 3.03e-314    6068.511 + -1.55e-268    6317.394 +        0
+ 449  TIM2+G4           -1129.849    2429.698 + 3.03e-314    2510.471 + -1.55e-268    2734.614 +        0
+ 450  TPM2+G4            -933.304    2038.608 + 3.03e-314    2210.608 + -1.55e-268    2310.287 +        0
+ 451  HKY+F+I+R2        -1430.051    3028.102 + 3.03e-314    3137.109 + -1.55e-268    3311.625 +        0
+ 452  TIM3+I+G4         -1275.195    2730.390 + 3.03e-314    2901.015 + -1.55e-268    3021.190 +        0
+ 453  HKY+F+I+G4        -1120.758    2411.516 + 3.03e-314    2736.405 + -1.55e-268    2655.908 +        0
+ 454  TNe+G4            -1001.692    2155.384 + 3.03e-314    2298.116 + -1.55e-268    2388.621 +        0
+ 455  K2P+I+R2           -556.549    1295.098 + 3.03e-314    1747.638 + -1.55e-268    1555.340 +        0
+ 456  TIM2e+G4           -944.995    2043.989 + 3.03e-314    2139.323 + -1.55e-268    2299.485 +        0
+ 457  HKY+F+G4          -7547.177   15274.353 + 3.03e-314   15302.022 + -1.55e-268   15681.738 +        0
+ 458  K2P+I+G4          -1118.735    2401.470 + 3.03e-314    2673.710 + -1.55e-268    2638.479 +        0
+ 459  TN+R3             -2254.585    4679.169 + 3.03e-314    4798.031 + -1.55e-268    4963.267 +        0
+ 460  HKY+F+I+G4        -2400.181    4958.363 + 3.03e-314    5048.008 + -1.55e-268    5226.818 +        0
+ 461  HKY+F+G4          -1583.002    3346.005 + 3.03e-314    3522.134 + -1.55e-268    3635.349 +        0
+ 462  TPM3u+I+G4         -985.015    2132.030 + 3.03e-314    2440.960 + -1.55e-268    2361.124 +        0
+ 463  TPM3u+F+I+G4      -2119.145    4414.290 + 3.03e-314    4579.174 + -1.55e-268    4697.204 +        0
+ 464  TPM2u+R3          -1244.918    2663.836 + 3.03e-314    2799.341 + -1.55e-268    2951.224 +        0
+ 465  TPM3u+I+G4        -1719.950    3593.899 + 3.03e-314    3714.019 + -1.55e-268    3838.897 +        0
+ 466  TNe+I+G4           -353.255     876.511 + 3.03e-314    1168.911 + -1.55e-268    1124.087 +        0
+ 467  TPM3u+I+G4        -1210.161    2574.323 + 3.03e-314    2696.894 + -1.55e-268    2818.450 +        0
+ 468  K2P+G4            -1934.781    4047.562 + 3.03e-314    4179.959 + -1.55e-268    4345.878 +        0
+ 469  TPM3u+I+R2        -3192.512    6557.025 + 3.03e-314    6612.447 + -1.55e-268    6890.510 +        0
+ 470  K3Pu+F+I+G4       -1279.077    2714.154 + 3.03e-314    2882.976 + -1.55e-268    2950.017 +        0
+ 471  TN+F+I+R3         -1824.257    3846.515 + 3.03e-314    4082.229 + -1.55e-268    4164.793 +        0
+ 472  TVM+G4             -925.127    2014.254 + 3.03e-314    2276.024 + -1.55e-268    2252.487 +        0
+ 473  HKY+F+I+R2         -960.772    2097.543 + 3.03e-314    2479.592 + -1.55e-268    2349.886 +        0
+ 474  TPM3u+I+G4         -668.574    1487.147 + 3.03e-314    1943.147 + -1.55e-268    1683.282 +        0
+ 475  HKY+F+I+G4        -1556.751    3271.503 + 3.03e-314    3374.267 + -1.55e-268    3533.246 +        0
+ 476  TN+I+G4           -2358.464    4874.928 + 3.03e-314    4969.256 + -1.55e-268    5140.840 +        0
+ 477  HKY+F+I+G4        -1844.948    3855.896 + 3.03e-314    3965.691 + -1.55e-268    4134.100 +        0
+ 478  TN+F+I+R3         -1493.702    3177.404 + 3.03e-314    3384.676 + -1.55e-268    3482.823 +        0
+ 479  TIM2+I+G4         -2259.473    4678.945 + 3.03e-314    4784.311 + -1.55e-268    4944.395 +        0
+ 480  HKY+F+I+R2        -1134.188    2428.376 + 3.03e-314    2532.893 + -1.55e-268    2694.217 +        0
+ 481  HKY+F+I+G4        -1662.393    3506.787 + 3.03e-314    3620.691 + -1.55e-268    3823.145 +        0
+ 482  K3P+I+G4          -2952.660    6055.321 + 3.03e-314    6121.987 + -1.55e-268    6318.525 +        0
+ 483  K2P+I+G4          -2675.704    5515.408 + 3.03e-314    5583.810 + -1.55e-268    5814.044 +        0
+ 484  HKY+G4            -1977.762    4109.524 + 3.03e-314    4190.141 + -1.55e-268    4373.245 +        0
+ 485  HKY+F+I+G4        -2381.855    4921.710 + 3.03e-314    5016.038 + -1.55e-268    5187.622 +        0
+ 486  HKY+F+I+G4        -1503.427    3184.855 + 3.03e-314    3395.644 + -1.55e-268    3461.821 +        0
+ 487  HKY+F+R3          -1496.165    3170.329 + 3.03e-314    3266.835 + -1.55e-268    3485.850 +        0
+ 488  TIM3+I+G4         -1597.302    3370.605 + 3.03e-314    3533.771 + -1.55e-268    3653.996 +        0
+ 489  TIM3+I+G4         -5252.949   10677.899 + 3.03e-314   10711.986 + -1.55e-268   11044.715 +        0
+ 490  TPM2+G4           -1559.977    3279.953 + 3.03e-314    3384.469 + -1.55e-268    3545.794 +        0
+ 491  K3Pu+F+I+G4        -930.100    2016.200 + 3.03e-314    2316.785 + -1.55e-268    2233.624 +        0
+ 492  HKY+I+G4          -1282.926    2725.851 + 3.03e-314    2880.137 + -1.55e-268    2974.327 +        0
+ 493  TPM2u+I+G4        -1737.899    3653.797 + 3.03e-314    3810.856 + -1.55e-268    3943.714 +        0
+ 494  TIM3+F+I+G4       -1363.240    2896.479 + 3.03e-314    3157.551 + -1.55e-268    3147.725 +        0
+ 495  TIM3+R3           -2403.314    4994.629 + 3.03e-314    5114.494 + -1.55e-268    5323.362 +        0
+ 496  HKY+F+I+G4        -1513.144    3192.288 + 3.03e-314    3383.301 + -1.55e-268    3445.956 +        0
+ 497  TIM2+F+I+G4       -3046.791    6271.582 + 3.03e-314    6335.662 + -1.55e-268    6612.358 +        0
+ 498  TPM2u+I+G4        -3462.065    7082.131 + 3.03e-314    7145.331 + -1.55e-268    7369.279 +        0
+ 499  TPM2u+G4          -1306.220    2764.440 + 3.03e-314    2922.603 + -1.55e-268    2993.754 +        0
+ 500  HKY+I+G4          -1692.659    3553.318 + 3.03e-314    3628.476 + -1.55e-268    3857.127 +        0
+ 501  TPM3u+F+R3        -1367.920    2927.840 + 3.03e-314    3163.586 + -1.55e-268    3232.206 +        0
+ 502  K3Pu+F+I+R2       -2032.526    4243.052 + 3.03e-314    4313.315 + -1.55e-268    4577.875 +        0
+ 503  K3Pu+F+I+G4       -7181.301   14534.602 + 3.03e-314   14569.483 + -1.55e-268   14899.767 +        0
+ 504  TN+F+I+G4         -4410.581    9005.162 + 3.03e-314    9069.980 + -1.55e-268    9361.913 +        0
+ 505  K3Pu+F+I+G4       -2309.686    4783.372 + 3.03e-314    4874.119 + -1.55e-268    5066.357 +        0
+ 506  GTR+F+I+G4        -2937.796    6049.592 + 3.03e-314    6147.121 + -1.55e-268    6354.202 +        0
+ 507  K3P+I+R2           -924.325    2012.651 + 3.03e-314    2139.866 + -1.55e-268    2278.907 +        0
+ 508  HKY+F+I+G4        -1761.602    3693.204 + 3.03e-314    3829.839 + -1.55e-268    3970.532 +        0
+ 509  HKY+I+G4           -967.268    2110.535 + 3.03e-314    2712.997 + -1.55e-268    2352.089 +        0
+ 510  HKY+I+G4          -1008.738    2189.477 + 3.03e-314    2788.037 + -1.55e-268    2423.268 +        0
+ 511  TPM2u+F+R3        -2022.010    4220.020 + 3.03e-314    4350.553 + -1.55e-268    4514.145 +        0
+ 512  HKY+R3            -1299.843    2767.687 + 3.03e-314    2872.687 + -1.55e-268    3053.133 +        0
+ 513  HKY+F+I+G4        -1339.179    2852.357 + 3.03e-314    3200.357 + -1.55e-268    3103.161 +        0
+ 514  TIM2+F+I+G4       -3783.692    7733.384 + 3.03e-314    7771.587 + -1.55e-268    8074.267 +        0
+ 515  HKY+F+I+G4        -6781.167   13724.333 + 3.03e-314   13747.517 + -1.55e-268   14087.589 +        0
+ 516  TPM3u+G4          -1272.210    2696.421 + 3.03e-314    2839.153 + -1.55e-268    2929.658 +        0
+ 517  TPM2u+F+G4        -1214.790    2599.581 + 3.03e-314    2686.089 + -1.55e-268    2900.588 +        0
+ 518  TPM3u+F+G4        -1694.889    3547.778 + 3.03e-314    3691.414 + -1.55e-268    3794.571 +        0
+ 519  K2P+G4            -2832.985    5831.969 + 3.03e-314    5896.825 + -1.55e-268    6139.106 +        0
+ 520  HKY+I+G4          -1381.581    2911.162 + 3.03e-314    3067.500 + -1.55e-268    3131.949 +        0
+ 521  TN+F+I+G4         -1211.936    2607.871 + 3.03e-314    2811.585 + -1.55e-268    2900.077 +        0
+ 522  HKY+I+G4          -1161.117    2474.234 + 3.03e-314    2624.285 + -1.55e-268    2705.534 +        0
+ 523  TIM3+F+I+G4       -1360.272    2894.544 + 3.03e-314    3141.511 + -1.55e-268    3156.469 +        0
+ 524  TIM3+F+G4          -921.686    2003.373 + 3.03e-314    2353.643 + -1.55e-268    2225.027 +        0
+ 525  TIM3+F+G4         -1701.324    3586.648 + 3.03e-314    3763.060 + -1.55e-268    3885.374 +        0
+ 526  TPM3u+G4           -670.037    1512.075 + 3.03e-314    2663.151 + -1.55e-268    1736.119 +        0
+ 527  TN+F+G4           -1296.236    2766.472 + 3.03e-314    2973.391 + -1.55e-268    3035.093 +        0
+ 528  TIM2+I+G4         -5003.507   10163.014 + 3.03e-314   10201.891 + -1.55e-268   10473.565 +        0
+ 529  HKY+F+G4          -1215.825    2595.650 + 3.03e-314    2777.144 + -1.55e-268    2846.783 +        0
+ 530  TPM2u+I+R2         -714.461    1600.923 + 3.03e-314    2281.104 + -1.55e-268    1832.379 +        0
+ 531  TIM2+F+G4         -1697.910    3571.819 + 3.03e-314    3703.450 + -1.55e-268    3865.523 +        0
+ 532  TPM3u+F+G4        -2033.179    4252.358 + 3.03e-314    4362.321 + -1.55e-268    4580.963 +        0
+ 533  TIM3+I+G4         -1848.469    3856.938 + 3.03e-314    3950.851 + -1.55e-268    4128.064 +        0
+ 534  TPM3u+R3          -1237.957    2637.914 + 3.03e-314    2833.267 + -1.55e-268    2881.775 +        0
+ 535  K3Pu+F+I+G4       -1551.914    3287.827 + 3.03e-314    3455.592 + -1.55e-268    3588.943 +        0
+ 536  TPM2u+G4          -1693.885    3559.771 + 3.03e-314    3714.039 + -1.55e-268    3836.255 +        0
+ 537  TPM3u+F+G4        -1981.206    4124.411 + 3.03e-314    4216.661 + -1.55e-268    4401.475 +        0
+ 538  TIM3+F+I+R3       -1829.416    3850.832 + 3.03e-314    3964.393 + -1.55e-268    4193.026 +        0
+ 539  HKY+F+G4           -766.147    1712.295 + 3.03e-314    1905.001 + -1.55e-268    1997.638 +        0
+ 540  HKY+F+I+G4        -1235.968    2645.936 + 3.03e-314    2783.882 + -1.55e-268    2932.454 +        0
+ 541  TN+F+I+G4         -1693.193    3554.386 + 3.03e-314    3777.511 + -1.55e-268    3806.718 +        0
+ 542  K2P+I+G4          -1547.695    3247.389 + 3.03e-314    3407.718 + -1.55e-268    3476.198 +        0
+ 543  TN+F+I+G4         -3320.832    6809.664 + 3.03e-314    6872.022 + -1.55e-268    7124.613 +        0
+ 544  TN+F+I+G4         -2554.870    5281.740 + 3.03e-314    5387.121 + -1.55e-268    5577.040 +        0
+ 545  TPM3u+I+G4        -4044.662    8243.324 + 3.03e-314    8288.145 + -1.55e-268    8539.500 +        0
+ 546  TN+F+I+G4         -1749.729    3663.458 + 3.03e-314    3759.997 + -1.55e-268    3943.213 +        0
+ 547  TPM3+I+G4          -710.346    1590.692 + 3.03e-314    4514.692 + -1.55e-268    1804.115 +        0
+ 548  TIM2+I+G4         -1315.547    2811.093 + 3.03e-314    3138.693 + -1.55e-268    3076.482 +        0
+ 549  TPM3u+F+G4        -2268.809    4691.619 + 3.03e-314    4798.869 + -1.55e-268    4941.640 +        0
+ 550  HKY+I+G4          -1111.588    2403.176 + 3.03e-314    2540.823 + -1.55e-268    2704.416 +        0
+ 551  TPM3u+G4          -1872.962    3901.923 + 3.03e-314    4021.574 + -1.55e-268    4151.836 +        0
+ 552  TIM3+I+G4         -2292.205    4756.409 + 3.03e-314    4906.049 + -1.55e-268    5034.285 +        0
+ 553  TPM3u+F+I+G4      -2512.712    5189.423 + 3.03e-314    5283.951 + -1.55e-268    5470.269 +        0
+ 554  TN+F+I+R3         -5225.657   10621.313 + 3.03e-314   10656.289 + -1.55e-268   10980.232 +        0
+ 555  TPM3u+F+G4        -3860.301    7890.602 + 3.03e-314    7936.868 + -1.55e-268    8230.301 +        0
+ 556  TIM3+R3           -4009.198    8190.396 + 3.03e-314    8255.175 + -1.55e-268    8513.932 +        0
+ 557  TPM3u+I+G4        -6307.580   12781.159 + 3.03e-314   12804.477 + -1.55e-268   13156.737 +        0
+ 558  TIM3+F+I+G4       -1575.840    3317.681 + 3.03e-314    3445.607 + -1.55e-268    3588.484 +        0
+ 559  HKY+F+G4          -1961.293    4082.586 + 3.03e-314    4195.281 + -1.55e-268    4344.835 +        0
+ 560  K3Pu+R3           -1413.899    2981.799 + 3.03e-314    3115.266 + -1.55e-268    3222.344 +        0
+ 561  K3Pu+I+G4         -4963.474   10080.948 + 3.03e-314   10111.748 + -1.55e-268   10400.380 +        0
+ 562  HKY+I+G4          -1541.667    3231.333 + 3.03e-314    3383.388 + -1.55e-268    3453.127 +        0
+ 563  TPM3+G4           -1912.404    3988.808 + 3.03e-314    4118.446 + -1.55e-268    4254.197 +        0
+ 564  TN+I+G4           -1914.157    3998.314 + 3.03e-314    4079.990 + -1.55e-268    4302.591 +        0
+ 565  TN+F+I+G4         -5549.680   11279.361 + 3.03e-314   11318.926 + -1.55e-268   11659.571 +        0
+ 566  TIM+I+G4          -1494.490    3144.980 + 3.03e-314    3234.284 + -1.55e-268    3408.612 +        0
+ 567  TN+F+R3           -1615.888    3415.776 + 3.03e-314    3621.944 + -1.55e-268    3707.460 +        0
+ 568  TPM2u+F+I+G4      -2235.654    4635.307 + 3.03e-314    4740.015 + -1.55e-268    4910.933 +        0
+ 569  TN+F+I+G4         -1173.410    2514.820 + 3.03e-314    2779.264 + -1.55e-268    2761.315 +        0
+ 570  HKY+F+I+G4        -2442.581    5059.161 + 3.03e-314    5188.924 + -1.55e-268    5348.686 +        0
+ 571  TN+F+R3           -1577.394    3350.788 + 3.03e-314    3399.298 + -1.55e-268    3763.624 +        0
+ 572  K3Pu+F+I+G4       -2037.054    4250.109 + 3.03e-314    4336.175 + -1.55e-268    4567.095 +        0
+ 573  TIM+F+I+G4        -1785.449    3732.898 + 3.03e-314    3836.679 + -1.55e-268    4004.013 +        0
+ 574  TPM3u+I+G4        -1886.794    3927.587 + 3.03e-314    4011.004 + -1.55e-268    4189.593 +        0
+ 575  TN+F+I+G4         -4515.815    9211.630 + 3.03e-314    9259.948 + -1.55e-268    9577.370 +        0
+ 576  HKY+F+I+G4        -5709.542   11585.084 + 3.03e-314   11614.752 + -1.55e-268   11943.409 +        0
+ 577  HKY+F+I+G4        -6923.033   14016.065 + 3.03e-314   14044.289 + -1.55e-268   14390.369 +        0
+ 578  TIM3+G4           -1928.720    4015.439 + 3.03e-314    4154.340 + -1.55e-268    4263.631 +        0
+ 579  TVM+I+G4          -3202.380    6590.761 + 3.03e-314    6656.000 + -1.55e-268    6952.684 +        0
+ 580  TPM3u+I+R2        -2258.415    4676.830 + 3.03e-314    4746.884 + -1.55e-268    4963.509 +        0
+ 581  HKY+F+I+G4        -2097.645    4369.289 + 3.03e-314    4477.120 + -1.55e-268    4668.402 +        0
+ 582  TIM3e+I            -498.104    1146.207 + 3.03e-314    1446.207 + -1.55e-268    1351.422 +        0
+ 583  TN+F+I+G4         -1685.978    3531.956 + 3.03e-314    3654.220 + -1.55e-268    3790.444 +        0
+ 584  HKY+F+G4          -1110.784    2397.568 + 3.03e-314    2603.674 + -1.55e-268    2670.892 +        0
+ 585  HKY+F+I+G4        -1025.708    2209.415 + 3.03e-314    2384.971 + -1.55e-268    2448.302 +        0
+ 586  TVMe+G4           -1280.724    2725.449 + 3.03e-314    3057.449 + -1.55e-268    2956.712 +        0
+ 587  HKY+G4            -1031.215    2216.430 + 3.03e-314    2532.535 + -1.55e-268    2428.456 +        0
+ 588  K2P+G4            -3457.700    7085.400 + 3.03e-314    7128.149 + -1.55e-268    7430.426 +        0
+ 589  HKY+F+G4          -1077.807    2311.614 + 3.03e-314    2579.527 + -1.55e-268    2532.222 +        0
+ 590  TPM2u+G4          -1867.731    3915.461 + 3.03e-314    3998.189 + -1.55e-268    4245.440 +        0
+ 591  TPM3u+G4           -840.449    1832.898 + 3.03e-314    2320.564 + -1.55e-268    2031.647 +        0
+ 592  TIM3+F+I+G4       -2784.463    5734.926 + 3.03e-314    5814.153 + -1.55e-268    6030.463 +        0
+ 593  TPM3u+I+G4        -1588.721    3359.443 + 3.03e-314    3530.300 + -1.55e-268    3654.922 +        0
+ 594  TIM2+G4            -801.349    1768.698 + 3.03e-314    2065.379 + -1.55e-268    2007.340 +        0
+ 595  TN+F+I+G4         -2250.115    4660.230 + 3.03e-314    4727.381 + -1.55e-268    4949.281 +        0
+ 596  HKY+I+G4          -1842.619    3853.238 + 3.03e-314    4017.376 + -1.55e-268    4117.627 +        0
+ 597  TPM2u+R3          -6262.784   12695.568 + 3.03e-314   12723.629 + -1.55e-268   13070.293 +        0
+ 598  TPM2u+I+G4        -1871.869    3905.738 + 3.03e-314    4048.577 + -1.55e-268    4162.086 +        0
+ 599  HKY+I+G4           -804.657    1769.314 + 3.03e-314    2119.584 + -1.55e-268    1990.969 +        0
+ 600  HKY+G4            -1840.961    3831.921 + 3.03e-314    3931.921 + -1.55e-268    4075.448 +        0
+ 601  TN+F+I+G4         -1373.493    2930.986 + 3.03e-314    3206.986 + -1.55e-268    3210.982 +        0
+ 602  TN+F+G4            -948.703    2071.405 + 3.03e-314    2397.193 + -1.55e-268    2324.164 +        0
+ 603  GTR+F+G4          -2284.292    4732.584 + 3.03e-314    4821.552 + -1.55e-268    5016.619 +        0
+ 604  HKY+F+R3           -934.718    2039.436 + 3.03e-314    2315.285 + -1.55e-268    2288.867 +        0
+ 605  HKY+F+I+G4        -4580.874    9319.747 + 3.03e-314    9360.260 + -1.55e-268    9633.477 +        0
+ 606  TPM3u+G4          -1081.549    2327.097 + 3.03e-314    2485.376 + -1.55e-268    2583.749 +        0
+ 607  TIM+F+I+G4        -3044.695    6247.389 + 3.03e-314    6325.899 + -1.55e-268    6522.688 +        0
+ 608  HKY+I+G4          -2199.083    4562.166 + 3.03e-314    4643.675 + -1.55e-268    4850.926 +        0
+ 609  HKY+I+G4          -1901.154    3974.308 + 3.03e-314    4088.537 + -1.55e-268    4265.375 +        0
+ 610  TNe+I+G4          -1533.807    3229.614 + 3.03e-314    3333.395 + -1.55e-268    3500.729 +        0
+ 611  TIM2+F+G4         -1457.291    3086.583 + 3.03e-314    3271.324 + -1.55e-268    3355.244 +        0
+ 612  HKY+F+I+G4         -877.409    1924.818 + 3.03e-314    2078.712 + -1.55e-268    2196.690 +        0
+ 613  HKY+F+I+G4        -2661.730    5501.460 + 3.03e-314    5610.440 + -1.55e-268    5810.118 +        0
+ 614  HKY+F+G4          -1257.078    2674.156 + 3.03e-314    2990.253 + -1.55e-268    2898.477 +        0
+ 615  TIM3+F+G4         -1311.697    2799.394 + 3.03e-314    2929.927 + -1.55e-268    3093.519 +        0
+ 616  TPM3u+I+G4        -2101.152    4360.304 + 3.03e-314    4442.382 + -1.55e-268    4633.274 +        0
+ 617  TPM2u+I+G4        -1246.717    2663.435 + 3.03e-314    2919.926 + -1.55e-268    2915.276 +        0
+ 618  TPM2+I+G4         -1612.349    3390.697 + 3.03e-314    3530.137 + -1.55e-268    3657.537 +        0
+ 619  TIM3+F+I+G4       -2925.579    6017.157 + 3.03e-314    6105.410 + -1.55e-268    6306.739 +        0
+ 620  TPM2u+I+G4        -1789.335    3732.671 + 3.03e-314    3839.921 + -1.55e-268    3982.692 +        0
+ 621  TPM3+I+G4         -1377.148    2912.296 + 3.03e-314    3043.963 + -1.55e-268    3162.765 +        0
+ 622  TIM3+R3           -1212.756    2593.513 + 3.03e-314    2820.180 + -1.55e-268    2845.279 +        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Topology-unlinked partition model with separate substitution models and separate rates across sites
+
+  ID  Model         TreeLen  Parameters
+   1  TIM2+F+I+R3    3.3049  TIM2{1.69062,6.2886,7.73107}+F{0.216321,0.261988,0.237007,0.284684}+I{0.598276}+R3{0.1117,0.433451,0.249984,2.77041,0.0400408,6.46905}
+   2  HKY+F+G4       1.3432  HKY{6.35842}+F{0.303282,0.230212,0.19229,0.274215}+G4{0.260169}
+   3  HKY+F+R3       3.4177  HKY{7.62209}+F{0.304961,0.217239,0.213841,0.26396}+R3{0.596435,0.0583589,0.349129,1.82997,0.0544365,5.99409}
+   4  TPM3u+F+I+G4   2.9886  TPM3u{0.721576,5.21613}+F{0.256931,0.208996,0.209475,0.324599}+I{0.381822}+G4{0.863898}
+   5  HKY+F+I+G4     2.2763  HKY{6.28516}+F{0.254321,0.253784,0.172732,0.319163}+I{0.522973}+G4{0.828308}
+   6  TPM3u+F+I+G4   2.4359  TPM3u{0.681091,4.18013}+F{0.244501,0.193683,0.257658,0.304158}+I{0.448991}+G4{1.63919}
+   7  HKY+F+I+G4     3.4486  HKY{3.84571}+F{0.296795,0.209269,0.209269,0.284666}+I{0.329802}+G4{1.4679}
+   8  TN+F+G4        2.7098  TN{10.5964,3.47837}+F{0.216964,0.242446,0.154896,0.385693}+G4{0.207306}
+   9  TN+F+I+G4      3.9995  TN{12.8336,5.7456}+F{0.186269,0.237849,0.188423,0.387459}+I{0.361714}+G4{0.868944}
+  10  HKY+F+I+G4     3.4620  HKY{6.3883}+F{0.370139,0.185417,0.203241,0.241204}+I{0.412954}+G4{0.455536}
+  11  HKY+F+I+G4     2.4921  HKY{5.76535}+F{0.26913,0.186099,0.16794,0.376832}+I{0.415033}+G4{1.64755}
+  12  TPM3+G4        3.9032  TPM3{0.39784,2.87539}+FQ+G4{0.358952}
+  13  TIM3e+I+G4     3.8548  TIM3e{0.686999,4.45958,2.75469}+FQ+I{0.354925}+G4{0.92202}
+  14  TN+F+I+R2      3.1922  TN{2.16933,5.80893}+F{0.280834,0.175133,0.245896,0.298137}+I{0.489736}+R2{0.444245,0.715636,0.0660191,10.3316}
+  15  TIM+F+I+R2     2.5429  TIM{4.69372,1.72993,10.0832}+F{0.281338,0.159369,0.208795,0.350498}+I{0.378565}+R2{0.507116,0.727392,0.114319,5.52075}
+  16  HKY+F+G4       2.0342  HKY{5.46271}+F{0.348856,0.197417,0.227515,0.226212}+G4{0.244999}
+  17  TPM2u+F+I+G4   3.4672  TPM2u{1.7727,5.4379}+F{0.281536,0.1923,0.208317,0.317847}+I{0.350654}+G4{0.781736}
+  18  TIM2e+G4       1.4100  TIM2e{2.89196,7.60796,5.2507}+FQ+G4{0.40115}
+  19  TN+F+G4        1.6545  TN{4.74447,10.6613}+F{0.367285,0.148821,0.184992,0.298902}+G4{0.188733}
+  20  HKY+F+I+G4     1.2843  HKY{3.92053}+F{0.221192,0.244055,0.164881,0.369872}+I{0.565284}+G4{3.97084}
+  21  K3P+G4         1.1147  K3P{2.29425,0.200905}+FQ+G4{0.289654}
+  22  TIM3+F+I+G4    2.4229  TIM3{0.226202,4.60363,2.43924}+F{0.28365,0.219053,0.227349,0.269948}+I{0.486677}+G4{1.33212}
+  23  TIM2+F+I+G4    1.5110  TIM2{2.4545,5.88556,11.3706}+F{0.253808,0.25249,0.23389,0.259813}+I{0.573849}+G4{1.14749}
+  24  GTR+F+I+G4     3.9048  GTR{2.82326,6.10434,1.01798,1.44647,10.7548}+F{0.294124,0.173517,0.2317,0.300659}+I{0.39361}+G4{1.34152}
+  25  TN+F+G4        2.4117  TN{3.19353,6.51208}+F{0.306304,0.168342,0.230242,0.295112}+G4{0.271039}
+  26  TIM2+F+G4      2.9933  TIM2{2.49706,10.3912,7.438}+F{0.277316,0.229679,0.183365,0.309641}+G4{0.274616}
+  27  TN+F+G4        1.4584  TN{4.94225,1.77722}+F{0.345697,0.176742,0.176742,0.300818}+G4{0.285415}
+  28  TIM3+F+I+G4    3.9979  TIM3{2.22754,5.08208,12.2226}+F{0.370688,0.163021,0.222097,0.244194}+I{0.438694}+G4{0.951997}
+  29  HKY+F+I+G4     2.2890  HKY{6.74899}+F{0.327969,0.204844,0.219219,0.247969}+I{0.506394}+G4{1.02598}
+  30  TN+F+I+G4      3.1891  TN{7.66808,3.81862}+F{0.314116,0.226563,0.189637,0.269684}+I{0.497046}+G4{1.22379}
+  31  TPM2u+F+G4     2.6844  TPM2u{1.45346,5.88211}+F{0.303439,0.209329,0.223641,0.263591}+G4{0.501764}
+  32  HKY+F+R3       2.3003  HKY{4.79793}+F{0.22052,0.214228,0.205399,0.359854}+R3{0.657923,0.0960054,0.287846,1.97657,0.0542309,6.78372}
+  33  HKY+F+R3       4.5392  HKY{5.12312}+F{0.25681,0.186299,0.201877,0.355015}+R3{0.634055,0.132081,0.313977,1.77018,0.0519681,6.93612}
+  34  K2P+G4         1.7574  K2P{3.84596}+FQ+G4{0.261991}
+  35  TIM3+F+I+G4    2.5421  TIM3{0.362315,5.19077,2.41957}+F{0.37211,0.18367,0.21156,0.232661}+I{0.574967}+G4{10.3148}
+  36  TIM3+F+I+G4    5.6376  TIM3{0.465254,6.47018,2.93042}+F{0.283435,0.262767,0.140263,0.313535}+I{0.369397}+G4{0.661741}
+  37  TPM3+I+G4      3.6686  TPM3{0.614242,2.72434}+FQ+I{0.411381}+G4{1.00104}
+  38  TIM2+F+G4      3.4960  TIM2{2.5279,5.81641,12.6364}+F{0.293895,0.184822,0.243069,0.278213}+G4{0.290572}
+  39  HKY+F+I+G4     2.8970  HKY{10.8701}+F{0.321698,0.22508,0.224892,0.228331}+I{0.638968}+G4{2.0009}
+  40  TN+F+I+R2      1.3816  TN{7.77448,4.11466}+F{0.314612,0.22571,0.14807,0.311608}+I{0.65753}+R2{0.298828,1.7716,0.0436421,10.7831}
+  41  HKY+F+I+R3     2.9119  HKY{6.73032}+F{0.312788,0.215019,0.151524,0.320669}+I{0.520116}+R3{0.39684,1.09589,0.0798889,5.54974,0.00315529,38.5841}
+  42  HKY+F+I+G4     3.7726  HKY{4.3098}+F{0.314989,0.208842,0.198489,0.277679}+I{0.511136}+G4{0.952469}
+  43  HKY+F+G4       2.3800  HKY{4.7581}+F{0.320202,0.169851,0.224686,0.285262}+G4{0.380181}
+  44  TN+F+G4        1.8563  TN{5.12597,8.63366}+F{0.350894,0.169139,0.237072,0.242895}+G4{0.27586}
+  45  HKY+F+G4       1.2617  HKY{4.93587}+F{0.271447,0.268613,0.165249,0.29469}+G4{0.193314}
+  46  TPM3u+F+I+G4   2.4256  TPM3u{0.596523,4.39324}+F{0.307686,0.224521,0.205851,0.261941}+I{0.55943}+G4{1.52253}
+  47  TPM3u+F+I+G4   2.1181  TPM3u{0.702154,2.66573}+F{0.265471,0.242738,0.222363,0.269428}+I{0.455851}+G4{0.906664}
+  48  TIM2e+I+G4     2.8703  TIM2e{2.04597,8.08803,11.5109}+FQ+I{0.510337}+G4{0.846319}
+  49  TPM3u+F+I+G4   3.4421  TPM3u{0.44834,4.36593}+F{0.262911,0.234038,0.191784,0.311268}+I{0.470823}+G4{0.795113}
+  50  TIM2+F+I+G4    6.3876  TIM2{0.329706,4.99103,2.4511}+F{0.30273,0.257902,0.149282,0.290086}+I{0.233964}+G4{0.446945}
+  51  TPM3+G4        2.1313  TPM3{0.567111,3.45019}+FQ+G4{0.398826}
+  52  TPM3+G4        1.5750  TPM3{0.266703,2.63722}+FQ+G4{0.366876}
+  53  HKY+F+G4       2.6768  HKY{4.62557}+F{0.284883,0.213067,0.226028,0.276022}+G4{0.183518}
+  54  K3Pu+F+I+G4    1.8298  K3Pu{3.74719,0.538385}+F{0.33107,0.191716,0.241135,0.23608}+I{0.4045}+G4{0.908511}
+  55  K3Pu+F+G4      2.1592  K3Pu{9.84592,2.44008}+F{0.302927,0.234823,0.235679,0.226572}+G4{0.283901}
+  56  TN+F+I+G4      1.0989  TN{6.74081,3.34474}+F{0.265922,0.210918,0.162221,0.360939}+I{0.522108}+G4{1.2742}
+  57  TIM2+F+I+G4    3.0942  TIM2{1.22232,3.76412,3.42114}+F{0.29214,0.234432,0.233171,0.240257}+I{0.362532}+G4{1.37821}
+  58  TPM3u+F+R3     1.5774  TPM3u{0.318014,1.88808}+F{0.300371,0.209684,0.229319,0.260626}+R3{0.814603,0.239394,0.164112,3.01295,0.0212855,14.5887}
+  59  HKY+F+G4       1.6080  HKY{7.01913}+F{0.318439,0.19887,0.152066,0.330625}+G4{0.405385}
+  60  K3Pu+F+I+G4    3.0425  K3Pu{2.15893,0.430845}+F{0.273382,0.21893,0.174568,0.33312}+I{0.439846}+G4{1.56151}
+  61  TPM3u+F+G4     2.2412  TPM3u{0.636871,2.59484}+F{0.295541,0.191692,0.234184,0.278582}+G4{0.244879}
+  62  TPM2+G4        2.9777  TPM2{2.67106,5.68621}+FQ+G4{0.415441}
+  63  TPM3+I+G4      3.0909  TPM3{0.462425,2.86469}+FQ+I{0.380176}+G4{0.77293}
+  64  TN+F+I+G4      2.8369  TN{3.62384,6.30831}+F{0.374035,0.168561,0.215439,0.241965}+I{0.458571}+G4{1.84732}
+  65  TIM2+F+I+G4    3.9295  TIM2{4.49454,10.1742,17.202}+F{0.227298,0.175484,0.279111,0.318107}+I{0.429903}+G4{0.922264}
+  66  HKY+F+I+G4     3.2470  HKY{4.30407}+F{0.219996,0.235065,0.245347,0.299592}+I{0.571054}+G4{1.49207}
+  67  K2P+G4         4.7833  K2P{2.35069}+FQ+G4{0.345878}
+  68  TPM2u+F+I+G4   2.0155  TPM2u{2.06979,8.9995}+F{0.288514,0.172089,0.228734,0.310662}+I{0.594305}+G4{4.16148}
+  69  TIM2+F+G4      1.5334  TIM2{1.47322,6.95629,10.2886}+F{0.261385,0.240964,0.157239,0.340412}+G4{0.182508}
+  70  TIM2+F+G4      2.2410  TIM2{2.41172,5.27467,7.04812}+F{0.229709,0.25534,0.228331,0.28662}+G4{0.333982}
+  71  HKY+F+G4       1.9938  HKY{7.74056}+F{0.294068,0.287904,0.188521,0.229507}+G4{0.181066}
+  72  TPM3u+F+I+G4   0.9744  TPM3u{0.30214,3.30596}+F{0.306982,0.19703,0.248395,0.247592}+I{0.554325}+G4{1.03245}
+  73  TIM2+F+I+G4    4.2618  TIM2{3.57856,9.62962,19.5311}+F{0.243306,0.184042,0.303113,0.269539}+I{0.422504}+G4{0.732283}
+  74  TIM2+F+R3      3.4390  TIM2{2.22968,3.65403,11.6194}+F{0.288423,0.221057,0.259984,0.230537}+R3{0.572098,0.0860462,0.366332,1.34146,0.06157,7.46069}
+  75  TIM3+F+G4      1.9211  TIM3{0.390322,6.08882,1.98128}+F{0.230025,0.226427,0.166253,0.377295}+G4{0.329765}
+  76  TIM3e+I+G4     3.3727  TIM3e{0.462426,6.56505,3.75576}+FQ+I{0.473782}+G4{0.72761}
+  77  TPM2u+F+I      2.0366  TPM2u{0.590643,2.71831}+F{0.348206,0.196413,0.150163,0.305218}+I{0.415588}
+  78  TIM3e+I+G4     3.9114  TIM3e{0.249889,4.96138,3.22724}+FQ+I{0.495403}+G4{0.90341}
+  79  HKY+F+G4       1.5738  HKY{7.07533}+F{0.32107,0.195987,0.210256,0.272687}+G4{0.174651}
+  80  HKY+F+I+G4     4.5078  HKY{8.9449}+F{0.259487,0.226617,0.174238,0.339658}+I{0.453743}+G4{0.53761}
+  81  TIM3+F+I+G4    3.5414  TIM3{3.61989,7.17157,20.7924}+F{0.313302,0.160521,0.198818,0.327358}+I{0.416962}+G4{1.05234}
+  82  TN+F+I+G4      4.9676  TN{3.47091,6.82836}+F{0.255369,0.186798,0.26069,0.297143}+I{0.399895}+G4{0.794123}
+  83  TIM3+F+I+G4    3.1573  TIM3{0.639789,5.67418,4.32701}+F{0.218398,0.216881,0.255854,0.308868}+I{0.3727}+G4{0.89488}
+  84  TIM2e+I+G4     4.0034  TIM2e{1.5924,8.60991,4.6848}+FQ+I{0.325218}+G4{0.631943}
+  85  TPM2u+F+I+G4   3.4225  TPM2u{3.10371,8.28904}+F{0.266673,0.214822,0.229014,0.289491}+I{0.455384}+G4{0.542255}
+  86  TPM3u+F+G4     3.1378  TPM3u{0.443943,2.5676}+F{0.259009,0.227631,0.292289,0.221071}+G4{0.29771}
+  87  TPM3u+F+G4     1.5685  TPM3u{0.24051,2.85374}+F{0.305388,0.217971,0.159788,0.316853}+G4{0.301762}
+  88  TN+F+I+G4      1.0329  TN{4.09958,8.1625}+F{0.29406,0.175824,0.246627,0.283489}+I{0.484986}+G4{1.31755}
+  89  TPM2u+F+G4     1.1486  TPM2u{2.15747,8.44279}+F{0.265126,0.200456,0.196786,0.337631}+G4{0.246949}
+  90  HKY+F+G4       2.0042  HKY{3.89418}+F{0.323324,0.184272,0.211975,0.280429}+G4{0.304076}
+  91  HKY+F+I+R3     1.6186  HKY{4.2707}+F{0.239852,0.178651,0.276392,0.305105}+I{0.465188}+R3{0.386695,0.803848,0.136162,3.70073,0.0119543,15.497}
+  92  TPM3u+F+I+G4   2.4990  TPM3u{0.27202,5.38339}+F{0.281915,0.212766,0.196339,0.30898}+I{0.512057}+G4{1.79632}
+  93  TPM3u+F+I+G4   3.0477  TPM3u{0.467949,5.69689}+F{0.311325,0.191394,0.250427,0.246854}+I{0.526924}+G4{0.778609}
+  94  TPM2u+F+G4     2.4169  TPM2u{1.50773,5.88695}+F{0.377995,0.171746,0.2258,0.224459}+G4{0.295718}
+  95  HKY+F+I+G4     2.9555  HKY{4.12027}+F{0.215637,0.237066,0.242085,0.305212}+I{0.433327}+G4{0.730317}
+  96  TPM2+I+G4      2.2916  TPM2{2.49603,7.29428}+FQ+I{0.307186}+G4{0.702583}
+  97  HKY+F+G4       0.6533  HKY{10.3939}+F{0.291012,0.232558,0.177247,0.299183}+G4{0.235107}
+  98  TN+F+I+G4      2.9507  TN{5.19983,2.33966}+F{0.283776,0.218043,0.173486,0.324694}+I{0.364616}+G4{1.4063}
+  99  TPM2u+F+I+G4   1.4291  TPM2u{4.73634,6.25897}+F{0.179937,0.285425,0.181287,0.353351}+I{0.543414}+G4{0.961678}
+ 100  TPM3u+F+R3     4.3150  TPM3u{1.73974,6.39766}+F{0.32255,0.240048,0.207577,0.229826}+R3{0.621652,0.0697805,0.295343,1.69644,0.0830058,5.48864}
+ 101  TPM2u+F+G4     2.9813  TPM2u{0.633937,2.54843}+F{0.338413,0.1881,0.184342,0.289144}+G4{0.345275}
+ 102  K2P+G4         2.2865  K2P{2.81594}+FQ+G4{0.471949}
+ 103  TN+F+I+G4      2.0599  TN{2.70633,11.4769}+F{0.386819,0.134215,0.233974,0.244992}+I{0.553149}+G4{3.97607}
+ 104  TN+F+I+G4      3.5583  TN{6.60048,3.1142}+F{0.304705,0.22325,0.146488,0.325557}+I{0.487371}+G4{0.788882}
+ 105  TIM2+F+G4      1.2870  TIM2{2.10731,6.85875,16.514}+F{0.330336,0.169065,0.303272,0.197328}+G4{0.203792}
+ 106  TIM3+F+I+G4    3.7890  TIM3{2.03342,3.47417,6.1527}+F{0.278186,0.172066,0.224334,0.325414}+I{0.306128}+G4{0.79108}
+ 107  TPM2u+F+I+G4   3.1487  TPM2u{1.17119,5.8065}+F{0.308634,0.248337,0.210319,0.232709}+I{0.435033}+G4{0.808527}
+ 108  K3Pu+F+I+G4    2.7905  K3Pu{3.19433,0.380954}+F{0.31511,0.21792,0.263044,0.203927}+I{0.473547}+G4{1.75031}
+ 109  TN+F+I+G4      3.1958  TN{2.42627,3.87177}+F{0.342937,0.21648,0.23565,0.204933}+I{0.381595}+G4{0.714319}
+ 110  TPM3+I+G4      3.1007  TPM3{0.528607,5.13839}+FQ+I{0.51503}+G4{1.30613}
+ 111  TIM3+F+R3      4.8729  TIM3{0.395381,5.28226,3.67544}+F{0.245631,0.247145,0.250133,0.25709}+R3{0.676912,0.0823344,0.257888,1.97712,0.0651999,6.66243}
+ 112  HKY+F+G4       1.2939  HKY{6.9183}+F{0.193903,0.226273,0.208517,0.371307}+G4{0.195509}
+ 113  TVM+F+I+G4     2.7591  TVM{0.705848,2.70166,0.544837,0.247152}+F{0.224463,0.252316,0.21375,0.309471}+I{0.417558}+G4{0.893968}
+ 114  TPM2u+F+I+G4   2.3243  TPM2u{1.77859,7.56654}+F{0.26753,0.15957,0.236984,0.335917}+I{0.404959}+G4{0.846352}
+ 115  HKY+F+G4       2.1578  HKY{2.9159}+F{0.30259,0.206978,0.214822,0.27561}+G4{0.432354}
+ 116  TPM2u+F+I+G4   3.1684  TPM2u{1.78931,9.49317}+F{0.30218,0.19182,0.204327,0.301673}+I{0.369096}+G4{0.455463}
+ 117  HKY+F+G4       1.5772  HKY{5.13241}+F{0.314773,0.151492,0.293203,0.240532}+G4{0.374931}
+ 118  HKY+F+I+G4     3.1000  HKY{10.557}+F{0.230809,0.223333,0.148222,0.397635}+I{0.496057}+G4{1.58243}
+ 119  TPM3u+F+I+G4   2.3786  TPM3u{0.559145,2.02235}+F{0.291422,0.238584,0.184279,0.285714}+I{0.415122}+G4{1.86992}
+ 120  TIM3+F+I+G4    3.2695  TIM3{0.322562,4.5741,3.08519}+F{0.29918,0.232749,0.215458,0.252614}+I{0.451595}+G4{0.64394}
+ 121  TPM3+G4        1.3987  TPM3{0.253385,2.92935}+FQ+G4{0.318312}
+ 122  HKY+F+I+G4     3.6947  HKY{7.80383}+F{0.275783,0.216184,0.220894,0.287138}+I{0.542532}+G4{1.21274}
+ 123  HKY+F+G4       1.8586  HKY{6.68328}+F{0.258077,0.198159,0.253769,0.289994}+G4{0.267641}
+ 124  TPM3u+F+I+G4   2.8292  TPM3u{0.405155,2.55043}+F{0.273606,0.235578,0.227414,0.263401}+I{0.387495}+G4{0.970591}
+ 125  TN+F+G4        3.4924  TN{5.6736,2.40945}+F{0.310659,0.198673,0.165077,0.325591}+G4{0.228805}
+ 126  TPM2u+F+I+G4   2.8985  TPM2u{0.450365,2.29974}+F{0.379977,0.189044,0.174659,0.256321}+I{0.425901}+G4{1.13772}
+ 127  TPM3u+F+I+G4   3.5585  TPM3u{0.369279,2.84141}+F{0.304404,0.20342,0.212454,0.279723}+I{0.327024}+G4{1.3328}
+ 128  TPM3u+F+I+G4   3.0085  TPM3u{0.262811,3.60941}+F{0.309963,0.221124,0.181124,0.28779}+I{0.471221}+G4{1.46904}
+ 129  TIM3e+I+G4     2.1244  TIM3e{0.379069,5.50295,2.53289}+FQ+I{0.46417}+G4{1.1461}
+ 130  HKY+F+G4       2.9749  HKY{5.47631}+F{0.34882,0.176042,0.254771,0.220367}+G4{0.249309}
+ 131  TPM3u+F+I+G4   1.5608  TPM3u{0.614231,5.74709}+F{0.228801,0.25218,0.233856,0.285164}+I{0.539422}+G4{1.64682}
+ 132  TPM3u+F+I+G4   2.6526  TPM3u{0.388175,4.76696}+F{0.294513,0.266853,0.18477,0.253863}+I{0.43705}+G4{1.08729}
+ 133  TPM2u+F+I+G4   1.9459  TPM2u{0.59506,2.80287}+F{0.268512,0.211131,0.202893,0.317463}+I{0.577196}+G4{1.48185}
+ 134  HKY+F+I+G4     2.3538  HKY{8.76153}+F{0.232411,0.226794,0.194776,0.346019}+I{0.472472}+G4{0.676727}
+ 135  TPM3u+F+I+G4   3.8139  TPM3u{0.75516,5.88274}+F{0.289383,0.191959,0.23393,0.284728}+I{0.290795}+G4{1.0962}
+ 136  HKY+F+I+G4     2.4219  HKY{6.67078}+F{0.316657,0.191681,0.227361,0.264301}+I{0.555164}+G4{1.87681}
+ 137  TNe+R3         2.0705  TNe{6.99839,3.97606}+FQ+R3{0.717749,0.0515049,0.228462,1.76667,0.0537895,10.4001}
+ 138  TN+F+R3        2.1773  TN{6.43841,3.3296}+F{0.281293,0.238423,0.13801,0.342274}+R3{0.594266,0.0151063,0.357895,1.63563,0.0478393,8.47919}
+ 139  TIM3+F+G4      1.7960  TIM3{0.575785,12.9352,2.51489}+F{0.209393,0.229372,0.182667,0.378568}+G4{0.241949}
+ 140  TIM3+F+I+G4    3.3655  TIM3{0.558074,4.05377,2.04033}+F{0.263398,0.261988,0.184918,0.289696}+I{0.444258}+G4{0.818589}
+ 141  TNe+I+G4       2.9109  TNe{9.00449,4.66956}+FQ+I{0.424097}+G4{1.43936}
+ 142  TN+F+I+G4      2.9865  TN{6.80229,3.36151}+F{0.3272,0.258174,0.169811,0.244814}+I{0.454997}+G4{1.21635}
+ 143  TPM2u+F+I+G4   2.2438  TPM2u{3.03735,6.0206}+F{0.217501,0.207418,0.238867,0.336214}+I{0.589744}+G4{1.67866}
+ 144  TN+F+G4        1.3224  TN{4.911,10.0585}+F{0.320515,0.178681,0.206609,0.294195}+G4{0.262026}
+ 145  TPM2+G4        2.7725  TPM2{2.62249,8.79964}+FQ+G4{0.242373}
+ 146  HKY+F+G4       1.6042  HKY{7.21166}+F{0.304146,0.23828,0.164471,0.293103}+G4{0.345895}
+ 147  HKY+F+G4       2.3898  HKY{2.65762}+F{0.323557,0.242956,0.164203,0.269284}+G4{0.389178}
+ 148  TNe+I+G4       3.1369  TNe{4.6135,7.3662}+FQ+I{0.528933}+G4{1.00989}
+ 149  TIM2+F+I+G4    3.0631  TIM2{3.93398,17.4632,69.7719}+F{0.365076,0.161517,0.228393,0.245014}+I{0.584462}+G4{1.49788}
+ 150  TIM3+F+G4      2.0383  TIM3{2.0679,3.56658,9.44915}+F{0.2957,0.158138,0.244395,0.301767}+G4{0.168434}
+ 151  TPM3u+F+I+G4   2.1504  TPM3u{0.243077,3.10528}+F{0.249116,0.223008,0.267307,0.260569}+I{0.436375}+G4{0.871381}
+ 152  TPM2u+F+I+G4   2.2571  TPM2u{2.53824,9.41049}+F{0.317402,0.209207,0.231491,0.2419}+I{0.560335}+G4{3.1484}
+ 153  TN+F+I+G4      2.9725  TN{11.5429,6.14209}+F{0.257785,0.266099,0.188232,0.287884}+I{0.571729}+G4{1.31094}
+ 154  TPM2u+F+I+R2   2.8588  TPM2u{2.52265,10.4136}+F{0.319467,0.202729,0.194837,0.282966}+I{0.449902}+R2{0.445875,0.807574,0.104223,6.13995}
+ 155  TIM3+F+I+G4    2.5914  TIM3{3.39251,8.9524,24.9116}+F{0.36337,0.147045,0.235303,0.254282}+I{0.479164}+G4{1.43472}
+ 156  TPM3u+F+G4     1.0480  TPM3u{0.351643,3.89626}+F{0.262442,0.22449,0.172753,0.340315}+G4{0.194392}
+ 157  TPM3+I+G4      2.9725  TPM3{0.623638,4.58843}+FQ+I{0.520242}+G4{1.26601}
+ 158  K2P+G4         1.8402  K2P{3.29021}+FQ+G4{0.510977}
+ 159  TPM2+I+G4      2.2741  TPM2{2.24594,7.9172}+FQ+I{0.477864}+G4{0.933365}
+ 160  HKY+F+G4       1.1546  HKY{6.13588}+F{0.402942,0.172733,0.195936,0.228389}+G4{0.214394}
+ 161  TPM3u+F+G4     1.5934  TPM3u{0.415615,3.0695}+F{0.338267,0.204173,0.223787,0.233773}+G4{0.188106}
+ 162  TPM2u+F+I+G4   1.9349  TPM2u{2.02895,10.5598}+F{0.29154,0.243233,0.172594,0.292633}+I{0.546035}+G4{1.14953}
+ 163  TN+F+G4        3.1372  TN{3.35085,8.14549}+F{0.326303,0.216342,0.20573,0.251625}+G4{0.621098}
+ 164  TPM3u+F+I+G4   2.6691  TPM3u{0.550708,4.34654}+F{0.304005,0.22702,0.1537,0.315275}+I{0.419509}+G4{0.821168}
+ 165  TPM2u+F+I+G4   3.4135  TPM2u{1.87693,7.28068}+F{0.267943,0.219244,0.232695,0.280118}+I{0.50284}+G4{1.75152}
+ 166  TIM2+F+I+G4    2.0284  TIM2{1.79347,6.40244,10.4911}+F{0.273638,0.203175,0.231621,0.291567}+I{0.480475}+G4{1.20304}
+ 167  TVM+F+I+G4     3.4838  TVM{0.719662,3.06065,0.630361,0.294853}+F{0.271701,0.198051,0.214613,0.315635}+I{0.35501}+G4{1.18775}
+ 168  TPM3u+F+G4     2.4368  TPM3u{0.497771,4.11917}+F{0.300165,0.195976,0.206036,0.297822}+G4{0.366139}
+ 169  HKY+F+R3       2.7411  HKY{6.30882}+F{0.259502,0.218943,0.236326,0.285229}+R3{0.639383,0.046117,0.314616,1.89504,0.0460006,8.13694}
+ 170  HKY+F+G4       3.0442  HKY{12.7964}+F{0.315393,0.195013,0.196448,0.293147}+G4{0.191255}
+ 171  TPM3u+F+I+G4   3.8167  TPM3u{0.629605,4.1421}+F{0.293549,0.24983,0.185954,0.270668}+I{0.338286}+G4{1.41266}
+ 172  TPM3u+F+I+R3   3.4489  TPM3u{0.614246,5.0895}+F{0.28783,0.217531,0.19885,0.295789}+I{0.418029}+R3{0.270779,0.364849,0.293424,2.30561,0.0177678,12.6456}
+ 173  TPM3u+F+R3     1.8601  TPM3u{0.525455,2.71363}+F{0.229663,0.222529,0.244621,0.303187}+R3{0.613018,0.218634,0.376787,1.79126,0.0101951,18.7394}
+ 174  TN+F+I+G4      2.7644  TN{3.11939,6.1854}+F{0.381219,0.17383,0.202973,0.241978}+I{0.363863}+G4{1.69991}
+ 175  HKY+F+I+R3     2.7095  HKY{5.83107}+F{0.205592,0.249989,0.224571,0.319847}+I{0.45358}+R3{0.296298,0.632425,0.216759,2.50036,0.0333635,8.11178}
+ 176  TN+F+G4        1.5909  TN{7.03202,6.39338}+F{0.27472,0.295649,0.148154,0.281477}+G4{0.262731}
+ 177  K2P+G4         0.5320  K2P{4.84303}+FQ+G4{0.163775}
+ 178  TPM3+I+G4      3.1605  TPM3{0.425498,2.78438}+FQ+I{0.346771}+G4{1.91842}
+ 179  K3Pu+F+I+R2    1.8705  K3Pu{5.68028,1.82686}+F{0.281083,0.243099,0.202012,0.273807}+I{0.538579}+R2{0.44086,1.6852,0.0205617,12.5021}
+ 180  HKY+F+I+G4     3.5457  HKY{4.57148}+F{0.330811,0.168072,0.221285,0.279831}+I{0.357035}+G4{0.839551}
+ 181  TPM2u+F+G4     3.0787  TPM2u{4.76813,6.66242}+F{0.232222,0.277288,0.231395,0.259096}+G4{0.296252}
+ 182  TIM2+F+I+G4    4.2394  TIM2{1.40969,5.36123,11.3725}+F{0.301878,0.208192,0.255827,0.234103}+I{0.389675}+G4{1.01008}
+ 183  HKY+F+I+G4     4.7640  HKY{4.14779}+F{0.248928,0.226289,0.201356,0.323427}+I{0.36665}+G4{0.934801}
+ 184  TPM3u+F+I+G4   2.0736  TPM3u{0.47218,3.34648}+F{0.305917,0.198309,0.196818,0.298956}+I{0.546358}+G4{1.57642}
+ 185  HKY+F+I+G4     2.6408  HKY{7.17643}+F{0.27546,0.189378,0.239471,0.295691}+I{0.5716}+G4{1.10531}
+ 186  TN+F+I+G4      2.6690  TN{6.84556,16.2118}+F{0.377575,0.148117,0.235733,0.238574}+I{0.50755}+G4{0.984271}
+ 187  TPM3u+F+I+G4   1.7568  TPM3u{0.542268,5.67028}+F{0.248818,0.236623,0.213084,0.301475}+I{0.580022}+G4{3.05132}
+ 188  TIM2+F+I+R2    2.9684  TIM2{2.76081,6.0088,22.2032}+F{0.290991,0.187458,0.274425,0.247126}+I{0.490314}+R2{0.363848,1.00008,0.145838,4.36185}
+ 189  HKY+F+I+R2     0.9248  HKY{6.37579}+F{0.280832,0.186199,0.210208,0.32276}+I{0.590341}+R2{0.357035,1.60651,0.0526234,8.10324}
+ 190  TIM2e+R4       5.4195  TIM2e{1.58426,7.04976,12.7046}+FQ+R4{0.586893,0.0361647,0.247389,1.10511,0.150124,3.2419,0.0155949,14.0236}
+ 191  TIM2+F+I+G4    2.7410  TIM2{1.84863,6.09966,8.70831}+F{0.354599,0.137191,0.216024,0.292186}+I{0.430193}+G4{1.15742}
+ 192  K2P+I+R2       2.0845  K2P{3.6738}+FQ+I{0.453628}+R2{0.443901,0.969138,0.102471,5.56059}
+ 193  HKY+F+G4       1.3226  HKY{6.45749}+F{0.282526,0.158661,0.207829,0.350983}+G4{0.191043}
+ 194  K2P+I+G4       1.8548  K2P{4.47001}+FQ+I{0.517616}+G4{1.93548}
+ 195  K2P+G4         0.8126  K2P{3.97833}+FQ+G4{0.193756}
+ 196  HKY+F+I+G4     2.9960  HKY{7.05754}+F{0.263642,0.229462,0.181191,0.325705}+I{0.333612}+G4{0.414367}
+ 197  TIM3+F+G4      2.7776  TIM3{0.244058,6.11984,2.58808}+F{0.373888,0.213571,0.157536,0.255006}+G4{0.191605}
+ 198  TN+F+G4        1.5461  TN{6.86024,3.42442}+F{0.303406,0.233718,0.115719,0.347157}+G4{0.274334}
+ 199  TPM3u+F+G4     3.9918  TPM3u{0.368913,3.95901}+F{0.290979,0.232687,0.18668,0.289654}+G4{0.289191}
+ 200  TIM2e+R3       3.0489  TIM2e{2.12143,6.81887,10.3635}+FQ+R3{0.653663,0.0562209,0.324188,2.12711,0.0221494,12.3555}
+ 201  K2P+G4         0.7139  K2P{3.90389}+FQ+G4{0.197249}
+ 202  TIM2+F+I+R2    2.0705  TIM2{1.98671,4.2717,9.53829}+F{0.263941,0.209363,0.204077,0.322619}+I{0.482884}+R2{0.43292,1.01063,0.0841961,6.68059}
+ 203  K2P+I+G4       3.2283  K2P{5.81786}+FQ+I{0.45377}+G4{1.11801}
+ 204  HKY+F+I+G4     2.0668  HKY{5.27717}+F{0.258968,0.27156,0.224256,0.245216}+I{0.601285}+G4{2.0299}
+ 205  TNe+G4         2.6401  TNe{6.72409,12.2834}+FQ+G4{0.245454}
+ 206  TPM2u+F+I+G4   2.8633  TPM2u{1.67881,9.32247}+F{0.31537,0.226161,0.203793,0.254676}+I{0.5294}+G4{1.32154}
+ 207  K3Pu+F+G4      3.4425  K3Pu{4.95901,0.616027}+F{0.337422,0.254478,0.176961,0.231139}+G4{0.421338}
+ 208  HKY+F+I+G4     3.4956  HKY{3.60737}+F{0.288774,0.168566,0.242314,0.300345}+I{0.528796}+G4{1.99662}
+ 209  TVM+F+I+G4     3.5521  TVM{6.17443,20.9962,2.20706,2.16934}+F{0.271986,0.204981,0.236867,0.286166}+I{0.503816}+G4{1.04903}
+ 210  HKY+F+I+G4     1.9509  HKY{3.90315}+F{0.199191,0.249888,0.251236,0.299685}+I{0.462871}+G4{1.19916}
+ 211  TPM3u+F+R3     2.2243  TPM3u{0.622438,2.41175}+F{0.289647,0.284891,0.175325,0.250137}+R3{0.612757,0.17041,0.339438,1.57256,0.047805,7.56813}
+ 212  HKY+F+I+R2     2.7233  HKY{7.60941}+F{0.22895,0.231895,0.244239,0.294915}+I{0.514623}+R2{0.335453,0.768144,0.149924,4.95134}
+ 213  TPM3u+F+I+G4   4.1150  TPM3u{0.386213,3.60813}+F{0.326792,0.194853,0.197318,0.281037}+I{0.437454}+G4{0.76213}
+ 214  TIM3+F+I       1.7023  TIM3{0.172201,11.8395,6.6125}+F{0.231414,0.212968,0.125769,0.429849}+I{0.585677}
+ 215  HKY+F+I+G4     1.8531  HKY{3.60548}+F{0.270611,0.225049,0.245562,0.258777}+I{0.443343}+G4{0.61005}
+ 216  TPM3u+F+I+G4   1.8377  TPM3u{0.508451,2.99272}+F{0.273546,0.204701,0.235873,0.285881}+I{0.49147}+G4{2.84187}
+ 217  HKY+F+I+R2     2.5071  HKY{5.18242}+F{0.246386,0.234051,0.213123,0.30644}+I{0.409179}+R2{0.42689,0.835312,0.163931,3.92491}
+ 218  HKY+F+I+G4     2.8393  HKY{4.19281}+F{0.322044,0.231121,0.154844,0.291991}+I{0.470404}+G4{0.500682}
+ 219  HKY+F+R3       1.6658  HKY{7.31826}+F{0.302715,0.148754,0.233544,0.314987}+R3{0.684744,0.0814861,0.307994,2.49307,0.00726129,24.2865}
+ 220  HKY+F+I+G4     2.5408  HKY{4.63771}+F{0.308924,0.187106,0.191623,0.312346}+I{0.466643}+G4{1.36638}
+ 221  TN+F+I+G4      2.6510  TN{8.17382,4.21427}+F{0.261534,0.214464,0.196696,0.327307}+I{0.532353}+G4{2.29613}
+ 222  TPM2u+F+I+G4   2.8190  TPM2u{0.611734,3.67496}+F{0.29148,0.199313,0.210652,0.298554}+I{0.471853}+G4{1.67321}
+ 223  TN+F+I+G4      3.0700  TN{5.35147,11.309}+F{0.322275,0.201595,0.22298,0.25315}+I{0.441929}+G4{1.44628}
+ 224  TN+F+I+G4      2.5197  TN{4.99413,2.9897}+F{0.316302,0.226799,0.156413,0.300487}+I{0.542645}+G4{1.73041}
+ 225  TPM2u+F+I+G4   2.8499  TPM2u{1.72018,5.92349}+F{0.290193,0.191223,0.191969,0.326616}+I{0.459508}+G4{1.00645}
+ 226  TPM3+I+G4      1.8118  TPM3{0.310057,3.54449}+FQ+I{0.541498}+G4{1.43476}
+ 227  TVM+F+I+G4     3.0805  TVM{1.1448,6.05245,2.26192,0.796674}+F{0.302989,0.191848,0.234375,0.270788}+I{0.439209}+G4{0.82379}
+ 228  HKY+F+I+G4     2.3676  HKY{6.68896}+F{0.375329,0.16691,0.225665,0.232096}+I{0.415676}+G4{0.776113}
+ 229  TPM3+G4        3.0445  TPM3{0.417784,2.78898}+FQ+G4{0.458529}
+ 230  TN+F+G4        2.6650  TN{3.76321,6.15089}+F{0.337991,0.212884,0.21683,0.232295}+G4{0.306974}
+ 231  HKY+F+G4       3.6884  HKY{4.7936}+F{0.26043,0.240891,0.227777,0.270903}+G4{0.2788}
+ 232  TIM3+F+I+G4    2.1861  TIM3{0.346729,5.02558,1.58013}+F{0.224613,0.242875,0.171223,0.361289}+I{0.43561}+G4{0.934446}
+ 233  TPM3u+F+I      1.3739  TPM3u{0.436841,3.70797}+F{0.171414,0.310322,0.16069,0.357574}+I{0.626291}
+ 234  HKY+F+I+R2     1.9405  HKY{2.79249}+F{0.251773,0.225653,0.212638,0.309936}+I{0.400015}+R2{0.525019,1.11466,0.074966,5.53296}
+ 235  HKY+F+I+G4     1.7529  HKY{7.19149}+F{0.320391,0.199973,0.175536,0.3041}+I{0.516244}+G4{1.07771}
+ 236  TN+F+I+G4      1.9285  TN{3.21274,4.41559}+F{0.303237,0.182006,0.206072,0.308685}+I{0.364777}+G4{1.96227}
+ 237  TPM2+I+G4      1.7215  TPM2{1.82272,5.94616}+FQ+I{0.53094}+G4{1.93111}
+ 238  K2P+G4         1.0613  K2P{5.69369}+FQ+G4{0.201813}
+ 239  TPM2+G4        1.7398  TPM2{1.90935,7.07056}+FQ+G4{0.275663}
+ 240  TN+F+R3        3.5630  TN{8.98522,6.07248}+F{0.313374,0.224285,0.195702,0.266639}+R3{0.691594,0.0672983,0.278029,2.34713,0.0303775,9.90495}
+ 241  HKY+F+G4       3.0727  HKY{5.73419}+F{0.293135,0.183066,0.144165,0.379634}+G4{0.300608}
+ 242  HKY+F+I+G4     2.9206  HKY{7.83309}+F{0.271515,0.21835,0.219061,0.291074}+I{0.586881}+G4{1.00488}
+ 243  HKY+F+I+G4     4.5713  HKY{3.36838}+F{0.350135,0.185714,0.187062,0.277089}+I{0.303459}+G4{0.633315}
+ 244  HKY+F+I+G4     2.3960  HKY{4.75008}+F{0.289161,0.236744,0.200816,0.27328}+I{0.38448}+G4{0.897298}
+ 245  HKY+F+G4       3.7225  HKY{5.75321}+F{0.280008,0.231156,0.180208,0.308628}+G4{0.193919}
+ 246  K2P+I+R2       1.7922  K2P{4.74502}+FQ+I{0.533827}+R2{0.431099,1.57185,0.0350737,9.19141}
+ 247  TPM2u+F+I+R2   2.2464  TPM2u{1.54606,3.92729}+F{0.318228,0.221496,0.200726,0.25955}+I{0.531282}+R2{0.346267,1.19538,0.122452,4.78622}
+ 248  HKY+F+G4       2.4204  HKY{4.87888}+F{0.295357,0.22079,0.162024,0.32183}+G4{0.346992}
+ 249  K3Pu+F+I+G4    2.1311  K3Pu{22.096,3.79609}+F{0.377715,0.246671,0.1516,0.224013}+I{0.567364}+G4{1.86111}
+ 250  TPM2u+F+R3     2.1309  TPM2u{1.3545,4.45961}+F{0.283202,0.262349,0.193539,0.26091}+R3{0.542069,0.107437,0.407977,1.56051,0.049954,6.10778}
+ 251  TPM2u+F+G4     2.1404  TPM2u{2.29736,8.31317}+F{0.31007,0.16628,0.233459,0.290192}+G4{0.284066}
+ 252  HKY+F+I+G4     2.8770  HKY{5.39928}+F{0.298367,0.252515,0.161855,0.287263}+I{0.469354}+G4{1.29141}
+ 253  HKY+F+G4       2.4377  HKY{3.7208}+F{0.287829,0.217248,0.191804,0.303119}+G4{0.30762}
+ 254  TN+F+G4        2.5443  TN{5.55468,14.2129}+F{0.345679,0.161254,0.209117,0.283951}+G4{0.295477}
+ 255  HKY+F+I+G4     2.9675  HKY{4.02398}+F{0.326638,0.220005,0.215909,0.237447}+I{0.387999}+G4{0.999559}
+ 256  TPM3u+F+R3     2.1113  TPM3u{0.311363,3.80903}+F{0.286159,0.198083,0.207909,0.307849}+R3{0.694049,0.0643875,0.285414,2.08475,0.0205366,17.5441}
+ 257  HKY+F+G4       3.0213  HKY{5.6222}+F{0.337751,0.20496,0.175436,0.281853}+G4{0.195212}
+ 258  HKY+F+I+R2     3.3596  HKY{3.89374}+F{0.273792,0.229832,0.191606,0.30477}+I{0.50499}+R2{0.37672,0.821529,0.118291,5.83744}
+ 259  TN+F+I+G4      1.1877  TN{4.15039,5.96012}+F{0.228349,0.282361,0.231014,0.258276}+I{0.642078}+G4{2.16135}
+ 260  TPM2u+F+I+R2   1.6240  TPM2u{1.80313,4.98456}+F{0.339289,0.199596,0.243169,0.217947}+I{0.421815}+R2{0.505464,1.20351,0.0727205,5.38591}
+ 261  TPM3u+F+I+G4   2.4226  TPM3u{0.300005,4.82321}+F{0.314479,0.210781,0.168359,0.306381}+I{0.516586}+G4{0.688166}
+ 262  TPM2u+F+I+G4   3.3330  TPM2u{0.634488,4.71349}+F{0.284313,0.194841,0.237416,0.28343}+I{0.426621}+G4{1.05897}
+ 263  TPM2u+F+R3     2.5803  TPM2u{1.6884,9.77754}+F{0.315705,0.170489,0.231264,0.282542}+R3{0.684092,0.0240491,0.294163,1.80821,0.021745,20.7698}
+ 264  HKY+F+R3       1.9809  HKY{7.69247}+F{0.266647,0.204292,0.228018,0.301043}+R3{0.641753,0.0796793,0.30563,1.72884,0.0526171,7.99132}
+ 265  TIM2e+G4       2.1434  TIM2e{2.86572,7.63308,11.0908}+FQ+G4{0.24396}
+ 266  TPM2u+F+I+G4   2.7988  TPM2u{2.23733,7.96786}+F{0.286456,0.174033,0.21721,0.322301}+I{0.443186}+G4{0.75607}
+ 267  TPM2u+F+I+G4   1.9292  TPM2u{2.03315,5.51323}+F{0.265799,0.222119,0.208178,0.303903}+I{0.341262}+G4{0.693209}
+ 268  TPM3u+F+I+G4   1.7977  TPM3u{0.442472,3.38153}+F{0.290922,0.203548,0.188844,0.316685}+I{0.437338}+G4{0.609771}
+ 269  TPM2u+F+G4     0.8581  TPM2u{3.75024,11.9608}+F{0.320047,0.182921,0.193436,0.303596}+G4{0.3689}
+ 270  K2P+I+G4       3.2766  K2P{4.10651}+FQ+I{0.397972}+G4{0.619957}
+ 271  TIM3+F+I+G4    4.0346  TIM3{0.772619,5.44688,2.83519}+F{0.323553,0.209772,0.201938,0.264737}+I{0.2249}+G4{0.437993}
+ 272  TPM3+G4        1.6155  TPM3{0.342434,2.90747}+FQ+G4{0.269892}
+ 273  TN+F+R3        2.7798  TN{8.96868,5.10316}+F{0.328219,0.241344,0.154468,0.275969}+R3{0.595674,0.0705932,0.383832,1.9619,0.0204936,9.99874}
+ 274  TN+F+R3        3.0215  TN{3.10296,10.1467}+F{0.338695,0.180995,0.18839,0.291921}+R3{0.625136,0.11158,0.34594,1.61925,0.0289238,12.7951}
+ 275  TPM2u+F+G4     3.0254  TPM2u{2.76519,10.9795}+F{0.285087,0.206887,0.253533,0.254493}+G4{0.221502}
+ 276  TIM2+F+I+G4    2.2099  TIM2{0.488398,7.44081,1.44892}+F{0.263167,0.28828,0.145099,0.303453}+I{0.547533}+G4{0.96923}
+ 277  TPM2u+F+G4     2.5087  TPM2u{3.87593,7.02424}+F{0.21584,0.259091,0.209229,0.31584}+G4{0.394527}
+ 278  GTR+F+I+G4     3.3553  GTR{2.29036,3.02273,0.859434,0.484297,7.77699}+F{0.281919,0.196721,0.258346,0.263013}+I{0.369555}+G4{0.882093}
+ 279  K2P+I+G4       3.9531  K2P{6.98038}+FQ+I{0.415444}+G4{0.846968}
+ 280  TPM2+I         1.2118  TPM2{6.77824,18.4622}+FQ+I{0.59203}
+ 281  HKY+F+I+G4     2.2212  HKY{3.73376}+F{0.271576,0.234383,0.203097,0.290944}+I{0.378196}+G4{1.77024}
+ 282  TPM3u+F+G4     1.8221  TPM3u{0.166465,2.9896}+F{0.269633,0.268453,0.138861,0.323054}+G4{0.246878}
+ 283  TPM3u+F+G4     1.1750  TPM3u{0.385628,3.65179}+F{0.28921,0.250616,0.201182,0.258992}+G4{0.233804}
+ 284  K2P+G4         0.9978  K2P{4.17693}+FQ+G4{0.335765}
+ 285  TPM3u+F+R3     1.8301  TPM3u{0.590399,3.2472}+F{0.319437,0.20995,0.222091,0.248523}+R3{0.598683,0.182836,0.396755,2.00042,0.00456214,21.2324}
+ 286  HKY+F+G4       2.4503  HKY{4.38486}+F{0.326386,0.210283,0.202717,0.260614}+G4{0.281353}
+ 287  HKY+F+I+G4     5.4038  HKY{4.7571}+F{0.246506,0.204638,0.276747,0.272109}+I{0.31137}+G4{0.715563}
+ 288  TPM3u+F+I+G4   2.7102  TPM3u{1.54149,3.86629}+F{0.319638,0.172473,0.241525,0.266365}+I{0.461713}+G4{1.16837}
+ 289  TNe+I+G4       2.8197  TNe{3.99691,6.79826}+FQ+I{0.43576}+G4{1.08812}
+ 290  HKY+F+I+G4     3.0476  HKY{4.66853}+F{0.25103,0.221783,0.269979,0.257209}+I{0.395078}+G4{1.57821}
+ 291  HKY+F+G4       1.9512  HKY{3.57069}+F{0.299976,0.218547,0.206519,0.274958}+G4{0.332859}
+ 292  HKY+F+R3       1.6867  HKY{5.16602}+F{0.260684,0.264945,0.183602,0.290768}+R3{0.698862,0.142394,0.280788,2.30856,0.0203503,12.3964}
+ 293  HKY+F+I+G4     3.7998  HKY{5.08458}+F{0.233216,0.258184,0.258673,0.249927}+I{0.511168}+G4{0.903684}
+ 294  HKY+F+G4       2.7281  HKY{4.03919}+F{0.294267,0.232446,0.167957,0.30533}+G4{0.547213}
+ 295  TN+F+G4        1.8202  TN{5.47345,2.36866}+F{0.190293,0.213946,0.17002,0.425741}+G4{0.260807}
+ 296  TN+F+G4        1.6880  TN{7.7738,4.58576}+F{0.317935,0.258811,0.138999,0.284254}+G4{0.252319}
+ 297  TN+F+G4        3.0111  TN{5.12,3.2433}+F{0.330897,0.200166,0.143688,0.325249}+G4{0.413338}
+ 298  TN+F+I+G4      1.6778  TN{6.55577,2.46664}+F{0.284043,0.270851,0.108298,0.336809}+I{0.516717}+G4{2.01727}
+ 299  HKY+F+I+G4     3.9428  HKY{2.64888}+F{0.344145,0.193014,0.209232,0.253609}+I{0.268209}+G4{0.519372}
+ 300  TIM2+F+I+G4    2.5997  TIM2{4.39765,9.08648,17.3481}+F{0.338729,0.151583,0.277056,0.232632}+I{0.319743}+G4{0.664951}
+ 301  HKY+F+G4       2.7218  HKY{5.67248}+F{0.25418,0.203559,0.18285,0.359411}+G4{0.271083}
+ 302  TPM2u+F+I      0.9191  TPM2u{3.91657,6.46341}+F{0.275217,0.19087,0.276304,0.257609}+I{0.610659}
+ 303  K2P+I+R2       2.1080  K2P{2.72871}+FQ+I{0.501551}+R2{0.372535,0.710497,0.125914,5.83983}
+ 304  HKY+F+G4       1.3760  HKY{3.91104}+F{0.314873,0.220797,0.177201,0.28713}+G4{0.261293}
+ 305  TPM2+G4        3.1994  TPM2{3.13775,9.60343}+FQ+G4{0.346978}
+ 306  HKY+F+G4       3.2318  HKY{4.62372}+F{0.327128,0.193516,0.217579,0.261778}+G4{0.267519}
+ 307  TPM3u+F+I+G4   5.1047  TPM3u{0.625251,5.05124}+F{0.290567,0.257218,0.187656,0.264559}+I{0.505914}+G4{1.04913}
+ 308  TPM3+I+G4      2.9615  TPM3{0.312414,4.17}+FQ+I{0.489638}+G4{0.969676}
+ 309  HKY+F+I+G4     2.8486  HKY{4.25765}+F{0.333616,0.216028,0.198746,0.25161}+I{0.335173}+G4{1.2227}
+ 310  TPM3u+F+G4     0.7475  TPM3u{0.225773,2.73824}+F{0.316162,0.19899,0.245679,0.239169}+G4{0.341781}
+ 311  HKY+F+G4       1.2744  HKY{5.91207}+F{0.247638,0.250986,0.170991,0.330384}+G4{0.270878}
+ 312  TIM2+F+I+G4    3.0068  TIM2{1.50835,4.97294,7.28132}+F{0.277494,0.20537,0.237431,0.279705}+I{0.426845}+G4{1.03038}
+ 313  K2P+I+G4       4.3497  K2P{7.68049}+FQ+I{0.505431}+G4{0.878522}
+ 314  HKY+F+I+G4     4.6411  HKY{5.22905}+F{0.294643,0.207021,0.278696,0.219639}+I{0.492121}+G4{1.28897}
+ 315  TN+F+G4        2.6173  TN{5.87415,2.8144}+F{0.242316,0.216583,0.21569,0.325411}+G4{0.324931}
+ 316  TIM2+F+I+G4    2.9760  TIM2{2.76115,3.54796,11.6474}+F{0.242562,0.219755,0.232895,0.304788}+I{0.439517}+G4{0.505353}
+ 317  HKY+F+I+G4     2.1535  HKY{3.05541}+F{0.276,0.203676,0.22627,0.294054}+I{0.366506}+G4{1.25027}
+ 318  TPM3u+F+R3     3.0730  TPM3u{0.684973,5.70623}+F{0.225015,0.240777,0.220073,0.314135}+R3{0.628319,0.0496701,0.278441,1.26499,0.0932402,6.61266}
+ 319  TPM3u+F+I+G4   1.8985  TPM3u{0.36895,4.43747}+F{0.23493,0.274637,0.219105,0.271328}+I{0.435454}+G4{0.700537}
+ 320  HKY+F+I+R2     1.8490  HKY{14.6154}+F{0.220993,0.255623,0.22373,0.299655}+I{0.693088}+R2{0.285293,1.53476,0.0216186,26.0028}
+ 321  TN+F+I+G4      2.2175  TN{7.47274,2.99513}+F{0.335201,0.228136,0.142857,0.293806}+I{0.457233}+G4{1.00644}
+ 322  HKY+F+I+G4     3.2191  HKY{5.55475}+F{0.275879,0.247966,0.174615,0.30154}+I{0.457195}+G4{1.70887}
+ 323  TPM3u+F+I+G4   4.6431  TPM3u{0.660823,4.52772}+F{0.233412,0.254067,0.204963,0.307558}+I{0.465086}+G4{0.93587}
+ 324  K2P+I+G4       2.5749  K2P{3.58223}+FQ+I{0.617147}+G4{0.993555}
+ 325  TNe+G4         2.3855  TNe{1.72326,3.66852}+FQ+G4{0.617421}
+ 326  HKY+F+G4       2.0310  HKY{2.50677}+F{0.272816,0.219723,0.272167,0.235294}+G4{0.24364}
+ 327  TIM2+F+I+G4    6.5720  TIM2{2.39922,6.72035,12.0962}+F{0.252788,0.257534,0.257059,0.232619}+I{0.31608}+G4{0.925187}
+ 328  HKY+F+I+G4     2.0594  HKY{7.07585}+F{0.245549,0.195225,0.249768,0.309458}+I{0.506523}+G4{1.71191}
+ 329  TIM2+F+I+G4    3.9249  TIM2{0.698073,3.39477,5.89355}+F{0.375882,0.190337,0.209896,0.223884}+I{0.275715}+G4{1.36977}
+ 330  TN+F+I+R3      3.6880  TN{6.5455,3.1045}+F{0.270094,0.238041,0.178653,0.313212}+I{0.435198}+R3{0.278113,0.625181,0.243834,2.0585,0.0428555,7.56493}
+ 331  K2P+I+R2       2.1750  K2P{4.14108}+FQ+I{0.553498}+R2{0.401893,1.05803,0.0446092,12.8849}
+ 332  TN+F+R3        2.4478  TN{3.69893,7.48336}+F{0.396256,0.153425,0.20482,0.245499}+R3{0.730817,0.158934,0.230584,2.13504,0.0385987,10.144}
+ 333  HKY+F+I+G4     1.5247  HKY{12.0481}+F{0.313109,0.183074,0.20966,0.294156}+I{0.615082}+G4{1.23001}
+ 334  TPM3u+F+G4     2.7346  TPM3u{0.703416,4.42486}+F{0.283535,0.220876,0.171078,0.32451}+G4{0.283054}
+ 335  K2P+G4         2.7807  K2P{4.34429}+FQ+G4{0.197409}
+ 336  TIM3+F+I+G4    2.2271  TIM3{0.55962,4.04909,3.52589}+F{0.317073,0.226084,0.232487,0.224357}+I{0.536237}+G4{0.972744}
+ 337  TPM2u+F+G4     3.4558  TPM2u{3.75948,16.9588}+F{0.306498,0.241514,0.211609,0.240379}+G4{0.230285}
+ 338  TPM2+G4        3.5470  TPM2{2.50562,5.50157}+FQ+G4{0.350507}
+ 339  TPM3+G4        1.9450  TPM3{0.408961,4.49365}+FQ+G4{0.248897}
+ 340  HKY+F+I+G4     1.6359  HKY{4.82477}+F{0.355675,0.195503,0.192934,0.255889}+I{0.558348}+G4{1.7237}
+ 341  TPM3u+F+I+G4   2.5689  TPM3u{0.453193,2.85658}+F{0.299176,0.195252,0.216449,0.289123}+I{0.594954}+G4{1.1697}
+ 342  TPM3u+F+I+G4   2.0612  TPM3u{0.39384,5.04734}+F{0.307565,0.209993,0.189606,0.292835}+I{0.584968}+G4{1.6211}
+ 343  TIM3+F+G4      3.2453  TIM3{0.183349,4.35054,2.71483}+F{0.369793,0.237841,0.187975,0.204392}+G4{0.218469}
+ 344  TPM3+I+G4      2.2918  TPM3{0.405168,2.71912}+FQ+I{0.462916}+G4{1.05527}
+ 345  TNe+G4         4.8137  TNe{4.03104,8.5669}+FQ+G4{0.253456}
+ 346  TN+F+I+R3      4.2170  TN{4.39802,3.19428}+F{0.242388,0.205981,0.203001,0.348629}+I{0.174283}+R3{0.391038,0.354677,0.381385,1.53762,0.0532941,5.15784}
+ 347  TPM2u+F+I+G4   3.2677  TPM2u{0.403188,4.19683}+F{0.303092,0.233908,0.206918,0.256082}+I{0.495837}+G4{0.990848}
+ 348  TN+F+G4        2.0282  TN{8.46717,3.70903}+F{0.375982,0.207269,0.159136,0.257613}+G4{0.160277}
+ 349  TPM3+G4        2.3620  TPM3{0.419478,3.95864}+FQ+G4{0.278065}
+ 350  TPM3u+F+I+G4   4.1805  TPM3u{0.546263,3.10405}+F{0.30298,0.216087,0.253108,0.227825}+I{0.35165}+G4{0.959646}
+ 351  TIM2+F+I+G4    2.0649  TIM2{2.38367,7.35842,12.606}+F{0.315634,0.184155,0.208175,0.292035}+I{0.550291}+G4{1.11906}
+ 352  TPM2u+F+G4     1.4722  TPM2u{1.73994,6.49983}+F{0.281667,0.222075,0.212975,0.283282}+G4{0.229657}
+ 353  TN+F+G4        1.4054  TN{6.45514,3.99643}+F{0.250071,0.236366,0.160921,0.352642}+G4{0.283417}
+ 354  TPM3+G4        4.5582  TPM3{0.246982,2.75393}+FQ+G4{0.285238}
+ 355  TIM3+F+I+G4    2.5202  TIM3{0.503167,6.74936,2.81431}+F{0.214474,0.256729,0.216376,0.312422}+I{0.466051}+G4{0.785858}
+ 356  TIM+F+I+G4     2.4731  TIM{3.08649,1.63681,4.95311}+F{0.273118,0.146872,0.28197,0.298041}+I{0.286565}+G4{1.10057}
+ 357  TPM3u+F+I+G4   1.6097  TPM3u{0.238197,2.35641}+F{0.22865,0.254523,0.179428,0.3374}+I{0.41455}+G4{0.808188}
+ 358  HKY+F+I+G4     2.2339  HKY{4.70281}+F{0.316056,0.327192,0.125127,0.231626}+I{0.384326}+G4{0.517567}
+ 359  TN+F+I+G4      1.4059  TN{3.96489,7.76079}+F{0.330962,0.168132,0.220641,0.280264}+I{0.503441}+G4{0.645705}
+ 360  HKY+F+I+G4     1.2046  HKY{7.25647}+F{0.278868,0.233386,0.200341,0.287404}+I{0.598818}+G4{1.24378}
+ 361  TIM2+F+R3      2.2749  TIM2{2.01777,4.86493,13.9724}+F{0.313607,0.199055,0.241832,0.245506}+R3{0.636105,0.0355347,0.22056,1.88388,0.143335,3.92011}
+ 362  HKY+F+I+G4     4.5857  HKY{5.7438}+F{0.198158,0.257416,0.273021,0.271404}+I{0.306583}+G4{1.08404}
+ 363  K3P+I+G4       2.2533  K3P{14.6856,2.74741}+FQ+I{0.481488}+G4{0.965798}
+ 364  TIM3e+I+G4     2.1477  TIM3e{0.303175,5.35257,2.87474}+FQ+I{0.47122}+G4{0.489622}
+ 365  HKY+F+I+G4     3.2267  HKY{4.75684}+F{0.343242,0.150667,0.199971,0.306119}+I{0.385505}+G4{1.83841}
+ 366  HKY+F+G4       2.6679  HKY{5.89556}+F{0.372787,0.149601,0.203749,0.273863}+G4{0.276788}
+ 367  TPM2u+F+I+G4   2.6238  TPM2u{1.49835,4.86823}+F{0.291653,0.242097,0.220242,0.246008}+I{0.268328}+G4{1.57511}
+ 368  HKY+F+I+G4     2.7174  HKY{6.75807}+F{0.369092,0.214365,0.195532,0.221012}+I{0.461414}+G4{0.732326}
+ 369  TIM3+F+I+G4    3.0188  TIM3{0.662386,5.5005,3.40452}+F{0.28156,0.224897,0.226566,0.266977}+I{0.472385}+G4{1.43298}
+ 370  HKY+F+G4       1.4020  HKY{5.16546}+F{0.234368,0.281455,0.165877,0.3183}+G4{0.258218}
+ 371  K3Pu+F+I+G4    3.6739  K3Pu{2.84338,0.52043}+F{0.266177,0.252335,0.183789,0.297698}+I{0.464157}+G4{0.564021}
+ 372  TPM2u+F+G4     2.6353  TPM2u{0.271254,2.58988}+F{0.329618,0.212652,0.179647,0.278083}+G4{0.239563}
+ 373  HKY+F+G4       1.8591  HKY{5.59522}+F{0.262212,0.23985,0.2371,0.260838}+G4{0.393352}
+ 374  HKY+F+G4       2.4278  HKY{2.8527}+F{0.384939,0.141536,0.222727,0.250798}+G4{0.322006}
+ 375  TN+F+I+G4      3.2883  TN{4.72095,2.9227}+F{0.271075,0.240968,0.187444,0.300513}+I{0.320071}+G4{1.25491}
+ 376  TIM2+F+G4      2.2836  TIM2{3.12779,3.03658,8.65959}+F{0.209265,0.16943,0.284607,0.336698}+G4{0.261134}
+ 377  TN+F+I+G4      1.5751  TN{4.55939,13.1372}+F{0.364007,0.134752,0.246099,0.255142}+I{0.483825}+G4{1.12029}
+ 378  TN+F+I+G4      2.6917  TN{4.86542,8.06573}+F{0.262799,0.253564,0.229355,0.254281}+I{0.405413}+G4{0.640426}
+ 379  HKY+F+I+G4     2.8152  HKY{4.86001}+F{0.282677,0.246471,0.14848,0.322372}+I{0.46261}+G4{0.662682}
+ 380  TIM2+F+I+G4    2.9475  TIM2{1.6815,4.46875,7.65706}+F{0.273257,0.198267,0.224826,0.30365}+I{0.337933}+G4{0.766995}
+ 381  TPM3u+F+I+G4   2.9850  TPM3u{1.7668,6.57973}+F{0.249415,0.237586,0.255993,0.257006}+I{0.256367}+G4{0.929529}
+ 382  TPM3u+F+I+G4   2.5967  TPM3u{0.616316,2.81726}+F{0.301042,0.217708,0.216276,0.264974}+I{0.42442}+G4{1.06759}
+ 383  TIM3+F+G4      2.6207  TIM3{0.558061,3.54487,1.34046}+F{0.292108,0.216783,0.167632,0.323477}+G4{0.423137}
+ 384  HKY+F+I+R2     4.6088  HKY{4.00629}+F{0.317618,0.171967,0.234377,0.276038}+I{0.324116}+R2{0.554151,0.654065,0.121733,5.23728}
+ 385  K3Pu+F+G4      1.7527  K3Pu{6.47067,1.89787}+F{0.335807,0.25341,0.193168,0.217614}+G4{0.309106}
+ 386  TPM2u+F+I+G4   2.3669  TPM2u{1.43671,4.81015}+F{0.317218,0.159457,0.255725,0.2676}+I{0.51099}+G4{3.0659}
+ 387  HKY+F+G4       1.6188  HKY{3.11972}+F{0.329769,0.170825,0.224026,0.27538}+G4{0.400618}
+ 388  TN+F+G4        2.7008  TN{9.98639,4.89793}+F{0.216266,0.233927,0.248102,0.301704}+G4{0.285826}
+ 389  TPM3+G4        1.2746  TPM3{0.374348,2.61608}+FQ+G4{0.305031}
+ 390  TPM3u+F+I+G4   1.7512  TPM3u{0.445919,2.9986}+F{0.289631,0.268749,0.149991,0.291629}+I{0.489471}+G4{2.27413}
+ 391  K2P+G4         1.0755  K2P{3.96298}+FQ+G4{0.385488}
+ 392  TPM3u+F+I+G4   2.5628  TPM3u{0.455535,3.53604}+F{0.309832,0.198937,0.259345,0.231887}+I{0.524156}+G4{1.26307}
+ 393  TPM2u+F+I+R3   5.2488  TPM2u{0.64749,4.62149}+F{0.235371,0.179275,0.2971,0.288255}+I{0.215674}+R3{0.409839,0.216488,0.283741,1.66464,0.0907461,4.83712}
+ 394  TPM2+I+G4      2.3704  TPM2{1.91528,5.57707}+FQ+I{0.434255}+G4{1.90763}
+ 395  TN+F+G4        2.9658  TN{4.68681,9.01076}+F{0.387998,0.159643,0.250115,0.202245}+G4{0.259132}
+ 396  TPM2u+F+G4     2.3112  TPM2u{1.71521,4.56081}+F{0.320863,0.198922,0.233531,0.246685}+G4{0.30317}
+ 397  TIM3+F+I+G4    4.5422  TIM3{0.615018,5.81798,3.95736}+F{0.294326,0.188807,0.226966,0.289902}+I{0.339721}+G4{0.793426}
+ 398  TIM3+F+R4      4.2985  TIM3{1.60952,6.50479,12.3422}+F{0.320565,0.173135,0.238197,0.268103}+R4{0.550959,0.0345219,0.199946,0.810125,0.224901,2.52574,0.0241935,10.3729}
+ 399  TN+F+I+G4      3.3750  TN{9.22227,6.83546}+F{0.274898,0.202074,0.235753,0.287276}+I{0.522967}+G4{1.15204}
+ 400  TIM3+F+I+G4    5.6408  TIM3{0.353327,3.17399,1.02664}+F{0.340017,0.249841,0.17717,0.232973}+I{0.315159}+G4{0.343091}
+ 401  HKY+F+I+G4     2.3205  HKY{5.29533}+F{0.261612,0.203414,0.204253,0.330722}+I{0.506272}+G4{3.04536}
+ 402  HKY+F+G4       1.8359  HKY{5.83093}+F{0.277669,0.230555,0.210343,0.281433}+G4{0.278861}
+ 403  HKY+F+G4       1.4976  HKY{4.54104}+F{0.2822,0.192005,0.210796,0.314998}+G4{0.232932}
+ 404  HKY+F+G4       2.1552  HKY{4.54163}+F{0.324222,0.233914,0.196259,0.245606}+G4{0.330136}
+ 405  HKY+F+I+G4     2.2591  HKY{5.74311}+F{0.281608,0.238491,0.182985,0.296916}+I{0.544232}+G4{1.22221}
+ 406  TPM3u+F+I+G4   4.1158  TPM3u{0.486273,4.32069}+F{0.305005,0.192068,0.187347,0.315581}+I{0.381238}+G4{0.823487}
+ 407  TIM3+F+I+G4    1.8771  TIM3{0.636958,2.67369,1.98993}+F{0.30104,0.20659,0.250058,0.242312}+I{0.520937}+G4{1.53056}
+ 408  TPM3+I+G4      2.4119  TPM3{0.427126,4.15772}+FQ+I{0.445028}+G4{2.14411}
+ 409  TIM3+F+I+G4    3.5527  TIM3{0.52766,9.47313,3.65605}+F{0.262489,0.266641,0.173868,0.297003}+I{0.490178}+G4{0.944456}
+ 410  TPM2u+F+I+G4   2.8283  TPM2u{2.51127,8.78222}+F{0.301984,0.167095,0.233256,0.297666}+I{0.459361}+G4{1.16252}
+ 411  HKY+F+G4       2.6549  HKY{4.34091}+F{0.274935,0.279678,0.172176,0.273211}+G4{0.271947}
+ 412  HKY+F+I+G4     3.7519  HKY{5.91397}+F{0.319088,0.169127,0.155789,0.355996}+I{0.360522}+G4{0.982512}
+ 413  TIM3+F+G4      2.5792  TIM3{4.58886,7.73173,44.3667}+F{0.3345,0.1165,0.258,0.291}+G4{0.281317}
+ 414  TPM2u+F+I+G4   2.7344  TPM2u{3.33221,9.02576}+F{0.255821,0.201644,0.197839,0.344696}+I{0.462247}+G4{1.50813}
+ 415  TN+F+I+G4      3.1581  TN{3.99779,8.98313}+F{0.374682,0.181847,0.225,0.218471}+I{0.395174}+G4{0.873133}
+ 416  TPM2+G4        1.9807  TPM2{0.494195,2.60429}+FQ+G4{0.61301}
+ 417  HKY+F+I+G4     4.1069  HKY{5.13697}+F{0.236731,0.201075,0.229404,0.332791}+I{0.473126}+G4{0.932563}
+ 418  HKY+F+I+G4     1.2855  HKY{5.52831}+F{0.187777,0.258119,0.252007,0.302097}+I{0.549796}+G4{0.996871}
+ 419  TIM2+F+I+G4    2.4808  TIM2{4.14964,10.933,20.5208}+F{0.28052,0.164061,0.268751,0.286668}+I{0.401612}+G4{0.394057}
+ 420  TVM+F+I+G4     2.0303  TVM{1.44648,4.71381,1.02618,0.235394}+F{0.252791,0.21921,0.243786,0.284213}+I{0.416594}+G4{0.642992}
+ 421  K2P+G4         2.1861  K2P{4.13817}+FQ+G4{0.374255}
+ 422  TIM3+F+I+G4    2.8751  TIM3{0.510241,5.28226,3.48361}+F{0.262836,0.215784,0.237164,0.284216}+I{0.421483}+G4{0.907557}
+ 423  HKY+F+I+R2     1.6732  HKY{6.77411}+F{0.355192,0.191879,0.193856,0.259073}+I{0.561346}+R2{0.394768,0.948362,0.0438856,14.2556}
+ 424  K2P+G4         1.0164  K2P{3.91092}+FQ+G4{0.266108}
+ 425  K2P+I+G4       2.9221  K2P{4.89081}+FQ+I{0.464118}+G4{1.39826}
+ 426  TIM3+F+I+G4    3.7461  TIM3{1.51031,4.66355,7.98949}+F{0.360964,0.19017,0.246285,0.20258}+I{0.25733}+G4{0.881278}
+ 427  TIM2e+G4       1.5318  TIM2e{27.8645,75.4818,37.1321}+FQ+G4{0.335905}
+ 428  HKY+F+I        1.1600  HKY{11.1845}+F{0.416345,0.20828,0.172887,0.202488}+I{0.589024}
+ 429  TIM2+F+I+G4    4.0914  TIM2{2.33095,8.88577,12.0448}+F{0.307716,0.149237,0.235746,0.307301}+I{0.311862}+G4{1.03761}
+ 430  TPM3u+F+G4     2.1977  TPM3u{0.683904,4.65714}+F{0.22507,0.268232,0.229963,0.276736}+G4{0.257249}
+ 431  TIM3+F+I+G4    3.1906  TIM3{0.298352,5.06944,3.11705}+F{0.290747,0.260946,0.19656,0.251748}+I{0.414011}+G4{0.743574}
+ 432  TPM3u+F+I+G4   1.9289  TPM3u{0.533015,3.95523}+F{0.282832,0.199499,0.221679,0.29599}+I{0.479834}+G4{0.811838}
+ 433  K3Pu+F+I+G4    2.4175  K3Pu{8.62508,2.89447}+F{0.307099,0.208481,0.193864,0.290556}+I{0.523229}+G4{2.75141}
+ 434  TPM2u+F+R2     2.3474  TPM2u{0.539455,3.69834}+F{0.287244,0.229255,0.145516,0.337986}+R2{0.605844,0.0991377,0.394156,2.38469}
+ 435  HKY+F+I+G4     4.2648  HKY{3.44743}+F{0.242416,0.177688,0.238362,0.341535}+I{0.310913}+G4{0.647035}
+ 436  HKY+F+G4       2.1256  HKY{4.24196}+F{0.28825,0.25255,0.20257,0.25663}+G4{0.243053}
+ 437  TPM2u+F+I+G4   3.4434  TPM2u{3.48182,11.8502}+F{0.216393,0.22708,0.1949,0.361627}+I{0.535051}+G4{1.49526}
+ 438  TN+F+I+G4      4.0767  TN{7.79253,3.36538}+F{0.302215,0.220332,0.161294,0.316159}+I{0.37953}+G4{0.639041}
+ 439  HKY+F+G4       3.2744  HKY{4.91539}+F{0.261711,0.191085,0.179732,0.367471}+G4{0.222173}
+ 440  TN+F+I+G4      2.9208  TN{6.6323,3.83774}+F{0.300039,0.199635,0.186726,0.3136}+I{0.463}+G4{1.46423}
+ 441  HKY+F+I+G4     2.9259  HKY{3.71199}+F{0.313643,0.190699,0.215608,0.28005}+I{0.426132}+G4{1.45843}
+ 442  TPM2u+F+I+R2   2.7826  TPM2u{2.58808,7.14137}+F{0.230908,0.15339,0.268104,0.347597}+I{0.465707}+R2{0.410322,0.520965,0.123971,6.34209}
+ 443  TPM3+G4        2.8122  TPM3{0.442389,2.29035}+FQ+G4{0.287485}
+ 444  K2P+G4         2.5863  K2P{2.82044}+FQ+G4{0.335733}
+ 445  K3Pu+F+I+R2    2.1416  K3Pu{8.12701,2.59034}+F{0.271886,0.24383,0.174123,0.310162}+I{0.477966}+R2{0.469531,1.31266,0.0525032,7.30745}
+ 446  TN+F+G4        3.5283  TN{2.66186,5.26389}+F{0.301833,0.215571,0.176728,0.305869}+G4{0.302576}
+ 447  TNe+I+G4       5.6651  TNe{4.17569,6.69398}+FQ+I{0.341817}+G4{0.760513}
+ 448  HKY+F+I+G4     3.0748  HKY{5.43687}+F{0.316904,0.205203,0.183458,0.294435}+I{0.39253}+G4{0.687566}
+ 449  TIM2+F+G4      0.8049  TIM2{3.1188,8.02382,16.2834}+F{0.267523,0.230783,0.209827,0.291867}+G4{0.212002}
+ 450  TPM2+G4        1.1994  TPM2{2.36367,7.26061}+FQ+G4{0.209725}
+ 451  HKY+F+I+R2     1.5689  HKY{4.02088}+F{0.277061,0.149285,0.213929,0.359726}+I{0.513013}+R2{0.417786,1.132,0.0692006,7.6165}
+ 452  TIM3+F+I+G4    2.9469  TIM3{0.379586,11.4831,5.08325}+F{0.284324,0.228992,0.185699,0.300985}+I{0.578196}+G4{1.05685}
+ 453  HKY+F+I+G4     2.1751  HKY{4.07367}+F{0.34097,0.151585,0.186903,0.320542}+I{0.478522}+G4{3.75352}
+ 454  TNe+G4         5.1827  TNe{3.59182,8.94497}+FQ+G4{0.231404}
+ 455  K2P+I+R2       2.4197  K2P{6.14618}+FQ+I{0.557408}+R2{0.390228,0.800296,0.052364,13.1331}
+ 456  TIM2e+G4       0.7917  TIM2e{2.7365,5.74942,13.8422}+FQ+G4{0.216894}
+ 457  HKY+F+G4       2.9344  HKY{4.07028}+F{0.288408,0.296871,0.171472,0.243249}+G4{0.43237}
+ 458  K2P+I+G4       1.9496  K2P{3.96919}+FQ+I{0.493083}+G4{2.35645}
+ 459  TN+F+R3        3.6468  TN{2.95782,6.3575}+F{0.301637,0.174531,0.237487,0.286346}+R3{0.546627,0.0720839,0.427314,1.44343,0.0260591,13.193}
+ 460  HKY+F+I+G4     3.5358  HKY{3.59809}+F{0.335867,0.206178,0.185707,0.272248}+I{0.314537}+G4{0.82612}
+ 461  HKY+F+G4       4.4639  HKY{3.19022}+F{0.325465,0.196536,0.166389,0.31161}+G4{0.207815}
+ 462  TPM3u+F+I+G4   2.7254  TPM3u{0.433157,4.31846}+F{0.244396,0.191553,0.232786,0.331265}+I{0.57742}+G4{1.50369}
+ 463  TPM3u+F+I+G4   4.6775  TPM3u{0.248096,2.77682}+F{0.34123,0.26178,0.178272,0.218717}+I{0.376881}+G4{0.804059}
+ 464  TPM2u+F+R3     1.6945  TPM2u{2.20195,12.8059}+F{0.309841,0.206204,0.241383,0.242572}+R3{0.65034,0.0501824,0.325257,1.92787,0.024403,13.9455}
+ 465  TPM3u+F+I+G4   2.9541  TPM3u{0.481781,2.78105}+F{0.299358,0.236383,0.208327,0.255932}+I{0.359693}+G4{0.652866}
+ 466  TNe+I+G4       0.3558  TNe{0.0001,2.34502}+FQ+I{0.797197}+G4{0.434119}
+ 467  TPM3u+F+I+G4   1.4996  TPM3u{0.413808,4.26906}+F{0.250112,0.264174,0.195213,0.290501}+I{0.567181}+G4{2.22523}
+ 468  K2P+G4         2.8297  K2P{5.42321}+FQ+G4{0.263712}
+ 469  TPM3u+F+I+R2   2.1326  TPM3u{0.717623,4.16506}+F{0.289071,0.227863,0.229855,0.253212}+I{0.491606}+R2{0.388835,1.18106,0.119559,4.52295}
+ 470  K3Pu+F+I+G4    2.9978  K3Pu{3.99423,0.375221}+F{0.26358,0.18789,0.239893,0.308638}+I{0.450652}+G4{0.849361}
+ 471  TN+F+I+R3      4.0113  TN{6.0817,12.3783}+F{0.375547,0.177013,0.208348,0.239092}+I{0.454929}+R3{0.222042,0.394557,0.300852,2.0044,0.022177,13.9497}
+ 472  TVM+F+G4       1.7725  TVM{0.407118,6.10984,2.04716,0.0001}+F{0.323704,0.222778,0.201111,0.252407}+G4{0.259926}
+ 473  HKY+F+I+R2     1.9657  HKY{5.41027}+F{0.323665,0.210419,0.17421,0.291705}+I{0.479812}+R2{0.33965,0.744078,0.180538,4.13916}
+ 474  TPM3u+F+I+G4   1.9821  TPM3u{0.32574,4.04335}+F{0.265935,0.189877,0.245849,0.29834}+I{0.552838}+G4{0.835964}
+ 475  HKY+F+I+G4     2.4048  HKY{9.30769}+F{0.315673,0.197637,0.162187,0.324503}+I{0.550769}+G4{1.936}
+ 476  TN+F+I+G4      3.7747  TN{7.58867,5.51131}+F{0.279496,0.189808,0.232974,0.297722}+I{0.38559}+G4{0.914088}
+ 477  HKY+F+I+G4     3.3102  HKY{5.4946}+F{0.291249,0.184792,0.266264,0.257695}+I{0.485002}+G4{0.714241}
+ 478  TN+F+I+R3      3.0567  TN{4.79792,14.4384}+F{0.323142,0.164554,0.232165,0.280139}+I{0.422133}+R3{0.342707,0.312122,0.203835,2.60959,0.0313253,11.5277}
+ 479  TIM2+F+I+G4    3.3895  TIM2{1.34654,3.67552,11.4245}+F{0.31126,0.199545,0.234045,0.25515}+I{0.490883}+G4{1.32288}
+ 480  HKY+F+I+R2     1.0894  HKY{5.87134}+F{0.301043,0.191936,0.215123,0.291897}+I{0.571257}+R2{0.359267,1.36138,0.069476,7.35364}
+ 481  HKY+F+I+G4     1.6844  HKY{4.90107}+F{0.252632,0.24,0.197895,0.309474}+I{0.606782}+G4{1.12895}
+ 482  K3P+I+G4       3.4157  K3P{2.96185,0.467397}+FQ+I{0.433575}+G4{2.05014}
+ 483  K2P+I+G4       2.9475  K2P{5.8002}+FQ+I{0.507207}+G4{1.04648}
+ 484  HKY+F+G4       1.9164  HKY{4.95061}+F{0.3188,0.226501,0.16761,0.287089}+G4{0.295746}
+ 485  HKY+F+I+G4     4.0153  HKY{4.46653}+F{0.291369,0.247526,0.11988,0.341225}+I{0.294951}+G4{1.10128}
+ 486  HKY+F+I+G4     3.6641  HKY{4.34022}+F{0.330469,0.268489,0.169742,0.2313}+I{0.542156}+G4{0.807463}
+ 487  HKY+F+R3       1.5035  HKY{4.95963}+F{0.280139,0.21972,0.181912,0.318229}+R3{0.638618,0.0436843,0.340802,1.89333,0.0205798,15.8822}
+ 488  TIM3+F+I+G4    3.1771  TIM3{0.401867,5.7761,2.64167}+F{0.225453,0.227341,0.258308,0.288897}+I{0.528298}+G4{0.854638}
+ 489  TIM3+F+I+G4    3.8628  TIM3{0.450857,4.21405,2.8608}+F{0.287344,0.224849,0.210895,0.276912}+I{0.382436}+G4{0.723645}
+ 490  TPM2+G4        1.5872  TPM2{2.13799,9.87247}+FQ+G4{0.225912}
+ 491  K3Pu+F+I+G4    2.2249  K3Pu{3.17372,0.343221}+F{0.309502,0.190045,0.176018,0.324434}+I{0.527962}+G4{5.16312}
+ 492  HKY+F+I+G4     4.9174  HKY{3.83989}+F{0.288403,0.192927,0.246053,0.272617}+I{0.326892}+G4{0.325037}
+ 493  TPM2u+F+I+G4   2.9160  TPM2u{2.06225,6.53472}+F{0.29511,0.24485,0.237156,0.222884}+I{0.442383}+G4{1.63428}
+ 494  TIM3+F+I+G4    2.3835  TIM3{0.33745,2.40115,1.44077}+F{0.287593,0.268219,0.151973,0.292215}+I{0.506861}+G4{1.91323}
+ 495  TIM3+F+R3      3.0152  TIM3{0.57124,3.24281,2.30394}+F{0.367465,0.22213,0.178181,0.232223}+R3{0.602034,0.087383,0.320118,1.42234,0.0778481,6.32097}
+ 496  HKY+F+I+G4     2.7770  HKY{5.4784}+F{0.345957,0.165229,0.204858,0.283957}+I{0.383759}+G4{0.927651}
+ 497  TIM2+F+I+G4    3.2568  TIM2{2.47319,5.19398,14.0924}+F{0.322624,0.185655,0.273445,0.218277}+I{0.387959}+G4{0.642597}
+ 498  TPM2u+F+I+G4   4.0815  TPM2u{1.5732,6.04558}+F{0.278151,0.207867,0.277871,0.236111}+I{0.327261}+G4{1.28262}
+ 499  TPM2u+F+G4     2.2378  TPM2u{2.87595,14.9042}+F{0.275532,0.236668,0.184908,0.302893}+G4{0.418737}
+ 500  HKY+F+I+G4     2.0710  HKY{4.62177}+F{0.271564,0.249717,0.225346,0.253373}+I{0.395734}+G4{0.508881}
+ 501  TPM3u+F+R3     4.2481  TPM3u{0.329281,3.42819}+F{0.325206,0.217905,0.164571,0.292317}+R3{0.709805,0.0798186,0.231611,1.3005,0.0585839,10.961}
+ 502  K3Pu+F+I+R2    1.5499  K3Pu{3.09651,0.502205}+F{0.302766,0.168577,0.19838,0.330277}+I{0.554402}+R2{0.365351,1.20888,0.0802469,6.95769}
+ 503  K3Pu+F+I+G4    3.9880  K3Pu{3.065,0.751061}+F{0.312955,0.18746,0.246298,0.253286}+I{0.362831}+G4{1.54853}
+ 504  TN+F+I+G4      3.9788  TN{3.43017,5.69634}+F{0.353254,0.181423,0.187387,0.277936}+I{0.23339}+G4{0.827898}
+ 505  K3Pu+F+I+G4    2.7329  K3Pu{7.60517,1.76795}+F{0.290842,0.210269,0.181151,0.317737}+I{0.385798}+G4{0.811486}
+ 506  GTR+F+I+G4     3.6859  GTR{0.302372,2.82036,0.375396,0.211505,1.8488}+F{0.29442,0.250128,0.170178,0.285274}+I{0.289469}+G4{1.08334}
+ 507  K3P+I+R2       3.8122  K3P{2.20409,0.0547137}+FQ+I{0.528123}+R2{0.380789,0.472479,0.0910889,9.00313}
+ 508  HKY+F+I+G4     2.3060  HKY{3.7241}+F{0.292897,0.227597,0.185845,0.293661}+I{0.509215}+G4{0.825059}
+ 509  HKY+F+I+G4     2.8947  HKY{3.5614}+F{0.321937,0.171344,0.201779,0.304941}+I{0.560775}+G4{0.938926}
+ 510  HKY+F+I+G4     2.0514  HKY{4.74425}+F{0.334789,0.228114,0.20628,0.230817}+I{0.32443}+G4{1.24959}
+ 511  TPM2u+F+R3     3.0002  TPM2u{2.14273,5.67436}+F{0.247187,0.210826,0.211892,0.330096}+R3{0.5701,0.0742248,0.341294,1.22505,0.0886057,6.08971}
+ 512  HKY+F+R3       1.3307  HKY{6.70327}+F{0.283105,0.225531,0.234167,0.257197}+R3{0.723011,0.108182,0.263001,2.40271,0.0139875,20.7233}
+ 513  HKY+F+I+G4     2.8217  HKY{3.82777}+F{0.316258,0.176022,0.185831,0.321889}+I{0.512121}+G4{1.74042}
+ 514  TIM2+F+I+G4    2.1831  TIM2{0.749903,3.04985,1.91396}+F{0.294676,0.22772,0.197819,0.279784}+I{0.357834}+G4{0.870993}
+ 515  HKY+F+I+G4     3.8877  HKY{6.05666}+F{0.234709,0.212323,0.296488,0.25648}+I{0.447412}+G4{0.735419}
+ 516  TPM3u+F+G4     2.0134  TPM3u{0.450787,3.55346}+F{0.243995,0.26056,0.207719,0.287726}+G4{0.346704}
+ 517  TPM2u+F+G4     0.8975  TPM2u{0.329736,3.42319}+F{0.33059,0.224572,0.155775,0.289063}+G4{0.229916}
+ 518  TPM3u+F+G4     2.5670  TPM3u{0.388076,3.41769}+F{0.262406,0.267902,0.194253,0.27544}+G4{0.241398}
+ 519  K2P+G4         6.0817  K2P{4.90041}+FQ+G4{0.249185}
+ 520  HKY+F+I+G4     2.4534  HKY{4.05427}+F{0.287307,0.22914,0.187512,0.296042}+I{0.459395}+G4{1.03474}
+ 521  TN+F+I+G4      1.8861  TN{10.3696,3.35606}+F{0.290621,0.216776,0.19349,0.299112}+I{0.551661}+G4{1.40778}
+ 522  HKY+F+I+G4     2.0350  HKY{6.73428}+F{0.234126,0.245161,0.190662,0.330051}+I{0.475431}+G4{0.865731}
+ 523  TIM3+F+I+G4    2.8576  TIM3{0.392865,6.12312,3.26309}+F{0.267113,0.275282,0.144911,0.312694}+I{0.525662}+G4{1.43567}
+ 524  TIM3+F+G4      2.0089  TIM3{0.328023,3.70797,1.31812}+F{0.339644,0.220419,0.177823,0.262114}+G4{0.311873}
+ 525  TIM3+F+G4      7.8642  TIM3{0.426934,10.8794,3.45995}+F{0.280865,0.243619,0.135426,0.34009}+G4{0.278808}
+ 526  TPM3u+F+G4     1.8919  TPM3u{0.145901,2.35177}+F{0.296977,0.314884,0.133256,0.254884}+G4{0.17347}
+ 527  TN+F+G4        1.8772  TN{3.69817,7.34875}+F{0.396678,0.162111,0.20826,0.232951}+G4{0.335708}
+ 528  TIM2+F+I+G4    3.7682  TIM2{1.34137,4.156,5.81684}+F{0.261941,0.225838,0.239176,0.273045}+I{0.344113}+G4{1.49262}
+ 529  HKY+F+G4       1.9297  HKY{7.80162}+F{0.365473,0.235322,0.189658,0.209547}+G4{0.218234}
+ 530  TPM2u+F+I+R2   2.1321  TPM2u{5.07843,9.98022}+F{0.256466,0.17295,0.286497,0.284086}+I{0.519377}+R2{0.37944,0.819434,0.101183,6.81016}
+ 531  TIM2+F+G4      2.2840  TIM2{1.86771,2.17004,4.57777}+F{0.240975,0.20007,0.234294,0.32466}+G4{0.331611}
+ 532  TPM3u+F+G4     2.6917  TPM3u{1.70262,2.22365}+F{0.261222,0.215251,0.179827,0.343699}+G4{0.45461}
+ 533  TIM3+F+I+G4    2.0844  TIM3{0.399287,3.38124,2.55664}+F{0.276716,0.208915,0.254194,0.260176}+I{0.412655}+G4{0.802188}
+ 534  TPM3u+F+R3     1.9644  TPM3u{0.534414,3.53831}+F{0.309557,0.216569,0.176521,0.297353}+R3{0.665148,0.0649536,0.30142,2.18494,0.0334324,8.91991}
+ 535  K3Pu+F+I+G4    1.8040  K3Pu{3.61634,0.543535}+F{0.360477,0.165701,0.18343,0.290391}+I{0.430281}+G4{1.68588}
+ 536  TPM2u+F+G4     2.0307  TPM2u{1.54249,6.21868}+F{0.275445,0.212468,0.21514,0.296947}+G4{0.253728}
+ 537  TPM3u+F+G4     2.2355  TPM3u{0.401873,2.522}+F{0.336923,0.208521,0.171472,0.283084}+G4{0.337414}
+ 538  TIM3+F+I+R3    2.8019  TIM3{0.494738,5.77085,1.97355}+F{0.306531,0.233363,0.159576,0.30053}+I{0.485506}+R3{0.292204,0.427533,0.204041,2.81995,0.01825,16.4214}
+ 539  HKY+F+G4       0.9516  HKY{5.5549}+F{0.399406,0.152118,0.177686,0.27079}+G4{0.209468}
+ 540  HKY+F+I+G4     1.6705  HKY{4.75804}+F{0.263606,0.257492,0.135339,0.343563}+I{0.455048}+G4{0.460649}
+ 541  TN+F+I+G4      2.7135  TN{4.46022,2.82315}+F{0.297075,0.226799,0.179724,0.296402}+I{0.400707}+G4{1.89822}
+ 542  K2P+I+G4       2.8713  K2P{4.36129}+FQ+I{0.492068}+G4{1.09497}
+ 543  TN+F+I+G4      2.4194  TN{4.15281,2.9023}+F{0.288903,0.194096,0.157853,0.359149}+I{0.318804}+G4{1.40314}
+ 544  TN+F+I+G4      2.8839  TN{4.54061,2.98223}+F{0.323392,0.201154,0.144552,0.330902}+I{0.270047}+G4{1.99346}
+ 545  TPM3u+F+I+G4   3.7189  TPM3u{0.652073,4.56162}+F{0.229191,0.258019,0.202503,0.310287}+I{0.296909}+G4{0.765912}
+ 546  TN+F+I+G4      2.0710  TN{12.679,5.60308}+F{0.233823,0.269849,0.15615,0.340179}+I{0.504852}+G4{0.778851}
+ 547  TPM3+I+G4      1.6825  TPM3{0.213149,2.81652}+FQ+I{0.441758}+G4{0.843922}
+ 548  TIM2+F+I+G4    2.7726  TIM2{2.30912,5.57953,12.0234}+F{0.298467,0.22841,0.213075,0.260048}+I{0.496364}+G4{1.31686}
+ 549  TPM3u+F+G4     2.9518  TPM3u{2.25512,6.5893}+F{0.340834,0.175537,0.204529,0.2791}+G4{0.524185}
+ 550  HKY+F+I+G4     1.0296  HKY{4.05993}+F{0.243095,0.229866,0.249762,0.277278}+I{0.582855}+G4{0.724833}
+ 551  TPM3u+F+G4     2.5031  TPM3u{0.514785,3.06587}+F{0.259651,0.250211,0.173147,0.316991}+G4{0.324437}
+ 552  TIM3+F+I+G4    3.6247  TIM3{0.698124,5.17363,3.22137}+F{0.307941,0.219367,0.194835,0.277857}+I{0.371169}+G4{0.874812}
+ 553  TPM3u+F+I+G4   3.3768  TPM3u{1.45746,6.13251}+F{0.31892,0.223471,0.207354,0.250255}+I{0.394446}+G4{1.05573}
+ 554  TN+F+I+R3      3.9272  TN{4.56254,7.25084}+F{0.304234,0.223493,0.208751,0.263522}+I{0.47445}+R3{0.295777,0.66923,0.198444,2.69109,0.031329,8.55516}
+ 555  TPM3u+F+G4     2.3451  TPM3u{0.639194,2.0436}+F{0.290902,0.204383,0.197184,0.307531}+G4{0.517923}
+ 556  TIM3+F+R3      5.0808  TIM3{0.643226,5.87406,2.83792}+F{0.212577,0.269302,0.2509,0.267221}+R3{0.625147,0.0758091,0.234077,1.40579,0.140776,4.42935}
+ 557  TPM3u+F+I+G4   2.6795  TPM3u{0.702019,4.39893}+F{0.257544,0.237024,0.209627,0.295805}+I{0.365644}+G4{0.696525}
+ 558  TIM3+F+I+G4    2.2665  TIM3{0.480977,10.1068,4.91056}+F{0.236716,0.280641,0.112417,0.370227}+I{0.557325}+G4{1.88894}
+ 559  HKY+F+G4       2.9299  HKY{4.59365}+F{0.302374,0.195199,0.198347,0.30408}+G4{0.294564}
+ 560  K3Pu+F+R3      2.3786  K3Pu{6.35031,1.53742}+F{0.264583,0.206252,0.225105,0.304061}+R3{0.5518,0.0289712,0.407447,1.61503,0.0407526,7.99881}
+ 561  K3Pu+F+I+G4    3.1923  K3Pu{4.99544,0.597483}+F{0.283581,0.218898,0.224089,0.273432}+I{0.385579}+G4{0.823204}
+ 562  HKY+F+I+G4     2.4537  HKY{5.08878}+F{0.327542,0.243233,0.219459,0.209766}+I{0.420036}+G4{2.50825}
+ 563  TPM3+G4        3.7554  TPM3{0.48141,3.6162}+FQ+G4{0.272166}
+ 564  TN+F+I+G4      1.7748  TN{2.74519,5.28336}+F{0.244424,0.26772,0.236569,0.251287}+I{0.448984}+G4{0.562437}
+ 565  TN+F+I+G4      3.2339  TN{3.18964,4.59862}+F{0.34769,0.152001,0.194784,0.305525}+I{0.246184}+G4{1.3495}
+ 566  TIM+F+I+G4     2.1328  TIM{6.47864,2.54805,12.3452}+F{0.278195,0.219985,0.225321,0.276498}+I{0.433269}+G4{0.471815}
+ 567  TN+F+R3        3.8534  TN{6.21725,2.9238}+F{0.304833,0.215746,0.153478,0.325943}+R3{0.529144,0.0823679,0.380262,1.05705,0.0905947,6.12021}
+ 568  TPM2u+F+I+G4   3.5088  TPM2u{2.1038,6.70768}+F{0.23836,0.283468,0.181159,0.297013}+I{0.522922}+G4{1.51704}
+ 569  TN+F+I+G4      2.0824  TN{3.34304,7.03831}+F{0.277076,0.189711,0.234838,0.298375}+I{0.428399}+G4{1.05147}
+ 570  HKY+F+I+G4     3.4927  HKY{4.59191}+F{0.324196,0.200488,0.183529,0.291788}+I{0.343442}+G4{0.780638}
+ 571  TN+F+R3        0.5380  TN{1.27106,4.08166}+F{0.264245,0.157747,0.184305,0.393703}+R3{0.73428,0.0672444,0.221332,1.54361,0.0443877,13.7194}
+ 572  K3Pu+F+I+G4    1.8710  K3Pu{7.27278,1.99589}+F{0.315938,0.182786,0.212884,0.288392}+I{0.563993}+G4{1.11507}
+ 573  TIM+F+I+G4     2.1224  TIM{3.54591,0.501475,5.94943}+F{0.333965,0.193654,0.20718,0.2652}+I{0.485922}+G4{1.14352}
+ 574  TPM3u+F+I+G4   1.8903  TPM3u{0.661836,4.27408}+F{0.309874,0.214693,0.229172,0.246262}+I{0.540326}+G4{2.29595}
+ 575  TN+F+I+G4      2.9880  TN{5.88221,3.67597}+F{0.287677,0.308459,0.149583,0.25428}+I{0.347406}+G4{0.90786}
+ 576  HKY+F+I+G4     2.8668  HKY{5.35958}+F{0.265815,0.186521,0.254192,0.293472}+I{0.427074}+G4{1.29403}
+ 577  HKY+F+I+G4     4.6500  HKY{5.41524}+F{0.270874,0.216298,0.219353,0.293475}+I{0.409911}+G4{0.927288}
+ 578  TIM3+F+G4      2.7657  TIM3{0.599013,3.46581,2.42887}+F{0.310594,0.195041,0.229452,0.264914}+G4{0.404154}
+ 579  TVM+F+I+G4     2.2440  TVM{0.771551,6.05091,2.14899,0.661699}+F{0.284491,0.237903,0.180459,0.297146}+I{0.415735}+G4{0.557914}
+ 580  TPM3u+F+I+R2   1.9586  TPM3u{0.633746,2.82173}+F{0.229037,0.239407,0.205432,0.326123}+I{0.430401}+R2{0.465473,1.04168,0.104126,4.94714}
+ 581  HKY+F+I+G4     2.9382  HKY{5.31807}+F{0.259475,0.19728,0.250857,0.292389}+I{0.496903}+G4{1.75858}
+ 582  TIM3e+I        1.0905  TIM3e{0.0001,10.9835,3.53401}+FQ+I{0.59612}
+ 583  TN+F+I+G4      2.2144  TN{5.5962,3.25772}+F{0.329706,0.195873,0.187394,0.287027}+I{0.39002}+G4{1.0362}
+ 584  HKY+F+G4       1.3360  HKY{4.73626}+F{0.306857,0.202173,0.196247,0.294723}+G4{0.194623}
+ 585  HKY+F+I+G4     1.8711  HKY{8.59365}+F{0.338816,0.208276,0.130194,0.322715}+I{0.514298}+G4{3.34943}
+ 586  TVMe+G4        3.9115  TVMe{0.50122,2.63927,0.575588,0.0001}+FQ+G4{0.23792}
+ 587  HKY+F+G4       2.4252  HKY{4.65181}+F{0.342972,0.209742,0.172598,0.274689}+G4{0.270588}
+ 588  K2P+G4         1.9108  K2P{3.1071}+FQ+G4{0.418283}
+ 589  HKY+F+G4       3.5473  HKY{4.46429}+F{0.317011,0.232276,0.152012,0.298701}+G4{0.266}
+ 590  TPM2u+F+G4     2.2975  TPM2u{1.81166,11.974}+F{0.30032,0.17687,0.20822,0.314591}+G4{0.219913}
+ 591  TPM3u+F+G4     1.7798  TPM3u{0.546475,3.07886}+F{0.356175,0.216258,0.16988,0.257686}+G4{0.361228}
+ 592  TIM3+F+I+G4    3.6535  TIM3{0.423611,3.60506,1.75072}+F{0.296957,0.301521,0.169777,0.231744}+I{0.35664}+G4{0.669823}
+ 593  TPM3u+F+I+G4   2.6679  TPM3u{0.498043,2.57023}+F{0.301078,0.256209,0.217198,0.225515}+I{0.467771}+G4{0.810993}
+ 594  TIM2+F+G4      1.7696  TIM2{6.06032,4.54282,19.1136}+F{0.239434,0.234593,0.251164,0.274809}+G4{0.158644}
+ 595  TN+F+I+G4      2.0849  TN{3.82016,7.56862}+F{0.32853,0.192603,0.232565,0.246302}+I{0.5034}+G4{1.07073}
+ 596  HKY+F+I+G4     2.8473  HKY{6.7575}+F{0.304402,0.228128,0.212209,0.25526}+I{0.498974}+G4{1.50898}
+ 597  TPM2u+F+R3     4.1532  TPM2u{1.50197,9.43457}+F{0.275761,0.205919,0.255658,0.262663}+R3{0.631245,0.0589217,0.266529,1.53694,0.102227,5.41118}
+ 598  TPM2u+F+I+G4   3.2568  TPM2u{3.77737,10.4431}+F{0.243467,0.287602,0.217915,0.251016}+I{0.304202}+G4{0.717631}
+ 599  HKY+F+I+G4     1.7976  HKY{4.3353}+F{0.30911,0.226695,0.217373,0.246822}+I{0.526093}+G4{1.06019}
+ 600  HKY+F+G4       2.2540  HKY{4.56634}+F{0.258532,0.208386,0.253935,0.279148}+G4{0.461081}
+ 601  TN+F+I+G4      2.9506  TN{4.11522,6.09099}+F{0.291477,0.15516,0.219049,0.334315}+I{0.379168}+G4{0.822505}
+ 602  TN+F+G4        6.9214  TN{2.60363,10.6205}+F{0.435775,0.138004,0.214614,0.211607}+G4{0.155465}
+ 603  GTR+F+G4       4.8848  GTR{0.233881,3.61791,0.349951,0.233462,1.44224}+F{0.249045,0.245448,0.159024,0.346482}+G4{0.283322}
+ 604  HKY+F+R3       1.5671  HKY{2.62027}+F{0.258779,0.234288,0.185305,0.321628}+R3{0.626203,0.024106,0.321612,1.63929,0.0521859,8.77037}
+ 605  HKY+F+I+G4     3.8381  HKY{5.70946}+F{0.257586,0.19931,0.232138,0.310966}+I{0.406951}+G4{1.04475}
+ 606  TPM3u+F+G4     1.0686  TPM3u{0.504156,2.86891}+F{0.274238,0.206618,0.193903,0.325242}+G4{0.33053}
+ 607  TIM+F+I+G4     4.3026  TIM{3.92611,1.72286,6.21646}+F{0.307534,0.229682,0.185911,0.276872}+I{0.389313}+G4{0.954134}
+ 608  HKY+F+I+G4     2.4297  HKY{4.07727}+F{0.301056,0.197966,0.218603,0.282375}+I{0.515379}+G4{1.29414}
+ 609  HKY+F+I+G4     2.7275  HKY{5.94667}+F{0.295367,0.203779,0.25395,0.246904}+I{0.41511}+G4{0.759413}
+ 610  TNe+I+G4       2.6568  TNe{6.97991,3.31233}+FQ+I{0.529068}+G4{1.07432}
+ 611  TIM2+F+G4      2.4123  TIM2{2.81277,7.40599,28.5339}+F{0.328542,0.150407,0.229384,0.291667}+G4{0.242011}
+ 612  HKY+F+I+G4     1.3455  HKY{3.22526}+F{0.27923,0.156483,0.240753,0.323533}+I{0.579488}+G4{0.491232}
+ 613  HKY+F+I+G4     3.7605  HKY{3.90366}+F{0.370012,0.190834,0.213453,0.225701}+I{0.331328}+G4{0.735868}
+ 614  HKY+F+G4       2.2563  HKY{4.99303}+F{0.296172,0.218132,0.177535,0.308162}+G4{0.343305}
+ 615  TIM3+F+G4      1.2672  TIM3{0.42919,10.4568,3.19523}+F{0.235173,0.234716,0.168438,0.361673}+G4{0.282685}
+ 616  TPM3u+F+I+G4   2.1775  TPM3u{0.697387,3.88046}+F{0.242441,0.231659,0.224767,0.301134}+I{0.477725}+G4{0.912646}
+ 617  TPM2u+F+I+G4   2.1195  TPM2u{1.07853,4.92765}+F{0.315623,0.197368,0.184211,0.302798}+I{0.305711}+G4{0.435872}
+ 618  TPM2+I+G4      2.3844  TPM2{2.18164,6.56605}+FQ+I{0.456597}+G4{3.13377}
+ 619  TIM3+F+I+G4    3.4553  TIM3{0.580224,3.86983,2.64863}+F{0.244133,0.237549,0.1904,0.327918}+I{0.277702}+G4{0.911582}
+ 620  TPM2u+F+I+G4   2.6423  TPM2u{0.981039,5.86623}+F{0.337119,0.254571,0.171745,0.236565}+I{0.470018}+G4{1.1669}
+ 621  TPM3+I+G4      2.3205  TPM3{0.45165,5.12409}+FQ+I{0.584422}+G4{1.24385}
+ 622  TIM3+F+R3      2.3384  TIM3{0.37096,8.59832,2.15529}+F{0.278963,0.289295,0.144986,0.286755}+R3{0.641151,0.0697897,0.323163,1.8517,0.035686,9.99985}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1320317.2956 (s.e. 3723.6904)
+Unconstrained log-likelihood (without tree): -583080.3154
+Number of free parameters (#branches + #model parameters): 52564
+Akaike information criterion (AIC) score: 2745762.5912
+Corrected Akaike information criterion (AICc) score: 2804044.4563
+Bayesian information criterion (BIC) score: 3266186.9992
+
+Total tree length (sum of branch lengths): 1653.1533
+Sum of internal branch lengths: 544.2458 (32.9217% of tree length)
+
+Tree topologies are unlinked across partitions, thus no drawing will be displayed here
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t mafft-nexus-gblocks-clean-75p.treefile
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Jun 12 12:26:53 2025
+Total CPU time used: 4317 seconds (1h:11m:57s)
+Total wall-clock time used: 560.8 seconds (0h:9m:20s)
+
