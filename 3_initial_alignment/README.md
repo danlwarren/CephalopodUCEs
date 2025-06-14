@@ -28,6 +28,8 @@ find "$ALIGN_DIR" -maxdepth 1 -type f -name '*.nexus' -print0 |
   parallel -0 -j "$JOBS" --eta \
     './iqtree-3.0.1-Linux/bin/iqtree3 -s {} -m MIX+MFP -mrate E,I,G,I+G,R,I+R -mrate-twice 1 -nt 1 -pre '"$OUT_DIR"'/{/.}'
 
+# remove all but the .iqtree and .treefile files
+find "$OUT_DIR" -type f ! \( -name '*.iqtree' -o -name '*.treefile' \) -delete
 ```
 
 
@@ -72,29 +74,47 @@ This shows that we get a lot from the mixture models, so we should stick with th
 
 ```
 Classes Frequency
-1       83
-2       365
-3       153
-4       18
-5       3
+1       86
+2       375
+3       136
+4       21
+5       4
 
 Model   Frequency
-+I+G4   285
++I+G4   286
 +G4     249
-+I+R2   44
-+R3     23
-+I      10
-+R2     5
-+I+R3   5
-+R4     1
++I+R2   39
++R3     22
++I      12
++I+R3   9
++R2     3
++R4     2
+
 ```
 
+## ASTRAL tree
 
-## Concat tree
+A good sanity check here is to run a tree with ASTRAL:
+
+```bash
+cat CIAlign_uce-*.treefile > gene_trees.tre 
+astral -Xmx32G \
+       -i gene_trees.tre \
+       -o astral_species_tree.tre  \
+       2> astral.log
+
+# then clean up all but the genetrees.tre file
+rm bic.txt
+rm *.treefile
+rm *.iqtree
+
+```
+
+## Concatenated tree
 
 With normal partitioned models
-```
-./iqtree-3.0.1-Linux/bin/iqtree3 -p ../mafft-nexus-gblocks-clean-75p --prefix concat_part -m MFP -B 1000 -T 128
+```bash
+cd ..
 ./iqtree-3.0.1-Linux/bin/iqtree3 -p ../mafft-nexus-gblocks-clean-75p --prefix concat_merge -m MFP+MERGE -B 1000 -T 128
 
 ```
@@ -102,5 +122,6 @@ With normal partitioned models
 With MixtureFinder
 
 ```
+./iqtree-3.0.1-Linux/bin/iqtree3 -p ../mafft-nexus-gblocks-clean-75p --out-aln ceph_supermatrix.fasta --out-format FASTA
 ./iqtree-3.0.1-Linux/bin/iqtree3 -p ../mafft-nexus-gblocks-clean-75p/  --prefix concat -m MIX+MFP -B 1000 -T 128
 ```
