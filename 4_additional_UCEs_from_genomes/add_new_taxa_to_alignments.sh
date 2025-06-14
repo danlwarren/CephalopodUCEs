@@ -7,8 +7,9 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ALIGN_DIR="${SCRIPT_DIR}/../3_initial_alignment/mafft-nexus-gblocks-clean-75p"
-GENOME_DIR="${SCRIPT_DIR}/genome_UCEs"
-OUT_DIR="${SCRIPT_DIR}/alignments"
+GENOME_DIR="${SCRIPT_DIR}/genome_UCEs/reseq-squid-fasta-i90-c60"
+OUT_DIR="${SCRIPT_DIR}/alignments/reseq-squid-fasta-i90-c60/"
+SUFFIX="_squid"
 THREADS=4
 
 mkdir -p "$OUT_DIR"
@@ -29,10 +30,10 @@ for fa in "${TMP}"/CIAlign_uce-*.fa; do
     addfile="${TMP}/add_${uce}.fa"
     : > "${addfile}"
 
-
+    # go through the extracted UCEs, pick the longest match for each UCE, and add that to the addfile
     for gf in "${GENOME_DIR}"/*.fasta; do
         base=$(basename "${gf}" .fasta)   # e.g. loligo_pealeii
-        species="${base}_n"               # e.g. loligo_pealeii_n  ← ADD THIS LINE
+        species="${base}""$SUFFIX"
         seqkit grep -n -r -p "uce-${uce}\b" "$gf" \
           | seqkit sort -l -r \
           | seqkit head -n 1 \

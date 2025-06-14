@@ -60,6 +60,12 @@ Then we run the same commands as above to retrieve the UCEs with these baits:
 @DAN - can you add these commands here
 ```
 
+Finally we add the newly extracted UCEs to the original alignment
+
+```bash
+
+```
+
 ### Using octopus baits
 
 Octopus species are in `octopus_spp.txt`
