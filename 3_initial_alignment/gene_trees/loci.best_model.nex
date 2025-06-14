@@ -1,0 +1,1248 @@
+#nexus
+begin sets;
+  charset CIAlign_uce-10009.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10009.nexus: ;
+  charset CIAlign_uce-10172.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10172.nexus: ;
+  charset CIAlign_uce-10182.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10182.nexus: ;
+  charset CIAlign_uce-10226.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10226.nexus: ;
+  charset CIAlign_uce-10320.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10320.nexus: ;
+  charset CIAlign_uce-10348.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10348.nexus: ;
+  charset CIAlign_uce-10555.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10555.nexus: ;
+  charset CIAlign_uce-10659.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10659.nexus: ;
+  charset CIAlign_uce-1076.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1076.nexus: ;
+  charset CIAlign_uce-10812.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10812.nexus: ;
+  charset CIAlign_uce-10890.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10890.nexus: ;
+  charset CIAlign_uce-10916.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10916.nexus: ;
+  charset CIAlign_uce-10918.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10918.nexus: ;
+  charset CIAlign_uce-10932.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10932.nexus: ;
+  charset CIAlign_uce-1095.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1095.nexus: ;
+  charset CIAlign_uce-10968.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-10968.nexus: ;
+  charset CIAlign_uce-11073.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-11073.nexus: ;
+  charset CIAlign_uce-11136.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-11136.nexus: ;
+  charset CIAlign_uce-11427.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-11427.nexus: ;
+  charset CIAlign_uce-1144.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1144.nexus: ;
+  charset CIAlign_uce-11548.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-11548.nexus: ;
+  charset CIAlign_uce-11573.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-11573.nexus: ;
+  charset CIAlign_uce-11739.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-11739.nexus: ;
+  charset CIAlign_uce-11740.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-11740.nexus: ;
+  charset CIAlign_uce-118.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-118.nexus: ;
+  charset CIAlign_uce-11820.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-11820.nexus: ;
+  charset CIAlign_uce-11993.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-11993.nexus: ;
+  charset CIAlign_uce-12105.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12105.nexus: ;
+  charset CIAlign_uce-12167.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12167.nexus: ;
+  charset CIAlign_uce-12227.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12227.nexus: ;
+  charset CIAlign_uce-1223.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1223.nexus: ;
+  charset CIAlign_uce-12273.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12273.nexus: ;
+  charset CIAlign_uce-12368.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12368.nexus: ;
+  charset CIAlign_uce-12383.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12383.nexus: ;
+  charset CIAlign_uce-12504.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12504.nexus: ;
+  charset CIAlign_uce-12511.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12511.nexus: ;
+  charset CIAlign_uce-12515.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12515.nexus: ;
+  charset CIAlign_uce-12553.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12553.nexus: ;
+  charset CIAlign_uce-12694.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12694.nexus: ;
+  charset CIAlign_uce-12735.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12735.nexus: ;
+  charset CIAlign_uce-12740.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12740.nexus: ;
+  charset CIAlign_uce-12755.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12755.nexus: ;
+  charset CIAlign_uce-12808.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12808.nexus: ;
+  charset CIAlign_uce-12892.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12892.nexus: ;
+  charset CIAlign_uce-12986.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-12986.nexus: ;
+  charset CIAlign_uce-13005.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-13005.nexus: ;
+  charset CIAlign_uce-13079.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-13079.nexus: ;
+  charset CIAlign_uce-13109.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-13109.nexus: ;
+  charset CIAlign_uce-13110.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-13110.nexus: ;
+  charset CIAlign_uce-13112.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-13112.nexus: ;
+  charset CIAlign_uce-13153.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-13153.nexus: ;
+  charset CIAlign_uce-13273.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-13273.nexus: ;
+  charset CIAlign_uce-13298.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-13298.nexus: ;
+  charset CIAlign_uce-13324.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-13324.nexus: ;
+  charset CIAlign_uce-13498.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-13498.nexus: ;
+  charset CIAlign_uce-13635.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-13635.nexus: ;
+  charset CIAlign_uce-13941.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-13941.nexus: ;
+  charset CIAlign_uce-14008.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-14008.nexus: ;
+  charset CIAlign_uce-14049.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-14049.nexus: ;
+  charset CIAlign_uce-14091.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-14091.nexus: ;
+  charset CIAlign_uce-1410.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1410.nexus: ;
+  charset CIAlign_uce-14138.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-14138.nexus: ;
+  charset CIAlign_uce-14299.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-14299.nexus: ;
+  charset CIAlign_uce-1443.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1443.nexus: ;
+  charset CIAlign_uce-1444.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1444.nexus: ;
+  charset CIAlign_uce-14535.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-14535.nexus: ;
+  charset CIAlign_uce-14541.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-14541.nexus: ;
+  charset CIAlign_uce-14780.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-14780.nexus: ;
+  charset CIAlign_uce-14783.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-14783.nexus: ;
+  charset CIAlign_uce-14809.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-14809.nexus: ;
+  charset CIAlign_uce-14863.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-14863.nexus: ;
+  charset CIAlign_uce-15033.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-15033.nexus: ;
+  charset CIAlign_uce-15037.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-15037.nexus: ;
+  charset CIAlign_uce-15135.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-15135.nexus: ;
+  charset CIAlign_uce-1519.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1519.nexus: ;
+  charset CIAlign_uce-15292.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-15292.nexus: ;
+  charset CIAlign_uce-1561.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1561.nexus: ;
+  charset CIAlign_uce-15616.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-15616.nexus: ;
+  charset CIAlign_uce-15680.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-15680.nexus: ;
+  charset CIAlign_uce-1591.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1591.nexus: ;
+  charset CIAlign_uce-16071.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16071.nexus: ;
+  charset CIAlign_uce-16245.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16245.nexus: ;
+  charset CIAlign_uce-16304.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16304.nexus: ;
+  charset CIAlign_uce-16373.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16373.nexus: ;
+  charset CIAlign_uce-16467.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16467.nexus: ;
+  charset CIAlign_uce-16513.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16513.nexus: ;
+  charset CIAlign_uce-16528.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16528.nexus: ;
+  charset CIAlign_uce-16529.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16529.nexus: ;
+  charset CIAlign_uce-16530.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16530.nexus: ;
+  charset CIAlign_uce-16539.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16539.nexus: ;
+  charset CIAlign_uce-16542.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16542.nexus: ;
+  charset CIAlign_uce-1661.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1661.nexus: ;
+  charset CIAlign_uce-16622.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16622.nexus: ;
+  charset CIAlign_uce-16737.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16737.nexus: ;
+  charset CIAlign_uce-16739.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-16739.nexus: ;
+  charset CIAlign_uce-168.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-168.nexus: ;
+  charset CIAlign_uce-1694.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1694.nexus: ;
+  charset CIAlign_uce-1696.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1696.nexus: ;
+  charset CIAlign_uce-17130.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17130.nexus: ;
+  charset CIAlign_uce-17172.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17172.nexus: ;
+  charset CIAlign_uce-17215.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17215.nexus: ;
+  charset CIAlign_uce-17216.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17216.nexus: ;
+  charset CIAlign_uce-1727.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1727.nexus: ;
+  charset CIAlign_uce-17291.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17291.nexus: ;
+  charset CIAlign_uce-17296.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17296.nexus: ;
+  charset CIAlign_uce-17457.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17457.nexus: ;
+  charset CIAlign_uce-17490.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17490.nexus: ;
+  charset CIAlign_uce-17491.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17491.nexus: ;
+  charset CIAlign_uce-17492.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17492.nexus: ;
+  charset CIAlign_uce-17580.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17580.nexus: ;
+  charset CIAlign_uce-17585.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17585.nexus: ;
+  charset CIAlign_uce-17603.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17603.nexus: ;
+  charset CIAlign_uce-17715.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17715.nexus: ;
+  charset CIAlign_uce-17805.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17805.nexus: ;
+  charset CIAlign_uce-17825.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17825.nexus: ;
+  charset CIAlign_uce-17828.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17828.nexus: ;
+  charset CIAlign_uce-17866.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-17866.nexus: ;
+  charset CIAlign_uce-1797.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1797.nexus: ;
+  charset CIAlign_uce-18104.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18104.nexus: ;
+  charset CIAlign_uce-18242.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18242.nexus: ;
+  charset CIAlign_uce-18245.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18245.nexus: ;
+  charset CIAlign_uce-18287.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18287.nexus: ;
+  charset CIAlign_uce-18299.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18299.nexus: ;
+  charset CIAlign_uce-18317.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18317.nexus: ;
+  charset CIAlign_uce-18367.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18367.nexus: ;
+  charset CIAlign_uce-18385.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18385.nexus: ;
+  charset CIAlign_uce-18387.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18387.nexus: ;
+  charset CIAlign_uce-1842.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1842.nexus: ;
+  charset CIAlign_uce-18486.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18486.nexus: ;
+  charset CIAlign_uce-18500.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18500.nexus: ;
+  charset CIAlign_uce-18679.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18679.nexus: ;
+  charset CIAlign_uce-18734.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18734.nexus: ;
+  charset CIAlign_uce-18817.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18817.nexus: ;
+  charset CIAlign_uce-18906.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18906.nexus: ;
+  charset CIAlign_uce-18909.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-18909.nexus: ;
+  charset CIAlign_uce-19018.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19018.nexus: ;
+  charset CIAlign_uce-19063.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19063.nexus: ;
+  charset CIAlign_uce-19064.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19064.nexus: ;
+  charset CIAlign_uce-19069.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19069.nexus: ;
+  charset CIAlign_uce-19073.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19073.nexus: ;
+  charset CIAlign_uce-19140.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19140.nexus: ;
+  charset CIAlign_uce-19154.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19154.nexus: ;
+  charset CIAlign_uce-19306.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19306.nexus: ;
+  charset CIAlign_uce-19325.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19325.nexus: ;
+  charset CIAlign_uce-19336.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19336.nexus: ;
+  charset CIAlign_uce-19354.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19354.nexus: ;
+  charset CIAlign_uce-19356.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19356.nexus: ;
+  charset CIAlign_uce-1938.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1938.nexus: ;
+  charset CIAlign_uce-19632.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19632.nexus: ;
+  charset CIAlign_uce-19658.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19658.nexus: ;
+  charset CIAlign_uce-19689.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19689.nexus: ;
+  charset CIAlign_uce-1973.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-1973.nexus: ;
+  charset CIAlign_uce-19973.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-19973.nexus: ;
+  charset CIAlign_uce-20045.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20045.nexus: ;
+  charset CIAlign_uce-20066.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20066.nexus: ;
+  charset CIAlign_uce-20245.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20245.nexus: ;
+  charset CIAlign_uce-20254.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20254.nexus: ;
+  charset CIAlign_uce-20401.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20401.nexus: ;
+  charset CIAlign_uce-20417.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20417.nexus: ;
+  charset CIAlign_uce-20467.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20467.nexus: ;
+  charset CIAlign_uce-20468.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20468.nexus: ;
+  charset CIAlign_uce-20471.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20471.nexus: ;
+  charset CIAlign_uce-20483.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20483.nexus: ;
+  charset CIAlign_uce-20572.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20572.nexus: ;
+  charset CIAlign_uce-20676.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20676.nexus: ;
+  charset CIAlign_uce-20777.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20777.nexus: ;
+  charset CIAlign_uce-20807.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20807.nexus: ;
+  charset CIAlign_uce-2084.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-2084.nexus: ;
+  charset CIAlign_uce-20889.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20889.nexus: ;
+  charset CIAlign_uce-20892.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20892.nexus: ;
+  charset CIAlign_uce-20940.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-20940.nexus: ;
+  charset CIAlign_uce-21162.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21162.nexus: ;
+  charset CIAlign_uce-21183.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21183.nexus: ;
+  charset CIAlign_uce-2119.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-2119.nexus: ;
+  charset CIAlign_uce-21263.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21263.nexus: ;
+  charset CIAlign_uce-21264.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21264.nexus: ;
+  charset CIAlign_uce-21267.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21267.nexus: ;
+  charset CIAlign_uce-21275.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21275.nexus: ;
+  charset CIAlign_uce-21362.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21362.nexus: ;
+  charset CIAlign_uce-21409.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21409.nexus: ;
+  charset CIAlign_uce-21496.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21496.nexus: ;
+  charset CIAlign_uce-21626.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21626.nexus: ;
+  charset CIAlign_uce-21695.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21695.nexus: ;
+  charset CIAlign_uce-21740.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21740.nexus: ;
+  charset CIAlign_uce-21858.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21858.nexus: ;
+  charset CIAlign_uce-2197.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-2197.nexus: ;
+  charset CIAlign_uce-21978.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-21978.nexus: ;
+  charset CIAlign_uce-22009.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22009.nexus: ;
+  charset CIAlign_uce-2206.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-2206.nexus: ;
+  charset CIAlign_uce-22064.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22064.nexus: ;
+  charset CIAlign_uce-22195.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22195.nexus: ;
+  charset CIAlign_uce-22213.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22213.nexus: ;
+  charset CIAlign_uce-22317.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22317.nexus: ;
+  charset CIAlign_uce-22330.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22330.nexus: ;
+  charset CIAlign_uce-22413.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22413.nexus: ;
+  charset CIAlign_uce-22430.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22430.nexus: ;
+  charset CIAlign_uce-22549.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22549.nexus: ;
+  charset CIAlign_uce-22581.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22581.nexus: ;
+  charset CIAlign_uce-22594.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22594.nexus: ;
+  charset CIAlign_uce-22624.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22624.nexus: ;
+  charset CIAlign_uce-22644.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22644.nexus: ;
+  charset CIAlign_uce-22645.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22645.nexus: ;
+  charset CIAlign_uce-22646.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22646.nexus: ;
+  charset CIAlign_uce-22658.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22658.nexus: ;
+  charset CIAlign_uce-22688.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22688.nexus: ;
+  charset CIAlign_uce-22689.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22689.nexus: ;
+  charset CIAlign_uce-2291.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-2291.nexus: ;
+  charset CIAlign_uce-22946.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22946.nexus: ;
+  charset CIAlign_uce-22965.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22965.nexus: ;
+  charset CIAlign_uce-22977.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-22977.nexus: ;
+  charset CIAlign_uce-23147.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-23147.nexus: ;
+  charset CIAlign_uce-2318.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-2318.nexus: ;
+  charset CIAlign_uce-23237.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-23237.nexus: ;
+  charset CIAlign_uce-23347.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-23347.nexus: ;
+  charset CIAlign_uce-2346.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-2346.nexus: ;
+  charset CIAlign_uce-23541.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-23541.nexus: ;
+  charset CIAlign_uce-23569.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-23569.nexus: ;
+  charset CIAlign_uce-23576.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-23576.nexus: ;
+  charset CIAlign_uce-23668.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-23668.nexus: ;
+  charset CIAlign_uce-23690.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-23690.nexus: ;
+  charset CIAlign_uce-23713.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-23713.nexus: ;
+  charset CIAlign_uce-23715.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-23715.nexus: ;
+  charset CIAlign_uce-23800.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-23800.nexus: ;
+  charset CIAlign_uce-23837.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-23837.nexus: ;
+  charset CIAlign_uce-23975.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-23975.nexus: ;
+  charset CIAlign_uce-24115.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24115.nexus: ;
+  charset CIAlign_uce-24367.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24367.nexus: ;
+  charset CIAlign_uce-24410.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24410.nexus: ;
+  charset CIAlign_uce-24422.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24422.nexus: ;
+  charset CIAlign_uce-24448.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24448.nexus: ;
+  charset CIAlign_uce-24460.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24460.nexus: ;
+  charset CIAlign_uce-24477.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24477.nexus: ;
+  charset CIAlign_uce-24536.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24536.nexus: ;
+  charset CIAlign_uce-24559.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24559.nexus: ;
+  charset CIAlign_uce-24560.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24560.nexus: ;
+  charset CIAlign_uce-24603.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24603.nexus: ;
+  charset CIAlign_uce-24605.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24605.nexus: ;
+  charset CIAlign_uce-24650.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24650.nexus: ;
+  charset CIAlign_uce-24678.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24678.nexus: ;
+  charset CIAlign_uce-24715.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24715.nexus: ;
+  charset CIAlign_uce-24716.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24716.nexus: ;
+  charset CIAlign_uce-24734.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24734.nexus: ;
+  charset CIAlign_uce-24794.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-24794.nexus: ;
+  charset CIAlign_uce-25004.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25004.nexus: ;
+  charset CIAlign_uce-25136.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25136.nexus: ;
+  charset CIAlign_uce-2516.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-2516.nexus: ;
+  charset CIAlign_uce-25262.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25262.nexus: ;
+  charset CIAlign_uce-25263.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25263.nexus: ;
+  charset CIAlign_uce-25279.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25279.nexus: ;
+  charset CIAlign_uce-25388.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25388.nexus: ;
+  charset CIAlign_uce-25390.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25390.nexus: ;
+  charset CIAlign_uce-25409.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25409.nexus: ;
+  charset CIAlign_uce-25420.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25420.nexus: ;
+  charset CIAlign_uce-2544.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-2544.nexus: ;
+  charset CIAlign_uce-25459.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25459.nexus: ;
+  charset CIAlign_uce-25501.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25501.nexus: ;
+  charset CIAlign_uce-25513.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25513.nexus: ;
+  charset CIAlign_uce-25552.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25552.nexus: ;
+  charset CIAlign_uce-25627.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25627.nexus: ;
+  charset CIAlign_uce-25666.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25666.nexus: ;
+  charset CIAlign_uce-25779.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25779.nexus: ;
+  charset CIAlign_uce-25787.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25787.nexus: ;
+  charset CIAlign_uce-25889.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25889.nexus: ;
+  charset CIAlign_uce-25904.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-25904.nexus: ;
+  charset CIAlign_uce-26055.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26055.nexus: ;
+  charset CIAlign_uce-26124.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26124.nexus: ;
+  charset CIAlign_uce-26139.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26139.nexus: ;
+  charset CIAlign_uce-26180.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26180.nexus: ;
+  charset CIAlign_uce-26244.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26244.nexus: ;
+  charset CIAlign_uce-2626.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-2626.nexus: ;
+  charset CIAlign_uce-26280.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26280.nexus: ;
+  charset CIAlign_uce-26324.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26324.nexus: ;
+  charset CIAlign_uce-26339.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26339.nexus: ;
+  charset CIAlign_uce-26340.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26340.nexus: ;
+  charset CIAlign_uce-26341.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26341.nexus: ;
+  charset CIAlign_uce-26382.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26382.nexus: ;
+  charset CIAlign_uce-26414.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26414.nexus: ;
+  charset CIAlign_uce-26432.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26432.nexus: ;
+  charset CIAlign_uce-26436.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26436.nexus: ;
+  charset CIAlign_uce-26544.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26544.nexus: ;
+  charset CIAlign_uce-26590.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26590.nexus: ;
+  charset CIAlign_uce-26638.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26638.nexus: ;
+  charset CIAlign_uce-26677.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26677.nexus: ;
+  charset CIAlign_uce-26771.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26771.nexus: ;
+  charset CIAlign_uce-26772.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26772.nexus: ;
+  charset CIAlign_uce-26843.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26843.nexus: ;
+  charset CIAlign_uce-26865.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26865.nexus: ;
+  charset CIAlign_uce-26985.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-26985.nexus: ;
+  charset CIAlign_uce-27040.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27040.nexus: ;
+  charset CIAlign_uce-27042.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27042.nexus: ;
+  charset CIAlign_uce-2714.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-2714.nexus: ;
+  charset CIAlign_uce-27192.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27192.nexus: ;
+  charset CIAlign_uce-27378.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27378.nexus: ;
+  charset CIAlign_uce-27520.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27520.nexus: ;
+  charset CIAlign_uce-27539.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27539.nexus: ;
+  charset CIAlign_uce-27545.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27545.nexus: ;
+  charset CIAlign_uce-27547.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27547.nexus: ;
+  charset CIAlign_uce-27550.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27550.nexus: ;
+  charset CIAlign_uce-27597.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27597.nexus: ;
+  charset CIAlign_uce-27610.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27610.nexus: ;
+  charset CIAlign_uce-27625.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27625.nexus: ;
+  charset CIAlign_uce-27626.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27626.nexus: ;
+  charset CIAlign_uce-27741.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27741.nexus: ;
+  charset CIAlign_uce-27763.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27763.nexus: ;
+  charset CIAlign_uce-27783.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27783.nexus: ;
+  charset CIAlign_uce-27830.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27830.nexus: ;
+  charset CIAlign_uce-27831.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27831.nexus: ;
+  charset CIAlign_uce-27929.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-27929.nexus: ;
+  charset CIAlign_uce-28007.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-28007.nexus: ;
+  charset CIAlign_uce-28098.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-28098.nexus: ;
+  charset CIAlign_uce-28099.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-28099.nexus: ;
+  charset CIAlign_uce-2840.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-2840.nexus: ;
+  charset CIAlign_uce-28516.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-28516.nexus: ;
+  charset CIAlign_uce-28546.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-28546.nexus: ;
+  charset CIAlign_uce-28586.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-28586.nexus: ;
+  charset CIAlign_uce-28698.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-28698.nexus: ;
+  charset CIAlign_uce-28849.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-28849.nexus: ;
+  charset CIAlign_uce-28892.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-28892.nexus: ;
+  charset CIAlign_uce-28894.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-28894.nexus: ;
+  charset CIAlign_uce-28895.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-28895.nexus: ;
+  charset CIAlign_uce-28896.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-28896.nexus: ;
+  charset CIAlign_uce-29213.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-29213.nexus: ;
+  charset CIAlign_uce-29251.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-29251.nexus: ;
+  charset CIAlign_uce-29443.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-29443.nexus: ;
+  charset CIAlign_uce-29475.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-29475.nexus: ;
+  charset CIAlign_uce-29580.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-29580.nexus: ;
+  charset CIAlign_uce-29605.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-29605.nexus: ;
+  charset CIAlign_uce-29669.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-29669.nexus: ;
+  charset CIAlign_uce-29727.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-29727.nexus: ;
+  charset CIAlign_uce-29732.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-29732.nexus: ;
+  charset CIAlign_uce-29738.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-29738.nexus: ;
+  charset CIAlign_uce-2981.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-2981.nexus: ;
+  charset CIAlign_uce-29811.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-29811.nexus: ;
+  charset CIAlign_uce-29870.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-29870.nexus: ;
+  charset CIAlign_uce-29899.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-29899.nexus: ;
+  charset CIAlign_uce-30161.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30161.nexus: ;
+  charset CIAlign_uce-30219.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30219.nexus: ;
+  charset CIAlign_uce-30230.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30230.nexus: ;
+  charset CIAlign_uce-30267.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30267.nexus: ;
+  charset CIAlign_uce-3028.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3028.nexus: ;
+  charset CIAlign_uce-30321.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30321.nexus: ;
+  charset CIAlign_uce-30435.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30435.nexus: ;
+  charset CIAlign_uce-3047.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3047.nexus: ;
+  charset CIAlign_uce-30493.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30493.nexus: ;
+  charset CIAlign_uce-30515.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30515.nexus: ;
+  charset CIAlign_uce-30525.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30525.nexus: ;
+  charset CIAlign_uce-30574.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30574.nexus: ;
+  charset CIAlign_uce-3067.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3067.nexus: ;
+  charset CIAlign_uce-30748.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30748.nexus: ;
+  charset CIAlign_uce-30769.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30769.nexus: ;
+  charset CIAlign_uce-30828.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30828.nexus: ;
+  charset CIAlign_uce-30830.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30830.nexus: ;
+  charset CIAlign_uce-30836.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-30836.nexus: ;
+  charset CIAlign_uce-3102.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3102.nexus: ;
+  charset CIAlign_uce-31067.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31067.nexus: ;
+  charset CIAlign_uce-31079.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31079.nexus: ;
+  charset CIAlign_uce-31082.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31082.nexus: ;
+  charset CIAlign_uce-31174.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31174.nexus: ;
+  charset CIAlign_uce-31176.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31176.nexus: ;
+  charset CIAlign_uce-31286.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31286.nexus: ;
+  charset CIAlign_uce-31287.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31287.nexus: ;
+  charset CIAlign_uce-31300.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31300.nexus: ;
+  charset CIAlign_uce-31352.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31352.nexus: ;
+  charset CIAlign_uce-31473.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31473.nexus: ;
+  charset CIAlign_uce-31484.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31484.nexus: ;
+  charset CIAlign_uce-31497.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31497.nexus: ;
+  charset CIAlign_uce-31759.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31759.nexus: ;
+  charset CIAlign_uce-31829.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31829.nexus: ;
+  charset CIAlign_uce-3186.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3186.nexus: ;
+  charset CIAlign_uce-31893.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31893.nexus: ;
+  charset CIAlign_uce-31907.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31907.nexus: ;
+  charset CIAlign_uce-31967.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-31967.nexus: ;
+  charset CIAlign_uce-32005.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32005.nexus: ;
+  charset CIAlign_uce-32057.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32057.nexus: ;
+  charset CIAlign_uce-32088.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32088.nexus: ;
+  charset CIAlign_uce-32102.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32102.nexus: ;
+  charset CIAlign_uce-32146.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32146.nexus: ;
+  charset CIAlign_uce-32174.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32174.nexus: ;
+  charset CIAlign_uce-32214.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32214.nexus: ;
+  charset CIAlign_uce-32270.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32270.nexus: ;
+  charset CIAlign_uce-32355.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32355.nexus: ;
+  charset CIAlign_uce-32430.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32430.nexus: ;
+  charset CIAlign_uce-32470.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32470.nexus: ;
+  charset CIAlign_uce-32474.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32474.nexus: ;
+  charset CIAlign_uce-32475.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32475.nexus: ;
+  charset CIAlign_uce-32509.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32509.nexus: ;
+  charset CIAlign_uce-3258.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3258.nexus: ;
+  charset CIAlign_uce-32689.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32689.nexus: ;
+  charset CIAlign_uce-32720.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32720.nexus: ;
+  charset CIAlign_uce-32735.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32735.nexus: ;
+  charset CIAlign_uce-32764.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32764.nexus: ;
+  charset CIAlign_uce-32775.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32775.nexus: ;
+  charset CIAlign_uce-32884.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32884.nexus: ;
+  charset CIAlign_uce-32909.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-32909.nexus: ;
+  charset CIAlign_uce-33011.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33011.nexus: ;
+  charset CIAlign_uce-33015.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33015.nexus: ;
+  charset CIAlign_uce-33050.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33050.nexus: ;
+  charset CIAlign_uce-3309.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3309.nexus: ;
+  charset CIAlign_uce-33091.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33091.nexus: ;
+  charset CIAlign_uce-33206.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33206.nexus: ;
+  charset CIAlign_uce-33241.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33241.nexus: ;
+  charset CIAlign_uce-33428.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33428.nexus: ;
+  charset CIAlign_uce-33443.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33443.nexus: ;
+  charset CIAlign_uce-33521.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33521.nexus: ;
+  charset CIAlign_uce-33639.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33639.nexus: ;
+  charset CIAlign_uce-33668.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33668.nexus: ;
+  charset CIAlign_uce-33691.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33691.nexus: ;
+  charset CIAlign_uce-33739.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33739.nexus: ;
+  charset CIAlign_uce-33747.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33747.nexus: ;
+  charset CIAlign_uce-33749.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33749.nexus: ;
+  charset CIAlign_uce-3379.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3379.nexus: ;
+  charset CIAlign_uce-33949.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33949.nexus: ;
+  charset CIAlign_uce-33993.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-33993.nexus: ;
+  charset CIAlign_uce-3406.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3406.nexus: ;
+  charset CIAlign_uce-34159.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-34159.nexus: ;
+  charset CIAlign_uce-34185.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-34185.nexus: ;
+  charset CIAlign_uce-34210.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-34210.nexus: ;
+  charset CIAlign_uce-34267.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-34267.nexus: ;
+  charset CIAlign_uce-34324.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-34324.nexus: ;
+  charset CIAlign_uce-34366.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-34366.nexus: ;
+  charset CIAlign_uce-34406.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-34406.nexus: ;
+  charset CIAlign_uce-34507.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-34507.nexus: ;
+  charset CIAlign_uce-34528.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-34528.nexus: ;
+  charset CIAlign_uce-34571.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-34571.nexus: ;
+  charset CIAlign_uce-3459.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3459.nexus: ;
+  charset CIAlign_uce-34922.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-34922.nexus: ;
+  charset CIAlign_uce-35009.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35009.nexus: ;
+  charset CIAlign_uce-35011.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35011.nexus: ;
+  charset CIAlign_uce-35055.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35055.nexus: ;
+  charset CIAlign_uce-35112.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35112.nexus: ;
+  charset CIAlign_uce-35150.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35150.nexus: ;
+  charset CIAlign_uce-35151.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35151.nexus: ;
+  charset CIAlign_uce-35203.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35203.nexus: ;
+  charset CIAlign_uce-35230.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35230.nexus: ;
+  charset CIAlign_uce-35404.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35404.nexus: ;
+  charset CIAlign_uce-35424.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35424.nexus: ;
+  charset CIAlign_uce-35436.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35436.nexus: ;
+  charset CIAlign_uce-35494.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35494.nexus: ;
+  charset CIAlign_uce-35495.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35495.nexus: ;
+  charset CIAlign_uce-35776.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35776.nexus: ;
+  charset CIAlign_uce-35782.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35782.nexus: ;
+  charset CIAlign_uce-35801.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35801.nexus: ;
+  charset CIAlign_uce-35805.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35805.nexus: ;
+  charset CIAlign_uce-35828.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35828.nexus: ;
+  charset CIAlign_uce-35867.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35867.nexus: ;
+  charset CIAlign_uce-35983.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-35983.nexus: ;
+  charset CIAlign_uce-36059.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36059.nexus: ;
+  charset CIAlign_uce-36060.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36060.nexus: ;
+  charset CIAlign_uce-36068.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36068.nexus: ;
+  charset CIAlign_uce-36093.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36093.nexus: ;
+  charset CIAlign_uce-36225.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36225.nexus: ;
+  charset CIAlign_uce-36320.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36320.nexus: ;
+  charset CIAlign_uce-36414.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36414.nexus: ;
+  charset CIAlign_uce-36415.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36415.nexus: ;
+  charset CIAlign_uce-36416.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36416.nexus: ;
+  charset CIAlign_uce-36456.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36456.nexus: ;
+  charset CIAlign_uce-36459.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36459.nexus: ;
+  charset CIAlign_uce-36528.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36528.nexus: ;
+  charset CIAlign_uce-36604.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36604.nexus: ;
+  charset CIAlign_uce-3665.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3665.nexus: ;
+  charset CIAlign_uce-36659.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36659.nexus: ;
+  charset CIAlign_uce-36692.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36692.nexus: ;
+  charset CIAlign_uce-369.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-369.nexus: ;
+  charset CIAlign_uce-3693.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3693.nexus: ;
+  charset CIAlign_uce-36992.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-36992.nexus: ;
+  charset CIAlign_uce-37073.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-37073.nexus: ;
+  charset CIAlign_uce-37268.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-37268.nexus: ;
+  charset CIAlign_uce-37439.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-37439.nexus: ;
+  charset CIAlign_uce-37547.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-37547.nexus: ;
+  charset CIAlign_uce-37821.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-37821.nexus: ;
+  charset CIAlign_uce-37919.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-37919.nexus: ;
+  charset CIAlign_uce-37961.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-37961.nexus: ;
+  charset CIAlign_uce-38073.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38073.nexus: ;
+  charset CIAlign_uce-38134.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38134.nexus: ;
+  charset CIAlign_uce-3819.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3819.nexus: ;
+  charset CIAlign_uce-38254.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38254.nexus: ;
+  charset CIAlign_uce-38272.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38272.nexus: ;
+  charset CIAlign_uce-38388.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38388.nexus: ;
+  charset CIAlign_uce-38441.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38441.nexus: ;
+  charset CIAlign_uce-38446.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38446.nexus: ;
+  charset CIAlign_uce-3846.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3846.nexus: ;
+  charset CIAlign_uce-38646.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38646.nexus: ;
+  charset CIAlign_uce-38650.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38650.nexus: ;
+  charset CIAlign_uce-38734.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38734.nexus: ;
+  charset CIAlign_uce-38767.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38767.nexus: ;
+  charset CIAlign_uce-38785.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38785.nexus: ;
+  charset CIAlign_uce-38805.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38805.nexus: ;
+  charset CIAlign_uce-38821.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38821.nexus: ;
+  charset CIAlign_uce-38924.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38924.nexus: ;
+  charset CIAlign_uce-38967.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-38967.nexus: ;
+  charset CIAlign_uce-39033.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39033.nexus: ;
+  charset CIAlign_uce-39106.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39106.nexus: ;
+  charset CIAlign_uce-39175.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39175.nexus: ;
+  charset CIAlign_uce-39184.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39184.nexus: ;
+  charset CIAlign_uce-39191.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39191.nexus: ;
+  charset CIAlign_uce-39248.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39248.nexus: ;
+  charset CIAlign_uce-39249.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39249.nexus: ;
+  charset CIAlign_uce-39264.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39264.nexus: ;
+  charset CIAlign_uce-39267.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39267.nexus: ;
+  charset CIAlign_uce-39274.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39274.nexus: ;
+  charset CIAlign_uce-39334.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39334.nexus: ;
+  charset CIAlign_uce-39477.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39477.nexus: ;
+  charset CIAlign_uce-39514.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39514.nexus: ;
+  charset CIAlign_uce-39621.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39621.nexus: ;
+  charset CIAlign_uce-3972.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3972.nexus: ;
+  charset CIAlign_uce-3975.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3975.nexus: ;
+  charset CIAlign_uce-39793.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39793.nexus: ;
+  charset CIAlign_uce-39798.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39798.nexus: ;
+  charset CIAlign_uce-39843.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39843.nexus: ;
+  charset CIAlign_uce-3994.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-3994.nexus: ;
+  charset CIAlign_uce-39967.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-39967.nexus: ;
+  charset CIAlign_uce-40254.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-40254.nexus: ;
+  charset CIAlign_uce-40328.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-40328.nexus: ;
+  charset CIAlign_uce-4036.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4036.nexus: ;
+  charset CIAlign_uce-4040.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4040.nexus: ;
+  charset CIAlign_uce-4045.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4045.nexus: ;
+  charset CIAlign_uce-40474.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-40474.nexus: ;
+  charset CIAlign_uce-40602.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-40602.nexus: ;
+  charset CIAlign_uce-40624.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-40624.nexus: ;
+  charset CIAlign_uce-40674.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-40674.nexus: ;
+  charset CIAlign_uce-40683.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-40683.nexus: ;
+  charset CIAlign_uce-40731.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-40731.nexus: ;
+  charset CIAlign_uce-40765.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-40765.nexus: ;
+  charset CIAlign_uce-4163.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4163.nexus: ;
+  charset CIAlign_uce-4173.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4173.nexus: ;
+  charset CIAlign_uce-4205.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4205.nexus: ;
+  charset CIAlign_uce-4239.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4239.nexus: ;
+  charset CIAlign_uce-425.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-425.nexus: ;
+  charset CIAlign_uce-428.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-428.nexus: ;
+  charset CIAlign_uce-4322.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4322.nexus: ;
+  charset CIAlign_uce-4327.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4327.nexus: ;
+  charset CIAlign_uce-4330.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4330.nexus: ;
+  charset CIAlign_uce-4622.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4622.nexus: ;
+  charset CIAlign_uce-4653.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4653.nexus: ;
+  charset CIAlign_uce-4678.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4678.nexus: ;
+  charset CIAlign_uce-4691.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4691.nexus: ;
+  charset CIAlign_uce-4889.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-4889.nexus: ;
+  charset CIAlign_uce-5234.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-5234.nexus: ;
+  charset CIAlign_uce-5243.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-5243.nexus: ;
+  charset CIAlign_uce-5320.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-5320.nexus: ;
+  charset CIAlign_uce-5326.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-5326.nexus: ;
+  charset CIAlign_uce-5449.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-5449.nexus: ;
+  charset CIAlign_uce-547.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-547.nexus: ;
+  charset CIAlign_uce-5525.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-5525.nexus: ;
+  charset CIAlign_uce-5560.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-5560.nexus: ;
+  charset CIAlign_uce-5691.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-5691.nexus: ;
+  charset CIAlign_uce-5763.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-5763.nexus: ;
+  charset CIAlign_uce-5967.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-5967.nexus: ;
+  charset CIAlign_uce-5990.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-5990.nexus: ;
+  charset CIAlign_uce-6237.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-6237.nexus: ;
+  charset CIAlign_uce-6244.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-6244.nexus: ;
+  charset CIAlign_uce-6250.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-6250.nexus: ;
+  charset CIAlign_uce-6374.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-6374.nexus: ;
+  charset CIAlign_uce-6550.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-6550.nexus: ;
+  charset CIAlign_uce-6553.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-6553.nexus: ;
+  charset CIAlign_uce-6598.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-6598.nexus: ;
+  charset CIAlign_uce-675.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-675.nexus: ;
+  charset CIAlign_uce-6782.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-6782.nexus: ;
+  charset CIAlign_uce-6787.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-6787.nexus: ;
+  charset CIAlign_uce-6882.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-6882.nexus: ;
+  charset CIAlign_uce-693.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-693.nexus: ;
+  charset CIAlign_uce-6957.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-6957.nexus: ;
+  charset CIAlign_uce-696.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-696.nexus: ;
+  charset CIAlign_uce-6976.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-6976.nexus: ;
+  charset CIAlign_uce-7044.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7044.nexus: ;
+  charset CIAlign_uce-711.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-711.nexus: ;
+  charset CIAlign_uce-7169.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7169.nexus: ;
+  charset CIAlign_uce-7271.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7271.nexus: ;
+  charset CIAlign_uce-731.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-731.nexus: ;
+  charset CIAlign_uce-750.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-750.nexus: ;
+  charset CIAlign_uce-7534.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7534.nexus: ;
+  charset CIAlign_uce-7659.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7659.nexus: ;
+  charset CIAlign_uce-7662.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7662.nexus: ;
+  charset CIAlign_uce-7668.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7668.nexus: ;
+  charset CIAlign_uce-7709.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7709.nexus: ;
+  charset CIAlign_uce-7711.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7711.nexus: ;
+  charset CIAlign_uce-7760.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7760.nexus: ;
+  charset CIAlign_uce-7780.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7780.nexus: ;
+  charset CIAlign_uce-7810.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7810.nexus: ;
+  charset CIAlign_uce-7844.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7844.nexus: ;
+  charset CIAlign_uce-7892.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7892.nexus: ;
+  charset CIAlign_uce-7943.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7943.nexus: ;
+  charset CIAlign_uce-7981.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7981.nexus: ;
+  charset CIAlign_uce-7994.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-7994.nexus: ;
+  charset CIAlign_uce-8029.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8029.nexus: ;
+  charset CIAlign_uce-8056.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8056.nexus: ;
+  charset CIAlign_uce-8080.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8080.nexus: ;
+  charset CIAlign_uce-8081.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8081.nexus: ;
+  charset CIAlign_uce-8138.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8138.nexus: ;
+  charset CIAlign_uce-8466.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8466.nexus: ;
+  charset CIAlign_uce-849.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-849.nexus: ;
+  charset CIAlign_uce-8496.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8496.nexus: ;
+  charset CIAlign_uce-8612.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8612.nexus: ;
+  charset CIAlign_uce-8699.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8699.nexus: ;
+  charset CIAlign_uce-870.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-870.nexus: ;
+  charset CIAlign_uce-8702.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8702.nexus: ;
+  charset CIAlign_uce-8707.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8707.nexus: ;
+  charset CIAlign_uce-8753.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8753.nexus: ;
+  charset CIAlign_uce-8827.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8827.nexus: ;
+  charset CIAlign_uce-8828.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8828.nexus: ;
+  charset CIAlign_uce-8846.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8846.nexus: ;
+  charset CIAlign_uce-8932.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8932.nexus: ;
+  charset CIAlign_uce-8955.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8955.nexus: ;
+  charset CIAlign_uce-8997.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-8997.nexus: ;
+  charset CIAlign_uce-9002.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9002.nexus: ;
+  charset CIAlign_uce-903.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-903.nexus: ;
+  charset CIAlign_uce-9031.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9031.nexus: ;
+  charset CIAlign_uce-9415.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9415.nexus: ;
+  charset CIAlign_uce-9437.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9437.nexus: ;
+  charset CIAlign_uce-9471.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9471.nexus: ;
+  charset CIAlign_uce-9508.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9508.nexus: ;
+  charset CIAlign_uce-9518.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9518.nexus: ;
+  charset CIAlign_uce-9589.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9589.nexus: ;
+  charset CIAlign_uce-9608.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9608.nexus: ;
+  charset CIAlign_uce-9694.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9694.nexus: ;
+  charset CIAlign_uce-9710.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9710.nexus: ;
+  charset CIAlign_uce-9730.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9730.nexus: ;
+  charset CIAlign_uce-976.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-976.nexus: ;
+  charset CIAlign_uce-981.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-981.nexus: ;
+  charset CIAlign_uce-9935.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9935.nexus: ;
+  charset CIAlign_uce-9966.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9966.nexus: ;
+  charset CIAlign_uce-9968.nexus = ../mafft-nexus-gblocks-clean-75p/CIAlign_uce-9968.nexus: ;
+  charpartition mymodels =
+    TIM2{1.67802,6.25261,7.68596}+F{0.216321,0.261988,0.237007,0.284684}+I{0.598486}+R3{0.111938,0.436931,0.251402,2.78736,0.0381737,6.55798}: CIAlign_uce-10009.nexus{3.30258},
+    HKY{6.35907}+F{0.303282,0.230212,0.19229,0.274215}+G4{0.260015}: CIAlign_uce-10172.nexus{1.34293},
+    HKY{7.62209}+F{0.304961,0.217239,0.213841,0.26396}+R3{0.596372,0.0583342,0.348843,1.8284,0.0547849,5.97582}: CIAlign_uce-10182.nexus{3.41837},
+    TPM3u{0.748037,5.34537}+F{0.256931,0.208996,0.209475,0.324599}+I{0.364565}+G4{0.791451}: CIAlign_uce-10226.nexus{2.92855},
+    HKY{6.85284}+F{0.254321,0.253784,0.172732,0.319163}+I{0.507504}+G4{0.683505}: CIAlign_uce-10320.nexus{2.5615},
+    TPM3u{0.681054,4.17898}+F{0.244501,0.193683,0.257658,0.304158}+I{0.449003}+G4{1.63954}: CIAlign_uce-10348.nexus{2.43581},
+    HKY{4.02893}+F{0.296795,0.209269,0.209269,0.284666}+I{0.326585}+G4{1.38203}: CIAlign_uce-10555.nexus{3.5413},
+    TN{12.8496,4.25074}+F{0.216964,0.242446,0.154896,0.385693}+G4{0.206136}: CIAlign_uce-10659.nexus{3.05759},
+    TN{12.8084,5.84252}+F{0.186269,0.237849,0.188423,0.387459}+I{0.363642}+G4{0.88036}: CIAlign_uce-1076.nexus{4.00127},
+    HKY{6.00533}+F{0.370139,0.185417,0.203241,0.241204}+I{0.371249}+G4{0.373459}: CIAlign_uce-10812.nexus{3.66586},
+    HKY{5.70046}+F{0.26913,0.186099,0.16794,0.376832}+I{0.413947}+G4{1.63996}: CIAlign_uce-10890.nexus{2.47258},
+    TPM3u{0.53262,3.31332}+F{0.281687,0.228128,0.209,0.281184}+I{0.290943}+G4{0.790742}: CIAlign_uce-10916.nexus{4.54431},
+    TIM3e{0.627671,4.07918,2.56973}+FQ+I{0.355821}+G4{0.900115}: CIAlign_uce-10918.nexus{3.97301},
+    TN{2.1838,5.67766}+F{0.280834,0.175133,0.245896,0.298137}+I{0.489558}+R2{0.446303,0.729074,0.0641388,10.518}: CIAlign_uce-10932.nexus{3.11553},
+    TN{3.39388,7.2151}+F{0.281338,0.159369,0.208795,0.350498}+I{0.378126}+R2{0.507448,0.72645,0.114427,5.51763}: CIAlign_uce-1095.nexus{2.53538},
+    HKY{5.43222}+F{0.348856,0.197417,0.227515,0.226212}+G4{0.243915}: CIAlign_uce-10968.nexus{2.07449},
+    TPM2u{1.7748,5.44564}+F{0.281536,0.1923,0.208317,0.317847}+I{0.350462}+G4{0.781138}: CIAlign_uce-11073.nexus{3.46639},
+    TVM{3.746,5.57554,1.3903,0.936763}+F{0.284131,0.196419,0.231119,0.28833}+I{0.39651}+G4{1.64409}: CIAlign_uce-11136.nexus{1.44172},
+    TN{4.745,10.6636}+F{0.367285,0.148821,0.184992,0.298902}+G4{0.188724}: CIAlign_uce-11427.nexus{1.65451},
+    HKY{3.92075}+F{0.221192,0.244055,0.164881,0.369872}+I{0.564968}+G4{3.94709}: CIAlign_uce-1144.nexus{1.2845},
+    TPM2u{0.449995,2.60062}+F{0.295983,0.199554,0.17806,0.326404}+I{0.538908}+R2{0.441346,1.31987,0.019746,21.1427}: CIAlign_uce-11548.nexus{1.29097},
+    TIM3{0.225517,4.59537,2.43541}+F{0.28365,0.219053,0.227349,0.269948}+I{0.486126}+G4{1.32701}: CIAlign_uce-11573.nexus{2.42255},
+    TPM2{2.63471,9.42402}+FQ+I{0.562023}+G4{0.959285}: CIAlign_uce-11739.nexus{1.51578},
+    GTR{2.87466,6.10152,1.06861,1.48329,10.6432}+F{0.294124,0.173517,0.2317,0.300659}+I{0.39238}+G4{1.32525}: CIAlign_uce-11740.nexus{3.89811},
+    TN{3.29525,6.67078}+F{0.306304,0.168342,0.230242,0.295112}+G4{0.270266}: CIAlign_uce-118.nexus{2.31495},
+    TPM2u{2.8473,9.30912}+F{0.277316,0.229679,0.183365,0.309641}+G4{0.279551}: CIAlign_uce-11820.nexus{2.94759},
+    TN{5.04142,1.6018}+F{0.345697,0.176742,0.176742,0.300818}+R3{0.643334,0.0859374,0.327456,1.95182,0.0292102,10.4613}: CIAlign_uce-11993.nexus{1.7167},
+    TIM3{2.2717,5.16053,12.4467}+F{0.370688,0.163021,0.222097,0.244194}+I{0.437588}+G4{0.944465}: CIAlign_uce-12105.nexus{4.00899},
+    K2P{6.76763}+FQ+I{0.505524}+G4{0.969526}: CIAlign_uce-12167.nexus{2.35633},
+    TN{8.9348,3.81329}+F{0.314116,0.226563,0.189637,0.269684}+I{0.496089}+R3{0.251001,0.507558,0.232841,2.52092,0.0200691,14.2323}: CIAlign_uce-12227.nexus{3.56098},
+    TPM2{1.8971,6.60993}+FQ+G4{0.495431}: CIAlign_uce-1223.nexus{2.69303},
+    HKY{4.81395}+F{0.22052,0.214228,0.205399,0.359854}+R3{0.6593,0.0975123,0.290855,2.01459,0.049845,7.0169}: CIAlign_uce-12273.nexus{2.28937},
+    HKY{4.92196}+F{0.25681,0.186299,0.201877,0.355015}+G4{0.393593}: CIAlign_uce-12368.nexus{4.82535},
+    TPM3u{0.567156,3.84977}+F{0.226789,0.209663,0.216874,0.346674}+I{0.465187}+G4{0.946734}: CIAlign_uce-12383.nexus{2.01203},
+    TIM3{0.253789,4.65543,2.15558}+F{0.37211,0.18367,0.21156,0.232661}+I{0.572396}+G4{6.80731}: CIAlign_uce-12504.nexus{2.56777},
+    TIM3{0.463561,6.44558,2.92772}+F{0.283435,0.262767,0.140263,0.313535}+I{0.369039}+G4{0.660983}: CIAlign_uce-12511.nexus{5.63858},
+    TIM3e{0.526532,2.97099,2.05694}+FQ+I{0.400155}+G4{0.951491}: CIAlign_uce-12515.nexus{3.61771},
+    TIM2{2.53262,5.81943,12.6243}+F{0.293895,0.184822,0.243069,0.278213}+G4{0.290732}: CIAlign_uce-12553.nexus{3.49491},
+    HKY{10.804}+F{0.321698,0.22508,0.224892,0.228331}+I{0.639462}+G4{2.09084}: CIAlign_uce-12694.nexus{2.85851},
+    HKY{5.1309}+F{0.314612,0.22571,0.14807,0.311608}+G4{0.167087}: CIAlign_uce-12735.nexus{1.35819},
+    HKY{7.2357}+F{0.312788,0.215019,0.151524,0.320669}+I{0.463579}+G4{1.0112}: CIAlign_uce-12740.nexus{2.84955},
+    HKY{4.3094}+F{0.314989,0.208842,0.198489,0.277679}+I{0.51109}+G4{0.952263}: CIAlign_uce-12755.nexus{3.77197},
+    HKY{4.75932}+F{0.320202,0.169851,0.224686,0.285262}+G4{0.379745}: CIAlign_uce-12808.nexus{2.37951},
+    TN{5.1248,8.63361}+F{0.350894,0.169139,0.237072,0.242895}+G4{0.275969}: CIAlign_uce-12892.nexus{1.8563},
+    HKY{4.93314}+F{0.271447,0.268613,0.165249,0.29469}+G4{0.193325}: CIAlign_uce-12986.nexus{1.26099},
+    TPM3{0.49426,3.9508}+FQ+I{0.558587}+G4{1.53291}: CIAlign_uce-13005.nexus{2.36646},
+    HKY{3.15209}+F{0.265471,0.242738,0.222363,0.269428}+I{0.461349}+G4{0.953321}: CIAlign_uce-13079.nexus{2.0803},
+    TIM2e{2.10525,8.11205,11.3058}+FQ+I{0.519649}+G4{0.922568}: CIAlign_uce-13109.nexus{2.83856},
+    TPM3u{0.464656,4.49847}+F{0.262911,0.234038,0.191784,0.311268}+I{0.482075}+G4{0.798665}: CIAlign_uce-13110.nexus{3.88798},
+    HKY{6.37153}+F{0.30273,0.257902,0.149282,0.290086}+G4{0.295145}: CIAlign_uce-13112.nexus{4.92271},
+    TPM3u{0.581531,3.71135}+F{0.266948,0.248473,0.21545,0.26913}+G4{0.382848}: CIAlign_uce-13153.nexus{2.3082},
+    TPM3{0.261636,2.98046}+FQ+G4{0.368775}: CIAlign_uce-13273.nexus{1.66853},
+    HKY{4.21826}+F{0.284883,0.213067,0.226028,0.276022}+I{0.491446}+G4{1.10206}: CIAlign_uce-13298.nexus{3.21914},
+    K3Pu{3.7494,0.538263}+F{0.33107,0.191716,0.241135,0.23608}+I{0.412493}+G4{0.942508}: CIAlign_uce-13324.nexus{1.83124},
+    HKY{5.58794}+F{0.302927,0.234823,0.235679,0.226572}+G4{0.290638}: CIAlign_uce-13498.nexus{2.14404},
+    TN{6.59257,3.21691}+F{0.265922,0.210918,0.162221,0.360939}+I{0.519727}+G4{1.24346}: CIAlign_uce-13635.nexus{1.10304},
+    TIM3{0.640913,2.80177,2.51495}+F{0.29214,0.234432,0.233171,0.240257}+I{0.35212}+G4{1.26277}: CIAlign_uce-13941.nexus{3.12179},
+    TPM3{0.313933,1.80673}+FQ+R2{0.846718,0.217316,0.153282,5.32349}: CIAlign_uce-14008.nexus{1.75691},
+    HKY{7.13394}+F{0.318439,0.19887,0.152066,0.330625}+R3{0.711148,0.210432,0.274881,2.07189,0.0139714,20.1002}: CIAlign_uce-14049.nexus{1.68908},
+    TIM{2.82273,0.432109,1.54788}+F{0.273382,0.21893,0.174568,0.33312}+I{0.420818}+G4{1.34145}: CIAlign_uce-14091.nexus{3.00527},
+    TPM3u{0.555512,2.40645}+F{0.295541,0.191692,0.234184,0.278582}+G4{0.246943}: CIAlign_uce-1410.nexus{2.14991},
+    TPM2{2.67434,5.69215}+FQ+G4{0.415487}: CIAlign_uce-14138.nexus{2.97802},
+    TPM3{0.462036,2.86109}+FQ+I{0.38075}+G4{0.77506}: CIAlign_uce-14299.nexus{3.09013},
+    TN{3.69026,6.55311}+F{0.374035,0.168561,0.215439,0.241965}+I{0.464942}+G4{1.93369}: CIAlign_uce-1443.nexus{2.9904},
+    TPM2u{3.79659,11.1248}+F{0.227298,0.175484,0.279111,0.318107}+I{0.428321}+G4{0.925502}: CIAlign_uce-1444.nexus{3.71981},
+    HKY{4.29981}+F{0.219996,0.235065,0.245347,0.299592}+I{0.571039}+G4{1.49333}: CIAlign_uce-14535.nexus{3.24508},
+    K2P{2.34395}+FQ+G4{0.345215}: CIAlign_uce-14541.nexus{4.64075},
+    HKY{5.45275}+F{0.288514,0.172089,0.228734,0.310662}+I{0.595571}+G4{4.39263}: CIAlign_uce-14780.nexus{2.03984},
+    TIM2{1.47693,6.81241,10.4922}+F{0.261385,0.240964,0.157239,0.340412}+G4{0.181928}: CIAlign_uce-14783.nexus{1.52142},
+    TIM2{2.44572,5.64283,7.32288}+F{0.229709,0.25534,0.228331,0.28662}+G4{0.32389}: CIAlign_uce-14809.nexus{2.24626},
+    K3P{5.60811,0.459738}+FQ+G4{0.175686}: CIAlign_uce-14863.nexus{2.06218},
+    TPM3u{0.384928,3.78946}+F{0.306982,0.19703,0.248395,0.247592}+I{0.645131}+R2{0.329746,2.04138,0.0251232,13.0104}: CIAlign_uce-15033.nexus{1.01371},
+    TIM2{3.6402,9.74329,20.0434}+F{0.243306,0.184042,0.303113,0.269539}+I{0.416175}+G4{0.699039}: CIAlign_uce-15037.nexus{4.32432},
+    TIM2{2.22346,3.64128,11.6032}+F{0.288423,0.221057,0.259984,0.230537}+R3{0.57228,0.0863481,0.366081,1.3415,0.0616393,7.45444}: CIAlign_uce-15135.nexus{3.43791},
+    TIM3{0.470679,6.02044,2.04738}+F{0.230025,0.226427,0.166253,0.377295}+G4{0.335176}: CIAlign_uce-1519.nexus{1.95208},
+    TIM3e{0.459147,6.4442,3.69959}+FQ+I{0.471801}+G4{0.712109}: CIAlign_uce-15292.nexus{3.39408},
+    TIM2{0.592406,3.31323,2.09941}+F{0.348206,0.196413,0.150163,0.305218}+I{0.412736}: CIAlign_uce-1561.nexus{2.00388},
+    TIM3{0.259215,5.51824,2.91916}+F{0.26964,0.262303,0.196426,0.271631}+I{0.490577}+G4{0.890701}: CIAlign_uce-15616.nexus{3.83987},
+    HKY{6.7858}+F{0.32107,0.195987,0.210256,0.272687}+G4{0.183918}: CIAlign_uce-15680.nexus{1.60781},
+    HKY{8.95082}+F{0.259487,0.226617,0.174238,0.339658}+I{0.463229}+G4{0.561313}: CIAlign_uce-1591.nexus{4.5547},
+    TIM3{3.63382,7.39305,21.9972}+F{0.313302,0.160521,0.198818,0.327358}+I{0.417982}+G4{1.05485}: CIAlign_uce-16071.nexus{3.57852},
+    TN{3.59339,6.59986}+F{0.255369,0.186798,0.26069,0.297143}+I{0.399704}+G4{0.81722}: CIAlign_uce-16245.nexus{4.71031},
+    TIM3{0.63204,5.66171,4.22596}+F{0.218398,0.216881,0.255854,0.308868}+I{0.378353}+G4{0.945041}: CIAlign_uce-16304.nexus{3.09741},
+    TN{7.44907,3.31145}+F{0.246819,0.228456,0.221515,0.30321}+I{0.302486}+G4{0.552283}: CIAlign_uce-16373.nexus{4.25563},
+    TPM2u{3.14238,8.38333}+F{0.266673,0.214822,0.229014,0.289491}+I{0.4541}+G4{0.538996}: CIAlign_uce-16467.nexus{3.43},
+    TPM3{0.444881,2.69726}+FQ+G4{0.298448}: CIAlign_uce-16513.nexus{3.1088},
+    TPM3u{0.240769,2.85608}+F{0.305388,0.217971,0.159788,0.316853}+G4{0.301869}: CIAlign_uce-16528.nexus{1.56871},
+    TPM3u{0.735133,5.4627}+F{0.29406,0.175824,0.246627,0.283489}+I{0.567693}+R2{0.406974,1.67963,0.0253325,12.4912}: CIAlign_uce-16529.nexus{1.07182},
+    TPM2u{2.23134,8.34743}+F{0.265126,0.200456,0.196786,0.337631}+G4{0.25017}: CIAlign_uce-16530.nexus{1.15949},
+    HKY{3.89458}+F{0.323324,0.184272,0.211975,0.280429}+G4{0.304088}: CIAlign_uce-16539.nexus{2.00453},
+    HKY{4.24762}+F{0.239852,0.178651,0.276392,0.305105}+I{0.493775}+R2{0.41423,1.08818,0.0919953,5.97033}: CIAlign_uce-16542.nexus{1.55891},
+    TPM3u{0.298171,5.41657}+F{0.281915,0.212766,0.196339,0.30898}+I{0.510609}+G4{1.76479}: CIAlign_uce-1661.nexus{2.48825},
+    TPM3{0.298452,4.74023}+FQ+I{0.518586}+G4{0.734542}: CIAlign_uce-16622.nexus{2.97942},
+    TPM2u{1.44741,5.82308}+F{0.377995,0.171746,0.2258,0.224459}+G4{0.301521}: CIAlign_uce-16737.nexus{2.47433},
+    TNe{2.41392,5.47032}+FQ+G4{0.239038}: CIAlign_uce-16739.nexus{3.43307},
+    TPM2u{2.03957,7.34619}+F{0.298689,0.164157,0.246722,0.290432}+I{0.321775}+G4{0.733449}: CIAlign_uce-168.nexus{2.32504},
+    TPM2{4.02042,25.0498}+FQ+I{0.638469}: CIAlign_uce-1694.nexus{0.619585},
+    TN{5.67702,2.43455}+F{0.283776,0.218043,0.173486,0.324694}+I{0.356138}+G4{1.22588}: CIAlign_uce-1696.nexus{3.12763},
+    TPM2u{4.50077,6.29894}+F{0.179937,0.285425,0.181287,0.353351}+I{0.539413}+G4{0.923469}: CIAlign_uce-17130.nexus{1.42124},
+    HKY{4.74827}+F{0.32255,0.240048,0.207577,0.229826}+R3{0.616711,0.0690987,0.293959,1.69242,0.0893293,5.14818}: CIAlign_uce-17172.nexus{4.21384},
+    TNe{3.92337,2.31599}+FQ+G4{0.398431}: CIAlign_uce-17215.nexus{2.959},
+    HKY{3.08736}+F{0.256624,0.22179,0.191217,0.330369}+G4{0.459861}: CIAlign_uce-17216.nexus{2.32152},
+    TN{2.71072,11.4787}+F{0.386819,0.134215,0.233974,0.244992}+I{0.553145}+G4{3.98465}: CIAlign_uce-1727.nexus{2.05931},
+    TN{7.85053,3.34317}+F{0.304705,0.22325,0.146488,0.325557}+I{0.4699}+G4{0.694774}: CIAlign_uce-17291.nexus{3.68696},
+    TIM2{2.4296,7.36028,19.1509}+F{0.330336,0.169065,0.303272,0.197328}+I{0.51113}+G4{0.822966}: CIAlign_uce-17296.nexus{1.28811},
+    TIM3{1.97527,3.49708,5.93186}+F{0.278186,0.172066,0.224334,0.325414}+I{0.295531}+G4{0.773456}: CIAlign_uce-17457.nexus{3.64428},
+    TPM2u{1.17334,5.81625}+F{0.308634,0.248337,0.210319,0.232709}+I{0.434792}+G4{0.807444}: CIAlign_uce-17490.nexus{3.14882},
+    K3Pu{3.1934,0.380654}+F{0.31511,0.21792,0.263044,0.203927}+I{0.473289}+G4{1.74532}: CIAlign_uce-17491.nexus{2.79029},
+    TN{2.47779,3.88496}+F{0.342937,0.21648,0.23565,0.204933}+I{0.380891}+G4{0.719972}: CIAlign_uce-17492.nexus{3.11704},
+    TPM3{0.52468,5.11213}+FQ+I{0.515573}+G4{1.3131}: CIAlign_uce-17580.nexus{3.10061},
+    TIM3{0.395616,5.30265,3.68096}+F{0.245631,0.247145,0.250133,0.25709}+R3{0.676449,0.0808581,0.258885,1.97444,0.0646662,6.71371}: CIAlign_uce-17585.nexus{4.93056},
+    HKY{6.92478}+F{0.193903,0.226273,0.208517,0.371307}+G4{0.195706}: CIAlign_uce-17603.nexus{1.29484},
+    TVM{0.662104,2.64223,0.537738,0.243619}+F{0.224463,0.252316,0.21375,0.309471}+I{0.420075}+G4{0.927328}: CIAlign_uce-17715.nexus{2.69649},
+    TVM{4.05618,9.95271,1.57091,2.00739}+F{0.26753,0.15957,0.236984,0.335917}+I{0.400675}+G4{0.835455}: CIAlign_uce-17805.nexus{2.34918},
+    HKY{2.91544}+F{0.30259,0.206978,0.214822,0.27561}+G4{0.431993}: CIAlign_uce-17825.nexus{2.1577},
+    TPM2u{2.05529,11.249}+F{0.30218,0.19182,0.204327,0.301673}+R3{0.725176,0.0873102,0.198569,1.93009,0.0762555,7.25758}: CIAlign_uce-17828.nexus{2.79841},
+    K2P{4.85691}+FQ+G4{0.382226}: CIAlign_uce-17866.nexus{1.55759},
+    HKY{10.5639}+F{0.230809,0.223333,0.148222,0.397635}+I{0.495016}+G4{1.54254}: CIAlign_uce-1797.nexus{3.12803},
+    TIM3{0.574304,2.51892,1.55071}+F{0.291422,0.238584,0.184279,0.285714}+I{0.397448}+G4{1.64885}: CIAlign_uce-18104.nexus{2.34498},
+    TIM3{0.32281,4.57189,3.08476}+F{0.29918,0.232749,0.215458,0.252614}+I{0.452267}+G4{0.645541}: CIAlign_uce-18242.nexus{3.26961},
+    TPM3{0.252811,2.92231}+FQ+G4{0.318245}: CIAlign_uce-18245.nexus{1.39838},
+    HKY{7.80561}+F{0.275783,0.216184,0.220894,0.287138}+I{0.542488}+G4{1.21234}: CIAlign_uce-18287.nexus{3.69487},
+    TN{8.57214,3.62167}+F{0.258077,0.198159,0.253769,0.289994}+G4{0.367032}: CIAlign_uce-18299.nexus{1.44838},
+    TPM3u{0.431641,2.64209}+F{0.273606,0.235578,0.227414,0.263401}+I{0.383834}+G4{0.955924}: CIAlign_uce-18317.nexus{2.77767},
+    TIM3{2.03267,7.3383,3.41951}+F{0.310659,0.198673,0.165077,0.325591}+G4{0.194859}: CIAlign_uce-18367.nexus{3.97441},
+    TPM2u{0.44929,2.29725}+F{0.379977,0.189044,0.174659,0.256321}+I{0.424776}+G4{1.12936}: CIAlign_uce-18385.nexus{2.89815},
+    TPM3u{0.368579,2.83945}+F{0.304404,0.20342,0.212454,0.279723}+I{0.327016}+G4{1.33277}: CIAlign_uce-18387.nexus{3.55837},
+    TPM3u{0.306638,3.6764}+F{0.309963,0.221124,0.181124,0.28779}+I{0.47369}+G4{1.55068}: CIAlign_uce-1842.nexus{2.95459},
+    TIM3{0.381575,6.55429,2.18637}+F{0.23327,0.271863,0.211597,0.28327}+I{0.469824}+G4{1.297}: CIAlign_uce-18486.nexus{2.02458},
+    HKY{5.43529}+F{0.34882,0.176042,0.254771,0.220367}+G4{0.251648}: CIAlign_uce-18500.nexus{2.89886},
+    TN{9.56578,4.79345}+F{0.228801,0.25218,0.233856,0.285164}+I{0.507074}+G4{1.29011}: CIAlign_uce-18679.nexus{1.54877},
+    TPM3u{0.393803,4.69036}+F{0.294513,0.266853,0.18477,0.253863}+I{0.440452}+G4{1.11824}: CIAlign_uce-18734.nexus{2.65347},
+    TPM2u{0.616666,2.94204}+F{0.268512,0.211131,0.202893,0.317463}+I{0.576197}+G4{1.5202}: CIAlign_uce-18817.nexus{1.89247},
+    HKY{8.57183}+F{0.232411,0.226794,0.194776,0.346019}+I{0.480292}+G4{0.731868}: CIAlign_uce-18906.nexus{2.27935},
+    TPM3u{0.754956,5.88357}+F{0.289383,0.191959,0.23393,0.284728}+I{0.290864}+G4{1.09636}: CIAlign_uce-18909.nexus{3.81395},
+    K2P{5.95846}+FQ+G4{0.203459}: CIAlign_uce-19018.nexus{1.95746},
+    TPM3{0.414542,4.08909}+FQ+I{0.551705}+G4{0.554907}: CIAlign_uce-19063.nexus{2.72507},
+    HKY{5.05876}+F{0.281293,0.238423,0.13801,0.342274}+I{0.570286}+G4{2.44768}: CIAlign_uce-19064.nexus{2.23653},
+    TIM3{0.575704,12.9337,2.52069}+F{0.209393,0.229372,0.182667,0.378568}+G4{0.242074}: CIAlign_uce-19069.nexus{1.79605},
+    TIM3{0.558085,4.05091,2.04016}+F{0.263398,0.261988,0.184918,0.289696}+I{0.444278}+G4{0.818714}: CIAlign_uce-19073.nexus{3.36501},
+    TNe{9.01935,4.68784}+FQ+I{0.423922}+G4{1.43599}: CIAlign_uce-19140.nexus{2.91226},
+    TIM3{0.565632,5.44661,2.62489}+F{0.3272,0.258174,0.169811,0.244814}+I{0.458487}+G4{1.32893}: CIAlign_uce-19154.nexus{2.89274},
+    TPM2u{3.03361,5.68881}+F{0.217501,0.207418,0.238867,0.336214}+I{0.59576}+G4{2.03856}: CIAlign_uce-19306.nexus{2.16405},
+    TN{4.60392,10.3793}+F{0.320515,0.178681,0.206609,0.294195}+G4{0.25797}: CIAlign_uce-19325.nexus{1.2867},
+    TIM3{2.0125,4.96165,8.29478}+F{0.272241,0.162275,0.205469,0.360016}+G4{0.227726}: CIAlign_uce-19336.nexus{2.33247},
+    HKY{6.88458}+F{0.304146,0.23828,0.164471,0.293103}+G4{0.344891}: CIAlign_uce-19354.nexus{1.64007},
+    TN{3.2373,2.01947}+F{0.323557,0.242956,0.164203,0.269284}+G4{0.381208}: CIAlign_uce-19356.nexus{2.48631},
+    TN{4.39659,7.34203}+F{0.304521,0.252817,0.19422,0.248442}+I{0.530615}+G4{1.07611}: CIAlign_uce-1938.nexus{3.0858},
+    TPM2u{5.7248,57.4832}+F{0.365076,0.161517,0.228393,0.245014}+I{0.587538}+G4{1.06349}: CIAlign_uce-19632.nexus{3.57897},
+    TIM3{2.16533,3.49828,10.7015}+F{0.2957,0.158138,0.244395,0.301767}+I{0.5219}+G4{1.50349}: CIAlign_uce-19658.nexus{2.49856},
+    TPM3u{0.243199,3.10637}+F{0.249116,0.223008,0.267307,0.260569}+I{0.436746}+G4{0.873057}: CIAlign_uce-19689.nexus{2.15053},
+    TPM2{2.77669,9.44321}+FQ+G4{0.202243}: CIAlign_uce-1973.nexus{1.79512},
+    TN{11.6223,6.05069}+F{0.257785,0.266099,0.188232,0.287884}+I{0.570368}+G4{1.27767}: CIAlign_uce-19973.nexus{2.99902},
+    TIM2{2.88324,13.8957,8.94393}+F{0.319467,0.202729,0.194837,0.282966}+I{0.442834}+R2{0.452799,0.798133,0.104367,6.11887}: CIAlign_uce-20045.nexus{2.83802},
+    TIM3{3.36711,8.42182,23.3306}+F{0.36337,0.147045,0.235303,0.254282}+I{0.479093}+G4{1.50962}: CIAlign_uce-20066.nexus{2.48963},
+    TPM3u{0.343145,3.85442}+F{0.262442,0.22449,0.172753,0.340315}+I{0.618356}: CIAlign_uce-20245.nexus{1.17792},
+    TPM3{0.624151,4.58789}+FQ+I{0.520273}+G4{1.26612}: CIAlign_uce-20254.nexus{2.97231},
+    TPM3u{1.85785,4.36247}+F{0.345647,0.152093,0.207899,0.29436}+G4{0.500286}: CIAlign_uce-20401.nexus{1.89529},
+    TPM2{2.22289,8.00408}+FQ+I{0.475529}+G4{0.93416}: CIAlign_uce-20417.nexus{2.208},
+    HKY{6.1387}+F{0.402942,0.172733,0.195936,0.228389}+G4{0.214452}: CIAlign_uce-20467.nexus{1.1548},
+    TPM3u{0.416527,3.07756}+F{0.338267,0.204173,0.223787,0.233773}+G4{0.188026}: CIAlign_uce-20468.nexus{1.59388},
+    TN{9.26015,4.37182}+F{0.29154,0.243233,0.172594,0.292633}+G4{0.215867}: CIAlign_uce-20471.nexus{2.23793},
+    TN{3.2925,8.14463}+F{0.326303,0.216342,0.20573,0.251625}+G4{0.612872}: CIAlign_uce-20483.nexus{3.18234},
+    TPM3u{0.548546,4.33123}+F{0.304005,0.22702,0.1537,0.315275}+I{0.422017}+G4{0.832041}: CIAlign_uce-20572.nexus{2.66783},
+    TPM2u{1.82131,7.20234}+F{0.267943,0.219244,0.232695,0.280118}+I{0.503419}+G4{1.78314}: CIAlign_uce-20676.nexus{3.40365},
+    TIM2{1.80548,6.43488,10.5589}+F{0.273638,0.203175,0.231621,0.291567}+I{0.479704}+G4{1.19678}: CIAlign_uce-20777.nexus{2.02864},
+    TVM{0.722663,3.07053,0.63254,0.298296}+F{0.271701,0.198051,0.214613,0.315635}+I{0.355678}+G4{1.1927}: CIAlign_uce-20807.nexus{3.48444},
+    TPM3u{0.55347,4.21812}+F{0.300165,0.195976,0.206036,0.297822}+G4{0.370559}: CIAlign_uce-2084.nexus{2.50359},
+    HKY{6.33719}+F{0.259502,0.218943,0.236326,0.285229}+R3{0.63958,0.0462128,0.314074,1.90861,0.0463458,8.00502}: CIAlign_uce-20889.nexus{2.73158},
+    HKY{12.7636}+F{0.315393,0.195013,0.196448,0.293147}+G4{0.191275}: CIAlign_uce-20892.nexus{3.04207},
+    TPM3u{0.63147,4.19511}+F{0.293549,0.24983,0.185954,0.270668}+I{0.338157}+G4{1.40797}: CIAlign_uce-20940.nexus{3.82725},
+    TPM3u{0.538626,4.61369}+F{0.28783,0.217531,0.19885,0.295789}+I{0.430263}+G4{1.04758}: CIAlign_uce-21162.nexus{3.5446},
+    TPM3u{0.525905,2.71447}+F{0.229663,0.222529,0.244621,0.303187}+R3{0.61329,0.219076,0.376509,1.79272,0.0102011,18.6908}: CIAlign_uce-21183.nexus{1.85915},
+    TN{3.11838,6.18331}+F{0.381219,0.17383,0.202973,0.241978}+I{0.364142}+G4{1.70315}: CIAlign_uce-2119.nexus{2.76428},
+    HKY{5.83139}+F{0.205592,0.249989,0.224571,0.319847}+I{0.45328}+R3{0.295708,0.629758,0.217562,2.49377,0.0334497,8.10846}: CIAlign_uce-21263.nexus{2.70995},
+    K2P{6.05571}+FQ+G4{0.277121}: CIAlign_uce-21264.nexus{1.57495},
+    K2P{4.83013}+FQ+G4{0.163771}: CIAlign_uce-21267.nexus{0.53187},
+    TIM3e{0.437811,3.52253,2.0759}+FQ+I{0.347044}+G4{1.97508}: CIAlign_uce-21275.nexus{3.17946},
+    K3Pu{5.8748,1.91778}+F{0.281083,0.243099,0.202012,0.273807}+I{0.538564}+R2{0.440692,1.69006,0.0207437,12.3028}: CIAlign_uce-21362.nexus{1.86406},
+    HKY{4.57235}+F{0.330811,0.168072,0.221285,0.279831}+I{0.360487}+G4{0.853372}: CIAlign_uce-21409.nexus{3.54802},
+    TPM2u{4.7951,6.67192}+F{0.232222,0.277288,0.231395,0.259096}+G4{0.303606}: CIAlign_uce-21496.nexus{2.93514},
+    TIM2{1.40856,5.35869,11.3681}+F{0.301878,0.208192,0.255827,0.234103}+I{0.388889}+G4{1.00601}: CIAlign_uce-21626.nexus{4.24009},
+    HKY{4.07666}+F{0.248928,0.226289,0.201356,0.323427}+I{0.365883}+G4{0.928176}: CIAlign_uce-21695.nexus{4.772},
+    TPM3u{0.425153,3.35192}+F{0.305917,0.198309,0.196818,0.298956}+R3{0.626042,0.0336043,0.332591,1.90143,0.0413669,8.37783}: CIAlign_uce-21740.nexus{2.05252},
+    HKY{6.84497}+F{0.27546,0.189378,0.239471,0.295691}+I{0.577773}+G4{1.20273}: CIAlign_uce-21858.nexus{2.62713},
+    TN{6.84715,16.2345}+F{0.377575,0.148117,0.235733,0.238574}+I{0.508336}+G4{0.989233}: CIAlign_uce-2197.nexus{2.6697},
+    TPM3u{0.542435,6.08492}+F{0.248818,0.236623,0.213084,0.301475}+I{0.575365}+G4{2.42671}: CIAlign_uce-21978.nexus{1.84612},
+    TIM2{2.78196,6.5997,21.4322}+F{0.290991,0.187458,0.274425,0.247126}+I{0.448327}+G4{1.13931}: CIAlign_uce-22009.nexus{2.97767},
+    HKY{6.47078}+F{0.280832,0.186199,0.210208,0.32276}+I{0.589575}+R2{0.354796,1.59109,0.0556294,7.82839}: CIAlign_uce-2206.nexus{0.926026},
+    TN{5.11835,9.0095}+F{0.266027,0.208336,0.250094,0.275542}+I{0.4571}+G4{0.992144}: CIAlign_uce-22064.nexus{4.78574},
+    TPM2u{1.88451,7.28159}+F{0.354599,0.137191,0.216024,0.292186}+I{0.447263}+G4{1.3503}: CIAlign_uce-22195.nexus{2.73391},
+    HKY{4.11846}+F{0.283759,0.205451,0.196695,0.314095}+I{0.44882}+R2{0.457918,0.921249,0.0932612,6.19918}: CIAlign_uce-22213.nexus{2.18919},
+    TPM2{2.42918,10.725}+FQ+G4{0.192564}: CIAlign_uce-22317.nexus{1.30607},
+    K2P{4.47098}+FQ+I{0.517154}+G4{1.92654}: CIAlign_uce-22330.nexus{1.85486},
+    TNe{5.82658,2.14977}+FQ+G4{0.215307}: CIAlign_uce-22413.nexus{0.807094},
+    TPM2u{1.61546,9.14799}+F{0.263642,0.229462,0.181191,0.325705}+I{0.362755}+G4{0.450221}: CIAlign_uce-22430.nexus{3.08692},
+    GTR{0.106972,2.17966,0.0728198,0.0916217,1.14067}+F{0.373888,0.213571,0.157536,0.255006}+I{0.395642}+G4{0.49983}: CIAlign_uce-22549.nexus{2.40473},
+    TN{6.84735,3.41754}+F{0.303406,0.233718,0.115719,0.347157}+G4{0.274712}: CIAlign_uce-22581.nexus{1.54557},
+    TPM3u{0.365563,4.21917}+F{0.290979,0.232687,0.18668,0.289654}+I{0.348165}+G4{0.757253}: CIAlign_uce-22594.nexus{4.41567},
+    TIM2e{2.10884,7.49184,10.9197}+FQ+R3{0.655958,0.0547886,0.321041,2.1248,0.0230014,12.2563}: CIAlign_uce-22624.nexus{3.18123},
+    K2P{3.90323}+FQ+G4{0.197214}: CIAlign_uce-22644.nexus{0.713892},
+    TIM2{1.9779,4.24865,9.4743}+F{0.263941,0.209363,0.204077,0.322619}+I{0.483162}+R2{0.43282,1.01234,0.0840181,6.68711}: CIAlign_uce-22645.nexus{2.06827},
+    HKY{5.97696}+F{0.278721,0.206558,0.25875,0.255971}+I{0.452162}+G4{1.07599}: CIAlign_uce-22646.nexus{3.30766},
+    HKY{5.27741}+F{0.258968,0.27156,0.224256,0.245216}+I{0.601208}+G4{2.02711}: CIAlign_uce-22658.nexus{2.06674},
+    TN{5.57517,14.6452}+F{0.335235,0.185945,0.225634,0.253186}+G4{0.258746}: CIAlign_uce-22688.nexus{2.4199},
+    TPM2u{1.68403,9.35309}+F{0.31537,0.226161,0.203793,0.254676}+I{0.529267}+G4{1.31982}: CIAlign_uce-22689.nexus{2.86373},
+    K3Pu{4.95976,0.615719}+F{0.337422,0.254478,0.176961,0.231139}+G4{0.42133}: CIAlign_uce-2291.nexus{3.44296},
+    HKY{3.27372}+F{0.288774,0.168566,0.242314,0.300345}+I{0.527457}+G4{2.04086}: CIAlign_uce-22946.nexus{3.30607},
+    TVM{5.34599,18.8424,1.98452,1.94766}+F{0.271986,0.204981,0.236867,0.286166}+I{0.502198}+G4{1.05027}: CIAlign_uce-22965.nexus{3.45252},
+    HKY{3.84397}+F{0.199191,0.249888,0.251236,0.299685}+G4{0.280106}: CIAlign_uce-22977.nexus{1.85215},
+    TPM3u{0.620666,2.40483}+F{0.289647,0.284891,0.175325,0.250137}+R3{0.609046,0.16651,0.342893,1.56175,0.0480602,7.55459}: CIAlign_uce-23147.nexus{2.22568},
+    HKY{7.51148}+F{0.22895,0.231895,0.244239,0.294915}+I{0.513789}+R2{0.333377,0.765141,0.152834,4.87404}: CIAlign_uce-2318.nexus{2.68676},
+    TPM3u{0.387752,3.60294}+F{0.326792,0.194853,0.197318,0.281037}+I{0.43789}+G4{0.78264}: CIAlign_uce-23237.nexus{3.9655},
+    TPM3u{0.152045,7.31512}+F{0.231414,0.212968,0.125769,0.429849}+I{0.499534}+G4{1.10249}: CIAlign_uce-23347.nexus{1.84665},
+    HKY{3.78132}+F{0.270611,0.225049,0.245562,0.258777}+I{0.412136}+G4{0.51435}: CIAlign_uce-2346.nexus{1.93425},
+    TIM3{0.520405,3.62162,2.07767}+F{0.273546,0.204701,0.235873,0.285881}+I{0.497853}+G4{4.46537}: CIAlign_uce-23541.nexus{1.76957},
+    HKY{5.18054}+F{0.246386,0.234051,0.213123,0.30644}+I{0.409076}+R2{0.426534,0.833873,0.164391,3.91948}: CIAlign_uce-23569.nexus{2.50848},
+    TPM2u{0.426429,2.09519}+F{0.322044,0.231121,0.154844,0.291991}+I{0.468528}+G4{0.518033}: CIAlign_uce-23576.nexus{2.69118},
+    HKY{6.56231}+F{0.302715,0.148754,0.233544,0.314987}+G4{0.213048}: CIAlign_uce-23668.nexus{1.35203},
+    HKY{4.69327}+F{0.308924,0.187106,0.191623,0.312346}+I{0.504901}+R2{0.384074,1.1426,0.111026,5.05429}: CIAlign_uce-23690.nexus{2.55078},
+    TN{7.92931,4.18919}+F{0.261534,0.214464,0.196696,0.327307}+I{0.533703}+G4{2.39817}: CIAlign_uce-23713.nexus{2.63376},
+    TPM3u{0.624633,3.92598}+F{0.29148,0.199313,0.210652,0.298554}+I{0.475639}+G4{1.76728}: CIAlign_uce-23715.nexus{2.78243},
+    TN{5.35672,11.3178}+F{0.322275,0.201595,0.22298,0.25315}+I{0.442189}+G4{1.44867}: CIAlign_uce-23800.nexus{3.07137},
+    HKY{3.99599}+F{0.316302,0.226799,0.156413,0.300487}+I{0.557009}+G4{2.33079}: CIAlign_uce-23837.nexus{2.49458},
+    HKY{4.13189}+F{0.290193,0.191223,0.191969,0.326616}+I{0.46023}+G4{0.990144}: CIAlign_uce-23975.nexus{2.91881},
+    TIM3{0.279612,4.7756,2.11537}+F{0.220694,0.266409,0.233448,0.27945}+G4{0.239577}: CIAlign_uce-24115.nexus{1.71675},
+    TPM3u{0.595106,3.52353}+F{0.302989,0.191848,0.234375,0.270788}+I{0.434876}+G4{0.767409}: CIAlign_uce-24367.nexus{3.25091},
+    HKY{6.07205}+F{0.375329,0.16691,0.225665,0.232096}+G4{0.294446}: CIAlign_uce-24410.nexus{2.42329},
+    TPM3{0.417871,2.78993}+FQ+G4{0.458507}: CIAlign_uce-24422.nexus{3.04477},
+    TPM2{1.78891,6.76025}+FQ+G4{0.284067}: CIAlign_uce-24448.nexus{2.79122},
+    HKY{4.79381}+F{0.26043,0.240891,0.227777,0.270903}+G4{0.278662}: CIAlign_uce-24460.nexus{3.68826},
+    TIM3{0.325271,5.0895,1.50665}+F{0.224613,0.242875,0.171223,0.361289}+I{0.407552}+G4{0.803792}: CIAlign_uce-24477.nexus{2.17083},
+    TPM3u{0.435662,3.69958}+F{0.171414,0.310322,0.16069,0.357574}+I{0.626427}: CIAlign_uce-24536.nexus{1.37317},
+    HKY{2.76708}+F{0.251773,0.225653,0.212638,0.309936}+G4{0.460157}: CIAlign_uce-24559.nexus{1.94857},
+    HKY{7.19717}+F{0.320391,0.199973,0.175536,0.3041}+I{0.518298}+G4{1.09337}: CIAlign_uce-24560.nexus{1.75371},
+    HKY{3.81556}+F{0.303237,0.182006,0.206072,0.308685}+I{0.367956}+G4{1.95863}: CIAlign_uce-24603.nexus{1.9334},
+    TPM2{1.80631,5.90286}+FQ+I{0.531216}+G4{1.93674}: CIAlign_uce-24605.nexus{1.72168},
+    HKY{5.89142}+F{0.261249,0.218298,0.193619,0.326834}+I{0.612231}+G4{2.72236}: CIAlign_uce-24650.nexus{1.11971},
+    TN{7.12691,3.73848}+F{0.241232,0.173757,0.252834,0.332178}+G4{0.246237}: CIAlign_uce-24678.nexus{1.67875},
+    TPM3u{0.484282,4.37562}+F{0.313374,0.224285,0.195702,0.266639}+G4{0.198801}: CIAlign_uce-24715.nexus{2.44776},
+    HKY{6.00196}+F{0.293135,0.183066,0.144165,0.379634}+G4{0.293172}: CIAlign_uce-24716.nexus{2.84444},
+    TN{4.72699,9.3073}+F{0.271515,0.21835,0.219061,0.291074}+I{0.573602}+G4{1.01672}: CIAlign_uce-24734.nexus{2.67569},
+    HKY{3.3683}+F{0.350135,0.185714,0.187062,0.277089}+I{0.303112}+G4{0.632498}: CIAlign_uce-24794.nexus{4.57095},
+    HKY{4.75006}+F{0.289161,0.236744,0.200816,0.27328}+I{0.384833}+G4{0.89877}: CIAlign_uce-25004.nexus{2.39614},
+    HKY{5.77327}+F{0.280008,0.231156,0.180208,0.308628}+I{0.342964}+G4{0.399335}: CIAlign_uce-25136.nexus{3.40929},
+    HKY{5.35078}+F{0.252841,0.191288,0.225537,0.330335}+I{0.423721}+G4{0.867688}: CIAlign_uce-2516.nexus{2.00623},
+    HKY{2.91941}+F{0.318228,0.221496,0.200726,0.25955}+I{0.503779}+G4{1.55932}: CIAlign_uce-25262.nexus{2.26851},
+    TN{7.01361,3.28573}+F{0.295357,0.22079,0.162024,0.32183}+G4{0.367428}: CIAlign_uce-25263.nexus{2.41702},
+    K3Pu{22.2181,3.82276}+F{0.377715,0.246671,0.1516,0.224013}+I{0.568307}+G4{1.88451}: CIAlign_uce-25279.nexus{2.13159},
+    TPM2u{1.30103,4.23059}+F{0.283202,0.262349,0.193539,0.26091}+I{0.285295}+G4{1.06189}: CIAlign_uce-25388.nexus{2.15322},
+    TIM2{2.19225,6.20183,9.72843}+F{0.31007,0.16628,0.233459,0.290192}+G4{0.294692}: CIAlign_uce-25390.nexus{2.08044},
+    HKY{5.39843}+F{0.298367,0.252515,0.161855,0.287263}+I{0.469315}+G4{1.29119}: CIAlign_uce-25409.nexus{2.87588},
+    TNe{2.48097,4.27418}+FQ+G4{0.298322}: CIAlign_uce-25420.nexus{2.59228},
+    TN{5.50393,14.4391}+F{0.345679,0.161254,0.209117,0.283951}+G4{0.288547}: CIAlign_uce-2544.nexus{2.58105},
+    HKY{3.93284}+F{0.326638,0.220005,0.215909,0.237447}+I{0.386834}+G4{0.972488}: CIAlign_uce-25459.nexus{3.02962},
+    TPM3u{0.390744,4.16666}+F{0.286159,0.198083,0.207909,0.307849}+I{0.501358}+G4{0.788629}: CIAlign_uce-25501.nexus{2.03947},
+    HKY{5.83343}+F{0.337751,0.20496,0.175436,0.281853}+I{0.292239}+G4{0.31419}: CIAlign_uce-25513.nexus{2.66409},
+    HKY{3.83403}+F{0.273792,0.229832,0.191606,0.30477}+I{0.505923}+R2{0.379643,0.833903,0.114435,5.97209}: CIAlign_uce-25552.nexus{3.36159},
+    TIM3e{0.487084,2.81468,5.1596}+FQ+I{0.637928}+G4{1.94982}: CIAlign_uce-25627.nexus{1.19616},
+    TPM2u{1.80055,4.98304}+F{0.339289,0.199596,0.243169,0.217947}+I{0.421576}+R2{0.505535,1.20204,0.0728894,5.38251}: CIAlign_uce-25666.nexus{1.62446},
+    TPM2u{0.337933,3.66135}+F{0.314479,0.210781,0.168359,0.306381}+I{0.537904}+G4{0.83567}: CIAlign_uce-25779.nexus{2.3597},
+    TPM2u{0.635174,4.72031}+F{0.284313,0.194841,0.237416,0.28343}+I{0.426727}+G4{1.05954}: CIAlign_uce-25787.nexus{3.3341},
+    TPM2u{1.7053,9.82164}+F{0.315705,0.170489,0.231264,0.282542}+R3{0.686467,0.0274552,0.291771,1.8394,0.0217614,20.4246}: CIAlign_uce-25889.nexus{2.54878},
+    HKY{7.69315}+F{0.266647,0.204292,0.228018,0.301043}+R3{0.641741,0.079587,0.305652,1.72956,0.052607,7.98908}: CIAlign_uce-25904.nexus{1.98074},
+    TPM2u{2.68408,9.83219}+F{0.291791,0.176284,0.25461,0.277315}+G4{0.246752}: CIAlign_uce-26055.nexus{2.32259},
+    TPM2u{2.16584,7.75255}+F{0.286456,0.174033,0.21721,0.322301}+I{0.461721}+G4{0.795785}: CIAlign_uce-26124.nexus{3.05747},
+    TPM2u{2.04027,5.53146}+F{0.265799,0.222119,0.208178,0.303903}+I{0.341286}+G4{0.693172}: CIAlign_uce-26139.nexus{1.92952},
+    TN{5.5885,3.15931}+F{0.290922,0.203548,0.188844,0.316685}+I{0.466352}+G4{0.764311}: CIAlign_uce-26180.nexus{1.71159},
+    TPM2u{3.83251,12.3838}+F{0.320047,0.182921,0.193436,0.303596}+G4{0.379109}: CIAlign_uce-26244.nexus{0.832066},
+    HKY{4.03413}+F{0.2672,0.221078,0.246713,0.265009}+I{0.413399}+G4{0.678085}: CIAlign_uce-2626.nexus{3.24233},
+    TN{5.98861,3.08487}+F{0.323553,0.209772,0.201938,0.264737}+G4{0.283942}: CIAlign_uce-26280.nexus{4.3875},
+    TPM3{0.342889,3.04575}+FQ+I{0.334284}+G4{0.58906}: CIAlign_uce-26324.nexus{1.59927},
+    TIM3{0.4689,6.87678,3.9454}+F{0.328219,0.241344,0.154468,0.275969}+R3{0.596551,0.0699718,0.381089,1.93387,0.0223593,9.89663}: CIAlign_uce-26339.nexus{2.82455},
+    TN{3.41944,10.0499}+F{0.338695,0.180995,0.18839,0.291921}+R3{0.609203,0.10519,0.349939,1.53565,0.0408582,9.75409}: CIAlign_uce-26340.nexus{2.89945},
+    TPM2u{2.82193,10.9196}+F{0.285087,0.206887,0.253533,0.254493}+G4{0.226542}: CIAlign_uce-26341.nexus{2.96545},
+    TIM2{0.449526,7.11748,1.43335}+F{0.263167,0.28828,0.145099,0.303453}+I{0.54718}+G4{0.946343}: CIAlign_uce-26382.nexus{2.23199},
+    TIM2{3.7461,5.71283,7.52}+F{0.21584,0.259091,0.209229,0.31584}+G4{0.402137}: CIAlign_uce-26414.nexus{2.47266},
+    TIM2{2.03761,4.68657,10.1804}+F{0.281919,0.196721,0.258346,0.263013}+I{0.365236}+G4{0.853934}: CIAlign_uce-26432.nexus{3.28241},
+    K2P{7.07398}+FQ+I{0.409635}+G4{0.807942}: CIAlign_uce-26436.nexus{4.00219},
+    TPM2{7.35917,18.6478}+FQ+I{0.59088}: CIAlign_uce-26544.nexus{1.19854},
+    HKY{3.73285}+F{0.271576,0.234383,0.203097,0.290944}+I{0.378051}+G4{1.76789}: CIAlign_uce-26590.nexus{2.2213},
+    TPM3{0.156927,2.65704}+FQ+G4{0.247251}: CIAlign_uce-26638.nexus{1.70239},
+    TPM3u{0.397356,3.74293}+F{0.28921,0.250616,0.201182,0.258992}+G4{0.219096}: CIAlign_uce-26677.nexus{1.12136},
+    K3P{10.2616,3.86231}+FQ+G4{0.331715}: CIAlign_uce-26771.nexus{1.00321},
+    TPM3u{0.5905,3.25174}+F{0.319437,0.20995,0.222091,0.248523}+R3{0.597951,0.181526,0.397491,1.99708,0.00455798,21.4207}: CIAlign_uce-26772.nexus{1.83177},
+    TN{5.37345,3.67954}+F{0.326386,0.210283,0.202717,0.260614}+I{0.443457}+G4{1.49084}: CIAlign_uce-26843.nexus{2.87918},
+    HKY{4.81689}+F{0.246506,0.204638,0.276747,0.272109}+I{0.308955}+G4{0.707922}: CIAlign_uce-26865.nexus{5.40913},
+    K2P{3.08921}+FQ+I{0.475764}+G4{1.39132}: CIAlign_uce-26985.nexus{2.62323},
+    TN{4.11106,6.54357}+F{0.231472,0.23965,0.245483,0.283396}+I{0.42829}+G4{0.984761}: CIAlign_uce-27040.nexus{2.96438},
+    K3Pu{3.52909,0.531058}+F{0.25103,0.221783,0.269979,0.257209}+R3{0.543783,0.0615037,0.425535,1.68043,0.0306819,8.19618}: CIAlign_uce-27042.nexus{3.13001},
+    HKY{3.57182}+F{0.299976,0.218547,0.206519,0.274958}+G4{0.333044}: CIAlign_uce-2714.nexus{1.95269},
+    HKY{5.18147}+F{0.260684,0.264945,0.183602,0.290768}+R3{0.69124,0.141643,0.2867,2.32109,0.0220594,10.7272}: CIAlign_uce-27192.nexus{1.63988},
+    HKY{5.08657}+F{0.233216,0.258184,0.258673,0.249927}+I{0.510732}+G4{0.901155}: CIAlign_uce-27378.nexus{3.79938},
+    HKY{4.03917}+F{0.294267,0.232446,0.167957,0.30533}+G4{0.54705}: CIAlign_uce-27520.nexus{2.72827},
+    TN{5.59175,2.64447}+F{0.190293,0.213946,0.17002,0.425741}+G4{0.256425}: CIAlign_uce-27539.nexus{1.84765},
+    TN{8.10096,4.88489}+F{0.317935,0.258811,0.138999,0.284254}+G4{0.257527}: CIAlign_uce-27545.nexus{1.74529},
+    HKY{4.09609}+F{0.330897,0.200166,0.143688,0.325249}+G4{0.403563}: CIAlign_uce-27547.nexus{2.99083},
+    TN{6.64698,2.47996}+F{0.284043,0.270851,0.108298,0.336809}+G4{0.305268}: CIAlign_uce-27550.nexus{1.7286},
+    HKY{2.5836}+F{0.344145,0.193014,0.209232,0.253609}+I{0.258626}+G4{0.484153}: CIAlign_uce-27597.nexus{4.09186},
+    TIM2{4.4259,9.13588,17.4881}+F{0.338729,0.151583,0.277056,0.232632}+I{0.314456}+G4{0.652415}: CIAlign_uce-27610.nexus{2.60318},
+    HKY{5.66491}+F{0.25418,0.203559,0.18285,0.359411}+G4{0.271233}: CIAlign_uce-27625.nexus{2.71964},
+    TPM2u{3.92085,6.4704}+F{0.275217,0.19087,0.276304,0.257609}+I{0.610618}: CIAlign_uce-27626.nexus{0.919193},
+    K2P{2.82223}+FQ+I{0.473976}+R3{0.375382,0.50554,0.128571,3.67364,0.0220709,15.31}: CIAlign_uce-27741.nexus{2.41519},
+    HKY{3.91104}+F{0.314873,0.220797,0.177201,0.28713}+G4{0.261321}: CIAlign_uce-27763.nexus{1.3761},
+    TPM2u{1.69723,7.04177}+F{0.329302,0.207257,0.182518,0.280924}+G4{0.350693}: CIAlign_uce-27783.nexus{3.3354},
+    HKY{4.38091}+F{0.327128,0.193516,0.217579,0.261778}+G4{0.272127}: CIAlign_uce-27830.nexus{3.26635},
+    TPM3u{0.647303,4.93503}+F{0.290567,0.257218,0.187656,0.264559}+I{0.504637}+G4{1.0477}: CIAlign_uce-27831.nexus{4.97628},
+    TIM3{0.430196,5.64627,3.86454}+F{0.241292,0.234874,0.225544,0.29829}+I{0.484636}+G4{0.937801}: CIAlign_uce-27929.nexus{2.99621},
+    HKY{4.30485}+F{0.333616,0.216028,0.198746,0.25161}+I{0.334821}+G4{1.2183}: CIAlign_uce-28007.nexus{2.8513},
+    TPM3u{0.226116,2.73704}+F{0.316162,0.19899,0.245679,0.239169}+G4{0.342031}: CIAlign_uce-28098.nexus{0.747542},
+    HKY{5.91184}+F{0.247638,0.250986,0.170991,0.330384}+G4{0.2709}: CIAlign_uce-28099.nexus{1.2743},
+    TIM2{1.50332,4.95979,7.2715}+F{0.277494,0.20537,0.237431,0.279705}+I{0.425589}+G4{1.02329}: CIAlign_uce-2840.nexus{3.0063},
+    K2P{7.65457}+FQ+I{0.505246}+G4{0.885629}: CIAlign_uce-28516.nexus{4.28857},
+    HKY{4.94633}+F{0.294643,0.207021,0.278696,0.219639}+I{0.49392}+G4{1.37988}: CIAlign_uce-28546.nexus{4.45343},
+    HKY{4.36923}+F{0.242316,0.216583,0.21569,0.325411}+G4{0.303658}: CIAlign_uce-28586.nexus{2.51998},
+    TIM2{2.46162,3.28324,11.0026}+F{0.242562,0.219755,0.232895,0.304788}+I{0.427875}+G4{0.514921}: CIAlign_uce-28698.nexus{2.65075},
+    HKY{3.03522}+F{0.276,0.203676,0.22627,0.294054}+I{0.35353}+G4{1.0606}: CIAlign_uce-28849.nexus{2.29593},
+    TPM3u{0.670512,5.69407}+F{0.225015,0.240777,0.220073,0.314135}+R3{0.654913,0.0633099,0.284624,1.60506,0.0604629,8.29765}: CIAlign_uce-28892.nexus{2.9777},
+    TIM3{0.374294,6.10493,2.49266}+F{0.23493,0.274637,0.219105,0.271328}+I{0.517499}+R2{0.38568,1.05943,0.0968206,6.10821}: CIAlign_uce-28894.nexus{1.73047},
+    TNe{11.6848,4.01367}+FQ+R2{0.937387,0.315354,0.0626132,11.2499}: CIAlign_uce-28895.nexus{0.836068},
+    TN{7.44796,3.00628}+F{0.335201,0.228136,0.142857,0.293806}+I{0.463729}+G4{1.04725}: CIAlign_uce-28896.nexus{2.21618},
+    HKY{5.59356}+F{0.275879,0.247966,0.174615,0.30154}+I{0.45774}+G4{1.74804}: CIAlign_uce-29213.nexus{3.19035},
+    TPM3u{0.664495,4.56226}+F{0.233412,0.254067,0.204963,0.307558}+I{0.46572}+G4{0.906223}: CIAlign_uce-29251.nexus{4.93432},
+    K2P{3.39936}+FQ+I{0.629576}+G4{1.37718}: CIAlign_uce-29443.nexus{2.24345},
+    TN{1.49975,4.3495}+F{0.294999,0.191754,0.252028,0.261219}+G4{0.630084}: CIAlign_uce-29475.nexus{2.33554},
+    HKY{2.50786}+F{0.272816,0.219723,0.272167,0.235294}+G4{0.243541}: CIAlign_uce-29580.nexus{2.03198},
+    TIM2{2.44518,6.92772,12.2193}+F{0.252788,0.257534,0.257059,0.232619}+I{0.318924}+G4{0.946715}: CIAlign_uce-29605.nexus{6.53673},
+    HKY{7.44259}+F{0.245549,0.195225,0.249768,0.309458}+R3{0.592683,0.0315739,0.386172,1.63756,0.0211448,16.5007}: CIAlign_uce-29669.nexus{2.44641},
+    TN{4.23571,7.42585}+F{0.375882,0.190337,0.209896,0.223884}+I{0.298614}+R3{0.354817,0.529629,0.30541,1.86848,0.0411594,5.86561}: CIAlign_uce-29727.nexus{3.87384},
+    TN{6.58222,3.08698}+F{0.270094,0.238041,0.178653,0.313212}+I{0.431114}+R3{0.258174,0.571784,0.26251,1.94399,0.0482017,7.09647}: CIAlign_uce-29732.nexus{3.67348},
+    HKY{4.95325}+F{0.280692,0.250443,0.224145,0.24472}+I{0.430326}+G4{0.37893}: CIAlign_uce-29738.nexus{4.53416},
+    TN{3.76205,7.15454}+F{0.396256,0.153425,0.20482,0.245499}+I{0.38374}+R2{0.461963,0.605609,0.154296,4.66785}: CIAlign_uce-2981.nexus{2.27851},
+    TPM3u{0.176848,8.4068}+F{0.313109,0.183074,0.20966,0.294156}+I{0.645159}+G4{2.09618}: CIAlign_uce-29811.nexus{1.5016},
+    TPM3u{0.619304,4.26389}+F{0.283535,0.220876,0.171078,0.32451}+G4{0.27164}: CIAlign_uce-29870.nexus{2.63925},
+    HKY{4.85429}+F{0.286838,0.232421,0.160957,0.319784}+I{0.329526}+G4{0.348987}: CIAlign_uce-29899.nexus{2.83081},
+    TIM3{0.558644,4.04755,3.51974}+F{0.317073,0.226084,0.232487,0.224357}+I{0.535705}+G4{0.96939}: CIAlign_uce-30161.nexus{2.22632},
+    TPM2u{4.00746,18.055}+F{0.306498,0.241514,0.211609,0.240379}+G4{0.230407}: CIAlign_uce-30219.nexus{3.29925},
+    TPM2u{2.16875,5.09731}+F{0.246869,0.249333,0.214907,0.288892}+G4{0.340858}: CIAlign_uce-30230.nexus{3.6704},
+    TPM3u{0.483178,5.09195}+F{0.252512,0.25682,0.211975,0.278693}+G4{0.239651}: CIAlign_uce-30267.nexus{2.03312},
+    K2P{4.69585}+FQ+I{0.550155}+G4{1.44777}: CIAlign_uce-3028.nexus{1.66073},
+    TPM3u{0.445331,2.87054}+F{0.299176,0.195252,0.216449,0.289123}+I{0.591061}+G4{1.08612}: CIAlign_uce-30321.nexus{2.61479},
+    TPM3u{0.375522,4.92547}+F{0.307565,0.209993,0.189606,0.292835}+I{0.585527}+G4{1.64197}: CIAlign_uce-30435.nexus{2.06159},
+    TPM3u{0.146092,3.64543}+F{0.369793,0.237841,0.187975,0.204392}+G4{0.204023}: CIAlign_uce-3047.nexus{3.28509},
+    HKY{4.05207}+F{0.265886,0.200051,0.207182,0.326881}+I{0.463978}+G4{1.03907}: CIAlign_uce-30493.nexus{2.392},
+    TN{4.74115,8.09161}+F{0.251979,0.232186,0.224269,0.291566}+I{0.19077}+G4{0.328254}: CIAlign_uce-30515.nexus{4.13995},
+    TN{4.39511,3.20364}+F{0.242388,0.205981,0.203001,0.348629}+I{0.17396}+R3{0.390808,0.353479,0.381879,1.5367,0.0533537,5.15475}: CIAlign_uce-30525.nexus{4.21911},
+    TPM2u{0.402191,4.1935}+F{0.303092,0.233908,0.206918,0.256082}+I{0.496345}+G4{0.994202}: CIAlign_uce-30574.nexus{3.27085},
+    HKY{6.03329}+F{0.375982,0.207269,0.159136,0.257613}+G4{0.162378}: CIAlign_uce-3067.nexus{2.55464},
+    TPM3u{0.429715,4.11679}+F{0.279885,0.246474,0.217445,0.256196}+G4{0.276356}: CIAlign_uce-30748.nexus{2.41967},
+    TPM3u{0.548086,3.10453}+F{0.30298,0.216087,0.253108,0.227825}+I{0.352298}+G4{0.955266}: CIAlign_uce-30769.nexus{4.22779},
+    TIM2{2.17409,6.8392,11.6333}+F{0.315634,0.184155,0.208175,0.292035}+I{0.547673}+G4{1.08603}: CIAlign_uce-30828.nexus{2.04922},
+    TPM2u{1.74803,6.52146}+F{0.281667,0.222075,0.212975,0.283282}+G4{0.229478}: CIAlign_uce-30830.nexus{1.47165},
+    TPM2u{0.538058,3.50015}+F{0.250071,0.236366,0.160921,0.352642}+G4{0.263315}: CIAlign_uce-30836.nexus{1.42002},
+    TPM3u{0.220541,2.78958}+F{0.251926,0.286536,0.199379,0.262159}+G4{0.285914}: CIAlign_uce-3102.nexus{4.37118},
+    TIM3{0.501976,6.73333,2.81098}+F{0.214474,0.256729,0.216376,0.312422}+I{0.467383}+G4{0.791197}: CIAlign_uce-31067.nexus{2.5195},
+    TIM{3.0886,1.62702,4.8801}+F{0.273118,0.146872,0.28197,0.298041}+G4{0.468643}: CIAlign_uce-31079.nexus{2.41387},
+    TPM3{0.202389,2.0744}+FQ+G4{0.320178}: CIAlign_uce-31082.nexus{1.55484},
+    TNe{5.69255,2.83009}+FQ+G4{0.242118}: CIAlign_uce-31174.nexus{2.24369},
+    TN{3.95013,7.7848}+F{0.330962,0.168132,0.220641,0.280264}+I{0.490908}+G4{0.610265}: CIAlign_uce-31176.nexus{1.40717},
+    HKY{6.85875}+F{0.278868,0.233386,0.200341,0.287404}+I{0.601274}+G4{1.33414}: CIAlign_uce-31286.nexus{1.1625},
+    TIM2{1.93051,4.96574,13.6251}+F{0.313607,0.199055,0.241832,0.245506}+R3{0.637212,0.0354384,0.17437,1.72605,0.188418,3.59014}: CIAlign_uce-31287.nexus{2.30219},
+    HKY{5.75649}+F{0.198158,0.257416,0.273021,0.271404}+I{0.305845}+G4{1.08141}: CIAlign_uce-31300.nexus{4.56928},
+    K3P{14.8753,2.78569}+FQ+I{0.486989}+G4{0.999133}: CIAlign_uce-31352.nexus{2.25449},
+    TIM3e{0.343235,5.00922,2.86737}+FQ+I{0.487493}+G4{0.536513}: CIAlign_uce-31473.nexus{2.10134},
+    HKY{4.8159}+F{0.343242,0.150667,0.199971,0.306119}+I{0.386139}+G4{1.88564}: CIAlign_uce-31484.nexus{3.20437},
+    HKY{5.91252}+F{0.372787,0.149601,0.203749,0.273863}+I{0.397866}+G4{0.726437}: CIAlign_uce-31497.nexus{2.60915},
+    TPM2u{1.49999,4.87129}+F{0.291653,0.242097,0.220242,0.246008}+I{0.264669}+G4{1.54287}: CIAlign_uce-31759.nexus{2.62337},
+    K2P{6.58265}+FQ+I{0.55409}+R2{0.360612,1.14367,0.0852978,6.88857}: CIAlign_uce-31829.nexus{2.51373},
+    TIM3{0.652379,5.63231,3.32888}+F{0.28156,0.224897,0.226566,0.266977}+I{0.468239}+G4{1.31155}: CIAlign_uce-3186.nexus{3.14155},
+    HKY{5.15537}+F{0.234368,0.281455,0.165877,0.3183}+G4{0.258233}: CIAlign_uce-31893.nexus{1.4018},
+    HKY{3.88514}+F{0.266177,0.252335,0.183789,0.297698}+I{0.461478}+G4{0.565654}: CIAlign_uce-31907.nexus{3.5873},
+    TPM2u{0.325658,2.80768}+F{0.329618,0.212652,0.179647,0.278083}+I{0.492683}+G4{1.19692}: CIAlign_uce-31967.nexus{2.6854},
+    HKY{5.4896}+F{0.262212,0.23985,0.2371,0.260838}+G4{0.395746}: CIAlign_uce-32005.nexus{1.87746},
+    TN{2.42923,3.56863}+F{0.384939,0.141536,0.222727,0.250798}+G4{0.321324}: CIAlign_uce-32057.nexus{2.56815},
+    TN{4.72677,2.92219}+F{0.271075,0.240968,0.187444,0.300513}+I{0.318186}+G4{1.24238}: CIAlign_uce-32088.nexus{3.28736},
+    TIM2{3.11594,3.0305,8.64904}+F{0.209265,0.16943,0.284607,0.336698}+G4{0.260963}: CIAlign_uce-32102.nexus{2.28338},
+    TN{4.56079,13.1537}+F{0.364007,0.134752,0.246099,0.255142}+I{0.483571}+G4{1.11832}: CIAlign_uce-32146.nexus{1.57545},
+    TN{4.84584,8.07734}+F{0.262799,0.253564,0.229355,0.254281}+I{0.379476}+G4{0.576089}: CIAlign_uce-32174.nexus{2.68237},
+    HKY{4.70011}+F{0.282677,0.246471,0.14848,0.322372}+G4{0.187617}: CIAlign_uce-32214.nexus{2.85208},
+    TIM2{1.73262,4.75252,7.53777}+F{0.273257,0.198267,0.224826,0.30365}+G4{0.326555}: CIAlign_uce-32270.nexus{2.72157},
+    TPM3{1.71324,6.3769}+FQ+I{0.255183}+G4{0.927862}: CIAlign_uce-32355.nexus{2.96274},
+    TPM3{0.515561,2.455}+FQ+I{0.409654}+G4{0.968946}: CIAlign_uce-32430.nexus{2.60721},
+    TIM3{0.558794,3.3091,1.25129}+F{0.292108,0.216783,0.167632,0.323477}+G4{0.432835}: CIAlign_uce-32470.nexus{2.63498},
+    HKY{4.07247}+F{0.317618,0.171967,0.234377,0.276038}+I{0.321163}+R2{0.552664,0.625934,0.126173,5.1839}: CIAlign_uce-32474.nexus{4.65375},
+    K3Pu{6.4504,1.89116}+F{0.335807,0.25341,0.193168,0.217614}+G4{0.309463}: CIAlign_uce-32475.nexus{1.75297},
+    TPM2u{1.43793,4.81392}+F{0.317218,0.159457,0.255725,0.2676}+I{0.510997}+G4{3.06606}: CIAlign_uce-32509.nexus{2.367},
+    HKY{3.26376}+F{0.329769,0.170825,0.224026,0.27538}+I{0.422639}+R2{0.523766,1.05464,0.053595,8.35178}: CIAlign_uce-3258.nexus{1.6069},
+    TN{9.98889,4.89044}+F{0.216266,0.233927,0.248102,0.301704}+G4{0.285561}: CIAlign_uce-32689.nexus{2.70027},
+    TPM3{0.374711,2.61532}+FQ+G4{0.305067}: CIAlign_uce-32720.nexus{1.27459},
+    TPM3u{0.446779,3.00698}+F{0.289631,0.268749,0.149991,0.291629}+I{0.48891}+G4{2.25349}: CIAlign_uce-32735.nexus{1.75406},
+    HKY{4.57428}+F{0.269323,0.141487,0.28076,0.30843}+G4{0.376614}: CIAlign_uce-32764.nexus{1.08847},
+    TPM3u{0.460369,3.56636}+F{0.309832,0.198937,0.259345,0.231887}+I{0.52147}+G4{1.20881}: CIAlign_uce-32775.nexus{2.58593},
+    TPM2u{0.647963,4.63239}+F{0.235371,0.179275,0.2971,0.288255}+I{0.21582}+R3{0.409652,0.216397,0.283617,1.66379,0.09091,4.83416}: CIAlign_uce-32884.nexus{5.25136},
+    TPM2{1.92139,5.5863}+FQ+I{0.433944}+G4{1.90143}: CIAlign_uce-32909.nexus{2.37101},
+    TN{4.53382,8.90164}+F{0.387998,0.159643,0.250115,0.202245}+G4{0.267863}: CIAlign_uce-33011.nexus{2.83594},
+    TPM2{2.12219,5.01953}+FQ+G4{0.317269}: CIAlign_uce-33015.nexus{2.26202},
+    TIM3e{0.382559,4.95509,2.93021}+FQ+I{0.323059}+G4{0.719801}: CIAlign_uce-33050.nexus{4.48816},
+    TIM3{1.65214,6.522,12.3911}+F{0.320565,0.173135,0.238197,0.268103}+R4{0.556793,0.0362738,0.23273,0.949845,0.186669,2.80741,0.0238082,9.85753}: CIAlign_uce-3309.nexus{4.26913},
+    TN{9.29599,6.58231}+F{0.274898,0.202074,0.235753,0.287276}+I{0.523416}+G4{1.16858}: CIAlign_uce-33091.nexus{3.29048},
+    TIM3{0.38625,3.243,1.03018}+F{0.340017,0.249841,0.17717,0.232973}+I{0.318366}+G4{0.355273}: CIAlign_uce-33206.nexus{5.30163},
+    HKY{5.16411}+F{0.261612,0.203414,0.204253,0.330722}+I{0.503019}+G4{2.67534}: CIAlign_uce-33241.nexus{2.34786},
+    TPM3u{0.631107,4.86626}+F{0.277669,0.230555,0.210343,0.281433}+G4{0.278882}: CIAlign_uce-33428.nexus{1.85117},
+    HKY{4.58608}+F{0.2822,0.192005,0.210796,0.314998}+G4{0.231902}: CIAlign_uce-33443.nexus{1.54358},
+    HKY{4.54173}+F{0.324222,0.233914,0.196259,0.245606}+G4{0.330122}: CIAlign_uce-33521.nexus{2.15527},
+    HKY{5.74307}+F{0.281608,0.238491,0.182985,0.296916}+I{0.544557}+G4{1.22562}: CIAlign_uce-33639.nexus{2.25867},
+    TPM2u{0.425113,3.41811}+F{0.305005,0.192068,0.187347,0.315581}+I{0.45557}+R2{0.462946,1.02849,0.0814849,6.429}: CIAlign_uce-33668.nexus{3.72964},
+    TIM3{0.636803,2.67865,1.99304}+F{0.30104,0.20659,0.250058,0.242312}+I{0.521221}+G4{1.53408}: CIAlign_uce-33691.nexus{1.87779},
+    TPM3u{0.507099,4.66845}+F{0.317233,0.235294,0.20373,0.243743}+I{0.445018}+G4{2.0195}: CIAlign_uce-33739.nexus{2.51392},
+    TIM3e{0.399081,7.95152,4.09242}+FQ+I{0.490045}+G4{0.897607}: CIAlign_uce-33747.nexus{3.86242},
+    TPM2u{2.53557,8.86562}+F{0.301984,0.167095,0.233256,0.297666}+I{0.460169}+G4{1.1676}: CIAlign_uce-33749.nexus{2.83229},
+    TNe{4.71774,3.13579}+FQ+G4{0.282034}: CIAlign_uce-3379.nexus{2.31632},
+    HKY{5.91695}+F{0.319088,0.169127,0.155789,0.355996}+I{0.362979}+G4{0.996365}: CIAlign_uce-33949.nexus{3.75336},
+    TIM3{3.6298,6.06965,28.3368}+F{0.3345,0.1165,0.258,0.291}+I{0.397641}+G4{0.821682}: CIAlign_uce-33993.nexus{2.07514},
+    TPM2u{3.10208,8.73187}+F{0.255821,0.201644,0.197839,0.344696}+I{0.473818}+G4{1.8562}: CIAlign_uce-3406.nexus{2.66836},
+    TN{3.59587,9.37311}+F{0.374682,0.181847,0.225,0.218471}+G4{0.290036}: CIAlign_uce-34159.nexus{3.27175},
+    TPM2{0.517379,2.56649}+FQ+G4{0.616409}: CIAlign_uce-34185.nexus{1.98963},
+    HKY{5.13762}+F{0.236731,0.201075,0.229404,0.332791}+I{0.470876}+G4{0.916599}: CIAlign_uce-34210.nexus{4.10218},
+    HKY{5.54808}+F{0.187777,0.258119,0.252007,0.302097}+G4{0.18693}: CIAlign_uce-34267.nexus{1.2643},
+    TPM2u{4.35329,16.6409}+F{0.28052,0.164061,0.268751,0.286668}+G4{0.156743}: CIAlign_uce-34324.nexus{2.76338},
+    TIM2{1.8903,5.45983,8.93202}+F{0.252791,0.21921,0.243786,0.284213}+I{0.51356}+R3{0.367091,0.933252,0.113275,4.82656,0.00607373,18.2233}: CIAlign_uce-34366.nexus{1.82834},
+    K2P{4.13875}+FQ+G4{0.374038}: CIAlign_uce-34406.nexus{2.18669},
+    TIM3{0.499177,5.22971,3.51817}+F{0.262836,0.215784,0.237164,0.284216}+I{0.423394}+G4{0.921638}: CIAlign_uce-34507.nexus{2.87744},
+    K2P{6.15966}+FQ+I{0.544311}+R2{0.390401,0.780175,0.0652881,10.6515}: CIAlign_uce-34528.nexus{1.70534},
+    TPM3{1.77742,5.40537}+FQ+G4{0.269278}: CIAlign_uce-34571.nexus{1.02649},
+    HKY{5.10435}+F{0.287604,0.196945,0.259101,0.256349}+I{0.473197}+G4{1.59557}: CIAlign_uce-3459.nexus{2.91396},
+    TIM3{1.52635,4.64593,7.71269}+F{0.360964,0.19017,0.246285,0.20258}+I{0.257522}+G4{0.874912}: CIAlign_uce-34922.nexus{3.76896},
+    TIM2e{34.3984,93.4371,45.4506}+FQ+G4{0.334565}: CIAlign_uce-35009.nexus{1.54039},
+    HKY{10.3659}+F{0.416345,0.20828,0.172887,0.202488}+I{0.589084}: CIAlign_uce-35011.nexus{1.14615},
+    TPM2u{2.29365,10.0563}+F{0.307716,0.149237,0.235746,0.307301}+I{0.311016}+G4{1.02496}: CIAlign_uce-35055.nexus{4.08198},
+    TPM3u{0.684743,4.81269}+F{0.22507,0.268232,0.229963,0.276736}+G4{0.257081}: CIAlign_uce-35112.nexus{2.22476},
+    TIM3{0.298773,5.07492,3.12026}+F{0.290747,0.260946,0.19656,0.251748}+I{0.413746}+G4{0.742651}: CIAlign_uce-35150.nexus{3.19178},
+    TPM3u{0.533425,3.95602}+F{0.282832,0.199499,0.221679,0.29599}+I{0.484201}+G4{0.834751}: CIAlign_uce-35151.nexus{1.90707},
+    K3Pu{8.52664,2.98774}+F{0.307099,0.208481,0.193864,0.290556}+I{0.52178}+G4{2.61086}: CIAlign_uce-35203.nexus{2.42108},
+    TPM2u{0.477437,3.51482}+F{0.287244,0.229255,0.145516,0.337986}+I{0.412804}+G4{1.61866}: CIAlign_uce-35230.nexus{2.39126},
+    HKY{3.47529}+F{0.242416,0.177688,0.238362,0.341535}+I{0.302965}+G4{0.623628}: CIAlign_uce-35404.nexus{4.2804},
+    HKY{4.65963}+F{0.28825,0.25255,0.20257,0.25663}+G4{0.235612}: CIAlign_uce-35424.nexus{2.03006},
+    TPM2u{3.31062,11.3467}+F{0.216393,0.22708,0.1949,0.361627}+I{0.534351}+G4{1.47436}: CIAlign_uce-35436.nexus{3.44149},
+    TN{7.79143,3.36577}+F{0.302215,0.220332,0.161294,0.316159}+I{0.379776}+G4{0.639733}: CIAlign_uce-35494.nexus{4.07596},
+    HKY{5.10194}+F{0.261711,0.191085,0.179732,0.367471}+G4{0.201814}: CIAlign_uce-35495.nexus{3.69548},
+    TIM2{0.705833,5.53974,3.15403}+F{0.300039,0.199635,0.186726,0.3136}+I{0.460716}+G4{1.42955}: CIAlign_uce-35776.nexus{2.94129},
+    HKY{3.71436}+F{0.313643,0.190699,0.215608,0.28005}+I{0.425591}+G4{1.45918}: CIAlign_uce-35782.nexus{2.91159},
+    TPM3u{0.988271,4.03165}+F{0.230908,0.15339,0.268104,0.347597}+I{0.464597}+R2{0.4167,0.54144,0.118704,6.52366}: CIAlign_uce-35801.nexus{2.62436},
+    TPM3{0.449267,2.31273}+FQ+G4{0.286431}: CIAlign_uce-35805.nexus{2.81982},
+    TN{1.98019,4.9344}+F{0.319406,0.189601,0.248282,0.242711}+I{0.362955}+G4{0.839761}: CIAlign_uce-35828.nexus{2.94599},
+    K3Pu{8.1333,2.48167}+F{0.271886,0.24383,0.174123,0.310162}+I{0.477036}+R2{0.467091,1.26535,0.0558733,7.31956}: CIAlign_uce-35867.nexus{2.19829},
+    TN{2.49338,5.50703}+F{0.301833,0.215571,0.176728,0.305869}+G4{0.298928}: CIAlign_uce-35983.nexus{3.55307},
+    TN{4.27166,6.41187}+F{0.274981,0.266557,0.212723,0.24574}+I{0.345983}+G4{0.792371}: CIAlign_uce-36059.nexus{5.57415},
+    HKY{5.43118}+F{0.316904,0.205203,0.183458,0.294435}+I{0.39157}+G4{0.673939}: CIAlign_uce-36060.nexus{3.1391},
+    TPM2{4.16058,13.6293}+FQ+G4{0.212112}: CIAlign_uce-36068.nexus{0.736645},
+    TPM2u{1.87372,7.56025}+F{0.334493,0.204843,0.195879,0.264785}+I{0.535844}+G4{0.800341}: CIAlign_uce-36093.nexus{1.36995},
+    HKY{3.86301}+F{0.277061,0.149285,0.213929,0.359726}+G4{0.288325}: CIAlign_uce-36225.nexus{1.62832},
+    TIM3e{0.242286,8.72855,4.06113}+FQ+I{0.550012}+G4{0.723697}: CIAlign_uce-36320.nexus{3.44024},
+    HKY{4.03128}+F{0.34097,0.151585,0.186903,0.320542}+I{0.479695}+G4{4.07933}: CIAlign_uce-36414.nexus{2.14845},
+    TN{3.51905,10.2915}+F{0.317481,0.180116,0.222038,0.280365}+G4{0.232499}: CIAlign_uce-36415.nexus{4.89523},
+    K3Pu{3.01252,0.0001}+F{0.303187,0.21137,0.244961,0.240482}+I{0.553391}+R2{0.390169,0.764523,0.0564408,12.4326}: CIAlign_uce-36416.nexus{2.43503},
+    TIM2{2.65422,5.39241,15.4023}+F{0.270539,0.201334,0.254055,0.274071}+G4{0.218108}: CIAlign_uce-36456.nexus{0.803042},
+    HKY{4.07271}+F{0.288408,0.296871,0.171472,0.243249}+G4{0.432519}: CIAlign_uce-36459.nexus{2.93432},
+    K2P{3.96885}+FQ+I{0.492981}+G4{2.35429}: CIAlign_uce-36528.nexus{1.9495},
+    TN{2.95492,6.34008}+F{0.301637,0.174531,0.237487,0.286346}+R3{0.547426,0.0737608,0.4263,1.45397,0.0262739,12.9328}: CIAlign_uce-36604.nexus{3.6229},
+    HKY{3.5982}+F{0.335867,0.206178,0.185707,0.272248}+I{0.314973}+G4{0.827518}: CIAlign_uce-3665.nexus{3.5359},
+    TN{4.399,2.05042}+F{0.325465,0.196536,0.166389,0.31161}+G4{0.229006}: CIAlign_uce-36659.nexus{4.00908},
+    HKY{5.15611}+F{0.244396,0.191553,0.232786,0.331265}+I{0.576059}+G4{1.5117}: CIAlign_uce-36692.nexus{2.64331},
+    TPM3u{0.276704,2.80549}+F{0.34123,0.26178,0.178272,0.218717}+I{0.386408}+G4{0.92982}: CIAlign_uce-369.nexus{4.20453},
+    TPM2u{2.35218,13.1039}+F{0.309841,0.206204,0.241383,0.242572}+R3{0.646062,0.0470938,0.330103,1.87964,0.0238351,14.6465}: CIAlign_uce-3693.nexus{1.7028},
+    TPM3u{0.465589,2.83352}+F{0.299358,0.236383,0.208327,0.255932}+I{0.380771}+G4{0.754289}: CIAlign_uce-36992.nexus{2.82748},
+    TNe{0.0001,3.61413}+FQ+I{0.8615}: CIAlign_uce-37073.nexus{0.220565},
+    TPM3u{0.410679,4.31159}+F{0.250112,0.264174,0.195213,0.290501}+I{0.565854}+G4{2.09083}: CIAlign_uce-37268.nexus{1.52551},
+    TPM2{1.97239,8.4158}+FQ+G4{0.26394}: CIAlign_uce-37439.nexus{2.77478},
+    HKY{4.82778}+F{0.289071,0.227863,0.229855,0.253212}+I{0.49206}+R2{0.389813,1.18864,0.118126,4.54304}: CIAlign_uce-37547.nexus{2.13135},
+    HKY{5.8723}+F{0.26358,0.18789,0.239893,0.308638}+R3{0.674756,0.0699081,0.301522,2.28233,0.0237214,11.1568}: CIAlign_uce-37821.nexus{3.10524},
+    TN{6.18011,12.9965}+F{0.375547,0.177013,0.208348,0.239092}+I{0.453928}+R3{0.222153,0.383083,0.301682,1.98652,0.0222375,14.1922}: CIAlign_uce-37919.nexus{4.11061},
+    TPM3{0.143582,3.55893}+FQ+G4{0.255247}: CIAlign_uce-37961.nexus{1.61988},
+    HKY{5.37533}+F{0.323665,0.210419,0.17421,0.291705}+G4{0.265289}: CIAlign_uce-38073.nexus{2.18736},
+    TPM3u{0.325276,4.03504}+F{0.265935,0.189877,0.245849,0.29834}+I{0.550374}+G4{0.822424}: CIAlign_uce-38134.nexus{1.98336},
+    HKY{9.40032}+F{0.315673,0.197637,0.162187,0.324503}+I{0.541921}+G4{1.46287}: CIAlign_uce-3819.nexus{2.62353},
+    K3Pu{4.61584,0.472746}+F{0.279496,0.189808,0.232974,0.297722}+I{0.409691}+G4{1.13306}: CIAlign_uce-38254.nexus{3.57138},
+    HKY{5.41966}+F{0.291249,0.184792,0.266264,0.257695}+I{0.472141}+G4{0.643855}: CIAlign_uce-38272.nexus{3.41942},
+    TN{4.57703,11.8637}+F{0.323142,0.164554,0.232165,0.280139}+G4{0.229482}: CIAlign_uce-38388.nexus{2.74019},
+    TIM2{1.33586,3.64767,11.2962}+F{0.31126,0.199545,0.234045,0.25515}+I{0.490534}+G4{1.32056}: CIAlign_uce-38441.nexus{3.38257},
+    HKY{5.57034}+F{0.301043,0.191936,0.215123,0.291897}+G4{0.252855}: CIAlign_uce-38446.nexus{1.13825},
+    HKY{4.77504}+F{0.252632,0.24,0.197895,0.309474}+I{0.604869}+G4{1.08386}: CIAlign_uce-3846.nexus{1.70503},
+    K3Pu{3.00028,0.462882}+F{0.2548,0.247364,0.19909,0.298746}+I{0.432059}+G4{2.08052}: CIAlign_uce-38646.nexus{3.36935},
+    K2P{5.80196}+FQ+I{0.507473}+G4{1.04812}: CIAlign_uce-38650.nexus{2.94846},
+    K2P{4.63036}+FQ+G4{0.293848}: CIAlign_uce-38734.nexus{1.97758},
+    TPM2u{0.661578,3.69863}+F{0.291369,0.247526,0.11988,0.341225}+I{0.290036}+G4{1.04682}: CIAlign_uce-38767.nexus{4.10253},
+    TPM3u{0.615535,3.80955}+F{0.330469,0.268489,0.169742,0.2313}+I{0.537052}+G4{0.799569}: CIAlign_uce-38785.nexus{3.56068},
+    HKY{4.95973}+F{0.280139,0.21972,0.181912,0.318229}+R3{0.638558,0.0435803,0.340859,1.89336,0.0205832,15.8772}: CIAlign_uce-38805.nexus{1.50355},
+    TIM3e{0.296102,4.94534,2.49364}+FQ+I{0.543043}+G4{0.943654}: CIAlign_uce-38821.nexus{3.38531},
+    TIM3{0.436325,4.17042,2.87771}+F{0.287344,0.224849,0.210895,0.276912}+I{0.383028}+G4{0.718546}: CIAlign_uce-38924.nexus{3.9401},
+    TIM3{3.76724,9.12152,17.9757}+F{0.288138,0.156456,0.235782,0.319624}+I{0.438157}+G4{0.636612}: CIAlign_uce-38967.nexus{1.91679},
+    K3Pu{2.95507,0.337719}+F{0.309502,0.190045,0.176018,0.324434}+I{0.523572}+G4{4.13845}: CIAlign_uce-39033.nexus{2.14773},
+    HKY{3.83863}+F{0.288403,0.192927,0.246053,0.272617}+I{0.32441}+G4{0.323305}: CIAlign_uce-39106.nexus{4.91894},
+    TPM2u{2.76805,8.49719}+F{0.29511,0.24485,0.237156,0.222884}+I{0.453324}+R3{0.283059,0.594825,0.243162,2.10798,0.0204547,15.5978}: CIAlign_uce-39175.nexus{3.62038},
+    TIM3{0.337733,2.40319,1.44288}+F{0.287593,0.268219,0.151973,0.292215}+I{0.507028}+G4{1.91551}: CIAlign_uce-39184.nexus{2.3841},
+    TIM3{0.570946,3.24156,2.30267}+F{0.367465,0.22213,0.178181,0.232223}+R3{0.602061,0.0874223,0.320092,1.42236,0.0778475,6.32108}: CIAlign_uce-39191.nexus{3.01512},
+    TN{3.587,6.9487}+F{0.345957,0.165229,0.204858,0.283957}+I{0.363847}+G4{0.922843}: CIAlign_uce-39248.nexus{2.68246},
+    TIM2{2.4651,5.17643,14.0403}+F{0.322624,0.185655,0.273445,0.218277}+I{0.385463}+G4{0.6363}: CIAlign_uce-39249.nexus{3.25717},
+    TPM2{1.63956,5.90947}+FQ+I{0.329771}+G4{1.36617}: CIAlign_uce-39264.nexus{3.97463},
+    TPM2u{2.65654,13.3826}+F{0.275532,0.236668,0.184908,0.302893}+I{0.360263}+G4{1.19698}: CIAlign_uce-39267.nexus{2.19605},
+    HKY{4.84862}+F{0.271564,0.249717,0.225346,0.253373}+I{0.407771}+G4{0.534312}: CIAlign_uce-39274.nexus{2.10304},
+    TPM3u{0.290441,2.79849}+F{0.325206,0.217905,0.164571,0.292317}+I{0.455097}+R2{0.458616,0.680349,0.0862864,7.97323}: CIAlign_uce-39334.nexus{3.23305},
+    K3Pu{3.11925,0.458451}+F{0.302766,0.168577,0.19838,0.330277}+I{0.555891}+R2{0.368296,1.19722,0.0758131,7.37429}: CIAlign_uce-39477.nexus{1.5998},
+    K3Pu{3.06305,0.750369}+F{0.312955,0.18746,0.246298,0.253286}+I{0.362841}+G4{1.5487}: CIAlign_uce-39514.nexus{3.98846},
+    TN{3.45159,5.74896}+F{0.353254,0.181423,0.187387,0.277936}+I{0.235759}+G4{0.844767}: CIAlign_uce-39621.nexus{3.9308},
+    K3Pu{7.68297,1.82068}+F{0.290842,0.210269,0.181151,0.317737}+I{0.376924}+G4{0.778325}: CIAlign_uce-3972.nexus{2.72832},
+    GTR{0.301843,2.80883,0.373294,0.210525,1.84669}+F{0.29442,0.250128,0.170178,0.285274}+I{0.291742}+G4{1.09396}: CIAlign_uce-3975.nexus{3.68326},
+    K3Pu{2.22411,0.0537566}+F{0.267723,0.280528,0.194455,0.257294}+I{0.530117}+R2{0.379878,0.494693,0.0900051,9.02257}: CIAlign_uce-39793.nexus{3.71948},
+    HKY{3.70516}+F{0.292897,0.227597,0.185845,0.293661}+I{0.499154}+G4{0.754556}: CIAlign_uce-39798.nexus{2.36532},
+    HKY{4.0646}+F{0.321937,0.171344,0.201779,0.304941}+I{0.554685}+G4{0.880325}: CIAlign_uce-39843.nexus{2.91019},
+    HKY{4.77791}+F{0.334789,0.228114,0.20628,0.230817}+G4{0.472773}: CIAlign_uce-3994.nexus{2.04303},
+    TPM2u{1.92841,5.753}+F{0.247187,0.210826,0.211892,0.330096}+I{0.296423}+G4{0.64902}: CIAlign_uce-39967.nexus{3.3313},
+    HKY{6.40578}+F{0.283105,0.225531,0.234167,0.257197}+G4{0.242317}: CIAlign_uce-40254.nexus{1.24838},
+    TPM2u{2.14349,6.33061}+F{0.316258,0.176022,0.185831,0.321889}+I{0.509764}+G4{1.61566}: CIAlign_uce-40328.nexus{2.85756},
+    TN{3.38873,2.2486}+F{0.294676,0.22772,0.197819,0.279784}+I{0.34533}+G4{0.816935}: CIAlign_uce-4036.nexus{2.16474},
+    HKY{5.90807}+F{0.234709,0.212323,0.296488,0.25648}+I{0.445516}+G4{0.730062}: CIAlign_uce-4040.nexus{3.85289},
+    TPM3u{0.399433,3.45812}+F{0.243995,0.26056,0.207719,0.287726}+G4{0.336491}: CIAlign_uce-4045.nexus{2.04581},
+    TPM2u{0.336486,3.19417}+F{0.33059,0.224572,0.155775,0.289063}+G4{0.232628}: CIAlign_uce-40474.nexus{0.873853},
+    TPM3u{0.38874,3.41631}+F{0.262406,0.267902,0.194253,0.27544}+G4{0.241431}: CIAlign_uce-40602.nexus{2.56668},
+    HKY{5.02325}+F{0.217983,0.24414,0.224702,0.313175}+G4{0.245239}: CIAlign_uce-40624.nexus{6.31541},
+    HKY{3.86095}+F{0.287307,0.22914,0.187512,0.296042}+I{0.460399}+G4{1.04373}: CIAlign_uce-40674.nexus{2.42755},
+    TN{10.1429,3.37253}+F{0.290621,0.216776,0.19349,0.299112}+I{0.560076}+G4{1.60067}: CIAlign_uce-40683.nexus{1.86401},
+    HKY{7.05665}+F{0.234126,0.245161,0.190662,0.330051}+I{0.482771}+G4{0.915815}: CIAlign_uce-40731.nexus{2.03248},
+    TIM3{0.349289,5.82551,3.20621}+F{0.267113,0.275282,0.144911,0.312694}+I{0.53844}+G4{1.81965}: CIAlign_uce-40765.nexus{2.90414},
+    TIM3{0.363375,3.93876,1.20053}+F{0.339644,0.220419,0.177823,0.262114}+G4{0.316914}: CIAlign_uce-4163.nexus{2.10397},
+    TIM2{0.371866,8.38207,2.50236}+F{0.280865,0.243619,0.135426,0.34009}+G4{0.288771}: CIAlign_uce-4173.nexus{7.65899},
+    TIM3{0.162856,5.22514,1.08777}+F{0.296977,0.314884,0.133256,0.254884}+G4{0.185494}: CIAlign_uce-4205.nexus{1.90348},
+    TN{3.69814,7.3589}+F{0.396678,0.162111,0.20826,0.232951}+G4{0.335882}: CIAlign_uce-4239.nexus{1.87751},
+    TPM2{1.45267,5.02548}+FQ+I{0.341757}+G4{1.46799}: CIAlign_uce-425.nexus{3.69649},
+    TPM3u{0.432491,5.44445}+F{0.365473,0.235322,0.189658,0.209547}+G4{0.224322}: CIAlign_uce-428.nexus{1.99298},
+    TPM2u{5.16852,10.1498}+F{0.256466,0.17295,0.286497,0.284086}+I{0.519426}+R2{0.379351,0.819178,0.101223,6.80917}: CIAlign_uce-4322.nexus{2.13444},
+    TIM2{1.80475,2.09042,4.40889}+F{0.240975,0.20007,0.234294,0.32466}+G4{0.332646}: CIAlign_uce-4327.nexus{2.29482},
+    TPM3u{1.69038,2.22951}+F{0.261222,0.215251,0.179827,0.343699}+G4{0.449874}: CIAlign_uce-4330.nexus{2.70925},
+    TPM3u{0.387553,3.04928}+F{0.276716,0.208915,0.254194,0.260176}+I{0.419861}+G4{0.809286}: CIAlign_uce-4622.nexus{2.09888},
+    TPM3u{0.542805,3.52465}+F{0.309557,0.216569,0.176521,0.297353}+R3{0.664389,0.0656327,0.300914,2.16812,0.0346972,8.76083}: CIAlign_uce-4653.nexus{1.94976},
+    TPM2u{0.51017,3.29314}+F{0.360477,0.165701,0.18343,0.290391}+I{0.41865}+G4{1.54386}: CIAlign_uce-4678.nexus{1.81129},
+    TPM2{1.98118,7.68229}+FQ+I{0.488271}+G4{1.38727}: CIAlign_uce-4691.nexus{2.40707},
+    TPM3u{0.370386,2.49959}+F{0.336923,0.208521,0.171472,0.283084}+G4{0.336129}: CIAlign_uce-4889.nexus{2.18483},
+    TIM3{0.498551,5.84707,1.97751}+F{0.306531,0.233363,0.159576,0.30053}+I{0.485968}+R3{0.291874,0.430233,0.203621,2.82461,0.0185371,16.1447}: CIAlign_uce-5234.nexus{2.79539},
+    HKY{5.55502}+F{0.399406,0.152118,0.177686,0.27079}+G4{0.209599}: CIAlign_uce-5243.nexus{0.951764},
+    TPM2u{1.89021,7.25823}+F{0.263606,0.257492,0.135339,0.343563}+G4{0.206534}: CIAlign_uce-5320.nexus{2.02657},
+    HKY{3.59735}+F{0.297075,0.226799,0.179724,0.296402}+I{0.397936}+G4{1.76405}: CIAlign_uce-5326.nexus{2.72966},
+    K2P{4.44868}+FQ+I{0.497125}+G4{1.17451}: CIAlign_uce-5449.nexus{2.83351},
+    TN{4.15215,2.90067}+F{0.288903,0.194096,0.157853,0.359149}+I{0.318168}+G4{1.39732}: CIAlign_uce-547.nexus{2.419},
+    TN{4.54261,2.9844}+F{0.323392,0.201154,0.144552,0.330902}+I{0.270312}+G4{1.99663}: CIAlign_uce-5525.nexus{2.88404},
+    TPM3{0.483555,3.92096}+FQ+I{0.308904}+G4{0.825853}: CIAlign_uce-5560.nexus{3.67997},
+    TN{12.682,5.60483}+F{0.233823,0.269849,0.15615,0.340179}+I{0.505141}+G4{0.780108}: CIAlign_uce-5691.nexus{2.07124},
+    TPM3u{0.326003,3.21493}+F{0.27237,0.242543,0.155939,0.329147}+G4{0.246065}: CIAlign_uce-5763.nexus{1.72089},
+    TIM2{2.3268,5.01548,11.5944}+F{0.298467,0.22841,0.213075,0.260048}+I{0.500898}+G4{1.5655}: CIAlign_uce-5967.nexus{2.56379},
+    TPM3u{2.24761,6.56843}+F{0.340834,0.175537,0.204529,0.2791}+G4{0.524358}: CIAlign_uce-5990.nexus{2.95133},
+    HKY{4.0599}+F{0.243095,0.229866,0.249762,0.277278}+I{0.582918}+G4{0.725109}: CIAlign_uce-6237.nexus{1.0296},
+    TN{6.04804,2.33867}+F{0.259651,0.250211,0.173147,0.316991}+I{0.385987}+G4{1.03434}: CIAlign_uce-6244.nexus{2.55468},
+    TIM3{0.696403,5.17306,3.20688}+F{0.307941,0.219367,0.194835,0.277857}+I{0.370844}+G4{0.874171}: CIAlign_uce-6250.nexus{3.6246},
+    TPM3u{1.54916,6.34212}+F{0.31892,0.223471,0.207354,0.250255}+I{0.395588}+G4{1.06647}: CIAlign_uce-6374.nexus{3.37839},
+    TN{4.81745,6.8214}+F{0.304234,0.223493,0.208751,0.263522}+I{0.446112}+G4{1.06055}: CIAlign_uce-6550.nexus{3.9513},
+    TPM3u{0.652553,2.10888}+F{0.290902,0.204383,0.197184,0.307531}+G4{0.526115}: CIAlign_uce-6553.nexus{2.32909},
+    TIM3{0.639961,5.88023,2.84487}+F{0.212577,0.269302,0.2509,0.267221}+R3{0.625711,0.0766048,0.240371,1.4514,0.133917,4.50421}: CIAlign_uce-6598.nexus{5.0452},
+    TPM3u{0.691293,4.47803}+F{0.257544,0.237024,0.209627,0.295805}+I{0.359301}+G4{0.66446}: CIAlign_uce-675.nexus{2.73926},
+    TN{12.9259,6.24057}+F{0.236716,0.280641,0.112417,0.370227}+I{0.558929}+G4{1.97834}: CIAlign_uce-6782.nexus{2.25895},
+    HKY{4.59403}+F{0.302374,0.195199,0.198347,0.30408}+G4{0.294441}: CIAlign_uce-6787.nexus{2.93003},
+    HKY{5.04991}+F{0.264583,0.206252,0.225105,0.304061}+I{0.479035}+G4{1.87219}: CIAlign_uce-6882.nexus{2.29934},
+    K3Pu{4.98793,0.595763}+F{0.283581,0.218898,0.224089,0.273432}+I{0.382012}+G4{0.810084}: CIAlign_uce-693.nexus{3.18829},
+    HKY{5.08917}+F{0.327542,0.243233,0.219459,0.209766}+I{0.42012}+G4{2.51021}: CIAlign_uce-6957.nexus{2.45396},
+    TIM3{0.524284,5.32801,2.80385}+F{0.262039,0.248524,0.209815,0.279622}+G4{0.279911}: CIAlign_uce-696.nexus{3.65236},
+    TN{2.74492,5.27279}+F{0.244424,0.26772,0.236569,0.251287}+I{0.450246}+G4{0.565187}: CIAlign_uce-6976.nexus{1.7743},
+    TN{3.18828,4.59771}+F{0.34769,0.152001,0.194784,0.305525}+I{0.245634}+G4{1.34674}: CIAlign_uce-7044.nexus{3.2333},
+    K3Pu{10.9954,2.75019}+F{0.278195,0.219985,0.225321,0.276498}+I{0.472065}+G4{0.526355}: CIAlign_uce-711.nexus{2.1621},
+    TN{5.28443,2.74359}+F{0.304833,0.215746,0.153478,0.325943}+R3{0.58909,0.117713,0.366241,1.3512,0.0446696,9.75591}: CIAlign_uce-7169.nexus{3.6894},
+    TPM2u{2.09039,6.67418}+F{0.23836,0.283468,0.181159,0.297013}+I{0.522875}+G4{1.51733}: CIAlign_uce-7271.nexus{3.50813},
+    HKY{5.2396}+F{0.277076,0.189711,0.234838,0.298375}+I{0.449227}+G4{1.09932}: CIAlign_uce-731.nexus{2.15969},
+    HKY{4.33258}+F{0.324196,0.200488,0.183529,0.291788}+I{0.343088}+G4{0.781326}: CIAlign_uce-750.nexus{3.44571},
+    TIM2{2.1741,1.60861,7.23208}+F{0.264245,0.157747,0.184305,0.393703}+I{0.605278}+G4{0.491946}: CIAlign_uce-7534.nexus{0.564728},
+    TIM{5.65162,2.00282,8.62919}+F{0.315938,0.182786,0.212884,0.288392}+I{0.558604}+G4{1.10905}: CIAlign_uce-7659.nexus{1.83618},
+    TIM{3.2213,0.491901,5.61803}+F{0.333965,0.193654,0.20718,0.2652}+G4{0.249686}: CIAlign_uce-7662.nexus{2.06304},
+    HKY{5.04389}+F{0.309874,0.214693,0.229172,0.246262}+I{0.540105}+G4{2.2832}: CIAlign_uce-7668.nexus{1.89171},
+    TIM3{1.45292,7.34823,4.57237}+F{0.287677,0.308459,0.149583,0.25428}+I{0.346214}+G4{0.898495}: CIAlign_uce-7709.nexus{3.00027},
+    HKY{5.35964}+F{0.265815,0.186521,0.254192,0.293472}+I{0.428057}+G4{1.30172}: CIAlign_uce-7711.nexus{2.86834},
+    HKY{5.41605}+F{0.270874,0.216298,0.219353,0.293475}+I{0.410101}+G4{0.928102}: CIAlign_uce-7760.nexus{4.65176},
+    TIM3e{0.443301,3.12732,1.75759}+FQ+G4{0.431342}: CIAlign_uce-7780.nexus{2.60259},
+    TVMe{0.900262,6.32733,3.06056,0.558405}+FQ+I{0.413217}+G4{0.570253}: CIAlign_uce-7810.nexus{2.11631},
+    TPM3u{0.658113,2.83412}+F{0.229037,0.239407,0.205432,0.326123}+I{0.430953}+R2{0.464834,1.05259,0.104213,4.90073}: CIAlign_uce-7844.nexus{1.94522},
+    HKY{5.31079}+F{0.259475,0.19728,0.250857,0.292389}+I{0.497472}+G4{1.76507}: CIAlign_uce-7892.nexus{2.95382},
+    TIM3e{0.0001,10.9405,3.51957}+FQ+I{0.596056}: CIAlign_uce-7943.nexus{1.08978},
+    TN{5.60201,3.25578}+F{0.329706,0.195873,0.187394,0.287027}+I{0.385393}+G4{1.01306}: CIAlign_uce-7981.nexus{2.21478},
+    HKY{4.72959}+F{0.306857,0.202173,0.196247,0.294723}+G4{0.194767}: CIAlign_uce-7994.nexus{1.33597},
+    HKY{8.43214}+F{0.338816,0.208276,0.130194,0.322715}+G4{0.275406}: CIAlign_uce-8029.nexus{1.62557},
+    TVM{0.412067,2.53435,0.423815,0.0001}+F{0.297259,0.243452,0.182335,0.276954}+I{0.385114}+G4{0.50473}: CIAlign_uce-8056.nexus{3.33409},
+    HKY{4.6252}+F{0.342972,0.209742,0.172598,0.274689}+I{0.40857}+G4{0.718853}: CIAlign_uce-8080.nexus{2.76038},
+    HKY{3.19057}+F{0.259213,0.262022,0.177809,0.300955}+G4{0.410967}: CIAlign_uce-8081.nexus{1.93781},
+    HKY{4.45733}+F{0.317011,0.232276,0.152012,0.298701}+G4{0.265822}: CIAlign_uce-8138.nexus{3.54788},
+    TIM2{2.1043,10.2409,17.3491}+F{0.30032,0.17687,0.20822,0.314591}+G4{0.219494}: CIAlign_uce-8466.nexus{2.31932},
+    HKY{3.79079}+F{0.356175,0.216258,0.16988,0.257686}+G4{0.351479}: CIAlign_uce-849.nexus{1.84071},
+    TIM3{0.434909,3.45086,1.77984}+F{0.296957,0.301521,0.169777,0.231744}+G4{0.272629}: CIAlign_uce-8496.nexus{3.5426},
+    TPM3u{0.513564,2.55196}+F{0.301078,0.256209,0.217198,0.225515}+I{0.48983}+G4{1.00429}: CIAlign_uce-8612.nexus{2.51997},
+    TIM2{5.86878,4.69406,19.3582}+F{0.239434,0.234593,0.251164,0.274809}+G4{0.176866}: CIAlign_uce-8699.nexus{1.82623},
+    TN{3.82855,7.57184}+F{0.32853,0.192603,0.232565,0.246302}+I{0.502493}+G4{1.06365}: CIAlign_uce-870.nexus{2.08505},
+    HKY{6.53233}+F{0.304402,0.228128,0.212209,0.25526}+I{0.500064}+G4{1.57195}: CIAlign_uce-8702.nexus{2.79372},
+    TPM2u{1.50027,9.42941}+F{0.275761,0.205919,0.255658,0.262663}+R3{0.631246,0.0589405,0.266495,1.53676,0.102259,5.41032}: CIAlign_uce-8707.nexus{4.15295},
+    TPM2u{3.96927,10.3148}+F{0.243467,0.287602,0.217915,0.251016}+I{0.307315}+G4{0.704448}: CIAlign_uce-8753.nexus{3.39197},
+    HKY{4.70545}+F{0.30911,0.226695,0.217373,0.246822}+G4{0.207508}: CIAlign_uce-8827.nexus{1.55409},
+    HKY{4.56635}+F{0.258532,0.208386,0.253935,0.279148}+G4{0.461515}: CIAlign_uce-8828.nexus{2.25416},
+    TPM2u{1.908,6.90336}+F{0.291477,0.15516,0.219049,0.334315}+G4{0.272967}: CIAlign_uce-8846.nexus{2.52244},
+    TN{2.98349,9.65951}+F{0.435775,0.138004,0.214614,0.211607}+G4{0.156347}: CIAlign_uce-8932.nexus{7.33831},
+    GTR{0.236789,3.50072,0.352258,0.227788,1.5002}+F{0.249045,0.245448,0.159024,0.346482}+I{0.173298}+G4{0.380712}: CIAlign_uce-8955.nexus{4.5494},
+    HKY{2.68998}+F{0.258779,0.234288,0.185305,0.321628}+I{0.540547}+G4{1.03206}: CIAlign_uce-8997.nexus{1.67789},
+    HKY{5.71051}+F{0.257586,0.19931,0.232138,0.310966}+I{0.406969}+G4{1.04437}: CIAlign_uce-9002.nexus{3.83947},
+    TPM3u{0.486597,2.73371}+F{0.274238,0.206618,0.193903,0.325242}+G4{0.329033}: CIAlign_uce-903.nexus{1.08858},
+    TIM{3.9531,1.7004,6.23753}+F{0.307534,0.229682,0.185911,0.276872}+I{0.389564}+G4{0.924009}: CIAlign_uce-9031.nexus{4.49262},
+    HKY{4.18469}+F{0.301056,0.197966,0.218603,0.282375}+I{0.5141}+G4{1.29617}: CIAlign_uce-9415.nexus{2.40154},
+    HKY{5.94673}+F{0.295367,0.203779,0.25395,0.246904}+I{0.414687}+G4{0.757813}: CIAlign_uce-9437.nexus{2.72732},
+    TN{8.22736,2.85872}+F{0.224696,0.290754,0.227494,0.257056}+I{0.520666}+G4{1.01555}: CIAlign_uce-9471.nexus{2.63339},
+    TIM2{2.8079,7.36923,28.486}+F{0.328542,0.150407,0.229384,0.291667}+G4{0.242008}: CIAlign_uce-9508.nexus{2.41191},
+    HKY{2.75817}+F{0.27923,0.156483,0.240753,0.323533}+I{0.585609}+G4{0.493418}: CIAlign_uce-9518.nexus{1.37999},
+    HKY{4.29541}+F{0.370012,0.190834,0.213453,0.225701}+I{0.336807}+G4{0.754665}: CIAlign_uce-9589.nexus{3.82195},
+    HKY{4.99416}+F{0.296172,0.218132,0.177535,0.308162}+G4{0.343413}: CIAlign_uce-9608.nexus{2.25665},
+    TIM3{0.404763,11.7274,3.3475}+F{0.235173,0.234716,0.168438,0.361673}+G4{0.279218}: CIAlign_uce-9694.nexus{1.31828},
+    TPM3u{0.721074,3.98225}+F{0.242441,0.231659,0.224767,0.301134}+G4{0.219928}: CIAlign_uce-9710.nexus{2.21788},
+    K2P{4.51772}+FQ+G4{0.230045}: CIAlign_uce-9730.nexus{2.40747},
+    TPM2u{1.5812,5.78852}+F{0.313382,0.225449,0.198329,0.262841}+I{0.45943}+G4{2.91613}: CIAlign_uce-976.nexus{2.55018},
+    TIM3{0.573028,4.00335,2.66454}+F{0.244133,0.237549,0.1904,0.327918}+I{0.286878}+G4{0.989833}: CIAlign_uce-981.nexus{3.36341},
+    HKY{5.94647}+F{0.337119,0.254571,0.171745,0.236565}+I{0.470233}+G4{1.16905}: CIAlign_uce-9935.nexus{2.64103},
+    TPM3{0.453435,4.94811}+FQ+I{0.581423}+G4{1.19026}: CIAlign_uce-9966.nexus{2.32732},
+    TIM3{0.368113,8.62756,2.10326}+F{0.278963,0.289295,0.144986,0.286755}+R3{0.639286,0.0689838,0.324646,1.84395,0.0360688,9.90526}: CIAlign_uce-9968.nexus{2.33953};
+end;

@@ -5,6 +5,7 @@ channels:
   - bioconda
 dependencies:
   - python >=3.10
-  - mafft          # alignment program
-  - seqkit         # fast FASTA/FASTQ manipulations
-  - seqmagick      # format conversion (includes biopython)
+  - mafft            # alignment program
+  - seqkit           # fast FASTA/FASTQ manipulations
+  - seqmagick        # format conversion (brings in Biopython)
+  - emboss           # <- adds consambig for IUPAC consensus

@@ -1,0 +1,173 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=50;
+TAXLABELS
+[1] 'ancistrocheirus_lesueurii'
+[2] 'architeuthis_dux'
+[3] 'argonauta_hians'
+[4] 'benthoctopus_normani'
+[5] 'brachioteuthis_beanii'
+[6] 'chiroteuthis_picteti'
+[7] 'cranchia_scabra'
+[8] 'discoteuthis_sp'
+[9] 'eledone_cirrhosa'
+[10] 'enoploteuthis_anapsis'
+[11] 'enteroctopus_dofleini'
+[12] 'galituethis_sp'
+[13] 'gonatus_onyx'
+[14] 'haliphron_atlanticus'
+[15] 'hapalochlaena_lunulata'
+[16] 'heteroteuthis_hawaiensis'
+[17] 'histioteuthis_corona_inermis'
+[18] 'idiosepius_sp'
+[19] 'japetella_diaphana'
+[20] 'joubiniteuthis_portieri'
+[21] 'mastigoteuthis_agassizii'
+[22] 'metasepia_tulbergi'
+[23] 'nototodarus_hawaiiensis'
+[24] 'octopoteuthis_nielseni'
+[25] 'octopus_californicus'
+[26] 'octopus_oliveri'
+[27] 'onychoteuthis_banksii'
+[28] 'opisthoteuthis_californiana'
+[29] 'pareledone_charcoti'
+[30] 'pholidoteuthis_adami'
+[31] 'pholidoteuthis_massyae'
+[32] 'pterygioteuthis_gemmata'
+[33] 'rossia_pacifica'
+[34] 'selenoteuthis_scintillans'
+[35] 'sepia_latimanus'
+[36] 'sepia_pharaonis'
+[37] 'sepiadarium_kochi_mainland'
+[38] 'sepiola_parva'
+[39] 'sepioteuthis_lessoniana'
+[40] 'thysanoteuthis_rhombus'
+[41] 'tremoctopus_violaceus'
+[42] 'bathyteuthis_abyssicola'
+[43] 'sepiadarium_kochi_okinawa'
+[44] 'spirula_spirula'
+[45] 'vampyroteuthis_infernalis'
+[46] 'engina_mendicaria'
+[47] 'gymnodoris_subflava'
+[48] 'chtenopteryx_sicula'
+[49] 'patelloida_saccharina'
+[50] 'nautilus_macromphalus'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=50 nsplits=108;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 13,
+	100	 27,
+	44	 13 27,
+	100	 17,
+	26	 13 17 27,
+	38	 2 13 17 27,
+	100	 3,
+	100	 14,
+	100	 41,
+	100	 14 41,
+	100	 3 14 41,
+	100	 15,
+	100	 26,
+	100	 15 26,
+	100	 3 14 15 26 41,
+	100	 4,
+	100	 25,
+	100	 4 25,
+	100	 11,
+	100	 4 11 25,
+	100	 19,
+	100	 29,
+	100	 19 29,
+	100	 4 11 19 25 29,
+	100	 9,
+	73	 4 9 11 19 25 29,
+	100	 3 4 9 11 14 15 19 25 26 29 41,
+	100	 28,
+	100	 3 4 9 11 14 15 19 25 26 28 29 41,
+	100	 45,
+	100	 3 4 9 11 14 15 19 25 26 28 29 41 45,
+	100	 46,
+	100	 47,
+	100	 46 47,
+	100	 49,
+	100	 46 47 49,
+	100	 50,
+	100	 46 47 49 50,
+	100	 3 4 9 11 14 15 19 25 26 28 29 41 45 46 47 49 50,
+	100	 18,
+	100	 3 4 9 11 14 15 18 19 25 26 28 29 41 45 46 47 49 50,
+	100	 16,
+	100	 33,
+	100	 38,
+	100	 33 38,
+	100	 16 33 38,
+	100	 37,
+	100	 43,
+	100	 37 43,
+	100	 16 33 37 38 43,
+	100	 3 4 9 11 14 15 16 18 19 25 26 28 29 33 37 38 41 43 45 46 47 49 50,
+	100	 22,
+	100	 35,
+	100	 22 35,
+	100	 36,
+	100	 22 35 36,
+	100	 39,
+	100	 22 35 36 39,
+	100	 1 2 5 6 7 8 10 12 13 17 20 21 23 24 27 30 31 32 34 40 42 44 48,
+	100	 42,
+	100	 48,
+	100	 42 48,
+	100	 1 2 5 6 7 8 10 12 13 17 20 21 23 24 27 30 31 32 34 40 44,
+	100	 7,
+	100	 12,
+	100	 7 12,
+	100	 23,
+	100	 40,
+	100	 23 40,
+	100	 7 12 23 40,
+	100	 1 2 5 6 8 10 13 17 20 21 24 27 30 31 32 34 44,
+	100	 1 5 6 8 10 20 21 24 30 31 32 34 44,
+	100	 5,
+	100	 8,
+	100	 44,
+	100	 8 44,
+	100	 5 8 44,
+	100	 6,
+	100	 20,
+	100	 21,
+	100	 20 21,
+	100	 6 20 21,
+	100	 30,
+	100	 31,
+	100	 30 31,
+	100	 6 20 21 30 31,
+	100	 24,
+	100	 6 20 21 24 30 31,
+	81	 5 6 8 20 21 24 30 31 44,
+	100	 1 10 32 34,
+	100	 32,
+	100	 34,
+	100	 32 34,
+	100	 1 10,
+	100	 10,
+	100	 1,
+	56	 17 27,
+	56	 2 17 27,
+	56	 1 2 5 6 8 10 17 20 21 24 27 30 31 32 34 44,
+	19	 1 6 10 20 21 24 30 31 32 34,
+	18	 2 17,
+	27	 3 4 11 14 15 19 25 26 29 41,
+	1	 1 5 6 8 10 13 17 20 21 24 27 30 31 32 34 44,
+	4	 1 2 5 6 8 10 17 20 21 24 30 31 32 34 44,
+	1	 4 9 11 25,
+	1	 1 5 6 8 10 13 20 21 24 27 30 31 32 34 44,
+	0	 1 2 5 6 8 10 20 21 24 30 31 32 34 44,
+;
+END; [Splits]
+
