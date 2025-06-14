@@ -49,9 +49,17 @@ for ALN in "$ALIGN_DIR"/CIAlign_uce-*.nexus; do
     seqmagick convert --cut "${START}:${END}" "$SUB_FASTA" "$CORE_ALN"
     rm -f "$SUB_FASTA"
 
-    # ---------------- 3. IUPAC consensus ----------------
+    # ---------------- 3. Get consensus - <80% identity we get an N ----------------
     CONS_FA=$(mktemp --suffix=.fa)
-    consambig -sequence "$CORE_ALN" -outseq "$CONS_FA" -name tmp 2>/dev/null
+    
+    n=$(grep -c '^>' "$CORE_ALN")           # number of taxa
+    plurality=$(printf "%.0f" "$(awk -v n="$n" 'BEGIN{print n*0.80}')")
+
+    cons -sequence  "$CORE_ALN" \
+        -plurality "$plurality" \
+        -outseq    "$CONS_FA" \
+        -name      tmp  2>/dev/null
+
     CONS=$(awk 'NR>1{printf("%s",$0)}' "$CONS_FA")
     rm -f "$CORE_ALN" "$CONS_FA"
 
