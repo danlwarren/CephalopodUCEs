@@ -1,0 +1,13 @@
+benthoctopus_normani
+octopus_californicus
+enteroctopus_dofleini
+japetella_diaphana
+pareledone_charcoti
+eledone_cirrhosa
+haliphron_atlanticus
+tremoctopus_violaceus
+argonauta_hians
+hapalochlaena_lunulata
+octopus_oliveri
+opisthoteuthis_californiana
+vampyroteuthis_infernalis

@@ -23,15 +23,72 @@ We used the UCE baits we designed in order to extract further sequence data from
 
 We aligned the UCE probes in our **clear_trimmed.fasta** file (developed in step 1) to each genome, and then extracted fasta sequences matching UCE loci from each genome with up to 500 bp on each side of the probes.
 
+```bash
+@DAN - can you add the commands here
+```
+
+
 These UCEs are output into the `/original_baits` subfolder.
+
+
+
 
 **DAN NOTE TO SELF: TABLE OF HOW MANY UCEs SHOW UP IN WHICH SPECIES, CSV OF 1/0 RESULTS**
 
 ### Using squid baits
 
+First we make the squid baits using the squid species that we want to use in `squid_spp.txt`.
 
+
+First get the environment set up with conda:
+```bash
+conda env create -f environment.yml 
+conda activate uce_add
+```
+
+Then we run the script to make probes as follows:
+
+```bash
+bash make_probes.sh ../3_initial_alignment/mafft-nexus-gblocks-clean-75p/ squid_spp.txt probes_squid.fasta 
+```
+
+Briefly, this script extracts the squid species from each alignment, calls a consensus sequence with EMBOSS using IUPAC codes, extracts the central 180bp of the alignment (we take this as the definition of the core), and then makes two tiled probes across this 180bp region of 120bp each (i.e. 60bp overlap in the middle). If the whole alignment is <180bp, we make two 120bp probes with minimum overlap. If it's exactly 120bp we make a single probe. And if it's <120bp we just skip it. 
+
+Then we run the same commands as above to retrieve the UCEs with these baits:
+
+```bash
+@DAN - can you add these commands here
+```
 
 ### Using octopus baits
+
+Octopus species are in `octopus_spp.txt`
+
+```bash
+bash make_probes.sh ../3_initial_alignment/mafft-nexus-gblocks-clean-75p/ octopus_spp.txt probes_octopus.fasta 
+```
+
+Then we run the same commands as above to retrieve the UCEs with these baits:
+
+```bash
+@DAN - can you add these commands here
+```
+
+
+### Using all species baits
+
+All species are in `all_spp.txt`, this is just ingroup species (i.e. octopus, squid, nautilus)
+
+```bash
+bash make_probes.sh ../3_initial_alignment/mafft-nexus-gblocks-clean-75p/ all_spp.txt probes_all.fasta 
+```
+
+Then we run the same commands as above to retrieve the UCEs with these baits:
+
+```bash
+@DAN - can you add these commands here
+```
+
 
 ## Citations
 
