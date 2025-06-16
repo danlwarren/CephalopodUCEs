@@ -68,7 +68,9 @@ bash make_probes.sh ../3_initial_alignment/mafft-nexus-gblocks-clean-75p/ squid_
 
 Briefly, this script extracts the squid species from each alignment, calls a consensus sequence with EMBOSS using IUPAC codes, extracts the central 180bp of the alignment (we take this as the definition of the core), and then makes two tiled probes across this 180bp region of 120bp each (i.e. 60bp overlap in the middle). If the whole alignment is \<180bp, we make two 120bp probes with minimum overlap. If it's exactly 120bp we make a single probe. And if it's \<120bp we just skip it.
 
-Then we run the same commands as above to retrieve the UCEs with these baits:
+The script will look for this directory in the `genome_UCEs/` subfolder, and then output the new alignments with the same directory name in the `alignments/` subfolder.
+
+Then we run the same commands as above to retrieve the UCEs with these baits. We explored a range of identity and coverage values in order to find settings that gave good results across taxa. By making appropriate susbtitutions in the code below we tried identity values of 80, 90, 95, and 99 with coverage 60, and coverage values 60, 70, 80, and 90 with identity 90.
 
 ``` bash
  phyluce_probe_run_multiple_lastzs_sqlite \
@@ -92,9 +94,7 @@ Then we run the same commands as above to retrieve the UCEs with these baits:
     --output reseq-squid-i80-c60-fasta
 ```
 
-Finally we add the newly extracted UCEs to the original alignment. The argument is the directory name, e.g. "reseq-squid-fasta-i80-c60". We explored a range of identity and coverage values in order to find settings that gave good results across taxa.
-
-The script will look for this directory in the `genome_UCEs/` subfolder, and then output the new alignments with the same directory name in the `alignments/` subfolder.
+Finally we add the newly extracted UCEs to the original alignment. The argument is the directory name, e.g. "reseq-squid-fasta-i80-c60".
 
 ``` bash
 bash add_new_taxa_to_alignments.sh original_baits_default_setings
