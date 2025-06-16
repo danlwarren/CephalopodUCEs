@@ -22,17 +22,37 @@ BAM files were converted to BED files using **bedtools** (Quinlan et al. 2010), 
 | 4,503,649                  | *Octopus bimaculoides*        |
 | 4,475,396                  | *Octopus minor*               |
 
-We then used **phyluce** to strip masked loci from the set and find alignment intervals that were shared among taxa.
+We then used **phyluce** to strip masked loci from the set and find alignment intervals that were shared among taxa, and counted how many intervals were shared between ovulgaris and the other taxa.
 
-DAN NOTE TO SELF: ONCE YOU GET PHYLUCE INSTALLED MAKE A TABLE LIKE IN THE TUTORIAL \@ "Determining shared, conserved loci"
+```         
+phyluce_probe_query_multi_merge_table \
+    --db cephs-to-ovulgaris.sqlite \
+    --base-taxon ovulgaris
+
+Loci shared by ovulgaris + 0 taxa:	1,856,246.0
+Loci shared by ovulgaris + 1 taxa:	1,856,246.0
+Loci shared by ovulgaris + 2 taxa:	672,568.0
+Loci shared by ovulgaris + 3 taxa:	42,105.0
+```
 
 Using **phyluce** we then extracted 160bp sequences from the base genome corresponding to conserved regions to use as targets for temporary baits. After aligning probes and removing duplicates, we still were left with a large number of candidates (13689 loci, 85227 probes). We further reduced this set by aligning the baits against the genome of the golden apple snail, *Pomacea canaliculata*, resulting in 4718 conserved loci and 39102 probes using a minimum sequence identity of 50.
 
-We aligned each of these candidate probes to each exemplar genome and extracted the matching sequences, and then created tiled probes to target conserved sites at candidate loci across all exemplar genomes. These probes were aligned and filtered to remove duplicates.
+We aligned each of these candidate probes to each exemplar genome and extracted the matching sequences, and then created tiled probes to target conserved sites at candidate loci across all exemplar genomes. These probes were aligned and filtered to remove duplicates. We then ran **phyluce_probe_queri_multi_fasta_table** to collect information about shared loci across species.
 
-DAN NOTE TO SELF: ANOTHER TABLE LIKE IN THE TUTORIAL \@ "Find which loci we dect consistently",
+```         
+phyluce_probe_query_multi_fasta_table \ 
+    --db multifastas.sqlite \
+    --base-taxon ovulgaris
 
-Using sqlite we constructed a table of which UCEs were matched in each genome, formatted as below, with **1** denoting a uce that was matched and **.** denoting a uce that was not matched in each species.
+Loci shared by 0 taxa:	19,937.0
+Loci shared by 1 taxa:	19,937.0
+Loci shared by 2 taxa:	18,743.0
+Loci shared by 3 taxa:	13,689.0
+Loci shared by 4 taxa:	4,718.0
+Loci shared by 5 taxa:	1,194.0
+```
+
+Using sqlite we constructed a table of which UCEs were matched in each genome, formatted as below, with **1** denoting a uce that was matched and **.** denoting a uce that was not matched in each species. The full table is provided in ./data/matche_table.csv
 
 ![](images/sample_match_table.png){width="584"}
 
