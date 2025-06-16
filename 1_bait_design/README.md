@@ -8,13 +8,59 @@ The genomes used for bait design were *Loligo pealei* (now *Doryteuthis pealei*,
 
 We conducted UCE bait design using Phyluce version 1.6.6 (Faircloth 2016; Faircloth et al. 2012), mostly following procedures given in Tutorial IV (Identifying UCE Loci and Desiging Baits To Target Them) at <https://phyluce.readthedocs.io/> including probe design and in silico testing. Data were converted to .fasta and .2bit files where necessary.
 
-We used the *O. vulgaris* genome as the base genome for bait development. We generated simulated reads from each genome using the **art_illumina** function from ART (Huang et al. 2012) with length 100 bp, insert size of 200bp, and standard deviation of 150. Reads for each species were merged using a bash script. Due to technical issues we used **NextGenMap** (Sedlazeck et al. 2013) instead of **stampy** (Gerton and Goodson 2011) to align the reads for each species to the base genome and convert the output to BAM format, using the following code and substituting the input file for each species for \$readfile in turn.
+Initial probe design was conducted in early 2020, when few cephalopod genomes were available compared to today. We used the *O. vulgaris* genome as the base genome for bait development. We generated simulated reads from each genome using the **art_illumina** function from ART (Huang et al. 2012) with length 100 bp, insert size of 200bp, and standard deviation of 150. Code for *O. vulgaris* is given below, similar code was run for each species.
 
-`ngm –r octopus.vulgaris.fasta –q $readfile –b –o $outfile –t 2`
+```         
+art_illumina \
+    --paired \
+    --in ../genomes/octopus.vulgaris/octopus.vulgaris.fasta \
+    --out octopus.vulgaris.reads \
+    --len 100 --fcov 2 --mflen 200 --sdev 150 -ir 0.0 -ir2 0.0 -dr 0.0 -dr2 0.0 -qs 100 -qs2 100 -na
+```
+
+Reads for each species were merged using a bash script.
+
+```         
+for critter in octopus.vulgaris octopus.bimaculoides octopus.minor loligo.pealeii;
+    do
+        echo "working on $critter";
+        touch $critter-pe100-reads.fq;
+        cat $critter-pe100-reads1.fq > $critter-pe100-reads.fq;
+        cat $critter-pe100-reads2.fq >> $critter-pe100-reads.fq;
+        rm $critter-pe100-reads1.fq;
+        rm $critter-pe100-reads2.fq;
+        gzip $critter-pe100-reads.fq;
+    done;
+```
+
+Due to technical issues we used **NextGenMap** (Sedlazeck et al. 2013) instead of **stampy** (Gerton and Goodson 2011) to align the reads for each species to the base genome and convert the output to BAM format, using the following code and substituting the input file for each species for \$readfile in turn.
+
+`ngm –r octopus.vulgaris.fasta –q $readfile –b –o $outfile –t 4`
 
 Finally we removed unmapped reads using **samtools** (Li et al. 2009). This produced a set of conserved regions where simulated sequence data for individual species mapped to the base genome with a divergence of \< 5%.
 
-BAM files were converted to BED files using **bedtools** (Quinlan et al. 2010), and BED file contents were sorted by scaffold and position, and proximate positions were then merged. At this point the number of regions that putatively aligned with the base genome were:
+```         
+for critter in octopus.vulgaris octopus.bimaculoides octopus.minor loligo.pealeii;
+    do
+        samtools view -h -F 4 -b $critter/$critter-to-triCas1.bam > $critter/$critter-to-triCas1-MAPPING.bam;
+        rm $critter/$critter-to-triCas1.bam;
+        ln -s ../$critter/$critter-to-triCas1-MAPPING.bam all/$critter-to-triCas1-MAPPING.bam;
+    done;
+```
+
+BAM files were converted to BED files using **bedtools** (Quinlan et al. 2010), and BED file contents were sorted by scaffold and position, and proximate positions were then merged.
+
+```         
+for i in ../alignments/*MAPPING.bam; do echo $i; bedtools bamtobed -i $i -bed12 > `basename $i`.bed; done
+
+for i in *.bed; do echo $i; bedtools sort -i $i > ${i%.*}.sort.bed; done
+
+for i in *.bam.sort.bed; do echo $i; bedtools merge -i $i > ${i%.*}.merge.bed; done
+
+for i in *.bam.sort.merge.bed; do wc -l $i; done
+```
+
+At this point the number of regions that putatively aligned with the base genome were:
 
 | Putatively aligned regions | Species                       |
 |----------------------------|-------------------------------|
@@ -25,6 +71,16 @@ BAM files were converted to BED files using **bedtools** (Quinlan et al. 2010), 
 We then used **phyluce** to strip masked loci from the set and find alignment intervals that were shared among taxa, and counted how many intervals were shared between ovulgaris and the other taxa.
 
 ```         
+for i in *.sort.merge.bed;
+    do
+        phyluce_probe_strip_masked_loci_from_set \
+            --bed $i \
+            --twobit ../genomes/octopus.vulgaris/octopus.vulgaris.2bit \
+            --output ${i%.*}.strip.bed \
+            --filter-mask 0.25 \
+            --min-length 80
+    done;
+
 phyluce_probe_query_multi_merge_table \
     --db cephs-to-ovulgaris.sqlite \
     --base-taxon ovulgaris
