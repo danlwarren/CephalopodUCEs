@@ -91,11 +91,66 @@ Loci shared by ovulgaris + 2 taxa:	672,568.0
 Loci shared by ovulgaris + 3 taxa:	42,105.0
 ```
 
-Using **phyluce** we then extracted 160bp sequences from the base genome corresponding to conserved regions to use as targets for temporary baits. After aligning probes and removing duplicates, we still were left with a large number of candidates (13689 loci, 85227 probes). We further reduced this set by aligning the baits against the genome of the golden apple snail, *Pomacea canaliculata*, resulting in 4718 conserved loci and 39102 probes using a minimum sequence identity of 50.
+Using **phyluce** we then extracted 160bp sequences from the base genome corresponding to conserved regions to use as targets for temporary baits.
+
+```         
+phyluce_probe_get_genome_sequences_from_bed \
+        --bed ovulgaris+3.bed  \
+        --twobit ../base/octopus.vulgaris.2bit \
+        --buffer-to 160 \
+        --output ovulgaris+3.fasta
+        
+phyluce_probe_get_tiled_probes \
+    --input ovulgaris+3.fasta \
+    --probe-prefix "uce-" \
+    --design cephalopoda-v1 \
+    --designer warren \
+    --tiling-density 3 \
+    --two-probes \
+    --overlap middle \
+    --masking 0.25 \
+    --remove-gc \
+    --output ovulgaris+3.temp.probes
+
+phyluce_probe_easy_lastz \
+    --target ovulgaris+3.temp.probes \
+    --query ovulgaris+3.temp.probes \
+    --identity 50 --coverage 50 \
+    --output ovulgaris+3.temp.probes-TO-SELF-PROBES.lastz
+
+phyluce_probe_remove_duplicate_hits_from_probes_using_lastz \
+    --fasta ovulgaris+3.temp.probes  \
+    --lastz ovulgaris+3.temp.probes-TO-SELF-PROBES.lastz \
+    --probe-prefix=uce-
+```
+
+After aligning probes and removing duplicates, we still were left with a large number of candidates (13689 loci, 85227 probes). We further reduced this set by aligning the baits against the genome of the golden apple snail, *Pomacea canaliculata*, resulting in 4718 conserved loci and 39102 probes using a minimum sequence identity of 50.
+
+```         
+phyluce_probe_run_multiple_lastzs_sqlite \
+    --probefile ../bed/ovulgaris+3.temp-DUPE-SCREENED.probes \
+    --scaffoldlist pomacea.canaliculata loligo.pealeii octopus.bimaculoides octopus.minor octopus.vulgaris \
+    --genome-base-path ../genomes \
+    --identity 50 \
+    --cores 8 \
+    --db ovulgaris+3+pcanaliculata.sqlite \
+    --output ceph-genome-lastz
+```
 
 We aligned each of these candidate probes to each exemplar genome and extracted the matching sequences, and then created tiled probes to target conserved sites at candidate loci across all exemplar genomes. These probes were aligned and filtered to remove duplicates. We then ran **phyluce_probe_queri_multi_fasta_table** to collect information about shared loci across species.
 
 ```         
+phyluce_probe_slice_sequence_from_genomes \
+    --conf scaffolds.conf \
+    --lastz Results \
+    --probes 180 \
+    --output ceph-genome-fasta
+
+phyluce_probe_get_multi_fasta_table \
+    --fastas ./newfasta \
+    --output multifastas.sqlite \
+    --base-taxon octopus.vulgaris
+    
 phyluce_probe_query_multi_fasta_table \ 
     --db multifastas.sqlite \
     --base-taxon ovulgaris
@@ -114,13 +169,105 @@ Using sqlite we constructed a table of which UCEs were matched in each genome, f
 
 ## In silico testing
 
-As a sanity test, we simulated sequencing using the candidate bait set on the exemplar genomes, extracting simulated sequences with a flanking region of 400bp on each side. We used these to assemble contigs and extract .fasta data, which we then combined into a single file for each locus and aligned and trimmed, following settings for the standard **phyluce** workflow. Finally we used these data to generate a 70% complete matrix, which was then used to build a tree using raxml (Stamatakis 2014).
+As a sanity test, we simulated sequencing using the candidate bait set on the exemplar genomes, extracting simulated sequences with a flanking region of 400bp on each side.
+
+```         
+phyluce_probe_slice_sequence_from_genomes \
+  --conf ceph-genome.conf \
+  --lastz Results \
+  --output ceph-genome-fasta \
+  --flank 400 \
+```
+
+We used these to assemble contigs and extract .fasta data, which we then combined into a single file for each locus and aligned and trimmed, following settings for the standard **phyluce** workflow.
+
+```         
+phyluce_assembly_match_contigs_to_probes \
+    --contigs ceph-genome-fasta \
+    --probes ../probe-design/ceph-v1-master-probe-list-DUPE-SCREENED.fasta \
+    --output in-silico-lastz \
+    --min-coverage 67 \
+    --log-path log
+
+phyluce_assembly_get_match_counts \
+    --locus-db in-silico-lastz/probe.matches.sqlite \
+    --taxon-list-config in-silico-ceph-taxon-sets.conf \
+    --taxon-group 'all' \
+    --output taxon-sets/insilico-incomplete/insilico-incomplete.conf \
+    --log-path log \
+    --incomplete-matrix
+    
+From insilico-incomplete directory:
+
+phyluce_assembly_get_fastas_from_match_counts \
+    --contigs ../../ceph-genome-fasta \
+    --locus-db ../../in-silico-lastz/probe.matches.sqlite \
+    --match-count-output insilico-incomplete.conf \
+    --output insilico-incomplete.fasta \
+    --incomplete-matrix insilico-incomplete.incomplete \
+    --log-path log
+
+phyluce_align_seqcap_align \
+    --fasta insilico-incomplete.fasta \
+    --output mafft \
+    --taxa 5 \
+    --incomplete-matrix \
+    --cores 8 \
+    --no-trim \
+    --output-format fasta \
+    --log-path log
+
+phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed \
+    --alignments mafft \
+    --output mafft-gblocks \
+    --b1 0.5 \
+    --b4 8 \
+    --cores 8 \
+    --log log
+
+phyluce_align_remove_locus_name_from_nexus_lines \
+    --alignments mafft-gblocks \
+    --output mafft-gblocks-clean \
+    --cores 8 \
+    --log-path log
+
+phyluce_align_get_align_summary_data \
+    --alignments mafft-gblocks-clean \
+    --cores 8 \
+    --log-path log
+
+phyluce_align_get_only_loci_with_min_taxa \
+    --alignments mafft-gblocks-clean \
+    --taxa 5 \
+    --output mafft-gblocks-70p \
+    --percent 0.75 \
+    --cores 8 \
+    --log log
+```
+
+Finally we used these data to generate a 70% complete matrix, which was then used to build a tree using raxml (Stamatakis 2014).
+
+```         
+phyluce_align_format_nexus_files_for_raxml \
+    --alignments mafft-gblocks-70p \
+    --output mafft-gblocks-70p-raxml \
+    --log-path log --charsets
+
+raxmlHPC-PTHREADS-SSE3 -m GTRGAMMA -N 20 -p 772374015 -n BEST -s mafft-gblocks-70p.phylip -o menmol1 -T 8
+```
 
 ![RaxML tree showing results of simulated UCE sequencing](images/tree.png)
 
 The phylogeny built from the simulated sequences produced the expected results, with the three species from genus *Octopus* clustered together, *D. pealei* more distantly related, and *P. canaliculata* substantially more distantly related to all cephalopods.
 
 As a final step probes were trimmed and duplicates removed using **seqkit** (Shen et al., 2024) and **sequence_cleaner** (<https://biopython.org/wiki/Sequence_Cleaner>). Results are in **data/clear_trimmed.fasta**
+
+```         
+./seqkit grep -r -f uce-list ceph-v1-master-probe-list-DUPE-SCREENED.fasta -o trimmed.fasta
+python sequence_cleaner.py trimmed.fasta
+
+./seqkit stats clear_trimmed.fasta
+```
 
 ## Citations
 
