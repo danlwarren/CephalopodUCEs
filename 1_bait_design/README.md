@@ -32,7 +32,9 @@ We aligned each of these candidate probes to each exemplar genome and extracted 
 
 DAN NOTE TO SELF: ANOTHER TABLE LIKE IN THE TUTORIAL \@ "Find which loci we dect consistently",
 
-ALSO .csv OF LOCUS BY TAXON 0/1 TABLE? MAYBE EXPAND THIS WITH NEW GENOMES FOR FOLDER 4?
+Using sqlite we constructed a table of which UCEs were matched in each genome, formatted as below, with **1** denoting a uce that was matched and **.** denoting a uce that was not matched in each species.
+
+![](images/sample_match_table.png){width="584"}
 
 ## In silico testing
 
