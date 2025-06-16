@@ -10,7 +10,7 @@ We conducted UCE bait design using Phyluce version 1.6.6 (Faircloth 2016; Faircl
 
 Initial probe design was conducted in early 2020, when few cephalopod genomes were available compared to today. We used the *O. vulgaris* genome as the base genome for bait development. We generated simulated reads from each genome using the **art_illumina** function from ART (Huang et al. 2012) with length 100 bp, insert size of 200bp, and standard deviation of 150. Code for *O. vulgaris* is given below, similar code was run for each species.
 
-```         
+``` bash
 art_illumina \
     --paired \
     --in ../genomes/octopus.vulgaris/octopus.vulgaris.fasta \
@@ -20,7 +20,7 @@ art_illumina \
 
 Reads for each species were merged using a bash script.
 
-```         
+``` bash
 for critter in octopus.vulgaris octopus.bimaculoides octopus.minor loligo.pealeii;
     do
         echo "working on $critter";
@@ -39,7 +39,7 @@ Due to technical issues we used **NextGenMap** (Sedlazeck et al. 2013) instead o
 
 Finally we removed unmapped reads using **samtools** (Li et al. 2009). This produced a set of conserved regions where simulated sequence data for individual species mapped to the base genome with a divergence of \< 5%.
 
-```         
+``` bash
 for critter in octopus.vulgaris octopus.bimaculoides octopus.minor loligo.pealeii;
     do
         samtools view -h -F 4 -b $critter/$critter-to-triCas1.bam > $critter/$critter-to-triCas1-MAPPING.bam;
@@ -50,7 +50,7 @@ for critter in octopus.vulgaris octopus.bimaculoides octopus.minor loligo.pealei
 
 BAM files were converted to BED files using **bedtools** (Quinlan et al. 2010), and BED file contents were sorted by scaffold and position, and proximate positions were then merged.
 
-```         
+``` bash
 for i in ../alignments/*MAPPING.bam; do echo $i; bedtools bamtobed -i $i -bed12 > `basename $i`.bed; done
 
 for i in *.bed; do echo $i; bedtools sort -i $i > ${i%.*}.sort.bed; done
@@ -70,7 +70,7 @@ At this point the number of regions that putatively aligned with the base genome
 
 We then used **phyluce** to strip masked loci from the set and find alignment intervals that were shared among taxa, and counted how many intervals were shared between ovulgaris and the other taxa.
 
-```         
+``` bash
 for i in *.sort.merge.bed;
     do
         phyluce_probe_strip_masked_loci_from_set \
@@ -85,15 +85,15 @@ phyluce_probe_query_multi_merge_table \
     --db cephs-to-ovulgaris.sqlite \
     --base-taxon ovulgaris
 
-Loci shared by ovulgaris + 0 taxa:	1,856,246.0
-Loci shared by ovulgaris + 1 taxa:	1,856,246.0
-Loci shared by ovulgaris + 2 taxa:	672,568.0
-Loci shared by ovulgaris + 3 taxa:	42,105.0
+Loci shared by ovulgaris + 0 taxa:  1,856,246.0
+Loci shared by ovulgaris + 1 taxa:  1,856,246.0
+Loci shared by ovulgaris + 2 taxa:  672,568.0
+Loci shared by ovulgaris + 3 taxa:  42,105.0
 ```
 
 Using **phyluce** we then extracted 160bp sequences from the base genome corresponding to conserved regions to use as targets for temporary baits.
 
-```         
+``` bash
 phyluce_probe_get_genome_sequences_from_bed \
         --bed ovulgaris+3.bed  \
         --twobit ../base/octopus.vulgaris.2bit \
@@ -126,7 +126,7 @@ phyluce_probe_remove_duplicate_hits_from_probes_using_lastz \
 
 After aligning probes and removing duplicates, we still were left with a large number of candidates (13689 loci, 85227 probes). We further reduced this set by aligning the baits against the genome of the golden apple snail, *Pomacea canaliculata*, resulting in 4718 conserved loci and 39102 probes using a minimum sequence identity of 50.
 
-```         
+``` bash
 phyluce_probe_run_multiple_lastzs_sqlite \
     --probefile ../bed/ovulgaris+3.temp-DUPE-SCREENED.probes \
     --scaffoldlist pomacea.canaliculata loligo.pealeii octopus.bimaculoides octopus.minor octopus.vulgaris \
@@ -139,7 +139,7 @@ phyluce_probe_run_multiple_lastzs_sqlite \
 
 We aligned each of these candidate probes to each exemplar genome and extracted the matching sequences, and then created tiled probes to target conserved sites at candidate loci across all exemplar genomes. These probes were aligned and filtered to remove duplicates. We then ran **phyluce_probe_queri_multi_fasta_table** to collect information about shared loci across species.
 
-```         
+``` bash
 phyluce_probe_slice_sequence_from_genomes \
     --conf scaffolds.conf \
     --lastz Results \
@@ -155,12 +155,12 @@ phyluce_probe_query_multi_fasta_table \
     --db multifastas.sqlite \
     --base-taxon ovulgaris
 
-Loci shared by 0 taxa:	19,937.0
-Loci shared by 1 taxa:	19,937.0
-Loci shared by 2 taxa:	18,743.0
-Loci shared by 3 taxa:	13,689.0
-Loci shared by 4 taxa:	4,718.0
-Loci shared by 5 taxa:	1,194.0
+Loci shared by 0 taxa:  19,937.0
+Loci shared by 1 taxa:  19,937.0
+Loci shared by 2 taxa:  18,743.0
+Loci shared by 3 taxa:  13,689.0
+Loci shared by 4 taxa:  4,718.0
+Loci shared by 5 taxa:  1,194.0
 ```
 
 Using sqlite we constructed a table of which UCEs were matched in each genome, formatted as below, with **1** denoting a uce that was matched and **.** denoting a uce that was not matched in each species. The full table is provided in ./data/matche_table.csv
@@ -171,7 +171,7 @@ Using sqlite we constructed a table of which UCEs were matched in each genome, f
 
 As a sanity test, we simulated sequencing using the candidate bait set on the exemplar genomes, extracting simulated sequences with a flanking region of 400bp on each side.
 
-```         
+``` bash
 phyluce_probe_slice_sequence_from_genomes \
   --conf ceph-genome.conf \
   --lastz Results \
@@ -181,7 +181,7 @@ phyluce_probe_slice_sequence_from_genomes \
 
 We used these to assemble contigs and extract .fasta data, which we then combined into a single file for each locus and aligned and trimmed, following settings for the standard **phyluce** workflow.
 
-```         
+``` bash
 phyluce_assembly_match_contigs_to_probes \
     --contigs ceph-genome-fasta \
     --probes ../probe-design/ceph-v1-master-probe-list-DUPE-SCREENED.fasta \
@@ -247,7 +247,7 @@ phyluce_align_get_only_loci_with_min_taxa \
 
 Finally we used these data to generate a 70% complete matrix, which was then used to build a tree using raxml (Stamatakis 2014).
 
-```         
+``` bash
 phyluce_align_format_nexus_files_for_raxml \
     --alignments mafft-gblocks-70p \
     --output mafft-gblocks-70p-raxml \
@@ -262,7 +262,7 @@ The phylogeny built from the simulated sequences produced the expected results, 
 
 As a final step probes were trimmed and duplicates removed using **seqkit** (Shen et al., 2024) and **sequence_cleaner** (<https://biopython.org/wiki/Sequence_Cleaner>). Results are in **data/clear_trimmed.fasta**
 
-```         
+``` bash
 ./seqkit grep -r -f uce-list ceph-v1-master-probe-list-DUPE-SCREENED.fasta -o trimmed.fasta
 python sequence_cleaner.py trimmed.fasta
 
