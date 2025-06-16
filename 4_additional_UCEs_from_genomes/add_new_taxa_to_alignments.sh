@@ -5,10 +5,13 @@
 
 set -euo pipefail
 
+
+DIRNAME="$1"
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ALIGN_DIR="${SCRIPT_DIR}/../3_initial_alignment/mafft-nexus-gblocks-clean-75p"
-GENOME_DIR="${SCRIPT_DIR}/genome_UCEs/reseq-squid-fasta-i90-c60"
-OUT_DIR="${SCRIPT_DIR}/alignments/reseq-squid-fasta-i90-c60/"
+GENOME_DIR="${SCRIPT_DIR}/genome_UCEs/""$DIRNAME"
+OUT_DIR="${SCRIPT_DIR}/alignments/""$DIRNAME"
 SUFFIX="_squid"
 THREADS=4
 

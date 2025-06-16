@@ -60,10 +60,20 @@ Then we run the same commands as above to retrieve the UCEs with these baits:
 @DAN - can you add these commands here
 ```
 
-Finally we add the newly extracted UCEs to the original alignment
+Finally we add the newly extracted UCEs to the original alignment. The argument is the directory name, e.g. "reseq-squid-fasta-i80-c60". 
+
+The script will look for this directory in the `genome_UCEs/` subfolder, and then output the new alignments with the same directory name in the `alignments/` subfolder.
 
 ```bash
-
+bash add_new_taxa_to_alignments.sh original_baits_default_setings
+bash add_new_taxa_to_alignments.sh original_baits_identity_60_coverage_80 
+bash add_new_taxa_to_alignments.sh reseq-squid-i80-c60-fasta
+bash add_new_taxa_to_alignments.sh reseq-squid-i90-c60-fasta
+bash add_new_taxa_to_alignments.sh reseq-squid-i90-c70-fasta
+bash add_new_taxa_to_alignments.sh reseq-squid-i90-c80-fasta
+bash add_new_taxa_to_alignments.sh reseq-squid-i90-c90-fasta
+bash add_new_taxa_to_alignments.sh reseq-squid-i95-c60-fasta
+bash add_new_taxa_to_alignments.sh reseq-squid-i99-c60-fasta
 ```
 
 ### Using octopus baits
