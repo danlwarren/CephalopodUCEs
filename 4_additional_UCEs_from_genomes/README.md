@@ -43,7 +43,7 @@ bash make_probes.sh ../3_initial_alignment/mafft-nexus-gblocks-clean-75p/ all_sp
 Finally, we concatenate all the probe files into one, so now most UCEs in our dataset are covered by the original probes, and three new probes made above.
 
 ```bash
-cat ../1_bait_design/cleared_trimmed.fasta probes_squid.fasta probes_octopus.fasta probes_all.fasta > probes_combined.fasta
+cat ../1_bait_design/data/clear_trimmed.fasta probes_squid.fasta probes_octopus.fasta probes_all.fasta > probes_combined.fasta
 ``` 
 
 ### Running the combined bait sets against genomes
