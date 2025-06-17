@@ -60,7 +60,7 @@ We aligned the UCE probes in our **clear_trimmed.fasta** file (developed in step
     octopusbimaculoides acanthosepionesculentum acanthosepionlycidas \
     ascarosepionbandense doryteuthisopalescens eumandyaparva nautiluspompilius \
     octopussinensis sepiaofficianalis sepiettaobscura sepiolaaffinis \
-    sepiolaatlantica \
+    sepiolaatlantica spirulaspirula\
     --genome-base-path ./ \
     --probefile probes_combined.fasta \
     --cores 8
