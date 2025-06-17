@@ -17,7 +17,36 @@ Each is covered below. Using the original baits is pretty obvious. We also attem
 
 Each set of baits gives us some potential UCEs from each target genome. We can then combine these and extract the longest hit for each UCE from each genome, then add these to our alignments for further analysis.
 
-### Using original baits
+### Making the new baits
+
+First we make the new baits. Each is based on a list of species from the curated UCE alignments: 
+
+* `squid_spp.txt` are the squid species
+* `octopus_spp.txt` are the octopus species
+* `all_spp.txt` are all the ingroup species (squids+octopusses)
+
+Here's how you do that. First cd to the folder `4_additional_UCEs_from_genomes`
+
+``` bash
+conda env create -f environment.yml 
+conda activate uce_add
+```
+
+Then we run the script to make each set of probes. This script takes the middle 180bp of an alignment (less if it's shorter) and makes two probes of 120bp that overlap by the central 60bp. The probes are 80% majority rule - i.e. if >=80% of bases at a site are the same, then we record that base. Otherwise we record an N.
+
+``` bash
+bash make_probes.sh ../3_initial_alignment/mafft-nexus-gblocks-clean-75p/ squid_spp.txt probes_squid.fasta 
+bash make_probes.sh ../3_initial_alignment/mafft-nexus-gblocks-clean-75p/ octopus_spp.txt probes_octopus.fasta 
+bash make_probes.sh ../3_initial_alignment/mafft-nexus-gblocks-clean-75p/ all_spp.txt probes_all.fasta 
+```
+
+Finally, we concatenate all the probe files into one, so now most UCEs in our dataset are covered by the original probes, and three new probes made above.
+
+```bash
+cat ../1_bait_design/cleared_trimmed.fasta probes_squid.fasta probes_octopus.fasta probes_all.fasta > probes_combined.fasta
+``` 
+
+### Running the combined bait sets against genomes
 
 We used the UCE baits we designed in order to extract further sequence data from existing genomes. For this we used **phyluce** version 1.7.3 (Faircloth, 2016), following procedures given in Tutorial III (Harvesting UCE Loci From Genomes) at <https://phyluce.readthedocs.io/>. Downloaded genomes were converted to 2bit format using **faToTwoBit** and information from each genome was collected using **twoBitInfo**, both from the **Kent Source Archive** (<https://hgdownload.soe.ucsc.edu/admin/exe/>).
 
@@ -33,7 +62,7 @@ We aligned the UCE probes in our **clear_trimmed.fasta** file (developed in step
     octopussinensis sepiaofficianalis sepiettaobscura sepiolaaffinis \
     sepiolaatlantica \
     --genome-base-path ./ \
-    --probefile cleared_trimmed.fasta \
+    --probefile probes_combined.fasta \
     --cores 8
     
     
@@ -42,99 +71,22 @@ We aligned the UCE probes in our **clear_trimmed.fasta** file (developed in step
     --conf genomes.conf \
     --flank 500 \
     --name-pattern "probes_original.fasta_v_{}.lastz.clean" \
-    --output reseq-original-fasta
+    --output UCE_candidates_from_genomes
 ```
 
 These UCEs are output into the `/original_baits` subfolder.
 
 **DAN NOTE TO SELF: TABLE OF HOW MANY UCEs SHOW UP IN WHICH SPECIES, CSV OF 1/0 RESULTS**
 
-### Using squid baits
 
-First we make the squid baits using the squid species that we want to use in `squid_spp.txt`.
+### Adding the newly extracted UCEs to the original alignments
 
-First get the environment set up with conda:
-
-``` bash
-conda env create -f environment.yml 
-conda activate uce_add
-```
-
-Then we run the script to make probes as follows:
+Finally we add the newly extracted UCEs to the original alignments. The argument is the directory name, e.g. "reseq-squid-fasta-i80-c60". Breifly, this script takes the longest hit for each UCE from each species, reverse complements it if necessary, and then profile-aligns it to the corresponding alignment using MAFFT. Newly added sequences are given the suffix `--genome` so it's clear which taxa in the alignment come from sequencing, and which from genome extraction.
 
 ``` bash
-bash make_probes.sh ../3_initial_alignment/mafft-nexus-gblocks-clean-75p/ squid_spp.txt probes_squid.fasta 
+bash add_new_taxa_to_alignments.sh UCE_candidates_from_genomes
 ```
 
-Briefly, this script extracts the squid species from each alignment, calls a consensus sequence with EMBOSS using IUPAC codes, extracts the central 180bp of the alignment (we take this as the definition of the core), and then makes two tiled probes across this 180bp region of 120bp each (i.e. 60bp overlap in the middle). If the whole alignment is \<180bp, we make two 120bp probes with minimum overlap. If it's exactly 120bp we make a single probe. And if it's \<120bp we just skip it.
-
-The script will look for this directory in the `genome_UCEs/` subfolder, and then output the new alignments with the same directory name in the `alignments/` subfolder.
-
-Then we run the same commands as above to retrieve the UCEs with these baits. We explored a range of identity and coverage values in order to find settings that gave good results across taxa. By making appropriate susbtitutions in the code below we tried identity values of 80, 90, 95, and 99 with coverage 60, and coverage values 60, 70, 80, and 90 with identity 90.
-
-``` bash
- phyluce_probe_run_multiple_lastzs_sqlite \
-    --db reseqs.squid.i80.c60.sqlite \
-    --output reseq-squid-i80-c60-lastz \
-    --scaffoldlist doryteuthispealeii octopusminor octopusvulgaris \
-    octopusbimaculoides acanthosepionesculentum acanthosepionlycidas \
-    ascarosepionbandense doryteuthisopalescens eumandyaparva nautiluspompilius \
-    octopussinensis sepiaofficianalis sepiettaobscura sepiolaaffinis \
-    sepiolaatlantica \
-    --identity 80 --coverage 60 \
-    --genome-base-path ./ \
-    --probefile probes_squid.fasta \
-    --cores 8
-
- phyluce_probe_slice_sequence_from_genomes \
-    --lastz reseq-squid-i80-c60-lastz \
-    --conf genomes.conf \
-    --flank 500 \
-    --name-pattern "probes_squid.fasta_v_{}.lastz.clean" \
-    --output reseq-squid-i80-c60-fasta
-```
-
-Finally we add the newly extracted UCEs to the original alignment. The argument is the directory name, e.g. "reseq-squid-fasta-i80-c60".
-
-``` bash
-bash add_new_taxa_to_alignments.sh original_baits_default_setings
-bash add_new_taxa_to_alignments.sh original_baits_identity_60_coverage_80 
-bash add_new_taxa_to_alignments.sh reseq-squid-i80-c60-fasta
-bash add_new_taxa_to_alignments.sh reseq-squid-i90-c60-fasta
-bash add_new_taxa_to_alignments.sh reseq-squid-i90-c70-fasta
-bash add_new_taxa_to_alignments.sh reseq-squid-i90-c80-fasta
-bash add_new_taxa_to_alignments.sh reseq-squid-i90-c90-fasta
-bash add_new_taxa_to_alignments.sh reseq-squid-i95-c60-fasta
-bash add_new_taxa_to_alignments.sh reseq-squid-i99-c60-fasta
-```
-
-### Using octopus baits
-
-Octopus species are in `octopus_spp.txt`
-
-``` bash
-bash make_probes.sh ../3_initial_alignment/mafft-nexus-gblocks-clean-75p/ octopus_spp.txt probes_octopus.fasta 
-```
-
-Then we run the same commands as above to retrieve the UCEs with these baits:
-
-``` bash
-@DAN - can you add these commands here
-```
-
-### Using all species baits
-
-All species are in `all_spp.txt`, this is just ingroup species (i.e. octopus, squid, nautilus)
-
-``` bash
-bash make_probes.sh ../3_initial_alignment/mafft-nexus-gblocks-clean-75p/ all_spp.txt probes_all.fasta 
-```
-
-Then we run the same commands as above to retrieve the UCEs with these baits:
-
-``` bash
-@DAN - can you add these commands here
-```
 
 ## Citations
 

@@ -12,7 +12,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ALIGN_DIR="${SCRIPT_DIR}/../3_initial_alignment/mafft-nexus-gblocks-clean-75p"
 GENOME_DIR="${SCRIPT_DIR}/genome_UCEs/""$DIRNAME"
 OUT_DIR="${SCRIPT_DIR}/alignments/""$DIRNAME"
-SUFFIX="_squid"
+SUFFIX="--genome"
 THREADS=4
 
 mkdir -p "$OUT_DIR"
