@@ -9,7 +9,7 @@ Alex to fill in everything to go from the raw UCE sequences to the alignments, w
 First we estimate them with standard models
 
 ```bash
-./iqtree-3.0.1-Linux/bin/iqtree3 -S ../mafft-nexus-gblocks-clean-75p -m MFP -nt 128 --prefix loci
+./iqtree-3.0.1-Linux/bin/iqtree3 -S ../mafft-nexus-gblocks-clean-75p -m MFP -nt 128 --prefix loci_mf
 ```
 
 Then we estimate them with MixtureFinder (annoyingly, `-S` doesn't work for this so we need GNU parallel)
@@ -30,6 +30,10 @@ find "$ALIGN_DIR" -maxdepth 1 -type f -name '*.nexus' -print0 |
 
 # remove all but the .iqtree and .treefile files
 find "$OUT_DIR" -type f ! \( -name '*.iqtree' -o -name '*.treefile' \) -delete
+
+
+# put all the gene trees into a single file to use with ASTRAL later...
+cat loci_mixturefinder/CIAlign_uce-*.treefile > loci_mix.treefile 
 ```
 
 
@@ -68,60 +72,72 @@ awk '
 }' bic.txt |
 sort | uniq -c | sort -nr |                      
 awk '{cnt=$1; $1=""; sub(/^ /,""); print $0 "\t" cnt}'
+
+# then clean up all the files we don't need anymore
+rm bic.txt
+rm *.treefile
+rm *.iqtree
 ```
 
 This shows that we get a lot from the mixture models, so we should stick with them for our future analyses:
 
 ```
 Classes Frequency
-1       86
-2       375
-3       136
-4       21
-5       4
+1       80
+2       378
+3       139
+4       22
+5       3
 
 Model   Frequency
-+I+G4   286
-+G4     249
-+I+R2   39
-+R3     22
-+I      12
-+I+R3   9
-+R2     3
-+R4     2
++I+G4   298
++G4     248
++I+R2   35
++R3     21
++I      11
++R2     4
++I+R3   4
++R4     1
 
+```
+
+We can also look at the distribution of tree lengths from the two approaches:
+
+```bash
+cd ..
+
+Rscript tree_lengths.R
 ```
 
 ## ASTRAL tree
 
-A good sanity check here is to run a tree with ASTRAL:
+A good sanity check here is to run a tree with ASTRAL. Run this from within the `/gene_trees` folder.
 
 ```bash
-cat CIAlign_uce-*.treefile > gene_trees.tre 
+
 astral -Xmx32G \
-       -i gene_trees.tre \
-       -o astral_species_tree.tre  \
+       -i loci_mix.treefile \
+       -o astral_species_tree_mix.tre  \
        2> astral.log
 
-# then clean up all but the genetrees.tre file
-rm bic.txt
-rm *.treefile
-rm *.iqtree
+astral -Xmx32G \
+       -i loci_mf.treefile \
+       -o astral_species_tree_mf.tre  \
+       2> astral.log
 
 ```
 
 ## Concatenated tree
 
-With normal partitioned models
+With normal partitioned models. Run this from within the `/gene_trees` folder.
+
 ```bash
-cd ..
 ./iqtree-3.0.1-Linux/bin/iqtree3 -p ../mafft-nexus-gblocks-clean-75p --prefix concat_merge -m MFP+MERGE -B 1000 -T 128
-
 ```
 
-With MixtureFinder
+With MixtureFinder. Run this from within the `/gene_trees` folder. The first line makes a concatenated alignment.
 
-```
+```bash
 ./iqtree-3.0.1-Linux/bin/iqtree3 -p ../mafft-nexus-gblocks-clean-75p --out-aln ceph_supermatrix.fasta --out-format FASTA
-./iqtree-3.0.1-Linux/bin/iqtree3 -p ../mafft-nexus-gblocks-clean-75p/  --prefix concat -m MIX+MFP -B 1000 -T 128
+./iqtree-3.0.1-Linux/bin/iqtree3 -s ceph_supermatrix.fasta --prefix concat_mix -m MIX+MFP -B 1000 -T 128
 ```

@@ -10,3 +10,8 @@ dependencies:
   - seqmagick        
   - emboss           
   - astral-tree    
+  - r-base
+  - r-ape
+  - r-phangorn
+  - r-ggplot2
+  - r-dplyr

@@ -35,12 +35,26 @@ for fa in "${TMP}"/CIAlign_uce-*.fa; do
 
     # go through the extracted UCEs, pick the longest match for each UCE, and add that to the addfile
     for gf in "${GENOME_DIR}"/*.fasta; do
-        base=$(basename "${gf}" .fasta)   # e.g. loligo_pealeii
-        species="${base}""$SUFFIX"
+        base=$(basename "${gf}" .fasta)              # e.g. loligo_pealeii
+        species="${base}${SUFFIX}"
+
+        # ── grab the longest match for this UCE into a temp file ──────────────
+        cand=$(mktemp)
         seqkit grep -n -r -p "uce-${uce}\b" "$gf" \
-          | seqkit sort -l -r \
-          | seqkit head -n 1 \
-          | seqkit replace -p '.*' -r "$species" >> "$addfile"
+            | seqkit sort -l -r \
+            | seqkit head -n 1 > "$cand"
+
+        # ── skip if nothing found ─────────────────────────────────────────────
+        grep -q '^>' "$cand" || { rm -f "$cand"; continue; }
+
+        # ── reverse‑complement if orient:{'-'} is present ─────────────────────
+        if grep -q "orient:{'-'}" "$cand"; then
+            seqkit seq --seq-type DNA --reverse --complement "$cand" \
+                | seqkit replace -p '.*' -r "$species" >> "$addfile"
+        else
+            seqkit replace -p '.*' -r "$species" "$cand" >> "$addfile"
+        fi
+        rm -f "$cand"
     done
 
     grep -qv '^>' "${addfile}" || continue
