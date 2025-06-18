@@ -146,6 +146,8 @@ rm "$tmp"
 ```
 
 
+Taxon occupancy is good. The taxa with the fewest loci are one of the outgroups (gymnodoris_subflava, 69 loci), and spirula_spirula, which has 71 loci. This is enough to place them in a concatenated phylogeny.
+
 ## Citations
 
 Faircloth, Brant C. 2016. "PHYLUCE Is a Software Package for the Analysis of Conserved Genomic Loci." Bioinformatics 32 (5): 786--88.
