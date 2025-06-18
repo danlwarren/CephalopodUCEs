@@ -1,0 +1,298 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: alignments/UCE_candidates_from_genomes/CIAlign_uce-17715.fa
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 201856
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 55 sequences with 398 nucleotide sites
+Number of constant sites: 204 (= 51.2563% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 204 (= 51.2563% of all sites)
+Number of parsimony informative sites: 174
+Number of distinct site patterns: 205
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TVM+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TVM+I+G4          -4104.054    8434.108 +    0.197    8524.826 +    0.227    8884.577 +     0.12
+TVMe+I+G4         -4104.056    8434.113 +    0.196    8524.831 +    0.227    8884.582 +     0.12
+TVMe+I+G4         -4104.056    8434.113 +    0.196    8524.831 +    0.227    8884.582 +     0.12
+K3Pu+I+G4         -4110.199    8442.399 -  0.00311    8529.336 -   0.0238    8884.895 +    0.102
+K3P+I+G4          -4110.201    8442.402 -  0.00311    8529.339 -   0.0238    8884.898 +    0.102
+K3P+I+G4          -4110.201    8442.402 -  0.00311    8529.339 -   0.0238    8884.898 +    0.102
+TPM3u+I+G4        -4110.398    8442.795 -  0.00255    8529.732 -   0.0196    8885.291 +   0.0839
+TPM3+I+G4         -4110.398    8442.796 -  0.00255    8529.733 -   0.0196    8885.292 +   0.0839
+TPM3+I+G4         -4110.398    8442.796 -  0.00255    8529.733 -   0.0196    8885.292 +   0.0839
+GTR+I+G4          -4103.581    8435.161 +    0.116    8527.812 +   0.0511    8889.617 -  0.00965
+SYM+I+G4          -4103.581    8435.162 +    0.116    8527.813 +   0.0511    8889.618 -  0.00964
+SYM+I+G4          -4103.581    8435.162 +    0.116    8527.813 +   0.0511    8889.618 -  0.00964
+TIM+I+G4          -4109.576    8443.152 -  0.00214    8531.966 -   0.0064    8889.635 -  0.00956
+TIMe+I+G4         -4109.578    8443.155 -  0.00213    8531.969 -  0.00639    8889.638 -  0.00955
+TIMe+I+G4         -4109.578    8443.155 -  0.00213    8531.969 -  0.00639    8889.638 -  0.00955
+TIM3+I+G4         -4109.895    8443.789 -  0.00155    8532.603 -  0.00465    8890.272 -  0.00695
+TIM3e+I+G4        -4109.896    8443.792 -  0.00155    8532.606 -  0.00465    8890.274 -  0.00695
+TIM3e+I+G4        -4109.896    8443.792 -  0.00155    8532.606 -  0.00465    8890.274 -  0.00695
+HKY+I+G4          -4117.643    8455.286 - 4.95e-06    8540.373 - 9.57e-05    8893.795 -  0.00119
+K2P+I+G4          -4117.649    8455.297 - 4.92e-06    8540.384 - 9.51e-05    8893.807 -  0.00119
+K2P+I+G4          -4117.649    8455.297 - 4.92e-06    8540.384 - 9.51e-05    8893.807 -  0.00119
+TIM+F+I+G4        -4104.971    8439.943 -   0.0106    8534.553 -  0.00176    8898.385 -  0.00012
+TN+I+G4           -4116.961    8455.922 -  3.6e-06    8542.859 - 2.76e-05    8898.418 - 0.000118
+TNe+I+G4          -4116.964    8455.928 - 3.59e-06    8542.865 - 2.75e-05    8898.424 - 0.000118
+TNe+I+G4          -4116.964    8455.928 - 3.59e-06    8542.865 - 2.75e-05    8898.424 - 0.000118
+TPM2u+I+G4        -4117.552    8457.104 -    2e-06    8544.041 - 1.53e-05    8899.600 - 6.56e-05
+TPM2+I+G4         -4117.552    8457.104 - 1.99e-06    8544.041 - 1.53e-05    8899.600 - 6.56e-05
+TPM2+I+G4         -4117.552    8457.104 - 1.99e-06    8544.041 - 1.53e-05    8899.600 - 6.56e-05
+TIM2+I+G4         -4116.866    8457.732 - 1.46e-06    8546.546 - 4.37e-06    8904.214 - 6.53e-06
+TIM2e+I+G4        -4116.867    8457.733 - 1.46e-06    8546.547 - 4.36e-06    8904.216 - 6.52e-06
+TIM2e+I+G4        -4116.867    8457.733 - 1.46e-06    8546.547 - 4.36e-06    8904.216 - 6.52e-06
+GTR+F+I+G4        -4102.163    8438.327 -   0.0238    8536.941 - 0.000532    8904.742 - 5.01e-06
+TIM3+F+I+G4       -4108.227    8446.454 -  0.00041    8541.064 - 6.77e-05    8904.896 - 4.64e-06
+TN+F+I+G4         -4111.712    8451.424 - 3.41e-05    8544.074 -  1.5e-05    8905.880 - 2.84e-06
+K3Pu+F+I+G4       -4111.735    8451.470 - 3.34e-05    8544.120 - 1.47e-05    8905.925 - 2.77e-06
+TIM2+F+I+G4       -4111.600    8453.200 - 1.41e-05    8547.810 - 2.32e-06    8911.642 - 1.59e-07
+TVM+F+I+G4        -4108.669    8449.337 - 9.69e-05    8545.935 - 5.93e-06    8911.766 -  1.5e-07
+TPM3u+F+I+G4      -4114.842    8457.685 - 1.49e-06    8550.335 - 6.57e-07    8912.140 - 1.24e-07
+HKY+F+I+G4        -4118.618    8463.236 -  9.3e-08    8553.954 - 1.08e-07    8913.705 - 5.67e-08
+TPM2u+F+I+G4      -4118.525    8465.051 - 3.75e-08    8557.701 - 1.65e-08    8919.506 - 3.12e-09
+F81+I+G4          -4260.348    8738.697 - 1.42e-67    8821.961 - 6.83e-66    9173.220 - 2.52e-64
+JC+I+G4           -4260.404    8738.807 - 1.35e-67    8822.071 - 6.47e-66    9173.331 - 2.38e-64
+JC+I+G4           -4260.404    8738.807 - 1.35e-67    8822.071 - 6.47e-66    9173.331 - 2.38e-64
+JC+I+R2           -4262.459    8744.918 - 6.34e-69    8830.006 - 1.22e-67    9183.428 - 1.53e-66
+JC+R3             -4261.184    8744.368 - 8.35e-69    8831.305 - 6.39e-68    9186.864 - 2.74e-67
+JC+G4             -4270.647    8757.294 -  1.3e-71    8838.761 - 1.54e-69    9187.831 - 1.69e-67
+JC+I+R3           -4260.722    8745.443 - 4.87e-69    8834.257 - 1.46e-68    9191.926 - 2.18e-68
+JC+R4             -4260.957    8747.914 - 1.42e-69    8838.632 - 1.64e-69    9198.383 - 8.64e-70
+F81+F+I+G4        -4265.136    8754.272 -  5.9e-71    8843.086 - 1.77e-70    9200.755 - 2.64e-70
+JC+R2             -4280.721    8779.441 - 2.02e-76    8862.705 - 9.71e-75    9213.965 - 3.57e-73
+JC+I              -4317.324    8850.648 - 6.97e-92    8932.115 - 8.22e-90    9281.185 - 9.05e-88
+JC                -4658.106    9530.212 - 1.9e-239    9609.908 - 5.42e-237    9956.762 - 1.81e-234
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TVM+F+I+G4
+
+Rate parameter R:
+
+  A-C: 0.7498
+  A-G: 2.8960
+  A-T: 0.5844
+  C-G: 0.3097
+  C-T: 2.8960
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2247
+  pi(C) = 0.2542
+  pi(G) = 0.2144
+  pi(T) = 0.3067
+
+Rate matrix Q:
+
+  A    -0.933    0.1795    0.5847    0.1687
+  C    0.1586    -1.057   0.06253    0.8362
+  G    0.6126   0.07413   -0.9755    0.2887
+  T    0.1236    0.6932    0.2019    -1.019
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.436
+Gamma shape alpha: 1.115
+
+ Category  Relative_rate  Proportion
+  0         0              0.436
+  1         0.2824         0.141
+  2         0.902          0.141
+  3         1.803          0.141
+  4         4.106          0.141
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4102.1222 (s.e. 217.9801)
+Unconstrained log-likelihood (without tree): -1790.4181
+Number of free parameters (#branches + #model parameters): 116
+Akaike information criterion (AIC) score: 8436.2444
+Corrected Akaike information criterion (AICc) score: 8532.8422
+Bayesian information criterion (BIC) score: 8898.6728
+
+Total tree length (sum of branch lengths): 2.8766
+Sum of internal branch lengths: 0.9495 (33.0084% of tree length)
+
+WARNING: 10 near-zero internal branches (<0.0025) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ancistrocheirus_lesueurii' is drawn at root
+
++--ancistrocheirus_lesueurii
+|
+|     +--architeuthis_dux
+|  +**|
+|  |  |     +--brachioteuthis_beanii
+|  |  |  +**|
+|  |  |  |  +--octopoteuthis_nielseni
+|  |  +--|
+|  |     |  +--galituethis_sp
+|  |     +--|
+|  |        |  +--gonatus_onyx
+|  |        +--|
+|  |           +-----onychoteuthis_banksii
++**|
+|  |                                                                 +---------argonauta_hians
+|  |                                                          +------|
+|  |                                                          |      +-----tremoctopus_violaceus
+|  |                                                       +--|
+|  |                                                       |  |           +--hapalochlaena_lunulata
+|  |                                                       |  |        +--|
+|  |                                                       |  |        |  +--octopusbimaculoides--genome
+|  |                                                       |  |     +--|
+|  |                                                       |  |     |  +--octopus_oliveri
+|  |                                                       |  |  +--|
+|  |                                                       |  |  |  |  +**octopussinensis--genome
+|  |                                                       |  |  |  +--|
+|  |                                                       |  |  |     +**octopusvulgaris--genome
+|  |                                                       |  +--|
+|  |                                                       |     +-----octopusminor--genome
+|  |                                                    +--|
+|  |                                                    |  |  +------eledone_cirrhosa
+|  |                                                    |  +--|
+|  |                                                    |     +----japetella_diaphana
+|  |                                                 +--|
+|  |                                                 |  |     +--benthoctopus_normani
+|  |                                                 |  |  +--|
+|  |                                                 |  |  |  +--octopus_californicus
+|  |                                                 |  +--|
+|  |                                                 |     +--enteroctopus_dofleini
+|  |                                      +----------|
+|  |                                      |          +----pareledone_charcoti
+|  |                                  +---|
+|  |                                  |   +-----------opisthoteuthis_californiana
+|  |                             +----|
+|  |                             |    +--------vampyroteuthis_infernalis
+|  |                 +-----------|
+|  |                 |           |                                +**nautilus_macromphalus
+|  |                 |           +--------------------------------|
+|  |                 |                                            +**nautiluspompilius--genome
+|  |              +--|
+|  |              |  |           +--heteroteuthis_hawaiensis
+|  |              |  |        +--|
+|  |              |  |        |  |  +--rossia_pacifica
+|  |              |  |        |  +--|
+|  |              |  |        |     |  +--sepiola_parva
+|  |              |  |        |     +--|
+|  |              |  |        |        |  +--sepiettaobscura--genome
+|  |              |  |        |        +--|
+|  |              |  |        |           |  +**sepiolaaffinis--genome
+|  |              |  |        |           +**|
+|  |              |  |        |              +**sepiolaatlantica--genome
+|  |              |  |     +--|
+|  |              |  |     |  |  +**sepioteuthis_lessoniana
+|  |              |  |     |  +--|
+|  |              |  |     |     |  +**doryteuthisopalescens--genome
+|  |              |  |     |     +--|
+|  |              |  |     |        +**doryteuthispealeii--genome
+|  |              |  |  +--|
+|  |              |  |  |  |  +--idiosepius_sp
+|  |              |  |  |  +--|
+|  |              |  |  |     +--sepiadarium_kochi_mainland
+|  |              |  +--|
+|  |              |     |        +--metasepia_tulbergi
+|  |              |     |     +--|
+|  |              |     |     |  +--sepia_latimanus
+|  |              |     |  +**|
+|  |              |     |  |  +**sepia_pharaonis
+|  |              |     +--|
+|  |              |        |        +**acanthosepionesculentum--genome
+|  |              |        |     +**|
+|  |              |        |     |  +**acanthosepionlycidas--genome
+|  |              |        |  +**|
+|  |              |        |  |  +--ascarosepionbandense--genome
+|  |              |        +--|
+|  |              |           +--sepiaofficianalis--genome
+|  |           +--|
+|  |           |  +--bathyteuthis_abyssicola
+|  |        +--|
+|  |        |  +--nototodarus_hawaiiensis
+|  |     +**|
+|  |     |  +--cranchia_scabra
+|  |  +--|
+|  |  |  +--thysanoteuthis_rhombus
+|  +**|
+|     |  +--histioteuthis_corona_inermis
+|     +--|
+|        +--selenoteuthis_scintillans
+|
+|        +--chiroteuthis_picteti
+|     +--|
+|     |  |  +--joubiniteuthis_portieri
+|     |  +--|
+|     |     +--mastigoteuthis_agassizii
+|  +**|
+|  |  +--discoteuthis_sp
++--|
+   |  +**pholidoteuthis_adami
+   +--|
+      +--pholidoteuthis_massyae
+
+Tree in newick format:
+
+(ancistrocheirus_lesueurii:0.0026047416,((architeuthis_dux:0.0187490848,((brachioteuthis_beanii:0.0369019828,octopoteuthis_nielseni:0.0090150983):0.0008463251,(galituethis_sp:0.0303980665,(gonatus_onyx:0.0463720285,onychoteuthis_banksii:0.0781036813):0.0107403905):0.0097865133):0.0064152939):0.0000010032,((((((((((((((argonauta_hians:0.1315867269,tremoctopus_violaceus:0.0809693502):0.0976463657,((((hapalochlaena_lunulata:0.0110199872,octopusbimaculoides--genome:0.0222861802):0.0037579918,octopus_oliveri:0.0059612474):0.0060765938,(octopussinensis--genome:0.0000010032,octopusvulgaris--genome:0.0000010032):0.0233293128):0.0207043716,octopusminor--genome:0.0856786704):0.0161853866):0.0448848153,(eledone_cirrhosa:0.0952837956,japetella_diaphana:0.0639349299):0.0167571267):0.0065630562,((benthoctopus_normani:0.0158736008,octopus_californicus:0.0140092792):0.0114232393,enteroctopus_dofleini:0.0110909689):0.0381693957):0.0109832413,pareledone_charcoti:0.0635367158):0.1462373235,opisthoteuthis_californiana:0.1555171448):0.0566460714,vampyroteuthis_infernalis:0.1170784183):0.0711687513,(nautilus_macromphalus:0.0000010032,nautiluspompilius--genome:0.0000010032):0.4227417052):0.1562004484,((((heteroteuthis_hawaiensis:0.0149864585,(rossia_pacifica:0.0412398171,(sepiola_parva:0.0090240855,(sepiettaobscura--genome:0.0394931675,(sepiolaaffinis--genome:0.0000010032,sepiolaatlantica--genome:0.0000010032):0.0010806379):0.0199579597):0.0270225475):0.0060773871):0.0203023481,(sepioteuthis_lessoniana:0.0000010032,(doryteuthisopalescens--genome:0.0000010032,doryteuthispealeii--genome:0.0000010032):0.0187487521):0.0148359355):0.0032530069,(idiosepius_sp:0.0333784257,sepiadarium_kochi_mainland:0.0406446007):0.0126194128):0.0098968141,(((metasepia_tulbergi:0.0026300011,sepia_latimanus:0.0079584964):0.0026277728,sepia_pharaonis:0.0000010032):0.0000020529,(((acanthosepionesculentum--genome:0.0000010032,acanthosepionlycidas--genome:0.0000010032):0.0000010032,ascarosepionbandense--genome:0.0052789147):0.0000022710,sepiaofficianalis--genome:0.0078903694):0.0159490871):0.0209881050):0.0051919858):0.0071981690,bathyteuthis_abyssicola:0.0261473516):0.0073302428,nototodarus_hawaiiensis:0.0302899598):0.0075722234,cranchia_scabra:0.0141171592):0.0024198135,thysanoteuthis_rhombus:0.0053031803):0.0052427144,(histioteuthis_corona_inermis:0.0108141480,selenoteuthis_scintillans:0.0168170944):0.0027877899):0.0000010032):0.0000010032,(((chiroteuthis_picteti:0.0188486700,(joubiniteuthis_portieri:0.0053166288,mastigoteuthis_agassizii:0.0162875546):0.0027519799):0.0026718712,discoteuthis_sp:0.0161070717):0.0000010032,(pholidoteuthis_adami:0.0000010032,pholidoteuthis_massyae:0.0026036873):0.0190022723):0.0026090038);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t gene_trees/CIAlign_uce-17715.treefile -m "TVM{0.749772,2.89599,0.584399,0.309692}+F{0.224663,0.254233,0.214449,0.306655}+I{0.436039}+G4{1.11469}" --length 398
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s alignments/UCE_candidates_from_genomes/CIAlign_uce-17715.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s alignments/UCE_candidates_from_genomes/CIAlign_uce-17715.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Jun 18 07:26:27 2025
+Total CPU time used: 10.8072 seconds (0h:0m:10s)
+Total wall-clock time used: 11.3744 seconds (0h:0m:11s)
+

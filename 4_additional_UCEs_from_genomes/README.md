@@ -87,6 +87,64 @@ Finally we add the newly extracted UCEs to the original alignments. The argument
 bash add_new_taxa_to_alignments.sh UCE_candidates_from_genomes
 ```
 
+### Gene trees
+
+Finally we make gene trees which helps to QC the alignments. I use parallel here so I get one file per gene for QC.
+
+```bash
+ALIGN_DIR="alignments/UCE_candidates_from_genomes" 
+OUT_DIR="gene_trees"
+JOBS=128
+
+mkdir -p "$OUT_DIR"
+
+find "$ALIGN_DIR" -maxdepth 1 -type f -name '*.fa' -print0 |
+  parallel -0 -j "$JOBS" --eta \
+    '../3_initial_alignment/gene_trees/iqtree-3.0.1-Linux/bin/iqtree3 -s {} -m MFP -nt 1 -pre '"$OUT_DIR"'/{/.}'
+
+# remove all but the .iqtree and .treefile files
+find "$OUT_DIR" -type f ! \( -name '*.iqtree' -o -name '*.treefile' \) -delete
+```
+
+
+### Concat tree
+
+```bash
+../3_initial_alignment/gene_trees/iqtree-3.0.1-Linux/bin/iqtree3 -p $ALIGN_DIR --prefix concat_merge -m MFP+MERGE -B 1000 -T 128
+```
+
+### Alignment stats
+
+Let's get some stats across all alignments. This gives a summary file that's useful.
+
+```bash
+ALIGN_DIR="alignments/UCE_candidates_from_genomes/"
+
+# get all the fasta files
+mapfile -t FILES < <(find "$ALIGN_DIR" -type f -name '*.fa' | sort)
+
+AMAS.py summary \
+    -d dna \
+    -f fasta \
+    -c 128 \
+    -s \
+    -o "alignments/UCE_candidates_from_genomes.tsv" \
+    -i "${FILES[@]}"
+```
+
+Now lets get taxon occupancy.
+
+```bash
+tmp="alignments/.taxon_raw.txt"
+> "$tmp"
+for aln in "${FILES[@]}"; do
+    seqkit fx2tab -n "$aln" | awk '{print $1}' | sort -u >> "$tmp"
+done
+
+sort "$tmp" | uniq -c | awk '{print $2"\t"$1}' | sort -k2,2nr > "alignments/taxon_counts.tsv"
+rm "$tmp"
+```
+
 
 ## Citations
 

@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-# add_genome_uces.sh
-# Put this file in 4_additional_UCEs_from_genomes/
-# Run it from that same directory (`./add_genome_uces.sh`).
 
 set -euo pipefail
 

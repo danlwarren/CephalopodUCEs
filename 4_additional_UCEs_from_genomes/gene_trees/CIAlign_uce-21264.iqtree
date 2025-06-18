@@ -1,0 +1,372 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: alignments/UCE_candidates_from_genomes/CIAlign_uce-21264.fa
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 266154
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 51 sequences with 152 nucleotide sites
+Number of constant sites: 88 (= 57.8947% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 88 (= 57.8947% of all sites)
+Number of parsimony informative sites: 53
+Number of distinct site patterns: 67
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: K2P+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+K2P+I+G4          -1232.593    2669.186 -   0.0175    3098.003 - 0.000807    2977.622 +    0.126
+K2P+I+G4          -1232.593    2669.186 -   0.0175    3098.003 - 0.000807    2977.622 +    0.126
+HKY+I+G4          -1232.594    2669.187 -   0.0175    3098.004 - 0.000807    2977.623 +    0.126
+K2P+G4            -1235.941    2673.882 -  0.00167    3085.962 +    0.332    2979.294 +   0.0546
+K2P+G4            -1235.941    2673.882 -  0.00167    3085.962 +    0.332    2979.294 +   0.0546
+HKY+G4            -1235.943    2673.886 -  0.00167    3085.966 +    0.332    2979.298 +   0.0544
+TN+I+G4           -1231.166    2668.331 -   0.0268    3114.665 - 1.95e-07    2979.791 -   0.0425
+TNe+I+G4          -1231.166    2668.332 -   0.0268    3114.665 - 1.95e-07    2979.791 -   0.0425
+TNe+I+G4          -1231.166    2668.332 -   0.0268    3114.665 - 1.95e-07    2979.791 -   0.0425
+TNe+G4            -1234.218    2672.437 -  0.00344    3101.253 - 0.000159    2980.872 -   0.0248
+TNe+G4            -1234.218    2672.437 -  0.00344    3101.253 - 0.000159    2980.872 -   0.0248
+TN+G4             -1234.219    2672.437 -  0.00344    3101.253 - 0.000159    2980.873 -   0.0248
+TPM3+I+G4         -1232.053    2670.106 -    0.011    3116.439 - 8.01e-08    2981.566 -   0.0175
+TPM3+I+G4         -1232.053    2670.106 -    0.011    3116.439 - 8.01e-08    2981.566 -   0.0175
+TPM3u+I+G4        -1232.055    2670.110 -    0.011    3116.444 - 7.99e-08    2981.570 -   0.0175
+K3Pu+I+G4         -1232.481    2670.961 -   0.0072    3117.295 - 5.22e-08    2982.421 -   0.0114
+K3P+I+G4          -1232.483    2670.966 -  0.00719    3117.299 - 5.21e-08    2982.426 -   0.0114
+K3P+I+G4          -1232.483    2670.966 -  0.00719    3117.299 - 5.21e-08    2982.426 -   0.0114
+TPM2u+I+G4        -1232.566    2671.133 -  0.00661    3117.466 - 4.79e-08    2982.593 -   0.0105
+TPM2+I+G4         -1232.583    2671.167 -   0.0065    3117.500 - 4.71e-08    2982.627 -   0.0103
+TPM2+I+G4         -1232.583    2671.167 -   0.0065    3117.500 - 4.71e-08    2982.627 -   0.0103
+TPM3u+G4          -1235.347    2674.695 -  0.00111    3103.511 - 5.14e-05    2983.130 -  0.00801
+TPM3+G4           -1235.352    2674.705 -  0.00111    3103.521 - 5.12e-05    2983.141 -  0.00797
+TPM3+G4           -1235.352    2674.705 -  0.00111    3103.521 - 5.12e-05    2983.141 -  0.00797
+TIM3+I+G4         -1230.574    2669.148 -   0.0178    3133.829 - 1.34e-11    2983.632 -  0.00623
+TIM3e+I+G4        -1230.575    2669.150 -   0.0178    3133.831 - 1.34e-11    2983.633 -  0.00623
+TIM3e+I+G4        -1230.575    2669.150 -   0.0178    3133.831 - 1.34e-11    2983.633 -  0.00623
+K3Pu+G4           -1235.845    2675.691 - 0.000677    3104.507 - 3.12e-05    2984.126 -  0.00487
+K3P+G4            -1235.857    2675.715 - 0.000669    3104.531 - 3.09e-05    2984.151 -  0.00481
+K3P+G4            -1235.857    2675.715 - 0.000669    3104.531 - 3.09e-05    2984.151 -  0.00481
+TPM2u+G4          -1235.913    2675.826 - 0.000633    3104.642 - 2.92e-05    2984.262 -  0.00455
+TPM2+G4           -1235.936    2675.872 - 0.000618    3104.688 - 2.85e-05    2984.307 -  0.00445
+TPM2+G4           -1235.936    2675.872 - 0.000618    3104.688 - 2.85e-05    2984.307 -  0.00445
+HKY+F+I+G4        -1228.491    2666.981 +   0.0527    3150.894 - 2.64e-15    2984.489 -  0.00406
+TIM+I+G4          -1231.067    2670.134 -   0.0109    3134.815 -  8.2e-12    2984.617 -  0.00381
+TIMe+I+G4         -1231.071    2670.143 -   0.0108    3134.824 - 8.16e-12    2984.626 -  0.00379
+TIMe+I+G4         -1231.071    2670.143 -   0.0108    3134.824 - 8.16e-12    2984.626 -  0.00379
+TIM3+G4           -1233.588    2673.175 -  0.00238    3119.508 - 1.73e-08    2984.635 -  0.00378
+TIM3e+G4          -1233.594    2673.188 -  0.00237    3119.521 - 1.72e-08    2984.647 -  0.00375
+TIM3e+G4          -1233.594    2673.188 -  0.00237    3119.521 - 1.72e-08    2984.647 -  0.00375
+TIM2+I+G4         -1231.159    2670.317 -  0.00994    3134.998 - 7.48e-12    2984.801 -  0.00347
+TIM2e+I+G4        -1231.164    2670.328 -  0.00988    3135.009 - 7.44e-12    2984.812 -  0.00346
+TIM2e+I+G4        -1231.164    2670.328 -  0.00988    3135.009 - 7.44e-12    2984.812 -  0.00346
+HKY+F+G4          -1231.552    2671.104 -  0.00671    3135.785 - 5.05e-12    2985.588 -  0.00234
+TIM+G4            -1234.129    2674.258 -  0.00139    3120.591 -    1e-08    2985.718 -   0.0022
+TIMe+G4           -1234.137    2674.274 -  0.00137    3120.608 - 9.97e-09    2985.734 -  0.00218
+TIMe+G4           -1234.137    2674.274 -  0.00137    3120.608 - 9.97e-09    2985.734 -  0.00218
+TIM2+G4           -1234.214    2674.428 -  0.00127    3120.761 - 9.23e-09    2985.888 -  0.00202
+TIM2e+G4          -1234.227    2674.454 -  0.00126    3120.787 - 9.11e-09    2985.914 -  0.00199
+TIM2e+G4          -1234.227    2674.454 -  0.00126    3120.787 - 9.11e-09    2985.914 -  0.00199
+HKY+R3            -1231.848    2671.696 -  0.00499    3136.377 - 3.75e-12    2986.179 -  0.00174
+K2P+R3            -1231.854    2671.708 -  0.00496    3136.389 - 3.73e-12    2986.191 -  0.00173
+K2P+R3            -1231.854    2671.708 -  0.00496    3136.389 - 3.73e-12    2986.191 -  0.00173
+TPM2u+F+I+G4      -1227.164    2666.329 +    0.073    3170.418 - 1.52e-19    2986.860 -  0.00124
+TN+R3             -1229.940    2669.880 -   0.0124    3153.793 -  6.2e-16    2987.388 - 0.000953
+TNe+R3            -1229.941    2669.881 -   0.0124    3153.794 -  6.2e-16    2987.389 - 0.000953
+TNe+R3            -1229.941    2669.881 -   0.0124    3153.794 -  6.2e-16    2987.389 - 0.000953
+TPM3u+F+I+G4      -1227.519    2667.037 +   0.0512    3171.126 - 1.07e-19    2987.569 - 0.000871
+TPM2u+F+G4        -1230.212    2670.425 -  0.00942    3154.338 - 4.72e-16    2987.932 - 0.000726
+TPM3u+F+G4        -1230.554    2671.108 -  0.00669    3155.021 - 3.36e-16    2988.616 - 0.000516
+K3Pu+F+I+G4       -1228.297    2668.594 -   0.0235    3172.683 -  4.9e-20    2989.126 -   0.0004
+TN+F+I+G4         -1228.301    2668.602 -   0.0234    3172.691 - 4.89e-20    2989.133 - 0.000398
+TPM3u+R3          -1231.202    2672.403 -   0.0035    3156.316 - 1.76e-16    2989.911 -  0.00027
+TPM3+R3           -1231.202    2672.405 -   0.0035    3156.318 - 1.75e-16    2989.912 -  0.00027
+TPM3+R3           -1231.202    2672.405 -   0.0035    3156.318 - 1.75e-16    2989.912 -  0.00027
+K3Pu+F+G4         -1231.367    2672.735 -  0.00297    3156.648 - 1.49e-16    2990.242 - 0.000229
+TN+F+G4           -1231.483    2672.966 -  0.00264    3156.879 - 1.33e-16    2990.474 - 0.000204
+K3Pu+R3           -1231.734    2673.467 -  0.00206    3157.380 - 1.03e-16    2990.975 - 0.000159
+K3P+R3            -1231.735    2673.471 -  0.00205    3157.384 - 1.03e-16    2990.978 - 0.000158
+K3P+R3            -1231.735    2673.471 -  0.00205    3157.384 - 1.03e-16    2990.978 - 0.000158
+TPM2u+R3          -1231.820    2673.640 -  0.00189    3157.553 - 9.46e-17    2991.148 - 0.000145
+TVM+I+G4          -1231.824    2673.649 -  0.00188    3157.562 - 9.42e-17    2991.156 - 0.000145
+TVMe+I+G4         -1231.825    2673.651 -  0.00188    3157.564 - 9.41e-17    2991.158 - 0.000145
+TVMe+I+G4         -1231.825    2673.651 -  0.00188    3157.564 - 9.41e-17    2991.158 - 0.000145
+TPM2+R3           -1231.838    2673.675 -  0.00185    3157.588 -  9.3e-17    2991.182 - 0.000143
+TPM2+R3           -1231.838    2673.675 -  0.00185    3157.588 -  9.3e-17    2991.182 - 0.000143
+TIM3+R3           -1229.348    2670.696 -  0.00822    3174.785 - 1.71e-20    2991.228 -  0.00014
+TIM3e+R3          -1229.361    2670.722 -  0.00812    3174.811 - 1.69e-20    2991.253 - 0.000138
+TIM3e+R3          -1229.361    2670.722 -  0.00812    3174.811 - 1.69e-20    2991.253 - 0.000138
+TIM2+F+I+G4       -1226.933    2667.866 -   0.0339    3193.139 - 1.77e-24    2991.422 - 0.000127
+TIM+R3            -1229.849    2671.698 -  0.00498    3175.787 - 1.04e-20    2992.230 - 8.47e-05
+TIM3+F+I+G4       -1227.345    2668.689 -   0.0224    3193.962 - 1.17e-24    2992.245 - 8.41e-05
+TIM2+R3           -1229.937    2671.874 -  0.00456    3175.963 - 9.51e-21    2992.405 - 7.76e-05
+TIMe+R3           -1229.940    2671.880 -  0.00455    3175.969 - 9.48e-21    2992.411 - 7.73e-05
+TIMe+R3           -1229.940    2671.880 -  0.00455    3175.969 - 9.48e-21    2992.411 - 7.73e-05
+TIM2e+R3          -1230.010    2672.019 -  0.00424    3176.108 - 8.85e-21    2992.551 - 7.21e-05
+TIM2e+R3          -1230.010    2672.019 -  0.00424    3176.108 - 8.85e-21    2992.551 - 7.21e-05
+HKY+F+R3          -1227.515    2669.030 -   0.0189    3194.302 - 9.91e-25    2992.585 - 7.09e-05
+TIM2+F+G4         -1230.112    2672.225 -  0.00383    3176.314 - 7.98e-21    2992.756 - 6.51e-05
+TVMe+G4           -1235.137    2678.273 - 0.000186    3142.954 -  1.4e-13    2992.757 - 6.51e-05
+TVMe+G4           -1235.137    2678.273 - 0.000186    3142.954 -  1.4e-13    2992.757 - 6.51e-05
+TVM+G4            -1235.137    2678.273 - 0.000186    3142.954 -  1.4e-13    2992.757 - 6.51e-05
+SYM+I+G4          -1230.371    2672.742 -  0.00296    3176.831 - 6.16e-21    2993.274 - 5.02e-05
+SYM+I+G4          -1230.371    2672.742 -  0.00296    3176.831 - 6.16e-21    2993.274 - 5.02e-05
+GTR+I+G4          -1230.371    2672.743 -  0.00296    3176.832 - 6.16e-21    2993.274 - 5.02e-05
+TIM3+F+G4         -1230.489    2672.978 -  0.00263    3177.067 - 5.48e-21    2993.509 - 4.47e-05
+TIM+F+I+G4        -1228.080    2670.160 -   0.0108    3195.433 - 5.63e-25    2993.715 - 4.03e-05
+SYM+G4            -1233.399    2676.798 - 0.000389    3160.711 - 1.95e-17    2994.305 -    3e-05
+SYM+G4            -1233.399    2676.798 - 0.000389    3160.711 - 1.95e-17    2994.305 -    3e-05
+GTR+G4            -1233.402    2676.805 - 0.000388    3160.718 - 1.94e-17    2994.312 - 2.99e-05
+TVM+F+I+G4        -1225.898    2667.796 -   0.0351    3215.331 - 2.69e-29    2994.375 -  2.9e-05
+TIM+F+G4          -1231.292    2674.584 -  0.00118    3178.673 - 2.45e-21    2995.115 -    2e-05
+TPM2u+F+R3        -1226.413    2668.826 -    0.021    3216.360 - 1.61e-29    2995.405 - 1.73e-05
+TVM+F+G4          -1228.949    2671.897 -  0.00451    3197.170 - 2.36e-25    2995.452 - 1.69e-05
+TPM3u+F+R3        -1226.529    2669.057 -   0.0187    3216.592 - 1.43e-29    2995.636 - 1.54e-05
+K3Pu+F+R3         -1227.415    2670.830 -  0.00769    3218.365 -  5.9e-30    2997.409 - 6.35e-06
+TN+F+R3           -1227.435    2670.871 -  0.00754    3218.405 - 5.78e-30    2997.450 - 6.23e-06
+GTR+F+I+G4        -1225.701    2669.402 -   0.0157    3240.354 - 9.91e-35    2999.005 - 2.86e-06
+TVMe+R3           -1230.948    2675.896 - 0.000611    3201.169 -  3.2e-26    2999.452 - 2.29e-06
+TVMe+R3           -1230.948    2675.896 - 0.000611    3201.169 -  3.2e-26    2999.452 - 2.29e-06
+TVM+R3            -1230.950    2675.899 -  0.00061    3201.172 - 3.19e-26    2999.454 - 2.29e-06
+TIM2+F+R3         -1226.324    2670.649 -  0.00842    3241.601 - 5.31e-35    3000.252 - 1.53e-06
+GTR+F+G4          -1228.851    2673.702 -  0.00183    3221.237 -  1.4e-30    3000.281 - 1.51e-06
+TIM3+F+R3         -1226.458    2670.916 -  0.00737    3241.868 - 4.65e-35    3000.519 - 1.34e-06
+GTR+R3            -1229.156    2674.312 -  0.00135    3221.847 - 1.03e-30    3000.891 - 1.11e-06
+SYM+R3            -1229.160    2674.319 -  0.00134    3221.854 - 1.03e-30    3000.899 - 1.11e-06
+SYM+R3            -1229.160    2674.319 -  0.00134    3221.854 - 1.03e-30    3000.899 - 1.11e-06
+TIM+F+R3          -1227.322    2672.644 -   0.0031    3243.597 - 1.96e-35    3002.247 - 5.66e-07
+TVM+F+R3          -1225.106    2670.212 -   0.0105    3265.822 - 2.92e-40    3002.839 - 4.21e-07
+GTR+F+R3          -1225.028    2672.057 -  0.00417    3293.657 - 2.64e-46    3007.707 - 3.69e-08
+F81+I+G4          -1297.526    2797.051 -    3e-30    3209.131 - 5.97e-28    3102.463 - 9.79e-29
+JC+I+G4           -1297.723    2797.447 - 2.46e-30    3209.527 -  4.9e-28    3102.859 - 8.04e-29
+JC+I+G4           -1297.723    2797.447 - 2.46e-30    3209.527 -  4.9e-28    3102.859 - 8.04e-29
+JC+G4             -1301.083    2802.167 - 2.33e-31    3198.245 - 1.38e-25    3104.555 - 3.44e-29
+JC+G4             -1301.083    2802.167 - 2.33e-31    3198.245 - 1.38e-25    3104.555 - 3.44e-29
+F81+G4            -1301.171    2802.341 - 2.13e-31    3198.420 - 1.26e-25    3104.729 - 3.15e-29
+F81+R3            -1296.934    2799.869 - 7.34e-31    3246.202 - 5.32e-36    3111.329 - 1.16e-30
+JC+R3             -1297.057    2800.115 - 6.49e-31    3246.448 - 4.71e-36    3111.574 - 1.03e-30
+JC+R3             -1297.057    2800.115 - 6.49e-31    3246.448 - 4.71e-36    3111.574 - 1.03e-30
+JC+R2             -1302.902    2807.804 - 1.39e-32    3219.884 - 2.76e-30    3113.216 - 4.53e-31
+JC+I+R3           -1296.244    2800.488 - 5.38e-31    3265.169 - 4.05e-40    3114.972 - 1.88e-31
+JC+I+R2           -1302.208    2808.415 - 1.02e-32    3237.232 - 4.72e-34    3116.851 - 7.35e-32
+JC+R4             -1296.846    2803.693 - 1.08e-31    3287.606 - 5.44e-45    3121.200 - 8.36e-33
+JC+I              -1309.507    2819.013 - 5.11e-35    3215.092 - 3.03e-29    3121.401 - 7.56e-33
+F81+F+I+G4        -1299.906    2807.811 - 1.38e-32    3272.492 - 1.04e-41    3122.295 - 4.84e-33
+JC+I+R4           -1296.107    2804.213 - 8.36e-32    3308.302 - 1.74e-49    3124.745 - 1.42e-33
+F81+F+G4          -1303.971    2813.943 - 6.45e-34    3260.276 - 4.68e-39    3125.402 - 1.02e-33
+F81+F+R3          -1299.268    2810.536 - 3.54e-33    3314.625 - 7.38e-51    3131.068 - 6.02e-35
+JC                -1405.881    3009.762 - 1.94e-76    3390.531 - 2.43e-67    3309.126 -  1.3e-73
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: K2P+I+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 6.0392
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 6.0392
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.1244    0.7512    0.1244
+  C    0.1244        -1    0.1244    0.7512
+  G    0.7512    0.1244        -1    0.1244
+  T    0.1244    0.7512    0.1244        -1
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.4976
+Gamma shape alpha: 1.426
+
+ Category  Relative_rate  Proportion
+  0         0              0.4976
+  1         0.4252         0.1256
+  2         1.146          0.1256
+  3         2.081          0.1256
+  4         4.309          0.1256
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1223.5406 (s.e. 106.9943)
+Unconstrained log-likelihood (without tree): -485.4366
+Number of free parameters (#branches + #model parameters): 102
+Akaike information criterion (AIC) score: 2651.0811
+Corrected Akaike information criterion (AICc) score: 3079.8975
+Bayesian information criterion (BIC) score: 2959.5170
+
+Total tree length (sum of branch lengths): 1.7553
+Sum of internal branch lengths: 0.7953 (45.3094% of tree length)
+
+WARNING: 19 near-zero internal branches (<0.0066) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ancistrocheirus_lesueurii' is drawn at root
+
++-----ancistrocheirus_lesueurii
+|
+|                                                                                 +-----------argonauta_hians
+|                                                                            +----|
+|                                                                            |    |  +--haliphron_atlanticus
+|                                                                            |    +**|
+|                                                                            |       +--tremoctopus_violaceus
+|                                                                         +--|
+|                                                                         |  +--japetella_diaphana
+|                                                                      +**|
+|                                                                      |  +--hapalochlaena_lunulata
+|                                                                   +**|
+|                                                                   |  |  +--eledone_cirrhosa
+|                                                                   |  +--|
+|                                                                   |     +**octopus_oliveri
+|                                                                +**|
+|                                                                |  |  +**octopusminor--genome
+|                                                                |  +**|
+|                                                                |     +**octopusvulgaris--genome
+|                                                             +--|
+|                                                             |  +--octopusbimaculoides--genome
+|                                                          +--|
+|                                                          |  |        +**benthoctopus_normani
+|                                                          |  |     +**|
+|                                                          |  |     |  +**enteroctopus_dofleini
+|                                                          |  |  +--|
+|                                                          |  |  |  +--octopus_californicus
+|                                                          |  +**|
+|                                                          |     +--pareledone_charcoti
+|                                 +------------------------|
+|                                 |                        |      +--opisthoteuthis_californiana
+|                                 |                        +------|
+|                                 |                               +----------vampyroteuthis_infernalis
+|                              +**|
+|                              |  |     +**sepia_pharaonis
+|                              |  |  +--|
+|                              |  |  |  +**acanthosepionlycidas--genome
+|                              |  +**|
+|                              |     +**acanthosepionesculentum--genome
+|                       +------|
+|                       |      |     +**metasepia_tulbergi
+|                       |      |  +--|
+|                       |      |  |  +--sepia_latimanus
+|                       |      +--|
+|                       |         +**ascarosepionbandense--genome
+|                    +**|
+|                    |  |    +--sepioteuthis_lessoniana
+|                    |  +----|
+|                    |       |  +**doryteuthisopalescens--genome
+|                    |       +--|
+|                    |          +**doryteuthispealeii--genome
+|                 +--|
+|                 |  +---bathyteuthis_abyssicola
+|              +**|
+|              |  |           +--heteroteuthis_hawaiensis
+|              |  |        +**|
+|              |  |        |  |  +--sepiola_parva
+|              |  |        |  +--|
+|              |  |        |     |  +--sepiettaobscura--genome
+|              |  |        |     +--|
+|              |  |        |        |  +**sepiolaaffinis--genome
+|              |  |        |        +--|
+|              |  |        |           +**sepiolaatlantica--genome
+|              |  |     +--|
+|              |  |     |  +----sepiadarium_kochi_mainland
+|              |  |  +--|
+|              |  |  |  +**rossia_pacifica
+|              |  +**|
+|              |     |  +-------idiosepius_sp
+|              |     +--|
+|              |        +-------pterygioteuthis_gemmata
+|           +--|
+|           |  +--galituethis_sp
+|        +**|
+|        |  +--cranchia_scabra
+|     +--|
+|     |  |  +---nototodarus_hawaiiensis
+|     |  +--|
+|     |     +**thysanoteuthis_rhombus
+|  +**|
+|  |  |        +**gonatus_onyx
+|  |  |     +--|
+|  |  |     |  +--histioteuthis_corona_inermis
+|  |  |  +--|
+|  |  |  |  |  +--pholidoteuthis_adami
+|  |  |  |  +--|
+|  |  |  |     +**pholidoteuthis_massyae
+|  |  +**|
+|  |     +---octopoteuthis_nielseni
++**|
+|  |        +--chiroteuthis_picteti
+|  |     +--|
+|  |     |  +**mastigoteuthis_agassizii
+|  |  +--|
+|  |  |  +--joubiniteuthis_portieri
+|  +**|
+|     |  +**discoteuthis_sp
+|     +**|
+|        +**spirula_spirula
+|
++--onychoteuthis_banksii
+
+Tree in newick format:
+
+(ancistrocheirus_lesueurii:0.0545410847,((((((((((((((((((argonauta_hians:0.1092903601,(haliphron_atlanticus:0.0198087038,tremoctopus_violaceus:0.0163071907):0.0000021930):0.0468035321,japetella_diaphana:0.0292673566):0.0073656692,hapalochlaena_lunulata:0.0209666006):0.0000010048,(eledone_cirrhosa:0.0209601952,octopus_oliveri:0.0000010048):0.0068102129):0.0000010048,(octopusminor--genome:0.0000010048,octopusvulgaris--genome:0.0000010048):0.0000010048):0.0000022192,octopusbimaculoides--genome:0.0068109997):0.0068684424,(((benthoctopus_normani:0.0000010048,enteroctopus_dofleini:0.0000010048):0.0000010048,octopus_californicus:0.0068098584):0.0138682625,pareledone_charcoti:0.0068544776):0.0000026864):0.0305009916,(opisthoteuthis_californiana:0.0238129975,vampyroteuthis_infernalis:0.1022719424):0.0692544879):0.2245280379,((sepia_pharaonis:0.0000010048,acanthosepionlycidas--genome:0.0000020306):0.0137930863,acanthosepionesculentum--genome:0.0000022867):0.0062179282):0.0000021911,((metasepia_tulbergi:0.0000010048,sepia_latimanus:0.0071061041):0.0071061732,ascarosepionbandense--genome:0.0000028846):0.0147455083):0.0660067025,(sepioteuthis_lessoniana:0.0323371453,(doryteuthisopalescens--genome:0.0000010048,doryteuthispealeii--genome:0.0000010048):0.0116261478):0.0491265606):0.0000021582,bathyteuthis_abyssicola:0.0363391934):0.0138655591,((((heteroteuthis_hawaiensis:0.0077051499,(sepiola_parva:0.0226696561,(sepiettaobscura--genome:0.0117671881,(sepiolaaffinis--genome:0.0000010048,sepiolaatlantica--genome:0.0000010048):0.0095884021):0.0147110366):0.0303683576):0.0064733380,sepiadarium_kochi_mainland:0.0450309163):0.0073780997,rossia_pacifica:0.0000026266):0.0239476571,(idiosepius_sp:0.0721561555,pterygioteuthis_gemmata:0.0739592280):0.0329937110):0.0000023567):0.0000025911,galituethis_sp:0.0189997434):0.0069695094,cranchia_scabra:0.0068081111):0.0000028680,(nototodarus_hawaiiensis:0.0361438414,thysanoteuthis_rhombus:0.0000026450):0.0068112222):0.0069421434,(((gonatus_onyx:0.0061088439,histioteuthis_corona_inermis:0.0226715113):0.0151968426,(pholidoteuthis_adami:0.0209458668,pholidoteuthis_massyae:0.0000026106):0.0299190794):0.0069901068,octopoteuthis_nielseni:0.0436252393):0.0000020981):0.0000022489,(((chiroteuthis_picteti:0.0138950235,mastigoteuthis_agassizii:0.0000010048):0.0070053916,joubiniteuthis_portieri:0.0069909013):0.0288713190,(discoteuthis_sp:0.0000010048,spirula_spirula:0.0000010048):0.0037718798):0.0030948358):0.0045493037,onychoteuthis_banksii:0.0182113186);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t gene_trees/CIAlign_uce-21264.treefile -m "K2P{6.03915}+FQ+I{0.497564}+G4{1.42597}" --length 152
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s alignments/UCE_candidates_from_genomes/CIAlign_uce-21264.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s alignments/UCE_candidates_from_genomes/CIAlign_uce-21264.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Jun 18 07:27:14 2025
+Total CPU time used: 14.357 seconds (0h:0m:14s)
+Total wall-clock time used: 16.1853 seconds (0h:0m:16s)
+
