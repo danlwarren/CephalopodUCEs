@@ -1,0 +1,145 @@
+#NEXUS
+[R-package APE, Fri Jun 20 08:48:26 2025]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 66;
+	TAXLABELS
+		ancistrocheirus_lesueurii
+		architeuthis_dux
+		histioteuthis_corona_inermis
+		gonatus_onyx
+		onychoteuthis_banksii
+		argonauta_hians
+		haliphron_atlanticus
+		tremoctopus_violaceus
+		hapalochlaena_lunulata
+		octopusbimaculoides--genome
+		octopussinensis--genome
+		octopusvulgaris--genome
+		octopus_oliveri
+		octopusminor--genome
+		benthoctopus_normani
+		octopus_californicus
+		enteroctopus_dofleini
+		japetella_diaphana
+		pareledone_charcoti
+		eledone_cirrhosa
+		opisthoteuthis_californiana
+		vampyroteuthis_infernalis
+		engina_mendicaria
+		gymnodoris_subflava
+		patelloida_saccharina
+		nautiluspompilius--genome
+		nautilus_macromphalus
+		idiosepius_sp
+		heteroteuthis_hawaiensis
+		rossia_pacifica
+		sepiola_parva
+		eumandyaparva--genome
+		sepiettaobscura--genome
+		sepiolaatlantica--genome
+		sepiolaaffinis--genome
+		sepiadarium_kochi_mainland
+		sepiadarium_kochi_okinawa
+		sepioteuthis_lessoniana
+		doryteuthisopalescens--genome
+		doryteuthispealeii--genome
+		metasepia_tulbergi
+		sepia_latimanus
+		ascarosepionbandense--genome
+		sepia_pharaonis
+		acanthosepionlycidas--genome
+		acanthosepionesculentum--genome
+		sepiaofficianalis--genome
+		spirulaspirula--genome
+		bathyteuthis_abyssicola
+		chtenopteryx_sicula
+		cranchia_scabra
+		galituethis_sp
+		nototodarus_hawaiiensis
+		thysanoteuthis_rhombus
+		brachioteuthis_beanii
+		discoteuthis_sp
+		spirula_spirula
+		chiroteuthis_picteti
+		joubiniteuthis_portieri
+		mastigoteuthis_agassizii
+		pholidoteuthis_adami
+		pholidoteuthis_massyae
+		octopoteuthis_nielseni
+		pterygioteuthis_gemmata
+		selenoteuthis_scintillans
+		enoploteuthis_anapsis
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	ancistrocheirus_lesueurii,
+		2	architeuthis_dux,
+		3	histioteuthis_corona_inermis,
+		4	gonatus_onyx,
+		5	onychoteuthis_banksii,
+		6	argonauta_hians,
+		7	haliphron_atlanticus,
+		8	tremoctopus_violaceus,
+		9	hapalochlaena_lunulata,
+		10	octopusbimaculoides--genome,
+		11	octopussinensis--genome,
+		12	octopusvulgaris--genome,
+		13	octopus_oliveri,
+		14	octopusminor--genome,
+		15	benthoctopus_normani,
+		16	octopus_californicus,
+		17	enteroctopus_dofleini,
+		18	japetella_diaphana,
+		19	pareledone_charcoti,
+		20	eledone_cirrhosa,
+		21	opisthoteuthis_californiana,
+		22	vampyroteuthis_infernalis,
+		23	engina_mendicaria,
+		24	gymnodoris_subflava,
+		25	patelloida_saccharina,
+		26	nautiluspompilius--genome,
+		27	nautilus_macromphalus,
+		28	idiosepius_sp,
+		29	heteroteuthis_hawaiensis,
+		30	rossia_pacifica,
+		31	sepiola_parva,
+		32	eumandyaparva--genome,
+		33	sepiettaobscura--genome,
+		34	sepiolaatlantica--genome,
+		35	sepiolaaffinis--genome,
+		36	sepiadarium_kochi_mainland,
+		37	sepiadarium_kochi_okinawa,
+		38	sepioteuthis_lessoniana,
+		39	doryteuthisopalescens--genome,
+		40	doryteuthispealeii--genome,
+		41	metasepia_tulbergi,
+		42	sepia_latimanus,
+		43	ascarosepionbandense--genome,
+		44	sepia_pharaonis,
+		45	acanthosepionlycidas--genome,
+		46	acanthosepionesculentum--genome,
+		47	sepiaofficianalis--genome,
+		48	spirulaspirula--genome,
+		49	bathyteuthis_abyssicola,
+		50	chtenopteryx_sicula,
+		51	cranchia_scabra,
+		52	galituethis_sp,
+		53	nototodarus_hawaiiensis,
+		54	thysanoteuthis_rhombus,
+		55	brachioteuthis_beanii,
+		56	discoteuthis_sp,
+		57	spirula_spirula,
+		58	chiroteuthis_picteti,
+		59	joubiniteuthis_portieri,
+		60	mastigoteuthis_agassizii,
+		61	pholidoteuthis_adami,
+		62	pholidoteuthis_massyae,
+		63	octopoteuthis_nielseni,
+		64	pterygioteuthis_gemmata,
+		65	selenoteuthis_scintillans,
+		66	enoploteuthis_anapsis
+	;
+	TREE * UNTITLED = [&U] (1:0.0122288895,(((((2:0.017965456,3:0.0261182863)71-g7.71-s22.25-q38.08:0.0018217426,(4:0.0536407467,5:0.0378008923)72-g5.1-s23.12-q31.63:0.005342282)70-g0.66-s61.45-q33.05:0.000948245,((((((((((((((6:0.1220994084,(7:0.0196410235,8:0.0393963294)87-g60.42-s57.5-q69.33:0.0184761107)86-g46.14-s44.58-q60.06:0.0344783776,(((9:0.023990721,(10:0.0074721059,(11:0.000860894,12:0.0008920733)92-g72.07-s97.72-q80.25:0.0085033938)91-g38.77-s25.58-q55.07:0.0041246896)90-g24.46-s37.2-q39.23:0.0023553585,13:0.015033716)89-g45.33-s50.01-q67.67:0.0139823655,14:0.0241597637)88-g35.17-s39.09-q60.73:0.0127015005)85-g12.46-s35.38-q35.93:0.0077910323,(((15:0.0034502147,16:0.003758391)95-g35.81-s54.81-q39.38:0.0013190302,17:0.0033885681)94-g80.51-s40.97-q92.04:0.0261289595,(18:0.0244455229,19:0.0180037599)96-g23.83-s38.9-q44.37:0.0040058965)93-g14.31-s49.2-q50.88:0.003133096)84-g8.78-s34.45-q27.02:0.0055530825,20:0.0544559179)83-g54.21-s66.85-q75.37:0.0889820296,21:0.085032106)82-g50.93-s47.8-q65.28:0.0783295552,22:0.0952972291)81-g44.78-s38.85-q54.82:0.0920067522,(((23:0.5068687989,24:0.4125047871)99-g50-s44.56-q69.65:0.2139834891,25:0.4772252835)98-g47.22-s0-q47.27:0.1695931048,(26:0.0036724303,27:0.0002198384)100-g97.8-s98.85-q98.17:0.4341802059)97-g58.02-s46-q69.31:0.2348364826)80-g54.9-s62.23-q74.72:0.1187318676,28:0.1118222963)79-g10.56-s41.24-q34.52:0.0182453679,((29:0.0264907497,(30:0.0115915847,((31:0.00116983,32:0.0007768855)105-g94.89-s95.87-q96.55:0.0315787556,(33:0.0163829769,(34:0.001605326,35:0.0017509808)107-g81.69-s94.1-q85.16:0.0091555943)106-g50.35-s34-q55.95:0.0060911899)104-g75.26-s79.6-q85.72:0.0308079302)103-g32.22-s26.04-q44.6:0.0052224474)102-g56.61-s42.44-q76.18:0.0281392649,(36:0.010992215,37:0.0077388394)108-g84.09-s86.77-q91.22:0.0566432069)101-g32.42-s33.16-q55.72:0.0176845044)78-g4.67-s30.79-q39.87:0.0066021779,(38:0.0201886117,(39:0.005034553,40:0.0047126937)110-g85.55-s93.18-q89.45:0.0248116753)109-g56.18-s34.4-q78.83:0.0239185563)77-g3.22-s42.3-q27.95:0.0024049717,(((41:0.0103680928,42:0.0071938159)113-g26.87-s42.42-q37.69:0.0008571867,43:0.0121270611)112-g44.35-s32.39-q63.07:0.0066758481,(((44:0.0035200654,45:0.0033618713)116-g44.85-s70.89-q51.6:0.0020938933,46:0.0052711401)115-g50.7-s27.76-q66.14:0.006454031,47:0.0123972645)114-g24.66-s52-q41.49:0.0019546285)111-g66.99-s59.08-q89.61:0.0312507286)76-g2.82-s47.72-q39.07:0.0040124257,48:0.0374035543)75-g7.46-s37.24-q41.99:0.0055656818,(49:0.0195167758,50:0.0319732619)117-g28.74-s50.98-q55.22:0.0084076833)74-g9.54-s41.26-q47.24:0.0085878757,((51:0.0339992647,52:0.0242746118)119-g14.72-s30.67-q42.06:0.0042524885,(53:0.0386206997,54:0.0217852624)120-g13.05-s26.22-q35.78:0.0032817814)118-g8.29-s57.93-q45.89:0.0047366339)73-g2.57-s38.07-q41.94:0.003733142)69-g1.13-s36.27-q38.04:0.002463757,((55:0.0292098975,(56:0.0008999136,57:0.001402691)123-g72.25-s96.06-q86.55:0.0118445004)122-g14.53-s47.1-q46.3:0.0049527586,(((58:0.0203180974,(59:0.0111124065,60:0.0140718328)127-g26.05-s44.38-q41.27:0.0021765241)126-g26.22-s21.2-q54.1:0.0060187904,(61:0.0042065993,62:0.0039783698)128-g74.33-s89.58-q89.84:0.020564058)125-g12.97-s50.75-q45.4:0.0037485969,63:0.0258898463)124-g7.42-s25.88-q41.86:0.0034074146)121-g0.81-s29.76-q39.32:0.0012312728)68-g4.86-s59.73-q36.67:0.0049434698,(64:0.0667724215,65:0.0328449897)129-g14.11-s30.12-q38.17:0.0087373164)67-g33.76-s29.52-q54.47:0.0096820293,66:0.0446203321)66;
+END;

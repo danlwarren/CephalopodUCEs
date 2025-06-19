@@ -1,0 +1,1248 @@
+#nexus
+begin sets;
+  charset CIAlign_uce10009.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10009.fasta: DNA,;
+  charset CIAlign_uce10172.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10172.fasta: DNA,;
+  charset CIAlign_uce10182.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10182.fasta: DNA,;
+  charset CIAlign_uce10226.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10226.fasta: DNA,;
+  charset CIAlign_uce10320.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10320.fasta: DNA,;
+  charset CIAlign_uce10348.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10348.fasta: DNA,;
+  charset CIAlign_uce10555.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10555.fasta: DNA,;
+  charset CIAlign_uce10659.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10659.fasta: DNA,;
+  charset CIAlign_uce1076.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1076.fasta: DNA,;
+  charset CIAlign_uce10812.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10812.fasta: DNA,;
+  charset CIAlign_uce10890.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10890.fasta: DNA,;
+  charset CIAlign_uce10916.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10916.fasta: DNA,;
+  charset CIAlign_uce10918.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10918.fasta: DNA,;
+  charset CIAlign_uce10932.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10932.fasta: DNA,;
+  charset CIAlign_uce1095.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1095.fasta: DNA,;
+  charset CIAlign_uce10968.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce10968.fasta: DNA,;
+  charset CIAlign_uce11073.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce11073.fasta: DNA,;
+  charset CIAlign_uce11136.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce11136.fasta: DNA,;
+  charset CIAlign_uce11427.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce11427.fasta: DNA,;
+  charset CIAlign_uce1144.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1144.fasta: DNA,;
+  charset CIAlign_uce11548.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce11548.fasta: DNA,;
+  charset CIAlign_uce11573.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce11573.fasta: DNA,;
+  charset CIAlign_uce11739.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce11739.fasta: ;
+  charset CIAlign_uce11740.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce11740.fasta: DNA,;
+  charset CIAlign_uce118.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce118.fasta: DNA,;
+  charset CIAlign_uce11820.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce11820.fasta: DNA,;
+  charset CIAlign_uce11993.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce11993.fasta: DNA,;
+  charset CIAlign_uce12105.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12105.fasta: DNA,;
+  charset CIAlign_uce12167.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12167.fasta: DNA,;
+  charset CIAlign_uce12227.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12227.fasta: DNA,;
+  charset CIAlign_uce1223.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1223.fasta: DNA,;
+  charset CIAlign_uce12273.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12273.fasta: DNA,;
+  charset CIAlign_uce12368.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12368.fasta: DNA,;
+  charset CIAlign_uce12383.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12383.fasta: DNA,;
+  charset CIAlign_uce12504.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12504.fasta: DNA,;
+  charset CIAlign_uce12511.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12511.fasta: DNA,;
+  charset CIAlign_uce12515.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12515.fasta: DNA,;
+  charset CIAlign_uce12553.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12553.fasta: DNA,;
+  charset CIAlign_uce12694.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12694.fasta: DNA,;
+  charset CIAlign_uce12735.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12735.fasta: DNA,;
+  charset CIAlign_uce12740.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12740.fasta: DNA,;
+  charset CIAlign_uce12755.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12755.fasta: DNA,;
+  charset CIAlign_uce12808.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12808.fasta: ;
+  charset CIAlign_uce12892.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12892.fasta: DNA,;
+  charset CIAlign_uce12986.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce12986.fasta: DNA,;
+  charset CIAlign_uce13005.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce13005.fasta: DNA,;
+  charset CIAlign_uce13079.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce13079.fasta: DNA,;
+  charset CIAlign_uce13109.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce13109.fasta: DNA,;
+  charset CIAlign_uce13110.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce13110.fasta: DNA,;
+  charset CIAlign_uce13112.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce13112.fasta: DNA,;
+  charset CIAlign_uce13153.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce13153.fasta: DNA,;
+  charset CIAlign_uce13273.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce13273.fasta: DNA,;
+  charset CIAlign_uce13298.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce13298.fasta: DNA,;
+  charset CIAlign_uce13324.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce13324.fasta: ;
+  charset CIAlign_uce13498.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce13498.fasta: DNA,;
+  charset CIAlign_uce13635.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce13635.fasta: DNA,;
+  charset CIAlign_uce13941.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce13941.fasta: DNA,;
+  charset CIAlign_uce14008.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce14008.fasta: DNA,;
+  charset CIAlign_uce14049.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce14049.fasta: DNA,;
+  charset CIAlign_uce14091.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce14091.fasta: DNA,;
+  charset CIAlign_uce1410.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1410.fasta: DNA,;
+  charset CIAlign_uce14138.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce14138.fasta: DNA,;
+  charset CIAlign_uce14299.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce14299.fasta: DNA,;
+  charset CIAlign_uce1443.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1443.fasta: DNA,;
+  charset CIAlign_uce1444.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1444.fasta: DNA,;
+  charset CIAlign_uce14535.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce14535.fasta: DNA,;
+  charset CIAlign_uce14541.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce14541.fasta: ;
+  charset CIAlign_uce14780.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce14780.fasta: DNA,;
+  charset CIAlign_uce14783.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce14783.fasta: DNA,;
+  charset CIAlign_uce14809.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce14809.fasta: DNA,;
+  charset CIAlign_uce14863.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce14863.fasta: DNA,;
+  charset CIAlign_uce15033.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce15033.fasta: DNA,;
+  charset CIAlign_uce15037.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce15037.fasta: DNA,;
+  charset CIAlign_uce15135.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce15135.fasta: DNA,;
+  charset CIAlign_uce1519.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1519.fasta: DNA,;
+  charset CIAlign_uce15292.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce15292.fasta: DNA,;
+  charset CIAlign_uce1561.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1561.fasta: DNA,;
+  charset CIAlign_uce15616.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce15616.fasta: DNA,;
+  charset CIAlign_uce15680.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce15680.fasta: DNA,;
+  charset CIAlign_uce1591.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1591.fasta: DNA,;
+  charset CIAlign_uce16071.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16071.fasta: DNA,;
+  charset CIAlign_uce16245.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16245.fasta: DNA,;
+  charset CIAlign_uce16304.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16304.fasta: DNA,;
+  charset CIAlign_uce16373.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16373.fasta: DNA,;
+  charset CIAlign_uce16467.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16467.fasta: DNA,;
+  charset CIAlign_uce16513.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16513.fasta: DNA,;
+  charset CIAlign_uce16528.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16528.fasta: DNA,;
+  charset CIAlign_uce16529.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16529.fasta: DNA,;
+  charset CIAlign_uce16530.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16530.fasta: DNA,;
+  charset CIAlign_uce16539.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16539.fasta: DNA,;
+  charset CIAlign_uce16542.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16542.fasta: DNA,;
+  charset CIAlign_uce1661.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1661.fasta: DNA,;
+  charset CIAlign_uce16622.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16622.fasta: DNA,;
+  charset CIAlign_uce16737.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16737.fasta: DNA,;
+  charset CIAlign_uce16739.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce16739.fasta: DNA,;
+  charset CIAlign_uce168.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce168.fasta: ;
+  charset CIAlign_uce1694.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1694.fasta: DNA,;
+  charset CIAlign_uce1696.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1696.fasta: DNA,;
+  charset CIAlign_uce17130.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17130.fasta: DNA,;
+  charset CIAlign_uce17172.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17172.fasta: DNA,;
+  charset CIAlign_uce17215.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17215.fasta: DNA,;
+  charset CIAlign_uce17216.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17216.fasta: DNA,;
+  charset CIAlign_uce1727.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1727.fasta: DNA,;
+  charset CIAlign_uce17291.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17291.fasta: DNA,;
+  charset CIAlign_uce17296.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17296.fasta: DNA,;
+  charset CIAlign_uce17457.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17457.fasta: DNA,;
+  charset CIAlign_uce17490.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17490.fasta: DNA,;
+  charset CIAlign_uce17491.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17491.fasta: ;
+  charset CIAlign_uce17492.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17492.fasta: DNA,;
+  charset CIAlign_uce17580.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17580.fasta: DNA,;
+  charset CIAlign_uce17585.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17585.fasta: DNA,;
+  charset CIAlign_uce17603.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17603.fasta: DNA,;
+  charset CIAlign_uce17715.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17715.fasta: ;
+  charset CIAlign_uce17805.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17805.fasta: DNA,;
+  charset CIAlign_uce17825.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17825.fasta: DNA,;
+  charset CIAlign_uce17828.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17828.fasta: DNA,;
+  charset CIAlign_uce17866.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce17866.fasta: DNA,;
+  charset CIAlign_uce1797.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1797.fasta: DNA,;
+  charset CIAlign_uce18104.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18104.fasta: DNA,;
+  charset CIAlign_uce18242.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18242.fasta: DNA,;
+  charset CIAlign_uce18245.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18245.fasta: DNA,;
+  charset CIAlign_uce18287.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18287.fasta: DNA,;
+  charset CIAlign_uce18299.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18299.fasta: DNA,;
+  charset CIAlign_uce18317.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18317.fasta: DNA,;
+  charset CIAlign_uce18367.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18367.fasta: DNA,;
+  charset CIAlign_uce18385.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18385.fasta: DNA,;
+  charset CIAlign_uce18387.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18387.fasta: DNA,;
+  charset CIAlign_uce1842.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1842.fasta: DNA,;
+  charset CIAlign_uce18486.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18486.fasta: DNA,;
+  charset CIAlign_uce18500.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18500.fasta: DNA,;
+  charset CIAlign_uce18679.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18679.fasta: DNA,;
+  charset CIAlign_uce18734.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18734.fasta: DNA,;
+  charset CIAlign_uce18817.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18817.fasta: DNA,;
+  charset CIAlign_uce18906.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18906.fasta: DNA,;
+  charset CIAlign_uce18909.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce18909.fasta: DNA,;
+  charset CIAlign_uce19018.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19018.fasta: DNA,;
+  charset CIAlign_uce19063.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19063.fasta: DNA,;
+  charset CIAlign_uce19064.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19064.fasta: ;
+  charset CIAlign_uce19069.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19069.fasta: DNA,;
+  charset CIAlign_uce19073.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19073.fasta: DNA,;
+  charset CIAlign_uce19140.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19140.fasta: DNA,;
+  charset CIAlign_uce19154.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19154.fasta: DNA,;
+  charset CIAlign_uce19306.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19306.fasta: DNA,;
+  charset CIAlign_uce19325.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19325.fasta: DNA,;
+  charset CIAlign_uce19336.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19336.fasta: ;
+  charset CIAlign_uce19354.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19354.fasta: DNA,;
+  charset CIAlign_uce19356.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19356.fasta: ;
+  charset CIAlign_uce1938.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1938.fasta: DNA,;
+  charset CIAlign_uce19632.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19632.fasta: DNA,;
+  charset CIAlign_uce19658.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19658.fasta: DNA,;
+  charset CIAlign_uce19689.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19689.fasta: DNA,;
+  charset CIAlign_uce1973.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce1973.fasta: DNA,;
+  charset CIAlign_uce19973.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce19973.fasta: ;
+  charset CIAlign_uce20045.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20045.fasta: DNA,;
+  charset CIAlign_uce20066.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20066.fasta: DNA,;
+  charset CIAlign_uce20245.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20245.fasta: DNA,;
+  charset CIAlign_uce20254.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20254.fasta: ;
+  charset CIAlign_uce20401.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20401.fasta: ;
+  charset CIAlign_uce20417.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20417.fasta: DNA,;
+  charset CIAlign_uce20467.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20467.fasta: DNA,;
+  charset CIAlign_uce20468.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20468.fasta: DNA,;
+  charset CIAlign_uce20471.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20471.fasta: DNA,;
+  charset CIAlign_uce20483.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20483.fasta: DNA,;
+  charset CIAlign_uce20572.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20572.fasta: DNA,;
+  charset CIAlign_uce20676.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20676.fasta: DNA,;
+  charset CIAlign_uce20777.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20777.fasta: DNA,;
+  charset CIAlign_uce20807.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20807.fasta: DNA,;
+  charset CIAlign_uce2084.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce2084.fasta: DNA,;
+  charset CIAlign_uce20889.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20889.fasta: DNA,;
+  charset CIAlign_uce20892.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20892.fasta: DNA,;
+  charset CIAlign_uce20940.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce20940.fasta: ;
+  charset CIAlign_uce21162.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21162.fasta: DNA,;
+  charset CIAlign_uce21183.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21183.fasta: DNA,;
+  charset CIAlign_uce2119.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce2119.fasta: DNA,;
+  charset CIAlign_uce21263.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21263.fasta: DNA,;
+  charset CIAlign_uce21264.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21264.fasta: DNA,;
+  charset CIAlign_uce21267.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21267.fasta: DNA,;
+  charset CIAlign_uce21275.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21275.fasta: DNA,;
+  charset CIAlign_uce21362.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21362.fasta: DNA,;
+  charset CIAlign_uce21409.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21409.fasta: DNA,;
+  charset CIAlign_uce21496.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21496.fasta: DNA,;
+  charset CIAlign_uce21626.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21626.fasta: DNA,;
+  charset CIAlign_uce21695.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21695.fasta: DNA,;
+  charset CIAlign_uce21740.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21740.fasta: DNA,;
+  charset CIAlign_uce21858.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21858.fasta: DNA,;
+  charset CIAlign_uce2197.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce2197.fasta: DNA,;
+  charset CIAlign_uce21978.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce21978.fasta: DNA,;
+  charset CIAlign_uce22009.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22009.fasta: DNA,;
+  charset CIAlign_uce2206.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce2206.fasta: DNA,;
+  charset CIAlign_uce22064.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22064.fasta: DNA,;
+  charset CIAlign_uce22195.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22195.fasta: DNA,;
+  charset CIAlign_uce22213.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22213.fasta: DNA,;
+  charset CIAlign_uce22317.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22317.fasta: DNA,;
+  charset CIAlign_uce22330.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22330.fasta: DNA,;
+  charset CIAlign_uce22413.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22413.fasta: DNA,;
+  charset CIAlign_uce22430.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22430.fasta: DNA,;
+  charset CIAlign_uce22549.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22549.fasta: DNA,;
+  charset CIAlign_uce22581.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22581.fasta: DNA,;
+  charset CIAlign_uce22594.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22594.fasta: DNA,;
+  charset CIAlign_uce22624.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22624.fasta: DNA,;
+  charset CIAlign_uce22644.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22644.fasta: DNA,;
+  charset CIAlign_uce22645.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22645.fasta: DNA,;
+  charset CIAlign_uce22646.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22646.fasta: DNA,;
+  charset CIAlign_uce22658.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22658.fasta: DNA,;
+  charset CIAlign_uce22688.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22688.fasta: DNA,;
+  charset CIAlign_uce22689.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22689.fasta: DNA,;
+  charset CIAlign_uce2291.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce2291.fasta: DNA,;
+  charset CIAlign_uce22946.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22946.fasta: DNA,;
+  charset CIAlign_uce22965.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22965.fasta: DNA,;
+  charset CIAlign_uce22977.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce22977.fasta: DNA,;
+  charset CIAlign_uce23147.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce23147.fasta: DNA,;
+  charset CIAlign_uce2318.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce2318.fasta: DNA,;
+  charset CIAlign_uce23237.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce23237.fasta: DNA,;
+  charset CIAlign_uce23347.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce23347.fasta: DNA,;
+  charset CIAlign_uce2346.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce2346.fasta: DNA,;
+  charset CIAlign_uce23541.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce23541.fasta: DNA,;
+  charset CIAlign_uce23569.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce23569.fasta: ;
+  charset CIAlign_uce23576.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce23576.fasta: DNA,;
+  charset CIAlign_uce23668.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce23668.fasta: DNA,;
+  charset CIAlign_uce23690.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce23690.fasta: DNA,;
+  charset CIAlign_uce23713.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce23713.fasta: DNA,;
+  charset CIAlign_uce23715.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce23715.fasta: DNA,;
+  charset CIAlign_uce23800.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce23800.fasta: ;
+  charset CIAlign_uce23837.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce23837.fasta: DNA,;
+  charset CIAlign_uce23975.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce23975.fasta: DNA,;
+  charset CIAlign_uce24115.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24115.fasta: DNA,;
+  charset CIAlign_uce24367.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24367.fasta: DNA,;
+  charset CIAlign_uce24410.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24410.fasta: DNA,;
+  charset CIAlign_uce24422.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24422.fasta: DNA,;
+  charset CIAlign_uce24448.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24448.fasta: DNA,;
+  charset CIAlign_uce24460.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24460.fasta: ;
+  charset CIAlign_uce24477.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24477.fasta: DNA,;
+  charset CIAlign_uce24536.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24536.fasta: DNA,;
+  charset CIAlign_uce24559.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24559.fasta: DNA,;
+  charset CIAlign_uce24560.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24560.fasta: DNA,;
+  charset CIAlign_uce24603.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24603.fasta: DNA,;
+  charset CIAlign_uce24605.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24605.fasta: DNA,;
+  charset CIAlign_uce24650.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24650.fasta: DNA,;
+  charset CIAlign_uce24678.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24678.fasta: DNA,;
+  charset CIAlign_uce24715.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24715.fasta: DNA,;
+  charset CIAlign_uce24716.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24716.fasta: DNA,;
+  charset CIAlign_uce24734.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24734.fasta: DNA,;
+  charset CIAlign_uce24794.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce24794.fasta: DNA,;
+  charset CIAlign_uce25004.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25004.fasta: DNA,;
+  charset CIAlign_uce25136.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25136.fasta: DNA,;
+  charset CIAlign_uce2516.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce2516.fasta: ;
+  charset CIAlign_uce25262.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25262.fasta: DNA,;
+  charset CIAlign_uce25263.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25263.fasta: DNA,;
+  charset CIAlign_uce25279.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25279.fasta: ;
+  charset CIAlign_uce25388.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25388.fasta: DNA,;
+  charset CIAlign_uce25390.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25390.fasta: DNA,;
+  charset CIAlign_uce25409.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25409.fasta: DNA,;
+  charset CIAlign_uce25420.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25420.fasta: DNA,;
+  charset CIAlign_uce2544.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce2544.fasta: DNA,;
+  charset CIAlign_uce25459.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25459.fasta: DNA,;
+  charset CIAlign_uce25501.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25501.fasta: ;
+  charset CIAlign_uce25513.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25513.fasta: DNA,;
+  charset CIAlign_uce25552.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25552.fasta: DNA,;
+  charset CIAlign_uce25627.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25627.fasta: DNA,;
+  charset CIAlign_uce25666.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25666.fasta: DNA,;
+  charset CIAlign_uce25779.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25779.fasta: DNA,;
+  charset CIAlign_uce25787.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25787.fasta: DNA,;
+  charset CIAlign_uce25889.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25889.fasta: DNA,;
+  charset CIAlign_uce25904.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce25904.fasta: DNA,;
+  charset CIAlign_uce26055.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26055.fasta: DNA,;
+  charset CIAlign_uce26124.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26124.fasta: DNA,;
+  charset CIAlign_uce26139.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26139.fasta: DNA,;
+  charset CIAlign_uce26180.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26180.fasta: DNA,;
+  charset CIAlign_uce26244.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26244.fasta: DNA,;
+  charset CIAlign_uce2626.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce2626.fasta: DNA,;
+  charset CIAlign_uce26280.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26280.fasta: DNA,;
+  charset CIAlign_uce26324.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26324.fasta: DNA,;
+  charset CIAlign_uce26339.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26339.fasta: DNA,;
+  charset CIAlign_uce26340.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26340.fasta: DNA,;
+  charset CIAlign_uce26341.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26341.fasta: DNA,;
+  charset CIAlign_uce26382.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26382.fasta: DNA,;
+  charset CIAlign_uce26414.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26414.fasta: DNA,;
+  charset CIAlign_uce26432.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26432.fasta: DNA,;
+  charset CIAlign_uce26436.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26436.fasta: DNA,;
+  charset CIAlign_uce26544.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26544.fasta: DNA,;
+  charset CIAlign_uce26590.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26590.fasta: DNA,;
+  charset CIAlign_uce26638.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26638.fasta: DNA,;
+  charset CIAlign_uce26677.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26677.fasta: DNA,;
+  charset CIAlign_uce26771.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26771.fasta: ;
+  charset CIAlign_uce26772.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26772.fasta: DNA,;
+  charset CIAlign_uce26843.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26843.fasta: DNA,;
+  charset CIAlign_uce26865.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26865.fasta: ;
+  charset CIAlign_uce26985.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce26985.fasta: DNA,;
+  charset CIAlign_uce27040.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27040.fasta: DNA,;
+  charset CIAlign_uce27042.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27042.fasta: ;
+  charset CIAlign_uce2714.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce2714.fasta: DNA,;
+  charset CIAlign_uce27192.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27192.fasta: DNA,;
+  charset CIAlign_uce27378.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27378.fasta: ;
+  charset CIAlign_uce27520.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27520.fasta: ;
+  charset CIAlign_uce27539.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27539.fasta: DNA,;
+  charset CIAlign_uce27545.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27545.fasta: DNA,;
+  charset CIAlign_uce27547.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27547.fasta: DNA,;
+  charset CIAlign_uce27550.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27550.fasta: DNA,;
+  charset CIAlign_uce27597.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27597.fasta: ;
+  charset CIAlign_uce27610.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27610.fasta: DNA,;
+  charset CIAlign_uce27625.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27625.fasta: DNA,;
+  charset CIAlign_uce27626.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27626.fasta: DNA,;
+  charset CIAlign_uce27741.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27741.fasta: DNA,;
+  charset CIAlign_uce27763.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27763.fasta: DNA,;
+  charset CIAlign_uce27783.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27783.fasta: DNA,;
+  charset CIAlign_uce27830.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27830.fasta: DNA,;
+  charset CIAlign_uce27831.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27831.fasta: DNA,;
+  charset CIAlign_uce27929.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce27929.fasta: DNA,;
+  charset CIAlign_uce28007.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce28007.fasta: ;
+  charset CIAlign_uce28098.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce28098.fasta: DNA,;
+  charset CIAlign_uce28099.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce28099.fasta: DNA,;
+  charset CIAlign_uce2840.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce2840.fasta: DNA,;
+  charset CIAlign_uce28516.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce28516.fasta: DNA,;
+  charset CIAlign_uce28546.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce28546.fasta: DNA,;
+  charset CIAlign_uce28586.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce28586.fasta: DNA,;
+  charset CIAlign_uce28698.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce28698.fasta: DNA,;
+  charset CIAlign_uce28849.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce28849.fasta: ;
+  charset CIAlign_uce28892.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce28892.fasta: DNA,;
+  charset CIAlign_uce28894.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce28894.fasta: ;
+  charset CIAlign_uce28895.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce28895.fasta: ;
+  charset CIAlign_uce28896.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce28896.fasta: ;
+  charset CIAlign_uce29213.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce29213.fasta: DNA,;
+  charset CIAlign_uce29251.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce29251.fasta: ;
+  charset CIAlign_uce29443.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce29443.fasta: DNA,;
+  charset CIAlign_uce29475.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce29475.fasta: DNA,;
+  charset CIAlign_uce29580.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce29580.fasta: DNA,;
+  charset CIAlign_uce29605.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce29605.fasta: DNA,;
+  charset CIAlign_uce29669.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce29669.fasta: DNA,;
+  charset CIAlign_uce29727.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce29727.fasta: DNA,;
+  charset CIAlign_uce29732.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce29732.fasta: DNA,;
+  charset CIAlign_uce29738.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce29738.fasta: DNA,;
+  charset CIAlign_uce2981.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce2981.fasta: DNA,;
+  charset CIAlign_uce29811.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce29811.fasta: DNA,;
+  charset CIAlign_uce29870.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce29870.fasta: DNA,;
+  charset CIAlign_uce29899.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce29899.fasta: ;
+  charset CIAlign_uce30161.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30161.fasta: DNA,;
+  charset CIAlign_uce30219.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30219.fasta: DNA,;
+  charset CIAlign_uce30230.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30230.fasta: DNA,;
+  charset CIAlign_uce30267.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30267.fasta: DNA,;
+  charset CIAlign_uce3028.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3028.fasta: ;
+  charset CIAlign_uce30321.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30321.fasta: DNA,;
+  charset CIAlign_uce30435.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30435.fasta: DNA,;
+  charset CIAlign_uce3047.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3047.fasta: DNA,;
+  charset CIAlign_uce30493.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30493.fasta: DNA,;
+  charset CIAlign_uce30515.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30515.fasta: DNA,;
+  charset CIAlign_uce30525.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30525.fasta: DNA,;
+  charset CIAlign_uce30574.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30574.fasta: DNA,;
+  charset CIAlign_uce3067.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3067.fasta: DNA,;
+  charset CIAlign_uce30748.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30748.fasta: DNA,;
+  charset CIAlign_uce30769.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30769.fasta: DNA,;
+  charset CIAlign_uce30828.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30828.fasta: DNA,;
+  charset CIAlign_uce30830.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30830.fasta: DNA,;
+  charset CIAlign_uce30836.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce30836.fasta: DNA,;
+  charset CIAlign_uce3102.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3102.fasta: DNA,;
+  charset CIAlign_uce31067.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31067.fasta: DNA,;
+  charset CIAlign_uce31079.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31079.fasta: DNA,;
+  charset CIAlign_uce31082.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31082.fasta: DNA,;
+  charset CIAlign_uce31174.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31174.fasta: DNA,;
+  charset CIAlign_uce31176.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31176.fasta: DNA,;
+  charset CIAlign_uce31286.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31286.fasta: DNA,;
+  charset CIAlign_uce31287.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31287.fasta: DNA,;
+  charset CIAlign_uce31300.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31300.fasta: DNA,;
+  charset CIAlign_uce31352.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31352.fasta: ;
+  charset CIAlign_uce31473.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31473.fasta: DNA,;
+  charset CIAlign_uce31484.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31484.fasta: DNA,;
+  charset CIAlign_uce31497.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31497.fasta: DNA,;
+  charset CIAlign_uce31759.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31759.fasta: DNA,;
+  charset CIAlign_uce31829.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31829.fasta: ;
+  charset CIAlign_uce3186.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3186.fasta: DNA,;
+  charset CIAlign_uce31893.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31893.fasta: DNA,;
+  charset CIAlign_uce31907.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31907.fasta: DNA,;
+  charset CIAlign_uce31967.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce31967.fasta: DNA,;
+  charset CIAlign_uce32005.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32005.fasta: DNA,;
+  charset CIAlign_uce32057.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32057.fasta: DNA,;
+  charset CIAlign_uce32088.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32088.fasta: DNA,;
+  charset CIAlign_uce32102.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32102.fasta: DNA,;
+  charset CIAlign_uce32146.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32146.fasta: DNA,;
+  charset CIAlign_uce32174.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32174.fasta: DNA,;
+  charset CIAlign_uce32214.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32214.fasta: DNA,;
+  charset CIAlign_uce32270.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32270.fasta: DNA,;
+  charset CIAlign_uce32355.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32355.fasta: DNA,;
+  charset CIAlign_uce32430.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32430.fasta: DNA,;
+  charset CIAlign_uce32470.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32470.fasta: DNA,;
+  charset CIAlign_uce32474.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32474.fasta: DNA,;
+  charset CIAlign_uce32475.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32475.fasta: DNA,;
+  charset CIAlign_uce32509.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32509.fasta: DNA,;
+  charset CIAlign_uce3258.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3258.fasta: DNA,;
+  charset CIAlign_uce32689.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32689.fasta: DNA,;
+  charset CIAlign_uce32720.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32720.fasta: DNA,;
+  charset CIAlign_uce32735.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32735.fasta: ;
+  charset CIAlign_uce32764.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32764.fasta: ;
+  charset CIAlign_uce32775.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32775.fasta: DNA,;
+  charset CIAlign_uce32884.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32884.fasta: DNA,;
+  charset CIAlign_uce32909.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce32909.fasta: ;
+  charset CIAlign_uce33011.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33011.fasta: DNA,;
+  charset CIAlign_uce33015.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33015.fasta: DNA,;
+  charset CIAlign_uce33050.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33050.fasta: DNA,;
+  charset CIAlign_uce3309.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3309.fasta: DNA,;
+  charset CIAlign_uce33091.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33091.fasta: DNA,;
+  charset CIAlign_uce33206.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33206.fasta: DNA,;
+  charset CIAlign_uce33241.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33241.fasta: ;
+  charset CIAlign_uce33428.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33428.fasta: DNA,;
+  charset CIAlign_uce33443.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33443.fasta: DNA,;
+  charset CIAlign_uce33521.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33521.fasta: DNA,;
+  charset CIAlign_uce33639.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33639.fasta: DNA,;
+  charset CIAlign_uce33668.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33668.fasta: DNA,;
+  charset CIAlign_uce33691.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33691.fasta: DNA,;
+  charset CIAlign_uce33739.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33739.fasta: ;
+  charset CIAlign_uce33747.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33747.fasta: DNA,;
+  charset CIAlign_uce33749.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33749.fasta: DNA,;
+  charset CIAlign_uce3379.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3379.fasta: DNA,;
+  charset CIAlign_uce33949.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33949.fasta: DNA,;
+  charset CIAlign_uce33993.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce33993.fasta: DNA,;
+  charset CIAlign_uce3406.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3406.fasta: DNA,;
+  charset CIAlign_uce34159.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce34159.fasta: DNA,;
+  charset CIAlign_uce34185.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce34185.fasta: DNA,;
+  charset CIAlign_uce34210.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce34210.fasta: DNA,;
+  charset CIAlign_uce34267.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce34267.fasta: DNA,;
+  charset CIAlign_uce34324.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce34324.fasta: DNA,;
+  charset CIAlign_uce34366.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce34366.fasta: DNA,;
+  charset CIAlign_uce34406.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce34406.fasta: ;
+  charset CIAlign_uce34507.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce34507.fasta: DNA,;
+  charset CIAlign_uce34528.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce34528.fasta: DNA,;
+  charset CIAlign_uce34571.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce34571.fasta: DNA,;
+  charset CIAlign_uce3459.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3459.fasta: ;
+  charset CIAlign_uce34922.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce34922.fasta: DNA,;
+  charset CIAlign_uce35009.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35009.fasta: DNA,;
+  charset CIAlign_uce35011.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35011.fasta: DNA,;
+  charset CIAlign_uce35055.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35055.fasta: DNA,;
+  charset CIAlign_uce35112.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35112.fasta: ;
+  charset CIAlign_uce35150.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35150.fasta: DNA,;
+  charset CIAlign_uce35151.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35151.fasta: DNA,;
+  charset CIAlign_uce35203.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35203.fasta: DNA,;
+  charset CIAlign_uce35230.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35230.fasta: DNA,;
+  charset CIAlign_uce35404.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35404.fasta: DNA,;
+  charset CIAlign_uce35424.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35424.fasta: DNA,;
+  charset CIAlign_uce35436.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35436.fasta: DNA,;
+  charset CIAlign_uce35494.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35494.fasta: DNA,;
+  charset CIAlign_uce35495.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35495.fasta: DNA,;
+  charset CIAlign_uce35776.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35776.fasta: DNA,;
+  charset CIAlign_uce35782.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35782.fasta: DNA,;
+  charset CIAlign_uce35801.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35801.fasta: DNA,;
+  charset CIAlign_uce35805.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35805.fasta: DNA,;
+  charset CIAlign_uce35828.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35828.fasta: DNA,;
+  charset CIAlign_uce35867.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35867.fasta: ;
+  charset CIAlign_uce35983.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce35983.fasta: DNA,;
+  charset CIAlign_uce36059.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36059.fasta: DNA,;
+  charset CIAlign_uce36060.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36060.fasta: DNA,;
+  charset CIAlign_uce36068.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36068.fasta: DNA,;
+  charset CIAlign_uce36093.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36093.fasta: DNA,;
+  charset CIAlign_uce36225.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36225.fasta: DNA,;
+  charset CIAlign_uce36320.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36320.fasta: DNA,;
+  charset CIAlign_uce36414.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36414.fasta: DNA,;
+  charset CIAlign_uce36415.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36415.fasta: DNA,;
+  charset CIAlign_uce36416.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36416.fasta: DNA,;
+  charset CIAlign_uce36456.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36456.fasta: DNA,;
+  charset CIAlign_uce36459.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36459.fasta: DNA,;
+  charset CIAlign_uce36528.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36528.fasta: ;
+  charset CIAlign_uce36604.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36604.fasta: DNA,;
+  charset CIAlign_uce3665.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3665.fasta: DNA,;
+  charset CIAlign_uce36659.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36659.fasta: DNA,;
+  charset CIAlign_uce36692.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36692.fasta: DNA,;
+  charset CIAlign_uce369.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce369.fasta: DNA,;
+  charset CIAlign_uce3693.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3693.fasta: DNA,;
+  charset CIAlign_uce36992.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce36992.fasta: DNA,;
+  charset CIAlign_uce37073.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce37073.fasta: DNA,;
+  charset CIAlign_uce37268.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce37268.fasta: DNA,;
+  charset CIAlign_uce37439.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce37439.fasta: DNA,;
+  charset CIAlign_uce37547.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce37547.fasta: DNA,;
+  charset CIAlign_uce37821.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce37821.fasta: DNA,;
+  charset CIAlign_uce37919.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce37919.fasta: DNA,;
+  charset CIAlign_uce37961.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce37961.fasta: DNA,;
+  charset CIAlign_uce38073.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38073.fasta: DNA,;
+  charset CIAlign_uce38134.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38134.fasta: DNA,;
+  charset CIAlign_uce3819.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3819.fasta: DNA,;
+  charset CIAlign_uce38254.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38254.fasta: DNA,;
+  charset CIAlign_uce38272.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38272.fasta: DNA,;
+  charset CIAlign_uce38388.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38388.fasta: DNA,;
+  charset CIAlign_uce38441.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38441.fasta: DNA,;
+  charset CIAlign_uce38446.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38446.fasta: DNA,;
+  charset CIAlign_uce3846.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3846.fasta: DNA,;
+  charset CIAlign_uce38646.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38646.fasta: DNA,;
+  charset CIAlign_uce38650.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38650.fasta: DNA,;
+  charset CIAlign_uce38734.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38734.fasta: DNA,;
+  charset CIAlign_uce38767.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38767.fasta: DNA,;
+  charset CIAlign_uce38785.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38785.fasta: DNA,;
+  charset CIAlign_uce38805.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38805.fasta: DNA,;
+  charset CIAlign_uce38821.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38821.fasta: DNA,;
+  charset CIAlign_uce38924.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38924.fasta: DNA,;
+  charset CIAlign_uce38967.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce38967.fasta: DNA,;
+  charset CIAlign_uce39033.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39033.fasta: ;
+  charset CIAlign_uce39106.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39106.fasta: DNA,;
+  charset CIAlign_uce39175.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39175.fasta: DNA,;
+  charset CIAlign_uce39184.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39184.fasta: DNA,;
+  charset CIAlign_uce39191.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39191.fasta: DNA,;
+  charset CIAlign_uce39248.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39248.fasta: DNA,;
+  charset CIAlign_uce39249.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39249.fasta: DNA,;
+  charset CIAlign_uce39264.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39264.fasta: ;
+  charset CIAlign_uce39267.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39267.fasta: DNA,;
+  charset CIAlign_uce39274.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39274.fasta: DNA,;
+  charset CIAlign_uce39334.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39334.fasta: DNA,;
+  charset CIAlign_uce39477.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39477.fasta: ;
+  charset CIAlign_uce39514.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39514.fasta: DNA,;
+  charset CIAlign_uce39621.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39621.fasta: DNA,;
+  charset CIAlign_uce3972.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3972.fasta: DNA,;
+  charset CIAlign_uce3975.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3975.fasta: DNA,;
+  charset CIAlign_uce39793.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39793.fasta: ;
+  charset CIAlign_uce39798.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39798.fasta: DNA,;
+  charset CIAlign_uce39843.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39843.fasta: DNA,;
+  charset CIAlign_uce3994.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce3994.fasta: ;
+  charset CIAlign_uce39967.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce39967.fasta: DNA,;
+  charset CIAlign_uce40254.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce40254.fasta: DNA,;
+  charset CIAlign_uce40328.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce40328.fasta: DNA,;
+  charset CIAlign_uce4036.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4036.fasta: DNA,;
+  charset CIAlign_uce4040.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4040.fasta: DNA,;
+  charset CIAlign_uce4045.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4045.fasta: DNA,;
+  charset CIAlign_uce40474.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce40474.fasta: DNA,;
+  charset CIAlign_uce40602.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce40602.fasta: DNA,;
+  charset CIAlign_uce40624.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce40624.fasta: DNA,;
+  charset CIAlign_uce40674.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce40674.fasta: DNA,;
+  charset CIAlign_uce40683.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce40683.fasta: DNA,;
+  charset CIAlign_uce40731.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce40731.fasta: DNA,;
+  charset CIAlign_uce40765.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce40765.fasta: DNA,;
+  charset CIAlign_uce4163.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4163.fasta: DNA,;
+  charset CIAlign_uce4173.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4173.fasta: DNA,;
+  charset CIAlign_uce4205.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4205.fasta: DNA,;
+  charset CIAlign_uce4239.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4239.fasta: DNA,;
+  charset CIAlign_uce425.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce425.fasta: DNA,;
+  charset CIAlign_uce428.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce428.fasta: DNA,;
+  charset CIAlign_uce4322.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4322.fasta: DNA,;
+  charset CIAlign_uce4327.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4327.fasta: ;
+  charset CIAlign_uce4330.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4330.fasta: DNA,;
+  charset CIAlign_uce4622.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4622.fasta: DNA,;
+  charset CIAlign_uce4653.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4653.fasta: DNA,;
+  charset CIAlign_uce4678.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4678.fasta: DNA,;
+  charset CIAlign_uce4691.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4691.fasta: DNA,;
+  charset CIAlign_uce4889.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce4889.fasta: DNA,;
+  charset CIAlign_uce5234.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce5234.fasta: DNA,;
+  charset CIAlign_uce5243.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce5243.fasta: DNA,;
+  charset CIAlign_uce5320.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce5320.fasta: DNA,;
+  charset CIAlign_uce5326.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce5326.fasta: DNA,;
+  charset CIAlign_uce5449.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce5449.fasta: ;
+  charset CIAlign_uce547.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce547.fasta: DNA,;
+  charset CIAlign_uce5525.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce5525.fasta: DNA,;
+  charset CIAlign_uce5560.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce5560.fasta: DNA,;
+  charset CIAlign_uce5691.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce5691.fasta: DNA,;
+  charset CIAlign_uce5763.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce5763.fasta: DNA,;
+  charset CIAlign_uce5967.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce5967.fasta: DNA,;
+  charset CIAlign_uce5990.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce5990.fasta: DNA,;
+  charset CIAlign_uce6237.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce6237.fasta: DNA,;
+  charset CIAlign_uce6244.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce6244.fasta: DNA,;
+  charset CIAlign_uce6250.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce6250.fasta: DNA,;
+  charset CIAlign_uce6374.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce6374.fasta: ;
+  charset CIAlign_uce6550.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce6550.fasta: DNA,;
+  charset CIAlign_uce6553.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce6553.fasta: DNA,;
+  charset CIAlign_uce6598.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce6598.fasta: ;
+  charset CIAlign_uce675.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce675.fasta: DNA,;
+  charset CIAlign_uce6782.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce6782.fasta: DNA,;
+  charset CIAlign_uce6787.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce6787.fasta: DNA,;
+  charset CIAlign_uce6882.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce6882.fasta: ;
+  charset CIAlign_uce693.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce693.fasta: DNA,;
+  charset CIAlign_uce6957.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce6957.fasta: DNA,;
+  charset CIAlign_uce696.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce696.fasta: DNA,;
+  charset CIAlign_uce6976.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce6976.fasta: DNA,;
+  charset CIAlign_uce7044.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7044.fasta: DNA,;
+  charset CIAlign_uce711.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce711.fasta: DNA,;
+  charset CIAlign_uce7169.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7169.fasta: DNA,;
+  charset CIAlign_uce7271.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7271.fasta: DNA,;
+  charset CIAlign_uce731.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce731.fasta: DNA,;
+  charset CIAlign_uce750.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce750.fasta: DNA,;
+  charset CIAlign_uce7534.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7534.fasta: DNA,;
+  charset CIAlign_uce7659.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7659.fasta: DNA,;
+  charset CIAlign_uce7662.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7662.fasta: DNA,;
+  charset CIAlign_uce7668.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7668.fasta: DNA,;
+  charset CIAlign_uce7709.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7709.fasta: DNA,;
+  charset CIAlign_uce7711.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7711.fasta: DNA,;
+  charset CIAlign_uce7760.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7760.fasta: DNA,;
+  charset CIAlign_uce7780.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7780.fasta: DNA,;
+  charset CIAlign_uce7810.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7810.fasta: DNA,;
+  charset CIAlign_uce7844.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7844.fasta: DNA,;
+  charset CIAlign_uce7892.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7892.fasta: DNA,;
+  charset CIAlign_uce7943.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7943.fasta: DNA,;
+  charset CIAlign_uce7981.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7981.fasta: DNA,;
+  charset CIAlign_uce7994.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce7994.fasta: DNA,;
+  charset CIAlign_uce8029.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8029.fasta: DNA,;
+  charset CIAlign_uce8056.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8056.fasta: DNA,;
+  charset CIAlign_uce8080.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8080.fasta: DNA,;
+  charset CIAlign_uce8081.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8081.fasta: DNA,;
+  charset CIAlign_uce8138.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8138.fasta: DNA,;
+  charset CIAlign_uce8466.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8466.fasta: DNA,;
+  charset CIAlign_uce849.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce849.fasta: DNA,;
+  charset CIAlign_uce8496.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8496.fasta: DNA,;
+  charset CIAlign_uce8612.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8612.fasta: DNA,;
+  charset CIAlign_uce8699.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8699.fasta: DNA,;
+  charset CIAlign_uce870.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce870.fasta: DNA,;
+  charset CIAlign_uce8702.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8702.fasta: DNA,;
+  charset CIAlign_uce8707.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8707.fasta: DNA,;
+  charset CIAlign_uce8753.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8753.fasta: DNA,;
+  charset CIAlign_uce8827.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8827.fasta: DNA,;
+  charset CIAlign_uce8828.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8828.fasta: DNA,;
+  charset CIAlign_uce8846.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8846.fasta: DNA,;
+  charset CIAlign_uce8932.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8932.fasta: DNA,;
+  charset CIAlign_uce8955.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8955.fasta: DNA,;
+  charset CIAlign_uce8997.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce8997.fasta: ;
+  charset CIAlign_uce9002.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9002.fasta: DNA,;
+  charset CIAlign_uce903.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce903.fasta: DNA,;
+  charset CIAlign_uce9031.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9031.fasta: DNA,;
+  charset CIAlign_uce9415.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9415.fasta: DNA,;
+  charset CIAlign_uce9437.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9437.fasta: DNA,;
+  charset CIAlign_uce9471.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9471.fasta: DNA,;
+  charset CIAlign_uce9508.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9508.fasta: DNA,;
+  charset CIAlign_uce9518.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9518.fasta: DNA,;
+  charset CIAlign_uce9589.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9589.fasta: DNA,;
+  charset CIAlign_uce9608.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9608.fasta: DNA,;
+  charset CIAlign_uce9694.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9694.fasta: DNA,;
+  charset CIAlign_uce9710.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9710.fasta: ;
+  charset CIAlign_uce9730.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9730.fasta: DNA,;
+  charset CIAlign_uce976.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce976.fasta: DNA,;
+  charset CIAlign_uce981.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce981.fasta: DNA,;
+  charset CIAlign_uce9935.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9935.fasta: DNA,;
+  charset CIAlign_uce9966.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9966.fasta: DNA,;
+  charset CIAlign_uce9968.fasta = ../5_final_alignments/3_final_alignments/CIAlign_uce9968.fasta: DNA,;
+  charpartition mymodels =
+    TIM2{1.52798,6.22255,7.23671}+FU{0.219074,0.253069,0.22932,0.298538}+I{0.618632}+R2{0.117887,0.637,0.263481,3.51033}: CIAlign_uce10009.fasta{5.55517},
+    TPM2u{2.23453,10.2294}+FU{0.318281,0.220956,0.187111,0.273652}+I{0.491287}+R3{0.374329,0.570189,0.129482,2.58879,0.00490196,92.0775}: CIAlign_uce10172.fasta{1.88404},
+    TPM2u{1.69552,12.4271}+FU{0.353102,0.209334,0.185771,0.251793}+I{0.392127}+G4{0.978615}: CIAlign_uce10182.fasta{6.05069},
+    TPM3{0.396887,4.33634}+FQ+I{0.33446}+G4{0.76998}: CIAlign_uce10226.fasta{3.64972},
+    TPM3u{0.393479,5.81619}+FU{0.255753,0.246514,0.175962,0.321771}+I{0.495189}+G4{0.680429}: CIAlign_uce10320.fasta{1.60185},
+    HKY{7.14189}+FU{0.269779,0.195045,0.248919,0.286257}+I{0.467987}+G4{0.917359}: CIAlign_uce10348.fasta{4.0469},
+    HKY{3.89425}+FU{0.346812,0.193757,0.198498,0.260933}+G4{0.487839}: CIAlign_uce10555.fasta{5.42338},
+    TPM3u{0.0952838,4.69857}+FU{0.214811,0.242227,0.158282,0.384681}+I{0.578094}+G4{1.48355}: CIAlign_uce10659.fasta{2.2079},
+    TN{12.1336,5.59184}+FU{0.195938,0.245739,0.185923,0.372399}+I{0.354139}+G4{0.918802}: CIAlign_uce1076.fasta{5.609},
+    TN{3.83586,8.58908}+FU{0.374242,0.185354,0.199158,0.241246}+I{0.449885}+G4{0.580169}: CIAlign_uce10812.fasta{3.31063},
+    HKY{6.80947}+FU{0.264662,0.168721,0.175308,0.391309}+I{0.388898}+G4{1.52399}: CIAlign_uce10890.fasta{4.19139},
+    TPM3u{0.738205,3.9827}+FU{0.286098,0.202234,0.217791,0.293876}+G4{0.254205}: CIAlign_uce10916.fasta{17.4981},
+    TN{6.46999,3.74511}+FU{0.23459,0.270264,0.241547,0.2536}+I{0.456094}+G4{1.16233}: CIAlign_uce10918.fasta{6.63819},
+    HKY{3.39383}+FU{0.296847,0.17027,0.255946,0.276937}+G4{0.262469}: CIAlign_uce10932.fasta{0.890564},
+    TNe{2.92094,6.41544}+FQ+I{0.400426}+R2{0.490227,0.805697,0.109347,5.53308}: CIAlign_uce1095.fasta{2.82682},
+    TIM3{1.68291,6.46694,11.8791}+FU{0.356665,0.197343,0.22382,0.222171}+G4{0.231251}: CIAlign_uce10968.fasta{1.6741},
+    TPM2u{1.86316,6.74537}+FU{0.273533,0.205016,0.215764,0.305687}+I{0.343768}+G4{0.586334}: CIAlign_uce11073.fasta{3.36336},
+    TIM2{2.97506,8.35392,6.23923}+FU{0.318809,0.19562,0.23376,0.251811}+G4{0.394596}: CIAlign_uce11136.fasta{1.9206},
+    HKY{6.74131}+FU{0.34907,0.168991,0.190451,0.291488}+G4{0.192209}: CIAlign_uce11427.fasta{11.741},
+    HKY{3.17826}+FU{0.208088,0.2525,0.166176,0.373235}+G4{0.197115}: CIAlign_uce1144.fasta{1.35873},
+    HKY{3.78516}+FU{0.295193,0.19845,0.180338,0.326019}+I{0.553861}+R2{0.42886,1.36551,0.017279,23.9822}: CIAlign_uce11548.fasta{1.30542},
+    TIM3{0.233853,5.04708,2.58828}+FU{0.290529,0.209589,0.227629,0.272253}+I{0.522031}+G4{1.20345}: CIAlign_uce11573.fasta{3.00493},
+    K3Pu{39.9943,9.14068}+FU{0.25881,0.253214,0.24631,0.241667}+G4{0.154788}: CIAlign_uce11739.fasta{11.8647},
+    GTR{2.52447,5.66533,0.980997,0.907977,9.92207}+FU{0.311644,0.164963,0.22803,0.295364}+I{0.422122}+G4{1.41887}: CIAlign_uce11740.fasta{6.2794},
+    TN{3.71765,7.91749}+FU{0.293138,0.181984,0.244442,0.280435}+G4{0.25697}: CIAlign_uce118.fasta{2.38387},
+    TPM2{3.32168,8.04463}+FQ+G4{0.277803}: CIAlign_uce11820.fasta{3.35654},
+    TN{10.0773,2.34241}+FU{0.347714,0.181603,0.178375,0.292308}+G4{0.259023}: CIAlign_uce11993.fasta{1.34292},
+    TVM{3.57795,8.96598,1.09569,0.878606}+FU{0.356754,0.169935,0.236166,0.237146}+G4{0.207152}: CIAlign_uce12105.fasta{31.8445},
+    TN{5.13835,7.63852}+FU{0.330227,0.199318,0.216818,0.253636}+I{0.544646}+G4{1.88321}: CIAlign_uce12167.fasta{3.55011},
+    TNe{9.04063,4.2076}+FQ+I{0.538399}+G4{1.72756}: CIAlign_uce12227.fasta{3.70012},
+    HKY{12.6322}+FU{0.276054,0.230214,0.224896,0.268836}+G4{0.250454}: CIAlign_uce1223.fasta{1.76078},
+    TN{9.15433,4.04896}+FU{0.246244,0.218128,0.191332,0.344296}+G4{0.280914}: CIAlign_uce12273.fasta{3.20708},
+    TN{3.38749,5.81154}+FU{0.271198,0.190229,0.201086,0.337488}+G4{0.428769}: CIAlign_uce12368.fasta{3.19728},
+    TPM3u{0.780294,3.8389}+FU{0.227852,0.208195,0.216916,0.347038}+I{0.40577}+G4{0.822611}: CIAlign_uce12383.fasta{2.11293},
+    TIM3e{0.0788108,4.94444,2.44792}+FQ+I{0.605798}+G4{5.94223}: CIAlign_uce12504.fasta{2.63979},
+    TIM2{0.394125,5.82399,2.84984}+FU{0.264575,0.276149,0.13546,0.323817}+I{0.370725}+G4{0.599362}: CIAlign_uce12511.fasta{7.18771},
+    TPM2u{1.40031,4.32716}+FU{0.230455,0.278923,0.185887,0.304735}+I{0.378098}+G4{0.93396}: CIAlign_uce12515.fasta{7.75565},
+    TIM2{2.70283,6.24358,14.5591}+FU{0.327617,0.196732,0.214043,0.261608}+I{0.454314}+R2{0.444794,1.05784,0.100892,5.24799}: CIAlign_uce12553.fasta{2.70936},
+    TN{8.33899,12.0656}+FU{0.36719,0.192947,0.221306,0.218557}+I{0.413486}+R3{0.279288,0.15298,0.22629,2.14807,0.0809363,5.82171}: CIAlign_uce12694.fasta{4.94367},
+    HKY{5.0049}+FU{0.313008,0.225371,0.14933,0.312291}+I{0.604157}+G4{1.16454}: CIAlign_uce12735.fasta{3.33748},
+    TN{12.5366,4.03891}+FU{0.326002,0.225638,0.121021,0.327339}+G4{0.293711}: CIAlign_uce12740.fasta{2.60789},
+    TPM2{0.635959,3.83585}+FQ+I{0.540178}+G4{1.05668}: CIAlign_uce12755.fasta{6.335},
+    K2P{4.83046}+FQ+G4{0.363375}: CIAlign_uce12808.fasta{3.33801},
+    TN{5.39645,8.47006}+FU{0.354646,0.171888,0.240622,0.232843}+I{0.4742}+G4{0.952438}: CIAlign_uce12892.fasta{2.40141},
+    TPM3u{0.669099,4.03824}+FU{0.270779,0.267532,0.165368,0.29632}+I{0.562696}+G4{1.20827}: CIAlign_uce12986.fasta{1.59596},
+    TPM3{0.593425,4.11412}+FQ+I{0.57217}+G4{1.59081}: CIAlign_uce13005.fasta{3.95859},
+    TPM3u{0.704667,3.02701}+FU{0.25835,0.228775,0.210419,0.302456}+I{0.279885}+G4{0.46598}: CIAlign_uce13079.fasta{4.148},
+    TPM2u{2.11813,8.20031}+FU{0.324729,0.182007,0.226095,0.267169}+G4{0.193039}: CIAlign_uce13109.fasta{3.35749},
+    TPM3u{0.385381,4.2735}+FU{0.236687,0.241068,0.210815,0.311431}+I{0.439536}+G4{0.790713}: CIAlign_uce13110.fasta{8.65829},
+    TIM2{0.311739,4.4878,2.57025}+FU{0.303427,0.255215,0.149957,0.291401}+I{0.233628}+G4{0.478914}: CIAlign_uce13112.fasta{8.95276},
+    HKY{8.14546}+FU{0.27008,0.268711,0.206645,0.254564}+I{0.461519}+G4{0.84361}: CIAlign_uce13153.fasta{2.31885},
+    TPM3{0.211172,3.01253}+FQ+G4{0.346515}: CIAlign_uce13273.fasta{2.02635},
+    TPM3u{0.65484,3.33365}+FU{0.296884,0.215698,0.223038,0.26438}+I{0.538967}+G4{0.964069}: CIAlign_uce13298.fasta{4.55108},
+    K3Pu{4.9507,0.557672}+FU{0.342282,0.194997,0.246004,0.216718}+I{0.478298}+G4{1.24163}: CIAlign_uce13324.fasta{1.95643},
+    HKY{5.11649}+FU{0.31654,0.248589,0.195712,0.239158}+G4{0.35192}: CIAlign_uce13498.fasta{0.903458},
+    HKY{4.95846}+FU{0.281586,0.191366,0.176646,0.350402}+G4{0.267481}: CIAlign_uce13635.fasta{1.81522},
+    TPM3u{0.531624,2.24405}+FU{0.265305,0.259,0.232949,0.242746}+I{0.403528}+G4{2.07156}: CIAlign_uce13941.fasta{3.72244},
+    TPM3u{0.176927,2.54059}+FU{0.297778,0.239618,0.216704,0.2459}+I{0.466078}+G4{0.442388}: CIAlign_uce14008.fasta{1.45217},
+    HKY{7.23502}+FU{0.318463,0.199105,0.15173,0.330701}+R3{0.68785,0.180501,0.298563,2.07613,0.0135875,18.84}: CIAlign_uce14049.fasta{2.16219},
+    TPM3{0.399191,1.96786}+FQ+I{0.469999}+G4{1.33886}: CIAlign_uce14091.fasta{6.0083},
+    TPM3{0.354599,1.80666}+FQ+G4{0.238565}: CIAlign_uce1410.fasta{14.55},
+    TPM2{2.0071,4.65049}+FQ+I{0.35508}+G4{1.36221}: CIAlign_uce14138.fasta{5.16919},
+    TPM3u{0.649267,3.39429}+FU{0.263286,0.241118,0.201032,0.294564}+I{0.456297}+R2{0.476074,1.13763,0.0676291,6.77819}: CIAlign_uce14299.fasta{4.28136},
+    TN{3.57394,7.83856}+FU{0.388443,0.167099,0.214269,0.230189}+I{0.437755}+G4{1.75209}: CIAlign_uce1443.fasta{4.25527},
+    TPM2u{3.5623,11.6005}+FU{0.227935,0.175698,0.281199,0.315168}+I{0.441116}+G4{0.956298}: CIAlign_uce1444.fasta{6.24099},
+    HKY{5.40746}+FU{0.227219,0.205498,0.266248,0.301035}+I{0.546494}+G4{1.47553}: CIAlign_uce14535.fasta{7.39624},
+    K2P{6.27322}+FQ+I{0.568641}+R2{0.334397,0.736214,0.0969615,7.77434}: CIAlign_uce14541.fasta{2.26749},
+    HKY{6.48814}+FU{0.29427,0.179055,0.235142,0.291534}+G4{0.157243}: CIAlign_uce14780.fasta{26.1545},
+    TIM2e{4.32719,6.34318,20.8103}+FQ+G4{0.250875}: CIAlign_uce14783.fasta{3.84027},
+    HKY{5.19417}+FU{0.216887,0.289871,0.218477,0.274765}+G4{0.304048}: CIAlign_uce14809.fasta{1.82627},
+    TPM3{0.465506,6.55721}+FQ+I{0.587229}+G4{1.21143}: CIAlign_uce14863.fasta{1.70139},
+    TPM3{0.196695,2.77866}+FQ+G4{0.194565}: CIAlign_uce15033.fasta{1.33823},
+    TIMe{3.85126,0.40941,6.71236}+FQ+I{0.437494}+G4{0.723451}: CIAlign_uce15037.fasta{6.51142},
+    TIM2{2.2314,3.93341,11.8845}+FU{0.289784,0.221228,0.258588,0.230399}+R3{0.598536,0.0885458,0.333673,1.37961,0.0677912,7.17886}: CIAlign_uce15135.fasta{3.19432},
+    TN{9.58804,3.54986}+FU{0.202393,0.252837,0.173409,0.371362}+I{0.482461}+G4{0.829999}: CIAlign_uce1519.fasta{2.82727},
+    TIM3{0.390129,5.55874,3.45639}+FU{0.29035,0.252048,0.23045,0.227152}+I{0.441831}+G4{0.546053}: CIAlign_uce15292.fasta{5.83107},
+    TPM3u{0.620712,4.66816}+FU{0.327594,0.228599,0.132951,0.310856}+R2{0.650323,0.0682174,0.349677,2.73291}: CIAlign_uce1561.fasta{2.01994},
+    TPM3u{0.175647,3.61396}+FU{0.268522,0.271391,0.205121,0.254967}+G4{0.16384}: CIAlign_uce15616.fasta{27.2591},
+    HKY{6.97997}+FU{0.320755,0.193437,0.209516,0.276292}+G4{0.205401}: CIAlign_uce15680.fasta{2.1933},
+    HKY{9.41313}+FU{0.234547,0.233113,0.185099,0.347241}+G4{0.165801}: CIAlign_uce1591.fasta{2.36553},
+    TPM2u{2.37497,15.7165}+FU{0.338489,0.145152,0.214357,0.302003}+I{0.511504}+G4{1.2898}: CIAlign_uce16071.fasta{5.70672},
+    TPM2{1.88869,5.93663}+FQ+I{0.434522}+G4{0.820789}: CIAlign_uce16245.fasta{7.20883},
+    TPM3u{0.623159,4.91185}+FU{0.23154,0.207955,0.264106,0.296399}+I{0.461354}+G4{0.996241}: CIAlign_uce16304.fasta{4.5188},
+    TPM3u{0.509648,4.5501}+FU{0.244135,0.236361,0.213175,0.306328}+I{0.470698}+G4{1.00364}: CIAlign_uce16373.fasta{3.38672},
+    TPM2u{2.93552,10.1303}+FU{0.258491,0.228076,0.240258,0.273175}+I{0.463128}+G4{0.534769}: CIAlign_uce16467.fasta{2.21279},
+    TPM2u{0.596934,3.15991}+FU{0.23012,0.254173,0.27329,0.242416}+G4{0.257595}: CIAlign_uce16513.fasta{1.42059},
+    TPM3u{0.253052,3.62136}+FU{0.317181,0.23093,0.171111,0.280779}+G4{0.261399}: CIAlign_uce16528.fasta{1.39879},
+    TN{4.24902,8.78534}+FU{0.296677,0.179822,0.244629,0.278872}+I{0.435368}+G4{1.21505}: CIAlign_uce16529.fasta{1.34907},
+    TPM2u{1.86952,8.69289}+FU{0.272807,0.19995,0.195951,0.331292}+G4{0.27463}: CIAlign_uce16530.fasta{1.41727},
+    HKY{4.01765}+FU{0.296724,0.192877,0.227208,0.283191}+G4{0.332653}: CIAlign_uce16539.fasta{2.9048},
+    HKY{4.34831}+FU{0.249081,0.178782,0.271884,0.300253}+I{0.583802}+R2{0.380248,1.67396,0.0359502,10.1107}: CIAlign_uce16542.fasta{1.16698},
+    TPM3{0.221632,4.44551}+FQ+I{0.49884}+G4{1.32765}: CIAlign_uce1661.fasta{2.00259},
+    TPM3{0.275342,5.69948}+FQ+I{0.55846}+G4{0.973398}: CIAlign_uce16622.fasta{5.1448},
+    TPM2u{3.31235,13.0579}+FU{0.39731,0.168466,0.232442,0.201783}+G4{0.251906}: CIAlign_uce16737.fasta{11.9043},
+    TN{2.78025,4.44874}+FU{0.216,0.237143,0.238857,0.308}+G4{0.216393}: CIAlign_uce16739.fasta{20.6605},
+    K2P{3.88842}+FQ+I{0.444823}+G4{1.47455}: CIAlign_uce168.fasta{2.29175},
+    TPM3u{0.0001,5.21448}+FU{0.326913,0.188823,0.189636,0.294628}+G4{0.271855}: CIAlign_uce1694.fasta{1.3341},
+    TIM3{0.173436,5.98332,2.44155}+FU{0.26613,0.18485,0.184347,0.364672}+G4{0.315519}: CIAlign_uce1696.fasta{2.15231},
+    TPM2u{6.52815,10.1344}+FU{0.167735,0.292271,0.184779,0.355214}+I{0.404392}+G4{0.53684}: CIAlign_uce17130.fasta{2.08047},
+    TPM2u{1.40475,6.8444}+FU{0.321176,0.249394,0.214926,0.214504}+G4{0.250486}: CIAlign_uce17172.fasta{2.693},
+    HKY{4.59937}+FU{0.333593,0.190624,0.20249,0.273293}+G4{0.310015}: CIAlign_uce17215.fasta{2.61097},
+    HKY{3.21996}+FU{0.262083,0.212257,0.21425,0.31141}+G4{0.449098}: CIAlign_uce17216.fasta{3.66958},
+    TN{2.50189,18.019}+FU{0.386633,0.14007,0.236968,0.236329}+I{0.578721}+G4{1.64517}: CIAlign_uce1727.fasta{3.21789},
+    TIM3{0.487295,9.23894,4.67253}+FU{0.274928,0.238255,0.158198,0.328619}+I{0.584916}+G4{0.819876}: CIAlign_uce17291.fasta{5.06045},
+    TIM2{2.25702,9.34678,19.5037}+FU{0.334519,0.178478,0.290154,0.196849}+I{0.484899}+G4{0.907402}: CIAlign_uce17296.fasta{2.26949},
+    TVM{31.529,81.2055,19.5136,24.6284}+FU{0.289794,0.191702,0.22218,0.296325}+G4{0.343969}: CIAlign_uce17457.fasta{4.58559},
+    HKY{4.12028}+FU{0.300775,0.27446,0.200049,0.224715}+I{0.404112}+G4{0.80238}: CIAlign_uce17490.fasta{5.106},
+    K3P{3.55098,0.396166}+FQ+I{0.556101}+G4{1.65559}: CIAlign_uce17491.fasta{3.84823},
+    HKY{3.81799}+FU{0.330767,0.194054,0.255243,0.219936}+I{0.295209}+G4{0.555694}: CIAlign_uce17492.fasta{4.48201},
+    TPM3u{0.832637,6.30033}+FU{0.306805,0.171197,0.281217,0.240781}+I{0.517241}+G4{1.16382}: CIAlign_uce17580.fasta{5.46412},
+    HKY{5.25347}+FU{0.267314,0.27666,0.251825,0.204202}+G4{0.215612}: CIAlign_uce17585.fasta{12.836},
+    HKY{7.47303}+FU{0.19239,0.225344,0.209815,0.372451}+G4{0.196757}: CIAlign_uce17603.fasta{1.34672},
+    K3Pu{3.33736,0.416474}+FU{0.242383,0.253865,0.194557,0.309194}+R3{0.596489,0.0428324,0.284111,1.30642,0.1194,5.05262}: CIAlign_uce17715.fasta{3.51995},
+    TPM3u{2.30168,7.49837}+FU{0.271955,0.16356,0.243234,0.321251}+I{0.369571}+G4{0.660685}: CIAlign_uce17805.fasta{3.46306},
+    TPM2{2.18851,5.29021}+FQ+G4{0.268479}: CIAlign_uce17825.fasta{1.28647},
+    TPM2u{2.30866,12.0666}+FU{0.309254,0.187155,0.218508,0.285083}+R2{0.788522,0.153879,0.211478,4.15487}: CIAlign_uce17828.fasta{1.42123},
+    TPM2{2.40875,10.8199}+FQ+G4{0.302722}: CIAlign_uce17866.fasta{1.91408},
+    HKY{11.5181}+FU{0.220463,0.233165,0.15495,0.391422}+I{0.531625}+G4{1.68794}: CIAlign_uce1797.fasta{3.47145},
+    TNe{3.55732,1.97225}+FQ+G4{0.37311}: CIAlign_uce18104.fasta{2.87764},
+    TPM3u{0.28309,2.79779}+FU{0.302587,0.241512,0.214748,0.241153}+G4{0.185943}: CIAlign_uce18242.fasta{10.1688},
+    TPM3u{0.3051,3.84754}+FU{0.294628,0.19449,0.191322,0.319559}+G4{0.260162}: CIAlign_uce18245.fasta{1.98636},
+    HKY{7.89897}+FU{0.316954,0.205642,0.212996,0.264407}+I{0.570749}+G4{1.36571}: CIAlign_uce18287.fasta{6.31731},
+    HKY{8.75669}+FU{0.252275,0.202899,0.249579,0.295248}+R2{0.845305,0.220184,0.154695,5.26117}: CIAlign_uce18299.fasta{1.28687},
+    TPM3u{0.444026,2.85299}+FU{0.287836,0.214445,0.23755,0.260169}+I{0.457815}+G4{1.17378}: CIAlign_uce18317.fasta{4.71929},
+    HKY{5.25499}+FU{0.28057,0.204456,0.174332,0.340642}+G4{0.191597}: CIAlign_uce18367.fasta{3.03485},
+    TN{5.44735,3.33086}+FU{0.373281,0.197165,0.174011,0.255543}+I{0.532602}+G4{1.01968}: CIAlign_uce18385.fasta{3.51958},
+    TPM3u{0.351588,6.56702}+FU{0.24343,0.239049,0.249953,0.267568}+I{0.516067}+G4{0.814375}: CIAlign_uce18387.fasta{1.96456},
+    TPM3u{0.235845,5.04077}+FU{0.269273,0.268834,0.157479,0.304415}+G4{0.166972}: CIAlign_uce1842.fasta{25.4359},
+    TIM3{0.368213,5.26228,1.46793}+FU{0.202789,0.258804,0.26164,0.276767}+I{0.412969}+G4{0.873031}: CIAlign_uce18486.fasta{3.84009},
+    HKY{5.78573}+FU{0.350543,0.175557,0.25462,0.21928}+G4{0.242905}: CIAlign_uce18500.fasta{1.67124},
+    TIM3{0.610436,7.48078,4.02014}+FU{0.229105,0.251032,0.233327,0.286537}+I{0.53282}+G4{1.5955}: CIAlign_uce18679.fasta{2.02989},
+    TNe{8.15651,3.90523}+FQ+G4{0.267965}: CIAlign_uce18734.fasta{2.35807},
+    TN{5.90109,2.15759}+FU{0.318019,0.212394,0.153571,0.316015}+G4{0.129282}: CIAlign_uce18817.fasta{37.8025},
+    HKY{10.5566}+FU{0.259596,0.223031,0.18237,0.335002}+I{0.481646}+G4{0.784817}: CIAlign_uce18906.fasta{2.31602},
+    HKY{9.57595}+FU{0.283502,0.262656,0.177784,0.276057}+G4{0.401848}: CIAlign_uce18909.fasta{8.0342},
+    TPM2u{1.3176,8.34472}+FU{0.32038,0.195867,0.225741,0.258011}+R2{0.653568,0.0436976,0.346432,2.80413}: CIAlign_uce19018.fasta{1.96383},
+    TIM3{0.914199,8.60066,3.51022}+FU{0.284579,0.225969,0.198341,0.291111}+I{0.594837}+R3{0.252585,0.621021,0.133106,3.14797,0.0194725,21.7808}: CIAlign_uce19063.fasta{3.45776},
+    K3Pu{4.91334,0.518315}+FU{0.262217,0.231228,0.159913,0.346643}+I{0.603818}+G4{2.12015}: CIAlign_uce19064.fasta{4.01823},
+    TN{14.4561,3.1381}+FU{0.210251,0.230754,0.17853,0.380464}+G4{0.240005}: CIAlign_uce19069.fasta{9.41989},
+    TN{3.99954,2.34272}+FU{0.290107,0.245149,0.148948,0.315797}+I{0.332221}+G4{0.457233}: CIAlign_uce19073.fasta{6.22261},
+    TN{9.37535,3.66268}+FU{0.247315,0.27144,0.199533,0.281712}+I{0.440066}+G4{1.81462}: CIAlign_uce19140.fasta{4.22239},
+    TPM2u{1.29813,7.04511}+FU{0.310698,0.242281,0.201153,0.245868}+I{0.440129}+G4{0.973423}: CIAlign_uce19154.fasta{6.52612},
+    TPM2u{3.9913,7.86403}+FU{0.222159,0.208969,0.250141,0.31873}+I{0.622452}+G4{2.63145}: CIAlign_uce19306.fasta{2.51689},
+    TN{4.61611,9.40133}+FU{0.312386,0.179945,0.206044,0.301625}+I{0.477077}+G4{0.937316}: CIAlign_uce19325.fasta{2.17862},
+    K3P{8.37411,2.75085}+FQ+G4{0.205342}: CIAlign_uce19336.fasta{14.749},
+    HKY{7.0824}+FU{0.275898,0.222454,0.181156,0.320493}+G4{0.288692}: CIAlign_uce19354.fasta{1.77811},
+    K2P{3.39467}+FQ+R2{0.919123,0.40878,0.0808769,7.7189}: CIAlign_uce19356.fasta{1.32073},
+    HKY{8.27438}+FU{0.297113,0.272988,0.214455,0.215444}+I{0.484949}+G4{0.874309}: CIAlign_uce1938.fasta{9.68646},
+    TIM2{2.8372,14.3012,46.9589}+FU{0.367227,0.159264,0.227316,0.246193}+I{0.584006}+G4{1.4093}: CIAlign_uce19632.fasta{4.28813},
+    TIM3{2.11139,4.22456,11.256}+FU{0.311078,0.15619,0.253935,0.278797}+G4{0.179007}: CIAlign_uce19658.fasta{26.7359},
+    TPM3{0.157772,2.61579}+FQ+I{0.44723}+G4{1.36985}: CIAlign_uce19689.fasta{3.48369},
+    TPM2u{2.80322,11.463}+FU{0.325996,0.214535,0.238528,0.220941}+I{0.585828}+G4{2.54418}: CIAlign_uce1973.fasta{2.76919},
+    K3Pu{6.41109,0.452318}+FU{0.257419,0.299045,0.185791,0.257744}+I{0.399038}+R3{0.28594,0.105798,0.149554,1.72004,0.165469,4.30601}: CIAlign_uce19973.fasta{5.02636},
+    HKY{6.56603}+FU{0.30682,0.199374,0.198331,0.295475}+G4{0.289302}: CIAlign_uce20045.fasta{1.92576},
+    TVM{13.0901,100,8.59544,27.3651}+FU{0.370464,0.1403,0.244799,0.244436}+I{0.429112}+G4{0.979569}: CIAlign_uce20066.fasta{4.76844},
+    TN{8.59856,3.4641}+FU{0.263158,0.225285,0.173768,0.337789}+G4{0.24248}: CIAlign_uce20245.fasta{1.62087},
+    K2P{7.04943}+FQ+I{0.519299}+G4{0.717371}: CIAlign_uce20254.fasta{4.41947},
+    K2P{3.10316}+FQ+G4{0.607469}: CIAlign_uce20401.fasta{2.25515},
+    TPM2u{1.96697,9.8831}+FU{0.302984,0.243834,0.214629,0.238553}+I{0.545946}+G4{1.29186}: CIAlign_uce20417.fasta{1.73373},
+    HKY{7.97046}+FU{0.404341,0.1728,0.195211,0.227648}+G4{0.228901}: CIAlign_uce20467.fasta{1.25598},
+    TPM3u{0.172496,2.37493}+FU{0.343188,0.194493,0.225507,0.236812}+G4{0.187464}: CIAlign_uce20468.fasta{12.0831},
+    TN{9.85907,5.57981}+FU{0.290569,0.243909,0.172256,0.293266}+I{0.528289}+G4{0.960664}: CIAlign_uce20471.fasta{2.54372},
+    TN{3.32251,7.76686}+FU{0.341083,0.219137,0.210419,0.229362}+G4{0.573659}: CIAlign_uce20483.fasta{4.45071},
+    TPM3u{0.12285,2.58223}+FU{0.271459,0.265558,0.16774,0.295243}+I{0.547269}+G4{1.8799}: CIAlign_uce20572.fasta{2.18038},
+    TPM3u{0.715227,4.9056}+FU{0.241313,0.23648,0.237209,0.284998}+I{0.570214}+G4{1.27149}: CIAlign_uce20676.fasta{5.39401},
+    TN{4.02087,7.62687}+FU{0.296645,0.174598,0.248887,0.27987}+I{0.42675}+G4{0.949422}: CIAlign_uce20777.fasta{2.24715},
+    HKY{5.14916}+FU{0.283724,0.199605,0.207623,0.309048}+I{0.394182}+G4{1.42142}: CIAlign_uce20807.fasta{5.56842},
+    TPM3u{0.390499,4.13916}+FU{0.300513,0.195354,0.205399,0.298734}+G4{0.372759}: CIAlign_uce2084.fasta{3.30294},
+    TPM2u{1.80483,11.1967}+FU{0.258264,0.224231,0.22765,0.289855}+G4{0.164664}: CIAlign_uce20889.fasta{18.6853},
+    TPM3u{0.377248,8.22715}+FU{0.318201,0.194456,0.199547,0.287795}+I{0.505467}+G4{1.00382}: CIAlign_uce20892.fasta{4.5987},
+    K2P{6.70742}+FQ+I{0.492067}+G4{1.19765}: CIAlign_uce20940.fasta{4.1951},
+    TPM3u{0.647467,4.89574}+FU{0.282217,0.218093,0.20204,0.29765}+I{0.440186}+G4{1.2019}: CIAlign_uce21162.fasta{5.11762},
+    TPM3u{0.562573,3.00186}+FU{0.230332,0.221685,0.244151,0.303832}+I{0.390867}+R2{0.593784,1.14091,0.015349,21.014}: CIAlign_uce21183.fasta{1.65291},
+    TN{3.233,8.1518}+FU{0.398199,0.17419,0.211525,0.216086}+I{0.391589}+G4{1.49977}: CIAlign_uce2119.fasta{3.09064},
+    TPM3{0.533227,7.29779}+FQ+I{0.430864}+G4{0.69536}: CIAlign_uce21263.fasta{2.55444},
+    TN{6.25274,6.10607}+FU{0.270561,0.297658,0.149374,0.282407}+G4{0.253726}: CIAlign_uce21264.fasta{1.94839},
+    HKY{5.22258}+FU{0.23941,0.291497,0.215249,0.253844}+G4{0.126691}: CIAlign_uce21267.fasta{0.735035},
+    GTR{0.150179,2.06213,0.399408,0.403768,1.43472}+FU{0.307759,0.241116,0.208533,0.242592}+I{0.289474}+R2{0.311951,0.322242,0.398575,2.25673}: CIAlign_uce21275.fasta{4.27155},
+    HKY{5.22272}+FU{0.279398,0.277292,0.197705,0.245605}+I{0.505767}+G4{1.49617}: CIAlign_uce21362.fasta{1.81452},
+    TPM3u{0.541312,3.83024}+FU{0.330265,0.150912,0.241164,0.277659}+G4{0.283898}: CIAlign_uce21409.fasta{10.0605},
+    TPM2u{6.10316,10.6912}+FU{0.253073,0.290962,0.229646,0.22632}+G4{0.413017}: CIAlign_uce21496.fasta{1.39951},
+    TIM3{1.77876,4.3003,17.0315}+FU{0.282652,0.223921,0.276793,0.216633}+I{0.349213}+G4{0.408353}: CIAlign_uce21626.fasta{12.8302},
+    TIM2{2.50625,7.43411,15.0253}+FU{0.261272,0.211309,0.240678,0.286741}+G4{0.235877}: CIAlign_uce21695.fasta{16.3914},
+    TPM3u{0.411599,4.69136}+FU{0.282785,0.193603,0.197366,0.326246}+I{0.600256}+G4{1.85543}: CIAlign_uce21740.fasta{2.49697},
+    HKY{6.50072}+FU{0.315089,0.196161,0.229865,0.258885}+I{0.609503}+G4{0.948737}: CIAlign_uce21858.fasta{5.17455},
+    TN{6.18253,14.3541}+FU{0.377429,0.146773,0.235149,0.240649}+I{0.535011}+R2{0.352954,1.08575,0.112035,5.50524}: CIAlign_uce2197.fasta{3.00873},
+    HKY{8.29765}+FU{0.252623,0.196113,0.228541,0.322723}+I{0.584916}+G4{2.60518}: CIAlign_uce21978.fasta{2.14397},
+    TIM2{5.58922,8.73106,41.7804}+FU{0.30553,0.177676,0.293455,0.223338}+I{0.34948}+G4{0.723924}: CIAlign_uce22009.fasta{4.37341},
+    HKY{5.98695}+FU{0.291207,0.17431,0.208908,0.325575}+G4{0.289857}: CIAlign_uce2206.fasta{1.33721},
+    HKY{6.84044}+FU{0.227336,0.23457,0.296137,0.241958}+I{0.557303}+G4{1.51901}: CIAlign_uce22064.fasta{6.21071},
+    TPM2u{2.57017,13.5706}+FU{0.369634,0.15069,0.225131,0.254545}+I{0.485072}+G4{1.57872}: CIAlign_uce22195.fasta{2.49077},
+    HKY{4.18671}+FU{0.299029,0.208282,0.202924,0.289764}+I{0.447758}+R2{0.46853,1.00192,0.083712,6.33805}: CIAlign_uce22213.fasta{2.40659},
+    TN{2.95191,9.60529}+FU{0.283024,0.161056,0.207418,0.348502}+G4{0.257016}: CIAlign_uce22317.fasta{3.20841},
+    TN{7.23338,3.63769}+FU{0.285329,0.229516,0.184693,0.300463}+I{0.518449}+G4{2.08198}: CIAlign_uce22330.fasta{2.56709},
+    TN{6.34718,2.10437}+FU{0.259947,0.194013,0.22117,0.324871}+G4{0.208488}: CIAlign_uce22413.fasta{0.748216},
+    TPM2u{2.54069,12.3546}+FU{0.250824,0.243834,0.205492,0.29985}+I{0.428339}+G4{0.551924}: CIAlign_uce22430.fasta{2.17903},
+    TIM3{0.306587,7.55749,3.76792}+FU{0.432927,0.208043,0.137195,0.221835}+G4{0.178002}: CIAlign_uce22549.fasta{2.68602},
+    TIM2{0.273116,5.28961,1.29631}+FU{0.292026,0.259234,0.0978599,0.35088}+G4{0.27931}: CIAlign_uce22581.fasta{2.21789},
+    HKY{6.35207}+FU{0.280682,0.23699,0.18918,0.293149}+I{0.415404}+G4{0.742189}: CIAlign_uce22594.fasta{4.30764},
+    TIM{3.01134,0.357059,5.94993}+FU{0.300933,0.18429,0.238454,0.276323}+R3{0.670993,0.0598439,0.312028,2.16791,0.016979,16.691}: CIAlign_uce22624.fasta{3.8045},
+    HKY{4.60746}+FU{0.238791,0.22807,0.205328,0.32781}+G4{0.180823}: CIAlign_uce22644.fasta{0.630525},
+    TN{4.46894,6.58993}+FU{0.278335,0.237172,0.184392,0.300101}+G4{0.312178}: CIAlign_uce22645.fasta{1.38923},
+    HKY{6.52352}+FU{0.248695,0.191288,0.28347,0.276547}+I{0.473877}+G4{1.27613}: CIAlign_uce22646.fasta{3.72428},
+    TPM2u{2.52014,11.698}+FU{0.250795,0.242847,0.251501,0.254857}+I{0.596291}+G4{1.79774}: CIAlign_uce22658.fasta{2.61115},
+    HKY{8.8968}+FU{0.334743,0.19308,0.234841,0.237336}+I{0.369257}+G4{0.513547}: CIAlign_uce22688.fasta{2.62581},
+    TPM2u{2.40843,13.4504}+FU{0.273837,0.227964,0.217011,0.281188}+I{0.545122}+G4{1.54937}: CIAlign_uce22689.fasta{3.91461},
+    HKY{8.68647}+FU{0.329028,0.217757,0.17621,0.277005}+G4{0.23226}: CIAlign_uce2291.fasta{2.37654},
+    TPM2u{3.39348,11.2202}+FU{0.303775,0.169008,0.263682,0.263535}+G4{0.202368}: CIAlign_uce22946.fasta{3.67082},
+    TPM3u{3.15873,12.54}+FU{0.29734,0.201684,0.243351,0.257624}+I{0.43536}+G4{0.81998}: CIAlign_uce22965.fasta{5.98461},
+    HKY{4.62325}+FU{0.19479,0.228954,0.257462,0.318794}+R3{0.716061,0.093593,0.256397,2.24865,0.027542,12.9415}: CIAlign_uce22977.fasta{2.06338},
+    HKY{4.28447}+FU{0.316046,0.297326,0.171347,0.215282}+I{0.32603}+R2{0.55533,0.697109,0.11864,5.16583}: CIAlign_uce23147.fasta{2.03409},
+    TN{10.5386,5.7818}+FU{0.224552,0.224016,0.246756,0.304676}+I{0.458492}+G4{0.538967}: CIAlign_uce2318.fasta{2.86042},
+    TPM3u{0.471135,4.1473}+FU{0.311214,0.221104,0.193908,0.273774}+G4{0.22129}: CIAlign_uce23237.fasta{2.86504},
+    TPM3u{0.314531,7.52485}+FU{0.233995,0.211637,0.123872,0.430496}+G4{0.226503}: CIAlign_uce23347.fasta{1.9374},
+    HKY{4.49272}+FU{0.265029,0.221392,0.254501,0.259078}+I{0.578837}+R2{0.320725,1.06061,0.100438,6.56957}: CIAlign_uce2346.fasta{1.96449},
+    HKY{4.41667}+FU{0.296398,0.242369,0.127289,0.333944}+G4{0.370902}: CIAlign_uce23541.fasta{2.46462},
+    K2P{5.21468}+FQ+G4{0.360228}: CIAlign_uce23569.fasta{2.51023},
+    TPM2{3.96326,13.9635}+FQ+G4{0.160555}: CIAlign_uce23576.fasta{0.809875},
+    HKY{7.93256}+FU{0.29894,0.151701,0.236475,0.312883}+G4{0.223615}: CIAlign_uce23668.fasta{11.6822},
+    HKY{4.98923}+FU{0.324176,0.19288,0.190934,0.29201}+I{0.525569}+G4{1.51154}: CIAlign_uce23690.fasta{1.88424},
+    TN{9.33288,4.1067}+FU{0.281053,0.213912,0.161139,0.343897}+I{0.530791}+G4{5.19659}: CIAlign_uce23713.fasta{3.72263},
+    TPM2u{0.525891,3.93447}+FU{0.27657,0.168701,0.236777,0.317952}+I{0.457867}+G4{1.37255}: CIAlign_uce23715.fasta{5.05077},
+    K2P{8.17723}+FQ+I{0.505324}+G4{2.06329}: CIAlign_uce23800.fasta{3.63913},
+    HKY{4.64168}+FU{0.284824,0.242287,0.170614,0.302275}+G4{0.175368}: CIAlign_uce23837.fasta{14.2819},
+    TIM2{2.16218,4.44093,9.48761}+FU{0.278837,0.188224,0.198118,0.334821}+I{0.351418}+G4{0.577773}: CIAlign_uce23975.fasta{3.8677},
+    TPM3{0.253383,3.97046}+FQ+G4{0.251083}: CIAlign_uce24115.fasta{2.91412},
+    TPM3{0.431797,3.21386}+FQ+I{0.356631}+G4{0.678791}: CIAlign_uce24367.fasta{4.1273},
+    TPM3u{0.183904,4.46211}+FU{0.335347,0.18004,0.223469,0.261145}+I{0.490141}+G4{1.45066}: CIAlign_uce24410.fasta{2.32391},
+    TPM3{0.453426,3.94377}+FQ+G4{0.381346}: CIAlign_uce24422.fasta{3.20987},
+    TPM2u{1.07963,4.8589}+FU{0.350901,0.213305,0.225408,0.210386}+G4{0.285203}: CIAlign_uce24448.fasta{3.63934},
+    K2P{6.92874}+FQ+G4{0.250729}: CIAlign_uce24460.fasta{5.37194},
+    TPM3{0.3546,2.70483}+FQ+I{0.507821}+G4{1.37839}: CIAlign_uce24477.fasta{3.20019},
+    TN{10.6204,4.5573}+FU{0.16756,0.33903,0.120927,0.372484}+I{0.589304}+G4{2.4912}: CIAlign_uce24536.fasta{2.12687},
+    TPM2u{2.04632,4.62164}+FU{0.255207,0.24403,0.21287,0.287892}+G4{0.325347}: CIAlign_uce24559.fasta{1.25086},
+    HKY{13.5556}+FU{0.337285,0.196364,0.183943,0.282407}+G4{0.168316}: CIAlign_uce24560.fasta{1.31159},
+    TIM2e{2.63766,6.94623,11.9031}+FQ+G4{0.340438}: CIAlign_uce24603.fasta{2.02584},
+    HKY{6.40088}+FU{0.327837,0.227855,0.238204,0.206104}+I{0.53551}+G4{1.5183}: CIAlign_uce24605.fasta{2.17179},
+    HKY{5.02951}+FU{0.242406,0.226663,0.187062,0.343869}+G4{0.211008}: CIAlign_uce24650.fasta{6.77224},
+    TVM{30.1924,100,21.5815,25.0614}+FU{0.244982,0.177426,0.255121,0.322471}+G4{0.249373}: CIAlign_uce24678.fasta{2.02694},
+    TPM3u{0.189268,3.62054}+FU{0.337397,0.27245,0.168816,0.221336}+I{0.471644}+G4{1.10151}: CIAlign_uce24715.fasta{5.73594},
+    HKY{7.82265}+FU{0.271612,0.188462,0.148535,0.391392}+G4{0.281455}: CIAlign_uce24716.fasta{3.61422},
+    HKY{9.71498}+FU{0.275862,0.220822,0.214854,0.288462}+I{0.50511}+G4{0.496961}: CIAlign_uce24734.fasta{13.0033},
+    HKY{4.03191}+FU{0.369051,0.175053,0.183086,0.27281}+G4{0.275277}: CIAlign_uce24794.fasta{3.47443},
+    HKY{5.29074}+FU{0.286028,0.238283,0.18538,0.290308}+I{0.423229}+G4{1.39419}: CIAlign_uce25004.fasta{2.64044},
+    HKY{7.62257}+FU{0.304814,0.229335,0.175907,0.289945}+G4{0.172936}: CIAlign_uce25136.fasta{3.34144},
+    K2P{4.54995}+FQ+I{0.489879}+G4{1.45973}: CIAlign_uce2516.fasta{2.36014},
+    TPM3u{0.416705,3.84759}+FU{0.286484,0.251149,0.205175,0.257192}+I{0.605426}+G4{1.59833}: CIAlign_uce25262.fasta{2.95095},
+    TN{4.8856,1.6621}+FU{0.275123,0.218887,0.180268,0.325722}+G4{0.320591}: CIAlign_uce25263.fasta{1.17916},
+    K2P{8.0955}+FQ+G4{0.201441}: CIAlign_uce25279.fasta{16.407},
+    TPM2u{1.95984,7.94617}+FU{0.277627,0.261714,0.200704,0.259955}+I{0.46567}+G4{1.06349}: CIAlign_uce25388.fasta{1.83056},
+    TN{4.45403,10.2259}+FU{0.307331,0.129032,0.265689,0.297947}+G4{0.27863}: CIAlign_uce25390.fasta{1.97024},
+    TN{7.59073,4.52843}+FU{0.300182,0.25238,0.168827,0.27861}+I{0.517619}+G4{1.3691}: CIAlign_uce25409.fasta{2.84738},
+    HKY{3.536}+FU{0.296373,0.219578,0.206588,0.27746}+G4{0.321243}: CIAlign_uce25420.fasta{2.77353},
+    TN{6.21922,14.0374}+FU{0.345772,0.162544,0.210203,0.281481}+G4{0.27585}: CIAlign_uce2544.fasta{2.94104},
+    HKY{4.48548}+FU{0.344688,0.205436,0.216202,0.233675}+G4{0.397518}: CIAlign_uce25459.fasta{3.97762},
+    K3Pu{4.31331,0.159333}+FU{0.269025,0.196362,0.217383,0.317231}+I{0.571455}+R3{0.386294,0.78308,0.0369035,5.841,0.00534759,90.1242}: CIAlign_uce25501.fasta{3.96318},
+    TPM3u{0.591319,6.01602}+FU{0.318418,0.212158,0.18695,0.282475}+G4{0.181586}: CIAlign_uce25513.fasta{1.25677},
+    HKY{4.33488}+FU{0.254749,0.25,0.191997,0.303254}+I{0.447946}+G4{0.569249}: CIAlign_uce25552.fasta{2.46335},
+    TNe{3.5948,7.05723}+FQ+I{0.641829}+G4{2.00959}: CIAlign_uce25627.fasta{1.53853},
+    TPM2{2.6302,5.14513}+FQ+G4{0.455446}: CIAlign_uce25666.fasta{1.26968},
+    TPM2u{0.315553,3.22631}+FU{0.313542,0.211204,0.167694,0.30756}+I{0.587625}+G4{1.34972}: CIAlign_uce25779.fasta{3.76468},
+    TPM2u{0.610497,6.21814}+FU{0.293779,0.189749,0.218055,0.298417}+I{0.499023}+G4{1.03408}: CIAlign_uce25787.fasta{6.34694},
+    HKY{6.88468}+FU{0.322638,0.166667,0.241644,0.269051}+I{0.642663}+G4{2.19428}: CIAlign_uce25889.fasta{2.18157},
+    HKY{12.39}+FU{0.269304,0.188079,0.246501,0.296116}+I{0.557493}+G4{1.37604}: CIAlign_uce25904.fasta{3.14807},
+    TPM2u{2.6572,10.4835}+FU{0.291064,0.176093,0.256867,0.275977}+G4{0.247686}: CIAlign_uce26055.fasta{3.47704},
+    TPM3u{3.64099,10.5032}+FU{0.309613,0.17351,0.185452,0.331425}+I{0.50657}+G4{1.20825}: CIAlign_uce26124.fasta{2.78408},
+    TPM2{2.97605,8.10627}+FQ+G4{0.351564}: CIAlign_uce26139.fasta{3.68277},
+    HKY{4.25382}+FU{0.251572,0.249353,0.187847,0.311229}+I{0.531757}+G4{1.203}: CIAlign_uce26180.fasta{1.54707},
+    TPM2{3.63059,9.83854}+FQ+G4{0.330374}: CIAlign_uce26244.fasta{0.56009},
+    HKY{5.01083}+FU{0.231923,0.242708,0.247585,0.277783}+I{0.440614}+G4{0.549162}: CIAlign_uce2626.fasta{4.98092},
+    HKY{5.48542}+FU{0.329622,0.211553,0.203285,0.25554}+G4{0.26059}: CIAlign_uce26280.fasta{3.56476},
+    TPM3u{0.432304,3.21436}+FU{0.264057,0.219417,0.224662,0.291865}+G4{0.24301}: CIAlign_uce26324.fasta{1.77461},
+    TIM3{0.411259,10.5565,4.59387}+FU{0.312409,0.267961,0.143324,0.276306}+G4{0.2458}: CIAlign_uce26339.fasta{3.22836},
+    HKY{5.85589}+FU{0.343276,0.20473,0.18761,0.264384}+G4{0.330817}: CIAlign_uce26340.fasta{4.27975},
+    TPM2u{2.22811,7.42254}+FU{0.248039,0.218228,0.248752,0.284981}+I{0.000832712}+G4{0.210197}: CIAlign_uce26341.fasta{23.9812},
+    TNe{7.78165,3.56745}+FQ+I{0.515598}+G4{0.68263}: CIAlign_uce26382.fasta{2.90552},
+    HKY{5.53457}+FU{0.194362,0.246901,0.262102,0.296635}+G4{0.234089}: CIAlign_uce26414.fasta{1.52837},
+    GTR{2.50268,3.54851,0.901648,0.419195,7.79883}+FU{0.280258,0.199782,0.256979,0.262981}+I{0.38677}+G4{0.877384}: CIAlign_uce26432.fasta{3.00611},
+    TPM3u{0.785955,7.51116}+FU{0.28682,0.20874,0.220259,0.284182}+R3{0.57494,0.0464421,0.327693,1.38916,0.0973668,5.32092}: CIAlign_uce26436.fasta{4.64664},
+    TPM2{7.17628,20.2271}+FQ+I{0.59438}: CIAlign_uce26544.fasta{1.00296},
+    TN{6.92375,2.95099}+FU{0.253794,0.250907,0.205238,0.29006}+I{0.490553}+G4{1.34401}: CIAlign_uce26590.fasta{2.07327},
+    TIM3{0.320128,4.53586,2.45385}+FU{0.26941,0.267728,0.138975,0.323887}+I{0.533264}+G4{2.19789}: CIAlign_uce26638.fasta{2.86257},
+    TPM3{0.417616,3.6896}+FQ+G4{0.262909}: CIAlign_uce26677.fasta{1.9762},
+    K3Pu{19.5226,5.40996}+FU{0.311326,0.30549,0.133868,0.249316}+G4{0.28243}: CIAlign_uce26771.fasta{1.45835},
+    TPM3{0.225907,3.06689}+FQ+G4{0.417303}: CIAlign_uce26772.fasta{1.38585},
+    TNe{8.22445,4.20662}+FQ+I{0.471736}+G4{1.0263}: CIAlign_uce26843.fasta{3.45834},
+    K2P{5.92942}+FQ+I{0.508384}+G4{1.03177}: CIAlign_uce26865.fasta{7.42998},
+    TPM3u{1.66441,4.4986}+FU{0.320639,0.174997,0.238694,0.265669}+I{0.492114}+G4{1.49657}: CIAlign_uce26985.fasta{4.3318},
+    TPM2u{1.58361,7.50921}+FU{0.243408,0.246497,0.22465,0.285445}+I{0.371845}+G4{0.688562}: CIAlign_uce27040.fasta{2.51906},
+    K3Pu{4.5646,0.448929}+FU{0.260841,0.222058,0.2799,0.237202}+I{0.450079}+G4{1.09595}: CIAlign_uce27042.fasta{2.57809},
+    HKY{6.49478}+FU{0.309934,0.23596,0.204408,0.249698}+G4{0.168977}: CIAlign_uce2714.fasta{10.2532},
+    TN{5.09602,6.88061}+FU{0.269784,0.276621,0.188135,0.26546}+I{0.353357}+G4{0.656976}: CIAlign_uce27192.fasta{2.31622},
+    K3P{6.37529,1.75173}+FQ+I{0.417193}+G4{1.20658}: CIAlign_uce27378.fasta{6.28143},
+    K2P{2.94009}+FQ+G4{0.632129}: CIAlign_uce27520.fasta{2.6069},
+    TN{5.71576,3.3454}+FU{0.178063,0.211776,0.172958,0.437203}+G4{0.241925}: CIAlign_uce27539.fasta{3.1153},
+    TIM2{0.446706,5.13126,2.79767}+FU{0.303038,0.26397,0.142463,0.29053}+G4{0.263567}: CIAlign_uce27545.fasta{2.57943},
+    HKY{5.6252}+FU{0.281023,0.20156,0.17979,0.337627}+G4{0.285086}: CIAlign_uce27547.fasta{2.13011},
+    HKY{7.82043}+FU{0.27271,0.287524,0.119103,0.320663}+G4{0.168954}: CIAlign_uce27550.fasta{27.3271},
+    K2P{2.94416}+FQ+G4{0.361859}: CIAlign_uce27597.fasta{2.86359},
+    TPM2u{3.47944,8.38529}+FU{0.338924,0.162869,0.290226,0.207981}+I{0.478234}+R2{0.441354,1.20263,0.0804117,5.83516}: CIAlign_uce27610.fasta{2.05067},
+    HKY{4.08674}+FU{0.273919,0.223868,0.176881,0.325332}+I{0.369675}+G4{0.628061}: CIAlign_uce27625.fasta{3.69509},
+    TPM2u{3.49639,6.10919}+FU{0.284959,0.183838,0.259361,0.271843}+I{0.62178}: CIAlign_uce27626.fasta{1.32762},
+    HKY{4.04773}+FU{0.256389,0.274419,0.23976,0.229432}+I{0.547724}+R2{0.401338,1.26941,0.0509381,9.63008}: CIAlign_uce27741.fasta{1.31626},
+    HKY{3.84563}+FU{0.314121,0.222477,0.17555,0.287852}+G4{0.25791}: CIAlign_uce27763.fasta{1.61366},
+    TPM2{2.74437,8.79757}+FQ+G4{0.362088}: CIAlign_uce27783.fasta{4.57634},
+    HKY{4.46234}+FU{0.331044,0.195358,0.214313,0.259284}+G4{0.2945}: CIAlign_uce27830.fasta{2.4885},
+    HKY{6.40426}+FU{0.27658,0.254823,0.192118,0.276478}+I{0.521323}+G4{0.87025}: CIAlign_uce27831.fasta{6.04732},
+    TPM3u{0.348621,5.48391}+FU{0.260843,0.257507,0.223803,0.257847}+I{0.532852}+G4{1.3111}: CIAlign_uce27929.fasta{3.33068},
+    K2P{4.80399}+FQ+G4{0.423795}: CIAlign_uce28007.fasta{2.67678},
+    TPM3u{0.229923,3.22074}+FU{0.316032,0.19814,0.253205,0.232623}+G4{0.368357}: CIAlign_uce28098.fasta{0.77813},
+    HKY{6.00601}+FU{0.237674,0.253433,0.17344,0.335453}+G4{0.25877}: CIAlign_uce28099.fasta{1.81783},
+    TPM2u{1.74813,8.70684}+FU{0.282406,0.214567,0.236283,0.266744}+I{0.47076}+G4{1.15004}: CIAlign_uce2840.fasta{3.9255},
+    HKY{8.10031}+FU{0.283353,0.216294,0.289582,0.210771}+I{0.531873}+G4{1.07347}: CIAlign_uce28516.fasta{8.16135},
+    TPM2u{1.44537,6.81813}+FU{0.287866,0.208069,0.287344,0.21672}+I{0.599201}+G4{1.47046}: CIAlign_uce28546.fasta{7.0111},
+    TIM3{0.902793,4.17463,2.18384}+FU{0.282073,0.187188,0.228862,0.301877}+G4{0.311152}: CIAlign_uce28586.fasta{3.7827},
+    TN{4.3887,13.3085}+FU{0.232306,0.22544,0.247285,0.294969}+G4{0.180441}: CIAlign_uce28698.fasta{1.77646},
+    K2P{3.02582}+FQ+G4{0.368119}: CIAlign_uce28849.fasta{1.92352},
+    TPM3{0.504707,4.86397}+FQ+R3{0.652972,0.0609323,0.275599,1.51271,0.0714283,7.60639}: CIAlign_uce28892.fasta{2.69188},
+    K3Pu{5.00978,0.407412}+FU{0.232416,0.268308,0.248189,0.251086}+I{0.520626}+R2{0.373374,1.08221,0.106,5.62199}: CIAlign_uce28894.fasta{2.23998},
+    K3P{5.29384,0.0001}+FQ+G4{0.117806}: CIAlign_uce28895.fasta{8.49065},
+    K2P{5.08382}+FQ+I{0.589108}+G4{3.01652}: CIAlign_uce28896.fasta{2.1775},
+    HKY{5.85089}+FU{0.274026,0.26195,0.164235,0.299789}+I{0.494181}+G4{1.34082}: CIAlign_uce29213.fasta{5.11198},
+    K2P{6.97294}+FQ+I{0.488346}+G4{0.748266}: CIAlign_uce29251.fasta{7.80496},
+    HKY{4.53254}+FU{0.237419,0.236607,0.229708,0.296266}+G4{0.109883}: CIAlign_uce29443.fasta{64.3494},
+    TNe{2.54128,5.70847}+FQ+G4{0.322794}: CIAlign_uce29475.fasta{1.77921},
+    HKY{2.7066}+FU{0.280451,0.224483,0.269274,0.225792}+R2{0.823733,0.172557,0.176267,4.86682}: CIAlign_uce29580.fasta{0.847542},
+    TIM2{3.00885,8.327,16.9058}+FU{0.263264,0.264037,0.257154,0.215545}+I{0.423512}+G4{1.01253}: CIAlign_uce29605.fasta{8.17119},
+    HKY{7.69233}+FU{0.244802,0.197775,0.250249,0.307173}+R3{0.607015,0.0379067,0.371906,1.75829,0.0210785,15.327}: CIAlign_uce29669.fasta{2.94577},
+    TIM3{3.41135,10.8924,25.0558}+FU{0.359846,0.185521,0.213127,0.241506}+I{0.30571}+G4{1.11053}: CIAlign_uce29727.fasta{4.67615},
+    TIM2e{0.531025,3.22874,1.97096}+FQ+I{0.405166}+G4{0.946424}: CIAlign_uce29732.fasta{8.30631},
+    HKY{4.72954}+FU{0.284258,0.249159,0.230034,0.236549}+I{0.52703}+R2{0.371208,0.717791,0.101762,7.20849}: CIAlign_uce29738.fasta{2.12971},
+    TN{3.96705,7.0402}+FU{0.406158,0.143649,0.20143,0.248763}+I{0.487463}+R2{0.43363,0.913653,0.0789072,7.65219}: CIAlign_uce2981.fasta{2.17781},
+    TPM3u{0.0106354,5.88561}+FU{0.310563,0.18299,0.203818,0.302628}+G4{0.181627}: CIAlign_uce29811.fasta{2.06671},
+    HKY{5.97725}+FU{0.306588,0.222925,0.14585,0.324638}+G4{0.302187}: CIAlign_uce29870.fasta{3.18228},
+    K2P{4.64096}+FQ+G4{0.176607}: CIAlign_uce29899.fasta{11.5571},
+    HKY{5.65076}+FU{0.333143,0.267772,0.216586,0.182499}+I{0.595818}+G4{1.39197}: CIAlign_uce30161.fasta{3.39193},
+    TPM2{2.47772,12.1757}+FQ+G4{0.215757}: CIAlign_uce30219.fasta{2.00057},
+    TPM2u{2.69793,7.9921}+FU{0.271258,0.26234,0.226755,0.239647}+I{0.45535}+G4{0.857405}: CIAlign_uce30230.fasta{2.12462},
+    TPM3u{0.531757,6.66109}+FU{0.245769,0.259098,0.204508,0.290625}+G4{0.272899}: CIAlign_uce30267.fasta{2.7217},
+    K2P{6.52255}+FQ+G4{0.275596}: CIAlign_uce3028.fasta{2.58079},
+    TIM3{0.280011,2.69758,1.18622}+FU{0.295897,0.208128,0.221501,0.274474}+I{0.624046}+R2{0.351398,1.82681,0.0245556,14.5817}: CIAlign_uce30321.fasta{1.13389},
+    TPM3u{0.477226,5.90631}+FU{0.333475,0.187557,0.183104,0.295864}+I{0.552444}+G4{1.45885}: CIAlign_uce30435.fasta{2.95641},
+    TPM3u{0.250565,4.31786}+FU{0.370832,0.237759,0.187444,0.203965}+G4{0.258002}: CIAlign_uce3047.fasta{3.72059},
+    TPM3u{0.669354,4.07048}+FU{0.264666,0.20631,0.207341,0.321683}+G4{0.277757}: CIAlign_uce30493.fasta{2.22229},
+    TN{4.43237,7.14655}+FU{0.249618,0.237634,0.220296,0.292453}+I{0.215769}+G4{0.344793}: CIAlign_uce30515.fasta{4.16404},
+    HKY{5.4993}+FU{0.218235,0.200102,0.248755,0.332908}+G4{0.425248}: CIAlign_uce30525.fasta{5.10024},
+    TPM3u{0.497696,6.01875}+FU{0.284011,0.247926,0.200747,0.267316}+I{0.484649}+G4{0.633962}: CIAlign_uce30574.fasta{3.85007},
+    TN{10.522,3.87459}+FU{0.362834,0.213108,0.161892,0.262166}+G4{0.204766}: CIAlign_uce3067.fasta{11.2434},
+    TPM3u{0.386929,4.6718}+FU{0.235144,0.247878,0.230051,0.286927}+G4{0.220809}: CIAlign_uce30748.fasta{16.8221},
+    TIM3{0.48446,4.61456,2.84683}+FU{0.297971,0.216992,0.268415,0.216622}+G4{0.268323}: CIAlign_uce30769.fasta{3.34391},
+    HKY{5.75494}+FU{0.309791,0.205629,0.199806,0.284775}+I{0.541439}+G4{1.55686}: CIAlign_uce30828.fasta{3.9759},
+    HKY{3.52922}+FU{0.271551,0.252259,0.194383,0.281807}+R2{0.588019,0.0957194,0.411981,2.29068}: CIAlign_uce30830.fasta{3.16138},
+    TPM2u{0.315079,3.72792}+FU{0.2447,0.221813,0.171429,0.362058}+G4{0.218479}: CIAlign_uce30836.fasta{1.66342},
+    TPM3u{0.185973,2.82424}+FU{0.244779,0.318649,0.182857,0.253714}+I{0.381368}+R3{0.362147,0.285705,0.245057,2.82289,0.0114281,17.9175}: CIAlign_uce3102.fasta{4.55247},
+    HKY{6.48945}+FU{0.19968,0.248915,0.23567,0.315734}+G4{0.22997}: CIAlign_uce31067.fasta{1.63877},
+    TPM3u{0.449109,2.64546}+FU{0.270385,0.166096,0.265177,0.298342}+G4{0.210587}: CIAlign_uce31079.fasta{1.88216},
+    TPM3{0.225098,2.04992}+FQ+G4{0.329737}: CIAlign_uce31082.fasta{2.41043},
+    GTR{0.196662,2.58017,0.219058,0.0108307,0.667521}+FU{0.331724,0.320457,0.113633,0.234186}+G4{0.244779}: CIAlign_uce31174.fasta{2.2298},
+    HKY{6.07889}+FU{0.344266,0.156418,0.229475,0.269841}+G4{0.160093}: CIAlign_uce31176.fasta{16.2566},
+    HKY{5.86211}+FU{0.269743,0.244232,0.18945,0.296575}+I{0.589944}+G4{1.14594}: CIAlign_uce31286.fasta{1.61668},
+    TIM2{2.33114,5.61297,14.5849}+FU{0.317577,0.197463,0.240536,0.244424}+R3{0.645622,0.0367175,0.224688,2.03237,0.12969,4.00683}: CIAlign_uce31287.fasta{2.99761},
+    TN{8.17769,11.2677}+FU{0.218041,0.215786,0.262579,0.303594}+I{0.45952}+G4{1.10288}: CIAlign_uce31300.fasta{7.48047},
+    K3Pu{24.028,3.92001}+FU{0.287717,0.177953,0.241417,0.292913}+I{0.473788}+G4{0.854615}: CIAlign_uce31352.fasta{2.78921},
+    TPM3u{0.11125,5.39588}+FU{0.314568,0.18786,0.207284,0.290288}+I{0.59167}+G4{1.09518}: CIAlign_uce31473.fasta{2.94535},
+    HKY{4.91166}+FU{0.330923,0.17136,0.214485,0.283232}+I{0.398153}+G4{1.30134}: CIAlign_uce31484.fasta{4.84488},
+    HKY{7.26891}+FU{0.35111,0.153419,0.221216,0.274255}+G4{0.231597}: CIAlign_uce31497.fasta{2.99646},
+    TPM2u{1.73626,7.96758}+FU{0.299478,0.233116,0.218449,0.248957}+I{0.454056}+G4{1.50083}: CIAlign_uce31759.fasta{2.16492},
+    K3P{11.8292,4.50556}+FQ+I{0.600867}+G4{2.28357}: CIAlign_uce31829.fasta{2.79517},
+    TPM3u{0.505271,4.78611}+FU{0.297784,0.191903,0.268378,0.241935}+I{0.505926}+G4{1.2571}: CIAlign_uce3186.fasta{4.17787},
+    HKY{6.42581}+FU{0.195491,0.286472,0.180239,0.337798}+G4{0.264256}: CIAlign_uce31893.fasta{1.74202},
+    TPM2u{2.02864,8.01241}+FU{0.267515,0.258415,0.189245,0.284825}+I{0.543953}+G4{0.756802}: CIAlign_uce31907.fasta{2.49988},
+    HKY{8.3565}+FU{0.319218,0.213753,0.176245,0.290784}+G4{0.221296}: CIAlign_uce31967.fasta{6.75314},
+    TN{7.90926,5.04711}+FU{0.246563,0.236502,0.246647,0.270288}+G4{0.459061}: CIAlign_uce32005.fasta{2.39577},
+    HKY{3.00928}+FU{0.365973,0.147423,0.229838,0.256766}+G4{0.304386}: CIAlign_uce32057.fasta{3.03868},
+    TNe{6.94969,4.34581}+FQ+I{0.362447}+G4{1.27362}: CIAlign_uce32088.fasta{5.12186},
+    TN{2.147,5.34045}+FU{0.213429,0.169857,0.299714,0.317}+G4{0.272145}: CIAlign_uce32102.fasta{1.75358},
+    TN{5.27193,10.2816}+FU{0.366693,0.135277,0.242054,0.255976}+I{0.544191}+R2{0.407496,1.35932,0.0483127,9.2332}: CIAlign_uce32146.fasta{2.05678},
+    HKY{7.51925}+FU{0.259492,0.2548,0.234661,0.251047}+I{0.433825}+G4{0.657942}: CIAlign_uce32174.fasta{5.69157},
+    TPM3{0.403256,3.60368}+FQ+G4{0.180375}: CIAlign_uce32214.fasta{3.14018},
+    TIM2e{3.39166,10.0321,16.0553}+FQ+I{0.364603}+G4{0.619248}: CIAlign_uce32270.fasta{3.53024},
+    TPM3u{1.81063,7.88694}+FU{0.254727,0.218596,0.252525,0.274152}+I{0.301149}+G4{0.860878}: CIAlign_uce32355.fasta{4.12159},
+    TPM3u{0.592282,2.66711}+FU{0.302771,0.213935,0.217079,0.266215}+I{0.396447}+G4{0.834173}: CIAlign_uce32430.fasta{3.84005},
+    TPM3{0.372308,1.83352}+FQ+I{0.42889}+G4{1.57597}: CIAlign_uce32470.fasta{2.05553},
+    HKY{5.99154}+FU{0.342814,0.187553,0.212575,0.257057}+G4{0.177157}: CIAlign_uce32474.fasta{2.0271},
+    TPM2u{2.13718,11.4597}+FU{0.350907,0.265466,0.198172,0.185455}+I{0.519544}+G4{0.95225}: CIAlign_uce32475.fasta{2.11814},
+    TPM2u{1.56707,5.63774}+FU{0.310115,0.165798,0.241502,0.282586}+I{0.468891}+G4{1.36506}: CIAlign_uce32509.fasta{2.93991},
+    TPM2{2.47612,6.23024}+FQ+G4{0.459277}: CIAlign_uce3258.fasta{1.0386},
+    TN{12.1283,3.89725}+FU{0.201477,0.229372,0.271449,0.297703}+I{0.420342}+G4{1.03365}: CIAlign_uce32689.fasta{5.98257},
+    TPM3{0.266745,3.16739}+FQ+G4{0.182519}: CIAlign_uce32720.fasta{1.54038},
+    K2P{5.22631}+FQ+G4{0.326144}: CIAlign_uce32735.fasta{1.53389},
+    K2P{4.56364}+FQ+G4{0.385703}: CIAlign_uce32764.fasta{1.20304},
+    TVM{1.09605,5.50503,2.09315,0.0704367}+FU{0.317784,0.203936,0.274052,0.204227}+G4{0.205378}: CIAlign_uce32775.fasta{2.91044},
+    TN{8.67401,4.78344}+FU{0.196939,0.205157,0.275221,0.322683}+I{0.36779}+G4{0.717024}: CIAlign_uce32884.fasta{7.06819},
+    K2P{4.4759}+FQ+G4{0.184674}: CIAlign_uce32909.fasta{8.99381},
+    TN{4.47143,9.78826}+FU{0.386544,0.16119,0.249568,0.202698}+G4{0.271127}: CIAlign_uce33011.fasta{3.00636},
+    TPM2u{1.77126,5.54632}+FU{0.323438,0.203566,0.244418,0.228579}+G4{0.261}: CIAlign_uce33015.fasta{2.41846},
+    TIM3e{0.29066,4.70427,3.04971}+FQ+I{0.336543}+G4{0.792744}: CIAlign_uce33050.fasta{5.42764},
+    TPM2{3.18422,16.0454}+FQ+I{0.441386}+G4{1.00493}: CIAlign_uce3309.fasta{6.41736},
+    TIM2e{0.352692,9.08508,4.03084}+FQ+I{0.475309}+G4{3.1963}: CIAlign_uce33091.fasta{5.94493},
+    TIM3{0.156214,2.61887,0.919134}+FU{0.323713,0.27511,0.194643,0.206534}+I{0.516818}+R2{0.40442,0.79978,0.0787618,8.58985}: CIAlign_uce33206.fasta{1.23129},
+    K3Pu{3.90856,0.303438}+FU{0.240449,0.220764,0.193059,0.345728}+I{0.582586}+G4{4.25026}: CIAlign_uce33241.fasta{3.30929},
+    HKY{5.68732}+FU{0.267857,0.235229,0.211199,0.285714}+G4{0.269637}: CIAlign_uce33428.fasta{2.47598},
+    TIMe{1.82672,0.0894028,4.62846}+FQ+G4{0.182809}: CIAlign_uce33443.fasta{2.012},
+    TPM2u{1.54214,5.73526}+FU{0.317905,0.236347,0.194585,0.251164}+R3{0.580708,0.0767343,0.322179,1.38455,0.0971133,5.24508}: CIAlign_uce33521.fasta{2.52778},
+    HKY{7.46385}+FU{0.263882,0.217921,0.185786,0.332412}+I{0.546812}+G4{1.22828}: CIAlign_uce33639.fasta{3.38353},
+    TPM3u{0.496346,4.85291}+FU{0.305697,0.195924,0.18666,0.311718}+I{0.508333}+R2{0.39434,1.20003,0.0973272,5.41247}: CIAlign_uce33668.fasta{4.14773},
+    TIM3e{0.361586,2.61546,1.27208}+FQ+G4{0.262214}: CIAlign_uce33691.fasta{1.95863},
+    K2P{6.3843}+FQ+I{0.461577}+G4{1.69968}: CIAlign_uce33739.fasta{4.15796},
+    TIM3{0.456975,13.8818,4.31697}+FU{0.254571,0.269895,0.174482,0.301052}+I{0.487261}+G4{0.786679}: CIAlign_uce33747.fasta{3.81495},
+    HKY{7.7338}+FU{0.26867,0.137887,0.253005,0.340437}+G4{0.29241}: CIAlign_uce33749.fasta{2.59505},
+    HKY{4.80319}+FU{0.28059,0.27907,0.175863,0.264478}+G4{0.284391}: CIAlign_uce3379.fasta{2.3671},
+    HKY{6.94092}+FU{0.316269,0.159288,0.162474,0.361969}+I{0.39156}+G4{1.21463}: CIAlign_uce33949.fasta{4.38048},
+    TIM3{2.55198,5.75855,22.4303}+FU{0.340635,0.109523,0.263783,0.286059}+G4{0.302153}: CIAlign_uce33993.fasta{4.68536},
+    TPM2u{2.86136,8.51543}+FU{0.240862,0.204072,0.20431,0.350756}+I{0.509886}+G4{2.77407}: CIAlign_uce3406.fasta{3.23369},
+    TN{3.66051,7.5838}+FU{0.377437,0.1796,0.218212,0.224752}+I{0.383194}+G4{0.948799}: CIAlign_uce34159.fasta{4.35971},
+    HKY{8.64578}+FU{0.227959,0.225214,0.181475,0.365352}+G4{0.192089}: CIAlign_uce34185.fasta{13.7375},
+    HKY{6.32473}+FU{0.21378,0.208469,0.232979,0.344771}+I{0.415557}+G4{0.460611}: CIAlign_uce34210.fasta{4.77678},
+    TPM3u{0.446317,5.85984}+FU{0.178754,0.28052,0.225852,0.314874}+G4{0.134343}: CIAlign_uce34267.fasta{0.864396},
+    GTR{6.82491,9.70746,1.49175,0.99781,18.4063}+FU{0.279049,0.164663,0.268192,0.288096}+I{0.585059}+G4{1.1102}: CIAlign_uce34324.fasta{3.64239},
+    TPM2u{2.19433,11.4629}+FU{0.250459,0.223801,0.261074,0.264666}+I{0.394308}+G4{0.568077}: CIAlign_uce34366.fasta{1.77617},
+    K2P{4.01389}+FQ+G4{0.366558}: CIAlign_uce34406.fasta{2.3337},
+    TIM3{0.346223,5.56479,2.52679}+FU{0.272391,0.218976,0.225905,0.282728}+I{0.427279}+G4{0.934837}: CIAlign_uce34507.fasta{4.63866},
+    TPM3u{0.525731,5.75584}+FU{0.342656,0.177136,0.208926,0.271282}+I{0.500262}+R2{0.45853,1.03835,0.0412076,12.7133}: CIAlign_uce34528.fasta{0.968583},
+    HKY{6.34288}+FU{0.244412,0.231506,0.21727,0.306812}+I{0.628043}: CIAlign_uce34571.fasta{1.13845},
+    K2P{5.41884}+FQ+I{0.503269}+G4{1.47081}: CIAlign_uce3459.fasta{4.18434},
+    TPM2u{1.38942,6.90398}+FU{0.337344,0.200015,0.235146,0.227496}+I{0.339714}+G4{0.746202}: CIAlign_uce34922.fasta{5.46583},
+    TPM2u{17.1305,37.6647}+FU{0.298419,0.138358,0.29724,0.265983}+G4{0.336765}: CIAlign_uce35009.fasta{1.03327},
+    HKY{10.3375}+FU{0.414889,0.206733,0.174648,0.20373}+I{0.594421}: CIAlign_uce35011.fasta{1.30307},
+    TVM{3.69133,9.90605,1.80269,0.0001}+FU{0.284965,0.168182,0.257168,0.289685}+R2{0.583964,0.0753236,0.416036,2.29791}: CIAlign_uce35055.fasta{4.73275},
+    K2P{4.5803}+FQ+G4{0.301695}: CIAlign_uce35112.fasta{2.6712},
+    TPM3u{0.341527,4.72644}+FU{0.265285,0.251624,0.202522,0.280569}+I{0.316536}+G4{0.553803}: CIAlign_uce35150.fasta{3.6847},
+    HKY{5.26703}+FU{0.283631,0.200992,0.220833,0.294544}+I{0.475474}+G4{0.818909}: CIAlign_uce35151.fasta{2.36603},
+    TPM3u{0.374014,4.31507}+FU{0.280776,0.235802,0.201058,0.282363}+I{0.599625}+G4{1.82422}: CIAlign_uce35203.fasta{3.11847},
+    TPM3{0.363994,6.19464}+FQ+I{0.546938}+G4{3.72938}: CIAlign_uce35230.fasta{2.87931},
+    HKY{3.76898}+FU{0.24433,0.188957,0.219615,0.347098}+G4{0.283446}: CIAlign_uce35404.fasta{6.11161},
+    TPM3u{0.369771,3.50877}+FU{0.285606,0.252622,0.20459,0.257182}+G4{0.236638}: CIAlign_uce35424.fasta{15.0265},
+    TPM2u{2.69638,12.5273}+FU{0.226874,0.227838,0.207196,0.338092}+I{0.569208}+G4{1.26755}: CIAlign_uce35436.fasta{3.57644},
+    TPM3{0.375296,4.30587}+FQ+I{0.459226}+G4{0.889264}: CIAlign_uce35494.fasta{1.92132},
+    TPM2u{0.447087,4.51721}+FU{0.280661,0.173549,0.202021,0.343769}+I{0.580529}+G4{1.97931}: CIAlign_uce35495.fasta{2.08097},
+    TIM3{0.526885,6.06889,3.44062}+FU{0.304185,0.220972,0.179971,0.294872}+I{0.345008}+G4{0.787423}: CIAlign_uce35776.fasta{4.03337},
+    TPM3{0.274406,2.79805}+FQ+I{0.52445}+G4{1.52832}: CIAlign_uce35782.fasta{2.18993},
+    TPM3u{0.676446,3.7772}+FU{0.229197,0.151756,0.269481,0.349567}+I{0.479489}+R2{0.401802,0.649005,0.118709,6.22723}: CIAlign_uce35801.fasta{2.25234},
+    TPM3u{0.633031,2.64709}+FU{0.309427,0.201123,0.255062,0.234388}+G4{0.284276}: CIAlign_uce35805.fasta{13.5092},
+    HKY{3.94566}+FU{0.30077,0.201849,0.257935,0.239445}+G4{0.271401}: CIAlign_uce35828.fasta{2.80439},
+    K3Pu{9.62023,3.16231}+FU{0.265532,0.266655,0.171693,0.29612}+I{0.521595}+R2{0.433592,1.46409,0.0448133,8.14898}: CIAlign_uce35867.fasta{2.33353},
+    TIM2{1.73015,3.12334,7.79808}+FU{0.290984,0.243321,0.194141,0.271554}+G4{0.35175}: CIAlign_uce35983.fasta{2.2773},
+    TIM2{1.54826,4.79158,8.52019}+FU{0.258976,0.26395,0.222829,0.254246}+G4{0.286526}: CIAlign_uce36059.fasta{6.75102},
+    TN{4.78572,7.33181}+FU{0.315468,0.216815,0.188906,0.278811}+G4{0.228829}: CIAlign_uce36060.fasta{3.84856},
+    TIM2e{4.61073,8.53752,19.2963}+FQ+G4{0.275776}: CIAlign_uce36068.fasta{1.12043},
+    HKY{5.80718}+FU{0.333299,0.199394,0.20117,0.266137}+I{0.43314}+G4{0.435595}: CIAlign_uce36093.fasta{1.26947},
+    HKY{6.13225}+FU{0.280023,0.158875,0.227033,0.334069}+G4{0.279285}: CIAlign_uce36225.fasta{1.00027},
+    TIM3{0.35921,10.3018,4.00215}+FU{0.286324,0.222448,0.191141,0.300087}+I{0.57071}+G4{1.14243}: CIAlign_uce36320.fasta{2.12076},
+    HKY{7.05591}+FU{0.366631,0.163462,0.206731,0.263177}+I{0.594582}: CIAlign_uce36414.fasta{1.50258},
+    HKY{4.45717}+FU{0.339953,0.161845,0.217357,0.280844}+G4{0.327115}: CIAlign_uce36415.fasta{1.23606},
+    HKY{6.27761}+FU{0.304034,0.211799,0.243726,0.240441}+I{0.553984}+R2{0.386559,0.758206,0.059457,11.8894}: CIAlign_uce36416.fasta{1.97437},
+    TPM2u{5.84678,16.6705}+FU{0.222117,0.177536,0.288122,0.312224}+I{0.646057}: CIAlign_uce36456.fasta{1.13164},
+    HKY{5.5673}+FU{0.306228,0.308462,0.145474,0.239836}+G4{0.364289}: CIAlign_uce36459.fasta{3.49382},
+    K2P{3.96453}+FQ+I{0.483375}+G4{2.05274}: CIAlign_uce36528.fasta{2.40727},
+    TN{3.85745,14.3854}+FU{0.347983,0.163998,0.268393,0.219627}+G4{0.385904}: CIAlign_uce36604.fasta{1.91081},
+    TPM3u{0.386083,3.68954}+FU{0.337157,0.231995,0.139154,0.291693}+I{0.456263}+G4{1.17647}: CIAlign_uce3665.fasta{4.59843},
+    HKY{6.19784}+FU{0.2836,0.215326,0.181308,0.319766}+I{0.591952}+R2{0.334772,0.902263,0.0732757,9.52494}: CIAlign_uce36659.fasta{1.55151},
+    TPM3{0.221375,2.70346}+FQ+I{0.582818}+G4{1.11011}: CIAlign_uce36692.fasta{3.25406},
+    TPM3u{0.414595,3.78279}+FU{0.294549,0.278429,0.158558,0.268464}+I{0.383429}+G4{1.11238}: CIAlign_uce369.fasta{3.30637},
+    TPM2{8.61273,32.0861}+FQ+G4{0.240853}: CIAlign_uce3693.fasta{1.27324},
+    HKY{4.62644}+FU{0.292908,0.225764,0.216526,0.264802}+G4{0.246701}: CIAlign_uce36992.fasta{9.87433},
+    TN{0.0001,4.91244}+FU{0.230365,0.228526,0.226819,0.314289}+I{0.829614}+G4{1.07844}: CIAlign_uce37073.fasta{0.873712},
+    TPM3{0.365298,3.72506}+FQ+I{0.556502}+G4{1.61262}: CIAlign_uce37268.fasta{1.7753},
+    HKY{7.47821}+FU{0.335429,0.181818,0.195242,0.287511}+G4{0.236491}: CIAlign_uce37439.fasta{3.01096},
+    TPM2u{1.90889,7.60368}+FU{0.312366,0.22914,0.229032,0.229462}+I{0.491963}+G4{1.16745}: CIAlign_uce37547.fasta{2.65604},
+    HKY{7.04938}+FU{0.283445,0.179487,0.23704,0.300028}+G4{0.166519}: CIAlign_uce37821.fasta{25.7731},
+    TN{6.55083,10.5317}+FU{0.375167,0.177237,0.208902,0.238694}+I{0.409872}+G4{0.934541}: CIAlign_uce37919.fasta{3.92547},
+    TIM3{0.280525,5.58663,2.71716}+FU{0.322359,0.222359,0.200686,0.254595}+G4{0.247362}: CIAlign_uce37961.fasta{2.80057},
+    TNe{9.29361,2.71199}+FQ+G4{0.226285}: CIAlign_uce38073.fasta{0.992551},
+    TVM{2.02959,5.81429,1.42144,0.0001}+FU{0.266336,0.190894,0.244428,0.298343}+G4{0.247882}: CIAlign_uce38134.fasta{3.75174},
+    HKY{10.7261}+FU{0.326562,0.193451,0.166262,0.313725}+I{0.573627}+G4{2.29232}: CIAlign_uce3819.fasta{2.45589},
+    TIM{6.33772,0.48137,4.01037}+FU{0.268841,0.192279,0.23337,0.305509}+I{0.421322}+G4{1.08497}: CIAlign_uce38254.fasta{6.03432},
+    TPM3{0.379979,3.16315}+FQ+I{0.556594}+G4{1.26073}: CIAlign_uce38272.fasta{2.78041},
+    HKY{9.44316}+FU{0.321235,0.173469,0.234177,0.271119}+G4{0.187319}: CIAlign_uce38388.fasta{2.31306},
+    TIM2e{2.33573,6.92068,12.8911}+FQ+I{0.492055}+G4{0.935641}: CIAlign_uce38441.fasta{8.99276},
+    TPM2u{2.77478,12.2943}+FU{0.309414,0.196386,0.204907,0.289293}+G4{0.260228}: CIAlign_uce38446.fasta{1.14478},
+    TPM3u{0.246313,4.04873}+FU{0.23696,0.25566,0.202127,0.305253}+G4{0.150581}: CIAlign_uce3846.fasta{1.23027},
+    TPM3u{0.642402,2.89768}+FU{0.269696,0.234227,0.230141,0.265937}+I{0.391208}+G4{2.30016}: CIAlign_uce38646.fasta{5.31025},
+    HKY{6.09613}+FU{0.242794,0.241447,0.198478,0.317282}+I{0.521047}+G4{1.10213}: CIAlign_uce38650.fasta{4.42051},
+    HKY{6.13243}+FU{0.322733,0.23367,0.174151,0.269446}+G4{0.241422}: CIAlign_uce38734.fasta{1.73158},
+    TN{7.92519,4.59269}+FU{0.254423,0.256228,0.129137,0.360212}+I{0.328735}+G4{0.615992}: CIAlign_uce38767.fasta{4.12596},
+    TPM3u{0.272567,3.86381}+FU{0.316603,0.285568,0.168327,0.229502}+I{0.565705}+G4{0.746721}: CIAlign_uce38785.fasta{1.81574},
+    HKY{5.22315}+FU{0.291217,0.210764,0.160262,0.337757}+R3{0.642973,0.0593596,0.331055,1.85117,0.0259715,13.4376}: CIAlign_uce38805.fasta{1.70993},
+    TIM3{0.437877,6.12845,2.99157}+FU{0.223543,0.228894,0.256738,0.290824}+I{0.526648}+G4{0.904725}: CIAlign_uce38821.fasta{2.51071},
+    TPM3u{0.498372,4.27863}+FU{0.309976,0.209255,0.190278,0.290491}+I{0.44997}+G4{0.749286}: CIAlign_uce38924.fasta{4.44879},
+    TIM3{3.22677,8.43815,16.4796}+FU{0.289529,0.157206,0.232132,0.321133}+I{0.420595}+G4{0.62107}: CIAlign_uce38967.fasta{3.66426},
+    K3Pu{2.27538,0.208168}+FU{0.300408,0.19102,0.190816,0.317755}+G4{0.196354}: CIAlign_uce39033.fasta{13.4647},
+    HKY{4.08515}+FU{0.302633,0.196548,0.26471,0.236109}+R3{0.799198,0.16665,0.163323,2.44505,0.0374792,12.4731}: CIAlign_uce39106.fasta{1.64428},
+    HKY{5.73734}+FU{0.312822,0.215917,0.275854,0.195407}+I{0.508601}+G4{0.611394}: CIAlign_uce39175.fasta{5.78155},
+    TPM3u{0.148881,1.76168}+FU{0.245026,0.291705,0.165748,0.297521}+I{0.518771}+G4{1.14405}: CIAlign_uce39184.fasta{2.82767},
+    TPM3{0.539005,3.28914}+FQ+G4{0.296014}: CIAlign_uce39191.fasta{2.72476},
+    HKY{7.822}+FU{0.369523,0.168476,0.214912,0.24709}+G4{0.275203}: CIAlign_uce39248.fasta{2.31958},
+    TIM2{2.09104,4.78172,13.5267}+FU{0.324869,0.184868,0.271382,0.218881}+I{0.389636}+G4{0.656376}: CIAlign_uce39249.fasta{3.19453},
+    K2P{5.84953}+FQ+I{0.531192}+G4{1.56159}: CIAlign_uce39264.fasta{3.96088},
+    HKY{6.51758}+FU{0.284378,0.234062,0.189673,0.291886}+I{0.391729}+G4{1.1533}: CIAlign_uce39267.fasta{2.96059},
+    HKY{4.89958}+FU{0.262895,0.250577,0.216936,0.269592}+G4{0.229355}: CIAlign_uce39274.fasta{1.6469},
+    TPM3{0.327458,3.15219}+FQ+G4{0.413044}: CIAlign_uce39334.fasta{1.02551},
+    K3Pu{3.57783,0.324737}+FU{0.257022,0.175622,0.19865,0.368705}+I{0.513725}+G4{0.526837}: CIAlign_uce39477.fasta{2.34098},
+    HKY{3.86469}+FU{0.329571,0.184079,0.24893,0.237421}+I{0.430511}+G4{1.51556}: CIAlign_uce39514.fasta{5.89022},
+    TPM2u{3.89471,16.83}+FU{0.317547,0.201695,0.176171,0.304586}+G4{0.356337}: CIAlign_uce39621.fasta{3.36737},
+    HKY{5.87265}+FU{0.284645,0.209355,0.188224,0.317776}+I{0.450057}+G4{0.910638}: CIAlign_uce3972.fasta{3.77395},
+    GTR{0.366013,3.05306,0.483678,0.0829203,2.13033}+FU{0.272555,0.250747,0.183828,0.29287}+I{0.341702}+G4{1.19332}: CIAlign_uce3975.fasta{5.37918},
+    K3Pu{2.22974,0.177726}+FU{0.265617,0.277893,0.195921,0.260568}+I{0.517652}+R2{0.413039,0.83686,0.069309,9.44097}: CIAlign_uce39793.fasta{2.05823},
+    HKY{4.5379}+FU{0.281305,0.23093,0.1875,0.300265}+I{0.557611}+G4{1.20039}: CIAlign_uce39798.fasta{3.5413},
+    HKY{3.91174}+FU{0.32054,0.170765,0.204198,0.304498}+I{0.577094}+G4{1.06148}: CIAlign_uce39843.fasta{3.20613},
+    K3P{6.24286,1.79002}+FQ+G4{0.545248}: CIAlign_uce3994.fasta{2.26708},
+    TPM2u{2.27135,6.90325}+FU{0.247649,0.210345,0.198433,0.343574}+G4{0.206426}: CIAlign_uce39967.fasta{5.40812},
+    HKY{5.76032}+FU{0.279852,0.222921,0.235675,0.261553}+G4{0.240393}: CIAlign_uce40254.fasta{1.36595},
+    HKY{12.2037}+FU{0.2654,0.175864,0.196016,0.36272}+G4{0.128918}: CIAlign_uce40328.fasta{26.5931},
+    TIM3{0.473949,3.88637,1.36708}+FU{0.2571,0.247778,0.187745,0.307377}+I{0.384215}+G4{0.618004}: CIAlign_uce4036.fasta{1.10689},
+    TNe{8.13223,5.25398}+FQ+I{0.392309}+G4{0.634643}: CIAlign_uce4040.fasta{9.02504},
+    TPM3u{0.407655,3.56038}+FU{0.24357,0.258594,0.209957,0.287879}+G4{0.316333}: CIAlign_uce4045.fasta{2.70957},
+    TPM2u{0.33667,3.65269}+FU{0.330485,0.224363,0.154875,0.290277}+G4{0.270585}: CIAlign_uce40474.fasta{1.42924},
+    TPM3u{0.473667,3.72813}+FU{0.231037,0.281605,0.194788,0.29257}+G4{0.236706}: CIAlign_uce40602.fasta{17.0256},
+    TNe{6.44479,3.77128}+FQ+G4{0.251025}: CIAlign_uce40624.fasta{4.02766},
+    HKY{4.50193}+FU{0.282462,0.227201,0.18912,0.301217}+I{0.41642}+G4{0.989253}: CIAlign_uce40674.fasta{3.63569},
+    TIM3{0.454496,9.77315,2.42192}+FU{0.302572,0.224132,0.19091,0.282386}+G4{0.193839}: CIAlign_uce40683.fasta{1.53357},
+    HKY{8.35398}+FU{0.238026,0.245718,0.181277,0.334978}+I{0.510924}+G4{0.740737}: CIAlign_uce40731.fasta{2.96435},
+    HKY{10.3565}+FU{0.228811,0.303289,0.139785,0.328115}+I{0.619743}+G4{1.9021}: CIAlign_uce40765.fasta{2.70383},
+    TN{7.36771,2.37239}+FU{0.287228,0.244836,0.181965,0.285971}+I{0.39834}+G4{0.659647}: CIAlign_uce4163.fasta{4.16991},
+    HKY{11.9892}+FU{0.268306,0.248224,0.120082,0.363388}+G4{0.259374}: CIAlign_uce4173.fasta{3.36916},
+    TIM3{0.219962,6.29155,1.02724}+FU{0.298929,0.313571,0.133393,0.254107}+G4{0.187362}: CIAlign_uce4205.fasta{2.08229},
+    TN{3.59717,7.01523}+FU{0.395723,0.162478,0.209215,0.232584}+I{0.416543}+G4{1.26633}: CIAlign_uce4239.fasta{2.32043},
+    TN{3.40464,4.3445}+FU{0.21149,0.256736,0.241688,0.290086}+I{0.335757}+G4{1.22996}: CIAlign_uce425.fasta{8.16712},
+    HKY{9.15004}+FU{0.356624,0.224596,0.201305,0.217475}+G4{0.167097}: CIAlign_uce428.fasta{23.7469},
+    TPM2u{6.03843,14.5546}+FU{0.235065,0.171243,0.305566,0.288126}+G4{0.273303}: CIAlign_uce4322.fasta{1.10296},
+    K2P{2.06411}+FQ+I{0.579311}: CIAlign_uce4327.fasta{0.899373},
+    TPM2u{2.96174,2.22338}+FU{0.238758,0.251285,0.20182,0.308137}+R2{0.840085,0.399513,0.159915,4.15455}: CIAlign_uce4330.fasta{0.940208},
+    TPM3{0.336972,2.95264}+FQ+G4{0.268939}: CIAlign_uce4622.fasta{2.50461},
+    TPM3u{0.227933,3.90861}+FU{0.294587,0.224074,0.179487,0.301852}+G4{0.248363}: CIAlign_uce4653.fasta{2.29864},
+    TPM2u{0.385927,3.67897}+FU{0.348846,0.16671,0.172414,0.31203}+G4{0.263163}: CIAlign_uce4678.fasta{2.07004},
+    TPM2u{1.63173,7.46029}+FU{0.26941,0.21338,0.210404,0.306806}+G4{0.282243}: CIAlign_uce4691.fasta{2.55534},
+    TPM3{0.277068,1.79268}+FQ+G4{0.304808}: CIAlign_uce4889.fasta{1.97583},
+    TPM3u{0.0801013,3.09785}+FU{0.299081,0.253715,0.147047,0.300156}+G4{0.187518}: CIAlign_uce5234.fasta{11.6613},
+    HKY{5.4441}+FU{0.400173,0.152268,0.17625,0.271309}+G4{0.213179}: CIAlign_uce5243.fasta{0.877153},
+    TPM2u{3.73912,19.4648}+FU{0.251201,0.271783,0.140253,0.336764}+I{0.540672}+G4{0.562306}: CIAlign_uce5320.fasta{1.22555},
+    HKY{3.70754}+FU{0.293623,0.216361,0.180278,0.309737}+I{0.401848}+G4{1.62849}: CIAlign_uce5326.fasta{3.93399},
+    K2P{3.70773}+FQ+I{0.51479}+G4{1.37083}: CIAlign_uce5449.fasta{3.74836},
+    TN{4.48689,2.73007}+FU{0.272778,0.208108,0.158589,0.360525}+I{0.315471}+G4{1.34104}: CIAlign_uce547.fasta{3.06229},
+    TN{8.75549,4.7058}+FU{0.263846,0.232143,0.158773,0.345238}+G4{0.340315}: CIAlign_uce5525.fasta{2.65148},
+    TPM3u{0.677801,4.50881}+FU{0.250605,0.257422,0.178469,0.313503}+I{0.279521}+G4{0.850849}: CIAlign_uce5560.fasta{9.88901},
+    TPM3u{0.576566,10.0487}+FU{0.224329,0.279156,0.156119,0.340396}+I{0.579335}+G4{1.12369}: CIAlign_uce5691.fasta{3.33402},
+    TPM3u{0.223296,3.05592}+FU{0.267442,0.248998,0.147955,0.335605}+G4{0.25791}: CIAlign_uce5763.fasta{2.21479},
+    TIM2{2.17946,6.09674,11.1742}+FU{0.307415,0.228913,0.20428,0.259393}+I{0.523568}+G4{1.92737}: CIAlign_uce5967.fasta{3.65572},
+    TPM3u{2.76014,8.73049}+FU{0.32144,0.199614,0.196561,0.282385}+G4{0.360914}: CIAlign_uce5990.fasta{4.77185},
+    HKY{4.43434}+FU{0.240617,0.229316,0.25111,0.278957}+G4{0.171098}: CIAlign_uce6237.fasta{8.42267},
+    TPM3u{0.517589,3.25707}+FU{0.258664,0.247992,0.174028,0.319315}+G4{0.327443}: CIAlign_uce6244.fasta{3.45719},
+    TIM3{0.308019,4.58151,2.06191}+FU{0.347826,0.237639,0.195865,0.21867}+I{0.452836}+G4{1.47084}: CIAlign_uce6250.fasta{4.51144},
+    K3Pu{4.14462,0.586456}+FU{0.319576,0.221788,0.208217,0.250418}+I{0.398427}+G4{1.14024}: CIAlign_uce6374.fasta{5.82165},
+    TIM3{2.20671,8.73139,17.5903}+FU{0.318785,0.208097,0.219235,0.253882}+I{0.578688}+G4{1.10544}: CIAlign_uce6550.fasta{5.01327},
+    TIM3{0.426357,2.82131,1.03196}+FU{0.241046,0.22428,0.218412,0.316263}+G4{0.474097}: CIAlign_uce6553.fasta{1.2396},
+    K2P{3.76289}+FQ+G4{0.253768}: CIAlign_uce6598.fasta{10.7904},
+    TPM3u{0.661279,4.48186}+FU{0.259643,0.233369,0.213155,0.293834}+I{0.37572}+G4{0.63427}: CIAlign_uce675.fasta{3.46258},
+    TIM3{0.296013,8.48996,4.55357}+FU{0.235161,0.27354,0.112038,0.379261}+I{0.554864}+G4{2.19236}: CIAlign_uce6782.fasta{3.09735},
+    HKY{4.85961}+FU{0.288856,0.193162,0.213489,0.304493}+I{0.431503}+G4{1.10365}: CIAlign_uce6787.fasta{4.09523},
+    K2P{5.54751}+FQ+I{0.468152}+G4{1.33344}: CIAlign_uce6882.fasta{2.77033},
+    HKY{6.76936}+FU{0.273465,0.225021,0.219722,0.281792}+G4{0.293987}: CIAlign_uce693.fasta{4.13027},
+    HKY{6.41523}+FU{0.284228,0.268455,0.220976,0.226341}+G4{0.32874}: CIAlign_uce6957.fasta{3.04075},
+    TPM3u{0.283971,3.43382}+FU{0.242995,0.270209,0.214332,0.272464}+I{0.298609}+G4{0.476614}: CIAlign_uce696.fasta{6.01624},
+    TIM2{2.0872,4.01816,12.8557}+FU{0.248958,0.278497,0.248958,0.223586}+I{0.552527}+G4{0.895125}: CIAlign_uce6976.fasta{1.25801},
+    TN{3.39146,5.01359}+FU{0.337738,0.142318,0.215945,0.303998}+I{0.241802}+G4{1.17724}: CIAlign_uce7044.fasta{2.48584},
+    TN{4.33574,7.78029}+FU{0.279369,0.219878,0.224577,0.276177}+I{0.46299}+G4{0.50692}: CIAlign_uce711.fasta{2.62021},
+    TN{5.58888,3.08089}+FU{0.27396,0.230561,0.158002,0.337477}+G4{0.494088}: CIAlign_uce7169.fasta{2.17881},
+    TPM2u{1.76253,6.66128}+FU{0.264853,0.283065,0.175236,0.276846}+I{0.524192}+G4{1.23344}: CIAlign_uce7271.fasta{4.47647},
+    HKY{5.33583}+FU{0.273607,0.186401,0.238861,0.301131}+I{0.467536}+G4{1.22218}: CIAlign_uce731.fasta{3.1319},
+    TPM3u{0.532132,4.91635}+FU{0.274408,0.216822,0.184383,0.324387}+I{0.425148}+G4{0.844414}: CIAlign_uce750.fasta{3.67281},
+    HKY{3.07133}+FU{0.281356,0.158824,0.199398,0.360421}: CIAlign_uce7534.fasta{0.447269},
+    TPM2u{2.11808,7.3259}+FU{0.305573,0.188711,0.233249,0.272467}+G4{0.208793}: CIAlign_uce7659.fasta{14.5347},
+    TN{5.68492,12.5099}+FU{0.362288,0.204148,0.219736,0.213828}+G4{0.171626}: CIAlign_uce7662.fasta{18.8732},
+    TPM3u{0.690995,5.68918}+FU{0.287724,0.212857,0.233667,0.265752}+G4{0.198909}: CIAlign_uce7668.fasta{2.58},
+    TVM{2.78519,13.8801,1.78787,3.22593}+FU{0.266963,0.3188,0.170971,0.243266}+I{0.458035}+G4{0.746934}: CIAlign_uce7709.fasta{7.54694},
+    HKY{6.74836}+FU{0.277391,0.2001,0.240661,0.281848}+I{0.460706}+G4{0.986944}: CIAlign_uce7711.fasta{3.87361},
+    TPM2u{1.87721,8.12189}+FU{0.23548,0.219368,0.219193,0.325959}+I{0.463339}+G4{1.37681}: CIAlign_uce7760.fasta{4.692},
+    TPM3u{0.503084,2.81949}+FU{0.28385,0.206005,0.231162,0.278984}+G4{0.374811}: CIAlign_uce7780.fasta{3.32598},
+    TIM{11.0392,2.30398,6.47185}+FU{0.299248,0.227799,0.164717,0.308236}+I{0.44659}+R3{0.358353,0.448254,0.184701,3.48993,0.0103555,18.8085}: CIAlign_uce7810.fasta{3.48626},
+    TPM3u{0.0973398,4.07093}+FU{0.184051,0.242033,0.228976,0.34494}+I{0.509855}+G4{0.792971}: CIAlign_uce7844.fasta{2.56384},
+    TPM3{0.447491,4.28702}+FQ+I{0.574141}+G4{2.52295}: CIAlign_uce7892.fasta{2.30012},
+    TIM3{0.00292829,15.7152,4.70008}+FU{0.288442,0.178191,0.205366,0.328001}+I{0.592207}: CIAlign_uce7943.fasta{1.06267},
+    TIM3{0.48358,5.33475,3.07231}+FU{0.293541,0.215089,0.20319,0.28818}+G4{0.264311}: CIAlign_uce7981.fasta{1.88969},
+    HKY{5.24389}+FU{0.312685,0.203001,0.200045,0.284269}+G4{0.203862}: CIAlign_uce7994.fasta{14.0141},
+    HKY{8.9532}+FU{0.339267,0.208978,0.130031,0.321723}+G4{0.255801}: CIAlign_uce8029.fasta{1.99413},
+    TPM3u{0.209789,4.57739}+FU{0.252576,0.241299,0.195411,0.310714}+G4{0.208718}: CIAlign_uce8056.fasta{5.17883},
+    HKY{4.15516}+FU{0.341988,0.168378,0.183879,0.305755}+G4{0.255606}: CIAlign_uce8080.fasta{3.24811},
+    HKY{7.07655}+FU{0.217055,0.273532,0.200555,0.308858}+I{0.552262}+R2{0.378888,1.16715,0.0688502,8.10137}: CIAlign_uce8081.fasta{1.57658},
+    TPM2{3.49945,14.179}+FQ+G4{0.208453}: CIAlign_uce8138.fasta{17.8442},
+    HKY{11.5739}+FU{0.307418,0.189321,0.18443,0.31883}+I{0.450783}+G4{0.717803}: CIAlign_uce8466.fasta{2.36536},
+    HKY{4.93613}+FU{0.360124,0.216851,0.165599,0.257426}+I{0.398395}+G4{0.886209}: CIAlign_uce849.fasta{3.94909},
+    TPM3u{0.336025,2.44292}+FU{0.275742,0.306034,0.181274,0.236949}+G4{0.268121}: CIAlign_uce8496.fasta{4.60831},
+    TPM3u{0.406776,2.87737}+FU{0.292536,0.257815,0.215438,0.234211}+I{0.506671}+G4{0.872324}: CIAlign_uce8612.fasta{2.17521},
+    TIM2{5.5216,3.84287,15.86}+FU{0.240098,0.233329,0.251044,0.275529}+G4{0.188834}: CIAlign_uce8699.fasta{1.97857},
+    TPM2u{1.88182,6.45046}+FU{0.305417,0.220554,0.225448,0.248582}+R3{0.705528,0.102208,0.273117,2.38935,0.0213552,12.8923}: CIAlign_uce870.fasta{2.17313},
+    HKY{7.11549}+FU{0.305855,0.220411,0.21304,0.260694}+I{0.504472}+G4{1.76832}: CIAlign_uce8702.fasta{5.24221},
+    HKY{9.47154}+FU{0.293797,0.19972,0.224473,0.28201}+I{0.474561}+G4{0.796302}: CIAlign_uce8707.fasta{4.8028},
+    TPM2u{2.59983,8.04136}+FU{0.253132,0.31034,0.171472,0.265057}+G4{0.215312}: CIAlign_uce8753.fasta{22.8753},
+    HKY{4.06277}+FU{0.308464,0.21584,0.224677,0.25102}+I{0.503845}+G4{0.87114}: CIAlign_uce8827.fasta{2.02023},
+    TNe{3.57435,5.50419}+FQ+I{0.335053}+G4{0.940106}: CIAlign_uce8828.fasta{3.32855},
+    TPM2{4.58243,14.3401}+FQ+G4{0.243658}: CIAlign_uce8846.fasta{2.44716},
+    TN{2.71933,7.85423}+FU{0.452366,0.138427,0.204923,0.204284}+I{0.490055}+R3{0.242949,0.292813,0.249062,2.7235,0.0179339,13.9702}: CIAlign_uce8932.fasta{2.15313},
+    TPM3u{0.189913,4.52516}+FU{0.238723,0.260319,0.155532,0.345426}+I{0.449972}+G4{0.882177}: CIAlign_uce8955.fasta{3.19539},
+    K2P{3.49905}+FQ+G4{0.188017}: CIAlign_uce8997.fasta{6.6987},
+    TPM3u{0.552951,4.86443}+FU{0.268607,0.190126,0.209184,0.332083}+I{0.427038}+G4{0.878239}: CIAlign_uce9002.fasta{5.20903},
+    TIM3{0.533994,4.84364,2.38931}+FU{0.273479,0.201609,0.202381,0.322531}+G4{0.372776}: CIAlign_uce903.fasta{1.50944},
+    TVM{8.41627,100,32.4044,54.264}+FU{0.321965,0.27052,0.164162,0.243353}+G4{0.344708}: CIAlign_uce9031.fasta{7.70231},
+    TN{3.55501,7.05637}+FU{0.308516,0.197178,0.220891,0.273415}+I{0.594343}+R2{0.35101,1.5161,0.0546467,8.56106}: CIAlign_uce9415.fasta{2.11982},
+    HKY{6.84231}+FU{0.300992,0.202993,0.250244,0.245771}+I{0.467657}+G4{1.00626}: CIAlign_uce9437.fasta{3.27195},
+    TN{8.58824,2.49722}+FU{0.208661,0.311811,0.232808,0.246719}+G4{0.208025}: CIAlign_uce9471.fasta{1.94844},
+    TIM2{2.08648,6.72052,21.0651}+FU{0.331129,0.14903,0.229056,0.290785}+G4{0.243247}: CIAlign_uce9508.fasta{4.19704},
+    HKY{3.38072}+FU{0.281948,0.153938,0.239206,0.324908}+I{0.637361}+R2{0.299323,1.1675,0.0633164,10.2744}: CIAlign_uce9518.fasta{1.78845},
+    HKY{4.75595}+FU{0.360808,0.189625,0.230884,0.218683}+G4{0.289881}: CIAlign_uce9589.fasta{2.58276},
+    HKY{4.76731}+FU{0.283409,0.222295,0.182529,0.311767}+G4{0.35241}: CIAlign_uce9608.fasta{3.44993},
+    TN{11.5928,4.8154}+FU{0.210589,0.244389,0.173766,0.371256}+I{0.521195}+R2{0.416189,1.46777,0.0626159,6.21455}: CIAlign_uce9694.fasta{1.5926},
+    K2P{5.29612}+FQ+G4{0.155362}: CIAlign_uce9710.fasta{24.3847},
+    HKY{5.23132}+FU{0.31734,0.200025,0.180758,0.301878}+G4{0.220772}: CIAlign_uce9730.fasta{8.86721},
+    TPM2{8.79509,43.2067}+FQ+I{0.648915}: CIAlign_uce976.fasta{1.64507},
+    TPM3u{0.486499,2.96487}+FU{0.21412,0.245476,0.202441,0.337963}+I{0.266331}+G4{0.851095}: CIAlign_uce981.fasta{5.45597},
+    TPM2{2.04777,10.1416}+FQ+I{0.489896}+G4{1.11598}: CIAlign_uce9935.fasta{4.8632},
+    TIM3e{0.329484,5.2903,2.6066}+FQ+I{0.44298}+G4{0.641015}: CIAlign_uce9966.fasta{3.86475},
+    TN{15.3674,2.91289}+FU{0.289366,0.278561,0.143102,0.288971}+I{0.425206}+G4{0.761344}: CIAlign_uce9968.fasta{4.41473};
+end;

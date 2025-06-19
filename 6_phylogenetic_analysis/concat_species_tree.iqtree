@@ -1,0 +1,483 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Partition file name: ../5_final_alignments/3_final_alignments/
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 92611
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 66 taxa with 27 partitions and 106886 total sites (1.28292% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	61	2839	1456	1179	1470	1470	CIAlign_uce-10009.fasta+CIAlign_uce-13941 (modified).fasta+CIAlign_uce-16071.fasta+CIAlign_uce-16739.fasta+CIAlign_uce-17216.fasta+CIAlign_uce-17490.fasta+CIAlign_uce-17492.fasta+CIAlign_uce-17580.fasta+CIAlign_uce-2119.fasta+CIAlign_uce-24448.fasta+CIAlign_uce-26139.fasta+CIAlign_uce-32355.fasta+CIAlign_uce-5449.fasta+CIAlign_uce-7709.fasta+CIAlign_uce-8753.fasta
+   2	DNA	66	4965	1878	1415	3112	3112	CIAlign_uce-10172.fasta+CIAlign_uce-10320 (modified).fasta+CIAlign_uce-1144.fasta+CIAlign_uce-13635.fasta+CIAlign_uce-15033.fasta+CIAlign_uce-16528.fasta+CIAlign_uce-18299.fasta+CIAlign_uce-19356.fasta+CIAlign_uce-22645.fasta+CIAlign_uce-24560.fasta+CIAlign_uce-25513.fasta+CIAlign_uce-26771.fasta+CIAlign_uce-27741.fasta+CIAlign_uce-31067.fasta+CIAlign_uce-31176.fasta+CIAlign_uce-32764.fasta+CIAlign_uce-35011.fasta+CIAlign_uce-36068.fasta+CIAlign_uce-36414 (modified).fasta+CIAlign_uce-36415.fasta+CIAlign_uce-36659.fasta+CIAlign_uce-3693.fasta+CIAlign_uce-38805.fasta+CIAlign_uce-39793.fasta+CIAlign_uce-40328.fasta+CIAlign_uce-4322.fasta+CIAlign_uce-5234.fasta+CIAlign_uce-5320.fasta+CIAlign_uce-7994.fasta+CIAlign_uce-8997.fasta
+   3	DNA	66	7208	3913	3222	3468	3468	CIAlign_uce-10182.fasta+CIAlign_uce-10555.fasta+CIAlign_uce-11820.fasta+CIAlign_uce-12511.fasta+CIAlign_uce-12515.fasta+CIAlign_uce-12808.fasta+CIAlign_uce-14138.fasta+CIAlign_uce-1443.fasta+CIAlign_uce-1444.fasta+CIAlign_uce-17457.fasta+CIAlign_uce-19073.fasta+CIAlign_uce-19154.fasta+CIAlign_uce-20807.fasta+CIAlign_uce-21162.fasta+CIAlign_uce-22965.fasta+CIAlign_uce-23715.fasta+CIAlign_uce-24460.fasta+CIAlign_uce-26341.fasta+CIAlign_uce-27783.fasta+CIAlign_uce-28586.fasta+CIAlign_uce-30515.fasta+CIAlign_uce-3102.fasta+CIAlign_uce-32088.fasta+CIAlign_uce-33011.fasta+CIAlign_uce-33668.fasta+CIAlign_uce-33949.fasta+CIAlign_uce-34159.fasta+CIAlign_uce-34210.fasta+CIAlign_uce-34922 (modified).fasta+CIAlign_uce-3665.fasta+CIAlign_uce-38646.fasta+CIAlign_uce-38767.fasta+CIAlign_uce-39175.fasta+CIAlign_uce-39514.fasta+CIAlign_uce-3975.fasta+CIAlign_uce-39843.fasta+CIAlign_uce-425 (modified).fasta+CIAlign_uce-5990.fasta+CIAlign_uce-6374.fasta+CIAlign_uce-7760.fasta+CIAlign_uce-8496.fasta+CIAlign_uce-9002 (modified).fasta+CIAlign_uce-981.fasta
+   4	DNA	66	3068	1491	1275	1582	1582	CIAlign_uce-10226.fasta+CIAlign_uce-10918.fasta+CIAlign_uce-18909.fasta+CIAlign_uce-19973.fasta+CIAlign_uce-2626.fasta+CIAlign_uce-26865 (modified).fasta+CIAlign_uce-27831.fasta+CIAlign_uce-28546.fasta+CIAlign_uce-30769.fasta+CIAlign_uce-31300.fasta+CIAlign_uce-32884.fasta+CIAlign_uce-33050.fasta+CIAlign_uce-38254 (modified).fasta+CIAlign_uce-38924.fasta+CIAlign_uce-8056.fasta
+   5	DNA	66	4821	2197	1736	2749	2749	CIAlign_uce-10348.fasta+CIAlign_uce-1519.fasta+CIAlign_uce-1696.fasta+CIAlign_uce-1727.fasta+CIAlign_uce-1797.fasta+CIAlign_uce-18367.fasta+CIAlign_uce-19064.fasta+CIAlign_uce-20066 (modified).fasta+CIAlign_uce-20777.fasta+CIAlign_uce-24716 (modified).fasta+CIAlign_uce-25279.fasta+CIAlign_uce-2544.fasta+CIAlign_uce-27545.fasta+CIAlign_uce-30435.fasta+CIAlign_uce-33739.fasta+CIAlign_uce-33993.fasta+CIAlign_uce-34324.fasta+CIAlign_uce-35230.fasta+CIAlign_uce-37821 (modified).fasta+CIAlign_uce-38134.fasta+CIAlign_uce-38272.fasta+CIAlign_uce-38388.fasta+CIAlign_uce-38967.fasta+CIAlign_uce-40765.fasta+CIAlign_uce-4173.fasta+CIAlign_uce-5525.fasta+CIAlign_uce-6782.fasta+CIAlign_uce-750 (modified).fasta+CIAlign_uce-8029.fasta+CIAlign_uce-8466.fasta+CIAlign_uce-9415.fasta
+   6	DNA	66	4943	2414	1922	2617	2617	CIAlign_uce-10659.fasta+CIAlign_uce-10890.fasta+CIAlign_uce-11073.fasta+CIAlign_uce-12368.fasta+CIAlign_uce-13079.fasta+CIAlign_uce-1410.fasta+CIAlign_uce-18104.fasta+CIAlign_uce-19306.fasta+CIAlign_uce-20572 (modified).fasta+CIAlign_uce-22009.fasta+CIAlign_uce-24477.fasta+CIAlign_uce-25552.fasta+CIAlign_uce-26638.fasta+CIAlign_uce-26985.fasta+CIAlign_uce-27539.fasta+CIAlign_uce-27625.fasta+CIAlign_uce-30830.fasta+CIAlign_uce-32057.fasta+CIAlign_uce-32430.fasta+CIAlign_uce-35801.fasta+CIAlign_uce-35805.fasta+CIAlign_uce-35828.fasta+CIAlign_uce-39184.fasta+CIAlign_uce-39621.fasta+CIAlign_uce-4163 (modified).fasta+CIAlign_uce-4205.fasta+CIAlign_uce-5326.fasta+CIAlign_uce-5763 (modified).fasta+CIAlign_uce-6787.fasta+CIAlign_uce-7810.fasta+CIAlign_uce-849.fasta+CIAlign_uce-9608.fasta
+   7	DNA	66	2131	1071	918	1085	1085	CIAlign_uce-1076.fasta+CIAlign_uce-13110.fasta+CIAlign_uce-13112.fasta+CIAlign_uce-15292.fasta+CIAlign_uce-1938.fasta+CIAlign_uce-23800.fasta+CIAlign_uce-26436.fasta+CIAlign_uce-28516.fasta+CIAlign_uce-4040.fasta
+   8	DNA	66	4183	1997	1588	2256	2256	CIAlign_uce-10812.fasta+CIAlign_uce-12167.fasta+CIAlign_uce-12273.fasta+CIAlign_uce-12553.fasta+CIAlign_uce-13109.fasta+CIAlign_uce-168.fasta+CIAlign_uce-17172.fasta+CIAlign_uce-19632.fasta+CIAlign_uce-23569.fasta+CIAlign_uce-25459.fasta+CIAlign_uce-26055.fasta+CIAlign_uce-26124.fasta+CIAlign_uce-26280.fasta+CIAlign_uce-27042.fasta+CIAlign_uce-30230.fasta+CIAlign_uce-30828.fasta+CIAlign_uce-31287.fasta+CIAlign_uce-36060.fasta+CIAlign_uce-37439.fasta+CIAlign_uce-39033.fasta+CIAlign_uce-39249.fasta+CIAlign_uce-4045.fasta+CIAlign_uce-8138.fasta+CIAlign_uce-8828.fasta
+   9	DNA	65	819	459	367	388	388	CIAlign_uce-10916.fasta+CIAlign_uce-12755.fasta+CIAlign_uce-14299.fasta+CIAlign_uce-29732.fasta+CIAlign_uce-5560.fasta+CIAlign_uce-696.fasta
+  10	DNA	66	3629	1408	1032	2194	2194	CIAlign_uce-10932 (modified).fasta+CIAlign_uce-11136.fasta+CIAlign_uce-13498.fasta+CIAlign_uce-21183.fasta+CIAlign_uce-21267.fasta+CIAlign_uce-22413.fasta+CIAlign_uce-22644 (modified).fasta+CIAlign_uce-24559.fasta+CIAlign_uce-25666.fasta+CIAlign_uce-28098 (modified).fasta+CIAlign_uce-28895.fasta+CIAlign_uce-29580.fasta+CIAlign_uce-3258.fasta+CIAlign_uce-35009.fasta+CIAlign_uce-36416.fasta+CIAlign_uce-39334.fasta+CIAlign_uce-4036 (modified).fasta+CIAlign_uce-4327.fasta+CIAlign_uce-4330.fasta+CIAlign_uce-6553 (modified).fasta
+  11	DNA	64	5734	2593	2162	3286	3286	CIAlign_uce-1095.fasta+CIAlign_uce-12227 (modified).fasta+CIAlign_uce-17715.fasta+CIAlign_uce-17805.fasta+CIAlign_uce-18385.fasta+CIAlign_uce-18486.fasta+CIAlign_uce-19140.fasta+CIAlign_uce-19658 (modified).fasta+CIAlign_uce-20254 (modified).fasta+CIAlign_uce-20940.fasta+CIAlign_uce-21740.fasta+CIAlign_uce-22317.fasta+CIAlign_uce-22646.fasta+CIAlign_uce-22946.fasta+CIAlign_uce-25904 (modified).fasta+CIAlign_uce-2840 (modified).fasta+CIAlign_uce-29669.fasta+CIAlign_uce-30161.fasta+CIAlign_uce-32509.fasta+CIAlign_uce-35203 (modified).fasta+CIAlign_uce-36992.fasta+CIAlign_uce-3819.fasta+CIAlign_uce-38650.fasta+CIAlign_uce-39264.fasta+CIAlign_uce-39267.fasta+CIAlign_uce-40674.fasta+CIAlign_uce-40731.fasta+CIAlign_uce-6957 (modified).fasta+CIAlign_uce-7892 (modified).fasta+CIAlign_uce-9437.fasta+CIAlign_uce-9710 (modified).fasta
+  12	DNA	66	5218	2325	1854	2950	2950	CIAlign_uce-10968.fasta+CIAlign_uce-13324 (modified).fasta+CIAlign_uce-14783.fasta+CIAlign_uce-16467.fasta+CIAlign_uce-16513.fasta+CIAlign_uce-17866.fasta+CIAlign_uce-18500.fasta+CIAlign_uce-18906.fasta+CIAlign_uce-19018.fasta+CIAlign_uce-20417.fasta+CIAlign_uce-21264.fasta+CIAlign_uce-22213.fasta+CIAlign_uce-22430.fasta+CIAlign_uce-23668.fasta+CIAlign_uce-24603.fasta+CIAlign_uce-25263.fasta+CIAlign_uce-25388.fasta+CIAlign_uce-25420.fasta+CIAlign_uce-27040.fasta+CIAlign_uce-27547.fasta+CIAlign_uce-29738.fasta+CIAlign_uce-30219.fasta+CIAlign_uce-35983.fasta+CIAlign_uce-36604.fasta+CIAlign_uce-38785.fasta+CIAlign_uce-39248.fasta+CIAlign_uce-39274.fasta+CIAlign_uce-3994.fasta+CIAlign_uce-4691.fasta+CIAlign_uce-903.fasta
+  13	DNA	63	6299	2580	2043	3878	3878	CIAlign_uce-11427.fasta+CIAlign_uce-118.fasta+CIAlign_uce-1223 (modified).fasta+CIAlign_uce-12986.fasta+CIAlign_uce-14008.fasta+CIAlign_uce-14863 (modified).fasta+CIAlign_uce-15680.fasta+CIAlign_uce-17130.fasta+CIAlign_uce-17603.fasta+CIAlign_uce-19336.fasta+CIAlign_uce-19354.fasta+CIAlign_uce-20468.fasta+CIAlign_uce-21362.fasta+CIAlign_uce-2346.fasta+CIAlign_uce-23690.fasta+CIAlign_uce-24605.fasta+CIAlign_uce-24678.fasta+CIAlign_uce-26324.fasta+CIAlign_uce-26677.fasta+CIAlign_uce-27192.fasta+CIAlign_uce-27626.fasta+CIAlign_uce-27763.fasta+CIAlign_uce-28099.fasta+CIAlign_uce-28849 (modified).fasta+CIAlign_uce-30836.fasta+CIAlign_uce-31079 (modified).fasta+CIAlign_uce-31286.fasta+CIAlign_uce-32102 (modified).fasta+CIAlign_uce-32470.fasta+CIAlign_uce-32475.fasta+CIAlign_uce-32720.fasta+CIAlign_uce-34366 (modified).fasta+CIAlign_uce-37268.fasta+CIAlign_uce-37961.fasta+CIAlign_uce-38734 (modified).fasta+CIAlign_uce-4889.fasta+CIAlign_uce-7981 (modified).fasta+CIAlign_uce-870 (modified).fasta+CIAlign_uce-9518.fasta
+  14	DNA	64	4397	1605	1213	2827	2827	CIAlign_uce-11548.fasta+CIAlign_uce-11993.fasta+CIAlign_uce-16529.fasta+CIAlign_uce-16542.fasta+CIAlign_uce-1694.fasta+CIAlign_uce-17825.fasta+CIAlign_uce-20245.fasta+CIAlign_uce-20467.fasta+CIAlign_uce-2206.fasta+CIAlign_uce-23576.fasta+CIAlign_uce-24650.fasta+CIAlign_uce-30321.fasta+CIAlign_uce-34528.fasta+CIAlign_uce-36093.fasta+CIAlign_uce-36225.fasta+CIAlign_uce-38073.fasta+CIAlign_uce-3846 (modified).fasta+CIAlign_uce-40254.fasta+CIAlign_uce-40474.fasta+CIAlign_uce-5243.fasta+CIAlign_uce-6237.fasta+CIAlign_uce-7943.fasta+CIAlign_uce-8081.fasta
+  15	DNA	63	5093	2168	1714	3096	3096	CIAlign_uce-11573.fasta+CIAlign_uce-12892.fasta+CIAlign_uce-14780.fasta+CIAlign_uce-16539.fasta+CIAlign_uce-17296.fasta+CIAlign_uce-1842.fasta+CIAlign_uce-18817.fasta+CIAlign_uce-1973.fasta+CIAlign_uce-20889.fasta+CIAlign_uce-2197.fasta+CIAlign_uce-21978.fasta+CIAlign_uce-22195.fasta+CIAlign_uce-2291 (modified).fasta+CIAlign_uce-25262.fasta+CIAlign_uce-25889 (modified).fasta+CIAlign_uce-29443 (modified).fasta+CIAlign_uce-31352.fasta+CIAlign_uce-31473.fasta+CIAlign_uce-31497.fasta+CIAlign_uce-31829.fasta+CIAlign_uce-31967 (modified).fasta+CIAlign_uce-32146.fasta+CIAlign_uce-33639.fasta+CIAlign_uce-35151.fasta+CIAlign_uce-37547.fasta+CIAlign_uce-39477.fasta+CIAlign_uce-39967.fasta+CIAlign_uce-40602 (modified).fasta+CIAlign_uce-5691.fasta+CIAlign_uce-731.fasta+CIAlign_uce-9508.fasta+CIAlign_uce-976.fasta
+  16	DNA	62	1448	510	410	974	974	CIAlign_uce-11739.fasta+CIAlign_uce-25627.fasta+CIAlign_uce-26772.fasta+CIAlign_uce-32909.fasta+CIAlign_uce-34267.fasta+CIAlign_uce-34571.fasta+CIAlign_uce-36456.fasta+CIAlign_uce-6976.fasta
+  17	DNA	59	715	383	323	349	349	CIAlign_uce-11740 (modified).fasta+CIAlign_uce-27378.fasta+CIAlign_uce-38441.fasta
+  18	DNA	65	848	440	360	426	426	CIAlign_uce-12105.fasta+CIAlign_uce-21626.fasta+CIAlign_uce-22064.fasta+CIAlign_uce-29605.fasta+CIAlign_uce-36059.fasta+CIAlign_uce-6598.fasta
+  19	DNA	66	4355	1827	1355	2634	2634	CIAlign_uce-12383.fasta+CIAlign_uce-14809.fasta+CIAlign_uce-1561.fasta+CIAlign_uce-1591.fasta+CIAlign_uce-1661.fasta+CIAlign_uce-17215.fasta+CIAlign_uce-17828 (modified).fasta+CIAlign_uce-18387 (modified).fasta+CIAlign_uce-19069.fasta+CIAlign_uce-19325.fasta+CIAlign_uce-21263.fasta+CIAlign_uce-22581.fasta+CIAlign_uce-23347.fasta+CIAlign_uce-24536.fasta+CIAlign_uce-26180.fasta+CIAlign_uce-26414.fasta+CIAlign_uce-26544.fasta+CIAlign_uce-2714.fasta+CIAlign_uce-27550.fasta+CIAlign_uce-28698 (modified).fasta+CIAlign_uce-29899.fasta+CIAlign_uce-3028 (modified).fasta+CIAlign_uce-31174.fasta+CIAlign_uce-31893.fasta+CIAlign_uce-31907 (modified).fasta+CIAlign_uce-32735 (modified).fasta+CIAlign_uce-33206 (modified).fasta+CIAlign_uce-33443.fasta+CIAlign_uce-38446.fasta+CIAlign_uce-428.fasta+CIAlign_uce-9694.fasta
+  20	DNA	66	9434	4253	3352	5384	5384	CIAlign_uce-12504.fasta+CIAlign_uce-12740.fasta+CIAlign_uce-13153.fasta+CIAlign_uce-13273.fasta+CIAlign_uce-14049.fasta+CIAlign_uce-15616.fasta+CIAlign_uce-17585.fasta+CIAlign_uce-18242.fasta+CIAlign_uce-18245.fasta+CIAlign_uce-18679.fasta+CIAlign_uce-19689.fasta+CIAlign_uce-20471.fasta+CIAlign_uce-22330.fasta+CIAlign_uce-22549.fasta+CIAlign_uce-22658.fasta+CIAlign_uce-23541.fasta+CIAlign_uce-23837.fasta+CIAlign_uce-24115.fasta+CIAlign_uce-25004.fasta+CIAlign_uce-25390.fasta+CIAlign_uce-25409.fasta+CIAlign_uce-25501.fasta+CIAlign_uce-26590 (modified).fasta+CIAlign_uce-27830.fasta+CIAlign_uce-28007.fasta+CIAlign_uce-28894.fasta+CIAlign_uce-28896.fasta+CIAlign_uce-2981.fasta+CIAlign_uce-29811.fasta+CIAlign_uce-30267.fasta+CIAlign_uce-30493.fasta+CIAlign_uce-3067 (modified).fasta+CIAlign_uce-31082.fasta+CIAlign_uce-31759 (modified).fasta+CIAlign_uce-32005.fasta+CIAlign_uce-32474.fasta+CIAlign_uce-32775.fasta+CIAlign_uce-33428.fasta+CIAlign_uce-3379 (modified).fasta+CIAlign_uce-35150.fasta+CIAlign_uce-35494.fasta+CIAlign_uce-35495.fasta+CIAlign_uce-36320.fasta+CIAlign_uce-36528.fasta+CIAlign_uce-38821.fasta+CIAlign_uce-40683.fasta+CIAlign_uce-4622.fasta+CIAlign_uce-4653 (modified).fasta+CIAlign_uce-4678.fasta+CIAlign_uce-6882.fasta+CIAlign_uce-7668.fasta+CIAlign_uce-8612.fasta+CIAlign_uce-8827.fasta+CIAlign_uce-9589 (modified).fasta+CIAlign_uce-9966.fasta
+  21	DNA	66	3789	1805	1511	2021	2021	CIAlign_uce-12694.fasta+CIAlign_uce-15135.fasta+CIAlign_uce-16737.fasta+CIAlign_uce-20483.fasta+CIAlign_uce-20676.fasta+CIAlign_uce-21695.fasta+CIAlign_uce-22624.fasta+CIAlign_uce-22689.fasta+CIAlign_uce-23975.fasta+CIAlign_uce-24367.fasta+CIAlign_uce-26340 (modified).fasta+CIAlign_uce-27929.fasta+CIAlign_uce-30748 (modified).fasta+CIAlign_uce-32174.fasta+CIAlign_uce-35436 (modified).fasta+CIAlign_uce-36459 (modified).fasta+CIAlign_uce-6550.fasta+CIAlign_uce-7271 (modified).fasta+CIAlign_uce-8846.fasta+CIAlign_uce-8932.fasta
+  22	DNA	66	7472	3617	2900	4028	4028	CIAlign_uce-12735.fasta+CIAlign_uce-13005.fasta+CIAlign_uce-13298.fasta+CIAlign_uce-14091.fasta+CIAlign_uce-14535.fasta+CIAlign_uce-14541 (modified).fasta+CIAlign_uce-16304.fasta+CIAlign_uce-16373.fasta+CIAlign_uce-17291.fasta+CIAlign_uce-17491 (modified).fasta+CIAlign_uce-21275.fasta+CIAlign_uce-21409.fasta+CIAlign_uce-21858.fasta+CIAlign_uce-22594.fasta+CIAlign_uce-22688 (modified).fasta+CIAlign_uce-24422.fasta+CIAlign_uce-24794.fasta+CIAlign_uce-25136.fasta+CIAlign_uce-25779.fasta+CIAlign_uce-26382.fasta+CIAlign_uce-26432.fasta+CIAlign_uce-29213.fasta+CIAlign_uce-29727.fasta+CIAlign_uce-30525.fasta+CIAlign_uce-31484.fasta+CIAlign_uce-3186.fasta+CIAlign_uce-32214.fasta+CIAlign_uce-33091.fasta+CIAlign_uce-33241 (modified).fasta+CIAlign_uce-33747.fasta+CIAlign_uce-35424.fasta+CIAlign_uce-35776.fasta+CIAlign_uce-36692.fasta+CIAlign_uce-369.fasta+CIAlign_uce-37919.fasta+CIAlign_uce-39106.fasta+CIAlign_uce-39191.fasta+CIAlign_uce-40624.fasta+CIAlign_uce-6250.fasta+CIAlign_uce-693.fasta+CIAlign_uce-711.fasta+CIAlign_uce-7662 (modified).fasta+CIAlign_uce-8702.fasta+CIAlign_uce-9730.fasta+CIAlign_uce-9935.fasta
+  23	DNA	66	2896	1423	1162	1570	1570	CIAlign_uce-15037.fasta+CIAlign_uce-16245.fasta+CIAlign_uce-18287.fasta+CIAlign_uce-20892.fasta+CIAlign_uce-24715.fasta+CIAlign_uce-24734.fasta+CIAlign_uce-25787 (modified).fasta+CIAlign_uce-29251.fasta+CIAlign_uce-32270.fasta+CIAlign_uce-32689.fasta+CIAlign_uce-3309.fasta+CIAlign_uce-3459.fasta+CIAlign_uce-35055.fasta+CIAlign_uce-35404.fasta+CIAlign_uce-5967.fasta+CIAlign_uce-8080.fasta+CIAlign_uce-8707.fasta+CIAlign_uce-9031.fasta+CIAlign_uce-9968.fasta
+  24	DNA	65	3200	1500	1129	1729	1729	CIAlign_uce-16530.fasta+CIAlign_uce-21496.fasta+CIAlign_uce-22977 (modified).fasta+CIAlign_uce-23147 (modified).fasta+CIAlign_uce-27597.fasta+CIAlign_uce-27610.fasta+CIAlign_uce-29475 (modified).fasta+CIAlign_uce-33015.fasta+CIAlign_uce-33521.fasta+CIAlign_uce-33691.fasta+CIAlign_uce-34406.fasta+CIAlign_uce-35112.fasta+CIAlign_uce-35867.fasta+CIAlign_uce-39798.fasta+CIAlign_uce-4239.fasta+CIAlign_uce-7659 (modified).fasta+CIAlign_uce-8699.fasta
+  25	DNA	66	5085	2365	1916	2804	2804	CIAlign_uce-16622.fasta+CIAlign_uce-18317.fasta+CIAlign_uce-18734 (modified).fasta+CIAlign_uce-19063.fasta+CIAlign_uce-2084.fasta+CIAlign_uce-2318.fasta+CIAlign_uce-23237.fasta+CIAlign_uce-23713.fasta+CIAlign_uce-24410.fasta+CIAlign_uce-2516.fasta+CIAlign_uce-26339.fasta+CIAlign_uce-26843.fasta+CIAlign_uce-28892.fasta+CIAlign_uce-29870.fasta+CIAlign_uce-3047.fasta+CIAlign_uce-30574.fasta+CIAlign_uce-34185.fasta+CIAlign_uce-34507.fasta+CIAlign_uce-35782 (modified).fasta+CIAlign_uce-3972.fasta+CIAlign_uce-6244.fasta+CIAlign_uce-675.fasta+CIAlign_uce-7711.fasta+CIAlign_uce-7780.fasta+CIAlign_uce-7844 (modified).fasta+CIAlign_uce-8955.fasta+CIAlign_uce-9471.fasta
+  26	DNA	64	1491	867	658	646	646	CIAlign_uce-20045.fasta+CIAlign_uce-20401.fasta+CIAlign_uce-27520 (modified).fasta+CIAlign_uce-33749.fasta+CIAlign_uce-3406.fasta+CIAlign_uce-547.fasta+CIAlign_uce-7044 (modified).fasta+CIAlign_uce-7169.fasta
+  27	DNA	62	806	146	79	669	669	CIAlign_uce-26244 (modified).fasta+CIAlign_uce-37073.fasta+CIAlign_uce-7534.fasta
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+F+I+G4:CIAlign_uce-10009.fasta+CIAlign_uce-13941 (modified).fasta+CIAlign_uce-16071.fasta+CIAlign_uce-16739.fasta+CIAlign_uce-17216.fasta+CIAlign_uce-17490.fasta+CIAlign_uce-17492.fasta+CIAlign_uce-17580.fasta+CIAlign_uce-2119.fasta+CIAlign_uce-24448.fasta+CIAlign_uce-26139.fasta+CIAlign_uce-32355.fasta+CIAlign_uce-5449.fasta+CIAlign_uce-7709.fasta+CIAlign_uce-8753.fasta,TPM3u+F+I+R3:CIAlign_uce-10172.fasta+CIAlign_uce-10320 (modified).fasta+CIAlign_uce-1144.fasta+CIAlign_uce-13635.fasta+CIAlign_uce-15033.fasta+CIAlign_uce-16528.fasta+CIAlign_uce-18299.fasta+CIAlign_uce-19356.fasta+CIAlign_uce-22645.fasta+CIAlign_uce-24560.fasta+CIAlign_uce-25513.fasta+CIAlign_uce-26771.fasta+CIAlign_uce-27741.fasta+CIAlign_uce-31067.fasta+CIAlign_uce-31176.fasta+CIAlign_uce-32764.fasta+CIAlign_uce-35011.fasta+CIAlign_uce-36068.fasta+CIAlign_uce-36414 (modified).fasta+CIAlign_uce-36415.fasta+CIAlign_uce-36659.fasta+CIAlign_uce-3693.fasta+CIAlign_uce-38805.fasta+CIAlign_uce-39793.fasta+CIAlign_uce-40328.fasta+CIAlign_uce-4322.fasta+CIAlign_uce-5234.fasta+CIAlign_uce-5320.fasta+CIAlign_uce-7994.fasta+CIAlign_uce-8997.fasta,K3Pu+F+I+R4:CIAlign_uce-10182.fasta+CIAlign_uce-10555.fasta+CIAlign_uce-11820.fasta+CIAlign_uce-12511.fasta+CIAlign_uce-12515.fasta+CIAlign_uce-12808.fasta+CIAlign_uce-14138.fasta+CIAlign_uce-1443.fasta+CIAlign_uce-1444.fasta+CIAlign_uce-17457.fasta+CIAlign_uce-19073.fasta+CIAlign_uce-19154.fasta+CIAlign_uce-20807.fasta+CIAlign_uce-21162.fasta+CIAlign_uce-22965.fasta+CIAlign_uce-23715.fasta+CIAlign_uce-24460.fasta+CIAlign_uce-26341.fasta+CIAlign_uce-27783.fasta+CIAlign_uce-28586.fasta+CIAlign_uce-30515.fasta+CIAlign_uce-3102.fasta+CIAlign_uce-32088.fasta+CIAlign_uce-33011.fasta+CIAlign_uce-33668.fasta+CIAlign_uce-33949.fasta+CIAlign_uce-34159.fasta+CIAlign_uce-34210.fasta+CIAlign_uce-34922 (modified).fasta+CIAlign_uce-3665.fasta+CIAlign_uce-38646.fasta+CIAlign_uce-38767.fasta+CIAlign_uce-39175.fasta+CIAlign_uce-39514.fasta+CIAlign_uce-3975.fasta+CIAlign_uce-39843.fasta+CIAlign_uce-425 (modified).fasta+CIAlign_uce-5990.fasta+CIAlign_uce-6374.fasta+CIAlign_uce-7760.fasta+CIAlign_uce-8496.fasta+CIAlign_uce-9002 (modified).fasta+CIAlign_uce-981.fasta,TIM3+R4:CIAlign_uce-10226.fasta+CIAlign_uce-10918.fasta+CIAlign_uce-18909.fasta+CIAlign_uce-19973.fasta+CIAlign_uce-2626.fasta+CIAlign_uce-26865 (modified).fasta+CIAlign_uce-27831.fasta+CIAlign_uce-28546.fasta+CIAlign_uce-30769.fasta+CIAlign_uce-31300.fasta+CIAlign_uce-32884.fasta+CIAlign_uce-33050.fasta+CIAlign_uce-38254 (modified).fasta+CIAlign_uce-38924.fasta+CIAlign_uce-8056.fasta,K3Pu+F+I+G4:CIAlign_uce-10348.fasta+CIAlign_uce-1519.fasta+CIAlign_uce-1696.fasta+CIAlign_uce-1727.fasta+CIAlign_uce-1797.fasta+CIAlign_uce-18367.fasta+CIAlign_uce-19064.fasta+CIAlign_uce-20066 (modified).fasta+CIAlign_uce-20777.fasta+CIAlign_uce-24716 (modified).fasta+CIAlign_uce-25279.fasta+CIAlign_uce-2544.fasta+CIAlign_uce-27545.fasta+CIAlign_uce-30435.fasta+CIAlign_uce-33739.fasta+CIAlign_uce-33993.fasta+CIAlign_uce-34324.fasta+CIAlign_uce-35230.fasta+CIAlign_uce-37821 (modified).fasta+CIAlign_uce-38134.fasta+CIAlign_uce-38272.fasta+CIAlign_uce-38388.fasta+CIAlign_uce-38967.fasta+CIAlign_uce-40765.fasta+CIAlign_uce-4173.fasta+CIAlign_uce-5525.fasta+CIAlign_uce-6782.fasta+CIAlign_uce-750 (modified).fasta+CIAlign_uce-8029.fasta+CIAlign_uce-8466.fasta+CIAlign_uce-9415.fasta,TPM3u+F+I+R4:CIAlign_uce-10659.fasta+CIAlign_uce-10890.fasta+CIAlign_uce-11073.fasta+CIAlign_uce-12368.fasta+CIAlign_uce-13079.fasta+CIAlign_uce-1410.fasta+CIAlign_uce-18104.fasta+CIAlign_uce-19306.fasta+CIAlign_uce-20572 (modified).fasta+CIAlign_uce-22009.fasta+CIAlign_uce-24477.fasta+CIAlign_uce-25552.fasta+CIAlign_uce-26638.fasta+CIAlign_uce-26985.fasta+CIAlign_uce-27539.fasta+CIAlign_uce-27625.fasta+CIAlign_uce-30830.fasta+CIAlign_uce-32057.fasta+CIAlign_uce-32430.fasta+CIAlign_uce-35801.fasta+CIAlign_uce-35805.fasta+CIAlign_uce-35828.fasta+CIAlign_uce-39184.fasta+CIAlign_uce-39621.fasta+CIAlign_uce-4163 (modified).fasta+CIAlign_uce-4205.fasta+CIAlign_uce-5326.fasta+CIAlign_uce-5763 (modified).fasta+CIAlign_uce-6787.fasta+CIAlign_uce-7810.fasta+CIAlign_uce-849.fasta+CIAlign_uce-9608.fasta,TPM3u+R4:CIAlign_uce-1076.fasta+CIAlign_uce-13110.fasta+CIAlign_uce-13112.fasta+CIAlign_uce-15292.fasta+CIAlign_uce-1938.fasta+CIAlign_uce-23800.fasta+CIAlign_uce-26436.fasta+CIAlign_uce-28516.fasta+CIAlign_uce-4040.fasta,GTR+F+I+R3:CIAlign_uce-10812.fasta+CIAlign_uce-12167.fasta+CIAlign_uce-12273.fasta+CIAlign_uce-12553.fasta+CIAlign_uce-13109.fasta+CIAlign_uce-168.fasta+CIAlign_uce-17172.fasta+CIAlign_uce-19632.fasta+CIAlign_uce-23569.fasta+CIAlign_uce-25459.fasta+CIAlign_uce-26055.fasta+CIAlign_uce-26124.fasta+CIAlign_uce-26280.fasta+CIAlign_uce-27042.fasta+CIAlign_uce-30230.fasta+CIAlign_uce-30828.fasta+CIAlign_uce-31287.fasta+CIAlign_uce-36060.fasta+CIAlign_uce-37439.fasta+CIAlign_uce-39033.fasta+CIAlign_uce-39249.fasta+CIAlign_uce-4045.fasta+CIAlign_uce-8138.fasta+CIAlign_uce-8828.fasta,TIM3+I+G4:CIAlign_uce-10916.fasta+CIAlign_uce-12755.fasta+CIAlign_uce-14299.fasta+CIAlign_uce-29732.fasta+CIAlign_uce-5560.fasta+CIAlign_uce-696.fasta,TPM2u+F+R3:CIAlign_uce-10932 (modified).fasta+CIAlign_uce-11136.fasta+CIAlign_uce-13498.fasta+CIAlign_uce-21183.fasta+CIAlign_uce-21267.fasta+CIAlign_uce-22413.fasta+CIAlign_uce-22644 (modified).fasta+CIAlign_uce-24559.fasta+CIAlign_uce-25666.fasta+CIAlign_uce-28098 (modified).fasta+CIAlign_uce-28895.fasta+CIAlign_uce-29580.fasta+CIAlign_uce-3258.fasta+CIAlign_uce-35009.fasta+CIAlign_uce-36416.fasta+CIAlign_uce-39334.fasta+CIAlign_uce-4036 (modified).fasta+CIAlign_uce-4327.fasta+CIAlign_uce-4330.fasta+CIAlign_uce-6553 (modified).fasta,HKY+F+R4:CIAlign_uce-1095.fasta+CIAlign_uce-12227 (modified).fasta+CIAlign_uce-17715.fasta+CIAlign_uce-17805.fasta+CIAlign_uce-18385.fasta+CIAlign_uce-18486.fasta+CIAlign_uce-19140.fasta+CIAlign_uce-19658 (modified).fasta+CIAlign_uce-20254 (modified).fasta+CIAlign_uce-20940.fasta+CIAlign_uce-21740.fasta+CIAlign_uce-22317.fasta+CIAlign_uce-22646.fasta+CIAlign_uce-22946.fasta+CIAlign_uce-25904 (modified).fasta+CIAlign_uce-2840 (modified).fasta+CIAlign_uce-29669.fasta+CIAlign_uce-30161.fasta+CIAlign_uce-32509.fasta+CIAlign_uce-35203 (modified).fasta+CIAlign_uce-36992.fasta+CIAlign_uce-3819.fasta+CIAlign_uce-38650.fasta+CIAlign_uce-39264.fasta+CIAlign_uce-39267.fasta+CIAlign_uce-40674.fasta+CIAlign_uce-40731.fasta+CIAlign_uce-6957 (modified).fasta+CIAlign_uce-7892 (modified).fasta+CIAlign_uce-9437.fasta+CIAlign_uce-9710 (modified).fasta,TIM2+F+I+R3:CIAlign_uce-10968.fasta+CIAlign_uce-13324 (modified).fasta+CIAlign_uce-14783.fasta+CIAlign_uce-16467.fasta+CIAlign_uce-16513.fasta+CIAlign_uce-17866.fasta+CIAlign_uce-18500.fasta+CIAlign_uce-18906.fasta+CIAlign_uce-19018.fasta+CIAlign_uce-20417.fasta+CIAlign_uce-21264.fasta+CIAlign_uce-22213.fasta+CIAlign_uce-22430.fasta+CIAlign_uce-23668.fasta+CIAlign_uce-24603.fasta+CIAlign_uce-25263.fasta+CIAlign_uce-25388.fasta+CIAlign_uce-25420.fasta+CIAlign_uce-27040.fasta+CIAlign_uce-27547.fasta+CIAlign_uce-29738.fasta+CIAlign_uce-30219.fasta+CIAlign_uce-35983.fasta+CIAlign_uce-36604.fasta+CIAlign_uce-38785.fasta+CIAlign_uce-39248.fasta+CIAlign_uce-39274.fasta+CIAlign_uce-3994.fasta+CIAlign_uce-4691.fasta+CIAlign_uce-903.fasta,TIM3+F+I+R3:CIAlign_uce-11427.fasta+CIAlign_uce-118.fasta+CIAlign_uce-1223 (modified).fasta+CIAlign_uce-12986.fasta+CIAlign_uce-14008.fasta+CIAlign_uce-14863 (modified).fasta+CIAlign_uce-15680.fasta+CIAlign_uce-17130.fasta+CIAlign_uce-17603.fasta+CIAlign_uce-19336.fasta+CIAlign_uce-19354.fasta+CIAlign_uce-20468.fasta+CIAlign_uce-21362.fasta+CIAlign_uce-2346.fasta+CIAlign_uce-23690.fasta+CIAlign_uce-24605.fasta+CIAlign_uce-24678.fasta+CIAlign_uce-26324.fasta+CIAlign_uce-26677.fasta+CIAlign_uce-27192.fasta+CIAlign_uce-27626.fasta+CIAlign_uce-27763.fasta+CIAlign_uce-28099.fasta+CIAlign_uce-28849 (modified).fasta+CIAlign_uce-30836.fasta+CIAlign_uce-31079 (modified).fasta+CIAlign_uce-31286.fasta+CIAlign_uce-32102 (modified).fasta+CIAlign_uce-32470.fasta+CIAlign_uce-32475.fasta+CIAlign_uce-32720.fasta+CIAlign_uce-34366 (modified).fasta+CIAlign_uce-37268.fasta+CIAlign_uce-37961.fasta+CIAlign_uce-38734 (modified).fasta+CIAlign_uce-4889.fasta+CIAlign_uce-7981 (modified).fasta+CIAlign_uce-870 (modified).fasta+CIAlign_uce-9518.fasta,TIM3+F+I+R3:CIAlign_uce-11548.fasta+CIAlign_uce-11993.fasta+CIAlign_uce-16529.fasta+CIAlign_uce-16542.fasta+CIAlign_uce-1694.fasta+CIAlign_uce-17825.fasta+CIAlign_uce-20245.fasta+CIAlign_uce-20467.fasta+CIAlign_uce-2206.fasta+CIAlign_uce-23576.fasta+CIAlign_uce-24650.fasta+CIAlign_uce-30321.fasta+CIAlign_uce-34528.fasta+CIAlign_uce-36093.fasta+CIAlign_uce-36225.fasta+CIAlign_uce-38073.fasta+CIAlign_uce-3846 (modified).fasta+CIAlign_uce-40254.fasta+CIAlign_uce-40474.fasta+CIAlign_uce-5243.fasta+CIAlign_uce-6237.fasta+CIAlign_uce-7943.fasta+CIAlign_uce-8081.fasta,TIM2+F+I+R3:CIAlign_uce-11573.fasta+CIAlign_uce-12892.fasta+CIAlign_uce-14780.fasta+CIAlign_uce-16539.fasta+CIAlign_uce-17296.fasta+CIAlign_uce-1842.fasta+CIAlign_uce-18817.fasta+CIAlign_uce-1973.fasta+CIAlign_uce-20889.fasta+CIAlign_uce-2197.fasta+CIAlign_uce-21978.fasta+CIAlign_uce-22195.fasta+CIAlign_uce-2291 (modified).fasta+CIAlign_uce-25262.fasta+CIAlign_uce-25889 (modified).fasta+CIAlign_uce-29443 (modified).fasta+CIAlign_uce-31352.fasta+CIAlign_uce-31473.fasta+CIAlign_uce-31497.fasta+CIAlign_uce-31829.fasta+CIAlign_uce-31967 (modified).fasta+CIAlign_uce-32146.fasta+CIAlign_uce-33639.fasta+CIAlign_uce-35151.fasta+CIAlign_uce-37547.fasta+CIAlign_uce-39477.fasta+CIAlign_uce-39967.fasta+CIAlign_uce-40602 (modified).fasta+CIAlign_uce-5691.fasta+CIAlign_uce-731.fasta+CIAlign_uce-9508.fasta+CIAlign_uce-976.fasta,SYM+I+G4:CIAlign_uce-11739.fasta+CIAlign_uce-25627.fasta+CIAlign_uce-26772.fasta+CIAlign_uce-32909.fasta+CIAlign_uce-34267.fasta+CIAlign_uce-34571.fasta+CIAlign_uce-36456.fasta+CIAlign_uce-6976.fasta,TIM2+I+G4:CIAlign_uce-11740 (modified).fasta+CIAlign_uce-27378.fasta+CIAlign_uce-38441.fasta,GTR+I+R3:CIAlign_uce-12105.fasta+CIAlign_uce-21626.fasta+CIAlign_uce-22064.fasta+CIAlign_uce-29605.fasta+CIAlign_uce-36059.fasta+CIAlign_uce-6598.fasta,GTR+F+I+R3:CIAlign_uce-12383.fasta+CIAlign_uce-14809.fasta+CIAlign_uce-1561.fasta+CIAlign_uce-1591.fasta+CIAlign_uce-1661.fasta+CIAlign_uce-17215.fasta+CIAlign_uce-17828 (modified).fasta+CIAlign_uce-18387 (modified).fasta+CIAlign_uce-19069.fasta+CIAlign_uce-19325.fasta+CIAlign_uce-21263.fasta+CIAlign_uce-22581.fasta+CIAlign_uce-23347.fasta+CIAlign_uce-24536.fasta+CIAlign_uce-26180.fasta+CIAlign_uce-26414.fasta+CIAlign_uce-26544.fasta+CIAlign_uce-2714.fasta+CIAlign_uce-27550.fasta+CIAlign_uce-28698 (modified).fasta+CIAlign_uce-29899.fasta+CIAlign_uce-3028 (modified).fasta+CIAlign_uce-31174.fasta+CIAlign_uce-31893.fasta+CIAlign_uce-31907 (modified).fasta+CIAlign_uce-32735 (modified).fasta+CIAlign_uce-33206 (modified).fasta+CIAlign_uce-33443.fasta+CIAlign_uce-38446.fasta+CIAlign_uce-428.fasta+CIAlign_uce-9694.fasta,GTR+F+R4:CIAlign_uce-12504.fasta+CIAlign_uce-12740.fasta+CIAlign_uce-13153.fasta+CIAlign_uce-13273.fasta+CIAlign_uce-14049.fasta+CIAlign_uce-15616.fasta+CIAlign_uce-17585.fasta+CIAlign_uce-18242.fasta+CIAlign_uce-18245.fasta+CIAlign_uce-18679.fasta+CIAlign_uce-19689.fasta+CIAlign_uce-20471.fasta+CIAlign_uce-22330.fasta+CIAlign_uce-22549.fasta+CIAlign_uce-22658.fasta+CIAlign_uce-23541.fasta+CIAlign_uce-23837.fasta+CIAlign_uce-24115.fasta+CIAlign_uce-25004.fasta+CIAlign_uce-25390.fasta+CIAlign_uce-25409.fasta+CIAlign_uce-25501.fasta+CIAlign_uce-26590 (modified).fasta+CIAlign_uce-27830.fasta+CIAlign_uce-28007.fasta+CIAlign_uce-28894.fasta+CIAlign_uce-28896.fasta+CIAlign_uce-2981.fasta+CIAlign_uce-29811.fasta+CIAlign_uce-30267.fasta+CIAlign_uce-30493.fasta+CIAlign_uce-3067 (modified).fasta+CIAlign_uce-31082.fasta+CIAlign_uce-31759 (modified).fasta+CIAlign_uce-32005.fasta+CIAlign_uce-32474.fasta+CIAlign_uce-32775.fasta+CIAlign_uce-33428.fasta+CIAlign_uce-3379 (modified).fasta+CIAlign_uce-35150.fasta+CIAlign_uce-35494.fasta+CIAlign_uce-35495.fasta+CIAlign_uce-36320.fasta+CIAlign_uce-36528.fasta+CIAlign_uce-38821.fasta+CIAlign_uce-40683.fasta+CIAlign_uce-4622.fasta+CIAlign_uce-4653 (modified).fasta+CIAlign_uce-4678.fasta+CIAlign_uce-6882.fasta+CIAlign_uce-7668.fasta+CIAlign_uce-8612.fasta+CIAlign_uce-8827.fasta+CIAlign_uce-9589 (modified).fasta+CIAlign_uce-9966.fasta,TIM2+F+I+R4:CIAlign_uce-12694.fasta+CIAlign_uce-15135.fasta+CIAlign_uce-16737.fasta+CIAlign_uce-20483.fasta+CIAlign_uce-20676.fasta+CIAlign_uce-21695.fasta+CIAlign_uce-22624.fasta+CIAlign_uce-22689.fasta+CIAlign_uce-23975.fasta+CIAlign_uce-24367.fasta+CIAlign_uce-26340 (modified).fasta+CIAlign_uce-27929.fasta+CIAlign_uce-30748 (modified).fasta+CIAlign_uce-32174.fasta+CIAlign_uce-35436 (modified).fasta+CIAlign_uce-36459 (modified).fasta+CIAlign_uce-6550.fasta+CIAlign_uce-7271 (modified).fasta+CIAlign_uce-8846.fasta+CIAlign_uce-8932.fasta,TVM+F+I+R4:CIAlign_uce-12735.fasta+CIAlign_uce-13005.fasta+CIAlign_uce-13298.fasta+CIAlign_uce-14091.fasta+CIAlign_uce-14535.fasta+CIAlign_uce-14541 (modified).fasta+CIAlign_uce-16304.fasta+CIAlign_uce-16373.fasta+CIAlign_uce-17291.fasta+CIAlign_uce-17491 (modified).fasta+CIAlign_uce-21275.fasta+CIAlign_uce-21409.fasta+CIAlign_uce-21858.fasta+CIAlign_uce-22594.fasta+CIAlign_uce-22688 (modified).fasta+CIAlign_uce-24422.fasta+CIAlign_uce-24794.fasta+CIAlign_uce-25136.fasta+CIAlign_uce-25779.fasta+CIAlign_uce-26382.fasta+CIAlign_uce-26432.fasta+CIAlign_uce-29213.fasta+CIAlign_uce-29727.fasta+CIAlign_uce-30525.fasta+CIAlign_uce-31484.fasta+CIAlign_uce-3186.fasta+CIAlign_uce-32214.fasta+CIAlign_uce-33091.fasta+CIAlign_uce-33241 (modified).fasta+CIAlign_uce-33747.fasta+CIAlign_uce-35424.fasta+CIAlign_uce-35776.fasta+CIAlign_uce-36692.fasta+CIAlign_uce-369.fasta+CIAlign_uce-37919.fasta+CIAlign_uce-39106.fasta+CIAlign_uce-39191.fasta+CIAlign_uce-40624.fasta+CIAlign_uce-6250.fasta+CIAlign_uce-693.fasta+CIAlign_uce-711.fasta+CIAlign_uce-7662 (modified).fasta+CIAlign_uce-8702.fasta+CIAlign_uce-9730.fasta+CIAlign_uce-9935.fasta,HKY+F+I+R4:CIAlign_uce-15037.fasta+CIAlign_uce-16245.fasta+CIAlign_uce-18287.fasta+CIAlign_uce-20892.fasta+CIAlign_uce-24715.fasta+CIAlign_uce-24734.fasta+CIAlign_uce-25787 (modified).fasta+CIAlign_uce-29251.fasta+CIAlign_uce-32270.fasta+CIAlign_uce-32689.fasta+CIAlign_uce-3309.fasta+CIAlign_uce-3459.fasta+CIAlign_uce-35055.fasta+CIAlign_uce-35404.fasta+CIAlign_uce-5967.fasta+CIAlign_uce-8080.fasta+CIAlign_uce-8707.fasta+CIAlign_uce-9031.fasta+CIAlign_uce-9968.fasta,TIM2+F+I+R3:CIAlign_uce-16530.fasta+CIAlign_uce-21496.fasta+CIAlign_uce-22977 (modified).fasta+CIAlign_uce-23147 (modified).fasta+CIAlign_uce-27597.fasta+CIAlign_uce-27610.fasta+CIAlign_uce-29475 (modified).fasta+CIAlign_uce-33015.fasta+CIAlign_uce-33521.fasta+CIAlign_uce-33691.fasta+CIAlign_uce-34406.fasta+CIAlign_uce-35112.fasta+CIAlign_uce-35867.fasta+CIAlign_uce-39798.fasta+CIAlign_uce-4239.fasta+CIAlign_uce-7659 (modified).fasta+CIAlign_uce-8699.fasta,GTR+F+R4:CIAlign_uce-16622.fasta+CIAlign_uce-18317.fasta+CIAlign_uce-18734 (modified).fasta+CIAlign_uce-19063.fasta+CIAlign_uce-2084.fasta+CIAlign_uce-2318.fasta+CIAlign_uce-23237.fasta+CIAlign_uce-23713.fasta+CIAlign_uce-24410.fasta+CIAlign_uce-2516.fasta+CIAlign_uce-26339.fasta+CIAlign_uce-26843.fasta+CIAlign_uce-28892.fasta+CIAlign_uce-29870.fasta+CIAlign_uce-3047.fasta+CIAlign_uce-30574.fasta+CIAlign_uce-34185.fasta+CIAlign_uce-34507.fasta+CIAlign_uce-35782 (modified).fasta+CIAlign_uce-3972.fasta+CIAlign_uce-6244.fasta+CIAlign_uce-675.fasta+CIAlign_uce-7711.fasta+CIAlign_uce-7780.fasta+CIAlign_uce-7844 (modified).fasta+CIAlign_uce-8955.fasta+CIAlign_uce-9471.fasta,HKY+F+I+G4:CIAlign_uce-20045.fasta+CIAlign_uce-20401.fasta+CIAlign_uce-27520 (modified).fasta+CIAlign_uce-33749.fasta+CIAlign_uce-3406.fasta+CIAlign_uce-547.fasta+CIAlign_uce-7044 (modified).fasta+CIAlign_uce-7169.fasta,HKY+F+R3:CIAlign_uce-26244 (modified).fasta+CIAlign_uce-37073.fasta+CIAlign_uce-7534.fasta
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  TIM2+F+I+G4      -34289.346   68596.692 - 2.72e-312   68596.756 - 5.74e-317   68650.253 -        0
+   2  TPM3u+F+I+R3     -32542.745   65107.490 - 2.72e-312   65107.543 - 5.74e-317   65179.102 -        0
+   3  K3Pu+F+I+R4      -92556.095  185138.190 - 2.72e-312  185138.241 - 5.74e-317  185227.668 -        0
+   4  TIM3+R4          -37614.458   75248.915 - 2.72e-312   75248.987 - 5.74e-317   75309.203 -        0
+   5  K3Pu+F+I+G4      -45496.683   91009.366 - 2.72e-312   91009.396 - 5.74e-317   91061.212 -        0
+   6  TPM3u+F+I+R4     -52052.541  104131.082 - 2.72e-312  104131.156 - 5.74e-317  104215.657 -        0
+   7  TPM3u+R4         -27087.720   54193.441 - 2.72e-312   54193.526 - 5.74e-317   54244.420 -        0
+   8  GTR+F+I+R3       -42041.051   84110.102 - 2.72e-312   84110.203 - 5.74e-317   84198.845 -        0
+   9  TIM3+I+G4        -11347.276   22706.553 - 2.72e-312   22706.656 - 5.74e-317   22734.801 -        0
+  10  TPM2u+F+R3       -22229.373   44478.746 - 2.72e-312   44478.806 - 5.74e-317   44540.713 -        0
+  11  HKY+F+R4         -57596.060  115214.120 - 2.72e-312  115214.167 - 5.74e-317  115287.316 -        0
+  12  TIM2+F+I+R3      -43445.281   86914.562 - 2.72e-312   86914.622 - 5.74e-317   86993.281 -        0
+  13  TIM3+F+I+R3      -48625.507   97275.014 - 2.72e-312   97275.063 - 5.74e-317   97355.991 -        0
+  14  TIM3+F+I+R3      -27194.705   54413.411 - 2.72e-312   54413.482 - 5.74e-317   54490.075 -        0
+  15  TIM2+F+I+R3      -43990.054   88004.108 - 2.72e-312   88004.169 - 5.74e-317   88082.535 -        0
+  16  SYM+I+G4          -8810.342   17636.685 - 2.72e-312   17636.785 - 5.74e-317   17678.908 -        0
+  17  TIM2+I+G4         -9983.517   19979.034 - 2.72e-312   19979.153 - 5.74e-317   20006.468 -        0
+  18  GTR+I+R3         -12148.559   24319.118 - 2.72e-312   24319.434 - 5.74e-317   24371.290 -        0
+  19  GTR+F+I+R3       -33577.363   67182.725 - 2.72e-312   67182.822 - 5.74e-317   67272.033 -        0
+  20  GTR+F+R4         -84853.869  169737.738 - 2.72e-312  169737.789 - 5.74e-317  169845.019 -        0
+  21  TIM2+F+I+R4      -41477.514   82983.027 - 2.72e-312   82983.138 - 5.74e-317   83070.385 -        0
+  22  TVM+F+I+R4       -82157.426  164344.852 - 2.72e-312  164344.917 - 5.74e-317  164448.636 -        0
+  23  HKY+F+I+R4       -34405.592   68835.184 - 2.72e-312   68835.292 - 5.74e-317   68906.837 -        0
+  24  TIM2+F+I+R3      -28675.691   57375.383 - 2.72e-312   57375.481 - 5.74e-317   57448.234 -        0
+  25  GTR+F+R4         -51160.908  102351.816 - 2.72e-312  102351.911 - 5.74e-317  102449.827 -        0
+  26  HKY+F+I+G4       -15795.672   31605.343 - 2.72e-312   31605.419 - 5.74e-317   31642.494 -        0
+  27  HKY+F+R3          -2433.752    4885.503 - 2.72e-312    4885.729 - 5.74e-317    4927.732 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  TIM2+F+I+G4    1.5749  TIM2{1.32173,4.71187,5.95136}+F{0.283128,0.230534,0.227109,0.259228}+I{0.453515}+G4{1.06751}
+   2  TPM3u+F+I+R3   0.4584  TPM3u{0.826648,4.51587}+F{0.283312,0.224085,0.201447,0.291156}+I{0.526134}+R3{0.309203,0.865447,0.152128,3.84754,0.0125351,11.7335}
+   3  K3Pu+F+I+R4    1.5631  K3Pu{4.64507,0.860962}+F{0.29,0.214397,0.21074,0.284863}+I{0.388718}+R4{0.221999,0.217771,0.169339,1.1534,0.171823,2.7494,0.0481206,5.90035}
+   4  TIM3+F+R4      1.5352  TIM3{0.72912,6.27804,4.67218}+F{0.263301,0.226234,0.234614,0.27585}+R4{0.548956,0.0214957,0.17957,0.586284,0.193014,2.21968,0.07846,5.79265}
+   5  K3Pu+F+I+G4    0.9593  K3Pu{6.11402,0.740813}+F{0.290841,0.204048,0.196129,0.308982}+I{0.497487}+G4{0.963689}
+   6  TPM3u+F+I+R4   1.0659  TPM3u{0.761231,3.68842}+F{0.277996,0.217035,0.20019,0.304779}+I{0.437169}+R4{0.256927,0.360659,0.180906,1.73032,0.115324,4.24787,0.00967378,10.7951}
+   7  TPM3u+F+R4     1.8387  TPM3u{0.868677,6.91347}+F{0.264886,0.23319,0.23528,0.266644}+R4{0.567304,0.0250676,0.169944,0.698437,0.190951,2.28787,0.0718008,5.99177}
+   8  GTR+F+I+R3     0.9877  GTR{1.87366,6.1895,1.35315,1.1682,8.25342}+F{0.302897,0.206321,0.223573,0.267208}+I{0.44971}+R3{0.258039,0.37533,0.211089,2.13026,0.0811612,5.58735}
+   9  TIM3+F+I+G4    2.0182  TIM3{0.732665,5.69183,2.99694}+F{0.26203,0.243999,0.197458,0.296512}+I{0.411394}+G4{0.831848}
+  10  TPM2u+F+R3     0.3613  TPM2u{1.28923,3.69296}+F{0.278056,0.219507,0.226678,0.27576}+R3{0.682212,0.155934,0.293239,2.24426,0.0245497,9.59345}
+  11  HKY+F+R4       1.1098  HKY{5.79191}+F{0.276064,0.215323,0.227881,0.280731}+R4{0.596954,0.023099,0.206319,1.08718,0.152961,2.94428,0.0437665,7.11839}
+  12  TIM2+F+I+R3    0.6582  TIM2{1.30942,5.41548,6.77006}+F{0.296462,0.220295,0.218553,0.26469}+I{0.46331}+R3{0.286808,0.533109,0.217374,2.75052,0.032508,7.66607}
+  13  TIM3+F+I+R3    0.7055  TIM3{0.768904,4.60997,4.09554}+F{0.275792,0.228721,0.21035,0.285136}+I{0.551746}+R3{0.274656,0.911457,0.160776,3.85659,0.0128228,10.1084}
+  14  TIM3+F+I+R3    0.4281  TIM3{0.749718,5.14974,3.62207}+F{0.291453,0.202375,0.2116,0.294572}+I{0.51792}+R3{0.314651,0.8488,0.152816,3.65269,0.0146139,11.9567}
+  15  TIM2+F+I+R3    0.9202  TIM2{1.18056,6.47955,7.42431}+F{0.301206,0.200459,0.217045,0.28129}+I{0.561477}+R3{0.22105,0.770661,0.176112,2.96158,0.0413617,7.44835}
+  16  SYM+I+G4       0.4758  SYM{1.05263,4.13176,1.68375,0.553721,6.6763}+FQ+I{0.591824}+G4{1.70341}
+  17  TIM2+F+I+G4    2.3132  TIM2{1.53091,5.03045,9.51798}+F{0.2836,0.191015,0.247443,0.277942}+I{0.444668}+G4{1.08194}
+  18  GTR+F+I+R3     1.8982  GTR{2.45744,6.41617,1.44747,1.04371,12.6179}+F{0.272023,0.238955,0.255426,0.233597}+I{0.448787}+R3{0.238759,0.257272,0.241614,2.09497,0.0708397,6.10393}
+  19  GTR+F+I+R3     0.6387  GTR{0.683798,5.09793,0.726692,0.479374,3.66247}+F{0.26411,0.241809,0.186722,0.307359}+I{0.514101}+R3{0.255992,0.576716,0.171418,2.67058,0.0584885,6.74626}
+  20  GTR+F+R4       0.8353  GTR{0.594156,4.87921,0.803334,0.503967,3.33716}+F{0.28881,0.226014,0.207226,0.277949}+R4{0.587865,0.0312831,0.227975,1.0704,0.162245,3.39243,0.0219147,8.54123}
+  21  TIM2+F+I+R4    1.2182  TIM2{1.37762,6.133,9.22433}+F{0.297562,0.220805,0.217904,0.263729}+I{0.450755}+R4{0.240227,0.307765,0.219512,1.90677,0.0738682,4.69571,0.0156368,10.2734}
+  22  TVM+F+I+R4     1.2276  TVM{0.640605,4.26827,0.67725,0.634389}+F{0.288579,0.221106,0.211842,0.278473}+I{0.435006}+R4{0.211873,0.21332,0.180018,1.25094,0.14379,3.54263,0.029314,7.51237}
+  23  HKY+F+I+R4     1.5209  HKY{7.09237}+F{0.283345,0.209667,0.224592,0.282396}+I{0.452537}+R4{0.191322,0.17798,0.191037,1.36266,0.137206,3.56399,0.0278976,7.76516}
+  24  TIM2+F+I+R3    0.8443  TIM2{1.32912,3.93178,4.99302}+F{0.289254,0.228318,0.225207,0.257221}+I{0.444062}+R3{0.336843,0.627454,0.178875,2.78957,0.0402204,7.20188}
+  25  GTR+F+R4       1.0596  GTR{0.417271,4.90686,0.742718,0.646944,3.11394}+F{0.272205,0.226972,0.210086,0.290737}+R4{0.58096,0.0346011,0.183765,0.801438,0.182951,2.68016,0.0523232,6.5417}
+  26  HKY+F+I+G4     0.9742  HKY{3.73058}+F{0.299586,0.188942,0.192044,0.319428}+I{0.283131}+G4{1.01745}
+  27  HKY+F+R3       0.1178  HKY{3.36016}+F{0.281847,0.181611,0.205388,0.331153}+R3{0.913212,0.339284,0.0842751,5.88864,0.00251329,77.1481}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1023590.6342 (s.e. 3725.9260)
+Unconstrained log-likelihood (without tree): -709752.2786
+Number of free parameters (#branches + #model parameters): 443
+Akaike information criterion (AIC) score: 2048067.2684
+Corrected Akaike information criterion (AICc) score: 2048070.9642
+Bayesian information criterion (BIC) score: 2052310.9950
+
+Mixture-based log-likelihood of the tree: -1028687.0965
+Marginal Akaike information criterion (mAIC) score: 2058260.1930
+
+Total tree length (sum of branch lengths): 4.8426
+Sum of internal branch lengths: 2.0153 (41.6172% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ancistrocheirus_lesueurii' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--ancistrocheirus_lesueurii
+|
+|              +--architeuthis_dux
+|           +--| (52)
+|           |  +--histioteuthis_corona_inermis
+|        +--| (59)
+|        |  |  +--gonatus_onyx
+|        |  +--| (64)
+|        |     +--onychoteuthis_banksii
+|     +--| (100)
+|     |  |                                             +----argonauta_hians
+|     |  |                                          +--| (100)
+|     |  |                                          |  |  +--haliphron_atlanticus
+|     |  |                                          |  +--| (100)
+|     |  |                                          |     +--tremoctopus_violaceus
+|     |  |                                       +--| (99)
+|     |  |                                       |  |        +--hapalochlaena_lunulata
+|     |  |                                       |  |     +--| (100)
+|     |  |                                       |  |     |  |  +--octopusbimaculoides--genome
+|     |  |                                       |  |     |  +--| (100)
+|     |  |                                       |  |     |     |  +--octopussinensis--genome
+|     |  |                                       |  |     |     +--| (100)
+|     |  |                                       |  |     |        +--octopusvulgaris--genome
+|     |  |                                       |  |  +--| (100)
+|     |  |                                       |  |  |  +--octopus_oliveri
+|     |  |                                       |  +--| (100)
+|     |  |                                       |     +--octopusminor--genome
+|     |  |                                    +--| (74)
+|     |  |                                    |  |        +--benthoctopus_normani
+|     |  |                                    |  |     +--| (100)
+|     |  |                                    |  |     |  +--octopus_californicus
+|     |  |                                    |  |  +--| (100)
+|     |  |                                    |  |  |  +--enteroctopus_dofleini
+|     |  |                                    |  +--| (91)
+|     |  |                                    |     |  +--japetella_diaphana
+|     |  |                                    |     +--| (100)
+|     |  |                                    |        +--pareledone_charcoti
+|     |  |                                +---| (100)
+|     |  |                                |   +--eledone_cirrhosa
+|     |  |                             +--| (100)
+|     |  |                             |  +--opisthoteuthis_californiana
+|     |  |                         +---| (100)
+|     |  |                         |   +---vampyroteuthis_infernalis
+|     |  |                    +----| (100)
+|     |  |                    |    |                         +----------------------engina_mendicaria
+|     |  |                    |    |                +--------| (100)
+|     |  |                    |    |                |        +-----------------gymnodoris_subflava
+|     |  |                    |    |         +------| (100)
+|     |  |                    |    |         |      +--------------------patelloida_saccharina
+|     |  |                    |    +---------| (100)
+|     |  |                    |              |                  +--nautiluspompilius--genome
+|     |  |                    |              +------------------| (100)
+|     |  |                    |                                 +--nautilus_macromphalus
+|     |  |                 +--| (100)
+|     |  |                 |  +----idiosepius_sp
+|     |  |              +--| (100)
+|     |  |              |  |     +--heteroteuthis_hawaiensis
+|     |  |              |  |  +--| (100)
+|     |  |              |  |  |  |  +--rossia_pacifica
+|     |  |              |  |  |  +--| (100)
+|     |  |              |  |  |     |     +--sepiola_parva
+|     |  |              |  |  |     |  +--| (100)
+|     |  |              |  |  |     |  |  +--eumandyaparva--genome
+|     |  |              |  |  |     +--| (100)
+|     |  |              |  |  |        |  +--sepiettaobscura--genome
+|     |  |              |  |  |        +--| (100)
+|     |  |              |  |  |           |  +--sepiolaatlantica--genome
+|     |  |              |  |  |           +--| (100)
+|     |  |              |  |  |              +--sepiolaaffinis--genome
+|     |  |              |  +--| (100)
+|     |  |              |     |  +--sepiadarium_kochi_mainland
+|     |  |              |     +--| (100)
+|     |  |              |        +--sepiadarium_kochi_okinawa
+|     |  |           +--| (72)
+|     |  |           |  |  +--sepioteuthis_lessoniana
+|     |  |           |  +--| (100)
+|     |  |           |     |  +--doryteuthisopalescens--genome
+|     |  |           |     +--| (100)
+|     |  |           |        +--doryteuthispealeii--genome
+|     |  |        +--| (99)
+|     |  |        |  |        +--metasepia_tulbergi
+|     |  |        |  |     +--| (96)
+|     |  |        |  |     |  +--sepia_latimanus
+|     |  |        |  |  +--| (100)
+|     |  |        |  |  |  +--ascarosepionbandense--genome
+|     |  |        |  +--| (100)
+|     |  |        |     |        +--sepia_pharaonis
+|     |  |        |     |     +--| (100)
+|     |  |        |     |     |  +--acanthosepionlycidas--genome
+|     |  |        |     |  +--| (100)
+|     |  |        |     |  |  +--acanthosepionesculentum--genome
+|     |  |        |     +--| (100)
+|     |  |        |        +--sepiaofficianalis--genome
+|     |  |     +--| (100)
+|     |  |     |  +--spirulaspirula--genome
+|     |  |  +--| (100)
+|     |  |  |  |  +--bathyteuthis_abyssicola
+|     |  |  |  +--| (100)
+|     |  |  |     +--chtenopteryx_sicula
+|     |  +--| (100)
+|     |     |     +--cranchia_scabra
+|     |     |  +--| (100)
+|     |     |  |  +--galituethis_sp
+|     |     +--| (100)
+|     |        |  +--nototodarus_hawaiiensis
+|     |        +--| (100)
+|     |           +--thysanoteuthis_rhombus
+|  +--| (100)
+|  |  |     +--brachioteuthis_beanii
+|  |  |  +--| (100)
+|  |  |  |  |  +--discoteuthis_sp
+|  |  |  |  +--| (100)
+|  |  |  |     +--spirula_spirula
+|  |  +--| (58)
+|  |     |        +--chiroteuthis_picteti
+|  |     |     +--| (100)
+|  |     |     |  |  +--joubiniteuthis_portieri
+|  |     |     |  +--| (100)
+|  |     |     |     +--mastigoteuthis_agassizii
+|  |     |  +--| (100)
+|  |     |  |  |  +--pholidoteuthis_adami
+|  |     |  |  +--| (100)
+|  |     |  |     +--pholidoteuthis_massyae
+|  |     +--| (100)
+|  |        +--octopoteuthis_nielseni
++--| (100)
+|  |  +--pterygioteuthis_gemmata
+|  +--| (100)
+|     +--selenoteuthis_scintillans
+|
++--enoploteuthis_anapsis
+
+Tree in newick format:
+
+(ancistrocheirus_lesueurii:0.0122322145,(((((architeuthis_dux:0.0179786437,histioteuthis_corona_inermis:0.0261322966)52:0.0018105517,(gonatus_onyx:0.0536543504,onychoteuthis_banksii:0.0378071769)64:0.0053456146)59:0.0009495770,((((((((((((((argonauta_hians:0.1221541241,(haliphron_atlanticus:0.0196510694,tremoctopus_violaceus:0.0394028798)100:0.0184812995)100:0.0344778911,(((hapalochlaena_lunulata:0.0239950435,(octopusbimaculoides--genome:0.0074729165,(octopussinensis--genome:0.0008610957,octopusvulgaris--genome:0.0008919780)100:0.0085054261)100:0.0041265459)100:0.0023550513,octopus_oliveri:0.0150365685)100:0.0139849928,octopusminor--genome:0.0241641956)100:0.0127036206)99:0.0077911219,(((benthoctopus_normani:0.0034510909,octopus_californicus:0.0037589108)100:0.0013188891,enteroctopus_dofleini:0.0033895575)100:0.0261343075,(japetella_diaphana:0.0244541464,pareledone_charcoti:0.0180071928)100:0.0040060241)91:0.0031340909)74:0.0055717880,eledone_cirrhosa:0.0544510965)100:0.0890050000,opisthoteuthis_californiana:0.0850491544)100:0.0783807440,vampyroteuthis_infernalis:0.0952674403)100:0.0920289998,(((engina_mendicaria:0.5070440223,gymnodoris_subflava:0.4128706254)100:0.2134479280,patelloida_saccharina:0.4766126539)100:0.1702928344,(nautiluspompilius--genome:0.0037275202,nautilus_macromphalus:0.0001657768)100:0.4344884733)100:0.2351206119)100:0.1188310022,idiosepius_sp:0.1118477374)100:0.0182620845,((heteroteuthis_hawaiensis:0.0264979540,(rossia_pacifica:0.0115930868,((sepiola_parva:0.0011700590,eumandyaparva--genome:0.0007765756)100:0.0315847788,(sepiettaobscura--genome:0.0163864443,(sepiolaatlantica--genome:0.0016049325,sepiolaaffinis--genome:0.0017506610)100:0.0091571007)100:0.0060941422)100:0.0308143063)100:0.0052230383)100:0.0281450119,(sepiadarium_kochi_mainland:0.0109913193,sepiadarium_kochi_okinawa:0.0077431064)100:0.0566587307)100:0.0176893955)100:0.0066027138,(sepioteuthis_lessoniana:0.0201901959,(doryteuthisopalescens--genome:0.0050353737,doryteuthispealeii--genome:0.0047132756)100:0.0248176405)100:0.0239278139)72:0.0024045150,(((metasepia_tulbergi:0.0103703686,sepia_latimanus:0.0071952014)96:0.0008587327,ascarosepionbandense--genome:0.0121278402)100:0.0066765726,(((sepia_pharaonis:0.0035216075,acanthosepionlycidas--genome:0.0033625068)100:0.0020932102,acanthosepionesculentum--genome:0.0052732900)100:0.0064551942,sepiaofficianalis--genome:0.0123992089)100:0.0019540143)100:0.0312569235)99:0.0040109780,spirulaspirula--genome:0.0373937743)100:0.0055698251,(bathyteuthis_abyssicola:0.0195248413,chtenopteryx_sicula:0.0319827695)100:0.0084090966)100:0.0085888761,((cranchia_scabra:0.0340081571,galituethis_sp:0.0242808922)100:0.0042534160,(nototodarus_hawaiiensis:0.0386288749,thysanoteuthis_rhombus:0.0217935092)100:0.0032803588)100:0.0047370097)100:0.0037359135)100:0.0024642680,((brachioteuthis_beanii:0.0292173586,(discoteuthis_sp:0.0009000550,spirula_spirula:0.0014027084)100:0.0118456371)100:0.0049548157,(((chiroteuthis_picteti:0.0203241544,(joubiniteuthis_portieri:0.0111149284,mastigoteuthis_agassizii:0.0140739181)100:0.0021763646)100:0.0060203147,(pholidoteuthis_adami:0.0042068926,pholidoteuthis_massyae:0.0039786493)100:0.0205688306)100:0.0037492250,octopoteuthis_nielseni:0.0259005999)100:0.0034078558)58:0.0012310534)100:0.0049447340,(pterygioteuthis_gemmata:0.0667875056,selenoteuthis_scintillans:0.0328493035)100:0.0087452597)100:0.0096843959,enoploteuthis_anapsis:0.0446345340);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -1023590.634869
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--ancistrocheirus_lesueurii
+|
+|              +--architeuthis_dux
+|           +--| (52)
+|           |  +--histioteuthis_corona_inermis
+|        +--| (59)
+|        |  |  +--gonatus_onyx
+|        |  +--| (64)
+|        |     +--onychoteuthis_banksii
+|     +--| (100)
+|     |  |                                             +----argonauta_hians
+|     |  |                                          +--| (100)
+|     |  |                                          |  |  +--haliphron_atlanticus
+|     |  |                                          |  +--| (100)
+|     |  |                                          |     +--tremoctopus_violaceus
+|     |  |                                       +--| (99)
+|     |  |                                       |  |        +--hapalochlaena_lunulata
+|     |  |                                       |  |     +--| (100)
+|     |  |                                       |  |     |  |  +--octopusbimaculoides--genome
+|     |  |                                       |  |     |  +--| (100)
+|     |  |                                       |  |     |     |  +--octopussinensis--genome
+|     |  |                                       |  |     |     +--| (100)
+|     |  |                                       |  |     |        +--octopusvulgaris--genome
+|     |  |                                       |  |  +--| (100)
+|     |  |                                       |  |  |  +--octopus_oliveri
+|     |  |                                       |  +--| (100)
+|     |  |                                       |     +--octopusminor--genome
+|     |  |                                    +--| (74)
+|     |  |                                    |  |        +--benthoctopus_normani
+|     |  |                                    |  |     +--| (100)
+|     |  |                                    |  |     |  +--octopus_californicus
+|     |  |                                    |  |  +--| (100)
+|     |  |                                    |  |  |  +--enteroctopus_dofleini
+|     |  |                                    |  +--| (91)
+|     |  |                                    |     |  +--japetella_diaphana
+|     |  |                                    |     +--| (100)
+|     |  |                                    |        +--pareledone_charcoti
+|     |  |                                +---| (100)
+|     |  |                                |   +--eledone_cirrhosa
+|     |  |                             +--| (100)
+|     |  |                             |  +--opisthoteuthis_californiana
+|     |  |                         +---| (100)
+|     |  |                         |   +---vampyroteuthis_infernalis
+|     |  |                    +----| (100)
+|     |  |                    |    |                         +----------------------engina_mendicaria
+|     |  |                    |    |                +--------| (100)
+|     |  |                    |    |                |        +-----------------gymnodoris_subflava
+|     |  |                    |    |         +------| (100)
+|     |  |                    |    |         |      +--------------------patelloida_saccharina
+|     |  |                    |    +---------| (100)
+|     |  |                    |              |                  +--nautiluspompilius--genome
+|     |  |                    |              +------------------| (100)
+|     |  |                    |                                 +--nautilus_macromphalus
+|     |  |                 +--| (100)
+|     |  |                 |  +----idiosepius_sp
+|     |  |              +--| (100)
+|     |  |              |  |     +--heteroteuthis_hawaiensis
+|     |  |              |  |  +--| (100)
+|     |  |              |  |  |  |  +--rossia_pacifica
+|     |  |              |  |  |  +--| (100)
+|     |  |              |  |  |     |     +--sepiola_parva
+|     |  |              |  |  |     |  +--| (100)
+|     |  |              |  |  |     |  |  +--eumandyaparva--genome
+|     |  |              |  |  |     +--| (100)
+|     |  |              |  |  |        |  +--sepiettaobscura--genome
+|     |  |              |  |  |        +--| (100)
+|     |  |              |  |  |           |  +--sepiolaatlantica--genome
+|     |  |              |  |  |           +--| (100)
+|     |  |              |  |  |              +--sepiolaaffinis--genome
+|     |  |              |  +--| (100)
+|     |  |              |     |  +--sepiadarium_kochi_mainland
+|     |  |              |     +--| (100)
+|     |  |              |        +--sepiadarium_kochi_okinawa
+|     |  |           +--| (72)
+|     |  |           |  |  +--sepioteuthis_lessoniana
+|     |  |           |  +--| (100)
+|     |  |           |     |  +--doryteuthisopalescens--genome
+|     |  |           |     +--| (100)
+|     |  |           |        +--doryteuthispealeii--genome
+|     |  |        +--| (99)
+|     |  |        |  |        +--metasepia_tulbergi
+|     |  |        |  |     +--| (96)
+|     |  |        |  |     |  +--sepia_latimanus
+|     |  |        |  |  +--| (100)
+|     |  |        |  |  |  +--ascarosepionbandense--genome
+|     |  |        |  +--| (100)
+|     |  |        |     |        +--sepia_pharaonis
+|     |  |        |     |     +--| (100)
+|     |  |        |     |     |  +--acanthosepionlycidas--genome
+|     |  |        |     |  +--| (100)
+|     |  |        |     |  |  +--acanthosepionesculentum--genome
+|     |  |        |     +--| (100)
+|     |  |        |        +--sepiaofficianalis--genome
+|     |  |     +--| (100)
+|     |  |     |  +--spirulaspirula--genome
+|     |  |  +--| (100)
+|     |  |  |  |  +--bathyteuthis_abyssicola
+|     |  |  |  +--| (100)
+|     |  |  |     +--chtenopteryx_sicula
+|     |  +--| (100)
+|     |     |     +--cranchia_scabra
+|     |     |  +--| (100)
+|     |     |  |  +--galituethis_sp
+|     |     +--| (100)
+|     |        |  +--nototodarus_hawaiiensis
+|     |        +--| (100)
+|     |           +--thysanoteuthis_rhombus
+|  +--| (100)
+|  |  |     +--brachioteuthis_beanii
+|  |  |  +--| (100)
+|  |  |  |  |  +--discoteuthis_sp
+|  |  |  |  +--| (100)
+|  |  |  |     +--spirula_spirula
+|  |  +--| (58)
+|  |     |        +--chiroteuthis_picteti
+|  |     |     +--| (100)
+|  |     |     |  |  +--joubiniteuthis_portieri
+|  |     |     |  +--| (100)
+|  |     |     |     +--mastigoteuthis_agassizii
+|  |     |  +--| (100)
+|  |     |  |  |  +--pholidoteuthis_adami
+|  |     |  |  +--| (100)
+|  |     |  |     +--pholidoteuthis_massyae
+|  |     +--| (100)
+|  |        +--octopoteuthis_nielseni
++--| (100)
+|  |  +--pterygioteuthis_gemmata
+|  +--| (100)
+|     +--selenoteuthis_scintillans
+|
++--enoploteuthis_anapsis
+
+
+Consensus tree in newick format: 
+
+(ancistrocheirus_lesueurii:0.0122332523,(((((architeuthis_dux:0.0179794793,histioteuthis_corona_inermis:0.0261338005)52:0.0018102441,(gonatus_onyx:0.0536579136,onychoteuthis_banksii:0.0378103609)64:0.0053449161)59:0.0009510093,((((((((((((((argonauta_hians:0.1221637579,(haliphron_atlanticus:0.0196527284,tremoctopus_violaceus:0.0394056833)100:0.0184826959)100:0.0344799271,(((hapalochlaena_lunulata:0.0239970874,(octopusbimaculoides--genome:0.0074737495,(octopussinensis--genome:0.0008618042,octopusvulgaris--genome:0.0008933940)100:0.0085066856)100:0.0041271361)100:0.0023557538,octopus_oliveri:0.0150384716)100:0.0139866576,octopusminor--genome:0.0241661609)100:0.0127050974)99:0.0077922716,(((benthoctopus_normani:0.0034514627,octopus_californicus:0.0037599967)100:0.0013198276,enteroctopus_dofleini:0.0033897496)100:0.0261360190,(japetella_diaphana:0.0244568146,pareledone_charcoti:0.0180088083)100:0.0040056276)91:0.0031354268)74:0.0055722087,eledone_cirrhosa:0.0544545855)100:0.0890112048,opisthoteuthis_californiana:0.0850551653)100:0.0783867067,vampyroteuthis_infernalis:0.0952750194)100:0.0920344419,(((engina_mendicaria:0.5070893536,gymnodoris_subflava:0.4129053111)100:0.2134672645,patelloida_saccharina:0.4766585534)100:0.1703013746,(nautiluspompilius--genome:0.0037291719,nautilus_macromphalus:0.0001654355)100:0.4345248537)100:0.2351379377)100:0.1188412596,idiosepius_sp:0.1118548046)100:0.0182645651,((heteroteuthis_hawaiensis:0.0265006875,(rossia_pacifica:0.0115950241,((sepiola_parva:0.0011700892,eumandyaparva--genome:0.0007771148)100:0.0315874467,(sepiettaobscura--genome:0.0163880468,(sepiolaatlantica--genome:0.0016057914,sepiolaaffinis--genome:0.0017521358)100:0.0091582199)100:0.0060954820)100:0.0308172096)100:0.0052222371)100:0.0281461131,(sepiadarium_kochi_mainland:0.0109934290,sepiadarium_kochi_okinawa:0.0077429327)100:0.0566621789)100:0.0176909039)100:0.0066031455,(sepioteuthis_lessoniana:0.0201928904,(doryteuthisopalescens--genome:0.0050363248,doryteuthispealeii--genome:0.0047143570)100:0.0248190054)100:0.0239297758)72:0.0024058867,(((metasepia_tulbergi:0.0103706559,sepia_latimanus:0.0071960314)96:0.0008586678,ascarosepionbandense--genome:0.0121294887)100:0.0066769491,(((sepia_pharaonis:0.0035211138,acanthosepionlycidas--genome:0.0033624174)100:0.0020945295,acanthosepionesculentum--genome:0.0052734380)100:0.0064569986,sepiaofficianalis--genome:0.0124002608)100:0.0019541259)100:0.0312611792)99:0.0039851933,spirulaspirula--genome:0.0373960512)100:0.0055919609,(bathyteuthis_abyssicola:0.0195265782,chtenopteryx_sicula:0.0319852589)100:0.0084092828)100:0.0085901037,((cranchia_scabra:0.0340112773,galituethis_sp:0.0242824708)100:0.0042543296,(nototodarus_hawaiiensis:0.0386322365,thysanoteuthis_rhombus:0.0217947946)100:0.0032809795)100:0.0047383477)100:0.0037361353)100:0.0024642850,((brachioteuthis_beanii:0.0292194897,(discoteuthis_sp:0.0009005987,spirula_spirula:0.0014027552)100:0.0118478381)100:0.0049542913,(((chiroteuthis_picteti:0.0203248295,(joubiniteuthis_portieri:0.0111158189,mastigoteuthis_agassizii:0.0140753577)100:0.0021777530)100:0.0060210913,(pholidoteuthis_adami:0.0042080482,pholidoteuthis_massyae:0.0039785209)100:0.0205700545)100:0.0037494356,octopoteuthis_nielseni:0.0259023881)100:0.0034082497)58:0.0012315072)100:0.0049463840,(pterygioteuthis_gemmata:0.0667915144,selenoteuthis_scintillans:0.0328523071)100:0.0087452003)100:0.0096840201,enoploteuthis_anapsis:0.0446380013);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t concat_species_tree.treefile -p concat_species_tree.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Jun 19 18:53:45 2025
+Total CPU time used: 10388.99656 seconds (2h:53m:8s)
+Total wall-clock time used: 719.1889546 seconds (0h:11m:59s)
+
