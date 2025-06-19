@@ -19,11 +19,11 @@ Each set of baits gives us some potential UCEs from each target genome. We can t
 
 ### Making the new baits
 
-First we make the new baits. Each is based on a list of species from the curated UCE alignments: 
+First we make the new baits. Each is based on a list of species from the curated UCE alignments:
 
-* `squid_spp.txt` are the squid species
-* `octopus_spp.txt` are the octopus species
-* `all_spp.txt` are all the ingroup species (squids+octopusses)
+-   `squid_spp.txt` are the squid species
+-   `octopus_spp.txt` are the octopus species
+-   `all_spp.txt` are all the ingroup species (squids+octopusses)
 
 Here's how you do that. First cd to the folder `4_additional_UCEs_from_genomes`
 
@@ -32,7 +32,7 @@ conda env create -f environment.yml
 conda activate uce_add
 ```
 
-Then we run the script to make each set of probes. This script takes the middle 180bp of an alignment (less if it's shorter) and makes two probes of 120bp that overlap by the central 60bp. The probes are 80% majority rule - i.e. if >=80% of bases at a site are the same, then we record that base. Otherwise we record an N.
+Then we run the script to make each set of probes. This script takes the middle 180bp of an alignment (less if it's shorter) and makes two probes of 120bp that overlap by the central 60bp. The probes are 80% majority rule - i.e. if \>=80% of bases at a site are the same, then we record that base. Otherwise we record an N.
 
 ``` bash
 bash make_probes.sh ../3_initial_alignment/mafft-nexus-gblocks-clean-75p/ squid_spp.txt probes_squid.fasta 
@@ -42,9 +42,9 @@ bash make_probes.sh ../3_initial_alignment/mafft-nexus-gblocks-clean-75p/ all_sp
 
 Finally, we concatenate all the probe files into one, so now most UCEs in our dataset are covered by the original probes, and three new probes made above.
 
-```bash
+``` bash
 cat ../1_bait_design/data/clear_trimmed.fasta probes_squid.fasta probes_octopus.fasta probes_all.fasta > probes_combined.fasta
-``` 
+```
 
 ### Running the combined bait sets against genomes
 
@@ -78,7 +78,6 @@ These UCEs are output into the `/original_baits` subfolder.
 
 **DAN NOTE TO SELF: TABLE OF HOW MANY UCEs SHOW UP IN WHICH SPECIES, CSV OF 1/0 RESULTS**
 
-
 ### Adding the newly extracted UCEs to the original alignments
 
 Finally we add the newly extracted UCEs to the original alignments. The argument is the directory name, e.g. "reseq-squid-fasta-i80-c60". Breifly, this script takes the longest hit for each UCE from each species, reverse complements it if necessary, and then profile-aligns it to the corresponding alignment using MAFFT. Newly added sequences are given the suffix `--genome` so it's clear which taxa in the alignment come from sequencing, and which from genome extraction.
@@ -91,7 +90,7 @@ bash add_new_taxa_to_alignments.sh UCE_candidates_from_genomes
 
 Finally we make gene trees which helps to QC the alignments. I use parallel here so I get one file per gene for QC.
 
-```bash
+``` bash
 ALIGN_DIR="alignments/UCE_candidates_from_genomes" 
 OUT_DIR="gene_trees"
 JOBS=128
@@ -106,10 +105,9 @@ find "$ALIGN_DIR" -maxdepth 1 -type f -name '*.fa' -print0 |
 find "$OUT_DIR" -type f ! \( -name '*.iqtree' -o -name '*.treefile' \) -delete
 ```
 
-
 ### Concat tree
 
-```bash
+``` bash
 ../3_initial_alignment/gene_trees/iqtree-3.0.1-Linux/bin/iqtree3 -p $ALIGN_DIR --prefix concat_merge -m MFP+MERGE -B 1000 -T 128
 ```
 
@@ -117,7 +115,7 @@ find "$OUT_DIR" -type f ! \( -name '*.iqtree' -o -name '*.treefile' \) -delete
 
 Let's get some stats across all alignments. This gives a summary file that's useful.
 
-```bash
+``` bash
 ALIGN_DIR="alignments/UCE_candidates_from_genomes/"
 
 # get all the fasta files
@@ -134,7 +132,7 @@ AMAS.py summary \
 
 Now lets get taxon occupancy.
 
-```bash
+``` bash
 tmp="alignments/.taxon_raw.txt"
 > "$tmp"
 for aln in "${FILES[@]}"; do
@@ -144,7 +142,6 @@ done
 sort "$tmp" | uniq -c | awk '{print $2"\t"$1}' | sort -k2,2nr > "alignments/taxon_counts.tsv"
 rm "$tmp"
 ```
-
 
 Taxon occupancy is good. The taxa with the fewest loci are one of the outgroups (gymnodoris_subflava, 69 loci), and spirula_spirula, which has 71 loci. This is enough to place them in a concatenated phylogeny.
 
