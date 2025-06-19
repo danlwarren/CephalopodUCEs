@@ -40,4 +40,6 @@ done
 
 ```
 
-Finally, we visually assessed every alignment, deleting unreliable columns and/or sequences when necessary using Geneious. These then form our final alignments in the `final_alignments` folder.
+Finally, we visually assessed every alignment, deleting unreliable columns and/or sequences when necessary using Geneious. These then form our final alignments in the `final_alignments` folder. The full history of changes we made to the alignments is in the file `manual_alignment_edits.csv`.
+
+The final alignments are stored in the subfolder `3_final_alignments`. These were exported from geneious.
