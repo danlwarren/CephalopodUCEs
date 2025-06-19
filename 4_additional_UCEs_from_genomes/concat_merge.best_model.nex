@@ -1,0 +1,1248 @@
+#nexus
+begin sets;
+  charset CIAlign_uce-10009.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10009.fa: ;
+  charset CIAlign_uce-10172.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10172.fa: ;
+  charset CIAlign_uce-10182.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10182.fa: ;
+  charset CIAlign_uce-10226.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10226.fa: ;
+  charset CIAlign_uce-10320.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10320.fa: ;
+  charset CIAlign_uce-10348.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10348.fa: ;
+  charset CIAlign_uce-10555.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10555.fa: ;
+  charset CIAlign_uce-10659.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10659.fa: ;
+  charset CIAlign_uce-1076.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1076.fa: ;
+  charset CIAlign_uce-10812.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10812.fa: ;
+  charset CIAlign_uce-10890.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10890.fa: ;
+  charset CIAlign_uce-10916.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10916.fa: ;
+  charset CIAlign_uce-10918.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10918.fa: ;
+  charset CIAlign_uce-10932.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10932.fa: ;
+  charset CIAlign_uce-1095.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1095.fa: ;
+  charset CIAlign_uce-10968.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10968.fa: ;
+  charset CIAlign_uce-11073.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11073.fa: ;
+  charset CIAlign_uce-11136.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11136.fa: ;
+  charset CIAlign_uce-11427.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11427.fa: ;
+  charset CIAlign_uce-1144.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1144.fa: ;
+  charset CIAlign_uce-11548.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11548.fa: ;
+  charset CIAlign_uce-11573.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11573.fa: ;
+  charset CIAlign_uce-11739.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11739.fa: ;
+  charset CIAlign_uce-11740.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11740.fa: ;
+  charset CIAlign_uce-118.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-118.fa: ;
+  charset CIAlign_uce-11820.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11820.fa: ;
+  charset CIAlign_uce-11993.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11993.fa: ;
+  charset CIAlign_uce-12105.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12105.fa: ;
+  charset CIAlign_uce-12167.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12167.fa: ;
+  charset CIAlign_uce-12227.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12227.fa: ;
+  charset CIAlign_uce-1223.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1223.fa: ;
+  charset CIAlign_uce-12273.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12273.fa: ;
+  charset CIAlign_uce-12368.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12368.fa: ;
+  charset CIAlign_uce-12383.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12383.fa: ;
+  charset CIAlign_uce-12504.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12504.fa: ;
+  charset CIAlign_uce-12511.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12511.fa: ;
+  charset CIAlign_uce-12515.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12515.fa: ;
+  charset CIAlign_uce-12553.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12553.fa: ;
+  charset CIAlign_uce-12694.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12694.fa: ;
+  charset CIAlign_uce-12735.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12735.fa: ;
+  charset CIAlign_uce-12740.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12740.fa: ;
+  charset CIAlign_uce-12755.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12755.fa: ;
+  charset CIAlign_uce-12808.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12808.fa: ;
+  charset CIAlign_uce-12892.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12892.fa: ;
+  charset CIAlign_uce-12986.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12986.fa: ;
+  charset CIAlign_uce-13005.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13005.fa: ;
+  charset CIAlign_uce-13079.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13079.fa: ;
+  charset CIAlign_uce-13109.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13109.fa: ;
+  charset CIAlign_uce-13110.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13110.fa: ;
+  charset CIAlign_uce-13112.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13112.fa: ;
+  charset CIAlign_uce-13153.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13153.fa: ;
+  charset CIAlign_uce-13273.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13273.fa: ;
+  charset CIAlign_uce-13298.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13298.fa: ;
+  charset CIAlign_uce-13324.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13324.fa: ;
+  charset CIAlign_uce-13498.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13498.fa: ;
+  charset CIAlign_uce-13635.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13635.fa: ;
+  charset CIAlign_uce-13941.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13941.fa: ;
+  charset CIAlign_uce-14008.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14008.fa: ;
+  charset CIAlign_uce-14049.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14049.fa: ;
+  charset CIAlign_uce-14091.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14091.fa: ;
+  charset CIAlign_uce-1410.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1410.fa: ;
+  charset CIAlign_uce-14138.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14138.fa: ;
+  charset CIAlign_uce-14299.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14299.fa: ;
+  charset CIAlign_uce-1443.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1443.fa: ;
+  charset CIAlign_uce-1444.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1444.fa: ;
+  charset CIAlign_uce-14535.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14535.fa: ;
+  charset CIAlign_uce-14541.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14541.fa: ;
+  charset CIAlign_uce-14780.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14780.fa: ;
+  charset CIAlign_uce-14783.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14783.fa: ;
+  charset CIAlign_uce-14809.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14809.fa: ;
+  charset CIAlign_uce-14863.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14863.fa: ;
+  charset CIAlign_uce-15033.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-15033.fa: ;
+  charset CIAlign_uce-15037.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-15037.fa: ;
+  charset CIAlign_uce-15135.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-15135.fa: ;
+  charset CIAlign_uce-1519.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1519.fa: ;
+  charset CIAlign_uce-15292.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-15292.fa: ;
+  charset CIAlign_uce-1561.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1561.fa: ;
+  charset CIAlign_uce-15616.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-15616.fa: ;
+  charset CIAlign_uce-15680.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-15680.fa: ;
+  charset CIAlign_uce-1591.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1591.fa: ;
+  charset CIAlign_uce-16071.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16071.fa: ;
+  charset CIAlign_uce-16245.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16245.fa: ;
+  charset CIAlign_uce-16304.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16304.fa: ;
+  charset CIAlign_uce-16373.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16373.fa: ;
+  charset CIAlign_uce-16467.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16467.fa: ;
+  charset CIAlign_uce-16513.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16513.fa: ;
+  charset CIAlign_uce-16528.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16528.fa: ;
+  charset CIAlign_uce-16529.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16529.fa: ;
+  charset CIAlign_uce-16530.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16530.fa: ;
+  charset CIAlign_uce-16539.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16539.fa: ;
+  charset CIAlign_uce-16542.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16542.fa: ;
+  charset CIAlign_uce-1661.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1661.fa: ;
+  charset CIAlign_uce-16622.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16622.fa: ;
+  charset CIAlign_uce-16737.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16737.fa: ;
+  charset CIAlign_uce-16739.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16739.fa: ;
+  charset CIAlign_uce-168.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-168.fa: ;
+  charset CIAlign_uce-1694.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1694.fa: ;
+  charset CIAlign_uce-1696.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1696.fa: ;
+  charset CIAlign_uce-17130.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17130.fa: ;
+  charset CIAlign_uce-17172.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17172.fa: ;
+  charset CIAlign_uce-17215.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17215.fa: ;
+  charset CIAlign_uce-17216.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17216.fa: ;
+  charset CIAlign_uce-1727.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1727.fa: ;
+  charset CIAlign_uce-17291.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17291.fa: ;
+  charset CIAlign_uce-17296.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17296.fa: ;
+  charset CIAlign_uce-17457.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17457.fa: ;
+  charset CIAlign_uce-17490.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17490.fa: ;
+  charset CIAlign_uce-17491.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17491.fa: ;
+  charset CIAlign_uce-17492.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17492.fa: ;
+  charset CIAlign_uce-17580.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17580.fa: ;
+  charset CIAlign_uce-17585.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17585.fa: ;
+  charset CIAlign_uce-17603.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17603.fa: ;
+  charset CIAlign_uce-17715.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17715.fa: ;
+  charset CIAlign_uce-17805.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17805.fa: ;
+  charset CIAlign_uce-17825.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17825.fa: ;
+  charset CIAlign_uce-17828.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17828.fa: ;
+  charset CIAlign_uce-17866.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17866.fa: ;
+  charset CIAlign_uce-1797.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1797.fa: ;
+  charset CIAlign_uce-18104.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18104.fa: ;
+  charset CIAlign_uce-18242.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18242.fa: ;
+  charset CIAlign_uce-18245.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18245.fa: ;
+  charset CIAlign_uce-18287.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18287.fa: ;
+  charset CIAlign_uce-18299.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18299.fa: ;
+  charset CIAlign_uce-18317.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18317.fa: ;
+  charset CIAlign_uce-18367.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18367.fa: ;
+  charset CIAlign_uce-18385.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18385.fa: ;
+  charset CIAlign_uce-18387.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18387.fa: ;
+  charset CIAlign_uce-1842.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1842.fa: ;
+  charset CIAlign_uce-18486.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18486.fa: ;
+  charset CIAlign_uce-18500.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18500.fa: ;
+  charset CIAlign_uce-18679.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18679.fa: ;
+  charset CIAlign_uce-18734.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18734.fa: ;
+  charset CIAlign_uce-18817.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18817.fa: ;
+  charset CIAlign_uce-18906.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18906.fa: ;
+  charset CIAlign_uce-18909.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18909.fa: ;
+  charset CIAlign_uce-19018.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19018.fa: ;
+  charset CIAlign_uce-19063.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19063.fa: ;
+  charset CIAlign_uce-19064.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19064.fa: ;
+  charset CIAlign_uce-19069.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19069.fa: ;
+  charset CIAlign_uce-19073.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19073.fa: ;
+  charset CIAlign_uce-19140.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19140.fa: ;
+  charset CIAlign_uce-19154.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19154.fa: ;
+  charset CIAlign_uce-19306.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19306.fa: ;
+  charset CIAlign_uce-19325.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19325.fa: ;
+  charset CIAlign_uce-19336.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19336.fa: ;
+  charset CIAlign_uce-19354.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19354.fa: ;
+  charset CIAlign_uce-19356.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19356.fa: ;
+  charset CIAlign_uce-1938.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1938.fa: ;
+  charset CIAlign_uce-19632.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19632.fa: ;
+  charset CIAlign_uce-19658.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19658.fa: ;
+  charset CIAlign_uce-19689.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19689.fa: ;
+  charset CIAlign_uce-1973.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1973.fa: ;
+  charset CIAlign_uce-19973.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19973.fa: ;
+  charset CIAlign_uce-20045.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20045.fa: ;
+  charset CIAlign_uce-20066.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20066.fa: ;
+  charset CIAlign_uce-20245.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20245.fa: ;
+  charset CIAlign_uce-20254.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20254.fa: ;
+  charset CIAlign_uce-20401.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20401.fa: ;
+  charset CIAlign_uce-20417.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20417.fa: ;
+  charset CIAlign_uce-20467.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20467.fa: ;
+  charset CIAlign_uce-20468.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20468.fa: ;
+  charset CIAlign_uce-20471.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20471.fa: ;
+  charset CIAlign_uce-20483.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20483.fa: ;
+  charset CIAlign_uce-20572.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20572.fa: ;
+  charset CIAlign_uce-20676.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20676.fa: ;
+  charset CIAlign_uce-20777.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20777.fa: ;
+  charset CIAlign_uce-20807.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20807.fa: ;
+  charset CIAlign_uce-2084.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2084.fa: ;
+  charset CIAlign_uce-20889.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20889.fa: ;
+  charset CIAlign_uce-20892.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20892.fa: ;
+  charset CIAlign_uce-20940.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20940.fa: ;
+  charset CIAlign_uce-21162.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21162.fa: ;
+  charset CIAlign_uce-21183.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21183.fa: ;
+  charset CIAlign_uce-2119.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2119.fa: ;
+  charset CIAlign_uce-21263.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21263.fa: ;
+  charset CIAlign_uce-21264.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21264.fa: ;
+  charset CIAlign_uce-21267.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21267.fa: ;
+  charset CIAlign_uce-21275.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21275.fa: ;
+  charset CIAlign_uce-21362.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21362.fa: ;
+  charset CIAlign_uce-21409.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21409.fa: ;
+  charset CIAlign_uce-21496.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21496.fa: ;
+  charset CIAlign_uce-21626.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21626.fa: ;
+  charset CIAlign_uce-21695.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21695.fa: ;
+  charset CIAlign_uce-21740.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21740.fa: ;
+  charset CIAlign_uce-21858.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21858.fa: ;
+  charset CIAlign_uce-2197.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2197.fa: ;
+  charset CIAlign_uce-21978.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21978.fa: ;
+  charset CIAlign_uce-22009.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22009.fa: ;
+  charset CIAlign_uce-2206.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2206.fa: ;
+  charset CIAlign_uce-22064.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22064.fa: ;
+  charset CIAlign_uce-22195.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22195.fa: ;
+  charset CIAlign_uce-22213.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22213.fa: ;
+  charset CIAlign_uce-22317.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22317.fa: ;
+  charset CIAlign_uce-22330.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22330.fa: ;
+  charset CIAlign_uce-22413.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22413.fa: ;
+  charset CIAlign_uce-22430.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22430.fa: ;
+  charset CIAlign_uce-22549.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22549.fa: ;
+  charset CIAlign_uce-22581.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22581.fa: ;
+  charset CIAlign_uce-22594.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22594.fa: ;
+  charset CIAlign_uce-22624.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22624.fa: ;
+  charset CIAlign_uce-22644.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22644.fa: ;
+  charset CIAlign_uce-22645.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22645.fa: ;
+  charset CIAlign_uce-22646.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22646.fa: ;
+  charset CIAlign_uce-22658.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22658.fa: ;
+  charset CIAlign_uce-22688.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22688.fa: ;
+  charset CIAlign_uce-22689.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22689.fa: ;
+  charset CIAlign_uce-2291.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2291.fa: ;
+  charset CIAlign_uce-22946.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22946.fa: ;
+  charset CIAlign_uce-22965.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22965.fa: ;
+  charset CIAlign_uce-22977.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22977.fa: ;
+  charset CIAlign_uce-23147.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23147.fa: ;
+  charset CIAlign_uce-2318.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2318.fa: ;
+  charset CIAlign_uce-23237.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23237.fa: ;
+  charset CIAlign_uce-23347.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23347.fa: ;
+  charset CIAlign_uce-2346.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2346.fa: ;
+  charset CIAlign_uce-23541.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23541.fa: ;
+  charset CIAlign_uce-23569.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23569.fa: ;
+  charset CIAlign_uce-23576.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23576.fa: ;
+  charset CIAlign_uce-23668.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23668.fa: ;
+  charset CIAlign_uce-23690.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23690.fa: ;
+  charset CIAlign_uce-23713.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23713.fa: ;
+  charset CIAlign_uce-23715.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23715.fa: ;
+  charset CIAlign_uce-23800.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23800.fa: ;
+  charset CIAlign_uce-23837.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23837.fa: ;
+  charset CIAlign_uce-23975.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23975.fa: ;
+  charset CIAlign_uce-24115.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24115.fa: ;
+  charset CIAlign_uce-24367.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24367.fa: ;
+  charset CIAlign_uce-24410.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24410.fa: ;
+  charset CIAlign_uce-24422.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24422.fa: ;
+  charset CIAlign_uce-24448.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24448.fa: ;
+  charset CIAlign_uce-24460.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24460.fa: ;
+  charset CIAlign_uce-24477.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24477.fa: ;
+  charset CIAlign_uce-24536.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24536.fa: ;
+  charset CIAlign_uce-24559.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24559.fa: ;
+  charset CIAlign_uce-24560.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24560.fa: ;
+  charset CIAlign_uce-24603.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24603.fa: ;
+  charset CIAlign_uce-24605.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24605.fa: ;
+  charset CIAlign_uce-24650.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24650.fa: ;
+  charset CIAlign_uce-24678.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24678.fa: ;
+  charset CIAlign_uce-24715.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24715.fa: ;
+  charset CIAlign_uce-24716.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24716.fa: ;
+  charset CIAlign_uce-24734.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24734.fa: ;
+  charset CIAlign_uce-24794.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24794.fa: ;
+  charset CIAlign_uce-25004.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25004.fa: ;
+  charset CIAlign_uce-25136.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25136.fa: ;
+  charset CIAlign_uce-2516.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2516.fa: ;
+  charset CIAlign_uce-25262.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25262.fa: ;
+  charset CIAlign_uce-25263.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25263.fa: ;
+  charset CIAlign_uce-25279.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25279.fa: ;
+  charset CIAlign_uce-25388.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25388.fa: ;
+  charset CIAlign_uce-25390.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25390.fa: ;
+  charset CIAlign_uce-25409.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25409.fa: ;
+  charset CIAlign_uce-25420.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25420.fa: ;
+  charset CIAlign_uce-2544.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2544.fa: ;
+  charset CIAlign_uce-25459.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25459.fa: ;
+  charset CIAlign_uce-25501.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25501.fa: ;
+  charset CIAlign_uce-25513.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25513.fa: ;
+  charset CIAlign_uce-25552.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25552.fa: ;
+  charset CIAlign_uce-25627.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25627.fa: ;
+  charset CIAlign_uce-25666.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25666.fa: ;
+  charset CIAlign_uce-25779.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25779.fa: ;
+  charset CIAlign_uce-25787.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25787.fa: ;
+  charset CIAlign_uce-25889.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25889.fa: ;
+  charset CIAlign_uce-25904.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25904.fa: ;
+  charset CIAlign_uce-26055.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26055.fa: ;
+  charset CIAlign_uce-26124.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26124.fa: ;
+  charset CIAlign_uce-26139.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26139.fa: ;
+  charset CIAlign_uce-26180.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26180.fa: ;
+  charset CIAlign_uce-26244.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26244.fa: ;
+  charset CIAlign_uce-2626.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2626.fa: ;
+  charset CIAlign_uce-26280.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26280.fa: ;
+  charset CIAlign_uce-26324.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26324.fa: ;
+  charset CIAlign_uce-26339.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26339.fa: ;
+  charset CIAlign_uce-26340.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26340.fa: ;
+  charset CIAlign_uce-26341.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26341.fa: ;
+  charset CIAlign_uce-26382.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26382.fa: ;
+  charset CIAlign_uce-26414.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26414.fa: ;
+  charset CIAlign_uce-26432.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26432.fa: ;
+  charset CIAlign_uce-26436.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26436.fa: ;
+  charset CIAlign_uce-26544.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26544.fa: ;
+  charset CIAlign_uce-26590.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26590.fa: ;
+  charset CIAlign_uce-26638.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26638.fa: ;
+  charset CIAlign_uce-26677.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26677.fa: ;
+  charset CIAlign_uce-26771.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26771.fa: ;
+  charset CIAlign_uce-26772.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26772.fa: ;
+  charset CIAlign_uce-26843.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26843.fa: ;
+  charset CIAlign_uce-26865.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26865.fa: ;
+  charset CIAlign_uce-26985.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26985.fa: ;
+  charset CIAlign_uce-27040.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27040.fa: ;
+  charset CIAlign_uce-27042.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27042.fa: ;
+  charset CIAlign_uce-2714.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2714.fa: ;
+  charset CIAlign_uce-27192.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27192.fa: ;
+  charset CIAlign_uce-27378.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27378.fa: ;
+  charset CIAlign_uce-27520.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27520.fa: ;
+  charset CIAlign_uce-27539.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27539.fa: ;
+  charset CIAlign_uce-27545.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27545.fa: ;
+  charset CIAlign_uce-27547.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27547.fa: ;
+  charset CIAlign_uce-27550.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27550.fa: ;
+  charset CIAlign_uce-27597.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27597.fa: ;
+  charset CIAlign_uce-27610.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27610.fa: ;
+  charset CIAlign_uce-27625.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27625.fa: ;
+  charset CIAlign_uce-27626.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27626.fa: ;
+  charset CIAlign_uce-27741.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27741.fa: ;
+  charset CIAlign_uce-27763.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27763.fa: ;
+  charset CIAlign_uce-27783.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27783.fa: ;
+  charset CIAlign_uce-27830.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27830.fa: ;
+  charset CIAlign_uce-27831.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27831.fa: ;
+  charset CIAlign_uce-27929.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27929.fa: ;
+  charset CIAlign_uce-28007.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28007.fa: ;
+  charset CIAlign_uce-28098.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28098.fa: ;
+  charset CIAlign_uce-28099.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28099.fa: ;
+  charset CIAlign_uce-2840.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2840.fa: ;
+  charset CIAlign_uce-28516.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28516.fa: ;
+  charset CIAlign_uce-28546.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28546.fa: ;
+  charset CIAlign_uce-28586.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28586.fa: ;
+  charset CIAlign_uce-28698.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28698.fa: ;
+  charset CIAlign_uce-28849.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28849.fa: ;
+  charset CIAlign_uce-28892.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28892.fa: ;
+  charset CIAlign_uce-28894.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28894.fa: ;
+  charset CIAlign_uce-28895.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28895.fa: ;
+  charset CIAlign_uce-28896.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28896.fa: ;
+  charset CIAlign_uce-29213.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29213.fa: ;
+  charset CIAlign_uce-29251.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29251.fa: ;
+  charset CIAlign_uce-29443.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29443.fa: ;
+  charset CIAlign_uce-29475.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29475.fa: ;
+  charset CIAlign_uce-29580.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29580.fa: ;
+  charset CIAlign_uce-29605.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29605.fa: ;
+  charset CIAlign_uce-29669.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29669.fa: ;
+  charset CIAlign_uce-29727.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29727.fa: ;
+  charset CIAlign_uce-29732.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29732.fa: ;
+  charset CIAlign_uce-29738.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29738.fa: ;
+  charset CIAlign_uce-2981.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2981.fa: ;
+  charset CIAlign_uce-29811.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29811.fa: ;
+  charset CIAlign_uce-29870.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29870.fa: ;
+  charset CIAlign_uce-29899.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29899.fa: ;
+  charset CIAlign_uce-30161.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30161.fa: ;
+  charset CIAlign_uce-30219.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30219.fa: ;
+  charset CIAlign_uce-30230.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30230.fa: ;
+  charset CIAlign_uce-30267.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30267.fa: ;
+  charset CIAlign_uce-3028.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3028.fa: ;
+  charset CIAlign_uce-30321.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30321.fa: ;
+  charset CIAlign_uce-30435.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30435.fa: ;
+  charset CIAlign_uce-3047.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3047.fa: ;
+  charset CIAlign_uce-30493.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30493.fa: ;
+  charset CIAlign_uce-30515.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30515.fa: ;
+  charset CIAlign_uce-30525.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30525.fa: ;
+  charset CIAlign_uce-30574.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30574.fa: ;
+  charset CIAlign_uce-3067.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3067.fa: ;
+  charset CIAlign_uce-30748.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30748.fa: ;
+  charset CIAlign_uce-30769.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30769.fa: ;
+  charset CIAlign_uce-30828.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30828.fa: ;
+  charset CIAlign_uce-30830.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30830.fa: ;
+  charset CIAlign_uce-30836.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30836.fa: ;
+  charset CIAlign_uce-3102.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3102.fa: ;
+  charset CIAlign_uce-31067.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31067.fa: ;
+  charset CIAlign_uce-31079.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31079.fa: ;
+  charset CIAlign_uce-31082.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31082.fa: ;
+  charset CIAlign_uce-31174.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31174.fa: ;
+  charset CIAlign_uce-31176.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31176.fa: ;
+  charset CIAlign_uce-31286.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31286.fa: ;
+  charset CIAlign_uce-31287.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31287.fa: ;
+  charset CIAlign_uce-31300.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31300.fa: ;
+  charset CIAlign_uce-31352.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31352.fa: ;
+  charset CIAlign_uce-31473.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31473.fa: ;
+  charset CIAlign_uce-31484.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31484.fa: ;
+  charset CIAlign_uce-31497.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31497.fa: ;
+  charset CIAlign_uce-31759.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31759.fa: ;
+  charset CIAlign_uce-31829.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31829.fa: ;
+  charset CIAlign_uce-3186.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3186.fa: ;
+  charset CIAlign_uce-31893.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31893.fa: ;
+  charset CIAlign_uce-31907.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31907.fa: ;
+  charset CIAlign_uce-31967.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31967.fa: ;
+  charset CIAlign_uce-32005.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32005.fa: ;
+  charset CIAlign_uce-32057.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32057.fa: ;
+  charset CIAlign_uce-32088.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32088.fa: ;
+  charset CIAlign_uce-32102.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32102.fa: ;
+  charset CIAlign_uce-32146.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32146.fa: ;
+  charset CIAlign_uce-32174.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32174.fa: ;
+  charset CIAlign_uce-32214.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32214.fa: ;
+  charset CIAlign_uce-32270.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32270.fa: ;
+  charset CIAlign_uce-32355.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32355.fa: ;
+  charset CIAlign_uce-32430.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32430.fa: ;
+  charset CIAlign_uce-32470.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32470.fa: ;
+  charset CIAlign_uce-32474.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32474.fa: ;
+  charset CIAlign_uce-32475.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32475.fa: ;
+  charset CIAlign_uce-32509.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32509.fa: ;
+  charset CIAlign_uce-3258.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3258.fa: ;
+  charset CIAlign_uce-32689.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32689.fa: ;
+  charset CIAlign_uce-32720.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32720.fa: ;
+  charset CIAlign_uce-32735.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32735.fa: ;
+  charset CIAlign_uce-32764.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32764.fa: ;
+  charset CIAlign_uce-32775.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32775.fa: ;
+  charset CIAlign_uce-32884.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32884.fa: ;
+  charset CIAlign_uce-32909.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32909.fa: ;
+  charset CIAlign_uce-33011.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33011.fa: ;
+  charset CIAlign_uce-33015.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33015.fa: ;
+  charset CIAlign_uce-33050.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33050.fa: ;
+  charset CIAlign_uce-3309.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3309.fa: ;
+  charset CIAlign_uce-33091.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33091.fa: ;
+  charset CIAlign_uce-33206.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33206.fa: ;
+  charset CIAlign_uce-33241.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33241.fa: ;
+  charset CIAlign_uce-33428.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33428.fa: ;
+  charset CIAlign_uce-33443.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33443.fa: ;
+  charset CIAlign_uce-33521.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33521.fa: ;
+  charset CIAlign_uce-33639.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33639.fa: ;
+  charset CIAlign_uce-33668.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33668.fa: ;
+  charset CIAlign_uce-33691.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33691.fa: ;
+  charset CIAlign_uce-33739.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33739.fa: ;
+  charset CIAlign_uce-33747.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33747.fa: ;
+  charset CIAlign_uce-33749.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33749.fa: ;
+  charset CIAlign_uce-3379.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3379.fa: ;
+  charset CIAlign_uce-33949.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33949.fa: ;
+  charset CIAlign_uce-33993.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33993.fa: ;
+  charset CIAlign_uce-3406.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3406.fa: ;
+  charset CIAlign_uce-34159.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34159.fa: ;
+  charset CIAlign_uce-34185.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34185.fa: ;
+  charset CIAlign_uce-34210.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34210.fa: ;
+  charset CIAlign_uce-34267.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34267.fa: ;
+  charset CIAlign_uce-34324.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34324.fa: ;
+  charset CIAlign_uce-34366.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34366.fa: ;
+  charset CIAlign_uce-34406.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34406.fa: ;
+  charset CIAlign_uce-34507.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34507.fa: ;
+  charset CIAlign_uce-34528.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34528.fa: ;
+  charset CIAlign_uce-34571.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34571.fa: ;
+  charset CIAlign_uce-3459.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3459.fa: ;
+  charset CIAlign_uce-34922.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34922.fa: ;
+  charset CIAlign_uce-35009.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35009.fa: ;
+  charset CIAlign_uce-35011.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35011.fa: ;
+  charset CIAlign_uce-35055.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35055.fa: ;
+  charset CIAlign_uce-35112.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35112.fa: ;
+  charset CIAlign_uce-35150.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35150.fa: ;
+  charset CIAlign_uce-35151.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35151.fa: ;
+  charset CIAlign_uce-35203.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35203.fa: ;
+  charset CIAlign_uce-35230.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35230.fa: ;
+  charset CIAlign_uce-35404.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35404.fa: ;
+  charset CIAlign_uce-35424.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35424.fa: ;
+  charset CIAlign_uce-35436.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35436.fa: ;
+  charset CIAlign_uce-35494.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35494.fa: ;
+  charset CIAlign_uce-35495.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35495.fa: ;
+  charset CIAlign_uce-35776.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35776.fa: ;
+  charset CIAlign_uce-35782.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35782.fa: ;
+  charset CIAlign_uce-35801.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35801.fa: ;
+  charset CIAlign_uce-35805.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35805.fa: ;
+  charset CIAlign_uce-35828.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35828.fa: ;
+  charset CIAlign_uce-35867.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35867.fa: ;
+  charset CIAlign_uce-35983.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35983.fa: ;
+  charset CIAlign_uce-36059.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36059.fa: ;
+  charset CIAlign_uce-36060.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36060.fa: ;
+  charset CIAlign_uce-36068.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36068.fa: ;
+  charset CIAlign_uce-36093.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36093.fa: ;
+  charset CIAlign_uce-36225.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36225.fa: ;
+  charset CIAlign_uce-36320.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36320.fa: ;
+  charset CIAlign_uce-36414.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36414.fa: ;
+  charset CIAlign_uce-36415.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36415.fa: ;
+  charset CIAlign_uce-36416.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36416.fa: ;
+  charset CIAlign_uce-36456.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36456.fa: ;
+  charset CIAlign_uce-36459.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36459.fa: ;
+  charset CIAlign_uce-36528.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36528.fa: ;
+  charset CIAlign_uce-36604.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36604.fa: ;
+  charset CIAlign_uce-3665.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3665.fa: ;
+  charset CIAlign_uce-36659.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36659.fa: ;
+  charset CIAlign_uce-36692.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36692.fa: ;
+  charset CIAlign_uce-369.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-369.fa: ;
+  charset CIAlign_uce-3693.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3693.fa: ;
+  charset CIAlign_uce-36992.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36992.fa: ;
+  charset CIAlign_uce-37073.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37073.fa: ;
+  charset CIAlign_uce-37268.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37268.fa: ;
+  charset CIAlign_uce-37439.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37439.fa: ;
+  charset CIAlign_uce-37547.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37547.fa: ;
+  charset CIAlign_uce-37821.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37821.fa: ;
+  charset CIAlign_uce-37919.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37919.fa: ;
+  charset CIAlign_uce-37961.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37961.fa: ;
+  charset CIAlign_uce-38073.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38073.fa: ;
+  charset CIAlign_uce-38134.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38134.fa: ;
+  charset CIAlign_uce-3819.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3819.fa: ;
+  charset CIAlign_uce-38254.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38254.fa: ;
+  charset CIAlign_uce-38272.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38272.fa: ;
+  charset CIAlign_uce-38388.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38388.fa: ;
+  charset CIAlign_uce-38441.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38441.fa: ;
+  charset CIAlign_uce-38446.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38446.fa: ;
+  charset CIAlign_uce-3846.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3846.fa: ;
+  charset CIAlign_uce-38646.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38646.fa: ;
+  charset CIAlign_uce-38650.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38650.fa: ;
+  charset CIAlign_uce-38734.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38734.fa: ;
+  charset CIAlign_uce-38767.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38767.fa: ;
+  charset CIAlign_uce-38785.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38785.fa: ;
+  charset CIAlign_uce-38805.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38805.fa: ;
+  charset CIAlign_uce-38821.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38821.fa: ;
+  charset CIAlign_uce-38924.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38924.fa: ;
+  charset CIAlign_uce-38967.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38967.fa: ;
+  charset CIAlign_uce-39033.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39033.fa: ;
+  charset CIAlign_uce-39106.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39106.fa: ;
+  charset CIAlign_uce-39175.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39175.fa: ;
+  charset CIAlign_uce-39184.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39184.fa: ;
+  charset CIAlign_uce-39191.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39191.fa: ;
+  charset CIAlign_uce-39248.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39248.fa: ;
+  charset CIAlign_uce-39249.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39249.fa: ;
+  charset CIAlign_uce-39264.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39264.fa: ;
+  charset CIAlign_uce-39267.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39267.fa: ;
+  charset CIAlign_uce-39274.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39274.fa: ;
+  charset CIAlign_uce-39334.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39334.fa: ;
+  charset CIAlign_uce-39477.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39477.fa: ;
+  charset CIAlign_uce-39514.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39514.fa: ;
+  charset CIAlign_uce-39621.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39621.fa: ;
+  charset CIAlign_uce-3972.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3972.fa: ;
+  charset CIAlign_uce-3975.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3975.fa: ;
+  charset CIAlign_uce-39793.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39793.fa: ;
+  charset CIAlign_uce-39798.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39798.fa: ;
+  charset CIAlign_uce-39843.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39843.fa: ;
+  charset CIAlign_uce-3994.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3994.fa: ;
+  charset CIAlign_uce-39967.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39967.fa: ;
+  charset CIAlign_uce-40254.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40254.fa: ;
+  charset CIAlign_uce-40328.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40328.fa: ;
+  charset CIAlign_uce-4036.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4036.fa: ;
+  charset CIAlign_uce-4040.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4040.fa: ;
+  charset CIAlign_uce-4045.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4045.fa: ;
+  charset CIAlign_uce-40474.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40474.fa: ;
+  charset CIAlign_uce-40602.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40602.fa: ;
+  charset CIAlign_uce-40624.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40624.fa: ;
+  charset CIAlign_uce-40674.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40674.fa: ;
+  charset CIAlign_uce-40683.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40683.fa: ;
+  charset CIAlign_uce-40731.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40731.fa: ;
+  charset CIAlign_uce-40765.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40765.fa: ;
+  charset CIAlign_uce-4163.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4163.fa: ;
+  charset CIAlign_uce-4173.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4173.fa: ;
+  charset CIAlign_uce-4205.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4205.fa: ;
+  charset CIAlign_uce-4239.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4239.fa: ;
+  charset CIAlign_uce-425.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-425.fa: ;
+  charset CIAlign_uce-428.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-428.fa: ;
+  charset CIAlign_uce-4322.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4322.fa: ;
+  charset CIAlign_uce-4327.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4327.fa: ;
+  charset CIAlign_uce-4330.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4330.fa: ;
+  charset CIAlign_uce-4622.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4622.fa: ;
+  charset CIAlign_uce-4653.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4653.fa: ;
+  charset CIAlign_uce-4678.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4678.fa: ;
+  charset CIAlign_uce-4691.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4691.fa: ;
+  charset CIAlign_uce-4889.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4889.fa: ;
+  charset CIAlign_uce-5234.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5234.fa: ;
+  charset CIAlign_uce-5243.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5243.fa: ;
+  charset CIAlign_uce-5320.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5320.fa: ;
+  charset CIAlign_uce-5326.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5326.fa: ;
+  charset CIAlign_uce-5449.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5449.fa: ;
+  charset CIAlign_uce-547.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-547.fa: ;
+  charset CIAlign_uce-5525.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5525.fa: ;
+  charset CIAlign_uce-5560.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5560.fa: ;
+  charset CIAlign_uce-5691.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5691.fa: ;
+  charset CIAlign_uce-5763.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5763.fa: ;
+  charset CIAlign_uce-5967.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5967.fa: ;
+  charset CIAlign_uce-5990.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5990.fa: ;
+  charset CIAlign_uce-6237.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6237.fa: ;
+  charset CIAlign_uce-6244.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6244.fa: ;
+  charset CIAlign_uce-6250.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6250.fa: ;
+  charset CIAlign_uce-6374.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6374.fa: ;
+  charset CIAlign_uce-6550.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6550.fa: ;
+  charset CIAlign_uce-6553.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6553.fa: ;
+  charset CIAlign_uce-6598.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6598.fa: ;
+  charset CIAlign_uce-675.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-675.fa: ;
+  charset CIAlign_uce-6782.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6782.fa: ;
+  charset CIAlign_uce-6787.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6787.fa: ;
+  charset CIAlign_uce-6882.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6882.fa: ;
+  charset CIAlign_uce-693.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-693.fa: ;
+  charset CIAlign_uce-6957.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6957.fa: ;
+  charset CIAlign_uce-696.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-696.fa: ;
+  charset CIAlign_uce-6976.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6976.fa: ;
+  charset CIAlign_uce-7044.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7044.fa: ;
+  charset CIAlign_uce-711.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-711.fa: ;
+  charset CIAlign_uce-7169.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7169.fa: ;
+  charset CIAlign_uce-7271.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7271.fa: ;
+  charset CIAlign_uce-731.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-731.fa: ;
+  charset CIAlign_uce-750.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-750.fa: ;
+  charset CIAlign_uce-7534.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7534.fa: ;
+  charset CIAlign_uce-7659.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7659.fa: ;
+  charset CIAlign_uce-7662.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7662.fa: ;
+  charset CIAlign_uce-7668.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7668.fa: ;
+  charset CIAlign_uce-7709.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7709.fa: ;
+  charset CIAlign_uce-7711.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7711.fa: ;
+  charset CIAlign_uce-7760.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7760.fa: ;
+  charset CIAlign_uce-7780.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7780.fa: ;
+  charset CIAlign_uce-7810.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7810.fa: ;
+  charset CIAlign_uce-7844.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7844.fa: ;
+  charset CIAlign_uce-7892.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7892.fa: ;
+  charset CIAlign_uce-7943.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7943.fa: ;
+  charset CIAlign_uce-7981.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7981.fa: ;
+  charset CIAlign_uce-7994.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7994.fa: ;
+  charset CIAlign_uce-8029.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8029.fa: ;
+  charset CIAlign_uce-8056.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8056.fa: ;
+  charset CIAlign_uce-8080.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8080.fa: ;
+  charset CIAlign_uce-8081.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8081.fa: ;
+  charset CIAlign_uce-8138.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8138.fa: ;
+  charset CIAlign_uce-8466.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8466.fa: ;
+  charset CIAlign_uce-849.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-849.fa: ;
+  charset CIAlign_uce-8496.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8496.fa: ;
+  charset CIAlign_uce-8612.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8612.fa: ;
+  charset CIAlign_uce-8699.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8699.fa: ;
+  charset CIAlign_uce-870.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-870.fa: ;
+  charset CIAlign_uce-8702.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8702.fa: ;
+  charset CIAlign_uce-8707.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8707.fa: ;
+  charset CIAlign_uce-8753.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8753.fa: ;
+  charset CIAlign_uce-8827.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8827.fa: ;
+  charset CIAlign_uce-8828.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8828.fa: ;
+  charset CIAlign_uce-8846.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8846.fa: ;
+  charset CIAlign_uce-8932.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8932.fa: ;
+  charset CIAlign_uce-8955.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8955.fa: ;
+  charset CIAlign_uce-8997.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8997.fa: ;
+  charset CIAlign_uce-9002.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9002.fa: ;
+  charset CIAlign_uce-903.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-903.fa: ;
+  charset CIAlign_uce-9031.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9031.fa: ;
+  charset CIAlign_uce-9415.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9415.fa: ;
+  charset CIAlign_uce-9437.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9437.fa: ;
+  charset CIAlign_uce-9471.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9471.fa: ;
+  charset CIAlign_uce-9508.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9508.fa: ;
+  charset CIAlign_uce-9518.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9518.fa: ;
+  charset CIAlign_uce-9589.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9589.fa: ;
+  charset CIAlign_uce-9608.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9608.fa: ;
+  charset CIAlign_uce-9694.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9694.fa: ;
+  charset CIAlign_uce-9710.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9710.fa: ;
+  charset CIAlign_uce-9730.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9730.fa: ;
+  charset CIAlign_uce-976.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-976.fa: ;
+  charset CIAlign_uce-981.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-981.fa: ;
+  charset CIAlign_uce-9935.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9935.fa: ;
+  charset CIAlign_uce-9966.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9966.fa: ;
+  charset CIAlign_uce-9968.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9968.fa: ;
+  charpartition mymodels =
+    TIM2{1.63643,5.59882,6.76299}+F{0.217566,0.257793,0.236205,0.288436}+I{0.605979}+R3{0.109469,0.481525,0.232134,2.79387,0.052417,5.69919}: CIAlign_uce-10009.fa{3.62096},
+    TPM2u{2.12958,9.50596}+F{0.303942,0.22866,0.191704,0.275694}+R3{0.732491,0.138776,0.263686,2.90449,0.00382299,34.6524}: CIAlign_uce-10172.fa{1.30095},
+    HKY{7.75664}+F{0.306186,0.215363,0.212093,0.266358}+R3{0.587965,0.0502025,0.324775,1.66926,0.0872606,4.90884}: CIAlign_uce-10182.fa{3.85357},
+    TPM3u{0.657513,5.75512}+F{0.258786,0.209778,0.207566,0.32387}+I{0.37058}+G4{0.704428}: CIAlign_uce-10226.fa{3.72652},
+    HKY{5.41885}+F{0.255471,0.252274,0.171871,0.320384}+I{0.49077}+G4{0.835539}: CIAlign_uce-10320.fa{2.14279},
+    TPM3u{0.723288,4.40202}+F{0.246122,0.191461,0.254684,0.307733}+I{0.397271}+G4{1.14267}: CIAlign_uce-10348.fa{3.80538},
+    TPM2u{0.656444,3.20804}+F{0.295607,0.209666,0.207872,0.286855}+I{0.324266}+G4{1.26619}: CIAlign_uce-10555.fa{4.17709},
+    TN{9.36491,3.46441}+F{0.218165,0.243823,0.154222,0.38379}+G4{0.227961}: CIAlign_uce-10659.fa{2.97655},
+    TN{11.7044,5.56988}+F{0.187216,0.235588,0.189259,0.387937}+I{0.307165}+R3{0.310546,0.199683,0.285048,1.75564,0.0972411,4.49963}: CIAlign_uce-1076.fa{3.81018},
+    TN{4.52592,8.38798}+F{0.374242,0.185354,0.199158,0.241246}+I{0.494785}+G4{0.7222}: CIAlign_uce-10812.fa{3.52384},
+    HKY{5.38565}+F{0.269171,0.18191,0.169053,0.379866}+I{0.392874}+G4{1.31396}: CIAlign_uce-10890.fa{3.13791},
+    TPM3u{0.587503,3.59326}+F{0.280771,0.2298,0.208372,0.281056}+I{0.3119}+G4{0.665133}: CIAlign_uce-10916.fa{7.07819},
+    TIM3{0.577939,3.82631,2.56114}+F{0.24748,0.267049,0.247534,0.237937}+I{0.369875}+G4{0.998071}: CIAlign_uce-10918.fa{4.64273},
+    HKY{3.55759}+F{0.282398,0.172619,0.245068,0.299915}+I{0.503532}+R2{0.443576,1.14433,0.0528919,9.30962}: CIAlign_uce-10932.fa{1.91391},
+    TN{3.49812,7.63377}+F{0.279983,0.158374,0.209533,0.35211}+I{0.309757}+G4{0.661329}: CIAlign_uce-1095.fa{3.82745},
+    TN{3.64586,6.34364}+F{0.349678,0.1956,0.227229,0.227494}+G4{0.279187}: CIAlign_uce-10968.fa{2.07644},
+    TPM2u{1.87674,5.91513}+F{0.282986,0.191412,0.207623,0.317979}+I{0.385525}+G4{0.883747}: CIAlign_uce-11073.fa{4.27096},
+    TPM2u{1.95782,4.46188}+F{0.286016,0.195209,0.229435,0.28934}+R3{0.581366,0.169997,0.357591,1.51105,0.0610423,5.91117}: CIAlign_uce-11136.fa{2.52057},
+    TIM3{2.0366,5.23074,12.0386}+F{0.367183,0.146955,0.186248,0.299614}+G4{0.186907}: CIAlign_uce-11427.fa{1.97981},
+    HKY{3.9952}+F{0.216838,0.246109,0.169261,0.367792}+I{0.571903}+G4{3.00918}: CIAlign_uce-1144.fa{1.48963},
+    K3Pu{2.52318,0.402102}+F{0.295193,0.19845,0.180338,0.326019}+I{0.552592}+R2{0.418186,1.59026,0.0292212,11.4634}: CIAlign_uce-11548.fa{1.02601},
+    TIM3{0.282805,4.04396,2.7777}+F{0.284003,0.21899,0.224558,0.272448}+I{0.496442}+G4{1.44925}: CIAlign_uce-11573.fa{2.47337},
+    TIM2{2.77739,7.99529,13.4136}+F{0.254975,0.25104,0.233727,0.260259}+I{0.595977}+G4{1.52773}: CIAlign_uce-11739.fa{1.56787},
+    TIM2{1.6054,5.68446,9.5823}+F{0.293153,0.175489,0.233784,0.297574}+I{0.397541}+G4{1.23737}: CIAlign_uce-11740.fa{4.69875},
+    TN{3.19735,4.73938}+F{0.304777,0.168828,0.231155,0.295239}+I{0.486873}+G4{1.43997}: CIAlign_uce-118.fa{2.76722},
+    TPM2u{2.02612,6.69771}+F{0.281294,0.227117,0.180354,0.311235}+I{0.365039}+G4{0.727205}: CIAlign_uce-11820.fa{3.59624},
+    TN{4.68551,1.12563}+F{0.349214,0.176228,0.177701,0.296857}+R3{0.648582,0.0487418,0.305559,1.347,0.0458592,12.1415}: CIAlign_uce-11993.fa{3.13506},
+    TIM3{2.46962,4.78715,12.2197}+F{0.372788,0.161544,0.220218,0.245449}+I{0.461516}+R3{0.244501,0.342297,0.270182,2.53976,0.0238021,9.66774}: CIAlign_uce-12105.fa{6.3917},
+    TN{4.97401,9.05965}+F{0.330227,0.199318,0.216818,0.253636}+I{0.547061}+G4{1.49968}: CIAlign_uce-12167.fa{3.04083},
+    TN{7.4913,3.87246}+F{0.316235,0.226194,0.186903,0.270668}+I{0.515004}+G4{1.22003}: CIAlign_uce-12227.fa{4.0693},
+    HKY{3.92387}+F{0.30497,0.210138,0.220641,0.264251}+R3{0.48534,0.0809407,0.453293,1.36146,0.0613668,5.59871}: CIAlign_uce-1223.fa{3.0654},
+    HKY{4.85212}+F{0.221071,0.214733,0.205637,0.358559}+R3{0.63475,0.103059,0.31578,1.88245,0.04947,6.87575}: CIAlign_uce-12273.fa{3.19191},
+    TN{3.10551,4.58292}+F{0.25747,0.185356,0.202401,0.354772}+R3{0.609196,0.163241,0.353268,1.73438,0.0375358,7.66878}: CIAlign_uce-12368.fa{3.24726},
+    TPM3u{0.514057,3.39518}+F{0.227852,0.208195,0.216916,0.347038}+I{0.378094}+G4{0.611903}: CIAlign_uce-12383.fa{2.37549},
+    TVM{0.239722,2.19626,0.284654,0.0001}+F{0.372162,0.183919,0.209865,0.234054}+I{0.574995}+G4{2.35403}: CIAlign_uce-12504.fa{3.70082},
+    TIM3{0.483809,5.51586,2.89059}+F{0.282768,0.260621,0.141637,0.314974}+I{0.394264}+G4{0.784737}: CIAlign_uce-12511.fa{5.55006},
+    TPM3u{0.563322,2.66863}+F{0.254755,0.272303,0.192416,0.280525}+I{0.411169}+G4{1.01655}: CIAlign_uce-12515.fa{4.59172},
+    TIM2{1.88397,5.37264,8.94434}+F{0.295348,0.181086,0.241175,0.282391}+I{0.370383}+G4{0.649861}: CIAlign_uce-12553.fa{3.77394},
+    TN{5.85058,9.37405}+F{0.322203,0.221822,0.223482,0.232492}+R3{0.699515,0.151991,0.195393,2.00951,0.105091,4.76762}: CIAlign_uce-12694.fa{3.90598},
+    HKY{4.7653}+F{0.313008,0.225371,0.149331,0.312291}+R3{0.728451,0.0429572,0.258577,2.41896,0.0129726,26.4575}: CIAlign_uce-12735.fa{2.40713},
+    HKY{5.59699}+F{0.313932,0.215143,0.151762,0.319163}+I{0.419205}+G4{0.675853}: CIAlign_uce-12740.fa{4.04009},
+    TPM3u{1.83931,6.04362}+F{0.315053,0.206228,0.198515,0.280204}+I{0.535196}+G4{0.962364}: CIAlign_uce-12755.fa{5.66301},
+    HKY{4.38043}+F{0.31799,0.170262,0.226966,0.284782}+I{0.36818}+G4{1.00667}: CIAlign_uce-12808.fa{3.06192},
+    TN{4.84799,8.88089}+F{0.349168,0.170919,0.237633,0.24228}+I{0.424081}+G4{0.73429}: CIAlign_uce-12892.fa{2.07014},
+    HKY{4.20365}+F{0.270779,0.267532,0.165368,0.29632}+I{0.572291}+G4{1.31058}: CIAlign_uce-12986.fa{1.34219},
+    HKY{6.08817}+F{0.310548,0.223722,0.203228,0.262502}+I{0.571759}+G4{1.64685}: CIAlign_uce-13005.fa{2.97832},
+    HKY{2.84219}+F{0.262654,0.244144,0.225889,0.267313}+I{0.376713}+R3{0.378221,0.428424,0.207852,2.41732,0.0372144,9.01573}: CIAlign_uce-13079.fa{3.64449},
+    TPM2u{1.39543,7.06591}+F{0.312076,0.209265,0.224662,0.253997}+I{0.519647}+G4{0.94411}: CIAlign_uce-13109.fa{3.12578},
+    GTR{0.227193,3.82141,0.410868,0.495539,2.42247}+F{0.262043,0.233936,0.191386,0.312635}+I{0.516845}+G4{0.882894}: CIAlign_uce-13110.fa{5.72548},
+    TIM2{0.46505,4.92022,2.84306}+F{0.303427,0.255215,0.149958,0.291401}+I{0.219669}+G4{0.444949}: CIAlign_uce-13112.fa{6.21446},
+    TPM3u{0.688129,3.48266}+F{0.268275,0.248554,0.213739,0.269432}+G4{0.435277}: CIAlign_uce-13153.fa{2.00718},
+    TPM3u{0.335638,2.71123}+F{0.269325,0.211554,0.204601,0.314519}+G4{0.33984}: CIAlign_uce-13273.fa{2.23943},
+    HKY{4.20001}+F{0.286525,0.212628,0.225774,0.275072}+I{0.506967}+G4{1.23799}: CIAlign_uce-13298.fa{3.41999},
+    K3Pu{3.98576,0.559408}+F{0.333141,0.191741,0.239777,0.235342}+I{0.451394}+G4{1.13122}: CIAlign_uce-13324.fa{2.01476},
+    K3Pu{7.39675,2.31295}+F{0.303306,0.234759,0.235859,0.226075}+G4{0.377107}: CIAlign_uce-13498.fa{1.29259},
+    TIM{4.25186,0.577279,2.42716}+F{0.264089,0.210461,0.16299,0.36246}+I{0.444285}+G4{0.913393}: CIAlign_uce-13635.fa{1.81953},
+    TIM3e{0.676326,3.18609,2.38753}+FQ+I{0.362656}+G4{1.3936}: CIAlign_uce-13941.fa{3.48601},
+    TPM3u{0.472438,1.98124}+F{0.300265,0.208831,0.229497,0.261407}+R3{0.743919,0.248016,0.233672,2.2854,0.0224087,12.5604}: CIAlign_uce-14008.fa{1.18908},
+    HKY{6.18484}+F{0.318462,0.199106,0.151731,0.330701}+R3{0.654351,0.134734,0.331967,1.94678,0.0136819,19.4102}: CIAlign_uce-14049.fa{1.78144},
+    TIM{2.93377,0.450392,1.87878}+F{0.270938,0.217183,0.173867,0.338012}+I{0.458112}+R3{0.211983,0.560919,0.293849,2.00159,0.0360562,8.12431}: CIAlign_uce-14091.fa{3.80929},
+    TPM3u{0.610736,2.74909}+F{0.294222,0.191775,0.233491,0.280513}+I{0.381494}+G4{0.486998}: CIAlign_uce-1410.fa{2.67061},
+    TPM2u{2.21999,5.55129}+F{0.309502,0.16272,0.252904,0.274873}+I{0.273921}+G4{0.793327}: CIAlign_uce-14138.fa{4.72287},
+    TPM3{0.468353,2.6481}+FQ+I{0.367731}+G4{0.821097}: CIAlign_uce-14299.fa{5.33396},
+    TN{3.63058,7.31736}+F{0.37738,0.165045,0.212971,0.244604}+I{0.463823}+G4{1.9602}: CIAlign_uce-1443.fa{3.24023},
+    TPM2u{3.21635,10.4704}+F{0.228666,0.177263,0.275976,0.318096}+I{0.433229}+G4{0.916262}: CIAlign_uce-1444.fa{5.0093},
+    K2P{5.22902}+FQ+I{0.57648}+R2{0.185788,0.714923,0.237732,3.6477}: CIAlign_uce-14535.fa{4.21474},
+    K2P{2.52894}+FQ+I{0.262095}+G4{0.704063}: CIAlign_uce-14541.fa{5.17352},
+    TPM2u{2.27094,9.35039}+F{0.288927,0.173214,0.227868,0.309991}+I{0.590177}+G4{3.25443}: CIAlign_uce-14780.fa{2.47304},
+    HKY{7.17351}+F{0.262226,0.238759,0.157305,0.341711}+I{0.504404}+G4{0.89397}: CIAlign_uce-14783.fa{2.22256},
+    TPM2u{2.24635,5.53728}+F{0.231544,0.255425,0.224899,0.288132}+I{0.37872}+R3{0.35097,0.464798,0.247923,2.50399,0.0223877,9.65143}: CIAlign_uce-14809.fa{2.32399},
+    TPM3u{0.373702,4.46895}+F{0.293421,0.287274,0.189543,0.229762}+I{0.566153}+G4{1.38883}: CIAlign_uce-14863.fa{1.83812},
+    TPM3u{0.282007,2.96777}+F{0.308788,0.197432,0.247592,0.246188}+I{0.558416}+G4{1.02284}: CIAlign_uce-15033.fa{1.10608},
+    TIM2e{2.11784,7.5872,14.0334}+FQ+I{0.455805}+G4{0.721518}: CIAlign_uce-15037.fa{6.33653},
+    TIM2{1.94425,2.97065,9.24326}+F{0.289784,0.221228,0.258588,0.230399}+R3{0.572877,0.0834942,0.364738,1.33859,0.0623851,7.43663}: CIAlign_uce-15135.fa{3.42652},
+    TN{5.18501,2.68874}+F{0.232823,0.226008,0.163368,0.3778}+I{0.406242}+R2{0.229691,0.408666,0.364067,2.48892}: CIAlign_uce-1519.fa{3.83244},
+    TIM3{0.426331,5.86562,3.61427}+F{0.288078,0.252296,0.219364,0.240263}+I{0.481364}+G4{0.691259}: CIAlign_uce-15292.fa{4.5222},
+    GTR{0.229816,1.69872,0.331946,0.435778,0.942879}+F{0.351243,0.193443,0.157256,0.298058}+I{0.356727}+G4{2.13273}: CIAlign_uce-1561.fa{4.05766},
+    TIM3{0.275304,5.20575,2.92076}+F{0.270289,0.261787,0.196514,0.27141}+I{0.494907}+G4{0.961302}: CIAlign_uce-15616.fa{3.65144},
+    HKY{6.34345}+F{0.320755,0.193437,0.209516,0.276292}+I{0.584909}+G4{1.76869}: CIAlign_uce-15680.fa{1.867},
+    TPM2u{0.462682,4.10789}+F{0.258791,0.22699,0.172561,0.341657}+G4{0.224666}: CIAlign_uce-1591.fa{2.8292},
+    TIM3{2.76223,6.05005,11.4925}+F{0.313251,0.158333,0.197953,0.330464}+I{0.477263}+G4{1.75747}: CIAlign_uce-16071.fa{3.98627},
+    TIM2{1.81487,4.41135,7.85828}+F{0.257008,0.188847,0.259811,0.294334}+I{0.386244}+G4{0.638959}: CIAlign_uce-16245.fa{6.7862},
+    TIM3{0.633492,5.37345,4.18675}+F{0.219306,0.217538,0.254509,0.308647}+I{0.379729}+G4{0.980638}: CIAlign_uce-16304.fa{3.1375},
+    TN{7.62019,3.31645}+F{0.246843,0.226786,0.219782,0.30659}+I{0.374465}+G4{0.817834}: CIAlign_uce-16373.fa{3.9279},
+    TPM2u{3.7068,9.76024}+F{0.267839,0.214067,0.226743,0.291351}+I{0.530978}+R3{0.271904,0.468722,0.161457,2.75104,0.0356614,12.0124}: CIAlign_uce-16467.fa{3.58671},
+    TPM3u{0.568235,2.30671}+F{0.259479,0.227072,0.29196,0.221489}+G4{0.422404}: CIAlign_uce-16513.fa{2.1897},
+    TPM3u{0.168558,2.4971}+F{0.303724,0.219056,0.161223,0.315997}+I{0.434576}+G4{0.735535}: CIAlign_uce-16528.fa{2.64291},
+    TN{3.18268,5.6599}+F{0.296556,0.175299,0.245022,0.283123}+R3{0.637277,0.10364,0.347919,2.18428,0.0148038,11.7537}: CIAlign_uce-16529.fa{1.44786},
+    TPM2u{2.31823,8.74632}+F{0.264292,0.199823,0.198053,0.337833}+G4{0.273522}: CIAlign_uce-16530.fa{1.98939},
+    HKY{3.65499}+F{0.323998,0.185357,0.209343,0.281301}+G4{0.30959}: CIAlign_uce-16539.fa{3.60774},
+    HKY{3.91827}+F{0.239969,0.178927,0.276402,0.304703}+I{0.485055}+R2{0.432436,1.15434,0.0825089,6.06991}: CIAlign_uce-16542.fa{1.39651},
+    TPM3u{0.663036,4.98795}+F{0.284272,0.212178,0.193878,0.309672}+I{0.507986}+G4{1.6461}: CIAlign_uce-1661.fa{2.41127},
+    TPM3u{0.357283,4.74421}+F{0.314867,0.190422,0.247753,0.246957}+I{0.573302}+G4{1.15418}: CIAlign_uce-16622.fa{3.46941},
+    TN{4.32119,6.93956}+F{0.379093,0.168766,0.224461,0.22768}+I{0.396727}+G4{0.911149}: CIAlign_uce-16737.fa{3.67458},
+    TIM{2.22494,0.482448,2.9631}+F{0.216,0.237143,0.238857,0.307999}+I{0.489974}+G4{1.05231}: CIAlign_uce-16739.fa{3.19896},
+    TPM3u{2.00187,5.2711}+F{0.297251,0.165623,0.248674,0.288452}+I{0.39833}+G4{1.17477}: CIAlign_uce-168.fa{3.20412},
+    TPM2{13.4109,58.2486}+FQ+R2{0.86711,0.25553,0.13289,5.8577}: CIAlign_uce-1694.fa{1.00275},
+    TN{5.87846,1.73758}+F{0.288106,0.215406,0.172848,0.32364}+I{0.331823}+G4{0.785397}: CIAlign_uce-1696.fa{5.75402},
+    TIM2{3.87108,8.32857,7.28273}+F{0.180293,0.284915,0.180129,0.354663}+I{0.470975}+G4{0.680585}: CIAlign_uce-17130.fa{2.00291},
+    TPM2u{1.31174,4.8746}+F{0.324467,0.235934,0.207663,0.231935}+R3{0.618793,0.0780743,0.281774,1.66206,0.0994328,4.8612}: CIAlign_uce-17172.fa{4.15233},
+    HKY{3.4596}+F{0.336524,0.185762,0.182471,0.295244}+G4{0.300739}: CIAlign_uce-17215.fa{5.19833},
+    HKY{3.23756}+F{0.256664,0.2194,0.19037,0.333566}+G4{0.434163}: CIAlign_uce-17216.fa{2.90391},
+    TN{2.70018,12.1507}+F{0.386882,0.133596,0.235756,0.243766}+I{0.551416}+G4{1.63296}: CIAlign_uce-1727.fa{3.16252},
+    TN{7.00873,2.959}+F{0.305192,0.222404,0.145442,0.326962}+I{0.53166}+G4{0.905065}: CIAlign_uce-17291.fa{5.63431},
+    TIM2{1.89997,5.98694,15.0137}+F{0.330504,0.169563,0.303771,0.196162}+I{0.488318}+G4{0.794082}: CIAlign_uce-17296.fa{1.97837},
+    TPM3u{1.7324,4.00099}+F{0.276296,0.171111,0.223598,0.328995}+I{0.23078}+G4{0.452945}: CIAlign_uce-17457.fa{7.00679},
+    HKY{4.88822}+F{0.309272,0.247035,0.210312,0.233381}+I{0.442674}+G4{0.854689}: CIAlign_uce-17490.fa{3.3651},
+    K3Pu{3.01069,0.383756}+F{0.317855,0.216345,0.262941,0.202859}+I{0.488004}+G4{1.73672}: CIAlign_uce-17491.fa{3.44259},
+    HKY{3.25831}+F{0.343417,0.215667,0.234833,0.206083}+I{0.346698}+G4{0.611709}: CIAlign_uce-17492.fa{3.37115},
+    TPM3u{0.713433,5.45953}+F{0.292446,0.188838,0.273875,0.244841}+I{0.514005}+G4{1.35245}: CIAlign_uce-17580.fa{3.30789},
+    TIM3{0.473648,5.5667,3.91114}+F{0.245463,0.246677,0.250195,0.257666}+R3{0.670717,0.0799949,0.272222,1.99504,0.0570605,7.06707}: CIAlign_uce-17585.fa{3.64427},
+    HKY{5.75449}+F{0.19239,0.225344,0.209815,0.372451}+I{0.594878}+G4{1.78093}: CIAlign_uce-17603.fa{1.37604},
+    TVM{0.636956,2.86136,0.593148,0.312536}+F{0.224663,0.254233,0.214449,0.306655}+I{0.442785}+G4{1.08355}: CIAlign_uce-17715.fa{3.20093},
+    TVM{4.01935,9.00645,1.90881,2.20211}+F{0.267967,0.161984,0.237686,0.332363}+I{0.44817}+G4{0.806164}: CIAlign_uce-17805.fa{3.79051},
+    HKY{2.92818}+F{0.302924,0.208751,0.215828,0.272497}+I{0.349344}+R3{0.39717,0.489164,0.208617,2.25142,0.0448691,7.48922}: CIAlign_uce-17825.fa{3.26777},
+    HKY{4.35607}+F{0.302197,0.188291,0.204861,0.304652}+R3{0.704887,0.0710425,0.219535,1.45555,0.0755783,8.34073}: CIAlign_uce-17828.fa{3.16529},
+    TN{2.9631,7.15488}+F{0.315195,0.150364,0.290088,0.244353}+G4{0.375719}: CIAlign_uce-17866.fa{2.3194},
+    HKY{11.0322}+F{0.231511,0.223158,0.147979,0.397352}+I{0.490693}+G4{1.51608}: CIAlign_uce-1797.fa{3.20997},
+    TIM3{0.55802,2.25693,1.19663}+F{0.298977,0.237161,0.17903,0.284831}+I{0.23103}+G4{0.58655}: CIAlign_uce-18104.fa{4.17437},
+    TIM3{0.439507,4.53987,2.81796}+F{0.302527,0.232394,0.212799,0.252281}+I{0.466275}+G4{0.796039}: CIAlign_uce-18242.fa{2.7442},
+    HKY{4.12882}+F{0.299636,0.20661,0.183971,0.309784}+G4{0.254286}: CIAlign_uce-18245.fa{2.2722},
+    HKY{7.56379}+F{0.277102,0.216005,0.219146,0.287747}+I{0.546102}+G4{1.24322}: CIAlign_uce-18287.fa{3.92968},
+    TN{6.58498,3.1033}+F{0.260838,0.196965,0.251445,0.290751}+R2{0.861156,0.382827,0.138844,4.82792}: CIAlign_uce-18299.fa{1.12715},
+    TPM3{0.469325,2.70987}+FQ+I{0.451311}+G4{1.44248}: CIAlign_uce-18317.fa{3.36202},
+    HKY{3.42779}+F{0.309892,0.199691,0.164915,0.325502}+I{0.398544}+G4{0.512208}: CIAlign_uce-18367.fa{6.03183},
+    TPM2u{0.401556,2.12685}+F{0.380601,0.189695,0.17175,0.257954}+I{0.403779}+G4{0.970308}: CIAlign_uce-18385.fa{4.88479},
+    TIM3{0.375598,3.15551,1.79283}+F{0.304706,0.20206,0.212483,0.280751}+I{0.322699}+G4{1.05027}: CIAlign_uce-18387.fa{4.97043},
+    TPM3u{0.357038,3.45245}+F{0.313687,0.218527,0.179124,0.288662}+I{0.477821}+G4{1.75632}: CIAlign_uce-1842.fa{3.40311},
+    TIM3{0.485078,7.42265,2.70414}+F{0.234322,0.27048,0.211724,0.283474}+I{0.490216}+G4{1.23322}: CIAlign_uce-18486.fa{2.76974},
+    TNe{3.1218,5.13091}+FQ+G4{0.328008}: CIAlign_uce-18500.fa{1.97536},
+    TIM3{0.627832,7.06569,3.9407}+F{0.229105,0.251032,0.233327,0.286537}+I{0.53841}+G4{1.55136}: CIAlign_uce-18679.fa{1.72761},
+    TIM3{0.452007,4.84554,2.43859}+F{0.299668,0.266141,0.183817,0.250373}+R3{0.59745,0.0555877,0.320221,1.54415,0.0823289,5.73697}: CIAlign_uce-18734.fa{3.44319},
+    HKY{3.47161}+F{0.268694,0.211735,0.201521,0.318049}+I{0.535287}+G4{1.03744}: CIAlign_uce-18817.fa{2.93224},
+    HKY{6.81015}+F{0.232993,0.228694,0.194949,0.343364}+I{0.524966}+G4{0.970965}: CIAlign_uce-18906.fa{2.39638},
+    HKY{6.60921}+F{0.288263,0.192751,0.233101,0.285885}+I{0.277858}+G4{1.00645}: CIAlign_uce-18909.fa{4.43598},
+    HKY{5.21847}+F{0.317676,0.192055,0.227027,0.263243}+I{0.556992}+G4{2.33733}: CIAlign_uce-19018.fa{2.06106},
+    TIM3e{0.405037,5.27853,2.39813}+FQ+I{0.600905}+R3{0.208805,0.613973,0.16164,3.06712,0.0286511,13.1245}: CIAlign_uce-19063.fa{2.50944},
+    K3Pu{3.50888,0.471201}+F{0.282694,0.237791,0.134219,0.345296}+I{0.580161}+G4{2.00854}: CIAlign_uce-19064.fa{3.23886},
+    TNe{12.5885,3.72211}+FQ+G4{0.18116}: CIAlign_uce-19069.fa{2.56581},
+    TIM3{0.645471,4.70333,2.40066}+F{0.264676,0.261336,0.183944,0.290045}+I{0.481204}+G4{0.854221}: CIAlign_uce-19073.fa{4.67691},
+    TN{8.04813,3.46317}+F{0.260236,0.272042,0.168048,0.299673}+I{0.442542}+G4{1.76342}: CIAlign_uce-19140.fa{2.85687},
+    TIM3{0.605943,5.05901,2.97028}+F{0.32414,0.260199,0.171426,0.244236}+I{0.45306}+G4{1.05062}: CIAlign_uce-19154.fa{3.5946},
+    TPM2u{3.05647,6.56637}+F{0.220176,0.204697,0.238235,0.336892}+I{0.589603}+G4{1.55512}: CIAlign_uce-19306.fa{2.9912},
+    TN{4.06305,10.9769}+F{0.321456,0.177283,0.205241,0.29602}+I{0.441099}+G4{0.816665}: CIAlign_uce-19325.fa{1.74853},
+    TPM3u{2.28232,6.2703}+F{0.273223,0.1598,0.203015,0.363962}+I{0.465669}+G4{0.799362}: CIAlign_uce-19336.fa{2.62858},
+    TPM2u{2.26039,10.6279}+F{0.304801,0.236925,0.162332,0.295942}+R3{0.611498,0.0730448,0.347029,1.82931,0.0414721,7.72832}: CIAlign_uce-19354.fa{2.81541},
+    HKY{2.17625}+F{0.324175,0.241427,0.16209,0.272308}+G4{0.29653}: CIAlign_uce-19356.fa{3.72997},
+    TN{4.83931,7.24182}+F{0.300144,0.25634,0.197166,0.24635}+I{0.274884}+R3{0.428488,0.192014,0.175816,1.86266,0.120811,4.88562}: CIAlign_uce-1938.fa{5.31141},
+    TIM3{3.22406,9.57202,33.9581}+F{0.367227,0.159264,0.227316,0.246193}+I{0.58865}+G4{1.3101}: CIAlign_uce-19632.fa{3.4573},
+    TIM3{2.1739,4.45368,10.376}+F{0.295959,0.156232,0.245589,0.30222}+I{0.521684}+G4{1.36575}: CIAlign_uce-19658.fa{3.30352},
+    TPM3u{0.384795,3.66316}+F{0.250472,0.224185,0.265435,0.259908}+I{0.487628}+G4{1.12595}: CIAlign_uce-19689.fa{2.64344},
+    TIM2{2.50379,6.17126,10.635}+F{0.320212,0.20931,0.230208,0.24027}+I{0.557521}+G4{2.98594}: CIAlign_uce-1973.fa{2.60936},
+    TIM{7.85221,0.699189,4.00209}+F{0.259031,0.263254,0.186668,0.291047}+R3{0.649194,0.128649,0.209158,1.5367,0.141649,4.20103}: CIAlign_uce-19973.fa{4.19782},
+    TPM2u{2.0216,6.13701}+F{0.322362,0.198471,0.192308,0.286859}+I{0.444879}+R3{0.387649,0.563997,0.136111,2.63506,0.0313601,13.4791}: CIAlign_uce-20045.fa{3.81352},
+    GTR{13.881,37.0479,6.11765,15.3785,100}+F{0.36373,0.147183,0.233916,0.255171}+I{0.411003}+G4{1.00276}: CIAlign_uce-20066.fa{3.32088},
+    TIM3e{0.438708,6.80197,2.19238}+FQ+G4{0.250009}: CIAlign_uce-20245.fa{1.56668},
+    HKY{5.2898}+F{0.248426,0.221523,0.26115,0.268902}+I{0.524694}+G4{1.56761}: CIAlign_uce-20254.fa{2.93688},
+    HKY{3.65052}+F{0.344905,0.150642,0.207849,0.296604}+G4{0.520798}: CIAlign_uce-20401.fa{2.09475},
+    TPM2u{1.62756,6.31612}+F{0.310384,0.223259,0.233463,0.232893}+I{0.482786}+G4{1.08894}: CIAlign_uce-20417.fa{1.93054},
+    HKY{5.89923}+F{0.40434,0.1728,0.195211,0.227648}+G4{0.216407}: CIAlign_uce-20467.fa{1.19804},
+    TPM3u{0.23389,2.76275}+F{0.339821,0.203143,0.22247,0.234566}+I{0.599918}+R3{0.212334,0.593712,0.180804,2.82756,0.00694449,52.2287}: CIAlign_uce-20468.fa{2.30885},
+    TN{8.72782,4.94105}+F{0.290569,0.243909,0.172256,0.293266}+I{0.531365}+G4{0.887978}: CIAlign_uce-20471.fa{2.42625},
+    TN{3.12698,6.85584}+F{0.324641,0.215744,0.206758,0.252857}+G4{0.570438}: CIAlign_uce-20483.fa{4.01394},
+    TPM3u{0.525137,4.10702}+F{0.305147,0.227842,0.152922,0.31409}+I{0.474219}+G4{1.02775}: CIAlign_uce-20572.fa{3.58224},
+    HKY{4.53806}+F{0.269624,0.221647,0.228247,0.280482}+I{0.509984}+G4{1.61752}: CIAlign_uce-20676.fa{4.16352},
+    TIM2{1.80335,6.3607,10.274}+F{0.274837,0.20305,0.231149,0.290965}+I{0.49988}+G4{1.18414}: CIAlign_uce-20777.fa{3.26682},
+    K3Pu{3.62356,0.628526}+F{0.271371,0.19633,0.213902,0.318398}+I{0.355612}+G4{1.24746}: CIAlign_uce-20807.fa{3.84472},
+    TPM3u{0.466062,3.91279}+F{0.300513,0.195354,0.205399,0.298734}+G4{0.382552}: CIAlign_uce-2084.fa{2.64815},
+    TPM3u{1.902,8.07345}+F{0.260992,0.219891,0.235598,0.283519}+I{0.532861}+G4{1.58967}: CIAlign_uce-20889.fa{2.71848},
+    TPM3u{0.358494,6.48582}+F{0.317086,0.196279,0.193134,0.293501}+I{0.489506}+G4{0.841382}: CIAlign_uce-20892.fa{3.82606},
+    TPM3u{0.634342,4.07798}+F{0.293696,0.24983,0.183743,0.27273}+I{0.324628}+G4{1.38305}: CIAlign_uce-20940.fa{3.97495},
+    HKY{6.08471}+F{0.286781,0.217877,0.20053,0.294812}+I{0.433694}+R3{0.234405,0.310067,0.312855,2.35187,0.0190461,10.0558}: CIAlign_uce-21162.fa{4.59313},
+    TPM3u{0.514212,2.62531}+F{0.230332,0.221685,0.244151,0.303832}+I{0.373615}+R2{0.612406,1.30578,0.0139793,14.3305}: CIAlign_uce-21183.fa{1.62141},
+    TN{2.65545,5.27131}+F{0.381135,0.169186,0.201845,0.247834}+I{0.386459}+G4{1.66718}: CIAlign_uce-2119.fa{3.35135},
+    TN{5.69105,4.26882}+F{0.208728,0.24836,0.222063,0.320848}+I{0.282855}+R3{0.423536,0.426686,0.25033,2.10179,0.0432785,6.77334}: CIAlign_uce-21263.fa{3.40229},
+    TN{6.33409,6.29249}+F{0.277002,0.295607,0.145996,0.281395}+G4{0.212436}: CIAlign_uce-21264.fa{1.59707},
+    HKY{4.89594}+F{0.23941,0.291496,0.21525,0.253844}+G4{0.136672}: CIAlign_uce-21267.fa{0.658864},
+    TIM3e{0.462227,3.49309,2.20832}+FQ+I{0.339679}+G4{1.83357}: CIAlign_uce-21275.fa{3.7692},
+    K3Pu{5.47767,2.07488}+F{0.282354,0.243826,0.200297,0.273523}+I{0.507529}+R3{0.292968,0.7287,0.181844,2.68857,0.0176594,16.853}: CIAlign_uce-21362.fa{2.71374},
+    HKY{4.69021}+F{0.330389,0.168123,0.221795,0.279693}+I{0.399218}+G4{1.00884}: CIAlign_uce-21409.fa{4.02645},
+    TPM2u{3.84398,5.43628}+F{0.232258,0.277112,0.231337,0.259293}+G4{0.36569}: CIAlign_uce-21496.fa{2.20181},
+    TIM2{1.31854,5.59928,10.643}+F{0.302714,0.208403,0.252957,0.235927}+I{0.349562}+R4{0.278499,0.239365,0.253128,1.62601,0.112405,3.79083,0.00640681,14.928}: CIAlign_uce-21626.fa{4.62921},
+    HKY{4.52167}+F{0.2486,0.225621,0.201853,0.323926}+I{0.373724}+G4{0.860351}: CIAlign_uce-21695.fa{6.39742},
+    TPM3u{0.583077,3.51702}+F{0.308417,0.197562,0.194496,0.299524}+R3{0.641808,0.0309383,0.316262,1.90084,0.0419307,9.03827}: CIAlign_uce-21740.fa{2.62475},
+    HKY{6.77812}+F{0.276481,0.189208,0.237899,0.296412}+I{0.586709}+G4{1.36259}: CIAlign_uce-21858.fa{2.86426},
+    TN{5.92777,11.3981}+F{0.377429,0.146773,0.235149,0.240649}+I{0.497636}+G4{1.14211}: CIAlign_uce-2197.fa{2.37202},
+    TPM3u{0.595437,5.62688}+F{0.24855,0.236054,0.213201,0.302195}+I{0.574062}+G4{2.45598}: CIAlign_uce-21978.fa{1.79425},
+    TIM2{2.08376,5.10879,14.4735}+F{0.293148,0.185635,0.272473,0.248744}+I{0.437859}+G4{1.0189}: CIAlign_uce-22009.fa{3.16461},
+    TIM2{0.555345,5.48412,3.32286}+F{0.281625,0.186436,0.209794,0.322146}+R3{0.718817,0.116462,0.242523,2.26146,0.0386599,9.51444}: CIAlign_uce-2206.fa{1.05837},
+    TN{5.80602,9.59185}+F{0.265899,0.210004,0.251274,0.272823}+I{0.46675}+G4{0.85493}: CIAlign_uce-22064.fa{6.96603},
+    TIM2{1.52503,4.36842,7.55981}+F{0.356199,0.138232,0.211994,0.293575}+I{0.437724}+G4{1.09451}: CIAlign_uce-22195.fa{3.80458},
+    TN{2.97153,3.9569}+F{0.284055,0.205731,0.195469,0.314745}+I{0.436648}+R2{0.454612,0.887907,0.108741,5.48413}: CIAlign_uce-22213.fa{2.72805},
+    TN{3.75438,10.3618}+F{0.283024,0.161056,0.207418,0.348502}+I{0.561035}+G4{0.996151}: CIAlign_uce-22317.fa{1.9837},
+    HKY{5.03118}+F{0.285329,0.229516,0.184693,0.300463}+I{0.516207}+G4{1.64021}: CIAlign_uce-22330.fa{2.18235},
+    K2P{3.61652}+FQ+G4{0.181921}: CIAlign_uce-22413.fa{0.833301},
+    TPM2u{1.56495,7.22968}+F{0.264276,0.229882,0.180006,0.325836}+I{0.440005}+G4{0.749508}: CIAlign_uce-22430.fa{2.45744},
+    TIM3{0.430284,5.64494,3.46817}+F{0.372593,0.213843,0.158644,0.254921}+I{0.547662}+G4{1.07693}: CIAlign_uce-22549.fa{2.48452},
+    TN{7.98877,3.67507}+F{0.302835,0.236597,0.115091,0.345476}+I{0.454763}+G4{0.864236}: CIAlign_uce-22581.fa{2.20138},
+    TPM3u{0.32252,3.5863}+F{0.292978,0.232087,0.185544,0.289391}+I{0.337245}+G4{0.880532}: CIAlign_uce-22594.fa{4.88734},
+    TN{3.66618,7.80059}+F{0.293357,0.181936,0.230488,0.294218}+R3{0.651726,0.0607045,0.329676,2.14307,0.018598,13.6529}: CIAlign_uce-22624.fa{3.27621},
+    HKY{4.14153}+F{0.227932,0.229167,0.199846,0.343055}+R3{0.760102,0.0796543,0.223104,2.55006,0.0167936,22.0634}: CIAlign_uce-22644.fa{1.24274},
+    TIM2{2.23977,3.68483,7.2928}+F{0.262788,0.207406,0.201341,0.328465}+I{0.475241}+R3{0.306017,0.550912,0.180378,2.35087,0.0383637,10.6186}: CIAlign_uce-22645.fa{3.18934},
+    HKY{5.99825}+F{0.280699,0.205548,0.25705,0.256703}+R3{0.595758,0.0432429,0.316572,1.59415,0.0876696,5.35618}: CIAlign_uce-22646.fa{3.37477},
+    TPM2u{1.48337,6.21776}+F{0.259936,0.268032,0.224546,0.247485}+I{0.585022}+G4{1.86594}: CIAlign_uce-22658.fa{2.17214},
+    HKY{9.14594}+F{0.335054,0.184533,0.225366,0.255047}+I{0.444123}+G4{0.64253}: CIAlign_uce-22688.fa{3.13147},
+    TPM2u{1.58001,8.4937}+F{0.317051,0.22484,0.202651,0.255459}+I{0.530261}+G4{1.21737}: CIAlign_uce-22689.fa{3.28753},
+    HKY{5.65501}+F{0.337867,0.25539,0.17617,0.230573}+G4{0.476613}: CIAlign_uce-2291.fa{2.98176},
+    HKY{3.41069}+F{0.286375,0.167773,0.241461,0.304391}+I{0.500505}+G4{1.39969}: CIAlign_uce-22946.fa{4.02039},
+    TVM{4.42086,14.73,1.32251,1.77678}+F{0.273189,0.203879,0.234779,0.288153}+I{0.500256}+G4{1.05344}: CIAlign_uce-22965.fa{3.62483},
+    K2P{3.60331}+FQ+I{0.453291}+R3{0.333311,0.569732,0.192536,3.0287,0.0208625,10.8793}: CIAlign_uce-22977.fa{2.28169},
+    TPM3u{0.583518,2.3545}+F{0.287373,0.283199,0.175375,0.254052}+I{0.246745}+R3{0.563998,0.549609,0.166425,2.73833,0.0228318,10.2618}: CIAlign_uce-23147.fa{3.671},
+    HKY{6.37663}+F{0.228794,0.231514,0.244319,0.295372}+I{0.36176}+G4{0.532801}: CIAlign_uce-2318.fa{2.50197},
+    TPM3u{0.448937,3.23409}+F{0.326679,0.194941,0.196887,0.281493}+I{0.450869}+R3{0.268029,0.404837,0.229023,2.09918,0.0520792,7.88669}: CIAlign_uce-23237.fa{4.1307},
+    TIM3{0.29976,10.2881,4.87891}+F{0.233995,0.211637,0.123872,0.430496}+I{0.524513}+G4{1.23205}: CIAlign_uce-23347.fa{1.98068},
+    HKY{2.77934}+F{0.269444,0.225877,0.246637,0.258041}+I{0.454758}+G4{0.551921}: CIAlign_uce-2346.fa{2.42445},
+    HKY{4.25958}+F{0.277462,0.204351,0.232145,0.286042}+G4{0.307957}: CIAlign_uce-23541.fa{1.8875},
+    HKY{4.6187}+F{0.244984,0.233467,0.214296,0.307252}+I{0.34047}+G4{1.19878}: CIAlign_uce-23569.fa{2.55925},
+    HKY{2.82585}+F{0.320638,0.232598,0.154503,0.292261}+I{0.440084}+G4{0.356993}: CIAlign_uce-23576.fa{4.10552},
+    HKY{6.65808}+F{0.29894,0.151701,0.236475,0.312883}+G4{0.21742}: CIAlign_uce-23668.fa{1.88051},
+    HKY{3.38679}+F{0.311243,0.185885,0.188347,0.314526}+I{0.447517}+G4{0.804401}: CIAlign_uce-23690.fa{3.66997},
+    TPM2u{0.551907,4.00544}+F{0.261572,0.215892,0.196332,0.326205}+R2{0.611249,0.0497011,0.388751,2.4942}: CIAlign_uce-23713.fa{3.09086},
+    TIM3e{0.476841,3.60944,2.54469}+FQ+I{0.458901}+G4{1.41255}: CIAlign_uce-23715.fa{3.99341},
+    HKY{8.48425}+F{0.32344,0.20145,0.22181,0.2533}+I{0.442073}+G4{0.975789}: CIAlign_uce-23800.fa{4.451},
+    TN{4.78658,2.88849}+F{0.31585,0.227055,0.157212,0.299883}+I{0.516603}+G4{1.8887}: CIAlign_uce-23837.fa{3.42626},
+    TIM2{1.99868,4.742,8.29236}+F{0.289447,0.192391,0.191475,0.326687}+I{0.48179}+G4{1.06183}: CIAlign_uce-23975.fa{3.95737},
+    TIM3{0.37032,5.47614,2.27166}+F{0.22101,0.265482,0.233687,0.279821}+I{0.411475}+G4{0.80558}: CIAlign_uce-24115.fa{2.3203},
+    HKY{4.72862}+F{0.305196,0.189244,0.233219,0.272341}+I{0.46276}+G4{0.802283}: CIAlign_uce-24367.fa{3.9781},
+    HKY{6.60882}+F{0.374697,0.166703,0.22484,0.233759}+I{0.373984}+G4{0.54949}: CIAlign_uce-24410.fa{3.06265},
+    TPM3u{0.794901,3.67545}+F{0.237248,0.197673,0.212986,0.352093}+G4{0.369432}: CIAlign_uce-24422.fa{4.56874},
+    TN{3.60255,6.69083}+F{0.338898,0.210262,0.218611,0.232228}+I{0.353027}+G4{0.765299}: CIAlign_uce-24448.fa{3.46916},
+    HKY{5.0646}+F{0.263214,0.239707,0.225459,0.27162}+I{0.402371}+G4{0.872889}: CIAlign_uce-24460.fa{5.26552},
+    GTR{0.325633,3.81876,0.436928,0.333571,1.52677}+F{0.226902,0.24223,0.168871,0.361997}+I{0.523432}+R2{0.304178,0.879102,0.17239,4.24965}: CIAlign_uce-24477.fa{2.76048},
+    TIM3{0.324831,5.58642,3.04184}+F{0.172005,0.311491,0.15978,0.356723}+I{0.617231}+G4{3.14353}: CIAlign_uce-24536.fa{1.72015},
+    HKY{2.89685}+F{0.253019,0.22535,0.21293,0.308701}+R3{0.560522,0.116788,0.405007,1.60711,0.0344707,8.22867}: CIAlign_uce-24559.fa{1.88504},
+    TPM2u{0.449336,3.57049}+F{0.320185,0.198635,0.175249,0.305932}+I{0.524271}+G4{0.942021}: CIAlign_uce-24560.fa{2.28594},
+    TIM2{1.49064,3.66143,5.82081}+F{0.30189,0.18375,0.206263,0.308097}+I{0.281024}+G4{1.55084}: CIAlign_uce-24603.fa{2.74563},
+    HKY{4.17839}+F{0.322426,0.233272,0.225552,0.21875}+I{0.519919}+G4{1.59422}: CIAlign_uce-24605.fa{1.96429},
+    HKY{6.01145}+F{0.259969,0.218664,0.195309,0.326058}+I{0.564962}+G4{1.62925}: CIAlign_uce-24650.fa{1.87552},
+    HKY{5.5381}+F{0.240535,0.175137,0.25329,0.331039}+G4{0.258323}: CIAlign_uce-24678.fa{1.87957},
+    TPM3u{0.43198,5.94348}+F{0.316054,0.22566,0.191317,0.266969}+I{0.49295}+G4{0.726594}: CIAlign_uce-24715.fa{6.87685},
+    HKY{6.49948}+F{0.293645,0.184783,0.142977,0.378595}+G4{0.231195}: CIAlign_uce-24716.fa{4.77568},
+    TIM2{2.05414,9.54662,17.5255}+F{0.272508,0.218311,0.218058,0.291123}+I{0.581369}+G4{0.84807}: CIAlign_uce-24734.fa{4.28845},
+    HKY{3.48643}+F{0.349792,0.185508,0.188096,0.276604}+I{0.30294}+G4{0.599317}: CIAlign_uce-24794.fa{5.82464},
+    HKY{4.65521}+F{0.288558,0.235324,0.20187,0.274248}+I{0.418876}+G4{1.15549}: CIAlign_uce-25004.fa{2.46801},
+    HKY{6.22557}+F{0.28278,0.228627,0.178615,0.309978}+I{0.513115}+G4{0.889021}: CIAlign_uce-25136.fa{3.84182},
+    HKY{4.43682}+F{0.252845,0.192697,0.224709,0.329748}+I{0.513879}+R3{0.343416,1.02101,0.1288,3.5583,0.0139054,13.74}: CIAlign_uce-2516.fa{1.9673},
+    TIM2{2.43762,6.43794,3.95839}+F{0.32238,0.21963,0.200364,0.257626}+I{0.490473}+G4{0.948563}: CIAlign_uce-25262.fa{4.26017},
+    HKY{3.66838}+F{0.293544,0.222176,0.164221,0.320059}+G4{0.338277}: CIAlign_uce-25263.fa{2.83542},
+    K3Pu{14.4612,2.9549}+F{0.378525,0.245577,0.152216,0.223682}+I{0.555366}+G4{1.58055}: CIAlign_uce-25279.fa{2.36143},
+    TPM2u{1.29414,4.06146}+F{0.282897,0.260846,0.194521,0.261736}+I{0.290846}+G4{1.18046}: CIAlign_uce-25388.fa{2.07638},
+    TPM2u{2.37459,7.49046}+F{0.312322,0.167176,0.233794,0.286708}+G4{0.330139}: CIAlign_uce-25390.fa{3.03385},
+    HKY{4.72568}+F{0.297697,0.247635,0.162033,0.292634}+I{0.485063}+G4{1.50544}: CIAlign_uce-25409.fa{2.96879},
+    TN{2.89464,4.84424}+F{0.28896,0.219128,0.190047,0.301865}+G4{0.327442}: CIAlign_uce-25420.fa{3.52869},
+    TIM{3.29621,0.408529,6.82369}+F{0.345772,0.162544,0.210203,0.281481}+I{0.429695}+G4{1.13958}: CIAlign_uce-2544.fa{2.86676},
+    HKY{4.09431}+F{0.327523,0.218865,0.216735,0.236878}+G4{0.307543}: CIAlign_uce-25459.fa{3.32898},
+    TPM3u{0.428473,4.01908}+F{0.288256,0.199102,0.205533,0.307109}+I{0.55395}+R3{0.349098,0.918072,0.0876573,4.38718,0.00929493,31.7308}: CIAlign_uce-25501.fa{3.38255},
+    TPM3u{0.52002,3.81496}+F{0.338626,0.204744,0.175566,0.281064}+I{0.477445}+G4{0.5582}: CIAlign_uce-25513.fa{3.17432},
+    TN{4.10816,2.67815}+F{0.272007,0.231241,0.191489,0.305263}+I{0.38399}+G4{0.504807}: CIAlign_uce-25552.fa{4.37932},
+    TIM3e{0.498088,2.6015,4.75103}+FQ+I{0.633615}+G4{1.72773}: CIAlign_uce-25627.fa{1.28456},
+    TPM2{2.25098,5.16168}+FQ+G4{0.668227}: CIAlign_uce-25666.fa{2.29855},
+    TPM3u{0.464183,4.87789}+F{0.313542,0.211204,0.167694,0.30756}+I{0.610568}+G4{1.80825}: CIAlign_uce-25779.fa{3.18344},
+    TPM2u{0.565732,4.36365}+F{0.284811,0.195482,0.23797,0.281737}+R3{0.569293,0.0394919,0.241937,1.19732,0.18877,3.6438}: CIAlign_uce-25787.fa{4.04406},
+    TPM2u{1.98744,8.165}+F{0.312347,0.17043,0.23328,0.283943}+I{0.599822}+G4{1.14827}: CIAlign_uce-25889.fa{2.63761},
+    HKY{7.44503}+F{0.267389,0.204181,0.226197,0.302233}+R3{0.623056,0.0577692,0.305043,1.59345,0.0719006,6.64715}: CIAlign_uce-25904.fa{2.14623},
+    TPM2u{2.77931,9.26434}+F{0.292533,0.176127,0.254052,0.277289}+I{0.317051}+G4{0.489997}: CIAlign_uce-26055.fa{2.99324},
+    TPM2u{1.99415,7.76158}+F{0.287287,0.173798,0.216047,0.322868}+I{0.493394}+G4{0.952029}: CIAlign_uce-26124.fa{3.26969},
+    TIM2{2.16839,4.53232,6.73627}+F{0.268808,0.220209,0.20346,0.307523}+I{0.442294}+G4{1.04478}: CIAlign_uce-26139.fa{2.27628},
+    HKY{3.83719}+F{0.289193,0.202536,0.189395,0.318875}+I{0.472018}+G4{0.738492}: CIAlign_uce-26180.fa{2.1469},
+    HKY{3.58382}+F{0.321344,0.183249,0.194039,0.301368}+I{0.475683}+R2{0.435852,0.968228,0.0884649,6.53361}: CIAlign_uce-26244.fa{1.15108},
+    TPM3u{0.593068,3.08287}+F{0.266778,0.222009,0.242838,0.268374}+I{0.426981}+G4{0.672085}: CIAlign_uce-2626.fa{4.13718},
+    TN{6.14074,3.18189}+F{0.32507,0.208739,0.201215,0.264975}+I{0.275443}+G4{0.552017}: CIAlign_uce-26280.fa{3.89062},
+    TN{5.27799,2.16534}+F{0.263647,0.21286,0.216134,0.307359}+I{0.53904}+R2{0.388063,1.22098,0.0728972,7.21817}: CIAlign_uce-26324.fa{2.69813},
+    GTR{0.308622,4.11073,0.278478,0.10081,1.67783}+F{0.328955,0.241557,0.152283,0.277204}+R3{0.616301,0.0797183,0.358606,2.02107,0.0250931,9.01052}: CIAlign_uce-26339.fa{4.07323},
+    TN{2.52747,7.88717}+F{0.340601,0.179956,0.1881,0.291344}+R3{0.634358,0.0991478,0.334209,1.80327,0.0314328,10.6396}: CIAlign_uce-26340.fa{3.52124},
+    TPM2u{2.26298,12.2338}+F{0.287573,0.204963,0.252169,0.255296}+R3{0.619575,0.0405612,0.205835,1.4042,0.17459,3.92827}: CIAlign_uce-26341.fa{5.90602},
+    TIM2{0.472906,5.72098,1.61851}+F{0.261051,0.287951,0.145997,0.305001}+I{0.579367}+G4{1.13877}: CIAlign_uce-26382.fa{2.91746},
+    TIM2{1.80267,2.5561,4.13086}+F{0.212971,0.253494,0.209553,0.323982}+G4{0.332615}: CIAlign_uce-26414.fa{4.18236},
+    TIM2{1.90196,4.50175,9.75762}+F{0.283332,0.196558,0.256399,0.263712}+G4{0.289695}: CIAlign_uce-26432.fa{3.70464},
+    HKY{8.2487}+F{0.286163,0.207934,0.226281,0.279623}+R3{0.588547,0.0373315,0.314322,1.46288,0.0971312,5.33518}: CIAlign_uce-26436.fa{4.99882},
+    TPM2u{2.71817,9.10823}+F{0.255882,0.252941,0.162325,0.328852}+I{0.523034}+G4{1.57246}: CIAlign_uce-26544.fa{1.26551},
+    TN{4.77701,3.0783}+F{0.267916,0.235858,0.207208,0.289018}+I{0.290812}+G4{1.28511}: CIAlign_uce-26590.fa{3.04487},
+    TPM3u{0.3332,3.09178}+F{0.26941,0.267728,0.138975,0.323887}+I{0.539523}+G4{2.38101}: CIAlign_uce-26638.fa{2.11232},
+    HKY{4.61861}+F{0.288829,0.251016,0.20064,0.259515}+I{0.416004}+G4{0.793899}: CIAlign_uce-26677.fa{1.91138},
+    K3Pu{15.341,3.54269}+F{0.289258,0.309133,0.13617,0.26544}+G4{0.241954}: CIAlign_uce-26771.fa{1.39677},
+    HKY{3.0381}+F{0.32451,0.208538,0.221048,0.245904}+R3{0.552653,0.102782,0.379243,1.39336,0.0681046,6.09027}: CIAlign_uce-26772.fa{2.50063},
+    TN{4.67054,3.12614}+F{0.32807,0.209006,0.203275,0.259649}+I{0.447811}+G4{1.29065}: CIAlign_uce-26843.fa{3.71154},
+    HKY{4.22156}+F{0.249223,0.204378,0.274312,0.272086}+I{0.360185}+G4{1.10467}: CIAlign_uce-26865.fa{5.49975},
+    TPM3u{1.84538,4.36706}+F{0.320639,0.174998,0.238694,0.265669}+I{0.48799}+G4{1.32675}: CIAlign_uce-26985.fa{3.18785},
+    TN{4.99686,6.29406}+F{0.234103,0.234479,0.244254,0.287165}+I{0.436206}+G4{0.965085}: CIAlign_uce-27040.fa{3.57273},
+    K3Pu{3.46923,0.666493}+F{0.252244,0.22152,0.269756,0.25648}+I{0.405966}+G4{1.37931}: CIAlign_uce-27042.fa{3.78875},
+    HKY{3.10717}+F{0.304804,0.216974,0.207095,0.271127}+I{0.411073}+G4{1.49084}: CIAlign_uce-2714.fa{3.18776},
+    HKY{4.4364}+F{0.260625,0.266055,0.183674,0.289646}+I{0.471641}+R3{0.342724,0.688405,0.166239,2.97969,0.0193963,13.8546}: CIAlign_uce-27192.fa{2.24242},
+    HKY{4.9962}+F{0.233605,0.25574,0.257537,0.253117}+I{0.53303}+G4{1.18386}: CIAlign_uce-27378.fa{4.16935},
+    HKY{4.18312}+F{0.297834,0.232627,0.165913,0.303625}+G4{0.51585}: CIAlign_uce-27520.fa{4.08828},
+    TN{5.73638,2.87763}+F{0.189469,0.211532,0.170932,0.428068}+G4{0.236069}: CIAlign_uce-27539.fa{2.45796},
+    TN{6.98109,3.7619}+F{0.318081,0.257965,0.139578,0.284376}+I{0.366789}+G4{0.66754}: CIAlign_uce-27545.fa{3.10078},
+    TN{3.51439,2.07219}+F{0.331099,0.196473,0.146621,0.325808}+I{0.320662}+G4{0.764071}: CIAlign_uce-27547.fa{7.17292},
+    TN{8.89664,1.64095}+F{0.284485,0.269784,0.110572,0.335158}+I{0.294611}+G4{0.391714}: CIAlign_uce-27550.fa{3.55602},
+    HKY{2.64194}+F{0.347132,0.188926,0.205933,0.258009}+I{0.304657}+G4{0.555435}: CIAlign_uce-27597.fa{4.7073},
+    TIM2{3.72279,5.5619,10.9571}+F{0.339967,0.151309,0.275899,0.232825}+I{0.311785}+G4{0.690292}: CIAlign_uce-27610.fa{3.05646},
+    HKY{4.60949}+F{0.253483,0.205159,0.183501,0.357858}+I{0.347332}+G4{0.572832}: CIAlign_uce-27625.fa{4.08141},
+    TPM2u{5.2544,9.33499}+F{0.273779,0.190552,0.27695,0.258719}+G4{0.192114}: CIAlign_uce-27626.fa{1.28275},
+    TPM3u{0.639211,2.15065}+F{0.250386,0.255687,0.224498,0.269429}+I{0.489943}+R3{0.371465,0.570762,0.102574,3.86709,0.0360181,10.8645}: CIAlign_uce-27741.fa{3.62706},
+    HKY{3.82265}+F{0.31358,0.219658,0.178362,0.2884}+G4{0.251444}: CIAlign_uce-27763.fa{1.36743},
+    TPM2u{1.71427,7.29202}+F{0.330911,0.205767,0.181101,0.28222}+G4{0.305771}: CIAlign_uce-27783.fa{5.27905},
+    HKY{4.1346}+F{0.331044,0.195358,0.214313,0.259284}+G4{0.30822}: CIAlign_uce-27830.fa{2.96911},
+    TPM3u{0.573127,3.50186}+F{0.292519,0.255254,0.18642,0.265807}+I{0.51436}+G4{1.08223}: CIAlign_uce-27831.fa{5.74877},
+    TIM3{0.505095,5.94589,4.38326}+F{0.24266,0.234687,0.22387,0.298782}+I{0.49785}+G4{1.03258}: CIAlign_uce-27929.fa{3.32311},
+    HKY{4.40003}+F{0.336294,0.218066,0.19392,0.25172}+I{0.321231}+G4{1.0853}: CIAlign_uce-28007.fa{4.14912},
+    TPM3u{0.258756,2.76213}+F{0.318182,0.198711,0.245037,0.23807}+R3{0.674179,0.1168,0.32077,2.23439,0.0050511,40.4923}: CIAlign_uce-28098.fa{1.03165},
+    TPM3u{0.433973,3.8608}+F{0.247889,0.249796,0.171615,0.3307}+I{0.518051}+R3{0.359086,0.919748,0.113044,3.89074,0.00981877,23.4151}: CIAlign_uce-28099.fa{1.43087},
+    TIM2{1.39278,4.59234,6.57605}+F{0.27774,0.204016,0.237024,0.281219}+I{0.440932}+G4{1.14009}: CIAlign_uce-2840.fa{3.24441},
+    HKY{7.58229}+F{0.285077,0.210049,0.278896,0.225978}+I{0.515641}+G4{0.978046}: CIAlign_uce-28516.fa{4.64549},
+    HKY{5.55845}+F{0.295816,0.206163,0.276698,0.221323}+I{0.496542}+G4{1.18745}: CIAlign_uce-28546.fa{5.93874},
+    TIM2{0.547993,4.34411,2.06558}+F{0.241723,0.21642,0.214132,0.327725}+I{0.398042}+G4{0.699655}: CIAlign_uce-28586.fa{3.08462},
+    TIM2{2.6047,3.321,9.31725}+F{0.238095,0.219512,0.233333,0.309059}+I{0.508375}+G4{0.538408}: CIAlign_uce-28698.fa{4.51488},
+    HKY{2.803}+F{0.276975,0.204566,0.224703,0.293756}+I{0.327823}+G4{0.880326}: CIAlign_uce-28849.fa{2.73689},
+    TPM3u{0.527841,5.29802}+F{0.227566,0.239254,0.21888,0.3143}+I{0.40771}+G4{0.588438}: CIAlign_uce-28892.fa{3.19804},
+    TPM3u{0.368934,3.80502}+F{0.237667,0.273194,0.216372,0.272766}+I{0.563524}+R2{0.364208,1.33153,0.0722672,7.12697}: CIAlign_uce-28894.fa{1.90088},
+    HKY{6.37117}+F{0.221591,0.255123,0.223543,0.299743}+I{0.640014}+R2{0.336546,1.7391,0.02344,17.6925}: CIAlign_uce-28895.fa{0.624143},
+    TN{6.19751,3.8122}+F{0.336005,0.229307,0.144362,0.290326}+I{0.536216}+R3{0.240115,0.768413,0.203258,2.72838,0.020411,12.7836}: CIAlign_uce-28896.fa{2.86747},
+    HKY{5.3318}+F{0.273981,0.249206,0.17488,0.301933}+I{0.464969}+G4{1.74136}: CIAlign_uce-29213.fa{3.91052},
+    TN{6.80851,4.24565}+F{0.237755,0.251952,0.204173,0.306121}+I{0.482416}+G4{1.09407}: CIAlign_uce-29251.fa{5.88806},
+    HKY{3.74294}+F{0.283998,0.221009,0.21937,0.275623}+I{0.626942}+G4{1.15428}: CIAlign_uce-29443.fa{4.37524},
+    TN{1.46469,4.317}+F{0.294346,0.193952,0.251909,0.259793}+G4{0.605421}: CIAlign_uce-29475.fa{2.67506},
+    HKY{2.17603}+F{0.271621,0.219316,0.273028,0.236034}+I{0.514618}+R2{0.426718,1.24242,0.0586642,8.0089}: CIAlign_uce-29580.fa{1.39427},
+    TIM2e{2.11737,6.30226,10.3763}+FQ+I{0.336904}+G4{0.968791}: CIAlign_uce-29605.fa{7.81465},
+    TN{5.30811,7.87967}+F{0.244802,0.197775,0.250249,0.307173}+R3{0.616439,0.0491826,0.364229,2.09876,0.0193321,10.6171}: CIAlign_uce-29669.fa{2.35051},
+    TIM2{0.671706,3.3063,5.44719}+F{0.378284,0.188551,0.207349,0.225816}+I{0.281216}+G4{1.59191}: CIAlign_uce-29727.fa{4.22072},
+    TIM2{0.402315,4.1087,1.84454}+F{0.269475,0.239547,0.179508,0.311471}+I{0.401912}+G4{1.05135}: CIAlign_uce-29732.fa{4.63158},
+    TPM3u{0.46648,2.54312}+F{0.280349,0.250728,0.223215,0.245707}+I{0.498911}+R2{0.433623,1.06931,0.0674653,7.9496}: CIAlign_uce-29738.fa{1.73021},
+    TIM2{1.65624,4.58241,9.7558}+F{0.395475,0.153637,0.205183,0.245704}+I{0.315898}+R3{0.483259,0.439107,0.17171,2.92975,0.0291338,9.77323}: CIAlign_uce-2981.fa{2.15743},
+    TPM3u{0.328197,7.24113}+F{0.312941,0.182221,0.209635,0.295203}+I{0.573872}+G4{0.975408}: CIAlign_uce-29811.fa{2.06013},
+    TPM3u{0.662261,3.78517}+F{0.284362,0.222653,0.169842,0.323144}+G4{0.259363}: CIAlign_uce-29870.fa{3.56735},
+    K2P{4.47857}+FQ+G4{0.208561}: CIAlign_uce-29899.fa{2.49882},
+    TPM3u{0.616118,3.97834}+F{0.316099,0.227703,0.233244,0.222954}+I{0.550515}+G4{1.07149}: CIAlign_uce-30161.fa{2.47815},
+    TPM2u{2.84988,11.1528}+F{0.307081,0.243264,0.211402,0.238253}+I{0.415101}+G4{0.769267}: CIAlign_uce-30219.fa{2.54318},
+    TPM2{2.50147,5.30729}+FQ+G4{0.393862}: CIAlign_uce-30230.fa{2.99993},
+    TPM3u{0.628448,5.30144}+F{0.253222,0.256617,0.209719,0.280443}+I{0.494474}+G4{1.20761}: CIAlign_uce-30267.fa{2.34972},
+    HKY{5.07719}+F{0.357482,0.19647,0.189563,0.256485}+I{0.442227}+G4{0.808942}: CIAlign_uce-3028.fa{3.04644},
+    HKY{2.81565}+F{0.299397,0.194715,0.217524,0.288363}+I{0.522462}+G4{0.786775}: CIAlign_uce-30321.fa{2.79294},
+    TPM3u{0.476965,4.99558}+F{0.306107,0.20996,0.189876,0.294057}+I{0.494902}+G4{0.894275}: CIAlign_uce-30435.fa{2.89842},
+    TPM3u{0.293426,3.60204}+F{0.370832,0.237759,0.187444,0.203965}+G4{0.256868}: CIAlign_uce-3047.fa{3.28685},
+    HKY{3.8365}+F{0.268591,0.202886,0.202982,0.325541}+I{0.427013}+G4{0.762377}: CIAlign_uce-30493.fa{3.02544},
+    TN{4.96737,7.03274}+F{0.251573,0.232079,0.223689,0.292659}+I{0.22635}+G4{0.33036}: CIAlign_uce-30515.fa{4.91744},
+    TN{4.55012,3.04366}+F{0.241707,0.204737,0.202562,0.350994}+I{0.183776}+R3{0.363188,0.344526,0.39048,1.56502,0.0625569,4.2164}: CIAlign_uce-30525.fa{4.71844},
+    TPM3u{0.47908,4.05532}+F{0.30581,0.233276,0.205944,0.254969}+I{0.477549}+G4{0.822249}: CIAlign_uce-30574.fa{3.84348},
+    TN{7.17185,3.17527}+F{0.373849,0.207182,0.160774,0.258195}+R3{0.703578,0.0735045,0.282296,2.56895,0.0141259,15.7922}: CIAlign_uce-3067.fa{2.72982},
+    TPM3u{0.55703,4.90779}+F{0.278441,0.248742,0.218648,0.254169}+G4{0.246627}: CIAlign_uce-30748.fa{3.34483},
+    TPM3u{0.571377,2.99084}+F{0.306603,0.216602,0.249094,0.227701}+I{0.378437}+G4{1.09766}: CIAlign_uce-30769.fa{4.83081},
+    TIM2{2.23045,7.4358,12.9185}+F{0.316698,0.183065,0.2079,0.292337}+I{0.550637}+G4{0.98892}: CIAlign_uce-30828.fa{2.85951},
+    TPM2{1.86771,6.22442}+FQ+G4{0.258475}: CIAlign_uce-30830.fa{2.79654},
+    HKY{5.6358}+F{0.247705,0.234766,0.163502,0.354027}+I{0.500912}+G4{1.59094}: CIAlign_uce-30836.fa{1.66279},
+    TPM3u{0.21716,2.78317}+F{0.251125,0.286159,0.199067,0.263649}+I{0.259991}+G4{0.485922}: CIAlign_uce-3102.fa{5.27242},
+    TIM3{0.526192,6.06931,2.74147}+F{0.213966,0.257344,0.216384,0.312306}+I{0.475282}+G4{0.946703}: CIAlign_uce-31067.fa{1.98482},
+    TIM{2.82947,1.66559,4.2608}+F{0.273134,0.148302,0.279791,0.298773}+I{0.307433}+G4{1.18855}: CIAlign_uce-31079.fa{2.78316},
+    TIM3e{0.378969,3.46243,1.89014}+FQ+G4{0.282713}: CIAlign_uce-31082.fa{2.02416},
+    HKY{4.36792}+F{0.318369,0.325393,0.124752,0.231486}+G4{0.235548}: CIAlign_uce-31174.fa{2.60083},
+    TN{3.52402,6.33404}+F{0.332079,0.168837,0.219103,0.279981}+I{0.526787}+G4{0.626399}: CIAlign_uce-31176.fa{1.63407},
+    HKY{6.9502}+F{0.276914,0.232752,0.200626,0.289707}+I{0.550453}+G4{0.728073}: CIAlign_uce-31286.fa{1.41544},
+    TIM2{1.9282,4.57927,10.8162}+F{0.315071,0.198127,0.241757,0.245044}+R3{0.647429,0.036446,0.31278,2.24636,0.0397919,6.88055}: CIAlign_uce-31287.fa{2.56833},
+    HKY{5.70975}+F{0.204397,0.252324,0.26681,0.276468}+I{0.198913}+G4{0.834129}: CIAlign_uce-31300.fa{6.41291},
+    K2P{7.8162}+FQ+G4{0.255113}: CIAlign_uce-31352.fa{2.24518},
+    TIM3{0.559371,5.95346,3.58921}+F{0.31358,0.222896,0.205953,0.257572}+I{0.435373}+G4{0.435406}: CIAlign_uce-31473.fa{2.41106},
+    HKY{4.8739}+F{0.342463,0.152833,0.198934,0.30577}+I{0.374714}+G4{1.66071}: CIAlign_uce-31484.fa{4.74716},
+    HKY{4.19555}+F{0.370517,0.148602,0.207015,0.273866}+I{0.432845}+G4{0.632023}: CIAlign_uce-31497.fa{4.52856},
+    TPM2u{1.38293,4.51528}+F{0.293976,0.240083,0.21834,0.2476}+I{0.258453}+G4{1.61012}: CIAlign_uce-31759.fa{2.50603},
+    HKY{6.97916}+F{0.370316,0.21217,0.194598,0.222916}+I{0.50019}+G4{0.932105}: CIAlign_uce-31829.fa{2.77038},
+    TPM3u{0.686547,4.96414}+F{0.281877,0.225067,0.225265,0.26779}+I{0.492708}+R2{0.263513,0.628028,0.243778,3.42322}: CIAlign_uce-3186.fa{4.26809},
+    TPM2u{1.40987,6.20931}+F{0.235058,0.277734,0.166797,0.320411}+I{0.503713}+G4{1.88742}: CIAlign_uce-31893.fa{2.20696},
+    HKY{3.30398}+F{0.266692,0.250938,0.183296,0.299075}+I{0.489948}+G4{0.597356}: CIAlign_uce-31907.fa{4.23689},
+    TPM2u{0.464445,3.21714}+F{0.329831,0.212629,0.180237,0.277304}+I{0.519686}+G4{1.31036}: CIAlign_uce-31967.fa{3.33974},
+    HKY{4.94222}+F{0.263154,0.239035,0.235465,0.262346}+G4{0.370075}: CIAlign_uce-32005.fa{1.92442},
+    HKY{2.82231}+F{0.385815,0.142344,0.221933,0.249907}+I{0.303107}+G4{0.565049}: CIAlign_uce-32057.fa{3.08092},
+    TN{4.52321,3.05396}+F{0.273259,0.241217,0.187785,0.297739}+R3{0.514418,0.0651301,0.419275,1.44675,0.0663077,5.42786}: CIAlign_uce-32088.fa{4.47656},
+    TIM2{2.07397,3.36689,6.7477}+F{0.209656,0.168313,0.285009,0.337022}+G4{0.262313}: CIAlign_uce-32102.fa{2.80801},
+    TIM3{2.19534,7.21088,13.9983}+F{0.366693,0.135277,0.242054,0.255976}+I{0.55877}+R2{0.38555,1.46755,0.0556805,7.7978}: CIAlign_uce-32146.fa{1.84106},
+    TN{5.72409,8.66524}+F{0.261447,0.254466,0.230306,0.253781}+I{0.457788}+G4{0.629778}: CIAlign_uce-32174.fa{4.44398},
+    TN{6.18689,3.27892}+F{0.281785,0.246994,0.149911,0.321309}+I{0.489168}+G4{0.591653}: CIAlign_uce-32214.fa{5.79015},
+    TIM2{1.88974,5.42986,9.75514}+F{0.274625,0.197105,0.224588,0.303682}+G4{0.266608}: CIAlign_uce-32270.fa{5.00321},
+    TPM2u{1.6288,6.19605}+F{0.251367,0.234818,0.254442,0.259373}+I{0.25243}+G4{0.843917}: CIAlign_uce-32355.fa{3.29225},
+    HKY{2.94588}+F{0.302771,0.213935,0.217079,0.266215}+I{0.425657}+G4{1.01733}: CIAlign_uce-32430.fa{2.90039},
+    TIM3{0.545834,3.86018,1.33033}+F{0.294204,0.215207,0.168668,0.32192}+G4{0.383031}: CIAlign_uce-32470.fa{3.52344},
+    TPM2u{1.41519,4.21895}+F{0.318227,0.172647,0.233717,0.275409}+I{0.322668}+R3{0.550347,0.737013,0.120153,3.9157,0.00683239,18.1348}: CIAlign_uce-32474.fa{3.67007},
+    TPM3u{0.566261,2.80994}+F{0.335281,0.252546,0.194249,0.217924}+G4{0.387777}: CIAlign_uce-32475.fa{2.05289},
+    HKY{3.65646}+F{0.318693,0.157981,0.256113,0.267213}+I{0.513177}+G4{2.41324}: CIAlign_uce-32509.fa{2.76652},
+    HKY{2.36617}+F{0.329871,0.17181,0.222453,0.275865}+I{0.425925}+R2{0.514877,0.763762,0.0591986,10.2495}: CIAlign_uce-3258.fa{2.19605},
+    TN{9.53935,4.93361}+F{0.21795,0.234604,0.247457,0.299988}+I{0.456555}+G4{1.39498}: CIAlign_uce-32689.fa{3.25234},
+    TPM3u{0.359318,2.46649}+F{0.20325,0.280639,0.215121,0.30099}+G4{0.258713}: CIAlign_uce-32720.fa{1.67625},
+    TPM3u{0.372282,2.53413}+F{0.288932,0.267839,0.151042,0.292187}+I{0.46969}+R2{0.452599,1.19705,0.0777107,5.89641}: CIAlign_uce-32735.fa{2.58965},
+    HKY{4.47551}+F{0.269251,0.141087,0.280576,0.309086}+G4{0.369014}: CIAlign_uce-32764.fa{1.22271},
+    TIM2{1.71486,4.00126,8.57681}+F{0.314128,0.199841,0.257452,0.22858}+I{0.445293}+G4{0.690778}: CIAlign_uce-32775.fa{3.4625},
+    TPM2u{0.660911,4.54172}+F{0.238508,0.177513,0.294132,0.289848}+I{0.207556}+R3{0.411745,0.213591,0.276,1.58634,0.104699,4.5294}: CIAlign_uce-32884.fa{5.50347},
+    TIM2{2.08281,3.1489,4.72259}+F{0.211597,0.23718,0.2612,0.290023}+I{0.409014}+G4{1.78041}: CIAlign_uce-32909.fa{2.79644},
+    TN{3.91632,8.73793}+F{0.386542,0.161192,0.249568,0.202699}+G4{0.272054}: CIAlign_uce-33011.fa{2.99245},
+    TPM2u{1.35847,3.66238}+F{0.319717,0.198208,0.233344,0.248731}+I{0.357288}+G4{0.762868}: CIAlign_uce-33015.fa{2.72922},
+    TIM3e{0.410921,4.89782,2.93914}+FQ+I{0.302763}+G4{0.650265}: CIAlign_uce-33050.fa{5.46876},
+    TIM3{1.92583,6.92445,14.4094}+F{0.322947,0.170896,0.235629,0.270528}+R4{0.519776,0.024173,0.198836,0.640417,0.23282,2.27313,0.0485672,6.81258}: CIAlign_uce-3309.fa{5.27498},
+    TN{8.43429,6.40722}+F{0.275727,0.200805,0.233981,0.289487}+I{0.476497}+G4{0.909465}: CIAlign_uce-33091.fa{4.73054},
+    TIM3{0.385853,2.97126,0.823719}+F{0.346043,0.249484,0.17331,0.231163}+R4{0.681348,0.0624797,0.153252,1.04741,0.150995,3.91703,0.0144046,14.2635}: CIAlign_uce-33206.fa{4.48186},
+    HKY{6.16697}+F{0.264791,0.202627,0.199628,0.332954}+R3{0.565297,0.028592,0.362709,1.55986,0.0719944,5.80688}: CIAlign_uce-33241.fa{3.04484},
+    K2P{5.19934}+FQ+G4{0.279492}: CIAlign_uce-33428.fa{2.16428},
+    TN{1.70807,4.9606}+F{0.272694,0.188742,0.210187,0.328378}+R3{0.692222,0.0807124,0.261482,1.78729,0.0462959,10.2986}: CIAlign_uce-33443.fa{3.70537},
+    TPM2u{1.45825,5.16695}+F{0.324923,0.232234,0.196252,0.246591}+I{0.346724}+G4{0.951317}: CIAlign_uce-33521.fa{2.36886},
+    HKY{5.72657}+F{0.282128,0.236699,0.182193,0.298981}+I{0.570712}+G4{1.62029}: CIAlign_uce-33639.fa{2.24901},
+    TPM2u{0.418016,3.4628}+F{0.307129,0.190972,0.183519,0.318379}+I{0.432652}+G4{1.2894}: CIAlign_uce-33668.fa{4.2663},
+    TIM3{0.628743,2.73907,2.13917}+F{0.300657,0.204078,0.251514,0.243751}+I{0.514393}+G4{1.31564}: CIAlign_uce-33691.fa{2.0799},
+    HKY{5.54854}+F{0.319957,0.234325,0.201003,0.244715}+I{0.447343}+G4{1.62464}: CIAlign_uce-33739.fa{3.59419},
+    TIM3{0.507183,11.1571,4.40676}+F{0.263143,0.265369,0.173202,0.298286}+I{0.489435}+G4{0.843274}: CIAlign_uce-33747.fa{4.42608},
+    TPM2u{2.4365,6.66226}+F{0.298644,0.166652,0.234997,0.299707}+I{0.371219}+G4{0.788359}: CIAlign_uce-33749.fa{4.79545},
+    TIM3{0.563892,4.78994,2.06149}+F{0.278651,0.279217,0.169364,0.272768}+I{0.433723}+G4{0.823211}: CIAlign_uce-3379.fa{3.30803},
+    HKY{6.43998}+F{0.322956,0.168508,0.152842,0.355694}+I{0.353917}+G4{0.661443}: CIAlign_uce-33949.fa{6.27385},
+    TIM3{4.44104,10.5983,24.7009}+F{0.33394,0.117198,0.258599,0.290264}+I{0.471095}+G4{0.914954}: CIAlign_uce-33993.fa{3.03393},
+    TPM2u{2.0495,5.26731}+F{0.254249,0.202814,0.195836,0.347101}+I{0.484239}+G4{2.23196}: CIAlign_uce-3406.fa{3.26517},
+    HKY{5.31638}+F{0.37819,0.178441,0.222425,0.220943}+I{0.441244}+G4{1.34635}: CIAlign_uce-34159.fa{3.80593},
+    TIM2{0.468682,3.92997,2.14436}+F{0.248881,0.177663,0.194475,0.378981}+G4{0.473157}: CIAlign_uce-34185.fa{3.66786},
+    HKY{4.66093}+F{0.239697,0.202629,0.227499,0.330175}+I{0.489436}+G4{1.03312}: CIAlign_uce-34210.fa{4.4484},
+    HKY{4.44184}+F{0.187695,0.257477,0.252425,0.302404}+I{0.498726}+G4{0.847733}: CIAlign_uce-34267.fa{1.07002},
+    GTR{4.73052,6.10356,1.14706,0.488197,14.1822}+F{0.279049,0.164664,0.268192,0.288096}+I{0.509106}+G4{0.549693}: CIAlign_uce-34324.fa{3.25235},
+    TPM2u{2.11944,7.61166}+F{0.253346,0.218622,0.244964,0.283068}+R3{0.71714,0.108722,0.216405,2.04285,0.0664554,7.22212}: CIAlign_uce-34366.fa{2.07096},
+    HKY{3.51255}+F{0.242902,0.231296,0.248187,0.277616}+G4{0.400817}: CIAlign_uce-34406.fa{2.06293},
+    TIM3e{0.427218,4.78004,3.12303}+FQ+I{0.441717}+G4{1.00638}: CIAlign_uce-34507.fa{3.04851},
+    TPM2u{0.303881,2.86021}+F{0.35566,0.191752,0.193328,0.259259}+I{0.499202}+R2{0.443869,0.995916,0.0569295,9.80061}: CIAlign_uce-34528.fa{1.12765},
+    TIM3{2.22624,5.43164,7.26462}+F{0.262592,0.258422,0.201968,0.277018}+G4{0.26105}: CIAlign_uce-34571.fa{1.05151},
+    HKY{4.94897}+F{0.288833,0.194795,0.259252,0.257121}+I{0.484659}+G4{1.71162}: CIAlign_uce-3459.fa{3.43445},
+    TN{3.55812,6.52013}+F{0.362915,0.189728,0.244626,0.202731}+I{0.27558}+G4{1.0239}: CIAlign_uce-34922.fa{4.04073},
+    TPM2u{5.94197,13.2294}+F{0.298868,0.140798,0.288802,0.271531}+G4{0.397136}: CIAlign_uce-35009.fa{1.30456},
+    HKY{8.08234}+F{0.414889,0.206733,0.174648,0.20373}+R3{0.630538,0.0486212,0.359832,2.19068,0.00963019,18.8019}: CIAlign_uce-35011.fa{1.2487},
+    TPM2u{2.20649,9.19425}+F{0.311458,0.148839,0.233194,0.306509}+I{0.356993}+G4{1.07478}: CIAlign_uce-35055.fa{6.39159},
+    TPM3u{0.67943,4.71425}+F{0.22381,0.268807,0.230756,0.276627}+G4{0.26732}: CIAlign_uce-35112.fa{2.29317},
+    TIM3{0.330263,4.99205,2.63934}+F{0.289788,0.259444,0.197135,0.253632}+I{0.425575}+G4{0.659361}: CIAlign_uce-35150.fa{4.66173},
+    HKY{4.51567}+F{0.28363,0.200994,0.220834,0.294542}+I{0.503869}+G4{1.11638}: CIAlign_uce-35151.fa{1.93694},
+    K3Pu{6.21437,1.87221}+F{0.308844,0.210142,0.194811,0.286203}+I{0.508343}+G4{1.54474}: CIAlign_uce-35203.fa{3.54346},
+    TPM2u{0.546303,3.37729}+F{0.289077,0.228187,0.14391,0.338827}+I{0.434254}+G4{1.78146}: CIAlign_uce-35230.fa{2.77266},
+    HKY{3.44845}+F{0.24293,0.177189,0.237921,0.341959}+I{0.377397}+G4{0.755931}: CIAlign_uce-35404.fa{5.95805},
+    TPM3u{0.399501,3.42375}+F{0.285605,0.252622,0.204591,0.257182}+G4{0.229907}: CIAlign_uce-35424.fa{2.94383},
+    TPM2u{3.83424,13.3712}+F{0.217735,0.22538,0.195881,0.361004}+I{0.542605}+G4{1.32267}: CIAlign_uce-35436.fa{4.62527},
+    TN{5.85218,2.82548}+F{0.305132,0.219998,0.158441,0.316428}+I{0.413186}+G4{0.734017}: CIAlign_uce-35494.fa{4.15739},
+    HKY{5.25647}+F{0.263565,0.189508,0.17853,0.368397}+I{0.421777}+G4{0.816937}: CIAlign_uce-35495.fa{2.65059},
+    TN{6.64432,4.19594}+F{0.299073,0.203147,0.186548,0.311232}+I{0.382638}+G4{0.842923}: CIAlign_uce-35776.fa{4.7932},
+    TN{2.71501,4.23936}+F{0.317282,0.188565,0.212984,0.281169}+I{0.449396}+G4{1.78938}: CIAlign_uce-35782.fa{3.78129},
+    TPM3u{0.645045,3.6458}+F{0.229197,0.151756,0.26948,0.349567}+I{0.51983}+R2{0.411951,1.10853,0.0682181,7.96472}: CIAlign_uce-35801.fa{2.06073},
+    TPM3u{0.605282,2.61992}+F{0.309427,0.201123,0.255062,0.234388}+G4{0.265442}: CIAlign_uce-35805.fa{3.4182},
+    TPM3u{0.74025,2.54286}+F{0.318249,0.188418,0.246869,0.246465}+I{0.388807}+G4{0.754012}: CIAlign_uce-35828.fa{3.89519},
+    K3Pu{6.23701,1.9425}+F{0.271416,0.242273,0.174861,0.311451}+I{0.485027}+R2{0.440426,1.27825,0.0745464,5.86246}: CIAlign_uce-35867.fa{2.44386},
+    TN{2.51956,4.55967}+F{0.301511,0.217226,0.177172,0.304091}+I{0.260704}+G4{0.375251}: CIAlign_uce-35983.fa{8.65025},
+    TN{4.69948,6.29898}+F{0.277376,0.263357,0.211287,0.247979}+I{0.34661}+G4{0.746774}: CIAlign_uce-36059.fa{6.05285},
+    TN{3.62818,5.78892}+F{0.315717,0.205976,0.186119,0.292188}+I{0.397948}+R3{0.31394,0.309697,0.266651,2.56002,0.0214608,10.2578}: CIAlign_uce-36060.fa{3.43297},
+    TIM2{3.61485,8.19064,13.2587}+F{0.26652,0.232477,0.210072,0.290931}+I{0.521252}+R2{0.425418,1.4014,0.0533302,7.57204}: CIAlign_uce-36068.fa{1.07009},
+    HKY{3.6358}+F{0.335318,0.204844,0.195257,0.264581}+I{0.472393}+G4{0.529721}: CIAlign_uce-36093.fa{1.39398},
+    TPM2u{1.87268,5.19306}+F{0.279438,0.149367,0.212508,0.358687}+R3{0.658942,0.0982525,0.297702,1.86956,0.0433557,8.73438}: CIAlign_uce-36225.fa{1.59471},
+    TIM3{0.351712,9.31868,3.47449}+F{0.284454,0.229065,0.185317,0.301164}+I{0.580151}+G4{1.35542}: CIAlign_uce-36320.fa{2.32486},
+    HKY{3.63577}+F{0.337706,0.151144,0.186853,0.324297}+I{0.472476}+G4{1.97036}: CIAlign_uce-36414.fa{2.67957},
+    HKY{4.76791}+F{0.316634,0.179475,0.222276,0.281615}+I{0.421253}+R2{0.489232,0.892605,0.0895145,6.29293}: CIAlign_uce-36415.fa{2.1276},
+    HKY{4.75284}+F{0.304034,0.211799,0.243726,0.240441}+I{0.558438}+R2{0.403526,1.58007,0.0380358,9.52789}: CIAlign_uce-36416.fa{1.02194},
+    TIM2{3.23231,5.90691,17.223}+F{0.270785,0.201535,0.254468,0.273213}+G4{0.20649}: CIAlign_uce-36456.fa{0.897093},
+    HKY{3.9097}+F{0.289818,0.295147,0.17089,0.244144}+G4{0.530744}: CIAlign_uce-36459.fa{4.20795},
+    HKY{3.56965}+F{0.204568,0.267233,0.208328,0.319872}+I{0.488773}+G4{2.20241}: CIAlign_uce-36528.fa{2.1207},
+    TN{1.90993,4.83904}+F{0.302993,0.173278,0.235523,0.288206}+I{0.359965}+R3{0.458402,0.586038,0.153725,2.86455,0.027908,10.4274}: CIAlign_uce-36604.fa{5.82844},
+    HKY{3.66312}+F{0.337749,0.206572,0.18269,0.272989}+I{0.253106}+G4{0.771561}: CIAlign_uce-3665.fa{6.25451},
+    TN{4.26837,1.97619}+F{0.324647,0.19559,0.167908,0.311856}+I{0.321719}+G4{0.481722}: CIAlign_uce-36659.fa{4.15209},
+    TPM3u{0.342978,3.85841}+F{0.245884,0.190153,0.231385,0.332578}+I{0.583673}+G4{1.28044}: CIAlign_uce-36692.fa{3.47678},
+    TIM3{0.338831,3.6611,2.25039}+F{0.34009,0.261555,0.177634,0.220721}+I{0.297481}+G4{0.666996}: CIAlign_uce-369.fa{5.67409},
+    TIM2{2.16523,13.207,9.95533}+F{0.309761,0.204934,0.240916,0.244389}+I{0.550083}+G4{1.59115}: CIAlign_uce-3693.fa{1.61684},
+    HKY{3.65031}+F{0.300555,0.234679,0.20852,0.256246}+R3{0.635641,0.0568516,0.296268,1.56739,0.0680909,7.33571}: CIAlign_uce-36992.fa{4.12927},
+    TN{0.312843,3.31188}+F{0.230365,0.228526,0.226819,0.314289}+I{0.847934}+R2{0.137352,2.70308,0.0147143,42.7289}: CIAlign_uce-37073.fa{0.41464},
+    TPM3u{0.507771,3.7591}+F{0.248269,0.26692,0.194327,0.290484}+I{0.574885}+G4{2.16529}: CIAlign_uce-37268.fa{1.60701},
+    K2P{5.40805}+FQ+G4{0.258982}: CIAlign_uce-37439.fa{3.19395},
+    TPM3u{0.725291,4.18969}+F{0.287604,0.230175,0.230124,0.252097}+I{0.469832}+G4{1.54786}: CIAlign_uce-37547.fa{2.42621},
+    K3Pu{4.44213,0.448488}+F{0.264892,0.186692,0.237389,0.311026}+I{0.480546}+G4{0.831509}: CIAlign_uce-37821.fa{4.12724},
+    HKY{8.13461}+F{0.375167,0.177237,0.208902,0.238694}+G4{0.258838}: CIAlign_uce-37919.fa{4.20629},
+    GTR{1.1839,8.56378,2.2415,0.109854,4.77243}+F{0.322359,0.222359,0.200686,0.254595}+G4{0.261705}: CIAlign_uce-37961.fa{1.92251},
+    HKY{4.45702}+F{0.323699,0.210066,0.17341,0.292824}+I{0.491157}+G4{1.12931}: CIAlign_uce-38073.fa{2.46918},
+    HKY{6.76032}+F{0.266336,0.190894,0.244428,0.298342}+I{0.413226}+G4{0.452428}: CIAlign_uce-38134.fa{3.39619},
+    HKY{7.14024}+F{0.317311,0.194585,0.160736,0.327369}+I{0.54948}+G4{2.22112}: CIAlign_uce-3819.fa{2.2765},
+    TIM{5.29336,0.50935,3.79076}+F{0.281112,0.188794,0.231142,0.298952}+I{0.410486}+G4{1.0696}: CIAlign_uce-38254.fa{4.83956},
+    HKY{6.80275}+F{0.292926,0.183319,0.264279,0.259476}+I{0.542483}+G4{1.05652}: CIAlign_uce-38272.fa{3.89353},
+    TIM{3.29494,0.470725,7.38059}+F{0.324892,0.161439,0.230887,0.282782}+I{0.444363}+G4{0.727855}: CIAlign_uce-38388.fa{2.65818},
+    TIM2{1.21061,3.54476,9.28562}+F{0.310985,0.200947,0.232148,0.25592}+I{0.497073}+G4{1.14245}: CIAlign_uce-38441.fa{4.49798},
+    TPM2{3.30137,12.0494}+FQ+R3{0.759242,0.104724,0.212962,2.50081,0.0277961,13.9556}: CIAlign_uce-38446.fa{1.49291},
+    TIM3{0.593461,4.07564,2.42061}+F{0.256516,0.239265,0.194892,0.309326}+I{0.556984}+R3{0.30576,0.771163,0.119414,3.81282,0.0178423,17.3131}: CIAlign_uce-3846.fa{2.6383},
+    K3P{3.22156,0.565091}+FQ+I{0.426945}+G4{1.84586}: CIAlign_uce-38646.fa{4.17486},
+    HKY{5.93629}+F{0.241803,0.248308,0.193902,0.315987}+I{0.506491}+G4{0.934572}: CIAlign_uce-38650.fa{3.57569},
+    HKY{4.79488}+F{0.318818,0.226212,0.170105,0.284865}+I{0.45362}+G4{1.45037}: CIAlign_uce-38734.fa{2.30632},
+    TIM2{0.650923,3.0019,1.87329}+F{0.295409,0.242591,0.12097,0.341029}+I{0.307415}+G4{0.931349}: CIAlign_uce-38767.fa{6.17398},
+    TPM3u{0.589362,2.75458}+F{0.330379,0.268954,0.171342,0.229325}+I{0.561772}+G4{1.07927}: CIAlign_uce-38785.fa{3.33747},
+    HKY{4.63214}+F{0.280083,0.220418,0.182072,0.317427}+R3{0.654294,0.0569342,0.332666,2.26436,0.0130398,16.0639}: CIAlign_uce-38805.fa{1.41772},
+    TIM3{0.440542,4.36435,2.34292}+F{0.228939,0.22642,0.255528,0.289113}+I{0.551034}+G4{1.0825}: CIAlign_uce-38821.fa{3.03455},
+    TPM3u{0.521064,3.70133}+F{0.288864,0.224442,0.208958,0.277736}+I{0.410076}+G4{0.803864}: CIAlign_uce-38924.fa{4.1365},
+    TIM3{3.51203,8.82321,17.6126}+F{0.288232,0.156453,0.235719,0.319595}+I{0.464658}+G4{0.754473}: CIAlign_uce-38967.fa{3.07231},
+    TPM3u{2.62658,7.42215}+F{0.306995,0.188227,0.17594,0.328838}+R2{0.611356,0.0442601,0.388644,2.50342}: CIAlign_uce-39033.fa{2.77809},
+    TN{2.22801,3.85433}+F{0.286759,0.19361,0.245359,0.274272}+I{0.313949}+G4{0.379422}: CIAlign_uce-39106.fa{4.55516},
+    TPM2u{2.88848,7.70628}+F{0.295062,0.245132,0.236917,0.222889}+I{0.424567}+G4{1.26896}: CIAlign_uce-39175.fa{6.01928},
+    TIM3{0.393158,2.83635,1.41845}+F{0.291891,0.266132,0.151663,0.290314}+I{0.436579}+G4{0.89734}: CIAlign_uce-39184.fa{4.24704},
+    TIM3{0.58385,3.13132,2.16193}+F{0.369668,0.221787,0.176386,0.232159}+R3{0.595481,0.0811612,0.333517,1.40927,0.0710016,6.78373}: CIAlign_uce-39191.fa{3.14675},
+    TN{3.68834,6.47582}+F{0.346346,0.165679,0.20402,0.283955}+R3{0.595409,0.0510691,0.335178,1.43283,0.0694128,7.04968}: CIAlign_uce-39248.fa{4.60945},
+    TIM2{1.98214,4.74154,12.82}+F{0.324869,0.184868,0.271382,0.218881}+I{0.39667}+G4{0.647315}: CIAlign_uce-39249.fa{3.45951},
+    HKY{4.46128}+F{0.278574,0.207852,0.276416,0.237157}+I{0.323034}+G4{1.37901}: CIAlign_uce-39264.fa{4.94807},
+    TPM2u{2.17665,9.37317}+F{0.275774,0.235122,0.183765,0.305339}+I{0.397619}+G4{1.33166}: CIAlign_uce-39267.fa{2.50659},
+    TPM2u{1.4658,5.00259}+F{0.271995,0.248352,0.225375,0.254279}+R3{0.72537,0.139813,0.267153,2.76638,0.00747634,21.3387}: CIAlign_uce-39274.fa{1.58939},
+    TPM3u{0.423059,2.44055}+F{0.326487,0.217171,0.165774,0.290568}+R3{0.725606,0.103024,0.203995,1.14806,0.0703989,9.81618}: CIAlign_uce-39334.fa{4.00915},
+    TPM2u{0.607869,3.02788}+F{0.305144,0.168225,0.198278,0.328353}+R3{0.631956,0.0851433,0.308447,1.66378,0.0595971,7.26552}: CIAlign_uce-39477.fa{2.26246},
+    K3Pu{3.05431,0.733414}+F{0.313835,0.188516,0.245752,0.251897}+I{0.36856}+G4{1.54228}: CIAlign_uce-39514.fa{4.62722},
+    TIM3{1.47737,4.38293,7.69167}+F{0.350964,0.181726,0.191128,0.276181}+I{0.249568}+G4{0.95627}: CIAlign_uce-39621.fa{5.36279},
+    HKY{5.0646}+F{0.292972,0.209441,0.179498,0.318089}+I{0.402797}+G4{0.791294}: CIAlign_uce-3972.fa{3.75961},
+    GTR{0.392723,2.97316,0.416163,0.232948,1.87316}+F{0.295342,0.249069,0.167996,0.287592}+I{0.329411}+R3{0.296173,0.443403,0.327139,1.79712,0.0472768,5.93884}: CIAlign_uce-3975.fa{3.81051},
+    K3Pu{1.62387,0.212918}+F{0.267652,0.279835,0.194839,0.257675}+I{0.506896}+R2{0.443325,1.37983,0.0497784,7.80028}: CIAlign_uce-39793.fa{1.22043},
+    HKY{3.10309}+F{0.293005,0.2274,0.187265,0.29233}+R4{0.655658,0.0309713,0.219163,1.23141,0.114724,4.02157,0.0104555,23.7621}: CIAlign_uce-39798.fa{3.37654},
+    HKY{4.67901}+F{0.32054,0.170765,0.204198,0.304498}+I{0.523962}+G4{0.580025}: CIAlign_uce-39843.fa{3.84373},
+    HKY{4.10842}+F{0.329609,0.22905,0.207502,0.233839}+I{0.379359}+R3{0.441524,0.717756,0.139698,2.36837,0.0394188,8.93578}: CIAlign_uce-3994.fa{3.15008},
+    TPM2u{1.61663,3.72777}+F{0.242247,0.215311,0.209729,0.332713}+G4{0.301318}: CIAlign_uce-39967.fa{4.44713},
+    HKY{6.1225}+F{0.281304,0.22435,0.236484,0.257862}+R3{0.749785,0.135418,0.234434,2.87807,0.0157818,14.1777}: CIAlign_uce-40254.fa{1.29671},
+    TPM2u{2.34515,6.64814}+F{0.319557,0.172985,0.185302,0.322157}+I{0.501365}+G4{1.04863}: CIAlign_uce-40328.fa{5.47433},
+    TN{3.2084,1.91741}+F{0.294775,0.228533,0.198073,0.278619}+I{0.423883}+G4{1.24637}: CIAlign_uce-4036.fa{2.36391},
+    HKY{6.0752}+F{0.23773,0.211597,0.293335,0.257338}+R4{0.636197,0.0391504,0.167283,1.08359,0.160851,3.15827,0.035669,8.01301}: CIAlign_uce-4040.fa{4.69365},
+    HKY{4.79302}+F{0.24383,0.258884,0.208046,0.28924}+I{0.428464}+G4{0.996757}: CIAlign_uce-4045.fa{2.98099},
+    TPM2u{0.392554,3.32041}+F{0.330485,0.224363,0.154875,0.290277}+G4{0.320403}: CIAlign_uce-40474.fa{1.38402},
+    TPM3u{0.538754,3.41779}+F{0.26559,0.263952,0.191413,0.279045}+I{0.454014}+G4{0.989509}: CIAlign_uce-40602.fa{3.56236},
+    K3Pu{3.29973,0.61836}+F{0.219989,0.243146,0.223229,0.313636}+R3{0.577295,0.114772,0.292177,1.08498,0.130528,4.72492}: CIAlign_uce-40624.fa{3.82027},
+    HKY{4.30147}+F{0.284654,0.224756,0.188076,0.302513}+I{0.421858}+G4{0.871852}: CIAlign_uce-40674.fa{2.78799},
+    TIM{13.6457,2.4094,5.19874}+F{0.289848,0.217747,0.194001,0.298404}+I{0.550376}+G4{1.36741}: CIAlign_uce-40683.fa{1.91977},
+    HKY{6.82277}+F{0.234027,0.245043,0.189719,0.331212}+I{0.478566}+G4{0.779657}: CIAlign_uce-40731.fa{2.52404},
+    TIM3{0.44644,6.06082,2.78994}+F{0.268162,0.275353,0.145417,0.311068}+I{0.539809}+G4{1.0281}: CIAlign_uce-40765.fa{5.35744},
+    TPM3u{0.283394,2.54971}+F{0.336453,0.221398,0.174601,0.267549}+R3{0.593165,0.0490073,0.330249,1.35099,0.0765858,6.85203}: CIAlign_uce-4163.fa{4.28505},
+    TIM2{0.482324,6.28137,2.6557}+F{0.277684,0.243831,0.137372,0.341114}+R3{0.675292,0.17366,0.286968,2.01337,0.0377399,8.08048}: CIAlign_uce-4173.fa{3.43238},
+    TIM3{0.2388,5.56747,0.957556}+F{0.298929,0.313571,0.133393,0.254107}+G4{0.166132}: CIAlign_uce-4205.fa{2.10601},
+    TN{2.42703,6.82258}+F{0.395723,0.162478,0.209215,0.232584}+R3{0.599188,0.080332,0.359935,1.85028,0.0408765,6.99384}: CIAlign_uce-4239.fa{1.95388},
+    TN{3.70585,5.15659}+F{0.260431,0.226722,0.240237,0.27261}+I{0.296444}+G4{1.19177}: CIAlign_uce-425.fa{5.98873},
+    TPM2u{0.447381,4.73689}+F{0.366788,0.235995,0.187404,0.209813}+G4{0.208366}: CIAlign_uce-428.fa{2.10844},
+    TPM2u{4.20551,6.67524}+F{0.256397,0.169761,0.286335,0.287506}+I{0.532922}+R2{0.36513,0.734208,0.101948,7.17937}: CIAlign_uce-4322.fa{2.84567},
+    TIM2{1.59617,1.97211,3.50506}+F{0.239166,0.20591,0.23348,0.321444}+G4{0.299664}: CIAlign_uce-4327.fa{4.76533},
+    TPM2u{1.71298,2.08028}+F{0.257322,0.216831,0.179039,0.346808}+G4{0.421547}: CIAlign_uce-4330.fa{4.20624},
+    TPM3u{0.531053,3.43457}+F{0.279613,0.207489,0.250712,0.262186}+I{0.471184}+G4{1.18875}: CIAlign_uce-4622.fa{2.2334},
+    HKY{4.90285}+F{0.309723,0.217643,0.176691,0.295943}+I{0.418711}+G4{0.762603}: CIAlign_uce-4653.fa{3.58946},
+    TPM2u{0.522546,3.42373}+F{0.36086,0.166592,0.18352,0.289028}+I{0.310285}+G4{0.984549}: CIAlign_uce-4678.fa{3.03031},
+    TPM2u{1.75423,6.68884}+F{0.274378,0.209663,0.21591,0.300049}+R3{0.643458,0.0635626,0.319347,2.06968,0.0371956,8.0159}: CIAlign_uce-4691.fa{2.79282},
+    TPM3u{0.406392,2.31934}+F{0.337925,0.208003,0.169582,0.28449}+G4{0.324803}: CIAlign_uce-4889.fa{2.42516},
+    TN{6.45734,2.42698}+F{0.30666,0.232982,0.161239,0.299119}+I{0.508428}+R3{0.285564,0.503398,0.187193,2.87579,0.0188151,16.8971}: CIAlign_uce-5234.fa{2.63462},
+    HKY{4.21235}+F{0.400173,0.152268,0.17625,0.271309}+G4{0.229528}: CIAlign_uce-5243.fa{0.867909},
+    TPM3u{0.306306,2.3699}+F{0.265099,0.258378,0.134053,0.342471}+I{0.491447}+G4{0.395985}: CIAlign_uce-5320.fa{2.85466},
+    TN{4.4389,2.71335}+F{0.299049,0.223843,0.181104,0.296005}+I{0.414735}+G4{1.71849}: CIAlign_uce-5326.fa{3.35646},
+    TN{2.87282,4.24592}+F{0.269057,0.202245,0.214885,0.313814}+I{0.496822}+G4{1.08067}: CIAlign_uce-5449.fa{4.00918},
+    TN{4.23805,2.71276}+F{0.288653,0.194245,0.15787,0.359232}+I{0.303867}+G4{1.28724}: CIAlign_uce-547.fa{2.79704},
+    HKY{3.27813}+F{0.324667,0.203605,0.142675,0.329053}+I{0.29339}+G4{2.63344}: CIAlign_uce-5525.fa{4.07245},
+    TPM3u{0.644027,4.73298}+F{0.230148,0.257477,0.199725,0.31265}+I{0.359521}+G4{0.934777}: CIAlign_uce-5560.fa{4.89991},
+    TIM3{0.548155,9.20718,3.65492}+F{0.235181,0.270344,0.15556,0.338916}+I{0.532115}+G4{0.751127}: CIAlign_uce-5691.fa{2.97841},
+    TIM3{0.359263,5.29003,1.74269}+F{0.274157,0.239864,0.154983,0.330997}+I{0.427003}+G4{0.708255}: CIAlign_uce-5763.fa{2.81377},
+    TIM2e{2.49847,5.77053,10.8488}+FQ+I{0.526534}+G4{1.57674}: CIAlign_uce-5967.fa{4.17134},
+    TIM3{2.21013,5.80793,8.81558}+F{0.341506,0.176128,0.203256,0.279111}+R3{0.51587,0.0964409,0.367575,1.53018,0.116555,3.32713}: CIAlign_uce-5990.fa{3.93323},
+    HKY{3.54414}+F{0.240617,0.229316,0.25111,0.278957}+G4{0.258374}: CIAlign_uce-6237.fa{1.73006},
+    TN{6.58181,2.85375}+F{0.258664,0.247992,0.174028,0.319315}+I{0.40321}+G4{1.15123}: CIAlign_uce-6244.fa{2.87605},
+    TIM3{0.606127,4.94893,3.15315}+F{0.30934,0.216438,0.193713,0.280509}+I{0.39862}+G4{0.814415}: CIAlign_uce-6250.fa{5.43305},
+    K3Pu{4.01507,0.588137}+F{0.319736,0.223307,0.206206,0.250751}+I{0.448264}+G4{1.64312}: CIAlign_uce-6374.fa{3.98229},
+    TN{4.52453,6.63998}+F{0.305218,0.221627,0.207279,0.265876}+I{0.443697}+G4{1.07173}: CIAlign_uce-6550.fa{5.48574},
+    HKY{2.24724}+F{0.291802,0.202847,0.196295,0.309056}+G4{0.473109}: CIAlign_uce-6553.fa{2.85105},
+    HKY{5.50833}+F{0.215511,0.266671,0.247253,0.270566}+G4{0.261729}: CIAlign_uce-6598.fa{7.39108},
+    TIM3{0.737988,5.2454,3.36815}+F{0.257323,0.23677,0.208842,0.297065}+I{0.373946}+G4{0.770876}: CIAlign_uce-675.fa{2.67642},
+    TN{14.092,5.7079}+F{0.236971,0.281701,0.111517,0.36981}+I{0.56716}+G4{1.96269}: CIAlign_uce-6782.fa{2.62718},
+    HKY{3.98566}+F{0.301823,0.195235,0.199286,0.303656}+G4{0.283391}: CIAlign_uce-6787.fa{3.49558},
+    HKY{4.39385}+F{0.261893,0.206192,0.226034,0.30588}+I{0.444542}+G4{1.35021}: CIAlign_uce-6882.fa{2.58557},
+    TIM{4.1712,0.510745,5.4088}+F{0.28358,0.215513,0.226907,0.274001}+R3{0.613569,0.0667068,0.262182,1.62182,0.124249,4.29668}: CIAlign_uce-693.fa{3.56999},
+    HKY{4.40128}+F{0.325621,0.243777,0.220374,0.210228}+I{0.422083}+G4{2.08892}: CIAlign_uce-6957.fa{3.37554},
+    TIM3{0.470143,4.83896,2.3222}+F{0.26288,0.247364,0.208673,0.281082}+I{0.389901}+G4{0.831768}: CIAlign_uce-696.fa{4.79845},
+    TIM2{1.94855,3.87505,7.61827}+F{0.245937,0.266184,0.23666,0.251219}+I{0.576385}+R3{0.27503,0.789385,0.123873,3.68202,0.0247128,13.2237}: CIAlign_uce-6976.fa{2.16562},
+    TN{2.76184,4.08413}+F{0.348182,0.152871,0.19338,0.305567}+R3{0.419317,0.103063,0.497914,1.20568,0.0827685,4.30671}: CIAlign_uce-7044.fa{4.15341},
+    TN{3.64006,8.12876}+F{0.279369,0.219878,0.224577,0.276177}+I{0.493874}+G4{0.57497}: CIAlign_uce-711.fa{2.82947},
+    TN{4.99708,2.35896}+F{0.305505,0.217839,0.152599,0.324057}+R3{0.589096,0.119959,0.339135,1.176,0.0717694,7.39188}: CIAlign_uce-7169.fa{3.58382},
+    TPM2u{2.46149,7.8216}+F{0.240423,0.28273,0.179006,0.29784}+I{0.518962}+G4{1.54668}: CIAlign_uce-7271.fa{4.0007},
+    HKY{5.47421}+F{0.273607,0.186402,0.238861,0.301131}+I{0.457898}+G4{1.02589}: CIAlign_uce-731.fa{2.44531},
+    TN{5.34572,3.14521}+F{0.324645,0.201377,0.18246,0.291518}+I{0.321717}+G4{0.601954}: CIAlign_uce-750.fa{5.81321},
+    TIM{1.71334,1.98987,6.28622}+F{0.264025,0.157965,0.183667,0.394343}+I{0.645595}+R2{0.296591,1.07118,0.057814,11.8016}: CIAlign_uce-7534.fa{0.704625},
+    TIM{3.55042,1.7623,7.39035}+F{0.315051,0.185246,0.21257,0.287132}+I{0.446454}+G4{0.799254}: CIAlign_uce-7659.fa{3.19567},
+    TIM{3.08929,0.556984,4.79019}+F{0.336597,0.196216,0.20629,0.260898}+I{0.477959}+G4{1.05965}: CIAlign_uce-7662.fa{3.74138},
+    TPM3u{0.58517,4.397}+F{0.308486,0.216332,0.22923,0.245953}+I{0.511425}+G4{1.15219}: CIAlign_uce-7668.fa{3.55439},
+    TIM3{1.52205,7.36609,5.08216}+F{0.286617,0.306409,0.151436,0.255538}+I{0.362796}+G4{0.898214}: CIAlign_uce-7709.fa{3.55414},
+    TPM2u{0.724166,4.57746}+F{0.266091,0.186318,0.253559,0.294032}+I{0.412491}+G4{1.20374}: CIAlign_uce-7711.fa{3.18761},
+    HKY{5.28289}+F{0.271918,0.215102,0.218482,0.294498}+I{0.415008}+G4{1.07432}: CIAlign_uce-7760.fa{4.00311},
+    TIM3{0.648308,3.94004,2.32889}+F{0.312839,0.193409,0.228575,0.265177}+R3{0.583788,0.10603,0.279235,1.32798,0.136977,4.14146}: CIAlign_uce-7780.fa{3.54064},
+    TVM{0.736036,5.7506,2.28758,0.967207}+F{0.285661,0.237323,0.179503,0.297513}+I{0.407281}+R3{0.357834,0.386509,0.225796,3.18829,0.00908921,15.6}: CIAlign_uce-7810.fa{3.23824},
+    TPM3u{0.688093,2.64324}+F{0.230536,0.236451,0.206359,0.326654}+I{0.356878}+G4{1.13006}: CIAlign_uce-7844.fa{2.41608},
+    TPM2u{2.08955,6.43136}+F{0.259435,0.197183,0.250409,0.292973}+I{0.502612}+R3{0.175114,0.500468,0.307686,2.36885,0.0145881,12.5788}: CIAlign_uce-7892.fa{3.87498},
+    TIM3{0.28668,9.727,2.63518}+F{0.288441,0.178191,0.205367,0.328001}+I{0.58487}: CIAlign_uce-7943.fa{1.00558},
+    TN{4.96969,2.57864}+F{0.32639,0.196803,0.190281,0.286525}+R3{0.581469,0.0481013,0.372108,1.54101,0.0464223,8.5866}: CIAlign_uce-7981.fa{2.86911},
+    HKY{5.14284}+F{0.310432,0.200375,0.19431,0.294883}+G4{0.192209}: CIAlign_uce-7994.fa{1.66061},
+    HKY{7.40431}+F{0.339267,0.208979,0.130032,0.321723}+I{0.491991}+G4{1.95609}: CIAlign_uce-8029.fa{2.46876},
+    TVM{0.567038,2.46486,0.421483,0.062434}+F{0.299091,0.245375,0.177865,0.277669}+I{0.519229}+G4{0.904695}: CIAlign_uce-8056.fa{6.12849},
+    HKY{3.13298}+F{0.342479,0.207506,0.172343,0.277673}+I{0.396843}+G4{0.653136}: CIAlign_uce-8080.fa{3.9086},
+    HKY{2.52567}+F{0.257035,0.261624,0.181568,0.299773}+R3{0.46848,0.0694494,0.420215,1.14446,0.111305,4.37126}: CIAlign_uce-8081.fa{3.05932},
+    HKY{4.04523}+F{0.317729,0.232504,0.151789,0.297978}+G4{0.246981}: CIAlign_uce-8138.fa{4.44853},
+    HKY{6.93199}+F{0.301143,0.176054,0.208562,0.314241}+I{0.472635}+G4{0.942077}: CIAlign_uce-8466.fa{2.03794},
+    TPM3u{0.547299,3.55301}+F{0.360123,0.216851,0.1656,0.257426}+I{0.403864}+G4{0.808788}: CIAlign_uce-849.fa{3.20243},
+    TIM3{0.405008,3.82651,1.91954}+F{0.295857,0.299855,0.171512,0.232776}+I{0.406008}+R3{0.329094,0.3897,0.222789,2.51547,0.0421093,7.39347}: CIAlign_uce-8496.fa{3.94946},
+    TPM3u{0.375756,2.57659}+F{0.301247,0.256367,0.21421,0.228175}+I{0.511483}+G4{1.17105}: CIAlign_uce-8612.fa{2.64226},
+    TIM2{6.96493,4.37517,16.3694}+F{0.240098,0.233329,0.251044,0.275529}+G4{0.192732}: CIAlign_uce-8699.fa{1.99318},
+    TN{3.63028,6.26933}+F{0.330196,0.192885,0.231917,0.245002}+I{0.505762}+G4{1.00561}: CIAlign_uce-870.fa{2.32702},
+    HKY{6.3632}+F{0.305855,0.220411,0.21304,0.260694}+I{0.509085}+G4{1.62106}: CIAlign_uce-8702.fa{3.49328},
+    TPM2u{1.41169,9.42749}+F{0.276519,0.204718,0.255011,0.263751}+R4{0.618538,0.0452332,0.218986,1.22114,0.148339,3.70186,0.0141372,10.998}: CIAlign_uce-8707.fa{4.87853},
+    TPM2u{2.35372,6.67432}+F{0.244257,0.284839,0.216583,0.254321}+I{0.403435}+G4{1.21437}: CIAlign_uce-8753.fa{3.90734},
+    HKY{4.08698}+F{0.310014,0.223707,0.216633,0.249646}+I{0.560525}+G4{1.63646}: CIAlign_uce-8827.fa{1.91852},
+    HKY{3.4786}+F{0.260131,0.206758,0.252047,0.281065}+I{0.342383}+G4{1.00457}: CIAlign_uce-8828.fa{3.48311},
+    TIM2{1.93885,4.61694,8.32842}+F{0.289524,0.154413,0.216892,0.339172}+R3{0.663934,0.0711256,0.252819,1.30146,0.0832468,7.49271}: CIAlign_uce-8846.fa{4.76209},
+    TN{1.76433,8.77831}+F{0.43572,0.138324,0.214538,0.211419}+R3{0.719593,0.0948866,0.257231,2.17511,0.023176,16.0603}: CIAlign_uce-8932.fa{2.52143},
+    GTR{0.223425,2.84757,0.470794,0.317245,1.5626}+F{0.250746,0.24384,0.158753,0.346661}+I{0.340614}+G4{0.724788}: CIAlign_uce-8955.fa{4.28905},
+    HKY{2.30877}+F{0.257101,0.234565,0.184825,0.32351}+I{0.5923}+R2{0.343928,1.49499,0.0637719,7.61826}: CIAlign_uce-8997.fa{1.59668},
+    TPM2u{0.637069,4.48164}+F{0.259747,0.197772,0.228493,0.313988}+I{0.409772}+G4{1.09901}: CIAlign_uce-9002.fa{4.00646},
+    TPM3{0.301831,2.40941}+FQ+G4{0.346549}: CIAlign_uce-903.fa{1.66898},
+    TIM{4.34696,1.82405,6.34226}+F{0.313303,0.226658,0.18317,0.276869}+I{0.0998925}+R4{0.394433,0.0230185,0.309524,0.78948,0.171779,2.93785,0.0243719,9.92522}: CIAlign_uce-9031.fa{5.66784},
+    HKY{4.14757}+F{0.302537,0.19682,0.217796,0.282847}+I{0.52664}+G4{1.63488}: CIAlign_uce-9415.fa{2.56544},
+    HKY{5.36921}+F{0.296645,0.201377,0.253284,0.248694}+I{0.470516}+G4{1.11673}: CIAlign_uce-9437.fa{2.91271},
+    TN{7.88517,2.41869}+F{0.223279,0.291945,0.228673,0.256103}+I{0.385029}+G4{0.677355}: CIAlign_uce-9471.fa{2.832},
+    TIM2{2.34351,8.18857,22.068}+F{0.331129,0.14903,0.229056,0.290785}+G4{0.262268}: CIAlign_uce-9508.fa{2.89765},
+    HKY{2.85326}+F{0.27895,0.156117,0.240416,0.324517}+I{0.679793}+R2{0.274411,1.71288,0.045796,11.5724}: CIAlign_uce-9518.fa{1.21543},
+    HKY{3.97294}+F{0.372565,0.190237,0.212309,0.22489}+I{0.324064}+R4{0.308148,0.2285,0.219079,1.3035,0.135166,3.26499,0.0135434,14.9671}: CIAlign_uce-9589.fa{4.46271},
+    HKY{5.20387}+F{0.295583,0.217981,0.180757,0.305678}+I{0.418347}+G4{1.61278}: CIAlign_uce-9608.fa{3.08286},
+    TN{11.1908,3.44312}+F{0.234221,0.234649,0.169821,0.361309}+R3{0.592369,0.0526619,0.349667,1.50233,0.0579642,7.6511}: CIAlign_uce-9694.fa{2.19516},
+    K2P{4.3569}+FQ+I{0.51938}+G4{1.28495}: CIAlign_uce-9710.fa{2.69859},
+    TPM3u{0.612565,4.76734}+F{0.31734,0.200025,0.180758,0.301878}+I{0.490149}+G4{0.790573}: CIAlign_uce-9730.fa{4.11281},
+    TIM3{0.591572,2.44807,3.80962}+F{0.311458,0.222639,0.195303,0.270601}+I{0.451396}+G4{2.31869}: CIAlign_uce-976.fa{4.191},
+    TIM3{0.608332,4.17339,2.761}+F{0.246015,0.236236,0.187726,0.330022}+I{0.28576}+G4{0.947374}: CIAlign_uce-981.fa{4.50434},
+    TPM3u{0.516225,5.2895}+F{0.337496,0.253021,0.171794,0.237689}+I{0.483234}+G4{1.20587}: CIAlign_uce-9935.fa{3.1607},
+    HKY{6.18383}+F{0.293428,0.273246,0.153741,0.279586}+I{0.531635}+G4{1.0552}: CIAlign_uce-9966.fa{3.37221},
+    TIM3{0.483432,10.2095,2.84698}+F{0.277819,0.287912,0.147341,0.286928}+I{0.452082}+G4{0.676421}: CIAlign_uce-9968.fa{3.89323};
+end;

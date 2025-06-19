@@ -1,0 +1,1248 @@
+#nexus
+begin sets;
+  charset CIAlign_uce-10009.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10009.fa: ;
+  charset CIAlign_uce-10172.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10172.fa: ;
+  charset CIAlign_uce-10182.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10182.fa: ;
+  charset CIAlign_uce-10226.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10226.fa: ;
+  charset CIAlign_uce-10320.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10320.fa: ;
+  charset CIAlign_uce-10348.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10348.fa: ;
+  charset CIAlign_uce-10555.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10555.fa: ;
+  charset CIAlign_uce-10659.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10659.fa: ;
+  charset CIAlign_uce-1076.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1076.fa: ;
+  charset CIAlign_uce-10812.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10812.fa: ;
+  charset CIAlign_uce-10890.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10890.fa: ;
+  charset CIAlign_uce-10916.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10916.fa: ;
+  charset CIAlign_uce-10918.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10918.fa: ;
+  charset CIAlign_uce-10932.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10932.fa: ;
+  charset CIAlign_uce-1095.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1095.fa: ;
+  charset CIAlign_uce-10968.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-10968.fa: ;
+  charset CIAlign_uce-11073.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11073.fa: ;
+  charset CIAlign_uce-11136.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11136.fa: ;
+  charset CIAlign_uce-11427.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11427.fa: ;
+  charset CIAlign_uce-1144.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1144.fa: ;
+  charset CIAlign_uce-11548.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11548.fa: ;
+  charset CIAlign_uce-11573.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11573.fa: ;
+  charset CIAlign_uce-11739.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11739.fa: ;
+  charset CIAlign_uce-11740.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11740.fa: ;
+  charset CIAlign_uce-118.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-118.fa: ;
+  charset CIAlign_uce-11820.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11820.fa: ;
+  charset CIAlign_uce-11993.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-11993.fa: ;
+  charset CIAlign_uce-12105.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12105.fa: ;
+  charset CIAlign_uce-12167.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12167.fa: ;
+  charset CIAlign_uce-12227.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12227.fa: ;
+  charset CIAlign_uce-1223.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1223.fa: ;
+  charset CIAlign_uce-12273.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12273.fa: ;
+  charset CIAlign_uce-12368.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12368.fa: ;
+  charset CIAlign_uce-12383.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12383.fa: ;
+  charset CIAlign_uce-12504.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12504.fa: ;
+  charset CIAlign_uce-12511.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12511.fa: ;
+  charset CIAlign_uce-12515.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12515.fa: ;
+  charset CIAlign_uce-12553.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12553.fa: ;
+  charset CIAlign_uce-12694.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12694.fa: ;
+  charset CIAlign_uce-12735.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12735.fa: ;
+  charset CIAlign_uce-12740.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12740.fa: ;
+  charset CIAlign_uce-12755.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12755.fa: ;
+  charset CIAlign_uce-12808.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12808.fa: ;
+  charset CIAlign_uce-12892.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12892.fa: ;
+  charset CIAlign_uce-12986.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-12986.fa: ;
+  charset CIAlign_uce-13005.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13005.fa: ;
+  charset CIAlign_uce-13079.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13079.fa: ;
+  charset CIAlign_uce-13109.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13109.fa: ;
+  charset CIAlign_uce-13110.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13110.fa: ;
+  charset CIAlign_uce-13112.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13112.fa: ;
+  charset CIAlign_uce-13153.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13153.fa: ;
+  charset CIAlign_uce-13273.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13273.fa: ;
+  charset CIAlign_uce-13298.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13298.fa: ;
+  charset CIAlign_uce-13324.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13324.fa: ;
+  charset CIAlign_uce-13498.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13498.fa: ;
+  charset CIAlign_uce-13635.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13635.fa: ;
+  charset CIAlign_uce-13941.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-13941.fa: ;
+  charset CIAlign_uce-14008.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14008.fa: ;
+  charset CIAlign_uce-14049.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14049.fa: ;
+  charset CIAlign_uce-14091.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14091.fa: ;
+  charset CIAlign_uce-1410.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1410.fa: ;
+  charset CIAlign_uce-14138.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14138.fa: ;
+  charset CIAlign_uce-14299.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14299.fa: ;
+  charset CIAlign_uce-1443.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1443.fa: ;
+  charset CIAlign_uce-1444.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1444.fa: ;
+  charset CIAlign_uce-14535.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14535.fa: ;
+  charset CIAlign_uce-14541.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14541.fa: ;
+  charset CIAlign_uce-14780.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14780.fa: ;
+  charset CIAlign_uce-14783.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14783.fa: ;
+  charset CIAlign_uce-14809.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14809.fa: ;
+  charset CIAlign_uce-14863.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-14863.fa: ;
+  charset CIAlign_uce-15033.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-15033.fa: ;
+  charset CIAlign_uce-15037.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-15037.fa: ;
+  charset CIAlign_uce-15135.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-15135.fa: ;
+  charset CIAlign_uce-1519.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1519.fa: ;
+  charset CIAlign_uce-15292.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-15292.fa: ;
+  charset CIAlign_uce-1561.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1561.fa: ;
+  charset CIAlign_uce-15616.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-15616.fa: ;
+  charset CIAlign_uce-15680.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-15680.fa: ;
+  charset CIAlign_uce-1591.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1591.fa: ;
+  charset CIAlign_uce-16071.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16071.fa: ;
+  charset CIAlign_uce-16245.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16245.fa: ;
+  charset CIAlign_uce-16304.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16304.fa: ;
+  charset CIAlign_uce-16373.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16373.fa: ;
+  charset CIAlign_uce-16467.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16467.fa: ;
+  charset CIAlign_uce-16513.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16513.fa: ;
+  charset CIAlign_uce-16528.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16528.fa: ;
+  charset CIAlign_uce-16529.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16529.fa: ;
+  charset CIAlign_uce-16530.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16530.fa: ;
+  charset CIAlign_uce-16539.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16539.fa: ;
+  charset CIAlign_uce-16542.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16542.fa: ;
+  charset CIAlign_uce-1661.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1661.fa: ;
+  charset CIAlign_uce-16622.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16622.fa: ;
+  charset CIAlign_uce-16737.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16737.fa: ;
+  charset CIAlign_uce-16739.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-16739.fa: ;
+  charset CIAlign_uce-168.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-168.fa: ;
+  charset CIAlign_uce-1694.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1694.fa: ;
+  charset CIAlign_uce-1696.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1696.fa: ;
+  charset CIAlign_uce-17130.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17130.fa: ;
+  charset CIAlign_uce-17172.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17172.fa: ;
+  charset CIAlign_uce-17215.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17215.fa: ;
+  charset CIAlign_uce-17216.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17216.fa: ;
+  charset CIAlign_uce-1727.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1727.fa: ;
+  charset CIAlign_uce-17291.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17291.fa: ;
+  charset CIAlign_uce-17296.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17296.fa: ;
+  charset CIAlign_uce-17457.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17457.fa: ;
+  charset CIAlign_uce-17490.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17490.fa: ;
+  charset CIAlign_uce-17491.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17491.fa: ;
+  charset CIAlign_uce-17492.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17492.fa: ;
+  charset CIAlign_uce-17580.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17580.fa: ;
+  charset CIAlign_uce-17585.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17585.fa: ;
+  charset CIAlign_uce-17603.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17603.fa: ;
+  charset CIAlign_uce-17715.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17715.fa: ;
+  charset CIAlign_uce-17805.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17805.fa: ;
+  charset CIAlign_uce-17825.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17825.fa: ;
+  charset CIAlign_uce-17828.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17828.fa: ;
+  charset CIAlign_uce-17866.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-17866.fa: ;
+  charset CIAlign_uce-1797.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1797.fa: ;
+  charset CIAlign_uce-18104.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18104.fa: ;
+  charset CIAlign_uce-18242.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18242.fa: ;
+  charset CIAlign_uce-18245.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18245.fa: ;
+  charset CIAlign_uce-18287.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18287.fa: ;
+  charset CIAlign_uce-18299.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18299.fa: ;
+  charset CIAlign_uce-18317.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18317.fa: ;
+  charset CIAlign_uce-18367.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18367.fa: ;
+  charset CIAlign_uce-18385.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18385.fa: ;
+  charset CIAlign_uce-18387.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18387.fa: ;
+  charset CIAlign_uce-1842.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1842.fa: ;
+  charset CIAlign_uce-18486.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18486.fa: ;
+  charset CIAlign_uce-18500.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18500.fa: ;
+  charset CIAlign_uce-18679.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18679.fa: ;
+  charset CIAlign_uce-18734.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18734.fa: ;
+  charset CIAlign_uce-18817.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18817.fa: ;
+  charset CIAlign_uce-18906.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18906.fa: ;
+  charset CIAlign_uce-18909.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-18909.fa: ;
+  charset CIAlign_uce-19018.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19018.fa: ;
+  charset CIAlign_uce-19063.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19063.fa: ;
+  charset CIAlign_uce-19064.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19064.fa: ;
+  charset CIAlign_uce-19069.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19069.fa: ;
+  charset CIAlign_uce-19073.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19073.fa: ;
+  charset CIAlign_uce-19140.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19140.fa: ;
+  charset CIAlign_uce-19154.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19154.fa: ;
+  charset CIAlign_uce-19306.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19306.fa: ;
+  charset CIAlign_uce-19325.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19325.fa: ;
+  charset CIAlign_uce-19336.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19336.fa: ;
+  charset CIAlign_uce-19354.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19354.fa: ;
+  charset CIAlign_uce-19356.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19356.fa: ;
+  charset CIAlign_uce-1938.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1938.fa: ;
+  charset CIAlign_uce-19632.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19632.fa: ;
+  charset CIAlign_uce-19658.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19658.fa: ;
+  charset CIAlign_uce-19689.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19689.fa: ;
+  charset CIAlign_uce-1973.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-1973.fa: ;
+  charset CIAlign_uce-19973.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-19973.fa: ;
+  charset CIAlign_uce-20045.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20045.fa: ;
+  charset CIAlign_uce-20066.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20066.fa: ;
+  charset CIAlign_uce-20245.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20245.fa: ;
+  charset CIAlign_uce-20254.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20254.fa: ;
+  charset CIAlign_uce-20401.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20401.fa: ;
+  charset CIAlign_uce-20417.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20417.fa: ;
+  charset CIAlign_uce-20467.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20467.fa: ;
+  charset CIAlign_uce-20468.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20468.fa: ;
+  charset CIAlign_uce-20471.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20471.fa: ;
+  charset CIAlign_uce-20483.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20483.fa: ;
+  charset CIAlign_uce-20572.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20572.fa: ;
+  charset CIAlign_uce-20676.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20676.fa: ;
+  charset CIAlign_uce-20777.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20777.fa: ;
+  charset CIAlign_uce-20807.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20807.fa: ;
+  charset CIAlign_uce-2084.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2084.fa: ;
+  charset CIAlign_uce-20889.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20889.fa: ;
+  charset CIAlign_uce-20892.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20892.fa: ;
+  charset CIAlign_uce-20940.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-20940.fa: ;
+  charset CIAlign_uce-21162.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21162.fa: ;
+  charset CIAlign_uce-21183.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21183.fa: ;
+  charset CIAlign_uce-2119.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2119.fa: ;
+  charset CIAlign_uce-21263.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21263.fa: ;
+  charset CIAlign_uce-21264.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21264.fa: ;
+  charset CIAlign_uce-21267.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21267.fa: ;
+  charset CIAlign_uce-21275.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21275.fa: ;
+  charset CIAlign_uce-21362.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21362.fa: ;
+  charset CIAlign_uce-21409.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21409.fa: ;
+  charset CIAlign_uce-21496.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21496.fa: ;
+  charset CIAlign_uce-21626.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21626.fa: ;
+  charset CIAlign_uce-21695.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21695.fa: ;
+  charset CIAlign_uce-21740.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21740.fa: ;
+  charset CIAlign_uce-21858.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21858.fa: ;
+  charset CIAlign_uce-2197.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2197.fa: ;
+  charset CIAlign_uce-21978.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-21978.fa: ;
+  charset CIAlign_uce-22009.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22009.fa: ;
+  charset CIAlign_uce-2206.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2206.fa: ;
+  charset CIAlign_uce-22064.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22064.fa: ;
+  charset CIAlign_uce-22195.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22195.fa: ;
+  charset CIAlign_uce-22213.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22213.fa: ;
+  charset CIAlign_uce-22317.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22317.fa: ;
+  charset CIAlign_uce-22330.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22330.fa: ;
+  charset CIAlign_uce-22413.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22413.fa: ;
+  charset CIAlign_uce-22430.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22430.fa: ;
+  charset CIAlign_uce-22549.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22549.fa: ;
+  charset CIAlign_uce-22581.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22581.fa: ;
+  charset CIAlign_uce-22594.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22594.fa: ;
+  charset CIAlign_uce-22624.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22624.fa: ;
+  charset CIAlign_uce-22644.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22644.fa: ;
+  charset CIAlign_uce-22645.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22645.fa: ;
+  charset CIAlign_uce-22646.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22646.fa: ;
+  charset CIAlign_uce-22658.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22658.fa: ;
+  charset CIAlign_uce-22688.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22688.fa: ;
+  charset CIAlign_uce-22689.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22689.fa: ;
+  charset CIAlign_uce-2291.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2291.fa: ;
+  charset CIAlign_uce-22946.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22946.fa: ;
+  charset CIAlign_uce-22965.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22965.fa: ;
+  charset CIAlign_uce-22977.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-22977.fa: ;
+  charset CIAlign_uce-23147.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23147.fa: ;
+  charset CIAlign_uce-2318.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2318.fa: ;
+  charset CIAlign_uce-23237.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23237.fa: ;
+  charset CIAlign_uce-23347.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23347.fa: ;
+  charset CIAlign_uce-2346.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2346.fa: ;
+  charset CIAlign_uce-23541.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23541.fa: ;
+  charset CIAlign_uce-23569.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23569.fa: ;
+  charset CIAlign_uce-23576.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23576.fa: ;
+  charset CIAlign_uce-23668.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23668.fa: ;
+  charset CIAlign_uce-23690.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23690.fa: ;
+  charset CIAlign_uce-23713.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23713.fa: ;
+  charset CIAlign_uce-23715.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23715.fa: ;
+  charset CIAlign_uce-23800.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23800.fa: ;
+  charset CIAlign_uce-23837.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23837.fa: ;
+  charset CIAlign_uce-23975.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-23975.fa: ;
+  charset CIAlign_uce-24115.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24115.fa: ;
+  charset CIAlign_uce-24367.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24367.fa: ;
+  charset CIAlign_uce-24410.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24410.fa: ;
+  charset CIAlign_uce-24422.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24422.fa: ;
+  charset CIAlign_uce-24448.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24448.fa: ;
+  charset CIAlign_uce-24460.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24460.fa: ;
+  charset CIAlign_uce-24477.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24477.fa: ;
+  charset CIAlign_uce-24536.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24536.fa: ;
+  charset CIAlign_uce-24559.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24559.fa: ;
+  charset CIAlign_uce-24560.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24560.fa: ;
+  charset CIAlign_uce-24603.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24603.fa: ;
+  charset CIAlign_uce-24605.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24605.fa: ;
+  charset CIAlign_uce-24650.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24650.fa: ;
+  charset CIAlign_uce-24678.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24678.fa: ;
+  charset CIAlign_uce-24715.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24715.fa: ;
+  charset CIAlign_uce-24716.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24716.fa: ;
+  charset CIAlign_uce-24734.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24734.fa: ;
+  charset CIAlign_uce-24794.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-24794.fa: ;
+  charset CIAlign_uce-25004.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25004.fa: ;
+  charset CIAlign_uce-25136.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25136.fa: ;
+  charset CIAlign_uce-2516.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2516.fa: ;
+  charset CIAlign_uce-25262.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25262.fa: ;
+  charset CIAlign_uce-25263.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25263.fa: ;
+  charset CIAlign_uce-25279.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25279.fa: ;
+  charset CIAlign_uce-25388.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25388.fa: ;
+  charset CIAlign_uce-25390.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25390.fa: ;
+  charset CIAlign_uce-25409.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25409.fa: ;
+  charset CIAlign_uce-25420.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25420.fa: ;
+  charset CIAlign_uce-2544.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2544.fa: ;
+  charset CIAlign_uce-25459.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25459.fa: ;
+  charset CIAlign_uce-25501.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25501.fa: ;
+  charset CIAlign_uce-25513.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25513.fa: ;
+  charset CIAlign_uce-25552.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25552.fa: ;
+  charset CIAlign_uce-25627.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25627.fa: ;
+  charset CIAlign_uce-25666.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25666.fa: ;
+  charset CIAlign_uce-25779.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25779.fa: ;
+  charset CIAlign_uce-25787.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25787.fa: ;
+  charset CIAlign_uce-25889.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25889.fa: ;
+  charset CIAlign_uce-25904.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-25904.fa: ;
+  charset CIAlign_uce-26055.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26055.fa: ;
+  charset CIAlign_uce-26124.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26124.fa: ;
+  charset CIAlign_uce-26139.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26139.fa: ;
+  charset CIAlign_uce-26180.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26180.fa: ;
+  charset CIAlign_uce-26244.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26244.fa: ;
+  charset CIAlign_uce-2626.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2626.fa: ;
+  charset CIAlign_uce-26280.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26280.fa: ;
+  charset CIAlign_uce-26324.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26324.fa: ;
+  charset CIAlign_uce-26339.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26339.fa: ;
+  charset CIAlign_uce-26340.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26340.fa: ;
+  charset CIAlign_uce-26341.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26341.fa: ;
+  charset CIAlign_uce-26382.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26382.fa: ;
+  charset CIAlign_uce-26414.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26414.fa: ;
+  charset CIAlign_uce-26432.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26432.fa: ;
+  charset CIAlign_uce-26436.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26436.fa: ;
+  charset CIAlign_uce-26544.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26544.fa: ;
+  charset CIAlign_uce-26590.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26590.fa: ;
+  charset CIAlign_uce-26638.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26638.fa: ;
+  charset CIAlign_uce-26677.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26677.fa: ;
+  charset CIAlign_uce-26771.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26771.fa: ;
+  charset CIAlign_uce-26772.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26772.fa: ;
+  charset CIAlign_uce-26843.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26843.fa: ;
+  charset CIAlign_uce-26865.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26865.fa: ;
+  charset CIAlign_uce-26985.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-26985.fa: ;
+  charset CIAlign_uce-27040.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27040.fa: ;
+  charset CIAlign_uce-27042.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27042.fa: ;
+  charset CIAlign_uce-2714.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2714.fa: ;
+  charset CIAlign_uce-27192.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27192.fa: ;
+  charset CIAlign_uce-27378.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27378.fa: ;
+  charset CIAlign_uce-27520.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27520.fa: ;
+  charset CIAlign_uce-27539.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27539.fa: ;
+  charset CIAlign_uce-27545.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27545.fa: ;
+  charset CIAlign_uce-27547.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27547.fa: ;
+  charset CIAlign_uce-27550.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27550.fa: ;
+  charset CIAlign_uce-27597.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27597.fa: ;
+  charset CIAlign_uce-27610.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27610.fa: ;
+  charset CIAlign_uce-27625.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27625.fa: ;
+  charset CIAlign_uce-27626.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27626.fa: ;
+  charset CIAlign_uce-27741.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27741.fa: ;
+  charset CIAlign_uce-27763.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27763.fa: ;
+  charset CIAlign_uce-27783.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27783.fa: ;
+  charset CIAlign_uce-27830.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27830.fa: ;
+  charset CIAlign_uce-27831.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27831.fa: ;
+  charset CIAlign_uce-27929.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-27929.fa: ;
+  charset CIAlign_uce-28007.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28007.fa: ;
+  charset CIAlign_uce-28098.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28098.fa: ;
+  charset CIAlign_uce-28099.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28099.fa: ;
+  charset CIAlign_uce-2840.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2840.fa: ;
+  charset CIAlign_uce-28516.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28516.fa: ;
+  charset CIAlign_uce-28546.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28546.fa: ;
+  charset CIAlign_uce-28586.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28586.fa: ;
+  charset CIAlign_uce-28698.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28698.fa: ;
+  charset CIAlign_uce-28849.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28849.fa: ;
+  charset CIAlign_uce-28892.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28892.fa: ;
+  charset CIAlign_uce-28894.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28894.fa: ;
+  charset CIAlign_uce-28895.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28895.fa: ;
+  charset CIAlign_uce-28896.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-28896.fa: ;
+  charset CIAlign_uce-29213.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29213.fa: ;
+  charset CIAlign_uce-29251.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29251.fa: ;
+  charset CIAlign_uce-29443.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29443.fa: ;
+  charset CIAlign_uce-29475.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29475.fa: ;
+  charset CIAlign_uce-29580.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29580.fa: ;
+  charset CIAlign_uce-29605.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29605.fa: ;
+  charset CIAlign_uce-29669.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29669.fa: ;
+  charset CIAlign_uce-29727.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29727.fa: ;
+  charset CIAlign_uce-29732.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29732.fa: ;
+  charset CIAlign_uce-29738.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29738.fa: ;
+  charset CIAlign_uce-2981.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-2981.fa: ;
+  charset CIAlign_uce-29811.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29811.fa: ;
+  charset CIAlign_uce-29870.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29870.fa: ;
+  charset CIAlign_uce-29899.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-29899.fa: ;
+  charset CIAlign_uce-30161.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30161.fa: ;
+  charset CIAlign_uce-30219.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30219.fa: ;
+  charset CIAlign_uce-30230.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30230.fa: ;
+  charset CIAlign_uce-30267.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30267.fa: ;
+  charset CIAlign_uce-3028.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3028.fa: ;
+  charset CIAlign_uce-30321.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30321.fa: ;
+  charset CIAlign_uce-30435.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30435.fa: ;
+  charset CIAlign_uce-3047.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3047.fa: ;
+  charset CIAlign_uce-30493.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30493.fa: ;
+  charset CIAlign_uce-30515.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30515.fa: ;
+  charset CIAlign_uce-30525.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30525.fa: ;
+  charset CIAlign_uce-30574.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30574.fa: ;
+  charset CIAlign_uce-3067.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3067.fa: ;
+  charset CIAlign_uce-30748.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30748.fa: ;
+  charset CIAlign_uce-30769.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30769.fa: ;
+  charset CIAlign_uce-30828.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30828.fa: ;
+  charset CIAlign_uce-30830.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30830.fa: ;
+  charset CIAlign_uce-30836.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-30836.fa: ;
+  charset CIAlign_uce-3102.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3102.fa: ;
+  charset CIAlign_uce-31067.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31067.fa: ;
+  charset CIAlign_uce-31079.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31079.fa: ;
+  charset CIAlign_uce-31082.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31082.fa: ;
+  charset CIAlign_uce-31174.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31174.fa: ;
+  charset CIAlign_uce-31176.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31176.fa: ;
+  charset CIAlign_uce-31286.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31286.fa: ;
+  charset CIAlign_uce-31287.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31287.fa: ;
+  charset CIAlign_uce-31300.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31300.fa: ;
+  charset CIAlign_uce-31352.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31352.fa: ;
+  charset CIAlign_uce-31473.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31473.fa: ;
+  charset CIAlign_uce-31484.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31484.fa: ;
+  charset CIAlign_uce-31497.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31497.fa: ;
+  charset CIAlign_uce-31759.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31759.fa: ;
+  charset CIAlign_uce-31829.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31829.fa: ;
+  charset CIAlign_uce-3186.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3186.fa: ;
+  charset CIAlign_uce-31893.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31893.fa: ;
+  charset CIAlign_uce-31907.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31907.fa: ;
+  charset CIAlign_uce-31967.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-31967.fa: ;
+  charset CIAlign_uce-32005.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32005.fa: ;
+  charset CIAlign_uce-32057.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32057.fa: ;
+  charset CIAlign_uce-32088.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32088.fa: ;
+  charset CIAlign_uce-32102.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32102.fa: ;
+  charset CIAlign_uce-32146.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32146.fa: ;
+  charset CIAlign_uce-32174.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32174.fa: ;
+  charset CIAlign_uce-32214.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32214.fa: ;
+  charset CIAlign_uce-32270.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32270.fa: ;
+  charset CIAlign_uce-32355.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32355.fa: ;
+  charset CIAlign_uce-32430.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32430.fa: ;
+  charset CIAlign_uce-32470.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32470.fa: ;
+  charset CIAlign_uce-32474.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32474.fa: ;
+  charset CIAlign_uce-32475.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32475.fa: ;
+  charset CIAlign_uce-32509.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32509.fa: ;
+  charset CIAlign_uce-3258.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3258.fa: ;
+  charset CIAlign_uce-32689.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32689.fa: ;
+  charset CIAlign_uce-32720.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32720.fa: ;
+  charset CIAlign_uce-32735.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32735.fa: ;
+  charset CIAlign_uce-32764.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32764.fa: ;
+  charset CIAlign_uce-32775.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32775.fa: ;
+  charset CIAlign_uce-32884.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32884.fa: ;
+  charset CIAlign_uce-32909.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-32909.fa: ;
+  charset CIAlign_uce-33011.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33011.fa: ;
+  charset CIAlign_uce-33015.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33015.fa: ;
+  charset CIAlign_uce-33050.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33050.fa: ;
+  charset CIAlign_uce-3309.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3309.fa: ;
+  charset CIAlign_uce-33091.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33091.fa: ;
+  charset CIAlign_uce-33206.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33206.fa: ;
+  charset CIAlign_uce-33241.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33241.fa: ;
+  charset CIAlign_uce-33428.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33428.fa: ;
+  charset CIAlign_uce-33443.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33443.fa: ;
+  charset CIAlign_uce-33521.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33521.fa: ;
+  charset CIAlign_uce-33639.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33639.fa: ;
+  charset CIAlign_uce-33668.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33668.fa: ;
+  charset CIAlign_uce-33691.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33691.fa: ;
+  charset CIAlign_uce-33739.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33739.fa: ;
+  charset CIAlign_uce-33747.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33747.fa: ;
+  charset CIAlign_uce-33749.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33749.fa: ;
+  charset CIAlign_uce-3379.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3379.fa: ;
+  charset CIAlign_uce-33949.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33949.fa: ;
+  charset CIAlign_uce-33993.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-33993.fa: ;
+  charset CIAlign_uce-3406.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3406.fa: ;
+  charset CIAlign_uce-34159.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34159.fa: ;
+  charset CIAlign_uce-34185.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34185.fa: ;
+  charset CIAlign_uce-34210.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34210.fa: ;
+  charset CIAlign_uce-34267.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34267.fa: ;
+  charset CIAlign_uce-34324.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34324.fa: ;
+  charset CIAlign_uce-34366.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34366.fa: ;
+  charset CIAlign_uce-34406.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34406.fa: ;
+  charset CIAlign_uce-34507.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34507.fa: ;
+  charset CIAlign_uce-34528.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34528.fa: ;
+  charset CIAlign_uce-34571.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34571.fa: ;
+  charset CIAlign_uce-3459.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3459.fa: ;
+  charset CIAlign_uce-34922.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-34922.fa: ;
+  charset CIAlign_uce-35009.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35009.fa: ;
+  charset CIAlign_uce-35011.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35011.fa: ;
+  charset CIAlign_uce-35055.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35055.fa: ;
+  charset CIAlign_uce-35112.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35112.fa: ;
+  charset CIAlign_uce-35150.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35150.fa: ;
+  charset CIAlign_uce-35151.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35151.fa: ;
+  charset CIAlign_uce-35203.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35203.fa: ;
+  charset CIAlign_uce-35230.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35230.fa: ;
+  charset CIAlign_uce-35404.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35404.fa: ;
+  charset CIAlign_uce-35424.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35424.fa: ;
+  charset CIAlign_uce-35436.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35436.fa: ;
+  charset CIAlign_uce-35494.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35494.fa: ;
+  charset CIAlign_uce-35495.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35495.fa: ;
+  charset CIAlign_uce-35776.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35776.fa: ;
+  charset CIAlign_uce-35782.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35782.fa: ;
+  charset CIAlign_uce-35801.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35801.fa: ;
+  charset CIAlign_uce-35805.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35805.fa: ;
+  charset CIAlign_uce-35828.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35828.fa: ;
+  charset CIAlign_uce-35867.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35867.fa: ;
+  charset CIAlign_uce-35983.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-35983.fa: ;
+  charset CIAlign_uce-36059.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36059.fa: ;
+  charset CIAlign_uce-36060.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36060.fa: ;
+  charset CIAlign_uce-36068.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36068.fa: ;
+  charset CIAlign_uce-36093.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36093.fa: ;
+  charset CIAlign_uce-36225.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36225.fa: ;
+  charset CIAlign_uce-36320.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36320.fa: ;
+  charset CIAlign_uce-36414.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36414.fa: ;
+  charset CIAlign_uce-36415.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36415.fa: ;
+  charset CIAlign_uce-36416.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36416.fa: ;
+  charset CIAlign_uce-36456.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36456.fa: ;
+  charset CIAlign_uce-36459.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36459.fa: ;
+  charset CIAlign_uce-36528.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36528.fa: ;
+  charset CIAlign_uce-36604.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36604.fa: ;
+  charset CIAlign_uce-3665.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3665.fa: ;
+  charset CIAlign_uce-36659.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36659.fa: ;
+  charset CIAlign_uce-36692.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36692.fa: ;
+  charset CIAlign_uce-369.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-369.fa: ;
+  charset CIAlign_uce-3693.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3693.fa: ;
+  charset CIAlign_uce-36992.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-36992.fa: ;
+  charset CIAlign_uce-37073.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37073.fa: ;
+  charset CIAlign_uce-37268.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37268.fa: ;
+  charset CIAlign_uce-37439.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37439.fa: ;
+  charset CIAlign_uce-37547.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37547.fa: ;
+  charset CIAlign_uce-37821.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37821.fa: ;
+  charset CIAlign_uce-37919.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37919.fa: ;
+  charset CIAlign_uce-37961.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-37961.fa: ;
+  charset CIAlign_uce-38073.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38073.fa: ;
+  charset CIAlign_uce-38134.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38134.fa: ;
+  charset CIAlign_uce-3819.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3819.fa: ;
+  charset CIAlign_uce-38254.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38254.fa: ;
+  charset CIAlign_uce-38272.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38272.fa: ;
+  charset CIAlign_uce-38388.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38388.fa: ;
+  charset CIAlign_uce-38441.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38441.fa: ;
+  charset CIAlign_uce-38446.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38446.fa: ;
+  charset CIAlign_uce-3846.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3846.fa: ;
+  charset CIAlign_uce-38646.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38646.fa: ;
+  charset CIAlign_uce-38650.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38650.fa: ;
+  charset CIAlign_uce-38734.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38734.fa: ;
+  charset CIAlign_uce-38767.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38767.fa: ;
+  charset CIAlign_uce-38785.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38785.fa: ;
+  charset CIAlign_uce-38805.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38805.fa: ;
+  charset CIAlign_uce-38821.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38821.fa: ;
+  charset CIAlign_uce-38924.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38924.fa: ;
+  charset CIAlign_uce-38967.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-38967.fa: ;
+  charset CIAlign_uce-39033.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39033.fa: ;
+  charset CIAlign_uce-39106.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39106.fa: ;
+  charset CIAlign_uce-39175.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39175.fa: ;
+  charset CIAlign_uce-39184.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39184.fa: ;
+  charset CIAlign_uce-39191.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39191.fa: ;
+  charset CIAlign_uce-39248.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39248.fa: ;
+  charset CIAlign_uce-39249.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39249.fa: ;
+  charset CIAlign_uce-39264.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39264.fa: ;
+  charset CIAlign_uce-39267.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39267.fa: ;
+  charset CIAlign_uce-39274.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39274.fa: ;
+  charset CIAlign_uce-39334.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39334.fa: ;
+  charset CIAlign_uce-39477.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39477.fa: ;
+  charset CIAlign_uce-39514.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39514.fa: ;
+  charset CIAlign_uce-39621.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39621.fa: ;
+  charset CIAlign_uce-3972.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3972.fa: ;
+  charset CIAlign_uce-3975.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3975.fa: ;
+  charset CIAlign_uce-39793.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39793.fa: ;
+  charset CIAlign_uce-39798.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39798.fa: ;
+  charset CIAlign_uce-39843.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39843.fa: ;
+  charset CIAlign_uce-3994.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-3994.fa: ;
+  charset CIAlign_uce-39967.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-39967.fa: ;
+  charset CIAlign_uce-40254.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40254.fa: ;
+  charset CIAlign_uce-40328.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40328.fa: ;
+  charset CIAlign_uce-4036.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4036.fa: ;
+  charset CIAlign_uce-4040.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4040.fa: ;
+  charset CIAlign_uce-4045.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4045.fa: ;
+  charset CIAlign_uce-40474.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40474.fa: ;
+  charset CIAlign_uce-40602.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40602.fa: ;
+  charset CIAlign_uce-40624.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40624.fa: ;
+  charset CIAlign_uce-40674.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40674.fa: ;
+  charset CIAlign_uce-40683.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40683.fa: ;
+  charset CIAlign_uce-40731.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40731.fa: ;
+  charset CIAlign_uce-40765.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-40765.fa: ;
+  charset CIAlign_uce-4163.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4163.fa: ;
+  charset CIAlign_uce-4173.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4173.fa: ;
+  charset CIAlign_uce-4205.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4205.fa: ;
+  charset CIAlign_uce-4239.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4239.fa: ;
+  charset CIAlign_uce-425.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-425.fa: ;
+  charset CIAlign_uce-428.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-428.fa: ;
+  charset CIAlign_uce-4322.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4322.fa: ;
+  charset CIAlign_uce-4327.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4327.fa: ;
+  charset CIAlign_uce-4330.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4330.fa: ;
+  charset CIAlign_uce-4622.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4622.fa: ;
+  charset CIAlign_uce-4653.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4653.fa: ;
+  charset CIAlign_uce-4678.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4678.fa: ;
+  charset CIAlign_uce-4691.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4691.fa: ;
+  charset CIAlign_uce-4889.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-4889.fa: ;
+  charset CIAlign_uce-5234.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5234.fa: ;
+  charset CIAlign_uce-5243.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5243.fa: ;
+  charset CIAlign_uce-5320.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5320.fa: ;
+  charset CIAlign_uce-5326.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5326.fa: ;
+  charset CIAlign_uce-5449.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5449.fa: ;
+  charset CIAlign_uce-547.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-547.fa: ;
+  charset CIAlign_uce-5525.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5525.fa: ;
+  charset CIAlign_uce-5560.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5560.fa: ;
+  charset CIAlign_uce-5691.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5691.fa: ;
+  charset CIAlign_uce-5763.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5763.fa: ;
+  charset CIAlign_uce-5967.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5967.fa: ;
+  charset CIAlign_uce-5990.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-5990.fa: ;
+  charset CIAlign_uce-6237.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6237.fa: ;
+  charset CIAlign_uce-6244.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6244.fa: ;
+  charset CIAlign_uce-6250.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6250.fa: ;
+  charset CIAlign_uce-6374.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6374.fa: ;
+  charset CIAlign_uce-6550.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6550.fa: ;
+  charset CIAlign_uce-6553.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6553.fa: ;
+  charset CIAlign_uce-6598.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6598.fa: ;
+  charset CIAlign_uce-675.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-675.fa: ;
+  charset CIAlign_uce-6782.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6782.fa: ;
+  charset CIAlign_uce-6787.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6787.fa: ;
+  charset CIAlign_uce-6882.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6882.fa: ;
+  charset CIAlign_uce-693.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-693.fa: ;
+  charset CIAlign_uce-6957.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6957.fa: ;
+  charset CIAlign_uce-696.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-696.fa: ;
+  charset CIAlign_uce-6976.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-6976.fa: ;
+  charset CIAlign_uce-7044.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7044.fa: ;
+  charset CIAlign_uce-711.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-711.fa: ;
+  charset CIAlign_uce-7169.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7169.fa: ;
+  charset CIAlign_uce-7271.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7271.fa: ;
+  charset CIAlign_uce-731.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-731.fa: ;
+  charset CIAlign_uce-750.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-750.fa: ;
+  charset CIAlign_uce-7534.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7534.fa: ;
+  charset CIAlign_uce-7659.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7659.fa: ;
+  charset CIAlign_uce-7662.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7662.fa: ;
+  charset CIAlign_uce-7668.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7668.fa: ;
+  charset CIAlign_uce-7709.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7709.fa: ;
+  charset CIAlign_uce-7711.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7711.fa: ;
+  charset CIAlign_uce-7760.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7760.fa: ;
+  charset CIAlign_uce-7780.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7780.fa: ;
+  charset CIAlign_uce-7810.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7810.fa: ;
+  charset CIAlign_uce-7844.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7844.fa: ;
+  charset CIAlign_uce-7892.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7892.fa: ;
+  charset CIAlign_uce-7943.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7943.fa: ;
+  charset CIAlign_uce-7981.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7981.fa: ;
+  charset CIAlign_uce-7994.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-7994.fa: ;
+  charset CIAlign_uce-8029.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8029.fa: ;
+  charset CIAlign_uce-8056.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8056.fa: ;
+  charset CIAlign_uce-8080.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8080.fa: ;
+  charset CIAlign_uce-8081.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8081.fa: ;
+  charset CIAlign_uce-8138.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8138.fa: ;
+  charset CIAlign_uce-8466.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8466.fa: ;
+  charset CIAlign_uce-849.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-849.fa: ;
+  charset CIAlign_uce-8496.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8496.fa: ;
+  charset CIAlign_uce-8612.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8612.fa: ;
+  charset CIAlign_uce-8699.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8699.fa: ;
+  charset CIAlign_uce-870.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-870.fa: ;
+  charset CIAlign_uce-8702.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8702.fa: ;
+  charset CIAlign_uce-8707.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8707.fa: ;
+  charset CIAlign_uce-8753.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8753.fa: ;
+  charset CIAlign_uce-8827.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8827.fa: ;
+  charset CIAlign_uce-8828.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8828.fa: ;
+  charset CIAlign_uce-8846.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8846.fa: ;
+  charset CIAlign_uce-8932.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8932.fa: ;
+  charset CIAlign_uce-8955.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8955.fa: ;
+  charset CIAlign_uce-8997.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-8997.fa: ;
+  charset CIAlign_uce-9002.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9002.fa: ;
+  charset CIAlign_uce-903.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-903.fa: ;
+  charset CIAlign_uce-9031.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9031.fa: ;
+  charset CIAlign_uce-9415.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9415.fa: ;
+  charset CIAlign_uce-9437.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9437.fa: ;
+  charset CIAlign_uce-9471.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9471.fa: ;
+  charset CIAlign_uce-9508.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9508.fa: ;
+  charset CIAlign_uce-9518.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9518.fa: ;
+  charset CIAlign_uce-9589.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9589.fa: ;
+  charset CIAlign_uce-9608.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9608.fa: ;
+  charset CIAlign_uce-9694.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9694.fa: ;
+  charset CIAlign_uce-9710.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9710.fa: ;
+  charset CIAlign_uce-9730.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9730.fa: ;
+  charset CIAlign_uce-976.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-976.fa: ;
+  charset CIAlign_uce-981.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-981.fa: ;
+  charset CIAlign_uce-9935.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9935.fa: ;
+  charset CIAlign_uce-9966.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9966.fa: ;
+  charset CIAlign_uce-9968.fa = alignments/UCE_candidates_from_genomes/CIAlign_uce-9968.fa: ;
+  charpartition mymodels =
+    TIM2+I+R3: CIAlign_uce-10009.fa,
+    TPM2u+R3: CIAlign_uce-10172.fa,
+    HKY+F+R3: CIAlign_uce-10182.fa,
+    TPM3u+I+G4: CIAlign_uce-10226.fa,
+    HKY+I+G4: CIAlign_uce-10320.fa,
+    TPM3u+F+I+G4: CIAlign_uce-10348.fa,
+    TPM2u+F+I+G4: CIAlign_uce-10555.fa,
+    TN+F+G4: CIAlign_uce-10659.fa,
+    TN+F+I+R3: CIAlign_uce-1076.fa,
+    TN+F+I+G4: CIAlign_uce-10812.fa,
+    HKY+F+I+G4: CIAlign_uce-10890.fa,
+    TPM3u+I+G4: CIAlign_uce-10916.fa,
+    TIM3+I+G4: CIAlign_uce-10918.fa,
+    HKY+I+R2: CIAlign_uce-10932.fa,
+    TN+I+G4: CIAlign_uce-1095.fa,
+    TN+F+G4: CIAlign_uce-10968.fa,
+    TPM2u+F+I+G4: CIAlign_uce-11073.fa,
+    TPM2u+R3: CIAlign_uce-11136.fa,
+    TIM3+F+G4: CIAlign_uce-11427.fa,
+    HKY+I+G4: CIAlign_uce-1144.fa,
+    K3Pu+I+R2: CIAlign_uce-11548.fa,
+    TIM3+F+I+G4: CIAlign_uce-11573.fa,
+    TIM2+I+G4: CIAlign_uce-11739.fa,
+    TIM2+I+G4: CIAlign_uce-11740.fa,
+    TN+F+I+G4: CIAlign_uce-118.fa,
+    TPM2u+F+I+G4: CIAlign_uce-11820.fa,
+    TN+F+R3: CIAlign_uce-11993.fa,
+    TIM3+F+I+R3: CIAlign_uce-12105.fa,
+    TN+F+I+G4: CIAlign_uce-12167.fa,
+    TN+F+I+G4: CIAlign_uce-12227.fa,
+    HKY+F+R3: CIAlign_uce-1223.fa,
+    HKY+R3: CIAlign_uce-12273.fa,
+    TN+F+R3: CIAlign_uce-12368.fa,
+    TPM3u+I+G4: CIAlign_uce-12383.fa,
+    TVM+F+I+G4: CIAlign_uce-12504.fa,
+    TIM3+F+I+G4: CIAlign_uce-12511.fa,
+    TPM3u+I+G4: CIAlign_uce-12515.fa,
+    TIM2+F+I+G4: CIAlign_uce-12553.fa,
+    TN+F+R3: CIAlign_uce-12694.fa,
+    HKY+F+R3: CIAlign_uce-12735.fa,
+    HKY+F+I+G4: CIAlign_uce-12740.fa,
+    TPM3u+F+I+G4: CIAlign_uce-12755.fa,
+    HKY+F+I+G4: CIAlign_uce-12808.fa,
+    TN+F+I+G4: CIAlign_uce-12892.fa,
+    HKY+I+G4: CIAlign_uce-12986.fa,
+    HKY+F+I+G4: CIAlign_uce-13005.fa,
+    HKY+I+R3: CIAlign_uce-13079.fa,
+    TPM2u+I+G4: CIAlign_uce-13109.fa,
+    GTR+F+I+G4: CIAlign_uce-13110.fa,
+    TIM2+F+I+G4: CIAlign_uce-13112.fa,
+    TPM3u+G4: CIAlign_uce-13153.fa,
+    TPM3u+G4: CIAlign_uce-13273.fa,
+    HKY+F+I+G4: CIAlign_uce-13298.fa,
+    K3Pu+F+I+G4: CIAlign_uce-13324.fa,
+    K3Pu+G4: CIAlign_uce-13498.fa,
+    TIM+F+I+G4: CIAlign_uce-13635.fa,
+    TIM3e+I+G4: CIAlign_uce-13941.fa,
+    TPM3u+R3: CIAlign_uce-14008.fa,
+    HKY+F+R3: CIAlign_uce-14049.fa,
+    TIM+F+I+R3: CIAlign_uce-14091.fa,
+    TPM3u+I+G4: CIAlign_uce-1410.fa,
+    TPM2u+I+G4: CIAlign_uce-14138.fa,
+    TPM3+I+G4: CIAlign_uce-14299.fa,
+    TN+F+I+G4: CIAlign_uce-1443.fa,
+    TPM2u+F+I+G4: CIAlign_uce-1444.fa,
+    K2P+I+R2: CIAlign_uce-14535.fa,
+    K2P+I+G4: CIAlign_uce-14541.fa,
+    TPM2u+F+I+G4: CIAlign_uce-14780.fa,
+    HKY+F+I+G4: CIAlign_uce-14783.fa,
+    TPM2u+I+R3: CIAlign_uce-14809.fa,
+    TPM3u+I+G4: CIAlign_uce-14863.fa,
+    TPM3u+I+G4: CIAlign_uce-15033.fa,
+    TIM2e+I+G4: CIAlign_uce-15037.fa,
+    TIM2+R3: CIAlign_uce-15135.fa,
+    TN+F+I+R2: CIAlign_uce-1519.fa,
+    TIM3+I+G4: CIAlign_uce-15292.fa,
+    GTR+F+I+G4: CIAlign_uce-1561.fa,
+    TIM3+F+I+G4: CIAlign_uce-15616.fa,
+    HKY+I+G4: CIAlign_uce-15680.fa,
+    TPM2u+F+G4: CIAlign_uce-1591.fa,
+    TIM3+F+I+G4: CIAlign_uce-16071.fa,
+    TIM2+F+I+G4: CIAlign_uce-16245.fa,
+    TIM3+F+I+G4: CIAlign_uce-16304.fa,
+    TN+F+I+G4: CIAlign_uce-16373.fa,
+    TPM2u+I+R3: CIAlign_uce-16467.fa,
+    TPM3u+G4: CIAlign_uce-16513.fa,
+    TPM3u+F+I+G4: CIAlign_uce-16528.fa,
+    TN+F+R3: CIAlign_uce-16529.fa,
+    TPM2u+F+G4: CIAlign_uce-16530.fa,
+    HKY+F+G4: CIAlign_uce-16539.fa,
+    HKY+F+I+R2: CIAlign_uce-16542.fa,
+    TPM3u+I+G4: CIAlign_uce-1661.fa,
+    TPM3u+I+G4: CIAlign_uce-16622.fa,
+    TN+F+I+G4: CIAlign_uce-16737.fa,
+    TIM+I+G4: CIAlign_uce-16739.fa,
+    TPM3u+F+I+G4: CIAlign_uce-168.fa,
+    TPM2+R2: CIAlign_uce-1694.fa,
+    TN+F+I+G4: CIAlign_uce-1696.fa,
+    TIM2+I+G4: CIAlign_uce-17130.fa,
+    TPM2u+R3: CIAlign_uce-17172.fa,
+    HKY+F+G4: CIAlign_uce-17215.fa,
+    HKY+G4: CIAlign_uce-17216.fa,
+    TN+F+I+G4: CIAlign_uce-1727.fa,
+    TN+F+I+G4: CIAlign_uce-17291.fa,
+    TIM2+F+I+G4: CIAlign_uce-17296.fa,
+    TPM3u+F+I+G4: CIAlign_uce-17457.fa,
+    HKY+F+I+G4: CIAlign_uce-17490.fa,
+    K3Pu+I+G4: CIAlign_uce-17491.fa,
+    HKY+I+G4: CIAlign_uce-17492.fa,
+    TPM3u+I+G4: CIAlign_uce-17580.fa,
+    TIM3+R3: CIAlign_uce-17585.fa,
+    HKY+I+G4: CIAlign_uce-17603.fa,
+    TVM+I+G4: CIAlign_uce-17715.fa,
+    TVM+F+I+G4: CIAlign_uce-17805.fa,
+    HKY+F+I+R3: CIAlign_uce-17825.fa,
+    HKY+F+R3: CIAlign_uce-17828.fa,
+    TN+F+G4: CIAlign_uce-17866.fa,
+    HKY+F+I+G4: CIAlign_uce-1797.fa,
+    TIM3+F+I+G4: CIAlign_uce-18104.fa,
+    TIM3+I+G4: CIAlign_uce-18242.fa,
+    HKY+F+G4: CIAlign_uce-18245.fa,
+    HKY+F+I+G4: CIAlign_uce-18287.fa,
+    TN+R2: CIAlign_uce-18299.fa,
+    TPM3+I+G4: CIAlign_uce-18317.fa,
+    HKY+F+I+G4: CIAlign_uce-18367.fa,
+    TPM2u+F+I+G4: CIAlign_uce-18385.fa,
+    TIM3+F+I+G4: CIAlign_uce-18387.fa,
+    TPM3u+F+I+G4: CIAlign_uce-1842.fa,
+    TIM3+I+G4: CIAlign_uce-18486.fa,
+    TNe+G4: CIAlign_uce-18500.fa,
+    TIM3+I+G4: CIAlign_uce-18679.fa,
+    TIM3+R3: CIAlign_uce-18734.fa,
+    HKY+F+I+G4: CIAlign_uce-18817.fa,
+    HKY+F+I+G4: CIAlign_uce-18906.fa,
+    HKY+F+I+G4: CIAlign_uce-18909.fa,
+    HKY+I+G4: CIAlign_uce-19018.fa,
+    TIM3e+I+R3: CIAlign_uce-19063.fa,
+    K3Pu+F+I+G4: CIAlign_uce-19064.fa,
+    TNe+G4: CIAlign_uce-19069.fa,
+    TIM3+F+I+G4: CIAlign_uce-19073.fa,
+    TN+I+G4: CIAlign_uce-19140.fa,
+    TIM3+F+I+G4: CIAlign_uce-19154.fa,
+    TPM2u+F+I+G4: CIAlign_uce-19306.fa,
+    TN+F+I+G4: CIAlign_uce-19325.fa,
+    TPM3u+F+I+G4: CIAlign_uce-19336.fa,
+    TPM2u+F+R3: CIAlign_uce-19354.fa,
+    HKY+F+G4: CIAlign_uce-19356.fa,
+    TN+I+R3: CIAlign_uce-1938.fa,
+    TIM3+F+I+G4: CIAlign_uce-19632.fa,
+    TIM3+F+I+G4: CIAlign_uce-19658.fa,
+    TPM3u+I+G4: CIAlign_uce-19689.fa,
+    TIM2+F+I+G4: CIAlign_uce-1973.fa,
+    TIM+F+R3: CIAlign_uce-19973.fa,
+    TPM2u+F+I+R3: CIAlign_uce-20045.fa,
+    GTR+F+I+G4: CIAlign_uce-20066.fa,
+    TIM3e+G4: CIAlign_uce-20245.fa,
+    HKY+I+G4: CIAlign_uce-20254.fa,
+    HKY+F+G4: CIAlign_uce-20401.fa,
+    TPM2u+I+G4: CIAlign_uce-20417.fa,
+    HKY+F+G4: CIAlign_uce-20467.fa,
+    TPM3u+I+R3: CIAlign_uce-20468.fa,
+    TN+F+I+G4: CIAlign_uce-20471.fa,
+    TN+F+G4: CIAlign_uce-20483.fa,
+    TPM3u+F+I+G4: CIAlign_uce-20572.fa,
+    HKY+F+I+G4: CIAlign_uce-20676.fa,
+    TIM2+F+I+G4: CIAlign_uce-20777.fa,
+    K3Pu+F+I+G4: CIAlign_uce-20807.fa,
+    TPM3u+F+G4: CIAlign_uce-2084.fa,
+    TPM3u+I+G4: CIAlign_uce-20889.fa,
+    TPM3u+F+I+G4: CIAlign_uce-20892.fa,
+    TPM3u+I+G4: CIAlign_uce-20940.fa,
+    HKY+F+I+R3: CIAlign_uce-21162.fa,
+    TPM3u+I+R2: CIAlign_uce-21183.fa,
+    TN+F+I+G4: CIAlign_uce-2119.fa,
+    TN+F+I+R3: CIAlign_uce-21263.fa,
+    TN+G4: CIAlign_uce-21264.fa,
+    HKY+G4: CIAlign_uce-21267.fa,
+    TIM3e+I+G4: CIAlign_uce-21275.fa,
+    K3Pu+I+R3: CIAlign_uce-21362.fa,
+    HKY+F+I+G4: CIAlign_uce-21409.fa,
+    TPM2u+G4: CIAlign_uce-21496.fa,
+    TIM2+I+R4: CIAlign_uce-21626.fa,
+    HKY+F+I+G4: CIAlign_uce-21695.fa,
+    TPM3u+F+R3: CIAlign_uce-21740.fa,
+    HKY+F+I+G4: CIAlign_uce-21858.fa,
+    TN+F+I+G4: CIAlign_uce-2197.fa,
+    TPM3u+I+G4: CIAlign_uce-21978.fa,
+    TIM2+I+G4: CIAlign_uce-22009.fa,
+    TIM2+F+R3: CIAlign_uce-2206.fa,
+    TN+I+G4: CIAlign_uce-22064.fa,
+    TIM2+F+I+G4: CIAlign_uce-22195.fa,
+    TN+I+R2: CIAlign_uce-22213.fa,
+    TN+F+I+G4: CIAlign_uce-22317.fa,
+    HKY+I+G4: CIAlign_uce-22330.fa,
+    K2P+G4: CIAlign_uce-22413.fa,
+    TPM2u+I+G4: CIAlign_uce-22430.fa,
+    TIM3+I+G4: CIAlign_uce-22549.fa,
+    TN+F+I+G4: CIAlign_uce-22581.fa,
+    TPM3u+F+I+G4: CIAlign_uce-22594.fa,
+    TN+R3: CIAlign_uce-22624.fa,
+    HKY+F+R3: CIAlign_uce-22644.fa,
+    TIM2+F+I+R3: CIAlign_uce-22645.fa,
+    HKY+R3: CIAlign_uce-22646.fa,
+    TPM2u+I+G4: CIAlign_uce-22658.fa,
+    HKY+I+G4: CIAlign_uce-22688.fa,
+    TPM2u+I+G4: CIAlign_uce-22689.fa,
+    HKY+F+G4: CIAlign_uce-2291.fa,
+    HKY+F+I+G4: CIAlign_uce-22946.fa,
+    TVM+F+I+G4: CIAlign_uce-22965.fa,
+    K2P+I+R3: CIAlign_uce-22977.fa,
+    TPM3u+F+I+R3: CIAlign_uce-23147.fa,
+    HKY+I+G4: CIAlign_uce-2318.fa,
+    TPM3u+F+I+R3: CIAlign_uce-23237.fa,
+    TIM3+F+I+G4: CIAlign_uce-23347.fa,
+    HKY+I+G4: CIAlign_uce-2346.fa,
+    HKY+F+G4: CIAlign_uce-23541.fa,
+    HKY+I+G4: CIAlign_uce-23569.fa,
+    HKY+F+I+G4: CIAlign_uce-23576.fa,
+    HKY+F+G4: CIAlign_uce-23668.fa,
+    HKY+F+I+G4: CIAlign_uce-23690.fa,
+    TPM2u+F+R2: CIAlign_uce-23713.fa,
+    TIM3e+I+G4: CIAlign_uce-23715.fa,
+    HKY+I+G4: CIAlign_uce-23800.fa,
+    TN+F+I+G4: CIAlign_uce-23837.fa,
+    TIM2+F+I+G4: CIAlign_uce-23975.fa,
+    TIM3+I+G4: CIAlign_uce-24115.fa,
+    HKY+F+I+G4: CIAlign_uce-24367.fa,
+    HKY+F+I+G4: CIAlign_uce-24410.fa,
+    TPM3u+G4: CIAlign_uce-24422.fa,
+    TN+F+I+G4: CIAlign_uce-24448.fa,
+    HKY+I+G4: CIAlign_uce-24460.fa,
+    GTR+F+I+R2: CIAlign_uce-24477.fa,
+    TIM3+F+I+G4: CIAlign_uce-24536.fa,
+    HKY+F+R3: CIAlign_uce-24559.fa,
+    TPM2u+F+I+G4: CIAlign_uce-24560.fa,
+    TIM2+I+G4: CIAlign_uce-24603.fa,
+    HKY+I+G4: CIAlign_uce-24605.fa,
+    HKY+I+G4: CIAlign_uce-24650.fa,
+    HKY+G4: CIAlign_uce-24678.fa,
+    TPM3u+F+I+G4: CIAlign_uce-24715.fa,
+    HKY+F+G4: CIAlign_uce-24716.fa,
+    TIM2+I+G4: CIAlign_uce-24734.fa,
+    HKY+F+I+G4: CIAlign_uce-24794.fa,
+    HKY+F+I+G4: CIAlign_uce-25004.fa,
+    HKY+I+G4: CIAlign_uce-25136.fa,
+    HKY+I+R3: CIAlign_uce-2516.fa,
+    TIM2+F+I+G4: CIAlign_uce-25262.fa,
+    HKY+G4: CIAlign_uce-25263.fa,
+    K3Pu+I+G4: CIAlign_uce-25279.fa,
+    TPM2u+I+G4: CIAlign_uce-25388.fa,
+    TPM2u+F+G4: CIAlign_uce-25390.fa,
+    HKY+F+I+G4: CIAlign_uce-25409.fa,
+    TN+F+G4: CIAlign_uce-25420.fa,
+    TIM+F+I+G4: CIAlign_uce-2544.fa,
+    HKY+F+G4: CIAlign_uce-25459.fa,
+    TPM3u+F+I+R3: CIAlign_uce-25501.fa,
+    TPM3u+F+I+G4: CIAlign_uce-25513.fa,
+    TN+F+I+G4: CIAlign_uce-25552.fa,
+    TIM3e+I+G4: CIAlign_uce-25627.fa,
+    TPM2+G4: CIAlign_uce-25666.fa,
+    TPM3u+I+G4: CIAlign_uce-25779.fa,
+    TPM2u+F+R3: CIAlign_uce-25787.fa,
+    TPM2u+F+I+G4: CIAlign_uce-25889.fa,
+    HKY+R3: CIAlign_uce-25904.fa,
+    TPM2u+I+G4: CIAlign_uce-26055.fa,
+    TPM2u+I+G4: CIAlign_uce-26124.fa,
+    TIM2+I+G4: CIAlign_uce-26139.fa,
+    HKY+F+I+G4: CIAlign_uce-26180.fa,
+    HKY+F+I+R2: CIAlign_uce-26244.fa,
+    TPM3u+I+G4: CIAlign_uce-2626.fa,
+    TN+F+I+G4: CIAlign_uce-26280.fa,
+    TN+F+I+R2: CIAlign_uce-26324.fa,
+    GTR+F+R3: CIAlign_uce-26339.fa,
+    TN+R3: CIAlign_uce-26340.fa,
+    TPM2u+R3: CIAlign_uce-26341.fa,
+    TIM2+F+I+G4: CIAlign_uce-26382.fa,
+    TIM2+F+G4: CIAlign_uce-26414.fa,
+    TIM2+G4: CIAlign_uce-26432.fa,
+    HKY+R3: CIAlign_uce-26436.fa,
+    TPM2u+I+G4: CIAlign_uce-26544.fa,
+    TN+I+G4: CIAlign_uce-26590.fa,
+    TPM3u+F+I+G4: CIAlign_uce-26638.fa,
+    HKY+I+G4: CIAlign_uce-26677.fa,
+    K3Pu+G4: CIAlign_uce-26771.fa,
+    HKY+F+R3: CIAlign_uce-26772.fa,
+    TN+F+I+G4: CIAlign_uce-26843.fa,
+    HKY+I+G4: CIAlign_uce-26865.fa,
+    TPM3u+F+I+G4: CIAlign_uce-26985.fa,
+    TN+I+G4: CIAlign_uce-27040.fa,
+    K3Pu+I+G4: CIAlign_uce-27042.fa,
+    HKY+F+I+G4: CIAlign_uce-2714.fa,
+    HKY+F+I+R3: CIAlign_uce-27192.fa,
+    HKY+I+G4: CIAlign_uce-27378.fa,
+    HKY+F+G4: CIAlign_uce-27520.fa,
+    TN+F+G4: CIAlign_uce-27539.fa,
+    TN+F+I+G4: CIAlign_uce-27545.fa,
+    TN+F+I+G4: CIAlign_uce-27547.fa,
+    TN+F+I+G4: CIAlign_uce-27550.fa,
+    HKY+F+I+G4: CIAlign_uce-27597.fa,
+    TIM2+F+I+G4: CIAlign_uce-27610.fa,
+    HKY+F+I+G4: CIAlign_uce-27625.fa,
+    TPM2u+G4: CIAlign_uce-27626.fa,
+    TPM3u+F+I+R3: CIAlign_uce-27741.fa,
+    HKY+G4: CIAlign_uce-27763.fa,
+    TPM2u+G4: CIAlign_uce-27783.fa,
+    HKY+F+G4: CIAlign_uce-27830.fa,
+    TPM3u+F+I+G4: CIAlign_uce-27831.fa,
+    TIM3+F+I+G4: CIAlign_uce-27929.fa,
+    HKY+F+I+G4: CIAlign_uce-28007.fa,
+    TPM3u+R3: CIAlign_uce-28098.fa,
+    TPM3u+I+R3: CIAlign_uce-28099.fa,
+    TIM2+F+I+G4: CIAlign_uce-2840.fa,
+    HKY+I+G4: CIAlign_uce-28516.fa,
+    HKY+F+I+G4: CIAlign_uce-28546.fa,
+    TIM2+F+I+G4: CIAlign_uce-28586.fa,
+    TIM2+F+I+G4: CIAlign_uce-28698.fa,
+    HKY+F+I+G4: CIAlign_uce-28849.fa,
+    TPM3u+I+G4: CIAlign_uce-28892.fa,
+    TPM3u+I+R2: CIAlign_uce-28894.fa,
+    HKY+I+R2: CIAlign_uce-28895.fa,
+    TN+F+I+R3: CIAlign_uce-28896.fa,
+    HKY+F+I+G4: CIAlign_uce-29213.fa,
+    TN+F+I+G4: CIAlign_uce-29251.fa,
+    HKY+I+G4: CIAlign_uce-29443.fa,
+    TN+G4: CIAlign_uce-29475.fa,
+    HKY+I+R2: CIAlign_uce-29580.fa,
+    TIM2e+I+G4: CIAlign_uce-29605.fa,
+    TN+R3: CIAlign_uce-29669.fa,
+    TIM2+F+I+G4: CIAlign_uce-29727.fa,
+    TIM2+F+I+G4: CIAlign_uce-29732.fa,
+    TPM3u+I+R2: CIAlign_uce-29738.fa,
+    TIM2+F+I+R3: CIAlign_uce-2981.fa,
+    TPM3u+F+I+G4: CIAlign_uce-29811.fa,
+    TPM3u+G4: CIAlign_uce-29870.fa,
+    K2P+G4: CIAlign_uce-29899.fa,
+    TPM3u+F+I+G4: CIAlign_uce-30161.fa,
+    TPM2u+I+G4: CIAlign_uce-30219.fa,
+    TPM2+G4: CIAlign_uce-30230.fa,
+    TPM3u+I+G4: CIAlign_uce-30267.fa,
+    HKY+F+I+G4: CIAlign_uce-3028.fa,
+    HKY+F+I+G4: CIAlign_uce-30321.fa,
+    TPM3u+F+I+G4: CIAlign_uce-30435.fa,
+    TPM3u+F+G4: CIAlign_uce-3047.fa,
+    HKY+F+I+G4: CIAlign_uce-30493.fa,
+    TN+I+G4: CIAlign_uce-30515.fa,
+    TN+F+I+R3: CIAlign_uce-30525.fa,
+    TPM3u+F+I+G4: CIAlign_uce-30574.fa,
+    TN+F+R3: CIAlign_uce-3067.fa,
+    TPM3u+G4: CIAlign_uce-30748.fa,
+    TPM3u+F+I+G4: CIAlign_uce-30769.fa,
+    TIM2+F+I+G4: CIAlign_uce-30828.fa,
+    TPM2+G4: CIAlign_uce-30830.fa,
+    HKY+F+I+G4: CIAlign_uce-30836.fa,
+    TPM3u+I+G4: CIAlign_uce-3102.fa,
+    TIM3+I+G4: CIAlign_uce-31067.fa,
+    TIM+F+I+G4: CIAlign_uce-31079.fa,
+    TIM3e+G4: CIAlign_uce-31082.fa,
+    HKY+G4: CIAlign_uce-31174.fa,
+    TN+F+I+G4: CIAlign_uce-31176.fa,
+    HKY+I+G4: CIAlign_uce-31286.fa,
+    TIM2+R3: CIAlign_uce-31287.fa,
+    HKY+I+G4: CIAlign_uce-31300.fa,
+    K2P+G4: CIAlign_uce-31352.fa,
+    TIM3+I+G4: CIAlign_uce-31473.fa,
+    HKY+F+I+G4: CIAlign_uce-31484.fa,
+    HKY+F+I+G4: CIAlign_uce-31497.fa,
+    TPM2u+F+I+G4: CIAlign_uce-31759.fa,
+    HKY+I+G4: CIAlign_uce-31829.fa,
+    TPM3u+I+R2: CIAlign_uce-3186.fa,
+    TPM2u+I+G4: CIAlign_uce-31893.fa,
+    HKY+F+I+G4: CIAlign_uce-31907.fa,
+    TPM2u+F+I+G4: CIAlign_uce-31967.fa,
+    HKY+G4: CIAlign_uce-32005.fa,
+    HKY+F+I+G4: CIAlign_uce-32057.fa,
+    TN+F+R3: CIAlign_uce-32088.fa,
+    TIM2+F+G4: CIAlign_uce-32102.fa,
+    TIM3+F+I+R2: CIAlign_uce-32146.fa,
+    TN+I+G4: CIAlign_uce-32174.fa,
+    TN+F+I+G4: CIAlign_uce-32214.fa,
+    TIM2+F+G4: CIAlign_uce-32270.fa,
+    TPM2u+I+G4: CIAlign_uce-32355.fa,
+    HKY+F+I+G4: CIAlign_uce-32430.fa,
+    TIM3+F+G4: CIAlign_uce-32470.fa,
+    TPM2u+F+I+R3: CIAlign_uce-32474.fa,
+    TPM3u+F+G4: CIAlign_uce-32475.fa,
+    HKY+I+G4: CIAlign_uce-32509.fa,
+    HKY+F+I+R2: CIAlign_uce-3258.fa,
+    TN+F+I+G4: CIAlign_uce-32689.fa,
+    TPM3u+G4: CIAlign_uce-32720.fa,
+    TPM3u+F+I+R2: CIAlign_uce-32735.fa,
+    HKY+G4: CIAlign_uce-32764.fa,
+    TIM2+F+I+G4: CIAlign_uce-32775.fa,
+    TPM2u+F+I+R3: CIAlign_uce-32884.fa,
+    TIM2+I+G4: CIAlign_uce-32909.fa,
+    TN+F+G4: CIAlign_uce-33011.fa,
+    TPM2u+I+G4: CIAlign_uce-33015.fa,
+    TIM3e+I+G4: CIAlign_uce-33050.fa,
+    TIM3+F+R4: CIAlign_uce-3309.fa,
+    TN+I+G4: CIAlign_uce-33091.fa,
+    TIM3+F+R4: CIAlign_uce-33206.fa,
+    HKY+F+R3: CIAlign_uce-33241.fa,
+    K2P+G4: CIAlign_uce-33428.fa,
+    TN+F+R3: CIAlign_uce-33443.fa,
+    TPM2u+I+G4: CIAlign_uce-33521.fa,
+    HKY+F+I+G4: CIAlign_uce-33639.fa,
+    TPM2u+F+I+G4: CIAlign_uce-33668.fa,
+    TIM3+I+G4: CIAlign_uce-33691.fa,
+    HKY+F+I+G4: CIAlign_uce-33739.fa,
+    TIM3+I+G4: CIAlign_uce-33747.fa,
+    TPM2u+F+I+G4: CIAlign_uce-33749.fa,
+    TIM3+F+I+G4: CIAlign_uce-3379.fa,
+    HKY+F+I+G4: CIAlign_uce-33949.fa,
+    TIM3+F+I+G4: CIAlign_uce-33993.fa,
+    TPM2u+F+I+G4: CIAlign_uce-3406.fa,
+    HKY+F+I+G4: CIAlign_uce-34159.fa,
+    TIM2+F+G4: CIAlign_uce-34185.fa,
+    HKY+F+I+G4: CIAlign_uce-34210.fa,
+    HKY+I+G4: CIAlign_uce-34267.fa,
+    GTR+F+I+G4: CIAlign_uce-34324.fa,
+    TPM2u+R3: CIAlign_uce-34366.fa,
+    HKY+G4: CIAlign_uce-34406.fa,
+    TIM3e+I+G4: CIAlign_uce-34507.fa,
+    TPM2u+F+I+R2: CIAlign_uce-34528.fa,
+    TIM3+G4: CIAlign_uce-34571.fa,
+    HKY+I+G4: CIAlign_uce-3459.fa,
+    TN+F+I+G4: CIAlign_uce-34922.fa,
+    TPM2u+G4: CIAlign_uce-35009.fa,
+    HKY+F+R3: CIAlign_uce-35011.fa,
+    TPM2u+F+I+G4: CIAlign_uce-35055.fa,
+    TPM3u+G4: CIAlign_uce-35112.fa,
+    TIM3+F+I+G4: CIAlign_uce-35150.fa,
+    HKY+F+I+G4: CIAlign_uce-35151.fa,
+    K3Pu+F+I+G4: CIAlign_uce-35203.fa,
+    TPM2u+F+I+G4: CIAlign_uce-35230.fa,
+    HKY+F+I+G4: CIAlign_uce-35404.fa,
+    TPM3u+G4: CIAlign_uce-35424.fa,
+    TPM2u+F+I+G4: CIAlign_uce-35436.fa,
+    TN+F+I+G4: CIAlign_uce-35494.fa,
+    HKY+F+I+G4: CIAlign_uce-35495.fa,
+    TN+F+I+G4: CIAlign_uce-35776.fa,
+    TN+F+I+G4: CIAlign_uce-35782.fa,
+    TPM3u+I+R2: CIAlign_uce-35801.fa,
+    TPM3u+G4: CIAlign_uce-35805.fa,
+    TPM3u+I+G4: CIAlign_uce-35828.fa,
+    K3Pu+F+I+R2: CIAlign_uce-35867.fa,
+    TN+F+I+G4: CIAlign_uce-35983.fa,
+    TN+I+G4: CIAlign_uce-36059.fa,
+    TN+F+I+R3: CIAlign_uce-36060.fa,
+    TIM2+I+R2: CIAlign_uce-36068.fa,
+    HKY+F+I+G4: CIAlign_uce-36093.fa,
+    TPM2u+F+R3: CIAlign_uce-36225.fa,
+    TIM3+I+G4: CIAlign_uce-36320.fa,
+    HKY+F+I+G4: CIAlign_uce-36414.fa,
+    HKY+I+R2: CIAlign_uce-36415.fa,
+    HKY+I+R2: CIAlign_uce-36416.fa,
+    TIM2+G4: CIAlign_uce-36456.fa,
+    HKY+F+G4: CIAlign_uce-36459.fa,
+    HKY+I+G4: CIAlign_uce-36528.fa,
+    TN+F+I+R3: CIAlign_uce-36604.fa,
+    HKY+F+I+G4: CIAlign_uce-3665.fa,
+    TN+F+I+G4: CIAlign_uce-36659.fa,
+    TPM3u+F+I+G4: CIAlign_uce-36692.fa,
+    TIM3+F+I+G4: CIAlign_uce-369.fa,
+    TIM2+I+G4: CIAlign_uce-3693.fa,
+    HKY+F+R3: CIAlign_uce-36992.fa,
+    TN+I+R2: CIAlign_uce-37073.fa,
+    TPM3u+I+G4: CIAlign_uce-37268.fa,
+    K2P+G4: CIAlign_uce-37439.fa,
+    TPM3u+I+G4: CIAlign_uce-37547.fa,
+    K3Pu+F+I+G4: CIAlign_uce-37821.fa,
+    HKY+F+G4: CIAlign_uce-37919.fa,
+    GTR+G4: CIAlign_uce-37961.fa,
+    HKY+F+I+G4: CIAlign_uce-38073.fa,
+    HKY+F+I+G4: CIAlign_uce-38134.fa,
+    HKY+F+I+G4: CIAlign_uce-3819.fa,
+    TIM+I+G4: CIAlign_uce-38254.fa,
+    HKY+F+I+G4: CIAlign_uce-38272.fa,
+    TIM+F+I+G4: CIAlign_uce-38388.fa,
+    TIM2+I+G4: CIAlign_uce-38441.fa,
+    TPM2+R3: CIAlign_uce-38446.fa,
+    TIM3+F+I+R3: CIAlign_uce-3846.fa,
+    K3P+I+G4: CIAlign_uce-38646.fa,
+    HKY+I+G4: CIAlign_uce-38650.fa,
+    HKY+I+G4: CIAlign_uce-38734.fa,
+    TIM2+F+I+G4: CIAlign_uce-38767.fa,
+    TPM3u+F+I+G4: CIAlign_uce-38785.fa,
+    HKY+F+R3: CIAlign_uce-38805.fa,
+    TIM3+I+G4: CIAlign_uce-38821.fa,
+    TPM3u+I+G4: CIAlign_uce-38924.fa,
+    TIM3+F+I+G4: CIAlign_uce-38967.fa,
+    TPM3u+F+R2: CIAlign_uce-39033.fa,
+    TN+F+I+G4: CIAlign_uce-39106.fa,
+    TPM2u+I+G4: CIAlign_uce-39175.fa,
+    TIM3+F+I+G4: CIAlign_uce-39184.fa,
+    TIM3+R3: CIAlign_uce-39191.fa,
+    TN+F+R3: CIAlign_uce-39248.fa,
+    TIM2+F+I+G4: CIAlign_uce-39249.fa,
+    HKY+I+G4: CIAlign_uce-39264.fa,
+    TPM2u+I+G4: CIAlign_uce-39267.fa,
+    TPM2u+R3: CIAlign_uce-39274.fa,
+    TPM3u+F+R3: CIAlign_uce-39334.fa,
+    TPM2u+F+R3: CIAlign_uce-39477.fa,
+    K3Pu+F+I+G4: CIAlign_uce-39514.fa,
+    TIM3+F+I+G4: CIAlign_uce-39621.fa,
+    HKY+F+I+G4: CIAlign_uce-3972.fa,
+    GTR+F+I+R3: CIAlign_uce-3975.fa,
+    K3Pu+I+R2: CIAlign_uce-39793.fa,
+    HKY+F+R4: CIAlign_uce-39798.fa,
+    HKY+I+G4: CIAlign_uce-39843.fa,
+    HKY+F+I+R3: CIAlign_uce-3994.fa,
+    TPM2u+F+G4: CIAlign_uce-39967.fa,
+    HKY+R3: CIAlign_uce-40254.fa,
+    TPM2u+F+I+G4: CIAlign_uce-40328.fa,
+    TN+F+I+G4: CIAlign_uce-4036.fa,
+    HKY+F+R4: CIAlign_uce-4040.fa,
+    HKY+I+G4: CIAlign_uce-4045.fa,
+    TPM2u+F+G4: CIAlign_uce-40474.fa,
+    TPM3u+F+I+G4: CIAlign_uce-40602.fa,
+    K3Pu+R3: CIAlign_uce-40624.fa,
+    HKY+F+I+G4: CIAlign_uce-40674.fa,
+    TIM+F+I+G4: CIAlign_uce-40683.fa,
+    HKY+I+G4: CIAlign_uce-40731.fa,
+    TIM3+F+I+G4: CIAlign_uce-40765.fa,
+    TPM3u+F+R3: CIAlign_uce-4163.fa,
+    TIM2+F+R3: CIAlign_uce-4173.fa,
+    TIM3+G4: CIAlign_uce-4205.fa,
+    TN+F+R3: CIAlign_uce-4239.fa,
+    TN+I+G4: CIAlign_uce-425.fa,
+    TPM2u+F+G4: CIAlign_uce-428.fa,
+    TPM2u+I+R2: CIAlign_uce-4322.fa,
+    TIM2+F+G4: CIAlign_uce-4327.fa,
+    TPM2u+F+G4: CIAlign_uce-4330.fa,
+    TPM3u+I+G4: CIAlign_uce-4622.fa,
+    HKY+F+I+G4: CIAlign_uce-4653.fa,
+    TPM2u+F+I+G4: CIAlign_uce-4678.fa,
+    TPM2u+R3: CIAlign_uce-4691.fa,
+    TPM3u+F+G4: CIAlign_uce-4889.fa,
+    TN+F+I+R3: CIAlign_uce-5234.fa,
+    HKY+F+G4: CIAlign_uce-5243.fa,
+    TPM3u+F+I+G4: CIAlign_uce-5320.fa,
+    TN+F+I+G4: CIAlign_uce-5326.fa,
+    TN+I+G4: CIAlign_uce-5449.fa,
+    TN+F+I+G4: CIAlign_uce-547.fa,
+    HKY+F+I+G4: CIAlign_uce-5525.fa,
+    TPM3u+I+G4: CIAlign_uce-5560.fa,
+    TIM3+F+I+G4: CIAlign_uce-5691.fa,
+    TIM3+F+I+G4: CIAlign_uce-5763.fa,
+    TIM2e+I+G4: CIAlign_uce-5967.fa,
+    TIM3+F+R3: CIAlign_uce-5990.fa,
+    HKY+G4: CIAlign_uce-6237.fa,
+    TN+F+I+G4: CIAlign_uce-6244.fa,
+    TIM3+I+G4: CIAlign_uce-6250.fa,
+    K3Pu+F+I+G4: CIAlign_uce-6374.fa,
+    TN+F+I+G4: CIAlign_uce-6550.fa,
+    HKY+F+G4: CIAlign_uce-6553.fa,
+    HKY+G4: CIAlign_uce-6598.fa,
+    TIM3+I+G4: CIAlign_uce-675.fa,
+    TN+F+I+G4: CIAlign_uce-6782.fa,
+    HKY+F+G4: CIAlign_uce-6787.fa,
+    HKY+F+I+G4: CIAlign_uce-6882.fa,
+    TIM+F+R3: CIAlign_uce-693.fa,
+    HKY+I+G4: CIAlign_uce-6957.fa,
+    TIM3+I+G4: CIAlign_uce-696.fa,
+    TIM2+I+R3: CIAlign_uce-6976.fa,
+    TN+F+R3: CIAlign_uce-7044.fa,
+    TN+I+G4: CIAlign_uce-711.fa,
+    TN+F+R3: CIAlign_uce-7169.fa,
+    TPM2u+F+I+G4: CIAlign_uce-7271.fa,
+    HKY+I+G4: CIAlign_uce-731.fa,
+    TN+F+I+G4: CIAlign_uce-750.fa,
+    TIM+F+I+R2: CIAlign_uce-7534.fa,
+    TIM+F+I+G4: CIAlign_uce-7659.fa,
+    TIM+F+I+G4: CIAlign_uce-7662.fa,
+    TPM3u+F+I+G4: CIAlign_uce-7668.fa,
+    TIM3+F+I+G4: CIAlign_uce-7709.fa,
+    TPM2u+F+I+G4: CIAlign_uce-7711.fa,
+    HKY+F+I+G4: CIAlign_uce-7760.fa,
+    TIM3+F+R3: CIAlign_uce-7780.fa,
+    TVM+I+R3: CIAlign_uce-7810.fa,
+    TPM3u+I+G4: CIAlign_uce-7844.fa,
+    TPM2u+F+I+R3: CIAlign_uce-7892.fa,
+    TIM3+I: CIAlign_uce-7943.fa,
+    TN+F+R3: CIAlign_uce-7981.fa,
+    HKY+F+G4: CIAlign_uce-7994.fa,
+    HKY+F+I+G4: CIAlign_uce-8029.fa,
+    TVM+F+I+G4: CIAlign_uce-8056.fa,
+    HKY+F+I+G4: CIAlign_uce-8080.fa,
+    HKY+R3: CIAlign_uce-8081.fa,
+    HKY+F+G4: CIAlign_uce-8138.fa,
+    HKY+F+I+G4: CIAlign_uce-8466.fa,
+    TPM3u+I+G4: CIAlign_uce-849.fa,
+    TIM3+F+I+R3: CIAlign_uce-8496.fa,
+    TPM3u+I+G4: CIAlign_uce-8612.fa,
+    TIM2+G4: CIAlign_uce-8699.fa,
+    TN+F+I+G4: CIAlign_uce-870.fa,
+    HKY+I+G4: CIAlign_uce-8702.fa,
+    TPM2u+R4: CIAlign_uce-8707.fa,
+    TPM2u+I+G4: CIAlign_uce-8753.fa,
+    HKY+I+G4: CIAlign_uce-8827.fa,
+    HKY+I+G4: CIAlign_uce-8828.fa,
+    TIM2+F+R3: CIAlign_uce-8846.fa,
+    TN+F+R3: CIAlign_uce-8932.fa,
+    GTR+F+I+G4: CIAlign_uce-8955.fa,
+    HKY+F+I+R2: CIAlign_uce-8997.fa,
+    TPM2u+F+I+G4: CIAlign_uce-9002.fa,
+    TPM3+G4: CIAlign_uce-903.fa,
+    TIM+F+I+R4: CIAlign_uce-9031.fa,
+    HKY+I+G4: CIAlign_uce-9415.fa,
+    HKY+I+G4: CIAlign_uce-9437.fa,
+    TN+I+G4: CIAlign_uce-9471.fa,
+    TIM2+F+G4: CIAlign_uce-9508.fa,
+    HKY+F+I+R2: CIAlign_uce-9518.fa,
+    HKY+F+I+R4: CIAlign_uce-9589.fa,
+    HKY+F+I+G4: CIAlign_uce-9608.fa,
+    TN+F+R3: CIAlign_uce-9694.fa,
+    K2P+I+G4: CIAlign_uce-9710.fa,
+    TPM3u+I+G4: CIAlign_uce-9730.fa,
+    TIM3+F+I+G4: CIAlign_uce-976.fa,
+    TIM3+F+I+G4: CIAlign_uce-981.fa,
+    TPM3u+F+I+G4: CIAlign_uce-9935.fa,
+    HKY+I+G4: CIAlign_uce-9966.fa,
+    TIM3+F+I+G4: CIAlign_uce-9968.fa;
+end;
