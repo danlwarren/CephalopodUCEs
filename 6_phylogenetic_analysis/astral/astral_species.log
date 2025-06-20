@@ -1,0 +1,73 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.7.8
+Gene trees are treated as unrooted
+622 trees read from ../loci.treefile
+index0
+All output trees will be *arbitrarily* rooted at ancistrocheirus_lesueurii
+
+======== Running the main analysis
+Number of taxa: 66 (66 species)
+Taxa: [ancistrocheirus_lesueurii, architeuthis_dux, argonauta_hians, eledone_cirrhosa, benthoctopus_normani, enteroctopus_dofleini, octopus_californicus, hapalochlaena_lunulata, octopus_oliveri, octopusbimaculoides--genome, octopussinensis--genome, octopusvulgaris--genome, octopusminor--genome, pareledone_charcoti, japetella_diaphana, haliphron_atlanticus, tremoctopus_violaceus, opisthoteuthis_californiana, heteroteuthis_hawaiensis, rossia_pacifica, sepiola_parva, eumandyaparva--genome, sepiettaobscura--genome, sepiolaatlantica--genome, idiosepius_sp, doryteuthisopalescens--genome, doryteuthispealeii--genome, sepioteuthis_lessoniana, thysanoteuthis_rhombus, histioteuthis_corona_inermis, cranchia_scabra, galituethis_sp, nototodarus_hawaiiensis, gonatus_onyx, metasepia_tulbergi, sepia_latimanus, ascarosepionbandense--genome, sepia_pharaonis, acanthosepionlycidas--genome, acanthosepionesculentum--genome, sepiaofficianalis--genome, spirulaspirula--genome, octopoteuthis_nielseni, chiroteuthis_picteti, pterygioteuthis_gemmata, mastigoteuthis_agassizii, joubiniteuthis_portieri, discoteuthis_sp, selenoteuthis_scintillans, onychoteuthis_banksii, brachioteuthis_beanii, sepiadarium_kochi_mainland, pholidoteuthis_adami, pholidoteuthis_massyae, enoploteuthis_anapsis, vampyroteuthis_infernalis, bathyteuthis_abyssicola, sepiolaaffinis--genome, sepiadarium_kochi_okinawa, spirula_spirula, engina_mendicaria, gymnodoris_subflava, chtenopteryx_sicula, nautiluspompilius--genome, patelloida_saccharina, nautilus_macromphalus]
+Taxon occupancy: {benthoctopus_normani=586, sepia_latimanus=580, eledone_cirrhosa=559, pholidoteuthis_adami=570, chiroteuthis_picteti=594, sepioteuthis_lessoniana=595, octopussinensis--genome=601, sepiettaobscura--genome=591, acanthosepionlycidas--genome=598, joubiniteuthis_portieri=532, pholidoteuthis_massyae=567, nautilus_macromphalus=225, pareledone_charcoti=605, octopusvulgaris--genome=620, octopusminor--genome=620, japetella_diaphana=419, ascarosepionbandense--genome=570, mastigoteuthis_agassizii=548, architeuthis_dux=603, tremoctopus_violaceus=575, doryteuthisopalescens--genome=567, octopusbimaculoides--genome=618, octopus_oliveri=568, sepiaofficianalis--genome=522, discoteuthis_sp=584, doryteuthispealeii--genome=606, sepiolaatlantica--genome=588, onychoteuthis_banksii=560, idiosepius_sp=568, heteroteuthis_hawaiensis=509, sepiola_parva=580, engina_mendicaria=97, chtenopteryx_sicula=281, acanthosepionesculentum--genome=589, hapalochlaena_lunulata=605, ancistrocheirus_lesueurii=476, brachioteuthis_beanii=555, enoploteuthis_anapsis=332, argonauta_hians=544, eumandyaparva--genome=585, opisthoteuthis_californiana=567, cranchia_scabra=579, haliphron_atlanticus=511, spirulaspirula--genome=71, nototodarus_hawaiiensis=591, octopus_californicus=560, octopoteuthis_nielseni=542, gymnodoris_subflava=69, sepiadarium_kochi_mainland=564, pterygioteuthis_gemmata=577, thysanoteuthis_rhombus=602, enteroctopus_dofleini=600, metasepia_tulbergi=602, histioteuthis_corona_inermis=598, gonatus_onyx=543, selenoteuthis_scintillans=486, nautiluspompilius--genome=308, patelloida_saccharina=96, vampyroteuthis_infernalis=407, spirula_spirula=426, rossia_pacifica=584, bathyteuthis_abyssicola=560, sepiadarium_kochi_okinawa=199, galituethis_sp=568, sepia_pharaonis=590, sepiolaaffinis--genome=458}
+Number of gene trees: 622
+622 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Will attempt to complete bipartitions from X before adding using a distance matrix.
+Building set of clusters (X) from gene trees 
+------------------------------
+gradient0: 20767
+Number of Clusters after addition by distance: 20767
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:1700
+polytomy size limit : 22
+discarded polytomies:  [3, 3, 3, 4, 5, 5, 5, 5, 7, 11, 18, 22]
+Threshold 0.0:
+Threshold 0.01:
+polytomy of size 5; rounds with additions with at least 5 support: 0; clusters: 20779
+Threshold 0.02:
+polytomy of size 5; rounds with additions with at least 5 support: 0; clusters: 20779
+Threshold 0.05:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 20779
+polytomy of size 7; rounds with additions with at least 5 support: 0; clusters: 20779
+Threshold 0.1:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 20779
+polytomy of size 11; rounds with additions with at least 5 support: 0; clusters: 20779
+Threshold 0.2:
+polytomy of size 5; rounds with additions with at least 5 support: 0; clusters: 20779
+polytomy of size 18; rounds with additions with at least 5 support: 0; clusters: 20779
+Threshold 0.3333333333333333:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 20779
+polytomy of size 5; rounds with additions with at least 5 support: 0; clusters: 20779
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 20779
+polytomy of size 22; rounds with additions with at least 5 support: 0; clusters: 20779
+max k is :0
+Number of Clusters after addition by greedy: 20779
+gradient0 in heuristiic: 20779
+partitions formed in 4.875 secs
+Dynamic Programming starting after 4.875 secs
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 204225549
+Polytree building time: 0.101 seconds.
+Number of quartet trees in the gene trees: 204225549
+Size of largest cluster: 66
+Greedy score: 133621530
+estimationFactor: 1.5283880449505405
+Sub-optimal score: 141316743
+Total Number of elements weighted: 84794
+Normalized score (portion of input quartet trees satisfied before correcting for multiple individuals): 0.70930638066249
+Optimization score: 144858485
+Optimal tree inferred in 68.81 secs.
+(acanthosepionlycidas--genome,(sepia_pharaonis,(acanthosepionesculentum--genome,(sepiaofficianalis--genome,((ascarosepionbandense--genome,(metasepia_tulbergi,sepia_latimanus)),((spirulaspirula--genome,(sepioteuthis_lessoniana,(doryteuthisopalescens--genome,doryteuthispealeii--genome))),(((bathyteuthis_abyssicola,chtenopteryx_sicula),(((cranchia_scabra,galituethis_sp),(thysanoteuthis_rhombus,nototodarus_hawaiiensis)),(gonatus_onyx,((onychoteuthis_banksii,(architeuthis_dux,histioteuthis_corona_inermis)),(((ancistrocheirus_lesueurii,enoploteuthis_anapsis),(pterygioteuthis_gemmata,selenoteuthis_scintillans)),((brachioteuthis_beanii,(discoteuthis_sp,spirula_spirula)),(octopoteuthis_nielseni,((pholidoteuthis_adami,pholidoteuthis_massyae),(chiroteuthis_picteti,(mastigoteuthis_agassizii,joubiniteuthis_portieri)))))))))),(((sepiadarium_kochi_mainland,sepiadarium_kochi_okinawa),(heteroteuthis_hawaiensis,(rossia_pacifica,((sepiola_parva,eumandyaparva--genome),(sepiettaobscura--genome,(sepiolaatlantica--genome,sepiolaaffinis--genome)))))),(idiosepius_sp,(((nautiluspompilius--genome,nautilus_macromphalus),(patelloida_saccharina,(engina_mendicaria,gymnodoris_subflava))),(vampyroteuthis_infernalis,(opisthoteuthis_californiana,((argonauta_hians,(haliphron_atlanticus,tremoctopus_violaceus)),((eledone_cirrhosa,((pareledone_charcoti,japetella_diaphana),(enteroctopus_dofleini,(benthoctopus_normani,octopus_californicus)))),(octopusminor--genome,(octopus_oliveri,(hapalochlaena_lunulata,(octopusbimaculoides--genome,(octopussinensis--genome,octopusvulgaris--genome)))))))))))))))))));
+Final quartet score is: 144858485
+Final normalized quartet score is: 0.70930638066249
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 10:
+	{engina_mendicaria, gymnodoris_subflava}
+Extended species tree:
+(ancistrocheirus_lesueurii,(enoploteuthis_anapsis,((pterygioteuthis_gemmata,selenoteuthis_scintillans)0.81:0.07385181913640684,(((brachioteuthis_beanii,(discoteuthis_sp,spirula_spirula)1:1.5832555452835966)1:0.21466242962991228,(octopoteuthis_nielseni,((pholidoteuthis_adami,pholidoteuthis_massyae)1:1.8646678141743078,(chiroteuthis_picteti,(mastigoteuthis_agassizii,joubiniteuthis_portieri)1:0.12521287296811107)1:0.37126239494002483)1:0.19816278091479647)1:0.1354658306782585)1:0.09296985378989443,((onychoteuthis_banksii,(architeuthis_dux,histioteuthis_corona_inermis)0.77:0.04050804853497871)0.43:0.011479474348317474,(gonatus_onyx,(((cranchia_scabra,galituethis_sp)1:0.1390084200533211,(thysanoteuthis_rhombus,nototodarus_hawaiiensis)0.67:0.03633735841913295)1:0.20730443746992203,((bathyteuthis_abyssicola,chtenopteryx_sicula)1:0.39310036166729045,((((sepiadarium_kochi_mainland,sepiadarium_kochi_okinawa)1:1.9702043838077192,(heteroteuthis_hawaiensis,(rossia_pacifica,((sepiola_parva,eumandyaparva--genome)1:2.912550452404921,(sepiettaobscura--genome,(sepiolaatlantica--genome,sepiolaaffinis--genome)1:1.4890574145032505)1:0.41223055678497345)1:1.5303108322403496)1:0.18339846101208085)1:1.0225723145020984)1:0.4069314627366338,(idiosepius_sp,(((nautiluspompilius--genome,nautilus_macromphalus)1:3.135494215929153,(patelloida_saccharina,(engina_mendicaria,gymnodoris_subflava)0.97:0.597359090059598)0.47:0.2105829717427276)1:0.7587522890436647,(vampyroteuthis_infernalis,(opisthoteuthis_californiana,((argonauta_hians,(haliphron_atlanticus,tremoctopus_violaceus)1:0.7712712557256785)1:0.499790815410424,((eledone_cirrhosa,((pareledone_charcoti,japetella_diaphana)1:0.1789678508188593,(enteroctopus_dofleini,(benthoctopus_normani,octopus_californicus)0.99:0.09391435141619192)1:2.106444130704436)0.99:0.08643955956942351)1:0.17018060490636513,(octopusminor--genome,(octopus_oliveri,(hapalochlaena_lunulata,(octopusbimaculoides--genome,(octopussinensis--genome,octopusvulgaris--genome)1:1.209898447811655)1:0.392602495337701)0.99:0.09137346063892239)1:0.72003661388578)1:0.5837453140332484)0.69:0.047330809862740214)1:0.8703918844634585)1:0.6474336417432759)1:0.38453261807574446)1:0.9612826229984301)0.52:0.01697470565422169)0.8:0.06305894865773548,((spirulaspirula--genome,(sepioteuthis_lessoniana,(doryteuthisopalescens--genome,doryteuthispealeii--genome)1:1.8279077580997525)1:1.2169820913483493)0.38:0.012759479436281815,((ascarosepionbandense--genome,(metasepia_tulbergi,sepia_latimanus)0.93:0.0664448554543291)1:0.5877307618046557,(sepiaofficianalis--genome,(acanthosepionesculentum--genome,(sepia_pharaonis,acanthosepionlycidas--genome)1:0.31837627715821726)1:0.6735196103913025)1:0.12919833301515554)1:1.825431663985563)1:0.14442563112669762)1:0.26133263368699466)1:0.23252016201315576)0.99:0.08754831452586047)0.82:0.04454983160554769)0.92:0.06531615483415613)0.85:0.050303332004269265)1:0.3761711737597644));
+Weight calculation took 60.2627499 secs
+ASTRAL finished in 69.485 secs

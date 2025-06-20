@@ -137,7 +137,7 @@ With normal partitioned models. Run this from within the `/gene_trees` folder.
 
 With MixtureFinder. Run this from within the `/gene_trees` folder. The first line makes a concatenated alignment.
 
-```bash
+```
 ./iqtree-3.0.1-Linux/bin/iqtree3 -p ../mafft-nexus-gblocks-clean-75p --out-aln ceph_supermatrix.fasta --out-format FASTA
 ./iqtree-3.0.1-Linux/bin/iqtree3 -s ceph_supermatrix.fasta --prefix concat_mix -m MIX+MFP -B 1000 -T 128
 ```

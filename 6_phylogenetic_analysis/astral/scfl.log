@@ -1,0 +1,15 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built May  5 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    nova.rsb.anu.edu.au (AVX512, FMA3, 2267 GB RAM)
+Command: /home/rob/cephs/CephalopodUCEs/3_initial_alignment/gene_trees/iqtree-3.0.1-Linux/bin/iqtree3_intel -te astral_species_annotated.tree -p ../loci.best_model.nex --scfl 100 --prefix scfl -T 128
+Seed:    260181 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun 20 15:05:22 2025
+Kernel:  AVX+FMA - 128 threads (384 CPU cores detected)
+
+Reading partition model file ../loci.best_model.nex ...
+
+Loading 622 partitions...
+Reading alignment file ../5_final_alignments/3_final_alignments/CIAlign_uce10009.fasta ... ERROR: File not found ../5_final_alignments/3_final_alignments/CIAlign_uce10009.fasta
