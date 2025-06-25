@@ -1,5 +1,6 @@
 "family","n"
 "Alloposidae",1
+"Amphitretidae",9
 "Ancistrocheiridae",1
 "Architeuthidae",1
 "Argonautidae",4
@@ -8,7 +9,7 @@
 "Brachioteuthidae",7
 "Chiroteuthidae",17
 "Chtenopterygidae",3
-"Cranchiidae",1
+"Cranchiidae",36
 "Cycloteuthidae",4
 "Eledonidae",7
 "Enoploteuthidae",43
@@ -25,12 +26,14 @@
 "Nautilidae",1
 "Octopodidae",95
 "Octopoteuthidae",8
+"Ommastrephidae",25
 "Onychoteuthidae",26
 "Opisthoteuthidae",21
 "Pholidoteuthidae",2
 "Pyroteuthidae",7
 "Sepiadariidae",10
 "Sepiidae",76
+"Sepiolidae",40
 "Spirulidae",1
 "Thysanoteuthidae",3
 "Tremoctopodidae",4
