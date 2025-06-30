@@ -10,10 +10,8 @@ We retrieved distribution information from OBIS (OBIS 2025) by using the **robis
 
 ## Citations
 
-Chamberlain S, Vanhoorne. B (2023). worrms: World Register of Marine Species (WoRMS) Client\_. R
- package version 0.4.3, <https://CRAN.R-project.org/package=worrms>.
+Chamberlain S, Vanhoorne. B (2023). worrms: World Register of Marine Species (WoRMS) Client\_. R package version 0.4.3, <https://CRAN.R-project.org/package=worrms>.
 
 OBIS (2025) Ocean Biodiversity Information System. Intergovernmental Oceanographic Commission of UNESCO. <https://obis.org.>
 
-Wickham H, François R, Henry L, Müller K, Vaughan D (2023). \_dplyr: A Grammar of Data
- Manipulation\_. R package version 1.1.4, <https://CRAN.R-project.org/package=dplyr>.
+Wickham H, François R, Henry L, Müller K, Vaughan D (2023). \_dplyr: A Grammar of Data Manipulation\_. R package version 1.1.4, <https://CRAN.R-project.org/package=dplyr>.
