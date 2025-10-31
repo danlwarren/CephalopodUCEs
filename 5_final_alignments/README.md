@@ -43,3 +43,9 @@ done
 Finally, we visually assessed every alignment, deleting unreliable columns and/or sequences when necessary using Geneious. These then form our final alignments in the `final_alignments` folder. The full history of changes we made to the alignments is in the file `manual_alignment_edits.csv`.
 
 The final alignments are stored in the subfolder `3_final_alignments`. These were exported from geneious.
+
+NB, for whatever reason, my attempt to remove the `spirula_spirula` sequences above didn't work. So I finally did this in Sublime text with a regex:
+
+`>spirula_spirula(?:\r?\n[ACGTN]+)+`
+
+using the find and replace in folders to get rid of the spirula_spirula sequences from all of the final alignments in the `/3_final_alignments` subfolder.
