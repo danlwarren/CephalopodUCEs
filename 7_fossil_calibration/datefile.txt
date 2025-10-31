@@ -1,0 +1,8 @@
+nautilus_macromphalus,enoploteuthis_anapsis -410
+argonauta_hians,enoploteuthis_anapsis -254:-330
+argonauta_hians,vampyroteuthis_infernalis -240
+idiosepius_sp,enoploteuthis_anapsis -250
+argonauta_hians,opisthoteuthis_californiana -195
+argonauta_hians,eledone_cirrhosa -95:-155
+argonauta_hians,tremoctopus_violaceus -30
+idiosepius_sp,enoploteuthis_anapsis -133
