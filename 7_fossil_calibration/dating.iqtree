@@ -1,0 +1,248 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: ../5_final_alignments/3_final_alignments/
+User tree file name: rooted.tre
+Type of analysis: tree reconstruction
+Random seed number: 921202
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 66 sequences with 106886 nucleotide sites
+Number of constant sites: 60192 (= 56.3142% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 60192 (= 56.3142% of all sites)
+Number of parsimony informative sites: 38795
+Number of distinct site patterns: 48686
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 4.2397
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 4.2397
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.284
+  pi(C) = 0.2195
+  pi(G) = 0.2138
+  pi(T) = 0.2827
+
+Rate matrix Q:
+
+  A   -0.9142    0.1424    0.5883    0.1835
+  C    0.1843    -1.101    0.1388    0.7778
+  G    0.7813    0.1424    -1.107    0.1835
+  T    0.1843    0.6038    0.1388   -0.9269
+
+Model of rate heterogeneity: Uniform
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -1154349.5497 (s.e. 4205.0288)
+Unconstrained log-likelihood (without tree): -1044410.5697
+Number of free parameters (#branches + #model parameters): 133
+Akaike information criterion (AIC) score: 2308965.0993
+Corrected Akaike information criterion (AICc) score: 2308965.4332
+Bayesian information criterion (BIC) score: 2310239.1753
+
+Total tree length (sum of branch lengths): 2.6038
+Sum of internal branch lengths: 1.0246 (39.3484% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ancistrocheirus_lesueurii' is drawn at root
+
++--ancistrocheirus_lesueurii
+| (100)
+|              +--architeuthis_dux
+|           +--| (52)
+|           |  +--histioteuthis_corona_inermis
+|        +--| (59)
+|        |  |  +-----gonatus_onyx
+|        |  +--| (64)
+|        |     +---onychoteuthis_banksii
+|     +--| (100)
+|     |  |                                                      +----------argonauta_hians
+|     |  |                                                   +--| (100)
+|     |  |                                                   |  |  +--haliphron_atlanticus
+|     |  |                                                   |  +--| (100)
+|     |  |                                                   |     +---tremoctopus_violaceus
+|     |  |                                                +--| (99)
+|     |  |                                                |  |        +--hapalochlaena_lunulata
+|     |  |                                                |  |     +--| (100)
+|     |  |                                                |  |     |  |  +--octopusbimaculoides--genome
+|     |  |                                                |  |     |  +--| (100)
+|     |  |                                                |  |     |     |  +--octopussinensis--genome
+|     |  |                                                |  |     |     +--| (100)
+|     |  |                                                |  |     |        +--octopusvulgaris--genome
+|     |  |                                                |  |  +--| (100)
+|     |  |                                                |  |  |  +--octopus_oliveri
+|     |  |                                                |  +--| (100)
+|     |  |                                                |     +--octopusminor--genome
+|     |  |                                             +--| (74)
+|     |  |                                             |  |        +--benthoctopus_normani
+|     |  |                                             |  |     +--| (100)
+|     |  |                                             |  |     |  +--octopus_californicus
+|     |  |                                             |  |  +--| (100)
+|     |  |                                             |  |  |  +--enteroctopus_dofleini
+|     |  |                                             |  +--| (91)
+|     |  |                                             |     |  +--japetella_diaphana
+|     |  |                                             |     +--| (100)
+|     |  |                                             |        +--pareledone_charcoti
+|     |  |                                      +------| (100)
+|     |  |                                      |      +----eledone_cirrhosa
+|     |  |                                 +----| (100)
+|     |  |                                 |    +-------opisthoteuthis_californiana
+|     |  |                            +----| (100)
+|     |  |                            |    +-------vampyroteuthis_infernalis
+|     |  |                    +-------| (100)
+|     |  |                    |       |                   +-------------------engina_mendicaria
+|     |  |                    |       |             +-----| (100)
+|     |  |                    |       |             |     +----------------gymnodoris_subflava
+|     |  |                    |       |        +----| (100)
+|     |  |                    |       |        |    +--------------------patelloida_saccharina
+|     |  |                    |       +--------|
+|     |  |                    |                |                 +--nautiluspompilius--genome
+|     |  |                    |                +-----------------| (100)
+|     |  |                    |                                  +--nautilus_macromphalus
+|     |  |                 +--| (100)
+|     |  |                 |  +--------idiosepius_sp
+|     |  |              +--| (100)
+|     |  |              |  |     +--heteroteuthis_hawaiensis
+|     |  |              |  |  +--| (100)
+|     |  |              |  |  |  |  +--rossia_pacifica
+|     |  |              |  |  |  +--| (100)
+|     |  |              |  |  |     |     +--sepiola_parva
+|     |  |              |  |  |     |  +--| (100)
+|     |  |              |  |  |     |  |  +--eumandyaparva--genome
+|     |  |              |  |  |     +--| (100)
+|     |  |              |  |  |        |  +--sepiettaobscura--genome
+|     |  |              |  |  |        +--| (100)
+|     |  |              |  |  |           |  +--sepiolaatlantica--genome
+|     |  |              |  |  |           +--| (100)
+|     |  |              |  |  |              +--sepiolaaffinis--genome
+|     |  |              |  +--| (100)
+|     |  |              |     |    +--sepiadarium_kochi_mainland
+|     |  |              |     +----| (100)
+|     |  |              |          +--sepiadarium_kochi_okinawa
+|     |  |           +--| (100)
+|     |  |           |  |  +--sepioteuthis_lessoniana
+|     |  |           |  +--| (100)
+|     |  |           |     |  +--doryteuthisopalescens--genome
+|     |  |           |     +--| (100)
+|     |  |           |        +--doryteuthispealeii--genome
+|     |  |        +--| (72)
+|     |  |        |  |        +--metasepia_tulbergi
+|     |  |        |  |     +--| (96)
+|     |  |        |  |     |  +--sepia_latimanus
+|     |  |        |  |  +--| (100)
+|     |  |        |  |  |  +--ascarosepionbandense--genome
+|     |  |        |  +--| (100)
+|     |  |        |     |        +--sepia_pharaonis
+|     |  |        |     |     +--| (100)
+|     |  |        |     |     |  +--acanthosepionlycidas--genome
+|     |  |        |     |  +--| (100)
+|     |  |        |     |  |  +--acanthosepionesculentum--genome
+|     |  |        |     +--| (100)
+|     |  |        |        +--sepiaofficianalis--genome
+|     |  |     +--| (99)
+|     |  |     |  +---spirulaspirula--genome
+|     |  |  +--| (100)
+|     |  |  |  |  +--bathyteuthis_abyssicola
+|     |  |  |  +--| (100)
+|     |  |  |     +--chtenopteryx_sicula
+|     |  +--| (100)
+|     |     |     +---cranchia_scabra
+|     |     |  +--| (100)
+|     |     |  |  +--galituethis_sp
+|     |     +--| (100)
+|     |        |  +---nototodarus_hawaiiensis
+|     |        +--| (100)
+|     |           +--thysanoteuthis_rhombus
+|  +--| (100)
+|  |  |     +--brachioteuthis_beanii
+|  |  |  +--| (100)
+|  |  |  |  |  +--discoteuthis_sp
+|  |  |  |  +--| (100)
+|  |  |  |     +--spirula_spirula
+|  |  +--| (58)
+|  |     |        +--chiroteuthis_picteti
+|  |     |     +--| (100)
+|  |     |     |  |  +--joubiniteuthis_portieri
+|  |     |     |  +--| (100)
+|  |     |     |     +--mastigoteuthis_agassizii
+|  |     |  +--| (100)
+|  |     |  |  |  +--pholidoteuthis_adami
+|  |     |  |  +--| (100)
+|  |     |  |     +--pholidoteuthis_massyae
+|  |     +--| (100)
+|  |        +--octopoteuthis_nielseni
++--| (100)
+|  |  +------pterygioteuthis_gemmata
+|  +--| (100)
+|     +--selenoteuthis_scintillans
+|
++----enoploteuthis_anapsis
+
+Tree in newick format:
+
+(ancistrocheirus_lesueurii:0.0116126090,(((((architeuthis_dux:0.0164619209,histioteuthis_corona_inermis:0.0233839693)52:0.0022578635,(gonatus_onyx:0.0435150511,onychoteuthis_banksii:0.0313729254)64:0.0068971642)59:0.0013240689,((((((((((((((argonauta_hians:0.0836421227,(haliphron_atlanticus:0.0183992732,tremoctopus_violaceus:0.0323702361)100:0.0161849272)100:0.0271091790,(((hapalochlaena_lunulata:0.0218804188,(octopusbimaculoides--genome:0.0071692591,(octopussinensis--genome:0.0008437174,octopusvulgaris--genome:0.0008808410)100:0.0080718693)100:0.0041118461)100:0.0025782778,octopus_oliveri:0.0138861459)100:0.0126364830,octopusminor--genome:0.0216179678)100:0.0111433399)99:0.0070877520,(((benthoctopus_normani:0.0033727254,octopus_californicus:0.0036738975)100:0.0013712684,enteroctopus_dofleini:0.0032540482)100:0.0229822947,(japetella_diaphana:0.0222974985,pareledone_charcoti:0.0162058168)100:0.0043518725)91:0.0043562035)74:0.0097433640,eledone_cirrhosa:0.0403577514)100:0.0552340550,opisthoteuthis_californiana:0.0594932277)100:0.0415382080,vampyroteuthis_infernalis:0.0640678934)100:0.0410072045,(((engina_mendicaria:0.1447392136,gymnodoris_subflava:0.1239791171)100:0.0485480916,patelloida_saccharina:0.1541442456)100:0.0363345071,(nautiluspompilius--genome:0.0028699697,nautilus_macromphalus:0.0004164446)100:0.1347899056):0.0686045168)100:0.0602956037,idiosepius_sp:0.0667728113)100:0.0251631537,((heteroteuthis_hawaiensis:0.0229941211,(rossia_pacifica:0.0113127580,((sepiola_parva:0.0011281523,eumandyaparva--genome:0.0007986608)100:0.0274531400,(sepiettaobscura--genome:0.0153314050,(sepiolaatlantica--genome:0.0016188640,sepiolaaffinis--genome:0.0016984701)100:0.0087584940)100:0.0067674572)100:0.0254798718)100:0.0056500996)100:0.0231730040,(sepiadarium_kochi_mainland:0.0096595414,sepiadarium_kochi_okinawa:0.0062092915)100:0.0426704589)100:0.0137342320)100:0.0087414782,(sepioteuthis_lessoniana:0.0181929080,(doryteuthisopalescens--genome:0.0048827013,doryteuthispealeii--genome:0.0046294507)100:0.0216453961)100:0.0191852848)100:0.0041284932,(((metasepia_tulbergi:0.0097767975,sepia_latimanus:0.0069108505)96:0.0011691719,ascarosepionbandense--genome:0.0113427258)100:0.0060551953,(((sepia_pharaonis:0.0034239505,acanthosepionlycidas--genome:0.0032870671)100:0.0021095381,acanthosepionesculentum--genome:0.0050511880)100:0.0060559280,sepiaofficianalis--genome:0.0117681393)100:0.0022904542)100:0.0262975692)72:0.0043185668,spirulaspirula--genome:0.0332388824)99:0.0050396905,(bathyteuthis_abyssicola:0.0169525680,chtenopteryx_sicula:0.0273209664)100:0.0078415096)100:0.0082043854,((cranchia_scabra:0.0293212426,galituethis_sp:0.0214598371)100:0.0047352714,(nototodarus_hawaiiensis:0.0331300903,thysanoteuthis_rhombus:0.0192682012)100:0.0041303886)100:0.0046290511)100:0.0036826824)100:0.0025405466,((brachioteuthis_beanii:0.0255144107,(discoteuthis_sp:0.0009119007,spirula_spirula:0.0012681025)100:0.0108330124)100:0.0050679119,(((chiroteuthis_picteti:0.0185965699,(joubiniteuthis_portieri:0.0102677594,mastigoteuthis_agassizii:0.0129872110)100:0.0024585343)100:0.0057141901,(pholidoteuthis_adami:0.0041358361,pholidoteuthis_massyae:0.0039103720)100:0.0185545612)100:0.0038673426,octopoteuthis_nielseni:0.0235610173)100:0.0033838478)58:0.0014347503)100:0.0053351468,(pterygioteuthis_gemmata:0.0518408497,selenoteuthis_scintillans:0.0263102613)100:0.0093232309)100:0.0083777677,enoploteuthis_anapsis:0.0365609894)100;
+
+MCMCTREE COMMAND
+--------------
+Currently, IQ-TREE supports gradients and Hessian calculation of branch lengths for divergence times estimation in MCMCTree with approximate likelihood method.
+The following files are generated to run MCMCTree with approximate likelihood method.
+
+Gradients and Hessians: dating.in.BV
+Ctl file for MCMCTree: dating.mcmctree.ctl
+
+For Divergence time estimation with approximate likelihood method a substitution or an alignment is not needed after the gradients and Hessian file is generated.
+Note: The tree file should be calibrate with time records (eg: fossil dates). You can find the tree file at: rooted.tre
+Note: Please make sure the gradients and Hessian file: dating.in.BV is named as in.BV
+Note: The parameters for MCMC runs could be change via ctl file at: dating.mcmctree.ctl
+
+Command for MCMCTree: mcmctree dating.mcmctree.ctl
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t dating.treefile -m "HKY{4.23974}+F{0.283965,0.219483,0.213835,0.282717}" --length 106886
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ../5_final_alignments/3_final_alignments/ --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ../5_final_alignments/3_final_alignments/ --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Oct 31 11:57:59 2025
+Total CPU time used: 4.256827 seconds (0h:0m:4s)
+Total wall-clock time used: 4.7859969 seconds (0h:0m:4s)
+
