@@ -15,8 +15,11 @@ conda install -c bioconda paml iqtree
 
 ### 2. Running iqtree
 
-At present I'm just using a random alignment because I'm not sure where the concatenated alignment is, if there is one.
+I began by manually re-rooting the tree in treeviewer, saving it in this directory as "rooted.tre"
 
 ```bash
-iqtree3 -s ../5_final_alignments/3_final_alignments/CIAlign_uce-16542.fasta -m GTR+G4 -te ../6_phylogenetic_analysis/concat_species_tree.treefile --dating mcmctree --prefix example
+aln=../5_final_alignments/3_final_alignments/
+
+iqtree3 -s $aln -m GTR+G4 --date datefile.txt -te rooted.tre --dating mcmctree --prefix dating
+mcmctree dating.mcmctree.ctl
 ```
