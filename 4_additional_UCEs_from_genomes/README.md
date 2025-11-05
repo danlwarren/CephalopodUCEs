@@ -70,7 +70,7 @@ We aligned the UCE probes in our **clear_trimmed.fasta** file (developed in step
     --lastz reseq-original-lastz \
     --conf genomes.conf \
     --flank 500 \
-    --name-pattern "probes_original.fasta_v_{}.lastz.clean" \
+    --name-pattern "probes_combined.fasta_v_{}.lastz.clean" \
     --output UCE_candidates_from_genomes
 ```
 
